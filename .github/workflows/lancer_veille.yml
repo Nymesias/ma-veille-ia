@@ -1,37 +1,51 @@
-name: Update Veille RSS
+name: Lancer Veille RSS
 
 on:
   schedule:
-    # S'exécute tous les jours à 8h00 UTC
+    # Exécution automatique tous les jours à 08:00 UTC
     - cron: '0 8 * * *'
-  workflow_dispatch: # Permet de lancer le script manuellement
+  workflow_dispatch:
+    # Permet de lancer le script manuellement depuis l'onglet Actions
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-index: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Checkout du dépôt
+        uses: actions/checkout@v3
         with:
-          python-version: '3.10'
+          fetch-depth: 0 # Récupère tout l'historique pour éviter les erreurs de push
 
-      - name: Install dependencies
+      - name: Configuration de Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Installation des dépendances
         run: |
-          pip install requests feedparser
+          python -m pip install --upgrade pip
+          pip install requests feedparser markdown
 
-      - name: Run script
+      - name: Exécution du script de veille
         env:
-          # C'est ici qu'on fait le lien entre GitHub Secret et ton Python
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
-        run: python veille.py  # Remplace par le nom de ton fichier
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+          EMAIL_SMTP_SERVER: "smtp.bookmyname.com"
+        run: python ton_script_ia.py # Remplace par le nom exact de ton fichier .py
 
-      - name: Commit and push changes
+      - name: Commit et Push des changements
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin veille --rebase
           git add .
-          # On vérifie s'il y a vraiment des changements à commiter
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Mise à jour auto : $(date +'%Y-%m-%d')" && git pull --rebase origin veille && git push origin veille)
+          
+          if ! git diff --cached --quiet; then
+            git commit -m "Mise à jour auto veille : $(date +'%Y-%m-%d')"
+            git push origin veille
+          else
+            echo "Aucune modification à enregistrer."
+          fi
