@@ -1,0 +1,897 @@
+{
+    "revues": [
+        {
+            "nom_site": "Cridon NE",
+            "articles": [
+                {
+                    "t": "Eligibilité du don de sommes d’argent affecté à l’acquisition d’un terrain à bâtir au régime temporaire de dons exceptionnels de sommes d’argent (CGI art. 790 A bis) : c’est toujours non.",
+                    "l": "https://www.cridon-ne.org/eligibilite-du-don-de-sommes-argent/",
+                    "d": "Wed, 18 Mar 2026 12:00:59 +0000"
+                },
+                {
+                    "t": "L’amortissement du fonds agricole reconduit",
+                    "l": "https://www.cridon-ne.org/l-amortissement-du-fonds-agricole-reconduit/",
+                    "d": "Tue, 10 Mar 2026 07:04:07 +0000"
+                },
+                {
+                    "t": "Réaliser ses formalités d’entreprises sur le Guichet unique – CSN & INPI",
+                    "l": "https://www.cridon-ne.org/realiser-ses-formalites-entreprises-sur-guichet-unique/",
+                    "d": "Tue, 03 Mar 2026 12:00:13 +0000"
+                },
+                {
+                    "t": "Appel à candidatures SAFER, quand le lien suffit",
+                    "l": "https://www.cridon-ne.org/appel-a-canditatures-safer-quand-le-lien-suffit/",
+                    "d": "Tue, 03 Mar 2026 07:00:52 +0000"
+                },
+                {
+                    "t": "Quand le notaire doit consulter bodacc.fr en présence d’un militaire",
+                    "l": "https://www.cridon-ne.org/quand-le-notaire-doit-consulter-bodacc-presence-militaire/",
+                    "d": "Mon, 02 Mar 2026 00:00:24 +0000"
+                },
+                {
+                    "t": "Prescription extinctive de l’action paulienne et rôle de la publicité foncière",
+                    "l": "https://www.cridon-ne.org/prescription-extinctive-action-paulienne-et-role-de-la-publicite-fonciere/",
+                    "d": "Wed, 18 Feb 2026 11:30:59 +0000"
+                },
+                {
+                    "t": "Le CRIDON Nord-Est lance sa première application mobile",
+                    "l": "https://www.cridon-ne.org/application-smartphone-lancement/",
+                    "d": "Fri, 13 Feb 2026 07:00:13 +0000"
+                },
+                {
+                    "t": "Préemption SAFER avec révision de prix : l’accord des commissaires doit être mentionné, non annexé",
+                    "l": "https://www.cridon-ne.org/preemption-safer-revision-prix-accord-des-commissaires-mentionne/",
+                    "d": "Wed, 11 Feb 2026 12:02:56 +0000"
+                }
+            ]
+        },
+        {
+            "nom_site": "Dalloz|Etudiant",
+            "articles": [
+                {
+                    "t": "Bernard Bouloc",
+                    "l": "https://actu.dalloz-etudiant.fr/le-saviez-vous/article/bernard-bouloc/h/dc81ccb14695ba3f5722dc9114a7fbf8.html",
+                    "d": "Fri, 20 Mar 2026 08:00:00 +0100"
+                },
+                {
+                    "t": "Point sur la classification des conditions",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/point-sur-la-classification-des-conditions/h/d00df0cbb9d0de024067d85b9edc78ce.html",
+                    "d": "Fri, 20 Mar 2026 08:00:00 +0100"
+                },
+                {
+                    "t": "Cumul des fonctions de juge du fond et de cassation : atteinte à l’impartialité objective",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/cumul-des-fonctions-de-juge-du-fond-et-de-cassation-atteinte-a-limpartialite-objective/h/d2ed7d107f8c07bc161dc3cbfed0f22c.html",
+                    "d": "Thu, 19 Mar 2026 08:00:00 +0100"
+                },
+                {
+                    "t": "L’enseignement supérieur au prisme des contentieux",
+                    "l": "https://actu.dalloz-etudiant.fr/focus-sur/article/lenseignement-superieur-au-prisme-des-contentieux/h/069479a8cd166743875fa958c1efbbf6.html",
+                    "d": "Thu, 19 Mar 2026 08:00:00 +0100"
+                },
+                {
+                    "t": "Annulation des décisions collectives en SAS en cas de défaut de convocation : un nouvel arrêt Larzul",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/annulation-des-decisions-collectives-en-sas-en-cas-de-defaut-de-convocation-un-nouvel-arret-lar/h/0e029ff14d396cfb073fec307a6157fb.html",
+                    "d": "Wed, 18 Mar 2026 08:00:00 +0100"
+                },
+                {
+                    "t": "Exécution forcée d'une promesse de cession d'actions et appréciation de la condition potestative",
+                    "l": "https://actu.dalloz-etudiant.fr/a-vos-copies/article/execution-forcee-dune-promesse-de-cession-dactions-et-appreciation-de-la-condition-potestative/h/ac603ffb0b353bc2ea43012b7040e527.html",
+                    "d": "Tue, 17 Mar 2026 08:00:00 +0100"
+                },
+                {
+                    "t": "Insanité d’esprit et nullité du testament : portée probatoire de certificats médicaux postérieurs à l’acte",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/insanite-desprit-et-nullite-du-testament-portee-probatoire-de-certificats-medicaux-posteri/h/d68dfc63895daadc99a083eb28255af5.html",
+                    "d": "Tue, 17 Mar 2026 08:00:00 +0100"
+                },
+                {
+                    "t": "Diplomatie internationale : cacophonie au sommet de l’Union européenne",
+                    "l": "https://actu.dalloz-etudiant.fr/le-billet/article/diplomatie-internationale-cacophonie-au-sommet-de-lunion-europeenne/h/123068087145b0252f625e4f4560989f.html",
+                    "d": "Mon, 16 Mar 2026 11:00:00 +0100"
+                }
+            ]
+        },
+        {
+            "nom_site": "Dalloz|Actualité",
+            "articles": []
+        },
+        {
+            "nom_site": "Village Justice",
+            "articles": []
+        }
+    ],
+    "juridictions": [
+        {
+            "nom_site": "Conseil d'Etat|LJA",
+            "articles": [
+                {
+                    "t": "La lettre de la justice administrative n°91 est en ligne !",
+                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-91-est-en-ligne",
+                    "d": "2026-03-18T00:00:00+00:00"
+                },
+                {
+                    "t": "La lettre de la justice administrative n°90 est en ligne !",
+                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-90-est-en-ligne",
+                    "d": "2026-02-16T00:00:00+00:00"
+                },
+                {
+                    "t": "La lettre de la justice administrative n°89 est en ligne !",
+                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-89-est-en-ligne",
+                    "d": "2026-01-23T00:00:00+00:00"
+                },
+                {
+                    "t": "La lettre de la justice administrative n°88 est en ligne !",
+                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-88-est-en-ligne",
+                    "d": "2025-12-18T00:00:00+00:00"
+                },
+                {
+                    "t": "La lettre de la justice administrative n°87 est en ligne !",
+                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-87-est-en-ligne",
+                    "d": "2025-11-19T00:00:00+00:00"
+                },
+                {
+                    "t": "La lettre de la justice administrative n°86 est en ligne !",
+                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-86-est-en-ligne",
+                    "d": "2025-10-20T00:00:00+00:00"
+                },
+                {
+                    "t": "La lettre de la justice administrative n°85 est en ligne !",
+                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-85-est-en-ligne",
+                    "d": "2025-09-18T00:00:00+00:00"
+                },
+                {
+                    "t": "La lettre de la justice administrative n°84 est en ligne !",
+                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-84-est-en-ligne",
+                    "d": "2025-07-21T00:00:00+00:00"
+                }
+            ]
+        },
+        {
+            "nom_site": "Conseil d'Etat|Séances",
+            "articles": [
+                {
+                    "t": "Audience publique du 20 mars 2026 à 14 heures",
+                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-20-mars-2026-a-14-heures",
+                    "d": "2026-03-16T00:00:00+00:00"
+                },
+                {
+                    "t": "Audience publique du 20 février 2026 à 14 heures",
+                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-20-fevrier-2026-a-14-heures",
+                    "d": "2026-02-16T00:00:00+00:00"
+                },
+                {
+                    "t": "Audience publique du 5 décembre 2025 à 14 heures",
+                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-5-decembre-2025-a-14-heures",
+                    "d": "2025-12-01T00:00:00+00:00"
+                },
+                {
+                    "t": "Audience publique du 28 novembre 2025 à 14 heures",
+                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-28-novembre-2025-a-14-heures",
+                    "d": "2025-11-21T00:00:00+00:00"
+                },
+                {
+                    "t": "Audience publique du 4 juillet 2025 à 14 heures",
+                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-4-juillet-2025-a-14-heures",
+                    "d": "2025-07-02T00:00:00+00:00"
+                },
+                {
+                    "t": "Audience publique du 4 avril 2025 à 14 heures",
+                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-4-avril-2025-a-14-heures",
+                    "d": "2025-03-31T00:00:00+00:00"
+                },
+                {
+                    "t": "Audience publique du 14 mars 2025 à 14 heures",
+                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-14-mars-2025-a-14-heures",
+                    "d": "2025-03-07T00:00:00+00:00"
+                },
+                {
+                    "t": "Audience publique du 14 février 2025 à 14 h",
+                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-14-fevrier-2025-a-14-h",
+                    "d": "2025-02-11T00:00:00+00:00"
+                }
+            ]
+        },
+        {
+            "nom_site": "Conseil Constitutionnel",
+            "articles": [
+                {
+                    "t": "Le Conseil constitutionnel et la Cour de justice de l’Union européenne se rencontrent pour échanger sur les enjeux constitutionnels et conventionnels contemporains",
+                    "l": "https://www.conseil-constitutionnel.fr/actualites/le-conseil-constitutionnel-et-la-cour-de-justice-de-l-union-europeenne-se-rencontrent-pour-echanger",
+                    "d": "Fri, 20 Mar 2026 12:48:20 +0100"
+                },
+                {
+                    "t": "Décision n° 2025-1186 QPC du 19 mars 2026 - Communiqué de presse",
+                    "l": "https://www.conseil-constitutionnel.fr/actualites/communique/decision-n-2025-1186-qpc-du-19-mars-2026-communique-de-presse",
+                    "d": "Thu, 19 Mar 2026 17:50:01 +0100"
+                },
+                {
+                    "t": "Décision n° 2025-1187 QPC du 20 mars 2026",
+                    "l": "https://www.conseil-constitutionnel.fr/decision/2026/20251187QPC.htm",
+                    "d": "Thu, 19 Mar 2026 17:33:07 +0100"
+                },
+                {
+                    "t": "Décision n° 2026-902 DC du 19 mars 2026",
+                    "l": "https://www.conseil-constitutionnel.fr/decision/2026/2026902DC.htm",
+                    "d": "Thu, 19 Mar 2026 17:16:57 +0100"
+                },
+                {
+                    "t": "Décision n° 2025-1186 QPC du 19 mars 2026",
+                    "l": "https://www.conseil-constitutionnel.fr/decision/2026/20251186QPC.htm",
+                    "d": "Thu, 19 Mar 2026 17:16:57 +0100"
+                },
+                {
+                    "t": "Décision n° 2026-902 DC du 19 mars 2026 - Communiqué de presse",
+                    "l": "https://www.conseil-constitutionnel.fr/actualites/communique/decision-n-2026-902-dc-du-19-mars-2026-communique-de-presse",
+                    "d": "Thu, 19 Mar 2026 12:37:14 +0100"
+                },
+                {
+                    "t": "Journée d’échanges avec la Cour constitutionnelle du Kosovo",
+                    "l": "https://www.conseil-constitutionnel.fr/actualites/journee-d-echanges-avec-la-cour-constitutionnelle-du-kosovo",
+                    "d": "Wed, 18 Mar 2026 15:20:11 +0100"
+                },
+                {
+                    "t": "Rencontre avec la Cour constitutionnelle de Roumanie",
+                    "l": "https://www.conseil-constitutionnel.fr/actualites/rencontre-avec-la-cour-constitutionnelle-de-roumanie",
+                    "d": "Mon, 16 Mar 2026 15:10:35 +0100"
+                }
+            ]
+        },
+        {
+            "nom_site": "Cour de Cassation|Podcasts",
+            "articles": [
+                {
+                    "t": "Les Rendez-vous Civils | N°3 – décembre 2025 : Mayotte : la sécheresse de 2023",
+                    "l": "https://radio.amicus-curiae.net/podcast/les-rendez-vous-civils-n3-decembre-2025-mayotte-la-secheresse-de-2023/",
+                    "d": "Wed, 03 Dec 2025 13:00:32 +0000"
+                },
+                {
+                    "t": "Les Rendez-vous civils n°2 – Juillet 2025 – la filiation",
+                    "l": "https://radio.amicus-curiae.net/podcast/le-rendez-vous-civils-n2-juillet-2025-la-filiation/",
+                    "d": "Wed, 02 Jul 2025 04:00:03 +0000"
+                },
+                {
+                    "t": "N°1 – Décembre 2024 – Rétention administrative et placement en zone d’attente des étrangers",
+                    "l": "https://radio.amicus-curiae.net/podcast/n1-decembre-2024-retention-administrative-et-placement-en-zone-dattente-des-etrangers/",
+                    "d": "Thu, 19 Dec 2024 14:22:52 +0000"
+                }
+            ]
+        },
+        {
+            "nom_site": "Cour de Cassation|Actualités",
+            "articles": []
+        }
+    ],
+    "blogs": [
+        {
+            "nom_site": "Me NEUJANICKI|Immobilier",
+            "articles": [
+                {
+                    "t": "Dol du vendeur et responsabilité de l’agent immobilier : l’agent n’est pas tenu d’investigations techniques",
+                    "l": "https://www.neujanicki.com/dol-vendeur-responsabilite-agent-immobilier-vice-cache/",
+                    "d": "Sun, 08 Mar 2026 22:00:42 +0000"
+                },
+                {
+                    "t": "Bail commercial : Compétence du tribunal judiciare pour fixer le loyer du bail",
+                    "l": "https://www.neujanicki.com/fixation-loyer-bail-commercial-competence-tribunal-judiciaire/",
+                    "d": "Sun, 08 Mar 2026 22:00:42 +0000"
+                },
+                {
+                    "t": "Prescription de l’indemnité d’éviction : le locataire perd son droit à indemnité et son droit au maintien dans les lieux même en cas de mauvaise foi du bailleur",
+                    "l": "https://www.neujanicki.com/prescription-indemnite-eviction-bail-commercial/",
+                    "d": "Sun, 08 Mar 2026 22:00:41 +0000"
+                },
+                {
+                    "t": "Indemnité d’éviction : la prescription biennale fait perdre le droit au maintien dans les lieux",
+                    "l": "https://www.neujanicki.com/prescription-indemnite-eviction-bail-commercial-2/",
+                    "d": "Sun, 08 Mar 2026 22:00:40 +0000"
+                },
+                {
+                    "t": "Prescription de l’indemnité d’éviction et expertise",
+                    "l": "https://www.neujanicki.com/prescription-indemnite-eviction-expertise-bailleur-bail-commercial/",
+                    "d": "Sun, 08 Mar 2026 22:00:40 +0000"
+                },
+                {
+                    "t": "Clause résolutoire et redressement judiciaire : l’ouverture de la procédure collective n’anéantit pas les actes réguliers antérieurs",
+                    "l": "https://www.neujanicki.com/clause-resolutoire-redressement-judiciaire-bail-commercial/",
+                    "d": "Sun, 08 Mar 2026 22:00:40 +0000"
+                },
+                {
+                    "t": "Fixation du loyer du bail renouvelé : quels abattements et majorations appliquer à la valeur locative ?",
+                    "l": "https://www.neujanicki.com/abattements-majorations-valeur-locative-bail-renouvele/",
+                    "d": "Sun, 08 Mar 2026 22:00:39 +0000"
+                },
+                {
+                    "t": "Sous-location illicite via Airbnb : la Cour de cassation exclut le statut d’hébergeur",
+                    "l": "https://www.neujanicki.com/responsabilite-airbnb-sous-location-illicite/",
+                    "d": "Sun, 08 Mar 2026 22:00:39 +0000"
+                }
+            ]
+        },
+        {
+            "nom_site": "ONB|Notaires",
+            "articles": []
+        },
+        {
+            "nom_site": "Me PICOVSCHI|Affaires",
+            "articles": [
+                {
+                    "t": "Prime d’impatriation : comment négocier avec un avocat ?",
+                    "l": "https://www.avocats-picovschi.com/prime-d-impatriation-comment-negocier-avec-un-avocat_article_1668.html",
+                    "d": "Thu, 05 Mar 2026 14:00:00 +0100"
+                },
+                {
+                    "t": "Prime d’impatriation : définition, montant et fonctionnement",
+                    "l": "https://www.avocats-picovschi.com/prime-d-impatriation-definition-montant-et-fonctionnement_article_1910.html",
+                    "d": "Thu, 05 Mar 2026 14:00:00 +0100"
+                },
+                {
+                    "t": "Situation n°06 : la durée de la vérification de comptabilité et le débat oral et contradictoire",
+                    "l": "https://www.avocats-picovschi.com/situation-n-6-la-duree-de-la-verification-de-comptabilite-et-le-debat-oral-et-contradictoire_article_664.html",
+                    "d": "Thu, 26 Feb 2026 14:00:00 +0100"
+                },
+                {
+                    "t": "Examen de comptabilité : savoir se défendre avec un avocat fiscaliste",
+                    "l": "https://www.avocats-picovschi.com/examen-de-comptabilite-savoir-se-defendre-avec-un-avocat-fiscaliste_article_1906.html",
+                    "d": "Thu, 26 Feb 2026 14:00:00 +0100"
+                },
+                {
+                    "t": "Loi de Finances 2026 : la fin d’un long périple !",
+                    "l": "https://www.avocats-picovschi.com/loi-de-finances-2026-la-fin-d-un-long-periple_article_2033.html",
+                    "d": "Wed, 25 Feb 2026 14:00:00 +0100"
+                },
+                {
+                    "t": "Contrôle fiscal TVA : anticiper et gérer la procédure avec un avocat",
+                    "l": "https://www.avocats-picovschi.com/controle-fiscal-tva-anticiper-et-gerer-la-procedure-avec-un-avocat_article_2032.html",
+                    "d": "Fri, 20 Feb 2026 14:00:00 +0100"
+                },
+                {
+                    "t": "Contrôle fiscal et perquisitions fiscales : nos avocats fiscalistes vous aident à faire face !",
+                    "l": "https://www.avocats-picovschi.com/controle-fiscal-et-perquisitions-fiscales-nos-avocats-fiscalistes-vous-aident-a-faire-face_article_1389.html",
+                    "d": "Thu, 19 Feb 2026 14:00:00 +0100"
+                },
+                {
+                    "t": "Abus de droit fiscal : l’avocat fiscaliste vous accompagne",
+                    "l": "https://www.avocats-picovschi.com/nouvelle-definition-de-l-abus-de-droit-l-avocat-fiscaliste-vous-accompagne_article_1412.html",
+                    "d": "Wed, 18 Feb 2026 14:00:00 +0100"
+                }
+            ]
+        },
+        {
+            "nom_site": "Me DUCOURAU|Urbanisme",
+            "articles": [
+                {
+                    "t": "Le lotissement suppose la division juridique en propriété ou en jouissance",
+                    "l": "https://blog-ducourau-avocats-urbanisme.com/2026/03/20/le-lotissement-suppose-la-division-juridique-en-propriete-ou-en-jouissance/",
+                    "d": "Fri, 20 Mar 2026 18:37:42 +0000"
+                },
+                {
+                    "t": "Autorisations d’exploitation commerciale et urbanisme",
+                    "l": "https://blog-ducourau-avocats-urbanisme.com/2026/02/10/autorisations-dexploitation-commerciale-et-urbanisme/",
+                    "d": "Tue, 10 Feb 2026 08:43:31 +0000"
+                },
+                {
+                    "t": "Parc éolien et espèces protégées : Le Conseil d’Etat rappelle l’exigence de dérogations en cas de risque résiduel",
+                    "l": "https://blog-ducourau-avocats-urbanisme.com/2026/02/10/parc-eolien-et-especes-protegees-exigence-de-derogations-en-cas-de-risque-residuel/",
+                    "d": "Tue, 10 Feb 2026 08:32:47 +0000"
+                },
+                {
+                    "t": "Le juge administratif, garant de l’indemnisation du propriétaire « squatté » en cas de refus du concours de la force publique",
+                    "l": "https://blog-ducourau-avocats-urbanisme.com/2025/12/16/le-juge-administratif-garant-de-lindemnisation-du-proprietaire-squatte-en-cas-de-refus-du-concours-de-la-force-publique/",
+                    "d": "Tue, 16 Dec 2025 11:03:56 +0000"
+                },
+                {
+                    "t": "Précisions sur le régime du Permis de Construire modificatif–PC sur construction existante, et sur le régime de caducité des PC",
+                    "l": "https://blog-ducourau-avocats-urbanisme.com/2025/11/26/precisions-sur-le-regime-du-permis-de-construire-modificatif-pc-sur-construction-existante-et-sur-le-regime-de-caducite-des-pc/",
+                    "d": "Wed, 26 Nov 2025 09:12:27 +0000"
+                },
+                {
+                    "t": "La loi de simplification du droit de l’urbanisme et du logement",
+                    "l": "https://blog-ducourau-avocats-urbanisme.com/2025/11/26/la-loi-de-simplification-du-droit-de-lurbanisme-et-du-logement/",
+                    "d": "Wed, 26 Nov 2025 08:40:38 +0000"
+                },
+                {
+                    "t": "Expropriation partielle : la Cour de cassation confirme la méthode d’évaluation des indemnités au regard de la parcelle dans son ensemble",
+                    "l": "https://blog-ducourau-avocats-urbanisme.com/2025/07/16/expropriation-partielle-la-cour-de-cassation-confirme-la-methode-devaluation-des-indemnites-au-regard-de-la-parcelle-dans-son-ensemble/",
+                    "d": "Wed, 16 Jul 2025 17:49:27 +0000"
+                },
+                {
+                    "t": "Expropriation : La Cour de cassation veille à l’indemnisation intégrale du préjudice",
+                    "l": "https://blog-ducourau-avocats-urbanisme.com/2025/07/16/expropriation-la-cour-de-cassation-veille-a-lindemnisation-integrale-du-prejudice/",
+                    "d": "Wed, 16 Jul 2025 17:29:59 +0000"
+                }
+            ]
+        },
+        {
+            "nom_site": "Me VENIN|Assurances",
+            "articles": [
+                {
+                    "t": "Défaillance CMI et garant de livraison",
+                    "l": "https://www.mv-avocat.fr/actualites-juridiques/defaillance-cmi-et-garant-de-livraison/",
+                    "d": "Wed, 18 Mar 2026 08:43:06 +0000"
+                },
+                {
+                    "t": "Principe de la réparation intégrale du préjudice",
+                    "l": "https://www.mv-avocat.fr/actualites-juridiques/principe-de-la-reparation-integrale-du-prejudice/",
+                    "d": "Tue, 10 Mar 2026 11:00:29 +0000"
+                },
+                {
+                    "t": "Inexécutions du sous-traitant",
+                    "l": "https://www.mv-avocat.fr/actualites-juridiques/inexecutions-du-sous-traitant/",
+                    "d": "Tue, 03 Mar 2026 10:45:09 +0000"
+                },
+                {
+                    "t": "Aliénation de la chose assurée",
+                    "l": "https://www.mv-avocat.fr/actualites-juridiques/alienation-de-la-chose-assuree/",
+                    "d": "Tue, 24 Feb 2026 11:00:50 +0000"
+                },
+                {
+                    "t": "Quittance subrogative et caractère définitif de l’indemnité",
+                    "l": "https://www.mv-avocat.fr/actualites-juridiques/quittance-subrogative-et-caractere-definitif-de-lindemnite/",
+                    "d": "Wed, 11 Feb 2026 13:59:14 +0000"
+                },
+                {
+                    "t": "Cause étrangère et responsabilité décennale",
+                    "l": "https://www.mv-avocat.fr/actualites-juridiques/cause-etrangere-et-responsabilite-decennale-2/",
+                    "d": "Wed, 04 Feb 2026 10:18:26 +0000"
+                },
+                {
+                    "t": "Clause de dédit et CCMI",
+                    "l": "https://www.mv-avocat.fr/actualites-juridiques/clause-de-dedit-et-ccmi/",
+                    "d": "Mon, 26 Jan 2026 13:34:31 +0000"
+                },
+                {
+                    "t": "Expertise contractuelle et force probante",
+                    "l": "https://www.mv-avocat.fr/actualites-juridiques/expertise-contractuelle-et-force-probante/",
+                    "d": "Tue, 20 Jan 2026 10:00:47 +0000"
+                }
+            ]
+        },
+        {
+            "nom_site": "Me DELOITTE|Fiscalité",
+            "articles": []
+        }
+    ],
+    "textes officiels": [
+        {
+            "nom_site": "AN|Séances",
+            "articles": [
+                {
+                    "t": "Compte rendu intégral de la troisième séance du vendredi 27 février 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260175.asp",
+                    "d": "Fri, 27 Feb 2026 21:30:00 +0000"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du vendredi 27 février 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260173.asp",
+                    "d": "Fri, 27 Feb 2026 09:00:00 +0000"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du vendredi 27 février 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260174.asp",
+                    "d": "Fri, 27 Feb 2026 15:00:00 +0000"
+                },
+                {
+                    "t": "Compte rendu intégral de la troisième séance du jeudi 26 février 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260172.asp",
+                    "d": "Thu, 26 Feb 2026 21:30:00 +0000"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du jeudi 26 février 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260171.asp",
+                    "d": "Thu, 26 Feb 2026 15:00:00 +0000"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du jeudi 26 février 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260170.asp",
+                    "d": "Thu, 26 Feb 2026 09:00:00 +0000"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du mercredi 25 février 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260168.asp",
+                    "d": "Wed, 25 Feb 2026 14:00:00 +0000"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du mercredi 25 février 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260169.asp",
+                    "d": "Wed, 25 Feb 2026 21:45:00 +0000"
+                }
+            ]
+        },
+        {
+            "nom_site": "AN|Documents",
+            "articles": [
+                {
+                    "t": "N° 2409 rapport - Rapport de M. Gérard Leseul et Mme Sonia de la Provôté établi au nom de l'office, sur les apports de la science pour lutter contre la dermatose nodulaire contagieuse",
+                    "l": "https://www.assemblee-nationale.fr/17/rap-off/i2409.asp",
+                    "d": "Thu, 29 Jan 2026 18:30:00 +0000"
+                },
+                {
+                    "t": "Texte adopté n° 3 - Projet de loi relative aux résultats de la gestion et portant approbation des comptes, rejeté par l'Assemblée nationale après engagement de la procédure accélérée, de l'année 2023",
+                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0003.asp",
+                    "d": "Mon, 14 Oct 2024 18:35:00 +0000"
+                },
+                {
+                    "t": "N° 2101 - Proposition de loi de M. Nicolas Thierry pour une génération sans tabac",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2101.asp",
+                    "d": "Tue, 18 Nov 2025 00:00:00 +0000"
+                },
+                {
+                    "t": "N° 572 - Proposition de loi de Mme Danielle Brulebois pour un accès plus juste et plus transparent au marché de l'assurance affinitaire",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion0572.asp",
+                    "d": "Tue, 19 Nov 2024 17:54:00 +0000"
+                },
+                {
+                    "t": "N° 2553 - Proposition de loi de Mme Océane Godard pour un droit effectif aux acomptes sur salaire et rémunération",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2553.asp",
+                    "d": "Tue, 03 Mar 2026 00:00:00 +0000"
+                },
+                {
+                    "t": "N° 2568 - Proposition de loi de M. Charles Fournier visant à représenter la nature en entreprise",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2568.asp",
+                    "d": "Tue, 03 Mar 2026 00:00:00 +0000"
+                },
+                {
+                    "t": "N° 2542 - Proposition de résolution de Mme Karine Lebon tendant à la création d'une commission d'enquête sur les manquements et dysfonctionnements du Comité national d'accueil et d'actions pour les Réunionnais en mobilité",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2542.asp",
+                    "d": "Thu, 05 Mar 2026 00:00:00 +0000"
+                },
+                {
+                    "t": "N° 2575 - Proposition de résolution de M. Stéphane Viry visant à faire du don de plasma la grande cause nationale 2027",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2575.asp",
+                    "d": "Wed, 18 Mar 2026 00:00:00 +0000"
+                }
+            ]
+        },
+        {
+            "nom_site": "Sénat|Textes",
+            "articles": [
+                {
+                    "t": "Prix du gaz et des carburants en période de crise - texte N° 453",
+                    "l": "http://www.senat.fr/leg/ppl25-453.html",
+                    "d": "Sat,21 Mar 2026 02:03:12 GMT"
+                },
+                {
+                    "t": "Lutter contre l'entrisme islamiste en France - texte N° 455",
+                    "l": "http://www.senat.fr/leg/ppl25-455.html",
+                    "d": "Sat,21 Mar 2026 02:03:12 GMT"
+                },
+                {
+                    "t": "Renforcement des juridictions criminelles - texte N° 457",
+                    "l": "http://www.senat.fr/leg/pjl25-457.html",
+                    "d": "Fri,20 Mar 2026 02:03:10 GMT"
+                },
+                {
+                    "t": "Justice criminelle et respect des victimes - texte N° 456",
+                    "l": "http://www.senat.fr/leg/pjl25-456.html",
+                    "d": "Thu,19 Mar 2026 02:03:17 GMT"
+                },
+                {
+                    "t": "Ratification de l'ordonnance relative au point d'accès unique européen - texte N° 452",
+                    "l": "http://www.senat.fr/leg/pjl25-452.html",
+                    "d": "Sat,14 Mar 2026 02:03:06 GMT"
+                },
+                {
+                    "t": "Remobiliser le bâti rural - texte N° 444",
+                    "l": "http://www.senat.fr/leg/ppl25-444.html",
+                    "d": "Sat,14 Mar 2026 02:03:06 GMT"
+                },
+                {
+                    "t": "Renforcer les mécanismes de contrôle des biens culturels français - texte N° 451",
+                    "l": "http://www.senat.fr/leg/ppl25-451.html",
+                    "d": "Fri,13 Mar 2026 02:03:21 GMT"
+                },
+                {
+                    "t": "Supprimer le mot « race » de la Constitution - texte N° 445",
+                    "l": "http://www.senat.fr/leg/ppl25-445.html",
+                    "d": "Wed,11 Mar 2026 02:03:56 GMT"
+                }
+            ]
+        },
+        {
+            "nom_site": "Sénat|Rapports",
+            "articles": [
+                {
+                    "t": "Soutenir et valoriser les commerces de proximité - rapport n° 433",
+                    "l": "http://www.senat.fr/rap/l25-433/l25-433.html",
+                    "d": "Thu,19 Mar 2026 14:24:15 GMT"
+                },
+                {
+                    "t": "Implantation des centres de données sur le territoire français - rapport n° 435",
+                    "l": "http://www.senat.fr/rap/l25-435/l25-435.html",
+                    "d": "Thu,19 Mar 2026 10:14:53 GMT"
+                },
+                {
+                    "t": "Contrôle de l'application, par les agences de l'eau, de la loi du 11 avril 2025 visant à assouplir la gestion des compétences « eau » et « assainissement » - rapport d'information n° 441",
+                    "l": "http://www.senat.fr/notice-rapport/2025/r25-441-notice.html",
+                    "d": "Fri,27 Feb 2026 14:20:53 GMT"
+                },
+                {
+                    "t": "Enjeux pour les outre-mer du prochain cadre financier pluriannuel de l'Union européenne (2028-2034) - rapport d'information n° 426",
+                    "l": "http://www.senat.fr/notice-rapport/2025/r25-426-notice.html",
+                    "d": "Wed,25 Feb 2026 16:00:02 GMT"
+                }
+            ]
+        },
+        {
+            "nom_site": "DAJ Bercy",
+            "articles": [
+                {
+                    "t": "La Lettre de la DAJ n°399 est en ligne !",
+                    "l": "https://www.economie.gouv.fr/daj/la-lettre-de-la-daj-ndeg399-est-en-ligne",
+                    "d": "2026-03-05 12:44:50"
+                },
+                {
+                    "t": "L’Agent judiciaire de l’État lance son nouveau marché de représentation en justice et de conseil",
+                    "l": "https://www.economie.gouv.fr/daj/lagent-judiciaire-de-letat-lance-son-nouveau-marche-de-representation-en-justice-et-de-conseil",
+                    "d": "2026-03-03 17:00:02"
+                },
+                {
+                    "t": "Contribution tarifaire d’acheminement et directive accise : l’exigence d’un lien direct et indissociable avec la consommation d’électricité",
+                    "l": "https://www.economie.gouv.fr/daj/contribution-tarifaire-dacheminement-et-directive-accise-lexigence-dun-lien-direct-et-indissociable-avec-la-consommation-delectricite",
+                    "d": "2026-03-02 14:42:26"
+                },
+                {
+                    "t": "Adoption par la Commission européenne d’une nouvelle décision sur les aides publiques accordées à certains services d’intérêt économique général",
+                    "l": "https://www.economie.gouv.fr/daj/adoption-par-la-commission-europeenne-dune-nouvelle-decision-sur-les-aides-publiques-accordees-certains-services-dinteret-economique-general",
+                    "d": "2026-03-02 12:10:31"
+                },
+                {
+                    "t": "Accès aux données bancaires par l’administration fiscale : la CEDH condamne l’insuffisance des garanties prévues par le droit italien",
+                    "l": "https://www.economie.gouv.fr/daj/acces-aux-donnees-bancaires-par-ladministration-fiscale-la-cedh-condamne-linsuffisance-des-garanties-prevues-par-le-droit-italien",
+                    "d": "2026-03-02 12:01:13"
+                },
+                {
+                    "t": "Marchés publics et quasi-régie : la CJUE précise l’appréciation de la condition des 80 %",
+                    "l": "https://www.economie.gouv.fr/daj/marches-publics-et-quasi-regie-la-cjue-precise-lappreciation-de-la-condition-des-80",
+                    "d": "2026-02-27 10:54:10"
+                },
+                {
+                    "t": "Pour la Cour de justice de l’Union européenne, le recours par une société mère aux capacités d’une filiale intégralement détenue constitue un recours aux capacités d’une autre entité",
+                    "l": "https://www.economie.gouv.fr/daj/pour-la-cour-de-justice-de-lunion-europeenne-le-recours-par-une-societe-mere-aux-capacites-dune-filiale-integralement-detenue-constitue-un",
+                    "d": "2026-02-27 10:44:37"
+                },
+                {
+                    "t": "De l’OECP au CNCP : une instance plus représentative et plus agile pour la commande publique",
+                    "l": "https://www.economie.gouv.fr/daj/de-loecp-au-cncp-une-instance-plus-representative-et-plus-agile-pour-la-commande-publique",
+                    "d": "2026-02-23 16:14:53"
+                }
+            ]
+        },
+        {
+            "nom_site": "Vie Publique|Actualités",
+            "articles": [
+                {
+                    "t": "Municipales 2026 : second tour le 22 mars dans 1521 communes",
+                    "l": "https://www.vie-publique.fr/en-bref/302492-municipales-2026-publication-des-listes-candidates-pour-le-second-tour?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-03-21"
+                },
+                {
+                    "t": "Tout savoir sur le fonctionnement du bureau de vote",
+                    "l": "https://www.vie-publique.fr/questions-reponses/269425-le-fonctionnement-du-bureau-de-vote-foire-aux-questions-faq?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-03-21"
+                },
+                {
+                    "t": "Le prix unique du livre, plus de 40 ans après la loi Lang",
+                    "l": "https://www.vie-publique.fr/eclairage/280026-le-prix-unique-du-livre-plus-de-40-ans-apres-la-loi-lang?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-03-20"
+                },
+                {
+                    "t": "Évolution institutionnelle et statutaire outre-mer : chronologie 1946-2026",
+                    "l": "https://www.vie-publique.fr/eclairage/19621-chronologie-de-levolution-institutionnelle-et-statutaire-outre-mer?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-03-20"
+                },
+                {
+                    "t": "Aires marines de prospérité : une solution pour une pêche durable ?",
+                    "l": "https://www.vie-publique.fr/en-bref/302489-aires-marines-de-prosperite-une-solution-pour-une-peche-durable?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-03-20"
+                },
+                {
+                    "t": "Pollution de l'air : des effets sur l'activité économique",
+                    "l": "https://www.vie-publique.fr/en-bref/302462-pollution-de-lair-des-effets-sur-lactivite-economique?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-03-20"
+                },
+                {
+                    "t": "Transition énergétique : quelle stratégie pour l'Union européenne ?",
+                    "l": "https://www.vie-publique.fr/en-bref/302474-transition-energetique-quelle-strategie-pour-lunion-europeenne?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-03-19"
+                },
+                {
+                    "t": "Zone euro et BCE : statu quo monétaire malgré le choc pétrolier",
+                    "l": "https://www.vie-publique.fr/en-bref/302483-zone-euro-et-bce-statu-quo-monetaire-malgre-le-choc-petrolier?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-03-19"
+                }
+            ]
+        },
+        {
+            "nom_site": "Vie Publique|Lois",
+            "articles": [
+                {
+                    "t": "Loi du 20 mars 2026 relative à l'organisation des jeux Olympiques et Paralympiques de 2030",
+                    "l": "https://www.vie-publique.fr/loi/298606-jo-hiver-2030-loi-organisation-jeux-olympiques-paralympiques?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-21"
+                },
+                {
+                    "t": "Projet de loi organique relatif au renforcement des juridictions criminelles",
+                    "l": "https://www.vie-publique.fr/loi/302486-projet-de-loi-organique-renforcement-des-juridictions-criminelles?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-20"
+                },
+                {
+                    "t": "Projet de loi sur la justice criminelle et le respect des victimes",
+                    "l": "https://www.vie-publique.fr/loi/302487-projet-de-loi-justice-criminelle-respect-des-victimes-plaider-coupable?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-19"
+                },
+                {
+                    "t": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
+                    "l": "https://www.vie-publique.fr/loi/300456-lutte-contre-les-fraudes-sociales-et-fiscales-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-11"
+                },
+                {
+                    "t": "Proposition de loi constitutionnelle visant à préciser la procédure d'examen des textes budgétaires, à renforcer la place du Parlement et à sécuriser le périmètre et la constitutionnalité des dispositions mises en œuvre par les ordonnances mentionnées au",
+                    "l": "https://www.vie-publique.fr/loi/302258-examen-des-textes-budgetaires-proposition-de-loi-constitutionnelle?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-02-27"
+                },
+                {
+                    "t": "Proposition de loi visant à améliorer la protection et l'accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap",
+                    "l": "https://www.vie-publique.fr/loi/296460-protection-parents-enfants-atteints-maladies-graves-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-02-27"
+                },
+                {
+                    "t": "Proposition de loi visant à réserver la vente de protoxyde d'azote aux seuls professionnels",
+                    "l": "https://www.vie-publique.fr/loi/302268-gaz-hilarant-vente-de-protoxyde-azote-aux-seuls-professionnels-ppl?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-02-27"
+                },
+                {
+                    "t": "Projet de loi portant diverses mesures urgentes de sécurisation du droit de la fonction publique",
+                    "l": "https://www.vie-publique.fr/loi/302246-droit-de-la-fonction-publique-mesures-urgentes-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-02-26"
+                }
+            ]
+        }
+    ],
+    "finance": [
+        {
+            "nom_site": "AMF",
+            "articles": [
+                {
+                    "t": "Semaine de l'épargne salariale 2026 : l'AMF donne les clés pour comprendre ses avantages",
+                    "l": "https://www.amf-france.org/fr/espace-epargnants/actualites-mises-en-garde/semaine-de-lepargne-salariale-2026-lamf-donne-les-cles-pour-comprendre-ses-avantages#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "Fri, 20 Mar 2026 14:24:42 +0100"
+                },
+                {
+                    "t": "Le guide pédagogique de l'épargne salariale",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/publications/guides/guides-epargnants/le-guide-pedagogique-de-lepargne-salariale#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "Fri, 20 Mar 2026 09:56:31 +0100"
+                },
+                {
+                    "t": "Lettre Epargne Info Service n°52 - Mars 2026",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/publications/lettre-epargne-info-service/lettre-epargne-info-service-ndeg52-mars-2026#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "Wed, 18 Mar 2026 15:09:55 +0100"
+                },
+                {
+                    "t": "L’AMF requiert la prolongation de la suspension du titre RAPID NUTRITION",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-requiert-la-prolongation-de-la-suspension-du-titre-rapid-nutrition#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "Fri, 13 Mar 2026 14:15:14 +0100"
+                },
+                {
+                    "t": "Financement participatif : l’AMF rappelle aux plateformes leurs obligations en matière de traitement des réclamations",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/actualites/financement-participatif-lamf-rappelle-aux-plateformes-leurs-obligations-en-matiere-de-traitement#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "Thu, 12 Mar 2026 15:56:01 +0100"
+                },
+                {
+                    "t": "L'Autorité des marchés financiers, la Banque de France et la direction générale du Trésor lancent un groupe stratégique de place dédié à l'innovation et à la tokenisation de la finance",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lautorite-des-marches-financiers-la-banque-de-france-et-la-direction-generale-du-tresor-lancent-un#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "Thu, 12 Mar 2026 11:17:05 +0100"
+                },
+                {
+                    "t": "L’AMF analyse la typologie des acteurs sur le marché actions français au cours des cinq dernières années",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/actualites/typologie-des-intervenants-sur-le-marche-actions-francais#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "Mon, 09 Mar 2026 16:05:03 +0100"
+                },
+                {
+                    "t": "Typologie des intervenants sur le marché actions français",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-etudes-et-analyses/typologie-des-intervenants-sur-le-marche-actions-francais#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "Mon, 09 Mar 2026 15:15:34 +0100"
+                }
+            ]
+        },
+        {
+            "nom_site": "AFT",
+            "articles": []
+        }
+    ],
+    "news": [
+        {
+            "nom_site": "INSEE|National",
+            "articles": [
+                {
+                    "t": "Logement – tableau de bord de l’économie française",
+                    "l": "https://www.insee.fr/fr/statistiques/5368128",
+                    "d": "Fri, 20 Mar 2026 11:04:16 GMT"
+                },
+                {
+                    "t": "Estimations trimestrielles d'emploi salarié au 4ᵉ trimestre 2025 et évolutions par grand secteur d'activité",
+                    "l": "https://www.insee.fr/fr/statistiques/2134435",
+                    "d": "Fri, 20 Mar 2026 11:00:19 GMT"
+                },
+                {
+                    "t": "Taux de chômage localisés au 4ᵉ trimestre 2025",
+                    "l": "https://www.insee.fr/fr/statistiques/2012804",
+                    "d": "Fri, 20 Mar 2026 11:00:19 GMT"
+                },
+                {
+                    "t": "Au quatrième trimestre 2025, l’emploi salarié est stable ou quasi stable dans plus de la moitié des régions",
+                    "l": "https://www.insee.fr/fr/statistiques/8903534",
+                    "d": "Fri, 20 Mar 2026 11:00:00 GMT"
+                },
+                {
+                    "t": "Au quatrième trimestre 2025, les prix des logements sont en hausse (+0,4 %)",
+                    "l": "https://www.insee.fr/fr/statistiques/8893189",
+                    "d": "Fri, 20 Mar 2026 11:00:00 GMT"
+                },
+                {
+                    "t": "Hausse modérée des créations d’entreprises en février 2026",
+                    "l": "https://www.insee.fr/fr/statistiques/8898155",
+                    "d": "Fri, 20 Mar 2026 07:45:00 GMT"
+                },
+                {
+                    "t": "Environnement – tableau de bord de l’économie française",
+                    "l": "https://www.insee.fr/fr/statistiques/5368201",
+                    "d": "Thu, 19 Mar 2026 15:02:17 GMT"
+                },
+                {
+                    "t": "Couples – familles – ménages – tableau de bord de l’économie française",
+                    "l": "https://www.insee.fr/fr/statistiques/5368073",
+                    "d": "Thu, 19 Mar 2026 15:02:17 GMT"
+                }
+            ]
+        },
+        {
+            "nom_site": "INSEE|Régional",
+            "articles": [
+                {
+                    "t": "En janvier 2026, les prix à la consommation diminuent de 1,0 % sur un mois et augmentent de 1,0 % sur un an en Guyane",
+                    "l": "https://www.insee.fr/fr/statistiques/8743605",
+                    "d": "Fri, 27 Feb 2026 11:00:01 GMT"
+                },
+                {
+                    "t": "En janvier 2026, les prix à la consommation diminuent de 0,4 % sur un mois et augmentent de 0,5 % sur un an en Martinique",
+                    "l": "https://www.insee.fr/fr/statistiques/8743603",
+                    "d": "Fri, 27 Feb 2026 11:00:01 GMT"
+                },
+                {
+                    "t": "En janvier 2026, les prix à la consommation diminuent de 0,5 % sur un mois et augmentent de 0,2 % sur un an en Guadeloupe",
+                    "l": "https://www.insee.fr/fr/statistiques/8743601",
+                    "d": "Fri, 27 Feb 2026 11:00:01 GMT"
+                },
+                {
+                    "t": "En janvier 2026 à Mayotte, les prix à la consommation diminuent de 0,9 % sur un mois",
+                    "l": "https://www.insee.fr/fr/statistiques/8744943",
+                    "d": "Fri, 27 Feb 2026 06:00:00 GMT"
+                },
+                {
+                    "t": "En janvier 2026 à La Réunion, les prix à la consommation sont stables sur un mois et sur un an",
+                    "l": "https://www.insee.fr/fr/statistiques/8745340",
+                    "d": "Fri, 27 Feb 2026 06:00:00 GMT"
+                },
+                {
+                    "t": "En Île-de-France, un ménage sur dix en situation de vulnérabilité énergétique dans son logement",
+                    "l": "https://www.insee.fr/fr/statistiques/8744988",
+                    "d": "Thu, 26 Feb 2026 16:00:29 GMT"
+                },
+                {
+                    "t": "Plus de deux Grand-Estois sur cinq bénéficient d’une prestation des Caisses d’allocations familiales",
+                    "l": "https://www.insee.fr/fr/statistiques/8742788",
+                    "d": "Thu, 26 Feb 2026 16:00:00 GMT"
+                },
+                {
+                    "t": "Le Centre-Val de Loire retient moins ses natifs que les autres régions",
+                    "l": "https://www.insee.fr/fr/statistiques/8743357",
+                    "d": "Thu, 26 Feb 2026 16:00:00 GMT"
+                }
+            ]
+        },
+        {
+            "nom_site": "Santé Publique France",
+            "articles": []
+        }
+    ]
+}
