@@ -1,0 +1,198 @@
+/* --- BASE & TYPOGRAPHIE --- */
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: #f4f7f6; 
+    margin: 0; 
+    color: #333;
+}
+
+header { 
+    background: #2c3e50; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+header h1 { margin: 0; font-size: 1.8rem; }
+
+nav ul { 
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 0; 
+    margin: 15px 0 0 0;
+}
+
+nav a { 
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: 0.3s;
+    font-size: 0.95rem;
+}
+
+nav a.active { 
+    color: #3498db; /* Bleu pour le lien actif aussi */
+    text-decoration: underline; 
+}
+
+main { 
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 0 20px; 
+}
+
+/* --- BARRE D'ONGLETS --- */
+.tabs-bar { 
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    margin-bottom: 30px; 
+    background: white; 
+    padding: 15px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+.tab-btn { 
+    padding: 10px 20px; 
+    border: 1px solid #ddd; 
+    background: white; 
+    cursor: pointer; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    transition: 0.3s; 
+    color: #555;
+}
+
+.tab-btn:hover { background: #f9f9f9; border-color: #bbb; }
+
+.tab-btn.active { 
+    background: #2c3e50; 
+    color: white; 
+    border-color: #2c3e50; 
+}
+
+/* --- GRILLE RSS (UTILISÉE PAR JURIDIQUE, FINANCE & NEWS) --- */
+.grille-veille { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px; 
+    padding: 10px 0;
+}
+
+.post-veille { 
+    background: white; 
+    padding: 15px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); 
+    border-top: 4px solid #3498db; /* Bordure Bleue en HAUT pour le RSS */
+    display: flex; 
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post-veille:hover { 
+    transform: translateY(-3px); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+.badge-site { 
+    background: #f1f1f1; 
+    font-size: 0.7rem; 
+    padding: 3px 8px; 
+    border-radius: 4px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    display: inline-block;
+    color: #555;
+}
+
+.post-veille h3 { 
+    font-size: 0.95rem; 
+    margin: 0 0 10px 0; 
+    line-height: 1.4; 
+}
+
+.post-veille h3 a { 
+    text-decoration: none; 
+    color: #2c3e50; 
+    transition: 0.2s;
+}
+
+.post-veille h3 a:hover { color: #3498db; }
+
+.date-rss { 
+    font-size: 0.8rem; 
+    color: #999; 
+    margin-top: auto; 
+    font-style: italic;
+}
+
+/* --- MODE LECTURE MARKDOWN (INDEX & COMPTES-RENDUS) --- */
+/* Unification du style pour l'index, les comptes-rendus News, Finance, etc. */
+.post-md, #bloc-synthese, .article-card { 
+    background: white; 
+    padding: 30px; 
+    margin: 20px auto; 
+    max-width: 900px; /* Confort de lecture */
+    border-radius: 8px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08); /* Même style d'ombre que les cartes */
+    
+    /* --- CORRECTION DEMANDÉE : BORDURE BLEUE SUR LE CÔTÉ --- */
+    border-left: 6px solid #3498db; /* Exactement le même bleu que la grille RSS */
+    
+    line-height: 1.7;
+    text-align: left;
+    box-sizing: border-box; /* Évite les problèmes de largeur avec le padding */
+}
+
+/* Style des titres dans le Markdown */
+.lecture-md h1, .lecture-md h2, .post-md h1, #bloc-synthese h2 { 
+    color: #2c3e50; 
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+/* Petit trait bleu sous les titres principaux pour rappeler le style */
+.lecture-md h1, .post-md h1 {
+    border-bottom: 2px solid #3498db; 
+    padding-bottom: 10px;
+}
+
+/* Style des badges de date dans le Markdown */
+.lecture-md small, .post-md small, .date-ia, .date { 
+    color: #7f8c8d; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    font-size: 0.85em;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Style du contenu généré par Marked (Listes et Titres) */
+.article-body h3, #container-synthese h3 {
+    color: #2c3e50;
+    margin-top: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+}
+
+.article-body ul, #container-synthese ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #34495e;
+}
+
+.article-body li, #container-synthese li {
+    margin-bottom: 8px;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 600px) { 
+    .grille-veille { grid-template-columns: 1fr; }
+    nav ul { flex-direction: column; align-items: center; gap: 10px; }
+    .tabs-bar { flex-direction: column; gap: 5px; }
+    .lecture-md, .post-md, #bloc-synthese { padding: 20px; }
+}

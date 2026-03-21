@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ma Veille Personnalisée - Finance</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Veille thématique</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="finance.html" class="active">Finance</a></li>
+                <li><a href="juridique.html">Juridique</a></li>
+                <li><a href="cour-cassation.html">Cour de Cassation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <div class="tabs-bar" style="text-align: center; margin-bottom: 30px;">
+        <button class="tab-btn active" onclick="basculerOnglet(this, 'MD', 'finance')">Comptes-rendus</button>
+        <button class="tab-btn" onclick="basculerOnglet(this, 'RSS', 'finance')">Flux RSS</button>
+    </div>
+    
+    <div id="zone-finance"></div>
+</main>
+
+<script src="rss-reader.js"></script>
+<script>
+    async function basculerOnglet(btn, type, param) {
+        // 1. Visuel des boutons
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        const zone = document.getElementById('zone-finance');
+        zone.innerHTML = "<p style='text-align:center;'>Chargement...</p>";
+
+        if (type === 'MD') {
+            // --- AFFICHAGE TEXTE (Pleine largeur pour la lecture) ---
+            zone.className = "lecture-md"; // On change la classe CSS pour le texte
+            await chargerMarkdown(param, 'zone-finance');
+        } else {
+            // --- AFFICHAGE GRILLE (Cartes RSS comme Juridique) ---
+            zone.className = "grille-veille"; // On change la classe CSS pour la grille
+            await chargerFluxRSS(param, 'zone-finance');
+        }
+    }
+
+    // Au chargement initial
+    window.onload = async () => {
+        if (typeof initialiserProjet === "function") await initialiserProjet();
+        // On affiche l'onglet MD (Comptes-rendus) par défaut
+        const btnDefaut = document.querySelector('.tab-btn.active');
+        await basculerOnglet(btnDefaut, 'MD', 'finance');
+    };
+</script>
+</body>
+</html>

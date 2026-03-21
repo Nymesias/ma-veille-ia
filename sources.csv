@@ -1,0 +1,28 @@
+categorie,source,url
+revues,Cridon NE,https://www.cridon-ne.org/feed/
+revues,Dalloz|Etudiant,https://www.dalloz-etudiant.fr/rss.xml
+revues,Dalloz|Actualité,https://www.dalloz-actualite.fr/rss.xml
+revues,Village Justice,https://www.village-justice.com/articles/rss.php
+juridictions,Conseil d'Etat|LJA,https://www.conseil-etat.fr/rss/lja-rss
+juridictions,Conseil d'Etat|Séances,https://www.conseil-etat.fr/outils/flux-rss/seances-publiques-rss
+juridictions,Conseil Constitutionnel,https://www.conseil-constitutionnel.fr/flux/rss.xml
+juridictions,Cour de Cassation|Podcasts,https://radio.amicus-curiae.net/series/les-rendez-vous-civils/feed/
+juridictions,Cour de Cassation|Actualités,https://www.courdecassation.fr/rss.xml
+blogs,Me NEUJANICKI|Immobilier,https://www.neujanicki.com/feed/
+blogs,ONB|Notaires,https://www.onb-france.com/actualites/feed
+blogs,Me PICOVSCHI|Affaires,https://www.avocats-picovschi.com/rss/rss.xml
+blogs,Me DUCOURAU|Urbanisme,https://blog-ducourau-avocats-urbanisme.com/feed/
+blogs,Me VENIN|Assurances,https://www.mv-avocat.fr/categorie/actualites-juridiques/feed/
+blogs,Me DELOITTE|Fiscalité,https://blog.avocats.deloitte.fr/feed/
+textes officiels,AN|Séances,http://www2.assemblee-nationale.fr/feeds/detail/crs
+textes officiels,AN|Documents,http://www2.assemblee-nationale.fr/feeds/detail/documents-parlementaires   
+textes officiels,Sénat|Textes,https://www.senat.fr/rss/textes.rss
+textes officiels,Sénat|Rapports,https://www.senat.fr/rss/rapports.rss
+textes officiels,DAJ Bercy,https://www.economie.gouv.fr/daj/rss
+textes officiels,Vie Publique|Actualités,https://www.vie-publique.fr/actualites-feeds.xml
+textes officiels,Vie Publique|Lois,https://www.vie-publique.fr/lois-feeds.xml
+finance,AMF,https://www.amf-france.org/fr/flux-rss/display/21
+finance,AFT,https://www.aft.gouv.fr/fr/rss.xml
+news,INSEE|National,https://www.insee.fr/fr/flux/1
+news,INSEE|Régional,https://www.insee.fr/fr/flux/10
+news,Santé Publique France,https://www.santepubliquefrance.fr/flux-rss

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Veille Personnalisée</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Ma Veille Personnalisée</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="finance.html">Finance</a></li>
+                <li><a href="juridique.html">Juridique</a></li>
+                <li><a href="cour-cassation.html">Cour de Cassation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <section id="bloc-synthese">
+        <h2 style="color: #3498db; text-align: center; margin-bottom: 20px;">
+            🤖 Journal de Veille IA
+        </h2>
+        
+        <div id="container-synthese">
+            </div>
+    </section>
+</main>
+
+<script>
+async function chargerLaSynthese() {
+    const zone = document.getElementById('container-synthese');
+    if (!zone) return;
+
+    try {
+        // On récupère la liste des fichiers Markdown
+        const resListe = await fetch('liste_md.json'); // Utilisation du nouveau nom de fichier
+        const articles = await resListe.json();
+        
+        // On cherche le fichier qui commence par 'synthese-'
+        const info = articles.find(a => a.nom_fichier.startsWith('synthese-'));
+
+        if (!info) {
+            zone.innerHTML = "<p style='text-align:center;'>Aucun journal de veille disponible aujourd'hui.</p>";
+            return;
+        }
+
+        const reponseMD = await fetch(`markdown/${info.nom_fichier}`);
+        
+        // Gestion propre de l'encodage
+        const buffer = await reponseMD.arrayBuffer();
+        const decoder = new TextDecoder('utf-8');
+        const texteBrut = decoder.decode(buffer);
+
+        // --- GÉNÉRATION DU HTML (Identique à la Cour de Cassation) ---
+        zone.innerHTML = `
+                <span class="date" style="display: block; margin-bottom: 15px; color: #3498db; font-weight: bold;">
+                    📅 Journal du ${info.date_affichage}
+                </span>
+                <div class="article-body">
+                    ${marked.parse(texteBrut)}
+                </div>
+        `;
+
+    } catch (e) {
+        console.error("Erreur de chargement synthèse:", e);
+        zone.innerHTML = "<p style='text-align:center; color:red;'>Erreur lors de la récupération de la veille.</p>";
+    }
+}
+
+// Lancement au chargement du DOM
+document.addEventListener('DOMContentLoaded', chargerLaSynthese);
+</script>
+
+</body>
+</html>
