@@ -26,7 +26,7 @@ jobs:
         env:
           # C'est ici qu'on fait le lien entre GitHub Secret et ton Python
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
-        run: python ton_script.py  # Remplace par le nom de ton fichier
+        run: python veille.py
 
       - name: Commit and push changes
         run: |
