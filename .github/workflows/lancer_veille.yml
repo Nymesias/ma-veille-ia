@@ -1,4 +1,4 @@
-name: Update Veille RSS
+name: Update veille IA
 
 on:
   schedule:
