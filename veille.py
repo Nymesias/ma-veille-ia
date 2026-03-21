@@ -11,8 +11,6 @@ from email.mime.text import MIMEText
 from email.header import Header
 from datetime import datetime, timedelta
 
-hier = (datetime.now() - timedelta(days=1)).date().strftime('%Y-%m-%d')
-
 # --- CONFIGURATION ---
 MISTRAL_KEY = os.getenv("MISTRAL_API_KEY")
 DOSSIER_MD = "markdown"
@@ -30,7 +28,6 @@ def charger_sources():
     sources = []
     if not os.path.exists(FICHIER_SOURCES):
         return sources
-    # 'utf-8' ici est vital pour lire les noms de sites avec accents
     with open(FICHIER_SOURCES, mode='r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
@@ -38,7 +35,6 @@ def charger_sources():
     return sources
 
 def synchroniser_listes(data_rss):
-    # 'utf-8' est OBLIGATOIRE ici car le RSS contient des caractères spéciaux
     with open(FICHIER_LISTE_RSS, "w", encoding='utf-8') as f:
         json.dump(data_rss, f, indent=4, ensure_ascii=False)
 
@@ -58,71 +54,45 @@ def synchroniser_listes(data_rss):
         json.dump(liste_md, f, indent=4, ensure_ascii=False)
 
 def envoyer_synthese_par_mail(texte_markdown):
-    # 1. Récupération des réglages dans les Secrets GitHub
-    host = os.getenv("EMAIL_SMTP_SERVER")
+    host = "smtp.bookmyname.com"
     expediteur = os.getenv("EMAIL_SENDER")
     mot_de_pass = os.getenv("EMAIL_PASSWORD")
     destinataire = os.getenv("EMAIL_RECEIVER")
 
-    # 2. Conversion du Markdown en HTML (le même rendu que ton site)
-    # On ajoute un petit style CSS pour que ce soit joli dans Outlook/Gmail
-    corps_html_brut = markdown.markdown(texte_markdown)
+    if not all([expediteur, mot_de_pass, destinataire]):
+        print("⚠️ Variables d'email manquantes.")
+        return
 
+    corps_html_brut = markdown.markdown(texte_markdown)
     style_css = """
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: auto; }
-        h1, h2 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        a { color: #3498db; text-decoration: none; }
-        code { background: #f4f4f4; padding: 2px 5px; border-radius: 3px; }
-        .footer { margin-top: 30px; font-size: 0.8em; color: #888; border-top: 1px solid #eee; padding-top: 10px; }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: auto; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #eee; }
+        a { color: #3498db; }
     </style>
     """
+    html_final = f"<html><head>{style_css}</head><body>{corps_html_brut}</body></html>"
 
-    html_final = f"""
-    <html>
-        <head>{style_css}</head>
-        <body>
-            {corps_html_brut}
-            <div class="footer">
-                <p>🤖 Généré automatiquement par ton IA de veille.</p>
-                <p>Retrouve l'historique sur <a href="https://Nymesias.github.io/ma-veille-ia/">ton site de veille</a>.</p>
-            </div>
-        </body>
-    </html>
-    """
-
-    # 3. Création du mail
     msg = MIMEText(html_final, 'html', 'utf-8')
-    msg['Subject'] = f"⚖️ Veille Juridique du {date_veille}"
-    msg['From'] = os.environ["EMAIL_SENDER"]
-    msg['To'] = os.environ["EMAIL_RECEIVER"]
-
-    host = "smtp.bookmyname.com"
+    msg['Subject'] = Header(f"⚖️ Veille du {HIER}", 'utf-8')
+    msg['From'] = expediteur
+    msg['To'] = destinataire
 
     try:
-        print(f"Connexion à {host} (Port 587)...")
         with smtplib.SMTP(host, 587, timeout=30) as smtp:
-            smtp.ehlo()
             smtp.starttls()
-            print("Sécurisation TLS établie.")
-            smtp.ehlo()
-            # On utilise .strip() pour nettoyer les secrets
-            user = os.environ["EMAIL_SENDER"].strip()
-            password = os.environ["EMAIL_PASSWORD"].strip()
-            smtp.login(user, password)
-            print("Authentification réussie.")
+            smtp.login(expediteur.strip(), mot_de_pass.strip())
             smtp.send_message(msg)
-            print("Félicitations ! Mail envoyé avec succès.")
-            
+            print("✅ Mail envoyé avec succès.")
     except Exception as e:
-        print(f"Erreur d'envoi : {e}")
+        print(f"❌ Erreur mail : {e}")
 
 def main():
     sources = charger_sources()
     data_globale = {}
     contenu_pour_mistral = ""
 
-    print(f"--- 📡 Récupération (Aujourd'hui: {AUJOURDHUI} / Filtre Synthèse: {HIER}) ---")
+    print(f"--- 📡 Récupération (Aujourd'hui: {AUJOURDHUI} / Filtre: {HIER}) ---")
     
     for s in sources:
         cat_nom = s.get('categorie', 'Général').strip()
@@ -130,7 +100,7 @@ def main():
         url = s.get('url')
         if not url: continue
 
-try:
+        try:
             flux = feedparser.parse(url)
             articles_du_site = []
 
@@ -139,26 +109,16 @@ try:
                 l = entry.get('link', url)
                 
                 dt_struct = entry.get('published_parsed') or entry.get('updated_parsed')
-                
-                if dt_struct:
-                    date_art = datetime(*dt_struct[:3]).strftime('%Y-%m-%d')
-                else:
-                    date_art = AUJOURDHUI
+                date_art = datetime(*dt_struct[:3]).strftime('%Y-%m-%d') if dt_struct else AUJOURDHUI
 
-                articles_du_site.append({
-                    "t": t, 
-                    "l": l,
-                    "d": date_art 
-                })
+                articles_du_site.append({"t": t, "l": l, "d": date_art})
 
+                # FILTRAGE STRICT SUR HIER POUR L'IA
                 if date_art == HIER:
                     contenu_pour_mistral += f"[{cat_nom}] {src_name} : {t}\n"
-                    print(f"✅ Article retenu pour la synthèse : {t[:50]}...")
 
-            # --- ATTENTION : On sort de la boucle FOR ENTRY ici ---
-            # Mais on reste dans le TRY de la source
             if cat_nom not in data_globale: 
-                data_globale[cat_nom] = [] # Ajoute 4 espaces ici
+                data_globale[cat_nom] = []
             
             data_globale[cat_nom].append({"nom_site": src_name, "articles": articles_du_site})
 
@@ -167,8 +127,8 @@ try:
 
     # Synthèse Mistral
     if MISTRAL_KEY and contenu_pour_mistral:
-        print("--- 🤖 Synthèse IA ---")
-        prompt = f"Tu es un expert en veille. Voici les actus du {HIER}. Synthétise par catégories. URL + Sources entre parenthèses.\n\nACTUS :\n{contenu_pour_mistral[:10000]}"
+        print(f"--- 🤖 Synthèse IA ({contenu_pour_mistral.count(' : ')} articles de hier) ---")
+        prompt = f"Tu es un expert en veille. Voici les actus du {HIER}. Synthétise par catégories. Sources entre parenthèses.\n\nACTUS :\n{contenu_pour_mistral[:10000]}"
         try:
             r = requests.post("https://api.mistral.ai/v1/chat/completions", 
                 json={"model": "mistral-small-latest", "messages": [{"role": "user", "content": prompt}]},
@@ -176,17 +136,21 @@ try:
             
             if r.status_code == 200:
                 synthese_texte = r.json()['choices'][0]['message']['content']
-                nom_md = f"synthese-{AUJOURDHUI}.md"
-                # On écrit la synthèse en utf-8 pour accepter les emojis de Mistral
+                nom_md = f"synthese-{HIER}.md" # On nomme le fichier par la date de hier
                 with open(os.path.join(DOSSIER_MD, nom_md), "w", encoding='utf-8') as f:
                     f.write(synthese_texte)
+                
+                # ENVOI DU MAIL
+                envoyer_synthese_par_mail(synthese_texte)
             else:
                 print(f"Erreur API Mistral : {r.status_code}")
         except Exception as e: 
             print(f"Erreur Mistral: {e}")
+    else:
+        print("ℹ️ Aucun article trouvé pour hier. Pas de synthèse.")
 
     synchroniser_listes(data_globale)
-    print("✅ Fichiers JSON et Markdown mis à jour avec succès.")
+    print("✅ Fichiers mis à jour.")
 
 if __name__ == "__main__":
     main()
