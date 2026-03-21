@@ -40,12 +40,22 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull origin veille --rebase
-          git add .
           
-          if ! git diff --cached --quiet; then
+          # 1. On "cache" les fichiers générés par le script pour avoir un dossier propre
+          git add .
+          git stash
+          
+          # 2. On synchronise avec ton code (rebase)
+          git pull origin veille --rebase
+          
+          # 3. On ressort les fichiers du script
+          git stash pop || echo "Pas de changements à récupérer"
+          
+          # 4. On commit et on push
+          if ! git diff --quiet; then
+            git add .
             git commit -m "Mise à jour auto veille : $(date +'%Y-%m-%d')"
             git push origin veille
           else
-            echo "Aucune modification à enregistrer."
+            echo "Aucune modification réelle à enregistrer."
           fi
