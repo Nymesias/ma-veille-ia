@@ -1,0 +1,37 @@
+name: Update Veille RSS
+
+on:
+  schedule:
+    # S'exécute tous les jours à 8h00 UTC
+    - cron: '0 8 * * *'
+  workflow_dispatch: # Permet de lancer le script manuellement
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests feedparser
+
+      - name: Run script
+        env:
+          # C'est ici qu'on fait le lien entre GitHub Secret et ton Python
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+        run: python veille.py  # Remplace par le nom de ton fichier
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Mise à jour auto : $(date +'%Y-%m-%d')" || exit 0
+          git push
