@@ -2,10 +2,8 @@ name: Lancer Veille RSS
 
 on:
   schedule:
-    # Exécution automatique tous les jours à 08:00 UTC
     - cron: '0 8 * * *'
   workflow_dispatch:
-    # Permet de lancer le script manuellement depuis l'onglet Actions
 
 jobs:
   build:
@@ -15,7 +13,7 @@ jobs:
       - name: Checkout du dépôt
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # Récupère tout l'historique pour éviter les erreurs de push
+          fetch-depth: 0
 
       - name: Configuration de Python
         uses: actions/setup-python@v4
@@ -23,9 +21,7 @@ jobs:
           python-version: '3.9'
 
       - name: Installation des dépendances
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests feedparser markdown
+        run: pip install requests feedparser markdown
 
       - name: Exécution du script de veille
         env:
@@ -33,29 +29,25 @@ jobs:
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
-          EMAIL_SMTP_SERVER: "smtp.bookmyname.com"
-        run: python veille.py # Remplace par le nom exact de ton fichier .py
+        run: python ton_script_ia.py
 
-      - name: Commit et Push des changements
+      - name: Commit et Push des résultats
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 1. On "cache" les fichiers générés par le script pour avoir un dossier propre
-          git add .
-          git stash
-          
-          # 2. On synchronise avec ton code (rebase)
+          # On synchronise pour éviter les erreurs de push
           git pull origin veille --rebase
           
-          # 3. On ressort les fichiers du script
-          git stash pop || echo "Pas de changements à récupérer"
+          # On FORCE l'ajout des fichiers ignorés par le .gitignore
+          git add -f markdown/*.md
+          git add -f liste_md.json
+          git add -f liste_rss.json
           
-          # 4. On commit et on push
-          if ! git diff --quiet; then
-            git add .
-            git commit -m "Mise à jour auto veille : $(date +'%Y-%m-%d')"
+          # On vérifie s'il y a eu des changements avant de commit
+          if ! git diff --cached --quiet; then
+            git commit -m "🤖 Mise à jour auto : $(date +'%Y-%m-%d')"
             git push origin veille
           else
-            echo "Aucune modification réelle à enregistrer."
+            echo "Rien à mettre à jour."
           fi
