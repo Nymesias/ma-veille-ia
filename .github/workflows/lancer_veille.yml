@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-index: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout du dépôt
