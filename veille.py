@@ -52,41 +52,7 @@ def synchroniser_listes(data_rss):
     liste_md.sort(key=lambda x: x['date_tri'], reverse=True)
     with open(FICHIER_LISTE_MD, "w", encoding='utf-8') as f:
         json.dump(liste_md, f, indent=4, ensure_ascii=False)
-
-def envoyer_synthese_par_mail(texte_markdown):
-    host = "smtp.bookmyname.com"
-    expediteur = os.getenv("EMAIL_SENDER")
-    mot_de_pass = os.getenv("EMAIL_PASSWORD")
-    destinataire = os.getenv("EMAIL_RECEIVER")
-
-    if not all([expediteur, mot_de_pass, destinataire]):
-        print("⚠️ Variables d'email manquantes.")
-        return
-
-    corps_html_brut = markdown.markdown(texte_markdown)
-    style_css = """
-    <style>
-        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: auto; }
-        h2 { color: #2c3e50; border-bottom: 2px solid #eee; }
-        a { color: #3498db; }
-    </style>
-    """
-    html_final = f"<html><head>{style_css}</head><body>{corps_html_brut}</body></html>"
-
-    msg = MIMEText(html_final, 'html', 'utf-8')
-    msg['Subject'] = Header(f"⚖️ Veille du {HIER}", 'utf-8')
-    msg['From'] = expediteur
-    msg['To'] = destinataire
-
-    try:
-        with smtplib.SMTP(host, 587, timeout=30) as smtp:
-            smtp.starttls()
-            smtp.login(expediteur.strip(), mot_de_pass.strip())
-            smtp.send_message(msg)
-            print("✅ Mail envoyé avec succès.")
-    except Exception as e:
-        print(f"❌ Erreur mail : {e}")
-
+        
 def main():
     sources = charger_sources()
     data_globale = {}
@@ -154,3 +120,37 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def envoyer_synthese_par_mail(texte_markdown):
+    host = "smtp.bookmyname.com"
+    expediteur = os.getenv("EMAIL_SENDER")
+    mot_de_pass = os.getenv("EMAIL_PASSWORD")
+    destinataire = os.getenv("EMAIL_RECEIVER")
+
+    if not all([expediteur, mot_de_pass, destinataire]):
+        print("⚠️ Variables d'email manquantes.")
+        return
+
+    corps_html_brut = markdown.markdown(texte_markdown)
+    style_css = """
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: auto; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #eee; }
+        a { color: #3498db; }
+    </style>
+    """
+    html_final = f"<html><head>{style_css}</head><body>{corps_html_brut}</body></html>"
+
+    msg = MIMEText(html_final, 'html', 'utf-8')
+    msg['Subject'] = Header(f"⚖️ Veille du {HIER}", 'utf-8')
+    msg['From'] = expediteur
+    msg['To'] = destinataire
+
+    try:
+        with smtplib.SMTP(host, 587, timeout=30) as smtp:
+            smtp.starttls()
+            smtp.login(expediteur.strip(), mot_de_pass.strip())
+            smtp.send_message(msg)
+            print("✅ Mail envoyé avec succès.")
+    except Exception as e:
+        print(f"❌ Erreur mail : {e}")
