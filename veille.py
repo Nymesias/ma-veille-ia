@@ -130,7 +130,7 @@ def main():
         url = s.get('url')
         if not url: continue
 
-        try:
+try:
             flux = feedparser.parse(url)
             articles_du_site = []
 
@@ -138,23 +138,31 @@ def main():
                 t = html.unescape(entry.get('title', 'Sans titre')).strip()
                 l = entry.get('link', url)
                 
-                # RÉCUPÉRATION DE LA DATE
-                # feedparser normalise la date dans 'published' ou 'updated'
-                dt_obj = entry.get('published') or entry.get('updated_parsed')
-                date_art = datetime(*dt_obj[:3]).strftime('%Y-%m-%d') if dt_obj else AUJOURDHUI
+                dt_struct = entry.get('published_parsed') or entry.get('updated_parsed')
                 
+                if dt_struct:
+                    date_art = datetime(*dt_struct[:3]).strftime('%Y-%m-%d')
+                else:
+                    date_art = AUJOURDHUI
+
                 articles_du_site.append({
                     "t": t, 
                     "l": l,
-                    "d": date_art  # On ajoute la date ici
+                    "d": date_art 
                 })
 
                 if date_art == HIER:
                     contenu_pour_mistral += f"[{cat_nom}] {src_name} : {t}\n"
+                    print(f"✅ Article retenu pour la synthèse : {t[:50]}...")
 
-            if cat_nom not in data_globale: data_globale[cat_nom] = []
+            # --- ATTENTION : On sort de la boucle FOR ENTRY ici ---
+            # Mais on reste dans le TRY de la source
+            if cat_nom not in data_globale: 
+                data_globale[cat_nom] = [] # Ajoute 4 espaces ici
+            
             data_globale[cat_nom].append({"nom_site": src_name, "articles": articles_du_site})
-        except: Exception as e:
+
+        except Exception as e:
             print(f"Erreur flux {src_name}: {e}")
 
     # Synthèse Mistral
