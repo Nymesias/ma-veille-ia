@@ -21,60 +21,133 @@
         </nav>
     </header>
 
-<main>
-    <section id="bloc-synthese">
-        <h2 style="color: #3498db; text-align: center; margin-bottom: 20px;">
-            🤖 Journal de Veille IA
-        </h2>
-        
-        <div id="container-synthese">
+    <main>
+        <div class="tabs-bar">
+    <button id="btn-default" class="tab-btn active" onclick="piloterOnglet(this, 'jour')">Synthèse du jour</button>
+    <button class="tab-btn" onclick="piloterOnglet(this, 'archives')">Archives</button>
+        </div>
+
+        <div id="container-synthese" class="post-md" style="display: block;">
             </div>
-    </section>
-</main>
+
+        <div id="container-archives" class="archives-grid" style="display: none;">
+        </div>
+    </main>
 
 <script>
-async function chargerLaSynthese() {
-    const zone = document.getElementById('container-synthese');
-    if (!zone) return;
+// Variable globale pour stocker les données une fois chargées
+let toutesLesSyntheses = [];
+
+async function initialiserPage() {
+    const zoneJour = document.getElementById('container-synthese');
+    const zoneArchives = document.getElementById('container-archives');
+
+    // On récupère la date du jour au format YYYY-MM-DD (ex: 2026-03-21)
+    const aujourdhui = new Date().toISOString().split('T')[0];
 
     try {
-        // On récupère la liste des fichiers Markdown
-        const resListe = await fetch('liste_md.json'); // Utilisation du nouveau nom de fichier
-        const articles = await resListe.json();
+        const res = await fetch('liste_md.json');
+        const data = await res.json();
         
-        // On cherche le fichier qui commence par 'synthese-'
-        const info = articles.find(a => a.nom_fichier.startsWith('synthese-'));
+        // Toutes les synthèses triées
+        const toutesLesSyntheses = data.filter(a => a.nom_fichier.startsWith('synthese-'));
 
-        if (!info) {
-            zone.innerHTML = "<p style='text-align:center;'>Aucun journal de veille disponible aujourd'hui.</p>";
-            return;
+        // 1. FILTRAGE : On cherche la synthèse qui correspond EXACTEMENT à aujourd'hui
+        const syntheseDuJour = toutesLesSyntheses.find(s => s.date_tri === aujourdhui);
+
+        // 2. ARCHIVES : Tous les fichiers qui ne sont PAS la date d'aujourd'hui
+        const archives = toutesLesSyntheses.filter(s => s.date_tri !== aujourdhui);
+
+        // --- AFFICHAGE ONGLET JOUR ---
+        if (syntheseDuJour) {
+            chargerFichierDansZone(syntheseDuJour, zoneJour);
+        } else {
+            zoneJour.innerHTML = `
+                <div style="text-align:center; padding: 50px;">
+                    <span style="font-size: 3rem;">⏳</span>
+                    <p>Le journal du <strong>${aujourdhui}</strong> n'a pas encore été généré.</p>
+                    <p style="color: #7f8c8d; font-size: 0.9rem;">Revenez un peu plus tard ou consultez les archives.</p>
+                </div>`;
         }
 
-        const reponseMD = await fetch(`markdown/${info.nom_fichier}`);
+        window.onload = initialiserPage;
         
-        // Gestion propre de l'encodage
-        const buffer = await reponseMD.arrayBuffer();
-        const decoder = new TextDecoder('utf-8');
-        const texteBrut = decoder.decode(buffer);
-
-        // --- GÉNÉRATION DU HTML (Identique à la Cour de Cassation) ---
-        zone.innerHTML = `
-                <span class="date" style="display: block; margin-bottom: 15px; color: #3498db; font-weight: bold;">
-                    📅 Journal du ${info.date_affichage}
-                </span>
-                <div class="article-body">
-                    ${marked.parse(texteBrut)}
-                </div>
-        `;
+        // --- AFFICHAGE ONGLET ARCHIVES ---
+        zoneArchives.innerHTML = "";
+        if (archives.length === 0) {
+            zoneArchives.innerHTML = "<p style='text-align:center;'>Aucune archive disponible.</p>";
+        } else {
+            archives.forEach(info => {
+                const card = document.createElement('div');
+                card.className = 'archive-card';
+                card.innerHTML = `
+                    <div style="font-size: 1.5rem; margin-bottom:10px;">📅</div>
+                    <strong>Journal du ${info.date_affichage}</strong>
+                `;
+                card.onclick = () => {
+                    chargerFichierDansZone(info, zoneJour);
+                    // On bascule sur l'onglet lecture pour voir l'archive
+                    piloterOnglet(document.querySelector('.tab-btn'), 'jour');
+                    window.scrollTo(0, 0);
+                };
+                zoneArchives.appendChild(card);
+            });
+        }
 
     } catch (e) {
-        console.error("Erreur de chargement synthèse:", e);
-        zone.innerHTML = "<p style='text-align:center; color:red;'>Erreur lors de la récupération de la veille.</p>";
+        console.error("Erreur:", e);
+        zoneJour.innerHTML = "<p style='color:red;'>Erreur de chargement.</p>";
     }
 }
 
-// Lancement au chargement du DOM
-document.addEventListener('DOMContentLoaded', chargerLaSynthese);
+// Fonction pour piloter les onglets (Identique à ton style habituel)
+function piloterOnglet(btn, mode) {
+    // 1. Gestion visuelle des boutons (CSS)
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    const zoneJour = document.getElementById('container-synthese');
+    const zoneArchives = document.getElementById('container-archives');
+
+    if (mode === 'jour' || mode === 'Synthèse du jour') {
+        zoneJour.style.display = 'block';
+        zoneArchives.style.display = 'none';
+        
+        // Optionnel : Si la zone est vide (ex: après une erreur), on relance le chargement du dernier journal
+        if (zoneJour.innerHTML.includes("Chargement") && toutesLesSyntheses.length > 0) {
+            const aujourdhui = new Date().toISOString().split('T')[0];
+            const duJour = toutesLesSyntheses.find(s => s.date_tri === aujourdhui);
+            if (duJour) chargerFichierDansZone(duJour, zoneJour);
+        }
+    } else {
+        zoneJour.style.display = 'none';
+        zoneArchives.style.display = 'grid';
+    }
+}
+
+// Fonction utilitaire pour lire le Markdown
+async function chargerFichierDansZone(info, zone) {
+    try {
+        const reponse = await fetch(`markdown/${info.nom_fichier}`);
+        const buffer = await reponse.arrayBuffer();
+        const decoder = new TextDecoder('utf-8');
+        const texteBrut = decoder.decode(buffer);
+
+        zone.innerHTML = `
+            <span class="date">📅 Journal du ${info.date_affichage}</span>
+            <div class="article-body">
+                ${marked.parse(texteBrut)}
+            </div>
+        `;
+    } catch (e) {
+        zone.innerHTML = "<p>Erreur de lecture du fichier.</p>";
+    }
+}
+
+// Lancement au chargement
+window.onload = async () => {
+    await initialiserPage(); 
+};
 </script>
 
 </body>
