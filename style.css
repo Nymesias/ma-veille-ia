@@ -244,3 +244,21 @@ mark {
 .date-rss::first-letter {
     text-transform: uppercase;
 }
+
+/* Style de base des boutons de tri */
+.btn-tri {
+    background-color: white;
+    color: #3498db;
+    border: 2px solid #3498db;
+    padding: 8px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* LE BOUTON DEVIENT BLEU QUAND IL A LA CLASSE ACTIVE */
+.btn-tri.active {
+    background-color: #3498db !important;
+    color: white !important;
+}

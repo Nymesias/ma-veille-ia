@@ -5,6 +5,24 @@
     <title>Ma Veille - News</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        /* Styles pour les boutons de tri (identiques aux autres pages) */
+        .btn-tri { 
+            background-color: #fff !important; 
+            border: 1px solid #3498db !important; 
+            color: #3498db !important; 
+            padding: 5px 15px; 
+            border-radius: 20px; 
+            cursor: pointer; 
+            transition: 0.3s;
+            font-size: 0.85em;
+            margin-left: 5px;
+        }
+        .btn-tri.active { 
+            background-color: #3498db !important; 
+            color: #fff !important; 
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -26,6 +44,12 @@
             <button class="tab-btn" onclick="basculerOngletNews(this, 'RSS', 'news')">Flux RSS</button>
         </div>
         
+        <div id="barre-tri-news" style="text-align: right; margin-bottom: 20px; display: none;">
+            <span style="font-size: 0.8em; color: #666;">Trier par : </span>
+            <button onclick="changerTriNews('date')" id="btn-date" class="btn-tri active">🕒 Date</button>
+            <button onclick="changerTriNews('source')" id="btn-source" class="btn-tri">🏢 Source</button>
+        </div>
+
         <div id="news-content">
             <p style="text-align:center;">Initialisation...</p>
         </div>
@@ -33,39 +57,56 @@
 
     <script src="rss-reader.js"></script>
     <script>
-        // Fonction spécifique pour la page News
-        async function basculerOngletNews(btn, type, param) {
-            // 1. Gestion visuelle des boutons
-            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            
-            const zone = document.getElementById('news-content');
-            zone.innerHTML = "<p style='text-align:center;'>Chargement en cours...</p>";
+    let modeTriNews = 'date'; // Utilise bien cette variable partout sur la page
 
-            if (type === 'MD') {
-                // MODE TEXTE (Pas de grille)
-                zone.className = "lecture-md"; 
-                await chargerMarkdown(param, 'news-content');
-            } else {
-                // MODE GRILLE (Comme juridique)
-                zone.className = "grille-veille"; 
-                await chargerFluxRSS(param, 'news-content');
-            }
+    async function basculerOngletNews(btn, type, param) {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        const zone = document.getElementById('news-content');
+        const barreTri = document.getElementById('barre-tri-news');
+        zone.innerHTML = "<p style='text-align:center;'>Chargement en cours...</p>";
+
+        if (type === 'MD') {
+            if(barreTri) barreTri.style.display = 'none';
+            zone.className = "lecture-md"; 
+            await chargerMarkdown(param, 'news-content');
+        } else {
+            if(barreTri) barreTri.style.display = 'block';
+            zone.className = "grille-veille"; 
+            // On utilise la variable de tri mémorisée
+            await chargerFluxRSS(param, 'news-content', modeTriNews);
+        }
+    }
+
+    async function changerTriNews(mode) {
+        console.log("Mode cliqué News :", mode);
+        modeTriNews = mode; // Correction ici : on met à jour la bonne variable
+
+        const btnDate = document.getElementById('btn-date');
+        const btnSource = document.getElementById('btn-source');
+
+        if (mode === 'date') {
+            btnDate.classList.add('active');
+            btnSource.classList.remove('active');
+        } else {
+            btnSource.classList.add('active');
+            btnDate.classList.remove('active');
         }
 
-        // Chargement automatique au démarrage
-        window.onload = async () => {
-            // On s'assure que les données RSS sont prêtes
-            if (typeof initialiserProjet === "function") {
-                await initialiserProjet();
-            }
-            
-            // On force l'affichage du premier onglet (Comptes-rendus)
-            const btnInitial = document.querySelector('.tab-btn.active');
-            if (btnInitial) {
-                await basculerOngletNews(btnInitial, 'MD', 'news');
-            }
-        };
-    </script>
+        // Appel au chargeur : vérifie que 'news' est bien la clé dans ton JSON
+        await chargerFluxRSS('news', 'news-content', mode);
+    }
+
+    window.onload = async () => {
+        if (typeof initialiserProjet === "function") {
+            await initialiserProjet();
+        }
+        const btnInitial = document.querySelector('.tab-btn.active');
+        if (btnInitial) {
+            await basculerOngletNews(btnInitial, 'MD', 'news');
+        }
+    };
+</script>
 </body>
 </html>

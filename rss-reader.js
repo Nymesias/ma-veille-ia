@@ -24,16 +24,18 @@ async function initialiserProjet() {
     }
 }
 
-async function chargerFluxRSS(nomCategorie, idContainer) {
+// On ajoute le paramètre "modeTri" avec une valeur par défaut
+async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date') {
     const container = document.getElementById(idContainer);
     if (!container) return;
 
-    container.innerHTML = "<p>Chargement des flux...</p>";
+    container.innerHTML = "<p style='text-align:center;'>Chargement des flux...</p>";
 
     if (!rssData) {
         await initialiserProjet();
     }
 
+    // Recherche de la catégorie dans le JSON
     const cleReelle = Object.keys(rssData).find(
         k => k.trim().toLowerCase() === nomCategorie.trim().toLowerCase()
     );
@@ -45,19 +47,36 @@ async function chargerFluxRSS(nomCategorie, idContainer) {
         return;
     }
 
-    let htmlContenu = "";
+    // --- ÉTAPE CLÉ : ON REGROUPE TOUT POUR TRIER ---
+    let tousLesArticles = [];
     sources.forEach(source => {
         source.articles.forEach(art => {
-            // --- ON UTILISE LA NOUVELLE FONCTION ICI ---
-            const dateAffichage = formaterDateEnFrancais(art.d);
-
-            htmlContenu += `
-                <article class="post-veille">
-                    <span class="badge-site">${source.nom_site}</span>
-                    <h3><a href="${art.l}" target="_blank">${art.t}</a></h3>
-                    <p class="date-rss">📅 ${dateAffichage}</p> 
-                </article>`;
+            tousLesArticles.push({
+                ...art,
+                nom_site: source.nom_site // On attache le nom du site à l'article
+            });
         });
+    });
+
+    // --- LOGIQUE DE TRI ---
+    if (modeTri === 'date') {
+        // Tri par date (plus récent en haut)
+        tousLesArticles.sort((a, b) => new Date(b.d) - new Date(a.d));
+    } else {
+        // Tri par Source (A-Z) puis par date
+        tousLesArticles.sort((a, b) => a.nom_site.localeCompare(b.nom_site) || new Date(b.d) - new Date(a.d));
+    }
+
+    // --- AFFICHAGE FINAL ---
+    let htmlContenu = "";
+    tousLesArticles.forEach(art => {
+        const dateAffichage = formaterDateEnFrancais(art.d);
+        htmlContenu += `
+            <article class="post-veille">
+                <span class="badge-site">${art.nom_site}</span>
+                <h3><a href="${art.l}" target="_blank">${art.t}</a></h3>
+                <p class="date-rss">📅 ${dateAffichage}</p> 
+            </article>`;
     });
 
     container.innerHTML = htmlContenu;

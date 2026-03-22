@@ -131,7 +131,7 @@ def envoyer_synthese_par_mail(texte_markdown):
             <table>
                 <tr>
                     <td>
-                        <h1>⚖️ Ma Veille IA Quotidienne</h1>
+                        <h1>🤖 Ma Veille IA Quotidienne</h1>
                     </td>
                 </tr>
                 <tr>

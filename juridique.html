@@ -7,7 +7,8 @@
 </head>
 <body>
     <header>
-        <h1>Veille spécialisée</h1> <nav>
+        <h1>Veille spécialisée</h1> 
+        <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="news.html">News</a></li>
@@ -26,6 +27,12 @@
             <button class="tab-btn" onclick="piloterOnglet(this, 'Juridictions')">Juridictions</button>
         </div>
 
+        <div style="text-align: right; margin-bottom: 20px;">
+            <span style="font-size: 0.8em; color: #666;">Trier par : </span>
+            <button onclick="changerTriJuridique('date')" id="btn-date" class="btn-tri active">🕒 Date</button>
+            <button onclick="changerTriJuridique('source')" id="btn-source" class="btn-tri">🏢 Source</button>
+        </div>
+
         <div id="juridique-content" class="grille-veille">
             <p>Initialisation des flux...</p>
         </div>
@@ -33,27 +40,51 @@
 
 <script src="rss-reader.js"></script>
 <script>
-    // --- 1. NAVIGATION ENTRE ONGLETS ---
+    // --- VARIABLES D'ÉTAT ---
+    // On garde en mémoire l'onglet et le tri choisis par l'utilisateur
+    let ongletActif = 'Textes Officiels'; 
+    let triActuel = 'date';
+
+    // --- FONCTION POUR LES ONGLETS (Textes, Revues, Blogs...) ---
     async function piloterOnglet(btn, categorie) {
+        // 1. Mise à jour visuelle des onglets
         document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         
-        const container = document.getElementById('juridique-content');
-        container.innerHTML = `<p>Chargement de ${categorie}...</p>`;
+        // 2. Mise à jour de l'état
+        ongletActif = categorie;
         
-        if (typeof chargerFluxRSS === "function") {
-            await chargerFluxRSS(categorie, 'juridique-content');
-        }
+        // 3. Chargement des données de CET onglet avec le tri ACTUEL
+        console.log(`Chargement de ${ongletActif} trié par ${triActuel}`);
+        await chargerFluxRSS(ongletActif, 'juridique-content', triActuel);
     }
 
-    // --- 2. DÉMARRAGE ---
+    // --- FONCTION POUR LES BOUTONS DE TRI (Date, Source) ---
+    async function changerTriJuridique(mode) {
+        // 1. Mise à jour de l'état
+        console.log("Mode cliqué :", mode); // Vérifie si ça s'affiche dans la console (F12)
+    triActuel = mode;
+
+    const btnDate = document.getElementById('btn-date');
+    const btnSource = document.getElementById('btn-source');
+
+    if (mode === 'date') {
+        btnDate.classList.add('active');
+        btnSource.classList.remove('active');
+    } else {
+        btnSource.classList.add('active');
+        btnDate.classList.remove('active');
+    }
+
+    await chargerFluxRSS(ongletActif, 'juridique-content', mode);
+}
+
+    // --- DÉMARRAGE ---
     window.onload = async () => {
-        if (typeof initialiserProjet === "function") {
-            await initialiserProjet();
-        }
-        if (typeof chargerFluxRSS === "function") {
-            await chargerFluxRSS('Textes Officiels', 'juridique-content');
-        }
+        // On initialise le projet (chargement du JSON)
+        await initialiserProjet();
+        // On affiche le premier onglet par défaut (trié par date)
+        await chargerFluxRSS(ongletActif, 'juridique-content', 'date');
     };
 </script>
 </body>
