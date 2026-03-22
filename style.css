@@ -186,3 +186,47 @@ mark {
     .archives-sidebar { width: 100%; height: 250px; border-right: none; border-bottom: 1px solid #eee; }
     .tabs-bar { flex-direction: column; }
 }
+
+/* --- GRILLE RSS (RÉTABLISSEMENT) --- */
+/* C'est ce qui affiche tes cartes Juridique, Finance, News */
+.grille-veille { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px; 
+    padding: 20px 0;
+    width: 100%;
+}
+
+.post-veille { 
+    background: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); 
+    border-top: 4px solid #3498db; /* Bordure Bleue en HAUT pour le RSS */
+    display: flex; 
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+    min-height: 150px;
+}
+
+.post-veille:hover { 
+    transform: translateY(-3px); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+.post-veille h3 { 
+    font-size: 1rem; 
+    margin: 10px 0; 
+    line-height: 1.4; 
+}
+
+.post-veille h3 a { 
+    text-decoration: none; 
+    color: #2c3e50; 
+}
+
+/* --- LOGIQUE D'AFFICHAGE (JS) --- */
+/* On s'assure que les conteneurs de flux RSS utilisent bien la grille */
+#container-juridique, #container-finance, #container-news {
+    display: none; /* Sera passé en 'grid' par le JS */
+}
