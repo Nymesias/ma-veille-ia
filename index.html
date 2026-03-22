@@ -23,42 +23,52 @@
 
     <main>
         <div class="tabs-bar">
-    <button id="btn-default" class="tab-btn active" onclick="piloterOnglet(this, 'jour')">Synthèse du jour</button>
-    <button class="tab-btn" onclick="piloterOnglet(this, 'archives')">Archives</button>
+            <button id="btn-default" class="tab-btn active" onclick="piloterOnglet(this, 'jour')">Synthèse du jour</button>
+            <button class="tab-btn" onclick="piloterOnglet(this, 'archives')">Archives</button>
         </div>
 
-        <div id="container-synthese" class="post-md" style="display: block;">
+        <div id="container-synthese" class="tab-content post-md">
             </div>
 
-        <div id="container-archives" class="archives-grid" style="display: none;">
+        <div id="container-archives" class="tab-content" style="display: none;">
+            <div class="archives-layout">
+                <div class="archives-sidebar">
+                    <div class="search-box">
+                        <input type="text" id="archiveSearch" placeholder="Rechercher..." onkeyup="filtrerArchives()">
+                    </div>
+                    <div id="archives-list" class="archives-list">
+                        </div>
+                </div>
+
+                <div class="archives-viewer" id="viewer-md">
+                    <div class="viewer-placeholder">
+                        <span style="font-size: 3rem;">📖</span>
+                        <p>Sélectionnez un journal dans la liste pour le lire</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
 <script>
-// Variable globale pour stocker les données une fois chargées
+
 let toutesLesSyntheses = [];
+let cacheContenu = {};
 
 async function initialiserPage() {
     const zoneJour = document.getElementById('container-synthese');
-    const zoneArchives = document.getElementById('container-archives');
-
-    // On récupère la date du jour au format YYYY-MM-DD (ex: 2026-03-21)
+    const listeArchives = document.getElementById('archives-list');
     const aujourdhui = new Date().toISOString().split('T')[0];
 
     try {
         const res = await fetch('liste_md.json');
         const data = await res.json();
         
-        // Toutes les synthèses triées
-        const toutesLesSyntheses = data.filter(a => a.nom_fichier.startsWith('synthese-'));
+        // On stocke globalement pour les filtres
+        toutesLesSyntheses = data.filter(a => a.nom_fichier.startsWith('synthese-'));
 
-        // 1. FILTRAGE : On cherche la synthèse qui correspond EXACTEMENT à aujourd'hui
+        // 1. GESTION DU JOUR
         const syntheseDuJour = toutesLesSyntheses.find(s => s.date_tri === aujourdhui);
-
-        // 2. ARCHIVES : Tous les fichiers qui ne sont PAS la date d'aujourd'hui
-        const archives = toutesLesSyntheses.filter(s => s.date_tri !== aujourdhui);
-
-        // --- AFFICHAGE ONGLET JOUR ---
         if (syntheseDuJour) {
             chargerFichierDansZone(syntheseDuJour, zoneJour);
         } else {
@@ -66,88 +76,147 @@ async function initialiserPage() {
                 <div style="text-align:center; padding: 50px;">
                     <span style="font-size: 3rem;">⏳</span>
                     <p>Le journal du <strong>${aujourdhui}</strong> n'a pas encore été généré.</p>
-                    <p style="color: #7f8c8d; font-size: 0.9rem;">Revenez un peu plus tard ou consultez les archives.</p>
                 </div>`;
         }
 
-        window.onload = initialiserPage;
+        // 2. GESTION DE LA LISTE DES ARCHIVES (Colonne gauche)
+        // On exclut le jour même de la liste des archives pour éviter les doublons
+        const archives = toutesLesSyntheses.filter(s => s.date_tri !== aujourdhui);
         
-        // --- AFFICHAGE ONGLET ARCHIVES ---
-        zoneArchives.innerHTML = "";
+        listeArchives.innerHTML = "";
         if (archives.length === 0) {
-            zoneArchives.innerHTML = "<p style='text-align:center;'>Aucune archive disponible.</p>";
+            listeArchives.innerHTML = "<p style='padding:15px; font-size:0.8rem;'>Aucune archive.</p>";
         } else {
             archives.forEach(info => {
-                const card = document.createElement('div');
-                card.className = 'archive-card';
-                card.innerHTML = `
-                    <div style="font-size: 1.5rem; margin-bottom:10px;">📅</div>
-                    <strong>Journal du ${info.date_affichage}</strong>
-                `;
-                card.onclick = () => {
-                    chargerFichierDansZone(info, zoneJour);
-                    // On bascule sur l'onglet lecture pour voir l'archive
-                    piloterOnglet(document.querySelector('.tab-btn'), 'jour');
-                    window.scrollTo(0, 0);
-                };
-                zoneArchives.appendChild(card);
+                const item = document.createElement('div');
+                item.className = 'archive-item';
+                item.innerHTML = `<strong>Journal du ${info.date_affichage}</strong>`;
+                
+                // Au clic, on lit dans le viewer de droite
+                item.onclick = () => lireDansViewer(info, item);
+                
+                listeArchives.appendChild(item);
             });
         }
 
     } catch (e) {
         console.error("Erreur:", e);
-        zoneJour.innerHTML = "<p style='color:red;'>Erreur de chargement.</p>";
+        zoneJour.innerHTML = "<p style='color:red; text-align:center;'>Erreur de chargement des données.</p>";
     }
 }
 
-// Fonction pour piloter les onglets (Identique à ton style habituel)
+async function lireDansViewer(info, elementClique) {
+    const viewer = document.getElementById('viewer-md');
+    const query = document.getElementById('archiveSearch').value.trim();
+    
+    document.querySelectorAll('.archive-item').forEach(el => el.classList.remove('active'));
+    elementClique.classList.add('active');
+
+    let texteBrut = cacheContenu[info.nom_fichier] || "";
+    if (!texteBrut) {
+        const res = await fetch(`markdown/${info.nom_fichier}`);
+        texteBrut = await res.text();
+        cacheContenu[info.nom_fichier] = texteBrut;
+    }
+    
+    let htmlRendu = marked.parse(texteBrut);
+
+    if (query.length > 2) {
+        // On entoure le mot clé avec un ID pour le scroll : id="match-focus"
+        const regex = new RegExp(`(${query})`, 'gi');
+        htmlRendu = htmlRendu.replace(regex, '<mark id="match-focus">$1</mark>');
+    }
+
+    viewer.innerHTML = `
+        <div class="post-md" style="box-shadow:none; border:none; padding:0; margin:0;">
+            <span class="date">📅 Journal du ${info.date_affichage}</span>
+            <div class="article-body">${htmlRendu}</div>
+        </div>
+    `;
+
+    // --- LOGIQUE DE SCROLL À LA LIGNE ---
+    const premierMatch = viewer.querySelector('#match-focus');
+    if (premierMatch) {
+        // On attend un tout petit peu que le rendu HTML soit fini
+        setTimeout(() => {
+            premierMatch.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 50);
+    } else {
+        viewer.scrollTop = 0;
+    }
+}
+
+// Variable pour stocker le contenu des fichiers déjà chargés en cache 
+// pour ne pas les re-télécharger à chaque lettre tapée
+async function filtrerArchives() {
+    const input = document.getElementById('archiveSearch');
+    const query = input.value.toLowerCase().trim();
+    const items = document.querySelectorAll('.archive-item');
+    const aujourdhui = new Date().toISOString().split('T')[0];
+    const archivesData = toutesLesSyntheses.filter(s => s.date_tri !== aujourdhui);
+
+    // --- RÉINITIALISATION : Si le champ est vide ou < 3 lettres ---
+    if (query.length < 3) {
+        items.forEach(item => item.style.display = "block");
+        return; // On arrête là pour ne pas lancer de fetch inutiles
+    }
+
+    // --- RECHERCHE MULTI-ARTICLES ---
+    for (let i = 0; i < items.length; i++) {
+        const item = items[i];
+        const info = archivesData[i];
+        if (!info) continue;
+
+        // Charger dans le cache si nécessaire
+        if (!cacheContenu[info.nom_fichier]) {
+            try {
+                const res = await fetch(`markdown/${info.nom_fichier}`);
+                cacheContenu[info.nom_fichier] = await res.text();
+            } catch (e) { continue; }
+        }
+
+        const texteComplet = cacheContenu[info.nom_fichier].toLowerCase();
+
+        // On affiche l'item si le mot est dans la DATE ou dans le CONTENU
+        if (texteComplet.includes(query) || item.textContent.toLowerCase().includes(query)) {
+            item.style.display = "block";
+        } else {
+            item.style.display = "none";
+        }
+    }
+}
+
 function piloterOnglet(btn, mode) {
-    // 1. Gestion visuelle des boutons (CSS)
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
 
     const zoneJour = document.getElementById('container-synthese');
     const zoneArchives = document.getElementById('container-archives');
 
-    if (mode === 'jour' || mode === 'Synthèse du jour') {
+    if (mode === 'jour') {
         zoneJour.style.display = 'block';
         zoneArchives.style.display = 'none';
-        
-        // Optionnel : Si la zone est vide (ex: après une erreur), on relance le chargement du dernier journal
-        if (zoneJour.innerHTML.includes("Chargement") && toutesLesSyntheses.length > 0) {
-            const aujourdhui = new Date().toISOString().split('T')[0];
-            const duJour = toutesLesSyntheses.find(s => s.date_tri === aujourdhui);
-            if (duJour) chargerFichierDansZone(duJour, zoneJour);
-        }
     } else {
         zoneJour.style.display = 'none';
-        zoneArchives.style.display = 'grid';
+        zoneArchives.style.display = 'flex'; // Utiliser flex pour le layout split
     }
 }
 
-// Fonction utilitaire pour lire le Markdown
 async function chargerFichierDansZone(info, zone) {
     try {
         const reponse = await fetch(`markdown/${info.nom_fichier}`);
         const buffer = await reponse.arrayBuffer();
-        const decoder = new TextDecoder('utf-8');
-        const texteBrut = decoder.decode(buffer);
-
+        const texteBrut = new TextDecoder('utf-8').decode(buffer);
         zone.innerHTML = `
             <span class="date">📅 Journal du ${info.date_affichage}</span>
-            <div class="article-body">
-                ${marked.parse(texteBrut)}
-            </div>
+            <div class="article-body">${marked.parse(texteBrut)}</div>
         `;
     } catch (e) {
         zone.innerHTML = "<p>Erreur de lecture du fichier.</p>";
     }
 }
 
-// Lancement au chargement
-window.onload = async () => {
-    await initialiserPage(); 
-};
+window.onload = initialiserPage;
 </script>
 
 </body>
