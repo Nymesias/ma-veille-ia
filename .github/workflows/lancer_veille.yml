@@ -33,18 +33,19 @@ jobs:
 
       - name: Sauvegarder les résultats sur GitHub
         run: |
-          # 1. Configurer l'identité du bot
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 2. Ajouter les nouveaux fichiers (synthèses et JSON)
+          # 1. On force l'ajout des fichiers de données
           git add markdown/ liste_md.json liste_rss.json
           
-          # 3. On vérifie s'il y a des changements avant de commit
-          # (évite l'erreur "nothing to commit" qui fait planter l'action)
+          # 2. On commit seulement s'il y a des changements
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Mise à jour automatique de la veille 🤖"
-            git push
+            
+            # 3. LE PUSH FORCÉ : On envoie vers le dépôt sans faire de pull.
+            # Cela écrase la version distante par celle que le robot vient de créer.
+            git push origin veille --force
           else
             echo "Aucun changement détecté, rien à sauvegarder."
           fi
