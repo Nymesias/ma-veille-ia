@@ -171,7 +171,7 @@ def envoyer_synthese_par_mail(texte_markdown):
 
 def main():
     sources = charger_sources()
-    # On crée un dictionnaire pour trier par catégorie avant l'IA
+    data_globale = {}
     articles_par_categorie = {} 
     contenu_pour_mistral = ""
 
@@ -193,6 +193,8 @@ def main():
                 dt_struct = entry.get('published_parsed') or entry.get('updated_parsed')
                 date_art = datetime(*dt_struct[:3]).strftime('%Y-%m-%d') if dt_struct else AUJOURDHUI
 
+                articles_du_site.append({"t": t, "l": l, "d": date_art})
+
                 # FILTRAGE STRICT SUR HIER
                 if date_art == HIER:
                     if cat_nom not in articles_par_categorie:
@@ -200,6 +202,11 @@ def main():
                     
                     # On stocke l'article dans sa boîte catégorie
                     articles_par_categorie[cat_nom].append(f"{src_name} : {t} (Lien: {l})")
+            
+            # On enregistre les données pour synchroniser_listes       
+            if cat_nom not in data_globale: 
+                data_globale[cat_nom] = []
+            data_globale[cat_nom].append({"nom_site": src_name, "articles": articles_du_site})
 
         except Exception as e:
             print(f"Erreur flux {src_name}: {e}")
@@ -207,7 +214,7 @@ def main():
     # --- CONSTRUCTION DU TEXTE POUR MISTRAL ---
     for categorie, liste_articles in articles_par_categorie.items():
         contenu_pour_mistral += f"\n### CATÉGORIE : {categorie} ###\n"
-        # On limite par exemple à 10 articles par catégorie pour l'IA
+        # On limite par exemple à 3 articles par catégorie pour l'IA
         for art in liste_articles[:3]: 
             contenu_pour_mistral += f"- {art}\n"
 
@@ -221,8 +228,11 @@ def main():
         print(f"--- 🤖 Synthèse IA ({contenu_pour_mistral.count(' : ')} articles de hier) ---")
         
         # Préparation du prompt (on peut ajouter une consigne de brièveté ici)
-        prompt = f"Tu es un expert en veille. Voici les actus du {HIER}. Synthétise par catégories de manière concise. Cite tes sources et inclue les liens [Lire l'article](URL).\n\nACTUS :\n{contenu_pour_mistral[:10000]}"
-        
+        prompt = (
+         f"Tu es un expert en veille. Voici les actus du {HIER} classées par catégories. Synthétise chaque catégorie séparément, sans en oublier une seule. Cite tes sources et inclue les liens [Lire l'article](URL).\n\nACTUS :\n{contenu_pour_mistral[:10000]}"
+         f"DONNÉES :\n{contenu_pour_mistral[:12000]}"
+       )
+
         try:
             # Appel API avec limitation des tokens et température
             r = requests.post(
