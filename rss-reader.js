@@ -100,7 +100,7 @@ async function chargerMarkdown(motCle, idContainer) {
                 const text = await mdRes.text();
                 container.innerHTML += `
                     <article class="post-md">
-                        <small>Analyse du ${item.date_affichage}</small>
+                        <small>Publiée le ${item.date_affichage}</small>
                         <div>${marked.parse(text)}</div>
                     </article>`;
             }

@@ -86,17 +86,25 @@ def envoyer_synthese_par_mail(texte_markdown):
 
     style_css = """
     <style>
-        body { margin: 0; padding: 0; background-color: #f4f7f6; font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
-        .wrapper { width: 100%; table-layout: fixed; background-color: #f4f7f6; padding-bottom: 40px; }
-        .main { background-color: #ffffff; margin: 0 auto; width: 100%; max-width: 600px; border-spacing: 0; color: #333333; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
-        .header { background-color: #2c3e50; padding: 30px; text-align: center; color: #ffffff; }
-        .header h1 { margin: 0; font-size: 24px; font-weight: 300; letter-spacing: 1px; }
-        .content { padding: 30px; line-height: 1.6; font-size: 16px; }
-        .content h2 { color: #2c3e50; border-bottom: 2px solid #ecf0f1; padding-bottom: 10px; margin-top: 25px; }
-        .content a { color: #3498db; text-decoration: none; font-weight: bold; }
-        .button-container { text-align: center; padding: 20px 0; }
-        .button { background-color: #3498db; color: #ffffff !important; padding: 12px 25px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block; }
-        .footer { text-align: center; padding: 20px; font-size: 12px; color: #7f8c8d; }
+        body { background-color: #f9f9f9; font-family: 'Segoe UI', Arial, sans-serif; color: #333; margin: 0; padding: 20px; }
+        .container { max-width: 650px; margin: 0 auto; }
+        .header { text-align: center; padding-bottom: 20px; border-bottom: 1px solid #eee; margin-bottom: 20px; }
+        
+        /* Style .post du site */
+        .post-veille { 
+            background: #ffffff; 
+            border-left: 5px solid #3498db; /* La fameuse bordure bleue */
+            padding: 20px; 
+            margin-bottom: 25px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-radius: 3px;
+        }
+        
+        h2 { color: #2c3e50; font-size: 20px; margin-top: 0; }
+        p { line-height: 1.6; margin: 10px 0; }
+        a { color: #3498db; text-decoration: none; font-weight: bold; }
+        
+        .footer { text-align: center; font-size: 12px; color: #999; margin-top: 30px; }
     </style>
     """
 
@@ -104,35 +112,23 @@ def envoyer_synthese_par_mail(texte_markdown):
     <html>
     <head>{style_css}</head>
     <body>
-        <div class="wrapper">
-            <table class="main">
-                <tr>
-                    <td class="header">
-                        <h1>⚖️ Ma Veille Quotidienne</h1>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="content">
-                        <p>Bonjour,</p>
-                        <p>Voici l'essentiel de l'actualité IA pour la journée du <strong>{HIER}</strong> :</p>
-                        {corps_html_brut}
-                        <div class="button-container">
-                            <a href="{url_site}" class="button">Consulter l'archive sur le site</a>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="footer">
-                        Généré automatiquement par Mistral IA • {AUJOURDHUI}<br>
-
-                    </td>
-                </tr>
-            </table>
+        <div class="container">
+            <div class="header">
+                <h1 style="color: #2c3e50;">⚖️ Votre Veille IA</h1>
+            </div>
+            <div class="post-veille">
+                {corps_html_brut}
+            </div>
+            <p style="text-align:center;">
+                <a href="{url_site}" style="background:#3498db; color:#fff; padding:10px 20px; border-radius:5px; display:inline-block;">Voir sur le site</a>
+            </p>
+            <div class="footer">
+                Publié le {datetime.now().strftime('%d/%m/%Y')}
+            </div>
         </div>
     </body>
     </html>
     """
-    html_final = f"<html><head>{style_css}</head><body>{corps_html_brut}</body></html>"
 
     msg = MIMEText(html_final, 'html', 'utf-8')
     msg['Subject'] = Header(f"⚖️ Veille du {HIER}", 'utf-8')
@@ -189,7 +185,9 @@ def main():
     # Synthèse Mistral
     if MISTRAL_KEY and contenu_pour_mistral:
         print(f"--- 🤖 Synthèse IA ({contenu_pour_mistral.count(' : ')} articles de hier) ---")
-        prompt = f"Tu es un expert en veille. Voici les actus du {HIER}. Fais un résumé de ces actualités par thématiques pour être exhaustif mais concis à chaque fois. Cite la source à chaque fois. \n\nACTUS :\n{contenu_pour_mistral[:10000]}"
+        prompt = f"Tu es un expert en veille. Voici les actus du {HIER}. Synthétise par catégories.
+        Cite la source à chaque fois. \n\nACTUS :\n{contenu_pour_mistral[:10000]}"
+
         try:
             r = requests.post("https://api.mistral.ai/v1/chat/completions", 
                 json={"model": "mistral-small-latest", "messages": [{"role": "user", "content": prompt}]},
