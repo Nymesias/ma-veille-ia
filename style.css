@@ -197,16 +197,17 @@ mark {
     width: 100%;
 }
 
-.post-veille { 
-    background: white; 
-    padding: 20px; 
-    border-radius: 8px; 
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08); 
-    border-top: 4px solid #3498db; /* Bordure Bleue en HAUT pour le RSS */
-    display: flex; 
+.post-veille {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border-top: 4px solid #3498db;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    
+    /* --- Les 3 lignes magiques --- */
+    display: flex;
     flex-direction: column;
-    transition: transform 0.2s, box-shadow 0.2s;
-    min-height: 150px;
+    min-height: 180px; /* Optionnel : donne une hauteur homogène aux cartes */
 }
 
 .post-veille:hover { 
@@ -214,10 +215,9 @@ mark {
     box-shadow: 0 5px 15px rgba(0,0,0,0.12);
 }
 
-.post-veille h3 { 
-    font-size: 1rem; 
-    margin: 10px 0; 
-    line-height: 1.4; 
+.post-veille h3 {
+    flex-grow: 0; /* Le titre ne prend que la place nécessaire */
+    margin-bottom: 15px;
 }
 
 .post-veille h3 a { 
@@ -229,4 +229,18 @@ mark {
 /* On s'assure que les conteneurs de flux RSS utilisent bien la grille */
 #container-juridique, #container-finance, #container-news {
     display: none; /* Sera passé en 'grid' par le JS */
+}
+
+.date-rss {
+    display: block;
+    margin-top: auto;   /* <--- C'est CA qui pousse la date tout en bas */
+    text-align: right;  /* Aligne le texte à droite */
+    font-size: 0.75rem;
+    color: #95a5a6;
+    font-weight: 500;
+}
+
+/* Optionnel : mettre la première lettre en majuscule (ex: Mars) */
+.date-rss::first-letter {
+    text-transform: uppercase;
 }

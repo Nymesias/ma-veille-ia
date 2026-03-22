@@ -31,20 +31,20 @@ jobs:
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
         run: python veille.py
 
-      - name: Commit et Push
+      - name: Sauvegarder les résultats sur GitHub
         run: |
+          # 1. Configurer l'identité du bot
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # On récupère les modifs pour être sûr d'être à jour
-          git pull origin veille --rebase
+          # 2. Ajouter les nouveaux fichiers (synthèses et JSON)
+          git add markdown/ liste_md.json liste_rss.json
           
-          # On ajoute les modifs des JSON et des nouveaux MD
-          git add -f liste_md.json liste_rss.json markdown/*.md
-          
-          if ! git diff --cached --quiet; then
-            git commit -m "🤖 Mise à jour des archives : $(date +'%Y-%m-%d')"
-            git push origin veille
+          # 3. On vérifie s'il y a des changements avant de commit
+          # (évite l'erreur "nothing to commit" qui fait planter l'action)
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Mise à jour automatique de la veille 🤖"
+            git push
           else
-            echo "Aucun changement détecté."
+            echo "Aucun changement détecté, rien à sauvegarder."
           fi
