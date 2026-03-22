@@ -1,28 +1,39 @@
-name: Lancer Veille RSS
+name: Ma Veille IA Quotidienne
 
 on:
   schedule:
-    - cron: '0 8 * * *'
-  workflow_dispatch:
+    - cron: '0 8 * * *' # S'exécute tous les jours à 8h00
+  workflow_dispatch:      # Permet de lancer le script manuellement
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
+      # --- 1. LE PULL (On récupère tout le dépôt) ---
       - name: Checkout du dépôt
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Récupère tout l'historique
+          persist-credentials: true
+          fetch-depth: 0 # Récupère tout l'historique pour éviter les erreurs de branche
 
       - name: Synchronisation avant calcul
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           # On récupère les derniers fichiers Markdown ou modifs de code
-          git pull origin veille --rebase 
+          git pull origin veille --rebase
 
-      - name: Lancer la veille (Synthèse + Mail + JSON)
+      # --- 2. INSTALLATION ---
+      - name: Installer Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Installer les dépendances
+        run: pip install feedparser requests markdown
+
+      # --- 3. LE SCRIPT (Génère MD + Envoie Mail) ---
+      - name: Lancer la veille
         env:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
@@ -30,6 +41,7 @@ jobs:
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
         run: python veille.py
 
+      # --- 4. LE PUSH (Sauvegarde les nouveaux fichiers) ---
       - name: Sauvegarder sur le serveur
         run: |
           # On ajoute tout : nouveaux MD et JSON écrasés
