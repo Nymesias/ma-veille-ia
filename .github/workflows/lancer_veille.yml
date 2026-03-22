@@ -11,19 +11,18 @@ jobs:
 
     steps:
       - name: Checkout du dépôt
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # Récupère tout l'historique
 
-      - name: Configuration de Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
+      - name: Synchronisation avant calcul
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # On récupère les derniers fichiers Markdown ou modifs de code
+          git pull origin veille --rebase 
 
-      - name: Installation des dépendances
-        run: pip install requests feedparser markdown
-
-      - name: Exécution du script de veille
+      - name: Lancer la veille (Synthèse + Mail + JSON)
         env:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
@@ -31,21 +30,11 @@ jobs:
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
         run: python veille.py
 
-      - name: Sauvegarder les résultats sur GitHub
+      - name: Sauvegarder sur le serveur
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # 1. On force l'ajout des fichiers de données
-          git add markdown/ liste_md.json liste_rss.json
-          
-          # 2. On commit seulement s'il y a des changements
+          # On ajoute tout : nouveaux MD et JSON écrasés
+          git add markdown/*.md *.json
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Mise à jour automatique de la veille 🤖"
-            
-            # 3. LE PUSH FORCÉ : On envoie vers le dépôt sans faire de pull.
-            # Cela écrase la version distante par celle que le robot vient de créer.
-            git push origin veille --force
-          else
-            echo "Aucun changement détecté, rien à sauvegarder."
+            git commit -m "Veille auto : Nouvelle synthèse et listes à jour"
+            git push origin veille --force-with-lease 
           fi
