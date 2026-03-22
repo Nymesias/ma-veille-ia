@@ -185,9 +185,7 @@ def main():
     # Synthèse Mistral
     if MISTRAL_KEY and contenu_pour_mistral:
         print(f"--- 🤖 Synthèse IA ({contenu_pour_mistral.count(' : ')} articles de hier) ---")
-        prompt = f"Tu es un expert en veille. Voici les actus du {HIER}. Synthétise par catégories.
-        Cite la source à chaque fois. \n\nACTUS :\n{contenu_pour_mistral[:10000]}"
-
+        prompt = f"Tu es un expert en veille. Voici les actus du {HIER}. Synthétise par catégories. Cite tes sources à chaque fois.\n\nACTUS :\n{contenu_pour_mistral[:10000]}"
         try:
             r = requests.post("https://api.mistral.ai/v1/chat/completions", 
                 json={"model": "mistral-small-latest", "messages": [{"role": "user", "content": prompt}]},
