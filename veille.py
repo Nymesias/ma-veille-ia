@@ -75,7 +75,6 @@ def envoyer_synthese_par_mail(texte_markdown):
     expediteur = os.getenv("EMAIL_SENDER")
     mot_de_pass = os.getenv("EMAIL_PASSWORD")
     destinataire = os.getenv("EMAIL_RECEIVER")
-
     url_site = "https://nymesias.github.io/ma-veille-ia/"
 
     if not all([expediteur, mot_de_pass, destinataire]):
@@ -83,28 +82,44 @@ def envoyer_synthese_par_mail(texte_markdown):
         return
 
     corps_html_brut = markdown.markdown(texte_markdown)
+    date_fr = datetime.now().strftime('%d/%m/%Y')
 
     style_css = """
     <style>
-        body { background-color: #f9f9f9; font-family: 'Segoe UI', Arial, sans-serif; color: #333; margin: 0; padding: 20px; }
-        .container { max-width: 650px; margin: 0 auto; }
-        .header { text-align: center; padding-bottom: 20px; border-bottom: 1px solid #eee; margin-bottom: 20px; }
+        /* Reset pour les clients mail */
+        body { margin: 0; padding: 0; background-color: #f4f7f6; font-family: 'Segoe UI', Arial, sans-serif; }
+        table { border-collapse: collapse; width: 100%; }
         
-        /* Style .post du site */
+        /* Container principal */
+        .email-container { max-width: 800px; margin: 0 auto; background-color: #f4f7f6; }
+        
+        /* Le bloc Article (style .post du site) */
         .post-veille { 
-            background: #ffffff; 
-            border-left: 5px solid #3498db; /* La fameuse bordure bleue */
-            padding: 20px; 
-            margin-bottom: 25px; 
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-            border-radius: 3px;
+            background-color: #ffffff;
+            border-left: 6px solid #3498db; 
+            margin: 20px 0;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            /* Force la largeur totale de la colonne */
+            width: 100%;
+            box-sizing: border-box; 
         }
+
+        /* Titres et textes */
+        h1 { color: #2c3e50; font-size: 26px; text-align: center; padding: 20px; margin: 0; }
+        h2 { color: #2c3e50; font-size: 22px; border-bottom: 2px solid #3498db; padding-bottom: 8px; margin-top: 40px; }
+        h3 { color: #34495e; font-size: 18px; margin-top: 25px; } /* Pour les titres d'articles */
         
-        h2 { color: #2c3e50; font-size: 20px; margin-top: 0; }
-        p { line-height: 1.6; margin: 10px 0; }
+        p { line-height: 1.7; color: #444; font-size: 16px; margin: 15px 0; }
         a { color: #3498db; text-decoration: none; font-weight: bold; }
         
-        .footer { text-align: center; font-size: 12px; color: #999; margin-top: 30px; }
+        .footer { text-align: center; padding: 30px; font-size: 13px; color: #999; }
+
+        /* Responsive : sur mobile, on réduit un peu le padding */
+        @media screen and (max-width: 600px) {
+            .post-veille { padding: 20px; border-left-width: 4px; }
+            h1 { font-size: 22px; }
+        }
     </style>
     """
 
@@ -112,26 +127,36 @@ def envoyer_synthese_par_mail(texte_markdown):
     <html>
     <head>{style_css}</head>
     <body>
-        <div class="container">
-            <div class="header">
-                <h1 style="color: #2c3e50;">⚖️ Votre Veille IA</h1>
-            </div>
-            <div class="post-veille">
-                {corps_html_brut}
-            </div>
-            <p style="text-align:center;">
-                <a href="{url_site}" style="background:#3498db; color:#fff; padding:10px 20px; border-radius:5px; display:inline-block;">Voir sur le site</a>
-            </p>
-            <div class="footer">
-                Publié le {datetime.now().strftime('%d/%m/%Y')}
-            </div>
+        <div class="email-container">
+            <table>
+                <tr>
+                    <td>
+                        <h1>⚖️ Ma Veille IA Quotidienne</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0 10px;">
+                        <div class="post-veille">
+                            {corps_html_brut}
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="footer">
+                        <p>📅 Publié le {date_fr}</p>
+                        <p><a href="{url_site}">Accéder aux archives sur le site</a></p>
+                        <hr style="border: 0; border-top: 1px solid #ddd; width: 50%;">
+                        <p>Généré automatiquement par Mistral IA</p>
+                    </td>
+                </tr>
+            </table>
         </div>
     </body>
     </html>
     """
 
     msg = MIMEText(html_final, 'html', 'utf-8')
-    msg['Subject'] = Header(f"⚖️ Veille du {HIER}", 'utf-8')
+    msg['Subject'] = Header(f"🤖 Veille du {HIER}", 'utf-8')
     msg['From'] = expediteur
     msg['To'] = destinataire
 
@@ -146,10 +171,11 @@ def envoyer_synthese_par_mail(texte_markdown):
 
 def main():
     sources = charger_sources()
-    data_globale = {}
+    # On crée un dictionnaire pour trier par catégorie avant l'IA
+    articles_par_categorie = {} 
     contenu_pour_mistral = ""
 
-    print(f"--- 📡 Récupération (Aujourd'hui: {AUJOURDHUI} / Filtre: {HIER}) ---")
+    print(f"--- 📡 Récupération ---")
     
     for s in sources:
         cat_nom = s.get('categorie', 'Général').strip()
@@ -159,55 +185,87 @@ def main():
 
         try:
             flux = feedparser.parse(url)
-            articles_du_site = []
-
-            for entry in flux.entries[:8]:
+            # On scanne large (20 articles) pour ne rien rater de HIER
+            for entry in flux.entries[:20]:
                 t = html.unescape(entry.get('title', 'Sans titre')).strip()
                 l = entry.get('link', url)
                 
                 dt_struct = entry.get('published_parsed') or entry.get('updated_parsed')
                 date_art = datetime(*dt_struct[:3]).strftime('%Y-%m-%d') if dt_struct else AUJOURDHUI
 
-                articles_du_site.append({"t": t, "l": l, "d": date_art})
-
-                # FILTRAGE STRICT SUR HIER POUR L'IA
+                # FILTRAGE STRICT SUR HIER
                 if date_art == HIER:
-                    contenu_pour_mistral += f"[{cat_nom}] {src_name} : {t}\n"
-
-            if cat_nom not in data_globale: 
-                data_globale[cat_nom] = []
-            
-            data_globale[cat_nom].append({"nom_site": src_name, "articles": articles_du_site})
+                    if cat_nom not in articles_par_categorie:
+                        articles_par_categorie[cat_nom] = []
+                    
+                    # On stocke l'article dans sa boîte catégorie
+                    articles_par_categorie[cat_nom].append(f"{src_name} : {t} (Lien: {l})")
 
         except Exception as e:
             print(f"Erreur flux {src_name}: {e}")
 
-    # Synthèse Mistral
-    if MISTRAL_KEY and contenu_pour_mistral:
+    # --- CONSTRUCTION DU TEXTE POUR MISTRAL ---
+    for categorie, liste_articles in articles_par_categorie.items():
+        contenu_pour_mistral += f"\n### CATÉGORIE : {categorie} ###\n"
+        # On limite par exemple à 10 articles par catégorie pour l'IA
+        for art in liste_articles[:3]: 
+            contenu_pour_mistral += f"- {art}\n"
+
+   # --- VÉRIFICATION AVANT ENVOI ---
+    if not contenu_pour_mistral.strip():
+        print("⚠️ Aucune actualité trouvée pour hier. Fin du script.")
+        return # On arrête ici, pas besoin d'appeler l'IA ou d'envoyer un mail vide
+
+    # --- SYNTHESE MISTRAL ---
+    if MISTRAL_KEY and contenu_pour_mistral.strip():
         print(f"--- 🤖 Synthèse IA ({contenu_pour_mistral.count(' : ')} articles de hier) ---")
-        prompt = f"Tu es un expert en veille. Voici les actus du {HIER}. Synthétise par catégories. Cite tes sources à chaque fois.\n\nACTUS :\n{contenu_pour_mistral[:10000]}"
+        
+        # Préparation du prompt (on peut ajouter une consigne de brièveté ici)
+        prompt = f"Tu es un expert en veille. Voici les actus du {HIER}. Synthétise par catégories de manière concise. Cite tes sources et inclue les liens [Lire l'article](URL).\n\nACTUS :\n{contenu_pour_mistral[:10000]}"
+        
         try:
-            r = requests.post("https://api.mistral.ai/v1/chat/completions", 
-                json={"model": "mistral-small-latest", "messages": [{"role": "user", "content": prompt}]},
-                headers={"Authorization": f"Bearer {MISTRAL_KEY}", "Content-Type": "application/json"})
+            # Appel API avec limitation des tokens et température
+            r = requests.post(
+                "https://api.mistral.ai/v1/chat/completions", 
+                json={
+                    "model": "mistral-small-latest", 
+                    "messages": [{"role": "user", "content": prompt}],
+                    "temperature": 0.2,   # 0.2 pour la précision technique
+                    "max_tokens": 1500    # Limite la longueur du mail
+                },
+                headers={
+                    "Authorization": f"Bearer {MISTRAL_KEY}", 
+                    "Content-Type": "application/json"
+                },
+                timeout=60 # Sécurité pour ne pas bloquer le script indéfiniment
+            )
             
             if r.status_code == 200:
-                synthese_texte = r.json()['choices'][0]['message']['content']
-                nom_md = f"synthese-{AUJOURDHUI}.md" # On nomme le fichier par la date de hier
-                with open(os.path.join(DOSSIER_MD, nom_md), "w", encoding='utf-8') as f:
-                    f.write(synthese_texte)
+                reponse_json = r.json()
+                synthese_texte = reponse_json['choices'][0]['message']['content']
                 
-                # ENVOI DU MAIL
-                envoyer_synthese_par_mail(synthese_texte)
+                if synthese_texte:
+                    nom_md = f"synthese-{AUJOURDHUI}.md" # Utilisation de AUJOURDH'HUI pour le nom du fichier sur les ACTUS de HIER
+                    chemin_fichier = os.path.join(DOSSIER_MD, nom_md)
+                    
+                    with open(chemin_fichier, "w", encoding='utf-8') as f:
+                        f.write(synthese_texte)
+                    
+                    # ENVOI DU MAIL (seulement si la synthèse a fonctionné)
+                    envoyer_synthese_par_mail(synthese_texte)
+                else:
+                    print("⚠️ Mistral a renvoyé une réponse vide.")
             else:
-                print(f"Erreur API Mistral : {r.status_code}")
+                print(f"❌ Erreur API Mistral : {r.status_code} - {r.text}")
+                
         except Exception as e: 
-            print(f"Erreur Mistral: {e}")
+            print(f"❌ Erreur lors de l'appel Mistral: {e}")
     else:
-        print("ℹ️ Aucun article trouvé pour hier. Pas de synthèse.")
+        print("ℹ️ Aucun article trouvé pour hier (ou clé API manquante). Pas de synthèse.")
 
+    # On synchronise les listes JSON même s'il n'y a pas eu de synthèse
     synchroniser_listes(data_globale)
-    print("✅ Fichiers mis à jour.")
+    print("✅ Processus terminé et fichiers mis à jour.")
 
 if __name__ == "__main__":
     main()
