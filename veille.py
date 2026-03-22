@@ -173,9 +173,10 @@ def main():
     sources = charger_sources()
     data_globale = {}
     articles_par_categorie = {} 
+    # Initialisation ici pour éviter toute erreur plus tard
     contenu_pour_mistral = ""
 
-    print(f"--- 📡 Récupération ---")
+    print(f"--- 📡 Récupération (Filtre: {HIER}) ---")
     
     for s in sources:
         cat_nom = s.get('categorie', 'Général').strip()
@@ -183,9 +184,11 @@ def main():
         url = s.get('url')
         if not url: continue
 
+        # --- CORRECTION 1 : Initialiser ICI pour chaque source ---
+        articles_du_site = []
+
         try:
             flux = feedparser.parse(url)
-            # On scanne large (20 articles) pour ne rien rater de HIER
             for entry in flux.entries[:20]:
                 t = html.unescape(entry.get('title', 'Sans titre')).strip()
                 l = entry.get('link', url)
@@ -195,21 +198,21 @@ def main():
 
                 articles_du_site.append({"t": t, "l": l, "d": date_art})
 
-                # FILTRAGE STRICT SUR HIER
                 if date_art == HIER:
                     if cat_nom not in articles_par_categorie:
                         articles_par_categorie[cat_nom] = []
-                    
-                    # On stocke l'article dans sa boîte catégorie
                     articles_par_categorie[cat_nom].append(f"{src_name} : {t} (Lien: {l})")
             
-            # On enregistre les données pour synchroniser_listes       
+            # --- CORRECTION 2 : Déplacer l'enregistrement à l'intérieur du bloc source ---
             if cat_nom not in data_globale: 
                 data_globale[cat_nom] = []
             data_globale[cat_nom].append({"nom_site": src_name, "articles": articles_du_site})
 
         except Exception as e:
-            print(f"Erreur flux {src_name}: {e}")
+            print(f"❌ Erreur flux {src_name}: {e}")
+            # On assure que data_globale a quand même une entrée vide en cas d'erreur
+            if cat_nom not in data_globale: data_globale[cat_nom] = []
+            data_globale[cat_nom].append({"nom_site": src_name, "articles": []})
 
     # --- CONSTRUCTION DU TEXTE POUR MISTRAL ---
     for categorie, liste_articles in articles_par_categorie.items():
