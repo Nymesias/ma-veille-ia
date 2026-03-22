@@ -10,7 +10,7 @@
         <h1>Veille spécialisée</h1> <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="News.html">News</a></li>
+                <li><a href="news.html">News</a></li>
                 <li><a href="finance.html">Finance</a></li>
                 <li><a href="juridique.html">Juridique</a></li>
                 <li><a href="cour-cassation.html">Cour de Cassation</a></li>
@@ -32,33 +32,29 @@
     </main>
 
 <script src="rss-reader.js"></script>
-    <script>
-        // On rend la fonction asynchrone (async) pour attendre le chargement du JSON
-        async function piloterOnglet(btn, categorie) {
-            // 1. Gestion visuelle
-            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            
-            // 2. Vidage du contenu et message d'attente
-            const container = document.getElementById('juridique-content');
-            container.innerHTML = "<p>Chargement de " + categorie + "...</p>";
-            
-            // 3. Appel au fichier JS avec "await"
-            if (typeof chargerFluxRSS === "function") {
-                await chargerFluxRSS(categorie, 'juridique-content');
-            }
+<script>
+    // --- 1. NAVIGATION ENTRE ONGLETS ---
+    async function piloterOnglet(btn, categorie) {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        const container = document.getElementById('juridique-content');
+        container.innerHTML = `<p>Chargement de ${categorie}...</p>`;
+        
+        if (typeof chargerFluxRSS === "function") {
+            await chargerFluxRSS(categorie, 'juridique-content');
         }
+    }
 
-        // Chargement initial au démarrage de la page
-        window.onload = async () => {
-            // On attend que les données JSON soient prêtes avant de charger le premier onglet
-            if (typeof initialiserProjet === "function") {
-                await initialiserProjet();
-            }
-            
-            // On lance le premier onglet ('Textes Officiels')
+    // --- 2. DÉMARRAGE ---
+    window.onload = async () => {
+        if (typeof initialiserProjet === "function") {
+            await initialiserProjet();
+        }
+        if (typeof chargerFluxRSS === "function") {
             await chargerFluxRSS('Textes Officiels', 'juridique-content');
-        };
-    </script>
+        }
+    };
+</script>
 </body>
 </html>

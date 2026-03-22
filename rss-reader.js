@@ -1,11 +1,24 @@
 let rssData = null;
 
+// --- NOUVELLE FONCTION DE FORMATAGE ---
+function formaterDateEnFrancais(dateBrute) {
+    if (!dateBrute) return "";
+    const d = new Date(dateBrute);
+    if (isNaN(d.getTime())) return dateBrute; // Retourne brute si format inconnu
+
+    return d.toLocaleDateString('fr-FR', {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+    });
+}
+
 async function initialiserProjet() {
     try {
         const response = await fetch('liste_rss.json');
         if (!response.ok) throw new Error("Fichier liste_rss.json introuvable");
         rssData = await response.json();
-        console.log("Données JSON chargées :", Object.keys(rssData)); // Affiche les catégories trouvées
+        console.log("Données JSON chargées :", Object.keys(rssData));
     } catch (e) {
         console.error("Erreur initialisation :", e);
     }
@@ -17,13 +30,10 @@ async function chargerFluxRSS(nomCategorie, idContainer) {
 
     container.innerHTML = "<p>Chargement des flux...</p>";
 
-    // Attendre si les données ne sont pas encore prêtes
     if (!rssData) {
         await initialiserProjet();
     }
 
-    // Sécurité : On cherche la catégorie sans se soucier des espaces ou de la casse
-    // On cherche dans les clés du JSON celle qui correspond au bouton
     const cleReelle = Object.keys(rssData).find(
         k => k.trim().toLowerCase() === nomCategorie.trim().toLowerCase()
     );
@@ -31,7 +41,6 @@ async function chargerFluxRSS(nomCategorie, idContainer) {
     const sources = cleReelle ? rssData[cleReelle] : [];
 
     if (sources.length === 0) {
-        console.warn(`Catégorie "${nomCategorie}" non trouvée dans le JSON.`);
         container.innerHTML = `<p>Aucune donnée pour "${nomCategorie}".</p>`;
         return;
     }
@@ -39,8 +48,8 @@ async function chargerFluxRSS(nomCategorie, idContainer) {
     let htmlContenu = "";
     sources.forEach(source => {
         source.articles.forEach(art => {
-            // On formate un peu la date si c'est possible, sinon on affiche brute
-            const dateAffichage = art.d ? art.d : "";
+            // --- ON UTILISE LA NOUVELLE FONCTION ICI ---
+            const dateAffichage = formaterDateEnFrancais(art.d);
 
             htmlContenu += `
                 <article class="post-veille">
@@ -54,20 +63,14 @@ async function chargerFluxRSS(nomCategorie, idContainer) {
     container.innerHTML = htmlContenu;
 }
 
-// --- AJOUTER CECI À LA FIN DE rss-reader.js ---
-
-// Affiche la toute dernière synthèse IA sur l'index
+// --- Tes autres fonctions (chargerRecapDuJour, etc.) restent inchangées en dessous ---
 async function chargerRecapDuJour(idContainer) {
     const container = document.getElementById(idContainer);
     if (!container) return;
-
     try {
         const res = await fetch('liste_md.json');
         const liste = await res.json();
-        
-        // On prend le premier fichier qui commence par "synthese" (le plus récent)
         const syntheseInfo = liste.find(f => f.nom_fichier.startsWith('synthese-'));
-
         if (syntheseInfo) {
             const mdRes = await fetch('markdown/' + syntheseInfo.nom_fichier);
             const text = await mdRes.text();
@@ -84,18 +87,14 @@ async function chargerRecapDuJour(idContainer) {
     }
 }
 
-// Affiche les analyses spécifiques (ex: fichiers contenant 'regulation')
 async function chargerMarkdown(motCle, idContainer) {
     const container = document.getElementById(idContainer);
     if (!container) return;
-
     try {
         const res = await fetch('liste_md.json');
         const liste = await res.json();
         container.innerHTML = "";
-
         for (const item of liste) {
-            // On vérifie le mot-clé ET on exclut les synthèses générales
             if (item.nom_fichier.toLowerCase().includes(motCle.toLowerCase()) && !item.nom_fichier.startsWith('synthese-')) {
                 const mdRes = await fetch('markdown/' + item.nom_fichier);
                 const text = await mdRes.text();
