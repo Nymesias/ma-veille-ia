@@ -81,7 +81,7 @@ def envoyer_synthese_par_mail(texte_markdown):
         return
 
     corps_html_brut = markdown.markdown(texte_markdown)
-    
+
     style_css = """
     <style>
         body { margin: 0; padding: 0; background-color: #f4f7f6; font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
@@ -122,7 +122,7 @@ def envoyer_synthese_par_mail(texte_markdown):
                 <tr>
                     <td class="footer">
                         Généré automatiquement par Mistral IA • {AUJOURDHUI}<br>
-                        Vous recevez ce mail car vous êtes abonné à votre propre veille.
+
                     </td>
                 </tr>
             </table>
@@ -187,7 +187,7 @@ def main():
     # Synthèse Mistral
     if MISTRAL_KEY and contenu_pour_mistral:
         print(f"--- 🤖 Synthèse IA ({contenu_pour_mistral.count(' : ')} articles de hier) ---")
-        prompt = f"Tu es un expert en veille. Voici les actus du {HIER}. Fais un résumé de ces actualités par thématiques pour être exhaustif mais concis à chaque fois. Cite la source, ainsi que l'URL. \n\nACTUS :\n{contenu_pour_mistral[:10000]}"
+        prompt = f"Tu es un expert en veille. Voici les actus du {HIER}. Fais un résumé de ces actualités par thématiques pour être exhaustif mais concis à chaque fois. Cite la source à chaque fois. \n\nACTUS :\n{contenu_pour_mistral[:10000]}"
         try:
             r = requests.post("https://api.mistral.ai/v1/chat/completions", 
                 json={"model": "mistral-small-latest", "messages": [{"role": "user", "content": prompt}]},
