@@ -31,30 +31,20 @@ jobs:
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
         run: python ton_script_ia.py
 
-      - name: Commit et Push (Mode Survie)
+      - name: Commit et Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 1. ON RANGE LES FICHIERS CRÉÉS PAR LE SCRIPT (JSON/MD)
-          git add .
-          git stash
-          
-          # 2. ON SYNCHRONISE LE CODE SANS RÂLER
+          # On récupère les modifs pour être sûr d'être à jour
           git pull origin veille --rebase
           
-          # 3. ON RESSORT LES FICHIERS DU TIROIR
-          git stash pop || echo "Pas de nouveaux fichiers"
+          # On ajoute les modifs des JSON et des nouveaux MD
+          git add -f liste_md.json liste_rss.json markdown/*.md
           
-          # 4. ON FORCE L'AJOUT POUR LE DÉPÔT GITHUB
-          git add -f markdown/*.md
-          git add -f liste_md.json
-          git add -f liste_rss.json
-          
-          # 5. ON ENREGISTRE ET ON POUSSE
           if ! git diff --cached --quiet; then
-            git commit -m "🤖 Mise à jour auto : $(date +'%Y-%m-%d')"
+            git commit -m "🤖 Mise à jour des archives : $(date +'%Y-%m-%d')"
             git push origin veille
           else
-            echo "Rien à mettre à jour."
+            echo "Aucun changement détecté."
           fi

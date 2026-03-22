@@ -1,6 +1,3 @@
 __pycache__/
 .env
 *.pyc
-liste_md.json
-liste_rss.json
-markdown/*.md

@@ -35,24 +35,41 @@ def charger_sources():
     return sources
 
 def synchroniser_listes(data_rss):
+    # 1. Mise à jour du JSON RSS (On remplace les flux, car ils sont frais)
     with open(FICHIER_LISTE_RSS, "w", encoding='utf-8') as f:
         json.dump(data_rss, f, indent=4, ensure_ascii=False)
 
-    fichiers_md = [f for f in os.listdir(DOSSIER_MD) if f.endswith(".md")]
-    liste_md = []
-    for f in fichiers_md:
+    # 2. Mise à jour intelligente du JSON MD (Archives)
+    liste_existante = []
+    if os.path.exists(FICHIER_LISTE_MD):
+        try:
+            with open(FICHIER_LISTE_MD, "r", encoding='utf-8') as f:
+                liste_existante = json.load(f)
+        except:
+            liste_existante = []
+
+    # On récupère les fichiers MD actuels sur le disque
+    fichiers_sur_disque = [f for f in os.listdir(DOSSIER_MD) if f.endswith(".md")]
+    
+    # On reconstruit la liste proprement pour être sûr de ne rien oublier
+    # (C'est plus sûr que de "append" car cela gère les fichiers supprimés à la main)
+    nouvelle_liste = []
+    for f in fichiers_sur_disque:
         match = re.search(r"(\d{4}-\d{2}-\d{2})", f)
         date_f = match.group(1) if match else AUJOURDHUI
-        liste_md.append({
+        nouvelle_liste.append({
             "date_affichage": date_f,
             "date_tri": date_f,
             "nom_fichier": f
         })
-    
-    liste_md.sort(key=lambda x: x['date_tri'], reverse=True)
+
+    # Tri par date décroissante (plus récent en haut)
+    nouvelle_liste.sort(key=lambda x: x['date_tri'], reverse=True)
+
+    # 3. Écriture finale (Mise à jour du fichier)
     with open(FICHIER_LISTE_MD, "w", encoding='utf-8') as f:
-        json.dump(liste_md, f, indent=4, ensure_ascii=False)
-        
+        json.dump(nouvelle_liste, f, indent=4, ensure_ascii=False)
+
 def main():
     sources = charger_sources()
     data_globale = {}
@@ -102,7 +119,7 @@ def main():
             
             if r.status_code == 200:
                 synthese_texte = r.json()['choices'][0]['message']['content']
-                nom_md = f"synthese-{HIER}.md" # On nomme le fichier par la date de hier
+                nom_md = f"synthese-{AUJOURDHUI}.md" # On nomme le fichier par la date de hier
                 with open(os.path.join(DOSSIER_MD, nom_md), "w", encoding='utf-8') as f:
                     f.write(synthese_texte)
                 
