@@ -76,6 +76,8 @@ def envoyer_synthese_par_mail(texte_markdown):
     mot_de_pass = os.getenv("EMAIL_PASSWORD")
     destinataire = os.getenv("EMAIL_RECEIVER")
 
+    url_site = "https://nymesias.github.io/ma-veille-ia/"
+
     if not all([expediteur, mot_de_pass, destinataire]):
         print("⚠️ Variables d'email manquantes.")
         return
