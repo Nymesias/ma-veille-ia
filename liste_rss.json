@@ -515,6 +515,36 @@
             "nom_site": "Me NEUJANICKI|Immobilier",
             "articles": [
                 {
+                    "t": "Changement d’usage : la déclaration H1 peut prouver l’usage d’habitation même postérieure au 1er janvier 1970",
+                    "l": "https://www.neujanicki.com/declaration-h1-preuve-usage-habitation-1970/",
+                    "d": "2026-03-22"
+                },
+                {
+                    "t": "Bail d’habitation : Point de départ du délai de prescription de l’action pour trouble de jouissance",
+                    "l": "https://www.neujanicki.com/jouissance-paisible-bailleur-prescription-action-locataire/",
+                    "d": "2026-03-22"
+                },
+                {
+                    "t": "Vente : Incendie et l’occupant à titre gratuit",
+                    "l": "https://www.neujanicki.com/incendie-occupant-titre-gratuit-article-1733-code-civil/",
+                    "d": "2026-03-22"
+                },
+                {
+                    "t": "Bail d’habitation : Chien méchant et résiliation du bail",
+                    "l": "https://www.neujanicki.com/resiliation-bail-habitation-chien-trouble-voisinage/",
+                    "d": "2026-03-22"
+                },
+                {
+                    "t": "Bail commercial : le bailleur peut acquiescer à une cession de bail non signifiée par des actes non équivoques",
+                    "l": "https://www.neujanicki.com/cession-bail-non-signifiee-acquiescement-bailleur/",
+                    "d": "2026-03-22"
+                },
+                {
+                    "t": "Sous-location commerciale : l’agrément du bailleur peut être tacite",
+                    "l": "https://www.neujanicki.com/agrement-tacite-sous-location-commerciale/",
+                    "d": "2026-03-22"
+                },
+                {
                     "t": "Dol du vendeur et responsabilité de l’agent immobilier : l’agent n’est pas tenu d’investigations techniques",
                     "l": "https://www.neujanicki.com/dol-vendeur-responsabilite-agent-immobilier-vice-cache/",
                     "d": "2026-03-08"
@@ -532,36 +562,6 @@
                 {
                     "t": "Indemnité d’éviction : la prescription biennale fait perdre le droit au maintien dans les lieux",
                     "l": "https://www.neujanicki.com/prescription-indemnite-eviction-bail-commercial-2/",
-                    "d": "2026-03-08"
-                },
-                {
-                    "t": "Prescription de l’indemnité d’éviction et expertise",
-                    "l": "https://www.neujanicki.com/prescription-indemnite-eviction-expertise-bailleur-bail-commercial/",
-                    "d": "2026-03-08"
-                },
-                {
-                    "t": "Clause résolutoire et redressement judiciaire : l’ouverture de la procédure collective n’anéantit pas les actes réguliers antérieurs",
-                    "l": "https://www.neujanicki.com/clause-resolutoire-redressement-judiciaire-bail-commercial/",
-                    "d": "2026-03-08"
-                },
-                {
-                    "t": "Fixation du loyer du bail renouvelé : quels abattements et majorations appliquer à la valeur locative ?",
-                    "l": "https://www.neujanicki.com/abattements-majorations-valeur-locative-bail-renouvele/",
-                    "d": "2026-03-08"
-                },
-                {
-                    "t": "Sous-location illicite via Airbnb : la Cour de cassation exclut le statut d’hébergeur",
-                    "l": "https://www.neujanicki.com/responsabilite-airbnb-sous-location-illicite/",
-                    "d": "2026-03-08"
-                },
-                {
-                    "t": "Clause résolutoire en bail commercial : l’exception d’inexécution peut être invoquée même sans demande de délais dans le mois",
-                    "l": "https://www.neujanicki.com/clause-resolutoire-exception-inexecution-bail-commercial/",
-                    "d": "2026-03-08"
-                },
-                {
-                    "t": "Bail commercial : droit de préférence du locataire et vente à une SCI familiale",
-                    "l": "https://www.neujanicki.com/bail-commercial-droit-de-preference-sci-familiale/",
                     "d": "2026-03-08"
                 }
             ]
@@ -847,92 +847,92 @@
                 {
                     "t": "Lutter contre l'entrisme islamiste en France - texte N° 455",
                     "l": "http://www.senat.fr/leg/ppl25-455.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Prix du gaz et des carburants en période de crise - texte N° 453",
                     "l": "http://www.senat.fr/leg/ppl25-453.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Renforcement des juridictions criminelles - texte N° 457",
                     "l": "http://www.senat.fr/leg/pjl25-457.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Justice criminelle et respect des victimes - texte N° 456",
                     "l": "http://www.senat.fr/leg/pjl25-456.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Ratification de l'ordonnance relative au point d'accès unique européen - texte N° 452",
                     "l": "http://www.senat.fr/leg/pjl25-452.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Remobiliser le bâti rural - texte N° 444",
                     "l": "http://www.senat.fr/leg/ppl25-444.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Renforcer les mécanismes de contrôle des biens culturels français - texte N° 451",
                     "l": "http://www.senat.fr/leg/ppl25-451.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Supprimer le mot « race » de la Constitution - texte N° 445",
                     "l": "http://www.senat.fr/leg/ppl25-445.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Renforcer l'activité physique à l'école - texte N° 448",
                     "l": "http://www.senat.fr/leg/ppl25-448.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Lutter contre les effets discriminatoires de Parcoursup - texte N° 447",
                     "l": "http://www.senat.fr/leg/ppl25-447.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Données scientifiques sur la Terre, le climat et l'environnement - texte N° 442",
                     "l": "http://www.senat.fr/leg/ppl25-442.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Code des impositions sur les biens et services - texte N° 449",
                     "l": "http://www.senat.fr/leg/pjl25-449.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Soins psychiatriques sans consentement - texte N° 443",
                     "l": "http://www.senat.fr/leg/ppl25-443.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Droit à l'aide à mourir - texte N° 440",
                     "l": "http://www.senat.fr/leg/ppl25-440.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Égal accès de tous à l'accompagnement et aux soins palliatifs - texte N° 439",
                     "l": "http://www.senat.fr/leg/ppl25-439.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Mesures urgentes de sécurisation du droit de la fonction publique - texte N° 438",
                     "l": "http://www.senat.fr/leg/pjl25-438.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Implantation des centres de données sur le territoire français - texte N° 436",
                     "l": "http://www.senat.fr/leg/ppl25-436.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Soutenir et valoriser les commerces de proximité - texte N° 434",
                     "l": "http://www.senat.fr/leg/ppl25-434.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 }
             ]
         },
@@ -942,22 +942,22 @@
                 {
                     "t": "Soutenir et valoriser les commerces de proximité - rapport n° 433",
                     "l": "http://www.senat.fr/rap/l25-433/l25-433.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Implantation des centres de données sur le territoire français - rapport n° 435",
                     "l": "http://www.senat.fr/rap/l25-435/l25-435.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Contrôle de l'application, par les agences de l'eau, de la loi du 11 avril 2025 visant à assouplir la gestion des compétences « eau » et « assainissement » - rapport d'information n° 441",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-441-notice.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 },
                 {
                     "t": "Enjeux pour les outre-mer du prochain cadre financier pluriannuel de l'Union européenne (2028-2034) - rapport d'information n° 426",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-426-notice.html",
-                    "d": "2026-03-22"
+                    "d": "2026-03-23"
                 }
             ]
         },
