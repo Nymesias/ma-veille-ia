@@ -1,8 +1,28 @@
 [
     {
+        "date_affichage": "2026-03-28",
+        "date_tri": "2026-03-28",
+        "nom_fichier": "synthese-2026-03-28.md"
+    },
+    {
+        "date_affichage": "2026-03-27",
+        "date_tri": "2026-03-27",
+        "nom_fichier": "2026-03-27-finance.md"
+    },
+    {
         "date_affichage": "2026-03-27",
         "date_tri": "2026-03-27",
         "nom_fichier": "synthese-2026-03-27.md"
+    },
+    {
+        "date_affichage": "2026-03-27",
+        "date_tri": "2026-03-27",
+        "nom_fichier": "2026-03-27-cour-de-cassation.md"
+    },
+    {
+        "date_affichage": "2026-03-27",
+        "date_tri": "2026-03-27",
+        "nom_fichier": "2026-03-27-news.md"
     },
     {
         "date_affichage": "2026-03-26",
@@ -32,12 +52,12 @@
     {
         "date_affichage": "2026-03-25",
         "date_tri": "2026-03-25",
-        "nom_fichier": "2026-03-25-cour-de-cassation.md"
+        "nom_fichier": "synthese-2026-03-25.md"
     },
     {
         "date_affichage": "2026-03-25",
         "date_tri": "2026-03-25",
-        "nom_fichier": "synthese-2026-03-25.md"
+        "nom_fichier": "2026-03-25-cour-de-cassation.md"
     },
     {
         "date_affichage": "2026-03-25",
@@ -52,17 +72,22 @@
     {
         "date_affichage": "2026-03-24",
         "date_tri": "2026-03-24",
-        "nom_fichier": "2026-03-24-finance.md"
-    },
-    {
-        "date_affichage": "2026-03-24",
-        "date_tri": "2026-03-24",
         "nom_fichier": "synthese-2026-03-24.md"
     },
     {
         "date_affichage": "2026-03-24",
         "date_tri": "2026-03-24",
+        "nom_fichier": "2026-03-24-finance.md"
+    },
+    {
+        "date_affichage": "2026-03-24",
+        "date_tri": "2026-03-24",
         "nom_fichier": "2026-03-24-news.md"
+    },
+    {
+        "date_affichage": "2026-03-23",
+        "date_tri": "2026-03-23",
+        "nom_fichier": "2026-03-23-cour-de-cassation.md"
     },
     {
         "date_affichage": "2026-03-23",
@@ -77,22 +102,7 @@
     {
         "date_affichage": "2026-03-23",
         "date_tri": "2026-03-23",
-        "nom_fichier": "2026-03-23-cour-de-cassation.md"
-    },
-    {
-        "date_affichage": "2026-03-23",
-        "date_tri": "2026-03-23",
         "nom_fichier": "synthese-2026-03-23.md"
-    },
-    {
-        "date_affichage": "2026-03-22",
-        "date_tri": "2026-03-22",
-        "nom_fichier": "2026-03-22-cour-de-cassation.md"
-    },
-    {
-        "date_affichage": "2026-03-22",
-        "date_tri": "2026-03-22",
-        "nom_fichier": "synthese-2026-03-22.md"
     },
     {
         "date_affichage": "2026-03-22",
@@ -105,14 +115,19 @@
         "nom_fichier": "2026-03-22-news.md"
     },
     {
-        "date_affichage": "2026-03-21",
-        "date_tri": "2026-03-21",
-        "nom_fichier": "2026-03-21-finance.md"
+        "date_affichage": "2026-03-22",
+        "date_tri": "2026-03-22",
+        "nom_fichier": "synthese-2026-03-22.md"
+    },
+    {
+        "date_affichage": "2026-03-22",
+        "date_tri": "2026-03-22",
+        "nom_fichier": "2026-03-22-cour-de-cassation.md"
     },
     {
         "date_affichage": "2026-03-21",
         "date_tri": "2026-03-21",
-        "nom_fichier": "synthese-2026-03-21.md"
+        "nom_fichier": "2026-03-21-news.md"
     },
     {
         "date_affichage": "2026-03-21",
@@ -122,12 +137,17 @@
     {
         "date_affichage": "2026-03-21",
         "date_tri": "2026-03-21",
-        "nom_fichier": "2026-03-21-news.md"
+        "nom_fichier": "synthese-2026-03-21.md"
+    },
+    {
+        "date_affichage": "2026-03-21",
+        "date_tri": "2026-03-21",
+        "nom_fichier": "2026-03-21-finance.md"
     },
     {
         "date_affichage": "2026-03-20",
         "date_tri": "2026-03-20",
-        "nom_fichier": "2026-03-20-news.md"
+        "nom_fichier": "2026-03-20-finance.md"
     },
     {
         "date_affichage": "2026-03-20",
@@ -142,12 +162,7 @@
     {
         "date_affichage": "2026-03-20",
         "date_tri": "2026-03-20",
-        "nom_fichier": "2026-03-20-finance.md"
-    },
-    {
-        "date_affichage": "2026-03-19",
-        "date_tri": "2026-03-19",
-        "nom_fichier": "2026-03-19-news.md"
+        "nom_fichier": "2026-03-20-news.md"
     },
     {
         "date_affichage": "2026-03-19",
@@ -158,6 +173,11 @@
         "date_affichage": "2026-03-19",
         "date_tri": "2026-03-19",
         "nom_fichier": "2026-03-19-finance.md"
+    },
+    {
+        "date_affichage": "2026-03-19",
+        "date_tri": "2026-03-19",
+        "nom_fichier": "2026-03-19-news.md"
     },
     {
         "date_affichage": "2026-03-18",
