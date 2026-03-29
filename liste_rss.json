@@ -735,9 +735,19 @@
             "nom_site": "AN|Séances",
             "articles": [
                 {
-                    "t": "Compte rendu intégral de la troisième séance du jeudi 26 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260183.asp",
+                    "t": "Compte rendu intégral de la première séance du jeudi 26 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260181.asp",
                     "d": "2026-03-26"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du mardi 24 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260177.asp",
+                    "d": "2026-03-24"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du mardi 24 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260176.asp",
+                    "d": "2026-03-24"
                 },
                 {
                     "t": "Compte rendu intégral de la deuxième séance du jeudi 26 mars 2026",
@@ -745,19 +755,14 @@
                     "d": "2026-03-26"
                 },
                 {
-                    "t": "Compte rendu intégral de la première séance du jeudi 26 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260181.asp",
+                    "t": "Compte rendu intégral de la troisième séance du jeudi 26 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260183.asp",
                     "d": "2026-03-26"
                 },
                 {
                     "t": "Compte rendu intégral de la deuxième séance du mercredi 25 mars 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260180.asp",
                     "d": "2026-03-25"
-                },
-                {
-                    "t": "Compte rendu intégral de la première séance du mardi 24 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260176.asp",
-                    "d": "2026-03-24"
                 },
                 {
                     "t": "Compte rendu intégral de la première séance du mercredi 25 mars 2026",
@@ -767,11 +772,6 @@
                 {
                     "t": "Compte rendu intégral de la troisième séance du mardi 24 mars 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260178.asp",
-                    "d": "2026-03-24"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du mardi 24 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260177.asp",
                     "d": "2026-03-24"
                 },
                 {
@@ -847,102 +847,102 @@
                 {
                     "t": "Paquet « omnibus environnement » - texte N° 478",
                     "l": "http://www.senat.fr/leg/ppr25-478.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Renforcer l'effectivité des droits voisins des éditeurs et des agences de press - texte N° 475",
                     "l": "http://www.senat.fr/leg/ppl25-475.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Logements abordables - texte de la commission N° 477",
                     "l": "http://www.senat.fr/leg/ppr25-477.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Accès au compte bancaire pour les Français établis hors de France - texte N° 460",
                     "l": "http://www.senat.fr/leg/ppl25-460.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Résoudre le fléau des désordres fonciers outre-mer - texte N° 450",
                     "l": "http://www.senat.fr/leg/ppl25-450.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Règles applicables en Martinique en matière d'énergie, d'eau et d'assainissemen - texte de la commission N° 465",
                     "l": "http://www.senat.fr/leg/pjl25-465.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Moyens de lutte contre la cabanisation - texte N° 459",
                     "l": "http://www.senat.fr/leg/ppl25-459.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Garantir la neutralité financière du don d'organes par les vivants - texte N° 458",
                     "l": "http://www.senat.fr/leg/ppl25-458.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Faciliter l'exercice en France des médecins diplômés au Royaume-Uni - texte de la commission N° 462",
                     "l": "http://www.senat.fr/leg/ppl25-462.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Protéger les mineurs des risques des réseaux sociaux - texte de la commission N° 469",
                     "l": "http://www.senat.fr/leg/ppl25-469.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Réponses immédiates aux phénomènes troublant l'ordre public - texte N° 472",
                     "l": "http://www.senat.fr/leg/pjl25-472.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - texte N° 470",
                     "l": "http://www.senat.fr/leg/pjl25-470.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Établissements et services médico-sociaux à caractère expérimental - texte N° 446",
                     "l": "http://www.senat.fr/leg/ppl25-446.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Gouvernance claire, juste et solidaire pour la GEMAPI - texte de la commission N° 467",
                     "l": "http://www.senat.fr/leg/ppl25-467.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Prix du gaz et des carburants en période de crise - texte N° 453",
                     "l": "http://www.senat.fr/leg/ppl25-453.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Lutter contre l'entrisme islamiste en France - texte N° 455",
                     "l": "http://www.senat.fr/leg/ppl25-455.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Renforcement des juridictions criminelles - texte N° 457",
                     "l": "http://www.senat.fr/leg/pjl25-457.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Justice criminelle et respect des victimes - texte N° 456",
                     "l": "http://www.senat.fr/leg/pjl25-456.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Ratification de l'ordonnance relative au point d'accès unique européen - texte N° 452",
                     "l": "http://www.senat.fr/leg/pjl25-452.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Renforcer les mécanismes de contrôle des biens culturels français - texte N° 451",
                     "l": "http://www.senat.fr/leg/ppl25-451.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 }
             ]
         },
@@ -952,22 +952,22 @@
                 {
                     "t": "Protéger les mineurs des risques des réseaux sociaux - rapport n° 468",
                     "l": "http://www.senat.fr/rap/l25-468/l25-468.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Gouvernance claire, juste et solidaire pour la GEMAPI - rapport n° 466",
                     "l": "http://www.senat.fr/rap/l25-466/l25-466.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Faciliter l'exercice en France des médecins diplômés au Royaume-Uni - rapport n° 461",
                     "l": "http://www.senat.fr/rap/l25-461/l25-461.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 },
                 {
                     "t": "Règles applicables en Martinique en matière d'énergie, d'eau et d'assainissement - avis n° 463",
                     "l": "http://www.senat.fr/rap/a25-463/a25-463.html",
-                    "d": "2026-03-28"
+                    "d": "2026-03-29"
                 }
             ]
         },
@@ -1030,6 +1030,11 @@
             "nom_site": "Vie Publique|Actualités",
             "articles": [
                 {
+                    "t": "Passage à l'heure d'été : cinq questions sur le changement d'heure saisonnier",
+                    "l": "https://www.vie-publique.fr/questions-reponses/271194-heure-dete-5-questions-sur-le-changement-dheure?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-03-28"
+                },
+                {
                     "t": "Crimes et délits racistes, xénophobes ou antireligieux : en hausse de 5% en 2025",
                     "l": "https://www.vie-publique.fr/en-bref/302093-crimes-et-delits-racistes-xenophobes-ou-antireligieux-en-hausse-de-5?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
                     "d": "2026-03-27"
@@ -1073,17 +1078,22 @@
                     "t": "Francophonie et rayonnement culturel : une stratégie d'influence ?",
                     "l": "https://www.vie-publique.fr/eclairage/274026-francophonie-et-rayonnement-culturel?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
                     "d": "2026-03-25"
-                },
-                {
-                    "t": "Soutien aux énergies renouvelables : un développement onéreux pour l'État",
-                    "l": "https://www.vie-publique.fr/en-bref/302530-energies-renouvelables-un-developpement-onereux-pour-letat?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-03-25"
                 }
             ]
         },
         {
             "nom_site": "Vie Publique|Lois",
             "articles": [
+                {
+                    "t": "Proposition de loi visant à renforcer l'enseignement à la défense nationale dans le cadre du parcours de citoyenneté",
+                    "l": "https://www.vie-publique.fr/loi/302624-enseignement-defense-nationale-parcours-citoyennete-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-27"
+                },
+                {
+                    "t": "Proposition de loi visant à renforcer l'effectivité des droits voisins des éditeurs et des agences de presse",
+                    "l": "https://www.vie-publique.fr/loi/302620-droits-voisins-des-editeurs-et-agences-de-presse-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-27"
+                },
                 {
                     "t": "Proposition de loi visant à encadrer l'implantation des centres de données sur le territoire français",
                     "l": "https://www.vie-publique.fr/loi/302597-implatation-des-data-centers-en-france-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
@@ -1173,16 +1183,6 @@
                     "t": "Loi du 23 février 2026 relative à la confidentialité des consultations des juristes d'entreprise",
                     "l": "https://www.vie-publique.fr/loi/293979-confidentialite-consultations-juriste-entreprise-loi-23-fevrier-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
                     "d": "2026-02-25"
-                },
-                {
-                    "t": "Projet de loi constitutionnelle relatif à la Nouvelle-Calédonie",
-                    "l": "https://www.vie-publique.fr/loi/300461-etat-de-la-nouvelle-caledonie-projet-de-loi-constitutionnelle?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-02-25"
-                },
-                {
-                    "t": "Loi du 19 février 2026 de finances pour 2026",
-                    "l": "https://www.vie-publique.fr/loi/300444-budget-de-letat-2026-loi-de-finances-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-02-20"
                 }
             ]
         }
