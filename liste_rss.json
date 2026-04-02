@@ -59,14 +59,24 @@
             "nom_site": "Dalloz|Etudiant",
             "articles": [
                 {
-                    "t": "Poursuites d’un employeur pour blessures involontaires : appréciation du caractère particulier d’une obligation de sécurité",
-                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/poursuites-dun-employeur-pour-blessures-involontaires-appreciation-du-caractere-particulier-d/h/af73de481c81a43dc823e1eadb7f4499.html",
-                    "d": "2026-04-01"
+                    "t": "Guerres et Justice internationale",
+                    "l": "https://actu.dalloz-etudiant.fr/focus-sur/article/guerres-et-justice-internationale/h/32ca291fcdeba97a0365a9a653a0b221.html",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Obligation parentale d'entretien : l'enfant majeur peut agir directement, malgré une pension déjà fixée",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/obligation-parentale-dentretien-lenfant-majeur-peut-agir-directement-malgre-une-pension-deja/h/13314da4257380134318d77272bd82dd.html",
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "Renonciation ou renoncement ?",
-                    "l": "https://actu.dalloz-etudiant.fr/a-vos-copies/article/renonciation-ou-renoncement/h/77cbdd3bf77a6ffb5335ebfcfdab0153.html",
-                    "d": "2026-03-31"
+                    "l": "https://actu.dalloz-etudiant.fr/le-cas-du-mois/article/renonciation-ou-renoncement-1/h/f8b8e24aed25efa5f03f2f3aae8c9b56.html",
+                    "d": "2026-04-01"
+                },
+                {
+                    "t": "Poursuites d’un employeur pour blessures involontaires : appréciation du caractère particulier d’une obligation de sécurité",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/poursuites-dun-employeur-pour-blessures-involontaires-appreciation-du-caractere-particulier-d/h/af73de481c81a43dc823e1eadb7f4499.html",
+                    "d": "2026-04-01"
                 },
                 {
                     "t": "Inscription d’un bien en zone à risque entre la promesse et la vente : influence de l’approbation du plan de prévention sur l’étendue de l’obligation d’information du vendeur",
@@ -147,16 +157,6 @@
                     "t": "Annulation des décisions collectives en SAS en cas de défaut de convocation : un nouvel arrêt Larzul",
                     "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/annulation-des-decisions-collectives-en-sas-en-cas-de-defaut-de-convocation-un-nouvel-arret-lar/h/0e029ff14d396cfb073fec307a6157fb.html",
                     "d": "2026-03-18"
-                },
-                {
-                    "t": "Exécution forcée d'une promesse de cession d'actions et appréciation de la condition potestative",
-                    "l": "https://actu.dalloz-etudiant.fr/a-vos-copies/article/execution-forcee-dune-promesse-de-cession-dactions-et-appreciation-de-la-condition-potestative/h/ac603ffb0b353bc2ea43012b7040e527.html",
-                    "d": "2026-03-17"
-                },
-                {
-                    "t": "Insanité d’esprit et nullité du testament : portée probatoire de certificats médicaux postérieurs à l’acte",
-                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/insanite-desprit-et-nullite-du-testament-portee-probatoire-de-certificats-medicaux-posteri/h/d68dfc63895daadc99a083eb28255af5.html",
-                    "d": "2026-03-17"
                 }
             ]
         },
@@ -735,8 +735,23 @@
             "nom_site": "AN|Séances",
             "articles": [
                 {
-                    "t": "Compte rendu intégral de la première séance du mardi 31 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260187.asp",
+                    "t": "Compte rendu intégral de la première séance du mercredi 01 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260189.asp",
+                    "d": "2026-04-01"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du mercredi 25 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260179.asp",
+                    "d": "2026-03-25"
+                },
+                {
+                    "t": "Compte rendu intégral de la troisième séance du lundi 30 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260186.asp",
+                    "d": "2026-03-30"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du mardi 31 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260188.asp",
                     "d": "2026-03-31"
                 },
                 {
@@ -745,9 +760,19 @@
                     "d": "2026-03-30"
                 },
                 {
-                    "t": "Compte rendu intégral de la troisième séance du lundi 30 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260186.asp",
-                    "d": "2026-03-30"
+                    "t": "Compte rendu intégral de la première séance du mardi 31 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260187.asp",
+                    "d": "2026-03-31"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du jeudi 26 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260182.asp",
+                    "d": "2026-03-26"
+                },
+                {
+                    "t": "Compte rendu intégral de la troisième séance du jeudi 26 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260183.asp",
+                    "d": "2026-03-26"
                 },
                 {
                     "t": "Compte rendu intégral de la première séance du lundi 30 mars 2026",
@@ -758,31 +783,6 @@
                     "t": "Compte rendu intégral de la deuxième séance du mardi 24 mars 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260177.asp",
                     "d": "2026-03-24"
-                },
-                {
-                    "t": "Compte rendu intégral de la première séance du mercredi 25 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260179.asp",
-                    "d": "2026-03-25"
-                },
-                {
-                    "t": "Compte rendu intégral de la troisième séance du jeudi 26 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260183.asp",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "Compte rendu intégral de la troisième séance du mardi 24 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260178.asp",
-                    "d": "2026-03-24"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du jeudi 26 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260182.asp",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du mercredi 25 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260180.asp",
-                    "d": "2026-03-25"
                 }
             ]
         },
@@ -790,54 +790,54 @@
             "nom_site": "AN|Documents",
             "articles": [
                 {
-                    "t": "N° 1443 annexe 0 - Rapport de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion de la proposition de loi visant à faciliter la transformation des bâtiments de destination autre qu'habitation en habitations.",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r1443-a0.asp",
-                    "d": "2025-05-23"
+                    "t": "N° 2618 annexe 0 - Rapport sur la proposition de loi de Mme Laetitia Saint-Paul et plusieurs de ses collègues visant à renforcer la pénalisation de l'organisation de rave-parties (1133).",
+                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2618-a0.asp",
+                    "d": "2026-04-01"
                 },
                 {
-                    "t": "N° 1372 annexe 0 - Rapport sur la proposition de loi de M. Christophe Naegelen et plusieurs de ses collègues visant à lutter contre la pédocriminalité (369).",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r1372-a0.asp",
-                    "d": "2025-05-07"
+                    "t": "N° 2301 - Proposition de loi de M. Benoît Biteau visant à protéger l'alimentation des Français et des Françaises des contaminations au cadmium",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2301.asp",
+                    "d": "2025-12-23"
                 },
                 {
-                    "t": "Texte adopté n° 116 - Proposition de loi, adoptée, par l'Assemblée nationale, visant à lutter contre la pédocriminalité",
-                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0116.asp",
-                    "d": "2025-05-16"
+                    "t": "N° 2602 - Proposition de loi de M. Stéphane Viry visant à renforcer l'effectivité de la lutte contre les discriminations liées au handicap dans la sphère professionnelle",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2602.asp",
+                    "d": "2026-03-27"
                 },
                 {
-                    "t": "N° 1179 annexe 0 - Rapport sur la proposition de loi de M. Pascal Lecamp et plusieurs de ses collègues visant à assurer le développement raisonné et juste de l'agrivoltaïsme (962).",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r1179-a0.asp",
-                    "d": "2025-03-27"
+                    "t": "N° 1860 - Proposition de résolution européenne de Mme Constance Le Grip visant à condamner la dérive illibérale et autoritaire du gouvernement géorgien et à réaffirmer notre soutien au destin européen de la Géorgie",
+                    "l": "https://www.assemblee-nationale.fr/17/europe/resolutions/ppe1860.asp",
+                    "d": "2025-09-25"
                 },
                 {
-                    "t": "Texte adopté n° 129 - Proposition de loi, adoptée, par l'Assemblée nationale, portant reconnaissance de la Nation envers les rapatriés d'Indochine et réparation des préjudices subis par ceux-ci et leurs familles du fait de l'indignité de leurs conditions d'accueil et de vie dans certaines structures sur le territoire français",
-                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0129.asp",
-                    "d": "2025-06-04"
+                    "t": "N° 2615 annexe 0 - Rapport sur la proposition de loi de Mme Agnès Firmin Le Bodo et plusieurs de ses collègues visant à accélérer le développement du transport maritime à propulsion vélique (1502).",
+                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2615-a0.asp",
+                    "d": "2026-04-01"
                 },
                 {
-                    "t": "N° 2120 annexe 0 - Rapport sur la proposition de loi de M. Pierre-Yves Cadalen et plusieurs de ses collègues visant à garantir la gratuité totale des parkings des établissements publics de santé (1958).",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2120-a0.asp",
-                    "d": "2025-11-19"
-                },
-                {
-                    "t": "N° 2199 annexe 0 - Rapport sur la proposition de loi de Mme Fatiha Keloua Hachi et plusieurs de ses collègues visant à garantir un renouvellement automatique des titres de séjour de longue durée (1799).",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2199-a0.asp",
+                    "t": "N° 2182 - Proposition de loi de M. Christophe Marion relative à la restitution de restes humains originaires du territoire national",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2182.asp",
                     "d": "2025-12-03"
                 },
                 {
-                    "t": "N° 2146 annexe 0 - Rapport de la commission mixte paritaire chargée de proposer un texte sur les dispositions restant en discussion du projet de loi de finances de fin de gestion pour 2025.",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2146-a0.asp",
-                    "d": "2025-11-28"
+                    "t": "N° 2175 - Proposition de loi de M. Paul Christophe visant à mettre fin au devoir conjugal",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2175.asp",
+                    "d": "2025-12-03"
                 },
                 {
-                    "t": "N° 1175 annexe 0 - Rapport sur la proposition de loi, après engagement de la procédure accélérée, de M. Didier Lemaire et plusieurs de ses collègues visant à valoriser la réserve communale de sécurité civile (948).",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r1175-a0.asp",
-                    "d": "2025-03-27"
+                    "t": "N° 2553 - Proposition de loi de Mme Océane Godard pour un droit effectif aux acomptes sur salaire et rémunération",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2553.asp",
+                    "d": "2026-03-03"
                 },
                 {
-                    "t": "N° 1474 annexe 0 - Rapport sur la proposition de loi de M. Olivier Faure et plusieurs de ses collègues portant reconnaissance de la Nation envers les rapatriés d'Indochine et réparation des préjudices subis par ceux-ci et leurs familles du fait de l'indignité de leurs conditions d'accueil et de vie dans certaines structures sur le territoire français (949).",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r1474-a0.asp",
-                    "d": "2025-05-28"
+                    "t": "N° 688 - Proposition de loi de Mme Violette Spillebout relative à la protection des agents publics",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion0688.asp",
+                    "d": "2025-02-12"
+                },
+                {
+                    "t": "N° 2611 annexe 0 - Rapport sur la proposition de loi de M. Pierre Henriet et plusieurs de ses collègues visant à encadrer les regroupements pédagogiques intercommunaux afin de garantir l'égalité d'accès à l'école en milieu rural (2496).",
+                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2611-a0.asp",
+                    "d": "2026-04-01"
                 }
             ]
         },
@@ -845,104 +845,104 @@
             "nom_site": "Sénat|Textes",
             "articles": [
                 {
-                    "t": "Renforcer la place des agriculteurs dans l'aménagement du territoire - texte N° 480",
-                    "l": "http://www.senat.fr/leg/ppl25-480.html",
-                    "d": "2026-04-01"
+                    "t": "Renforcement de l'attractivité de l'épargne salariale - texte de la commission N° 495",
+                    "l": "http://www.senat.fr/leg/ppl25-495.html",
+                    "d": "2026-04-02"
                 },
                 {
-                    "t": "Clarté du scrutin municipal dans les communes de moins de 1 000 habitants - texte N° 474",
-                    "l": "http://www.senat.fr/leg/ppl25-474.html",
-                    "d": "2026-04-01"
+                    "t": "Relancer les investissements dans le secteur de l'hydroélectricité - texte de la commission N° 499",
+                    "l": "http://www.senat.fr/leg/ppl25-499.html",
+                    "d": "2026-04-02"
                 },
                 {
-                    "t": "Reconnaître un droit à l'accès aux toilettes - texte N° 473",
-                    "l": "http://www.senat.fr/leg/ppl25-473.html",
-                    "d": "2026-04-01"
+                    "t": "Exercice des compétences du service public de la petite enfance - texte de la commission N° 501",
+                    "l": "http://www.senat.fr/leg/ppl25-501.html",
+                    "d": "2026-04-02"
                 },
                 {
-                    "t": "Enseignement à la défense nationale dans le cadre du parcours de citoyenneté - texte N° 482",
-                    "l": "http://www.senat.fr/leg/ppl25-482.html",
-                    "d": "2026-04-01"
+                    "t": "Coordonner le droit des entreprises publiques - texte de la commission N° 493",
+                    "l": "http://www.senat.fr/leg/ppl25-493.html",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Présomption d'exploitation des contenus culturels par les fournisseurs d'IA - texte de la commission N° 497",
+                    "l": "http://www.senat.fr/leg/ppl25-497.html",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Mettre fin au devoir conjugal - texte de la commission N° 491",
+                    "l": "http://www.senat.fr/leg/ppl25-491.html",
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - texte de la commission N° 489",
                     "l": "http://www.senat.fr/leg/pjl25-489.html",
-                    "d": "2026-04-01"
+                    "d": "2026-04-02"
                 },
                 {
-                    "t": "Contrôle, gouvernance et responsabilité financière des opérateurs de l'État - texte N° 483",
-                    "l": "http://www.senat.fr/leg/ppl25-483.html",
-                    "d": "2026-04-01"
+                    "t": "Enseignement à la défense nationale dans le cadre du parcours de citoyenneté - texte N° 482",
+                    "l": "http://www.senat.fr/leg/ppl25-482.html",
+                    "d": "2026-04-02"
                 },
                 {
-                    "t": "Paquet sur les infrastructures d'énergie et les réseaux - texte N° 479",
-                    "l": "http://www.senat.fr/leg/ppr25-479.html",
-                    "d": "2026-04-01"
+                    "t": "Clarté du scrutin municipal dans les communes de moins de 1 000 habitants - texte N° 474",
+                    "l": "http://www.senat.fr/leg/ppl25-474.html",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Renforcer la place des agriculteurs dans l'aménagement du territoire - texte N° 480",
+                    "l": "http://www.senat.fr/leg/ppl25-480.html",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Reconnaître un droit à l'accès aux toilettes - texte N° 473",
+                    "l": "http://www.senat.fr/leg/ppl25-473.html",
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "Interdire les sucres ajoutés dans les aliments destinés aux enfants en bas âge - texte N° 484",
                     "l": "http://www.senat.fr/leg/ppl25-484.html",
-                    "d": "2026-04-01"
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Contrôle, gouvernance et responsabilité financière des opérateurs de l'État - texte N° 483",
+                    "l": "http://www.senat.fr/leg/ppl25-483.html",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Paquet sur les infrastructures d'énergie et les réseaux - texte N° 479",
+                    "l": "http://www.senat.fr/leg/ppr25-479.html",
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "Commercialisation à distance de services financiers auprès des consommateurs - texte N° 471",
                     "l": "http://www.senat.fr/leg/pjl25-471.html",
-                    "d": "2026-04-01"
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "Paquet « omnibus environnement » - texte N° 478",
                     "l": "http://www.senat.fr/leg/ppr25-478.html",
-                    "d": "2026-04-01"
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "Renforcer l'effectivité des droits voisins des éditeurs et des agences de press - texte N° 475",
                     "l": "http://www.senat.fr/leg/ppl25-475.html",
-                    "d": "2026-04-01"
-                },
-                {
-                    "t": "Logements abordables - texte de la commission N° 477",
-                    "l": "http://www.senat.fr/leg/ppr25-477.html",
-                    "d": "2026-04-01"
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "Accès au compte bancaire pour les Français établis hors de France - texte N° 460",
                     "l": "http://www.senat.fr/leg/ppl25-460.html",
-                    "d": "2026-04-01"
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Logements abordables - texte de la commission N° 477",
+                    "l": "http://www.senat.fr/leg/ppr25-477.html",
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "Résoudre le fléau des désordres fonciers outre-mer - texte N° 450",
                     "l": "http://www.senat.fr/leg/ppl25-450.html",
-                    "d": "2026-04-01"
-                },
-                {
-                    "t": "Réponses immédiates aux phénomènes troublant l'ordre public - texte N° 472",
-                    "l": "http://www.senat.fr/leg/pjl25-472.html",
-                    "d": "2026-04-01"
-                },
-                {
-                    "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - texte N° 470",
-                    "l": "http://www.senat.fr/leg/pjl25-470.html",
-                    "d": "2026-04-01"
-                },
-                {
-                    "t": "Faciliter l'exercice en France des médecins diplômés au Royaume-Uni - texte de la commission N° 462",
-                    "l": "http://www.senat.fr/leg/ppl25-462.html",
-                    "d": "2026-04-01"
-                },
-                {
-                    "t": "Protéger les mineurs des risques des réseaux sociaux - texte de la commission N° 469",
-                    "l": "http://www.senat.fr/leg/ppl25-469.html",
-                    "d": "2026-04-01"
-                },
-                {
-                    "t": "Gouvernance claire, juste et solidaire pour la GEMAPI - texte de la commission N° 467",
-                    "l": "http://www.senat.fr/leg/ppl25-467.html",
-                    "d": "2026-04-01"
-                },
-                {
-                    "t": "Moyens de lutte contre la cabanisation - texte N° 459",
-                    "l": "http://www.senat.fr/leg/ppl25-459.html",
-                    "d": "2026-04-01"
+                    "d": "2026-04-02"
                 }
             ]
         },
@@ -950,35 +950,45 @@
             "nom_site": "Sénat|Rapports",
             "articles": [
                 {
+                    "t": "Présomption d'exploitation des contenus culturels par les fournisseurs d'IA - rapport n° 496",
+                    "l": "http://www.senat.fr/rap/l25-496/l25-496.html",
+                    "d": "2026-04-02"
+                },
+                {
                     "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - rapport n° 488",
                     "l": "http://www.senat.fr/rap/l25-488/l25-488.html",
-                    "d": "2026-04-01"
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "Protéger les mineurs des risques des réseaux sociaux - rapport n° 468",
                     "l": "http://www.senat.fr/rap/l25-468/l25-468.html",
-                    "d": "2026-04-01"
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "Gouvernance claire, juste et solidaire pour la GEMAPI - rapport n° 466",
                     "l": "http://www.senat.fr/rap/l25-466/l25-466.html",
-                    "d": "2026-04-01"
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "Faciliter l'exercice en France des médecins diplômés au Royaume-Uni - rapport n° 461",
                     "l": "http://www.senat.fr/rap/l25-461/l25-461.html",
-                    "d": "2026-04-01"
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "Règles applicables en Martinique en matière d'énergie, d'eau et d'assainissement - avis n° 463",
                     "l": "http://www.senat.fr/rap/a25-463/a25-463.html",
-                    "d": "2026-04-01"
+                    "d": "2026-04-02"
                 }
             ]
         },
         {
             "nom_site": "DAJ Bercy",
             "articles": [
+                {
+                    "t": "Saisir la DAJ",
+                    "l": "https://www.economie.gouv.fr/daj/saisir-la-daj",
+                    "d": "2026-04-01"
+                },
                 {
                     "t": "La divergence linguistique entre les Etats membres de l’Union européenne sur une disposition doit donner lieu à une interprétation contextuelle et téléologique",
                     "l": "https://www.economie.gouv.fr/daj/la-divergence-linguistique-entre-les-etats-membres-de-lunion-europeenne-sur-une-disposition-doit-donner-lieu-une-interpretation-contextuelle-et",
@@ -1023,173 +1033,16 @@
                     "t": "Contribution tarifaire d’acheminement et directive accise : l’exigence d’un lien direct et indissociable avec la consommation d’électricité",
                     "l": "https://www.economie.gouv.fr/daj/contribution-tarifaire-dacheminement-et-directive-accise-lexigence-dun-lien-direct-et-indissociable-avec-la-consommation-delectricite",
                     "d": "2026-03-02"
-                },
-                {
-                    "t": "Adoption par la Commission européenne d’une nouvelle décision sur les aides publiques accordées à certains services d’intérêt économique général",
-                    "l": "https://www.economie.gouv.fr/daj/adoption-par-la-commission-europeenne-dune-nouvelle-decision-sur-les-aides-publiques-accordees-certains-services-dinteret-economique-general",
-                    "d": "2026-03-02"
                 }
             ]
         },
         {
             "nom_site": "Vie Publique|Actualités",
-            "articles": [
-                {
-                    "t": "Départ à la retraite : une baisse significative du taux de pauvreté",
-                    "l": "https://www.vie-publique.fr/en-bref/302623-retraites-baisse-de-la-pauvrete-lors-du-passage-la-retraite?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "Commerce : adoption de la réforme de l'union douanière de l'UE",
-                    "l": "https://www.vie-publique.fr/en-bref/302644-la-reforme-de-lunion-douaniere-de-lue-adoptee?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "Fonction publique : lancement d'une réflexion stratégique pour anticiper les changements d'ici à 2050",
-                    "l": "https://www.vie-publique.fr/en-bref/302643-revue-strategique-quelle-fonction-publique-en-2035-2050?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "Du dossier médical personnel en 2004 à Mon espace santé en 2026",
-                    "l": "https://www.vie-publique.fr/eclairage/18471-du-dossier-medical-personnel-mon-espace-sante?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "Réserve d'or de la Banque de France : à quoi sert-elle ?",
-                    "l": "https://www.vie-publique.fr/questions-reponses/297929-reserve-dor-de-la-banque-de-france-quoi-sert-elle?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-03-30"
-                },
-                {
-                    "t": "Autonomie financière, dotations de l'État, droits d'inscription... Le point sur le financement des universités",
-                    "l": "https://www.vie-publique.fr/questions-reponses/302145-comment-sont-financees-les-universites-en-france?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-03-30"
-                },
-                {
-                    "t": "Lutte contre la désinformation : bilan des moyens mis en œuvre par les plateformes",
-                    "l": "https://www.vie-publique.fr/en-bref/302599-lutte-contre-la-desinformation-quels-moyens-mis-en-place?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-03-30"
-                },
-                {
-                    "t": "Enseignants : des conditions de vie familiale identiques aux autres cadres de la fonction publique d'État ?",
-                    "l": "https://www.vie-publique.fr/en-bref/302627-quelles-sont-les-conditions-de-vie-familiale-des-enseignants?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-03-30"
-                },
-                {
-                    "t": "Passage à l'heure d'été : cinq questions sur le changement d'heure saisonnier",
-                    "l": "https://www.vie-publique.fr/questions-reponses/271194-heure-dete-5-questions-sur-le-changement-dheure?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-03-28"
-                },
-                {
-                    "t": "Crimes et délits racistes, xénophobes ou antireligieux : en hausse de 5% en 2025",
-                    "l": "https://www.vie-publique.fr/en-bref/302093-crimes-et-delits-racistes-xenophobes-ou-antireligieux-en-hausse-de-5?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-03-27"
-                }
-            ]
+            "articles": []
         },
         {
             "nom_site": "Vie Publique|Lois",
-            "articles": [
-                {
-                    "t": "Proposition de loi visant à permettre le remboursement des frais d'expertise comptable aux candidats",
-                    "l": "https://www.vie-publique.fr/loi/302148-proposition-de-loi-remboursement-frais-expertise-comptable-aux-candidats?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "Proposition de loi visant à améliorer l'accès au logement des travailleurs des services publics",
-                    "l": "https://www.vie-publique.fr/loi/301612-acces-au-logement-travailleurs-des-services-publics-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "Proposition de loi visant à garantir le droit de visite des parlementaires et des bâtonniers dans les lieux de privation de liberté",
-                    "l": "https://www.vie-publique.fr/loi/302147-proposition-de-loi-droit-de-visite-parlementaires-batonniers-en-prison?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "Proposition de loi visant à renforcer l'enseignement à la défense nationale dans le cadre du parcours de citoyenneté",
-                    "l": "https://www.vie-publique.fr/loi/302624-enseignement-defense-nationale-parcours-citoyennete-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-27"
-                },
-                {
-                    "t": "Proposition de loi visant à renforcer l'effectivité des droits voisins des éditeurs et des agences de presse",
-                    "l": "https://www.vie-publique.fr/loi/302620-droits-voisins-des-editeurs-et-agences-de-presse-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-27"
-                },
-                {
-                    "t": "Proposition de loi visant à encadrer l'implantation des centres de données sur le territoire français",
-                    "l": "https://www.vie-publique.fr/loi/302597-implatation-des-data-centers-en-france-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-27"
-                },
-                {
-                    "t": "Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens",
-                    "l": "https://www.vie-publique.fr/loi/302565-projet-de-loi-ripost-ordre-public-securite-et-tranquillite?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "Projet de loi portant transposition de l'avenant n° 3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage",
-                    "l": "https://www.vie-publique.fr/loi/302566-accord-assurance-chomage-rupture-conventionnelle-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "Proposition de loi visant à simplifier la sortie de l'indivision successorale et la gestion des successions vacantes",
-                    "l": "https://www.vie-publique.fr/loi/297598-simplifier-la-sortie-de-lindivision-successorale-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "Proposition de loi visant à soutenir les collectivités territoriales dans la prévention et la gestion des inondations",
-                    "l": "https://www.vie-publique.fr/loi/297591-inondations-prevention-et-gestion-par-les-communes-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "Ordonnance du 5 janvier 2026 relative à la commercialisation à distance de services financiers auprès des consommateurs",
-                    "l": "https://www.vie-publique.fr/loi/301505-commercialisation-de-services-financiers-ordonnance-du-5-janvier-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "Loi du 20 mars 2026 relative à l'organisation des jeux Olympiques et Paralympiques de 2030",
-                    "l": "https://www.vie-publique.fr/loi/298606-jo-hiver-2030-loi-organisation-jeux-olympiques-paralympiques?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-21"
-                },
-                {
-                    "t": "Projet de loi organique relatif au renforcement des juridictions criminelles",
-                    "l": "https://www.vie-publique.fr/loi/302486-projet-de-loi-organique-renforcement-des-juridictions-criminelles?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-20"
-                },
-                {
-                    "t": "Projet de loi sur la justice criminelle et le respect des victimes",
-                    "l": "https://www.vie-publique.fr/loi/302487-projet-de-loi-justice-criminelle-respect-des-victimes-plaider-coupable?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-19"
-                },
-                {
-                    "t": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
-                    "l": "https://www.vie-publique.fr/loi/300456-lutte-contre-les-fraudes-sociales-et-fiscales-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-03-11"
-                },
-                {
-                    "t": "Proposition de loi constitutionnelle visant à préciser la procédure d'examen des textes budgétaires, à renforcer la place du Parlement et à sécuriser le périmètre et la constitutionnalité des dispositions mises en œuvre par les ordonnances mentionnées au",
-                    "l": "https://www.vie-publique.fr/loi/302258-examen-des-textes-budgetaires-proposition-de-loi-constitutionnelle?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-02-27"
-                },
-                {
-                    "t": "Proposition de loi visant à améliorer la protection et l'accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap",
-                    "l": "https://www.vie-publique.fr/loi/296460-protection-parents-enfants-atteints-maladies-graves-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-02-27"
-                },
-                {
-                    "t": "Proposition de loi visant à réserver la vente de protoxyde d'azote aux seuls professionnels",
-                    "l": "https://www.vie-publique.fr/loi/302268-gaz-hilarant-vente-de-protoxyde-azote-aux-seuls-professionnels-ppl?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-02-27"
-                },
-                {
-                    "t": "Projet de loi portant diverses mesures urgentes de sécurisation du droit de la fonction publique",
-                    "l": "https://www.vie-publique.fr/loi/302246-droit-de-la-fonction-publique-mesures-urgentes-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-02-26"
-                },
-                {
-                    "t": "Proposition de loi relative au droit à l'aide à mourir",
-                    "l": "https://www.vie-publique.fr/loi/298544-fin-de-vie-droit-laide-mourir-proposition-de-loi-falorni?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-02-26"
-                }
-            ]
+            "articles": []
         }
     ],
     "finance": [
