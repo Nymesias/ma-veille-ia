@@ -59,6 +59,16 @@
             "nom_site": "Dalloz|Etudiant",
             "articles": [
                 {
+                    "t": "Une cellule monastique constitue-t-elle un domicile ?",
+                    "l": "https://actu.dalloz-etudiant.fr/le-saviez-vous/article/une-cellule-monastique-constitue-t-elle-un-domicile/h/965fafef826f0d52c16d79bc215be676.html",
+                    "d": "2026-04-03"
+                },
+                {
+                    "t": "Précisions sur les conditions d’admission de la preuve déloyale dans le procès civil",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/precisions-sur-les-conditions-dadmission-de-la-preuve-deloyale-dans-le-proces-civil/h/e072a0f41ea53582bc1ba8db213461b7.html",
+                    "d": "2026-04-03"
+                },
+                {
                     "t": "Guerres et Justice internationale",
                     "l": "https://actu.dalloz-etudiant.fr/focus-sur/article/guerres-et-justice-internationale/h/32ca291fcdeba97a0365a9a653a0b221.html",
                     "d": "2026-04-02"
@@ -147,16 +157,6 @@
                     "t": "Cumul des fonctions de juge du fond et de cassation : atteinte à l’impartialité objective",
                     "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/cumul-des-fonctions-de-juge-du-fond-et-de-cassation-atteinte-a-limpartialite-objective/h/d2ed7d107f8c07bc161dc3cbfed0f22c.html",
                     "d": "2026-03-19"
-                },
-                {
-                    "t": "L’enseignement supérieur au prisme des contentieux",
-                    "l": "https://actu.dalloz-etudiant.fr/focus-sur/article/lenseignement-superieur-au-prisme-des-contentieux/h/069479a8cd166743875fa958c1efbbf6.html",
-                    "d": "2026-03-19"
-                },
-                {
-                    "t": "Annulation des décisions collectives en SAS en cas de défaut de convocation : un nouvel arrêt Larzul",
-                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/annulation-des-decisions-collectives-en-sas-en-cas-de-defaut-de-convocation-un-nouvel-arret-lar/h/0e029ff14d396cfb073fec307a6157fb.html",
-                    "d": "2026-03-18"
                 }
             ]
         },
@@ -279,6 +279,11 @@
             "nom_site": "Conseil d'Etat|Séances",
             "articles": [
                 {
+                    "t": "Audience publique du vendredi 10 avril 2026 à 14 heures",
+                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-vendredi-10-avril-2026-a-14-heures",
+                    "d": "2026-04-02"
+                },
+                {
                     "t": "Audience publique du 20 mars 2026 à 14 heures",
                     "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-20-mars-2026-a-14-heures",
                     "d": "2026-03-16"
@@ -372,17 +377,17 @@
                     "t": "Audience publique du 27 octobre 2023 à 14 heures",
                     "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-27-octobre-2023-a-14-heures",
                     "d": "2023-10-20"
-                },
-                {
-                    "t": "Audience publique du 29 septembre 2023 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-29-septembre-2023-a-14-heures",
-                    "d": "2023-09-25"
                 }
             ]
         },
         {
             "nom_site": "Conseil Constitutionnel",
             "articles": [
+                {
+                    "t": "Décision n° 2026-318 L du 2 avril 2026",
+                    "l": "https://www.conseil-constitutionnel.fr/decision/2026/2026318L.htm",
+                    "d": "2026-04-02"
+                },
                 {
                     "t": "Décision n° 2026-1189 QPC du 27 mars 2026 - Communiqué de presse",
                     "l": "https://www.conseil-constitutionnel.fr/actualites/communique/decision-n-2026-1189-qpc-du-27-mars-2026-communique-de-presse",
@@ -477,11 +482,6 @@
                     "t": "Décision n° 2025-1182 QPC du 20 février 2026",
                     "l": "https://www.conseil-constitutionnel.fr/decision/2026/20251182QPC.htm",
                     "d": "2026-02-20"
-                },
-                {
-                    "t": "Décision n° 2026-901 DC du 19 février 2026",
-                    "l": "https://www.conseil-constitutionnel.fr/decision/2026/2026901DC.htm",
-                    "d": "2026-02-19"
                 }
             ]
         },
@@ -735,28 +735,13 @@
             "nom_site": "AN|Séances",
             "articles": [
                 {
-                    "t": "Compte rendu intégral de la première séance du mercredi 01 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260189.asp",
-                    "d": "2026-04-01"
-                },
-                {
-                    "t": "Compte rendu intégral de la première séance du mercredi 25 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260179.asp",
-                    "d": "2026-03-25"
+                    "t": "Compte rendu intégral de la séance du jeudi 02 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260191.asp",
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "Compte rendu intégral de la troisième séance du lundi 30 mars 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260186.asp",
-                    "d": "2026-03-30"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du mardi 31 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260188.asp",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du lundi 30 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260185.asp",
                     "d": "2026-03-30"
                 },
                 {
@@ -765,24 +750,39 @@
                     "d": "2026-03-31"
                 },
                 {
-                    "t": "Compte rendu intégral de la deuxième séance du jeudi 26 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260182.asp",
-                    "d": "2026-03-26"
+                    "t": "Compte rendu intégral de la première séance du mercredi 01 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260189.asp",
+                    "d": "2026-04-01"
                 },
                 {
-                    "t": "Compte rendu intégral de la troisième séance du jeudi 26 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260183.asp",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "Compte rendu intégral de la première séance du lundi 30 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260184.asp",
-                    "d": "2026-03-30"
+                    "t": "Compte rendu intégral de la deuxième séance du mercredi 01 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260190.asp",
+                    "d": "2026-04-01"
                 },
                 {
                     "t": "Compte rendu intégral de la deuxième séance du mardi 24 mars 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260177.asp",
                     "d": "2026-03-24"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du mardi 24 février 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260166.asp",
+                    "d": "2026-02-24"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du jeudi 26 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260182.asp",
+                    "d": "2026-03-26"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du mercredi 25 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260179.asp",
+                    "d": "2026-03-25"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du mardi 31 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260188.asp",
+                    "d": "2026-03-31"
                 }
             ]
         },
@@ -790,9 +790,24 @@
             "nom_site": "AN|Documents",
             "articles": [
                 {
-                    "t": "N° 2618 annexe 0 - Rapport sur la proposition de loi de Mme Laetitia Saint-Paul et plusieurs de ses collègues visant à renforcer la pénalisation de l'organisation de rave-parties (1133).",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2618-a0.asp",
-                    "d": "2026-04-01"
+                    "t": "N° 1803 - Proposition de loi de Mme Danielle Simonnet visant à responsabiliser les clubs pour mettre fin à l'homophobie dans le sport",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1803.asp",
+                    "d": "2025-09-16"
+                },
+                {
+                    "t": "N° 1796 - Proposition de loi de M. Thomas Cazenave visant à moderniser la gestion du patrimoine immobilier de l'État",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1796.asp",
+                    "d": "2025-09-16"
+                },
+                {
+                    "t": "N° 1737 - Proposition de loi de M. Vincent Jeanbrun relative à la création d'une compétence sécurité pour les régions",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1737.asp",
+                    "d": "2025-07-11"
+                },
+                {
+                    "t": "N° 2605 rapport - Rapport de M. Thomas Lam sur la proposition de loi de M. Thomas Lam et plusieurs de ses collègues visant à simplifier la gestion de la commande publique par les acheteurs publics et les opérateurs économiques (2491).",
+                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2605.asp",
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "N° 2301 - Proposition de loi de M. Benoît Biteau visant à protéger l'alimentation des Français et des Françaises des contaminations au cadmium",
@@ -800,29 +815,9 @@
                     "d": "2025-12-23"
                 },
                 {
-                    "t": "N° 2602 - Proposition de loi de M. Stéphane Viry visant à renforcer l'effectivité de la lutte contre les discriminations liées au handicap dans la sphère professionnelle",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2602.asp",
-                    "d": "2026-03-27"
-                },
-                {
-                    "t": "N° 1860 - Proposition de résolution européenne de Mme Constance Le Grip visant à condamner la dérive illibérale et autoritaire du gouvernement géorgien et à réaffirmer notre soutien au destin européen de la Géorgie",
-                    "l": "https://www.assemblee-nationale.fr/17/europe/resolutions/ppe1860.asp",
-                    "d": "2025-09-25"
-                },
-                {
-                    "t": "N° 2615 annexe 0 - Rapport sur la proposition de loi de Mme Agnès Firmin Le Bodo et plusieurs de ses collègues visant à accélérer le développement du transport maritime à propulsion vélique (1502).",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2615-a0.asp",
-                    "d": "2026-04-01"
-                },
-                {
-                    "t": "N° 2182 - Proposition de loi de M. Christophe Marion relative à la restitution de restes humains originaires du territoire national",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2182.asp",
-                    "d": "2025-12-03"
-                },
-                {
-                    "t": "N° 2175 - Proposition de loi de M. Paul Christophe visant à mettre fin au devoir conjugal",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2175.asp",
-                    "d": "2025-12-03"
+                    "t": "N° 2606 rapport - Rapport de M. Jean-René Cazeneuve sur la proposition de loi de Mme Brigitte Klinkert et plusieurs de ses collègues visant à simplifier le millefeuille territorial par la collectivité unique (1800).",
+                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2606.asp",
+                    "d": "2026-04-02"
                 },
                 {
                     "t": "N° 2553 - Proposition de loi de Mme Océane Godard pour un droit effectif aux acomptes sur salaire et rémunération",
@@ -830,14 +825,19 @@
                     "d": "2026-03-03"
                 },
                 {
-                    "t": "N° 688 - Proposition de loi de Mme Violette Spillebout relative à la protection des agents publics",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion0688.asp",
-                    "d": "2025-02-12"
+                    "t": "N° 1800 - Proposition de loi de Mme Brigitte Klinkert visant à simplifier le millefeuille territorial par la collectivité unique",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1800.asp",
+                    "d": "2025-09-16"
                 },
                 {
-                    "t": "N° 2611 annexe 0 - Rapport sur la proposition de loi de M. Pierre Henriet et plusieurs de ses collègues visant à encadrer les regroupements pédagogiques intercommunaux afin de garantir l'égalité d'accès à l'école en milieu rural (2496).",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2611-a0.asp",
-                    "d": "2026-04-01"
+                    "t": "N° 2590 - Proposition de loi de Mme Gabrielle Cathala visant à créer un parcours de soins pour les victimes de violences sexistes et sexuelles",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2590.asp",
+                    "d": "2026-03-27"
+                },
+                {
+                    "t": "N° 2620 annexe 0 - Rapport sur la proposition de loi de M. Paul Christophe et plusieurs de ses collègues pour la sécurisation des ressources des familles monoparentales par une pension alimentaire garantie (2494).",
+                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2620-a0.asp",
+                    "d": "2026-04-02"
                 }
             ]
         },
@@ -845,104 +845,104 @@
             "nom_site": "Sénat|Textes",
             "articles": [
                 {
-                    "t": "Renforcement de l'attractivité de l'épargne salariale - texte de la commission N° 495",
-                    "l": "http://www.senat.fr/leg/ppl25-495.html",
-                    "d": "2026-04-02"
+                    "t": "Équilibre économique de l'exploitation des RIP par un mécanisme de péréquation - texte de la commission N° 503",
+                    "l": "http://www.senat.fr/leg/ppl25-503.html",
+                    "d": "2026-04-03"
+                },
+                {
+                    "t": "Garantir la liberté de choix des familles dans l'organisation des obsèques - texte N° 332",
+                    "l": "http://www.senat.fr/leg/ppl25-332.html",
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Relancer les investissements dans le secteur de l'hydroélectricité - texte de la commission N° 499",
                     "l": "http://www.senat.fr/leg/ppl25-499.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
+                },
+                {
+                    "t": "Renforcement de l'attractivité de l'épargne salariale - texte de la commission N° 495",
+                    "l": "http://www.senat.fr/leg/ppl25-495.html",
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Exercice des compétences du service public de la petite enfance - texte de la commission N° 501",
                     "l": "http://www.senat.fr/leg/ppl25-501.html",
-                    "d": "2026-04-02"
-                },
-                {
-                    "t": "Coordonner le droit des entreprises publiques - texte de la commission N° 493",
-                    "l": "http://www.senat.fr/leg/ppl25-493.html",
-                    "d": "2026-04-02"
-                },
-                {
-                    "t": "Présomption d'exploitation des contenus culturels par les fournisseurs d'IA - texte de la commission N° 497",
-                    "l": "http://www.senat.fr/leg/ppl25-497.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Mettre fin au devoir conjugal - texte de la commission N° 491",
                     "l": "http://www.senat.fr/leg/ppl25-491.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
+                },
+                {
+                    "t": "Coordonner le droit des entreprises publiques - texte de la commission N° 493",
+                    "l": "http://www.senat.fr/leg/ppl25-493.html",
+                    "d": "2026-04-03"
+                },
+                {
+                    "t": "Présomption d'exploitation des contenus culturels par les fournisseurs d'IA - texte de la commission N° 497",
+                    "l": "http://www.senat.fr/leg/ppl25-497.html",
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - texte de la commission N° 489",
                     "l": "http://www.senat.fr/leg/pjl25-489.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Enseignement à la défense nationale dans le cadre du parcours de citoyenneté - texte N° 482",
                     "l": "http://www.senat.fr/leg/ppl25-482.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Clarté du scrutin municipal dans les communes de moins de 1 000 habitants - texte N° 474",
                     "l": "http://www.senat.fr/leg/ppl25-474.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Renforcer la place des agriculteurs dans l'aménagement du territoire - texte N° 480",
                     "l": "http://www.senat.fr/leg/ppl25-480.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Reconnaître un droit à l'accès aux toilettes - texte N° 473",
                     "l": "http://www.senat.fr/leg/ppl25-473.html",
-                    "d": "2026-04-02"
-                },
-                {
-                    "t": "Interdire les sucres ajoutés dans les aliments destinés aux enfants en bas âge - texte N° 484",
-                    "l": "http://www.senat.fr/leg/ppl25-484.html",
-                    "d": "2026-04-02"
-                },
-                {
-                    "t": "Contrôle, gouvernance et responsabilité financière des opérateurs de l'État - texte N° 483",
-                    "l": "http://www.senat.fr/leg/ppl25-483.html",
-                    "d": "2026-04-02"
-                },
-                {
-                    "t": "Paquet sur les infrastructures d'énergie et les réseaux - texte N° 479",
-                    "l": "http://www.senat.fr/leg/ppr25-479.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Commercialisation à distance de services financiers auprès des consommateurs - texte N° 471",
                     "l": "http://www.senat.fr/leg/pjl25-471.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
+                },
+                {
+                    "t": "Interdire les sucres ajoutés dans les aliments destinés aux enfants en bas âge - texte N° 484",
+                    "l": "http://www.senat.fr/leg/ppl25-484.html",
+                    "d": "2026-04-03"
+                },
+                {
+                    "t": "Contrôle, gouvernance et responsabilité financière des opérateurs de l'État - texte N° 483",
+                    "l": "http://www.senat.fr/leg/ppl25-483.html",
+                    "d": "2026-04-03"
+                },
+                {
+                    "t": "Paquet sur les infrastructures d'énergie et les réseaux - texte N° 479",
+                    "l": "http://www.senat.fr/leg/ppr25-479.html",
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Paquet « omnibus environnement » - texte N° 478",
                     "l": "http://www.senat.fr/leg/ppr25-478.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Renforcer l'effectivité des droits voisins des éditeurs et des agences de press - texte N° 475",
                     "l": "http://www.senat.fr/leg/ppl25-475.html",
-                    "d": "2026-04-02"
-                },
-                {
-                    "t": "Accès au compte bancaire pour les Français établis hors de France - texte N° 460",
-                    "l": "http://www.senat.fr/leg/ppl25-460.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Logements abordables - texte de la commission N° 477",
                     "l": "http://www.senat.fr/leg/ppr25-477.html",
-                    "d": "2026-04-02"
-                },
-                {
-                    "t": "Résoudre le fléau des désordres fonciers outre-mer - texte N° 450",
-                    "l": "http://www.senat.fr/leg/ppl25-450.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 }
             ]
         },
@@ -950,40 +950,70 @@
             "nom_site": "Sénat|Rapports",
             "articles": [
                 {
+                    "t": "Exercice des compétences du service public de la petite enfance - rapport n° 500",
+                    "l": "http://www.senat.fr/rap/l25-500/l25-500.html",
+                    "d": "2026-04-03"
+                },
+                {
+                    "t": "Relancer les investissements dans le secteur de l'hydroélectricité - rapport n° 498",
+                    "l": "http://www.senat.fr/rap/l25-498/l25-498.html",
+                    "d": "2026-04-03"
+                },
+                {
+                    "t": "Renforcement de l'attractivité de l'épargne salariale - rapport n° 494",
+                    "l": "http://www.senat.fr/rap/l25-494/l25-494.html",
+                    "d": "2026-04-03"
+                },
+                {
                     "t": "Présomption d'exploitation des contenus culturels par les fournisseurs d'IA - rapport n° 496",
                     "l": "http://www.senat.fr/rap/l25-496/l25-496.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - rapport n° 488",
                     "l": "http://www.senat.fr/rap/l25-488/l25-488.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Protéger les mineurs des risques des réseaux sociaux - rapport n° 468",
                     "l": "http://www.senat.fr/rap/l25-468/l25-468.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Gouvernance claire, juste et solidaire pour la GEMAPI - rapport n° 466",
                     "l": "http://www.senat.fr/rap/l25-466/l25-466.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Faciliter l'exercice en France des médecins diplômés au Royaume-Uni - rapport n° 461",
                     "l": "http://www.senat.fr/rap/l25-461/l25-461.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 },
                 {
                     "t": "Règles applicables en Martinique en matière d'énergie, d'eau et d'assainissement - avis n° 463",
                     "l": "http://www.senat.fr/rap/a25-463/a25-463.html",
-                    "d": "2026-04-02"
+                    "d": "2026-04-03"
                 }
             ]
         },
         {
             "nom_site": "DAJ Bercy",
             "articles": [
+                {
+                    "t": "Responsabilité de l’Etat du fait de l’exercice par la Cour nationale du droit d’asile de ses fonctions juridictionnelles",
+                    "l": "https://www.economie.gouv.fr/daj/responsabilite-de-letat-du-fait-de-lexercice-par-la-cour-nationale-du-droit-dasile-de-ses-fonctions-juridictionnelles",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Clarification par la Cour de cassation de la notion de contrôle de fait au sens de l’article L.233-3 du code de commerce",
+                    "l": "https://www.economie.gouv.fr/daj/clarification-par-la-cour-de-cassation-de-la-notion-de-controle-de-fait-au-sens-de-larticle-l233-3-du-code-de-commerce",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Crise actuelle en Iran et hausses des prix de certaines matières premières : la circulaire du 22 septembre 2022 demeure toujours d’actualité",
+                    "l": "https://www.economie.gouv.fr/daj/crise-actuelle-en-iran-et-hausses-des-prix-de-certaines-matieres-premieres-la-circulaire-du-22-septembre-2022-demeure-toujours-dactualite",
+                    "d": "2026-04-02"
+                },
                 {
                     "t": "Saisir la DAJ",
                     "l": "https://www.economie.gouv.fr/daj/saisir-la-daj",
@@ -1018,37 +1048,189 @@
                     "t": "Adoption de la loi relative à l’organisation des Jeux Olympiques et Paralympiques de 2030",
                     "l": "https://www.economie.gouv.fr/daj/adoption-de-la-loi-relative-lorganisation-des-jeux-olympiques-et-paralympiques-de-2030",
                     "d": "2026-03-25"
-                },
-                {
-                    "t": "La Lettre de la DAJ n°399 est en ligne !",
-                    "l": "https://www.economie.gouv.fr/daj/la-lettre-de-la-daj-ndeg399-est-en-ligne",
-                    "d": "2026-03-05"
-                },
-                {
-                    "t": "L’Agent judiciaire de l’État lance son nouveau marché de représentation en justice et de conseil",
-                    "l": "https://www.economie.gouv.fr/daj/lagent-judiciaire-de-letat-lance-son-nouveau-marche-de-representation-en-justice-et-de-conseil",
-                    "d": "2026-03-03"
-                },
-                {
-                    "t": "Contribution tarifaire d’acheminement et directive accise : l’exigence d’un lien direct et indissociable avec la consommation d’électricité",
-                    "l": "https://www.economie.gouv.fr/daj/contribution-tarifaire-dacheminement-et-directive-accise-lexigence-dun-lien-direct-et-indissociable-avec-la-consommation-delectricite",
-                    "d": "2026-03-02"
                 }
             ]
         },
         {
             "nom_site": "Vie Publique|Actualités",
-            "articles": []
+            "articles": [
+                {
+                    "t": "Complémentaire santé : les personnes les plus pauvres moins souvent couvertes",
+                    "l": "https://www.vie-publique.fr/en-bref/302679-complementaire-sante-les-personnes-pauvres-moins-souvent-couvertes?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-04-03"
+                },
+                {
+                    "t": "Réindustrialisation : moins d'ouvertures d'usines en 2025",
+                    "l": "https://www.vie-publique.fr/en-bref/302660-reindustrialisation-les-ouvertures-dusines-ralentissent-en-2025?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Livreurs des plateformes numériques : un rythme de travail \"éprouvant\"",
+                    "l": "https://www.vie-publique.fr/en-bref/302678-livreurs-de-repas-velo-quelles-conditions-de-travail?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Le prix Nobel de la paix : un choix politique ?",
+                    "l": "https://www.vie-publique.fr/eclairage/271285-le-prix-nobel-de-la-paix-un-choix-politique?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Convention citoyenne pour le climat de 2020 : un bilan mitigé ?",
+                    "l": "https://www.vie-publique.fr/eclairage/279701-convention-citoyenne-pour-le-climat-de-2020-un-bilan-mitige?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-04-01"
+                },
+                {
+                    "t": "152,5 milliards d'euros de déficit public en 2025",
+                    "l": "https://www.vie-publique.fr/en-bref/302659-1525-milliards-deuros-de-deficit-public-en-2025?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-04-01"
+                },
+                {
+                    "t": "Emploi : plus de 80% des embauches en contrat court en 2024",
+                    "l": "https://www.vie-publique.fr/en-bref/302648-emploi-plus-de-80-des-embauches-en-contrat-court-en-2024?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-04-01"
+                },
+                {
+                    "t": "Départ à la retraite : une baisse significative du taux de pauvreté",
+                    "l": "https://www.vie-publique.fr/en-bref/302623-retraites-baisse-de-la-pauvrete-lors-du-passage-la-retraite?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-03-31"
+                },
+                {
+                    "t": "Commerce : adoption de la réforme de l'union douanière de l'UE",
+                    "l": "https://www.vie-publique.fr/en-bref/302644-la-reforme-de-lunion-douaniere-de-lue-adoptee?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-03-31"
+                },
+                {
+                    "t": "Fonction publique : lancement d'une réflexion stratégique pour anticiper les changements d'ici à 2050",
+                    "l": "https://www.vie-publique.fr/en-bref/302643-revue-strategique-quelle-fonction-publique-en-2035-2050?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-03-31"
+                }
+            ]
         },
         {
             "nom_site": "Vie Publique|Lois",
-            "articles": []
+            "articles": [
+                {
+                    "t": "Projet de loi portant transposition de l'avenant n°3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage",
+                    "l": "https://www.vie-publique.fr/loi/302566-accord-assurance-chomage-rupture-conventionnelle-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Projet de loi constitutionnelle relatif à la Nouvelle-Calédonie",
+                    "l": "https://www.vie-publique.fr/loi/300461-etat-de-la-nouvelle-caledonie-projet-de-loi-constitutionnelle?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Projet de loi portant habilitation de l'assemblée de Martinique à fixer des règles applicables sur son territoire en application de l'article 73 de la Constitution en matière d'énergie, d'eau et d'assainissement",
+                    "l": "https://www.vie-publique.fr/loi/302666-habilitation-de-la-martinique-energie-eau-assainissement-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-04-01"
+                },
+                {
+                    "t": "Proposition de loi visant à protéger les mineurs des risques auxquels les expose l'utilisation des réseaux sociaux",
+                    "l": "https://www.vie-publique.fr/loi/301799-proteger-les-mineurs-risques-des-reseaux-sociaux-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-04-01"
+                },
+                {
+                    "t": "Proposition de loi visant à permettre le remboursement des frais d'expertise comptable aux candidats",
+                    "l": "https://www.vie-publique.fr/loi/302148-proposition-de-loi-remboursement-frais-expertise-comptable-aux-candidats?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-31"
+                },
+                {
+                    "t": "Proposition de loi visant à améliorer l'accès au logement des travailleurs des services publics",
+                    "l": "https://www.vie-publique.fr/loi/301612-acces-au-logement-travailleurs-des-services-publics-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-31"
+                },
+                {
+                    "t": "Proposition de loi visant à garantir le droit de visite des parlementaires et des bâtonniers dans les lieux de privation de liberté",
+                    "l": "https://www.vie-publique.fr/loi/302147-proposition-de-loi-droit-de-visite-parlementaires-batonniers-en-prison?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-31"
+                },
+                {
+                    "t": "Proposition de loi visant à renforcer l'enseignement à la défense nationale dans le cadre du parcours de citoyenneté",
+                    "l": "https://www.vie-publique.fr/loi/302624-enseignement-defense-nationale-parcours-citoyennete-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-27"
+                },
+                {
+                    "t": "Proposition de loi visant à renforcer l'effectivité des droits voisins des éditeurs et des agences de presse",
+                    "l": "https://www.vie-publique.fr/loi/302620-droits-voisins-des-editeurs-et-agences-de-presse-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-27"
+                },
+                {
+                    "t": "Proposition de loi visant à encadrer l'implantation des centres de données sur le territoire français",
+                    "l": "https://www.vie-publique.fr/loi/302597-implatation-des-data-centers-en-france-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-27"
+                },
+                {
+                    "t": "Projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens",
+                    "l": "https://www.vie-publique.fr/loi/302565-projet-de-loi-ripost-ordre-public-securite-et-tranquillite?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-26"
+                },
+                {
+                    "t": "Proposition de loi visant à simplifier la sortie de l'indivision successorale et la gestion des successions vacantes",
+                    "l": "https://www.vie-publique.fr/loi/297598-simplifier-la-sortie-de-lindivision-successorale-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-26"
+                },
+                {
+                    "t": "Proposition de loi visant à soutenir les collectivités territoriales dans la prévention et la gestion des inondations",
+                    "l": "https://www.vie-publique.fr/loi/297591-inondations-prevention-et-gestion-par-les-communes-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-26"
+                },
+                {
+                    "t": "Ordonnance du 5 janvier 2026 relative à la commercialisation à distance de services financiers auprès des consommateurs",
+                    "l": "https://www.vie-publique.fr/loi/301505-commercialisation-de-services-financiers-ordonnance-du-5-janvier-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-26"
+                },
+                {
+                    "t": "Loi du 20 mars 2026 relative à l'organisation des jeux Olympiques et Paralympiques de 2030",
+                    "l": "https://www.vie-publique.fr/loi/298606-jo-hiver-2030-loi-organisation-jeux-olympiques-paralympiques?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-21"
+                },
+                {
+                    "t": "Projet de loi organique relatif au renforcement des juridictions criminelles",
+                    "l": "https://www.vie-publique.fr/loi/302486-projet-de-loi-organique-renforcement-des-juridictions-criminelles?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-20"
+                },
+                {
+                    "t": "Projet de loi sur la justice criminelle et le respect des victimes",
+                    "l": "https://www.vie-publique.fr/loi/302487-projet-de-loi-justice-criminelle-respect-des-victimes-plaider-coupable?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-19"
+                },
+                {
+                    "t": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
+                    "l": "https://www.vie-publique.fr/loi/300456-lutte-contre-les-fraudes-sociales-et-fiscales-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-03-11"
+                },
+                {
+                    "t": "Proposition de loi constitutionnelle visant à préciser la procédure d'examen des textes budgétaires, à renforcer la place du Parlement et à sécuriser le périmètre et la constitutionnalité des dispositions mises en œuvre par les ordonnances mentionnées au",
+                    "l": "https://www.vie-publique.fr/loi/302258-examen-des-textes-budgetaires-proposition-de-loi-constitutionnelle?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-02-27"
+                },
+                {
+                    "t": "Proposition de loi visant à améliorer la protection et l'accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap",
+                    "l": "https://www.vie-publique.fr/loi/296460-protection-parents-enfants-atteints-maladies-graves-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-02-27"
+                }
+            ]
         }
     ],
     "finance": [
         {
             "nom_site": "AMF",
             "articles": [
+                {
+                    "t": "La Commission des sanctions de l'AMF sanctionne un conseiller en investissements financiers et ses dirigeants pour des manquements à leurs obligations professionnelles",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-la-commission-des-sanctions/la-commission-des-sanctions-de-lamf-sanctionne-un-conseiller-en-investissements-financiers-et-ses-0#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Accord-cadre du Crisis Management Group (CMG) de la chambre de compensation américaine ICE Clear Credit LLC (ICC)",
+                    "l": "https://www.amf-france.org/fr/lamf/nos-accords-de-cooperation/accords-multilateraux/accord-cadre-du-crisis-management-group-cmg-de-la-chambre-de-compensation-americaine-ice-clear#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Décision de la commission des sanctions du 1er avril 2026 à l'égard de la société Kerdiz Finance et Conseil et de MM. Marc Peuvrier et Anthony Finck",
+                    "l": "https://www.amf-france.org/fr/sanctions-transactions/decisions-de-la-commission-des-sanctions/san-2026-03#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "2026-04-02"
+                },
                 {
                     "t": "Décision d’approbation des modifications de règles du système multilatéral de négociation LISE, concernant notamment l’enregistrement de LISE en qualité de marché de croissance des PME",
                     "l": "https://www.amf-france.org/fr/reglementation/regles-professionnelles-approuvees/decision-dapprobation-des-modifications-de-regles-du-systeme-multilateral-de-negociation-lise#xts=607212&xtor=RSS-3&type=RSS",
@@ -1133,21 +1315,6 @@
                     "t": "L’AMF requiert la prolongation de la suspension du titre RAPID NUTRITION",
                     "l": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-requiert-la-prolongation-de-la-suspension-du-titre-rapid-nutrition#xts=607212&xtor=RSS-3&type=RSS",
                     "d": "2026-03-13"
-                },
-                {
-                    "t": "Financement participatif : l’AMF rappelle aux plateformes leurs obligations en matière de traitement des réclamations",
-                    "l": "https://www.amf-france.org/fr/actualites-publications/actualites/financement-participatif-lamf-rappelle-aux-plateformes-leurs-obligations-en-matiere-de-traitement#xts=607212&xtor=RSS-3&type=RSS",
-                    "d": "2026-03-12"
-                },
-                {
-                    "t": "L'Autorité des marchés financiers, la Banque de France et la direction générale du Trésor lancent un groupe stratégique de place dédié à l'innovation et à la tokenisation de la finance",
-                    "l": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lautorite-des-marches-financiers-la-banque-de-france-et-la-direction-generale-du-tresor-lancent-un#xts=607212&xtor=RSS-3&type=RSS",
-                    "d": "2026-03-12"
-                },
-                {
-                    "t": "L’AMF analyse la typologie des acteurs sur le marché actions français au cours des cinq dernières années",
-                    "l": "https://www.amf-france.org/fr/actualites-publications/actualites/typologie-des-intervenants-sur-le-marche-actions-francais#xts=607212&xtor=RSS-3&type=RSS",
-                    "d": "2026-03-09"
                 }
             ]
         },
@@ -1161,6 +1328,11 @@
             "nom_site": "INSEE|National",
             "articles": [
                 {
+                    "t": "En février 2026, la production manufacturière est stable",
+                    "l": "https://www.insee.fr/fr/statistiques/8967358",
+                    "d": "2026-04-03"
+                },
+                {
                     "t": "Patrimoine – tableau de bord de l’économie française",
                     "l": "https://www.insee.fr/fr/statistiques/5368113",
                     "d": "2026-03-31"
@@ -1168,6 +1340,11 @@
                 {
                     "t": "Inégalités de patrimoine net dans la zone euro",
                     "l": "https://www.insee.fr/fr/statistiques/5210179",
+                    "d": "2026-03-31"
+                },
+                {
+                    "t": "Évolution de l'indice des prix à la consommation harmonisé dans l'Union européenne et la zone euro",
+                    "l": "https://www.insee.fr/fr/statistiques/2414942",
                     "d": "2026-03-31"
                 },
                 {
@@ -1181,18 +1358,13 @@
                     "d": "2026-03-31"
                 },
                 {
-                    "t": "Évolution de l'indice des prix à la consommation harmonisé dans l'Union européenne et la zone euro",
-                    "l": "https://www.insee.fr/fr/statistiques/2414942",
+                    "t": "En février 2026, les prix des produits agricoles à la production se replient sur un an",
+                    "l": "https://www.insee.fr/fr/statistiques/8962354",
                     "d": "2026-03-31"
                 },
                 {
                     "t": "En janvier 2026, le chiffre d’affaires dans l’industrie manufacturière se replie (-0,7 %)",
                     "l": "https://www.insee.fr/fr/statistiques/8962351",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "En février 2026, les prix des produits agricoles à la production se replient sur un an",
-                    "l": "https://www.insee.fr/fr/statistiques/8962354",
                     "d": "2026-03-31"
                 },
                 {
@@ -1206,8 +1378,13 @@
                     "d": "2026-03-31"
                 },
                 {
-                    "t": "En février 2026, les prix de production de l’industrie française baissent de 1,2 % sur un mois et de 3,1 % sur un an",
-                    "l": "https://www.insee.fr/fr/statistiques/8962962",
+                    "t": "En janvier 2026, le volume des ventes est stable dans le commerce",
+                    "l": "https://www.insee.fr/fr/statistiques/8949688",
+                    "d": "2026-03-31"
+                },
+                {
+                    "t": "En mars 2026, les prix à la consommation augmentent de 1,7 % sur un an",
+                    "l": "https://www.insee.fr/fr/statistiques/8964202",
                     "d": "2026-03-31"
                 },
                 {
@@ -1216,18 +1393,13 @@
                     "d": "2026-03-31"
                 },
                 {
+                    "t": "En février 2026, les prix de production de l’industrie française baissent de 1,2 % sur un mois et de 3,1 % sur un an",
+                    "l": "https://www.insee.fr/fr/statistiques/8962962",
+                    "d": "2026-03-31"
+                },
+                {
                     "t": "En janvier 2026, la production dans les services se replie (‑0,6 %)",
                     "l": "https://www.insee.fr/fr/statistiques/8905313",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "En janvier 2026, le volume des ventes est stable dans le commerce",
-                    "l": "https://www.insee.fr/fr/statistiques/8949688",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "En mars 2026, les prix à la consommation augmentent de 1,7 % sur un an",
-                    "l": "https://www.insee.fr/fr/statistiques/8964202",
                     "d": "2026-03-31"
                 },
                 {
@@ -1254,11 +1426,6 @@
                     "t": "En février 2026, le prix du pétrole accélère alors que celui du gaz se replie",
                     "l": "https://www.insee.fr/fr/statistiques/8954978",
                     "d": "2026-03-27"
-                },
-                {
-                    "t": "Dépenses et recettes des administrations publiques en 2024",
-                    "l": "https://www.insee.fr/fr/statistiques/8574705",
-                    "d": "2026-03-27"
                 }
             ]
         },
@@ -1266,13 +1433,68 @@
             "nom_site": "INSEE|Régional",
             "articles": [
                 {
-                    "t": "Un an après les Jeux Olympiques et Paralympiques, le tourisme francilien au plus haut en 2025",
-                    "l": "https://www.insee.fr/fr/statistiques/8958187",
-                    "d": "2026-03-31"
+                    "t": "En 2025, la conjoncture économique se dégrade en Martinique",
+                    "l": "https://www.insee.fr/fr/statistiques/8905346",
+                    "d": "2026-04-02"
                 },
                 {
-                    "t": "Dans les Hauts-de-France, près d’un emploi sur deux situé dans une zone d’activité économique",
-                    "l": "https://www.insee.fr/fr/statistiques/8905365",
+                    "t": "En 2025, la conjoncture économique se dégrade en Guadeloupe",
+                    "l": "https://www.insee.fr/fr/statistiques/8905338",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "En 2025, la conjoncture économique reste favorable en Guyane",
+                    "l": "https://www.insee.fr/fr/statistiques/8905340",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Au quatrième trimestre 2025, la conjoncture économique reste favorable en Guyane",
+                    "l": "https://www.insee.fr/fr/statistiques/8899571",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Au quatrième trimestre 2025, l’activité économique demeure défavorable en Guadeloupe",
+                    "l": "https://www.insee.fr/fr/statistiques/8899569",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Face aux contraintes professionnelles, un espace rural à deux vitesses",
+                    "l": "https://www.insee.fr/fr/statistiques/8891034",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Au quatrième trimestre 2025, le recul de l’activité économique se poursuit en Martinique",
+                    "l": "https://www.insee.fr/fr/statistiques/8899577",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Autant de naissances en 2025 qu’en 2024 : l’exception ligérienne",
+                    "l": "https://www.insee.fr/fr/statistiques/8949876",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "La Corse a le deuxième PIB par habitant des îles de Méditerranée",
+                    "l": "https://www.insee.fr/fr/statistiques/8960479",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Industrie : le Grand Est est la troisième région la plus énergivore, même si sa consommation diminue",
+                    "l": "https://www.insee.fr/fr/statistiques/8951553",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Le marché du travail se dégrade en Bourgogne-Franche-Comté",
+                    "l": "https://www.insee.fr/fr/statistiques/8899561",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "En Occitanie, la population continue de croître malgré l’érosion de la fécondité",
+                    "l": "https://www.insee.fr/fr/statistiques/8950129",
+                    "d": "2026-04-02"
+                },
+                {
+                    "t": "Un an après les Jeux Olympiques et Paralympiques, le tourisme francilien au plus haut en 2025",
+                    "l": "https://www.insee.fr/fr/statistiques/8958187",
                     "d": "2026-03-31"
                 },
                 {
@@ -1281,19 +1503,19 @@
                     "d": "2026-03-31"
                 },
                 {
-                    "t": "Un Breton sur trois est né dans une autre région française ou à l’étranger",
-                    "l": "https://www.insee.fr/fr/statistiques/8956174",
-                    "d": "2026-03-31"
-                },
-                {
                     "t": "En 2025, la baisse de la fécondité se poursuit en Normandie",
                     "l": "https://www.insee.fr/fr/statistiques/8956041",
                     "d": "2026-03-31"
                 },
                 {
-                    "t": "Des disparités d’emploi et de chômage au sein des 27 comités locaux pour l’emploi franciliens",
-                    "l": "https://www.insee.fr/fr/statistiques/8907190",
-                    "d": "2026-03-26"
+                    "t": "Dans les Hauts-de-France, près d’un emploi sur deux situé dans une zone d’activité économique",
+                    "l": "https://www.insee.fr/fr/statistiques/8905365",
+                    "d": "2026-03-31"
+                },
+                {
+                    "t": "Un Breton sur trois est né dans une autre région française ou à l’étranger",
+                    "l": "https://www.insee.fr/fr/statistiques/8956174",
+                    "d": "2026-03-31"
                 },
                 {
                     "t": "Le Luxembourg, première destination des professionnels de santé frontaliers du Grand Est",
@@ -1301,69 +1523,14 @@
                     "d": "2026-03-26"
                 },
                 {
+                    "t": "Des disparités d’emploi et de chômage au sein des 27 comités locaux pour l’emploi franciliens",
+                    "l": "https://www.insee.fr/fr/statistiques/8907190",
+                    "d": "2026-03-26"
+                },
+                {
                     "t": "En 2024, à temps de travail identique, les femmes salariées dans le privé gagnent en moyenne 13,8 % de moins que les hommes",
                     "l": "https://www.insee.fr/fr/statistiques/8899530",
                     "d": "2026-03-26"
-                },
-                {
-                    "t": "En février 2026, les prix à la consommation augmentent de 0,2 % sur un mois et de 0,4 % sur un an en Martinique",
-                    "l": "https://www.insee.fr/fr/statistiques/8902814",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "En février 2026, les prix à la consommation augmentent de 0,8 % sur un mois et de 1,0 % sur un an en Guadeloupe",
-                    "l": "https://www.insee.fr/fr/statistiques/8904984",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "En février 2026, les prix à la consommation augmentent de 0,4 % sur un mois et de 1,2 % sur un an en Guyane",
-                    "l": "https://www.insee.fr/fr/statistiques/8904990",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "Au 4e trimestre 2025, le taux de chômage est en hausse à 7,5 % en Normandie",
-                    "l": "https://www.insee.fr/fr/statistiques/8951718",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "En février 2026 à Mayotte, les prix à la consommation augmentent de 0,2 % sur un mois",
-                    "l": "https://www.insee.fr/fr/statistiques/8902806",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "En février 2026 à La Réunion, les prix à la consommation reculent de 0,5 % sur un mois et sont stables sur un an",
-                    "l": "https://www.insee.fr/fr/statistiques/8902802",
-                    "d": "2026-03-26"
-                },
-                {
-                    "t": "Pour la première fois depuis 2021, les naissances ne diminuent pas",
-                    "l": "https://www.insee.fr/fr/statistiques/8902294",
-                    "d": "2026-03-24"
-                },
-                {
-                    "t": "Les naissances diminuent, les décès aussi, mais le solde naturel reste négatif",
-                    "l": "https://www.insee.fr/fr/statistiques/8904519",
-                    "d": "2026-03-24"
-                },
-                {
-                    "t": "Malgré le recul de la fécondité, l’excédent naturel reste élevé",
-                    "l": "https://www.insee.fr/fr/statistiques/8904908",
-                    "d": "2026-03-24"
-                },
-                {
-                    "t": "Depuis 2012, le tourisme se développe au printemps et s’atténue en été en Occitanie",
-                    "l": "https://www.insee.fr/fr/statistiques/8897712",
-                    "d": "2026-03-24"
-                },
-                {
-                    "t": "L’entrepreneuriat féminin gagne du terrain en Nouvelle-Aquitaine",
-                    "l": "https://www.insee.fr/fr/statistiques/8894442",
-                    "d": "2026-03-24"
-                },
-                {
-                    "t": "En Corse, l’immigration étrangère répond aux besoins de main d’œuvre",
-                    "l": "https://www.insee.fr/fr/statistiques/8887049",
-                    "d": "2026-03-24"
                 }
             ]
         },
