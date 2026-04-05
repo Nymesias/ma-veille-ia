@@ -735,6 +735,16 @@
             "nom_site": "AN|Séances",
             "articles": [
                 {
+                    "t": "Compte rendu intégral de la première séance du mercredi 01 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260189.asp",
+                    "d": "2026-04-01"
+                },
+                {
+                    "t": "Compte rendu intégral de la séance du jeudi 02 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260191.asp",
+                    "d": "2026-04-02"
+                },
+                {
                     "t": "Compte rendu intégral de la première séance du mardi 31 mars 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260187.asp",
                     "d": "2026-03-31"
@@ -768,16 +778,6 @@
                     "t": "Compte rendu intégral de la deuxième séance du lundi 30 mars 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260185.asp",
                     "d": "2026-03-30"
-                },
-                {
-                    "t": "Compte rendu intégral de la séance du jeudi 02 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260191.asp",
-                    "d": "2026-04-02"
-                },
-                {
-                    "t": "Compte rendu intégral de la première séance du mercredi 01 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260189.asp",
-                    "d": "2026-04-01"
                 },
                 {
                     "t": "Compte rendu intégral de la deuxième séance du mercredi 01 avril 2026",
@@ -845,104 +845,104 @@
             "nom_site": "Sénat|Textes",
             "articles": [
                 {
-                    "t": "Nouvelle-Calédonie - texte N° 509",
-                    "l": "http://www.senat.fr/leg/pjl25-509.html",
-                    "d": "2026-04-04"
-                },
-                {
                     "t": "Prévention et gestion des inondations par les collectivités territoriales - texte N° 481",
                     "l": "http://www.senat.fr/leg/ppl25-481.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
+                },
+                {
+                    "t": "Nouvelle-Calédonie - texte N° 509",
+                    "l": "http://www.senat.fr/leg/pjl25-509.html",
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Garantir la liberté de choix des familles dans l'organisation des obsèques - texte N° 332",
                     "l": "http://www.senat.fr/leg/ppl25-332.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Équilibre économique de l'exploitation des RIP par un mécanisme de péréquation - texte de la commission N° 503",
                     "l": "http://www.senat.fr/leg/ppl25-503.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Relancer les investissements dans le secteur de l'hydroélectricité - texte de la commission N° 499",
                     "l": "http://www.senat.fr/leg/ppl25-499.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Renforcement de l'attractivité de l'épargne salariale - texte de la commission N° 495",
                     "l": "http://www.senat.fr/leg/ppl25-495.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Exercice des compétences du service public de la petite enfance - texte de la commission N° 501",
                     "l": "http://www.senat.fr/leg/ppl25-501.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Coordonner le droit des entreprises publiques - texte de la commission N° 493",
                     "l": "http://www.senat.fr/leg/ppl25-493.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Présomption d'exploitation des contenus culturels par les fournisseurs d'IA - texte de la commission N° 497",
                     "l": "http://www.senat.fr/leg/ppl25-497.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Mettre fin au devoir conjugal - texte de la commission N° 491",
                     "l": "http://www.senat.fr/leg/ppl25-491.html",
-                    "d": "2026-04-04"
-                },
-                {
-                    "t": "Clarté du scrutin municipal dans les communes de moins de 1 000 habitants - texte N° 474",
-                    "l": "http://www.senat.fr/leg/ppl25-474.html",
-                    "d": "2026-04-04"
-                },
-                {
-                    "t": "Renforcer la place des agriculteurs dans l'aménagement du territoire - texte N° 480",
-                    "l": "http://www.senat.fr/leg/ppl25-480.html",
-                    "d": "2026-04-04"
-                },
-                {
-                    "t": "Enseignement à la défense nationale dans le cadre du parcours de citoyenneté - texte N° 482",
-                    "l": "http://www.senat.fr/leg/ppl25-482.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - texte de la commission N° 489",
                     "l": "http://www.senat.fr/leg/pjl25-489.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
+                },
+                {
+                    "t": "Enseignement à la défense nationale dans le cadre du parcours de citoyenneté - texte N° 482",
+                    "l": "http://www.senat.fr/leg/ppl25-482.html",
+                    "d": "2026-04-05"
+                },
+                {
+                    "t": "Renforcer la place des agriculteurs dans l'aménagement du territoire - texte N° 480",
+                    "l": "http://www.senat.fr/leg/ppl25-480.html",
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Reconnaître un droit à l'accès aux toilettes - texte N° 473",
                     "l": "http://www.senat.fr/leg/ppl25-473.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
-                    "t": "Interdire les sucres ajoutés dans les aliments destinés aux enfants en bas âge - texte N° 484",
-                    "l": "http://www.senat.fr/leg/ppl25-484.html",
-                    "d": "2026-04-04"
-                },
-                {
-                    "t": "Paquet sur les infrastructures d'énergie et les réseaux - texte N° 479",
-                    "l": "http://www.senat.fr/leg/ppr25-479.html",
-                    "d": "2026-04-04"
-                },
-                {
-                    "t": "Contrôle, gouvernance et responsabilité financière des opérateurs de l'État - texte N° 483",
-                    "l": "http://www.senat.fr/leg/ppl25-483.html",
-                    "d": "2026-04-04"
+                    "t": "Clarté du scrutin municipal dans les communes de moins de 1 000 habitants - texte N° 474",
+                    "l": "http://www.senat.fr/leg/ppl25-474.html",
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Commercialisation à distance de services financiers auprès des consommateurs - texte N° 471",
                     "l": "http://www.senat.fr/leg/pjl25-471.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
+                },
+                {
+                    "t": "Contrôle, gouvernance et responsabilité financière des opérateurs de l'État - texte N° 483",
+                    "l": "http://www.senat.fr/leg/ppl25-483.html",
+                    "d": "2026-04-05"
+                },
+                {
+                    "t": "Paquet sur les infrastructures d'énergie et les réseaux - texte N° 479",
+                    "l": "http://www.senat.fr/leg/ppr25-479.html",
+                    "d": "2026-04-05"
+                },
+                {
+                    "t": "Interdire les sucres ajoutés dans les aliments destinés aux enfants en bas âge - texte N° 484",
+                    "l": "http://www.senat.fr/leg/ppl25-484.html",
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Paquet « omnibus environnement » - texte N° 478",
                     "l": "http://www.senat.fr/leg/ppr25-478.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 }
             ]
         },
@@ -952,72 +952,72 @@
                 {
                     "t": "Mettre fin au devoir conjugal - rapport n° 490",
                     "l": "http://www.senat.fr/rap/l25-490/l25-490.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Équilibre économique de l'exploitation des RIP par un mécanisme de péréquation - rapport n° 502",
                     "l": "http://www.senat.fr/rap/l25-502/l25-502.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Pour suite à donner à l'enquête de la Cour des comptes, transmise en application de l'article 58-2° de la LOLF, sur le soutien de l'État à la filière automobile - rapport d'information n° 504",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-504-notice.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Coordonner le droit des entreprises publiques - rapport n° 492",
                     "l": "http://www.senat.fr/rap/l25-492/l25-492.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Logements abordables - rapport n° 476",
                     "l": "http://www.senat.fr/rap/l25-476/l25-476.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Exercice des compétences du service public de la petite enfance - rapport n° 500",
                     "l": "http://www.senat.fr/rap/l25-500/l25-500.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Relancer les investissements dans le secteur de l'hydroélectricité - rapport n° 498",
                     "l": "http://www.senat.fr/rap/l25-498/l25-498.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Renforcement de l'attractivité de l'épargne salariale - rapport n° 494",
                     "l": "http://www.senat.fr/rap/l25-494/l25-494.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Présomption d'exploitation des contenus culturels par les fournisseurs d'IA - rapport n° 496",
                     "l": "http://www.senat.fr/rap/l25-496/l25-496.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - rapport n° 488",
                     "l": "http://www.senat.fr/rap/l25-488/l25-488.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Protéger les mineurs des risques des réseaux sociaux - rapport n° 468",
                     "l": "http://www.senat.fr/rap/l25-468/l25-468.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Gouvernance claire, juste et solidaire pour la GEMAPI - rapport n° 466",
                     "l": "http://www.senat.fr/rap/l25-466/l25-466.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Faciliter l'exercice en France des médecins diplômés au Royaume-Uni - rapport n° 461",
                     "l": "http://www.senat.fr/rap/l25-461/l25-461.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 },
                 {
                     "t": "Règles applicables en Martinique en matière d'énergie, d'eau et d'assainissement - avis n° 463",
                     "l": "http://www.senat.fr/rap/a25-463/a25-463.html",
-                    "d": "2026-04-04"
+                    "d": "2026-04-05"
                 }
             ]
         },
@@ -1080,6 +1080,11 @@
             "nom_site": "Vie Publique|Actualités",
             "articles": [
                 {
+                    "t": "Hausse du prix des carburants : quelle situation en France et quelles conséquences économiques ?",
+                    "l": "https://www.vie-publique.fr/questions-reponses/302722-hausse-2026-des-prix-de-lessence-quels-sont-les-effets?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-04-04"
+                },
+                {
                     "t": "Intelligence artificielle : moins d'emplois dans l'informatique aux États-Unis et en France",
                     "l": "https://www.vie-publique.fr/en-bref/302720-ia-moins-demplois-dans-les-activites-informatiques?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
                     "d": "2026-04-03"
@@ -1122,11 +1127,6 @@
                 {
                     "t": "Le prix Nobel de la paix : un choix politique ?",
                     "l": "https://www.vie-publique.fr/eclairage/271285-le-prix-nobel-de-la-paix-un-choix-politique?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-04-02"
-                },
-                {
-                    "t": "L'élection des sénateurs",
-                    "l": "https://www.vie-publique.fr/video/302675-video-lelection-des-senateurs?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
                     "d": "2026-04-02"
                 }
             ]
