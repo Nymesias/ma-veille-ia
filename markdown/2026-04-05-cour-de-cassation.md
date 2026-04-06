@@ -32,5 +32,20 @@
 
 ## ⚖️ QPC récentes transmises par la Cour
 
-- 🏛️ **QPC N°2026-1191 — 3 avril 2026** (Conseil constitutionnel) : renvoi par la chambre criminelle (arrêt du 14/01/2026) sur l'art. 706-112-1 CPP (parquet européen). ([conseil-constitutionnel.fr](https://www.conseil-constitutionnel.fr/decision/2026/20261191QPC.htm))
-- 🏛️ **QPC N°2026-1188 — 27 mars 2026** : renvoi par la Cour de cassation. ([conseil-constitutionnel.fr](https://www.conseil-constitutionnel.fr/))
+- 🏛️ **QPC N°2026-1191 — 3 avril 2026** : renvoi par la chambre criminelle (arrêt 14/01/2026) sur l'art. 706-112-1 CPP (parquet européen). ([conseil-constitutionnel.fr](https://www.conseil-constitutionnel.fr/decision/2026/20261191QPC.htm))
+- 🏛️ **QPC N°2026-1188 — 27 mars 2026** : renvoi par la Cour de cassation. ([conseil-constitutionnel.fr](https://www.conseil-constitutionnel.fr/les-decisions/decision-n-2026-1188-qpc-du-27-mars-2026-decision-de-renvoi-cass))
+
+---
+
+## 📋 Arrêts notables — fin mars / début avril 2026
+
+- ⚖️ **31 mars 2026, ch. criminelle, n° 24-86.949** — indexé sur Judilibre (contenu non accessible sans JS). ([courdecassation.fr](https://www.courdecassation.fr/decision/export/69cb5d20cdc6046d4795f11a/1))
+- ⚖️ **25 mars 2026, ch. criminelle, n° 25-81.864** et **n° 24-82.323** — décisions indexées sur Juricaf. ([juricaf.org](https://juricaf.org/arret/FRANCE-COURDECASSATION-20260325-2581864))
+- 📍 **18 mars 2026, ch. sociale, n° 24-18.976** : validation d'un dispositif de géolocalisation salariale (suivi toutes les 10 secondes). ([Dalloz](https://www.dalloz-actualite.fr/sites/dalloz-actualite.fr/files/resources/2026/03/pourvoi_ndeg24-18.976_18_03_2026.pdf))
+- 🏗️ **4 mars 2026, ch. sociale, n° 24-19.006** : CGT / Chantiers de l'Atlantique, publié au bulletin. ([Légifrance](https://www.legifrance.gouv.fr/juri/id/JURITEXT000053641912))
+
+---
+
+## 🎓 Prix de thèse 2026
+
+- 📝 Candidatures ouvertes jusqu'au **30 avril 2026** (thèses soutenues entre janv. 2024 et déc. 2025, publication chez Lextenso). ([courdecassation.fr](https://www.courdecassation.fr/toutes-les-actualites/2026/02/26/prix-de-these-2026-candidatez))
