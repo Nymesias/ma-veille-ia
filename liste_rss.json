@@ -59,6 +59,16 @@
             "nom_site": "Dalloz|Etudiant",
             "articles": [
                 {
+                    "t": "Incidence de la continuité du bail sur la prescription de l’action du locataire",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/incidence-de-la-continuite-du-bail-sur-la-prescription-de-laction-du-locataire/h/d38156b5d0e668311bf65a4dd7356bfa.html",
+                    "d": "2026-04-07"
+                },
+                {
+                    "t": "La protection fonctionnelle pour la responsabilité financière des gestionnaires publics : il faut trancher",
+                    "l": "https://actu.dalloz-etudiant.fr/le-billet/article/la-protection-fonctionnelle-pour-la-responsabilite-financiere-des-gestionnaires-publics-il-faut-1/h/e97814767aaa52b24ca3d0b244173208.html",
+                    "d": "2026-04-06"
+                },
+                {
                     "t": "Une cellule monastique constitue-t-elle un domicile ?",
                     "l": "https://actu.dalloz-etudiant.fr/le-saviez-vous/article/une-cellule-monastique-constitue-t-elle-un-domicile/h/965fafef826f0d52c16d79bc215be676.html",
                     "d": "2026-04-03"
@@ -147,16 +157,6 @@
                     "t": "Bernard Bouloc",
                     "l": "https://actu.dalloz-etudiant.fr/le-saviez-vous/article/bernard-bouloc/h/dc81ccb14695ba3f5722dc9114a7fbf8.html",
                     "d": "2026-03-20"
-                },
-                {
-                    "t": "Point sur la classification des conditions",
-                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/point-sur-la-classification-des-conditions/h/d00df0cbb9d0de024067d85b9edc78ce.html",
-                    "d": "2026-03-20"
-                },
-                {
-                    "t": "Cumul des fonctions de juge du fond et de cassation : atteinte à l’impartialité objective",
-                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/cumul-des-fonctions-de-juge-du-fond-et-de-cassation-atteinte-a-limpartialite-objective/h/d2ed7d107f8c07bc161dc3cbfed0f22c.html",
-                    "d": "2026-03-19"
                 }
             ]
         },
@@ -172,213 +172,11 @@
     "juridictions": [
         {
             "nom_site": "Conseil d'Etat|LJA",
-            "articles": [
-                {
-                    "t": "La lettre de la justice administrative n°91 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-91-est-en-ligne",
-                    "d": "2026-03-18"
-                },
-                {
-                    "t": "La lettre de la justice administrative n°90 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-90-est-en-ligne",
-                    "d": "2026-02-16"
-                },
-                {
-                    "t": "La lettre de la justice administrative n°89 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-89-est-en-ligne",
-                    "d": "2026-01-23"
-                },
-                {
-                    "t": "La lettre de la justice administrative n°88 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-88-est-en-ligne",
-                    "d": "2025-12-18"
-                },
-                {
-                    "t": "La lettre de la justice administrative n°87 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-87-est-en-ligne",
-                    "d": "2025-11-19"
-                },
-                {
-                    "t": "La lettre de la justice administrative n°86 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-86-est-en-ligne",
-                    "d": "2025-10-20"
-                },
-                {
-                    "t": "La lettre de la justice administrative n°85 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-85-est-en-ligne",
-                    "d": "2025-09-18"
-                },
-                {
-                    "t": "La lettre de la justice administrative n°84 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-84-est-en-ligne",
-                    "d": "2025-07-21"
-                },
-                {
-                    "t": "La lettre de la justice administrative n°83 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-83-est-en-ligne",
-                    "d": "2025-06-13"
-                },
-                {
-                    "t": "La lettre de la justice administrative n°82 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-82-est-en-ligne",
-                    "d": "2025-05-19"
-                },
-                {
-                    "t": "La lettre de la justice administrative n°81 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-81-est-en-ligne",
-                    "d": "2025-04-16"
-                },
-                {
-                    "t": "La lettre de la justice administrative n°80 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-80-est-en-ligne",
-                    "d": "2025-03-13"
-                },
-                {
-                    "t": "La lettre de la justice administrative n°79 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-79-est-en-ligne",
-                    "d": "2025-02-14"
-                },
-                {
-                    "t": "La lettre de la justice administrative n°78 est en ligne !",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-78-est-en-ligne",
-                    "d": "2025-01-15"
-                },
-                {
-                    "t": "Lettre de la justice administrative n°77",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative-n-77",
-                    "d": "2024-12-24"
-                },
-                {
-                    "t": "Lettre de la justice administrative n° 76",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative-n-76",
-                    "d": "2024-11-11"
-                },
-                {
-                    "t": "Lettre de la justice administrative n° 75",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative-n-752",
-                    "d": "2024-06-21"
-                },
-                {
-                    "t": "Lettre de la justice administrative n° 74",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative-n-742",
-                    "d": "2024-02-16"
-                },
-                {
-                    "t": "Lettre de la justice administrative n° 73",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative-n-732",
-                    "d": "2023-10-27"
-                },
-                {
-                    "t": "Lettre de la justice administrative n° 72",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative-n-722",
-                    "d": "2023-07-21"
-                }
-            ]
+            "articles": []
         },
         {
             "nom_site": "Conseil d'Etat|Séances",
-            "articles": [
-                {
-                    "t": "Audience publique du vendredi 10 avril 2026 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-vendredi-10-avril-2026-a-14-heures",
-                    "d": "2026-04-02"
-                },
-                {
-                    "t": "Audience publique du 20 mars 2026 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-20-mars-2026-a-14-heures",
-                    "d": "2026-03-16"
-                },
-                {
-                    "t": "Audience publique du 20 février 2026 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-20-fevrier-2026-a-14-heures",
-                    "d": "2026-02-16"
-                },
-                {
-                    "t": "Audience publique du 5 décembre 2025 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-5-decembre-2025-a-14-heures",
-                    "d": "2025-12-01"
-                },
-                {
-                    "t": "Audience publique du 28 novembre 2025 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-28-novembre-2025-a-14-heures",
-                    "d": "2025-11-21"
-                },
-                {
-                    "t": "Audience publique du 4 juillet 2025 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-4-juillet-2025-a-14-heures",
-                    "d": "2025-07-02"
-                },
-                {
-                    "t": "Audience publique du 4 avril 2025 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-4-avril-2025-a-14-heures",
-                    "d": "2025-03-31"
-                },
-                {
-                    "t": "Audience publique du 14 mars 2025 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-14-mars-2025-a-14-heures",
-                    "d": "2025-03-07"
-                },
-                {
-                    "t": "Audience publique du 14 février 2025 à 14 h",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-14-fevrier-2025-a-14-h",
-                    "d": "2025-02-11"
-                },
-                {
-                    "t": "Audience publique du 6 décembre 2024 à 14h",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-6-decembre-2024-a-14h",
-                    "d": "2024-12-05"
-                },
-                {
-                    "t": "Audience publique du 25 octobre 2024 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-25-octobre-2024-a-14-heures",
-                    "d": "2024-10-21"
-                },
-                {
-                    "t": "Audience publique du 11 octobre 2024 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-11-octobre-2024-a-14-heures",
-                    "d": "2024-10-04"
-                },
-                {
-                    "t": "Audience publique du 27 septembre 2024 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-27-septembre-2024-a-14-heures",
-                    "d": "2024-09-19"
-                },
-                {
-                    "t": "Audience publique du 26 avril 2024 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-26-avril-2024-a-14-heures",
-                    "d": "2024-04-23"
-                },
-                {
-                    "t": "Audience publique du 29 mars 2024 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-29-mars-2024-a-14-heures",
-                    "d": "2024-03-25"
-                },
-                {
-                    "t": "Audience publique du 15 mars 2024 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-15-mars-2024-a-14-heures",
-                    "d": "2024-03-08"
-                },
-                {
-                    "t": "Audience publique du 8 mars 2024 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-8-mars-2024-a-14-heures",
-                    "d": "2024-03-04"
-                },
-                {
-                    "t": "Audience publique du 8 décembre 2023 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-8-decembre-2023-a-14-heures",
-                    "d": "2023-12-04"
-                },
-                {
-                    "t": "Audience publique du 24 novembre 2023 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-24-novembre-2023-a-14-heures",
-                    "d": "2023-11-21"
-                },
-                {
-                    "t": "Audience publique du 27 octobre 2023 à 14 heures",
-                    "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-27-octobre-2023-a-14-heures",
-                    "d": "2023-10-20"
-                }
-            ]
+            "articles": []
         },
         {
             "nom_site": "Conseil Constitutionnel",
@@ -515,54 +313,54 @@
             "nom_site": "Me NEUJANICKI|Immobilier",
             "articles": [
                 {
-                    "t": "Changement d’usage : la déclaration H1 peut prouver l’usage d’habitation même postérieure au 1er janvier 1970",
-                    "l": "https://www.neujanicki.com/declaration-h1-preuve-usage-habitation-1970/",
-                    "d": "2026-03-22"
+                    "t": "Expertise non judiciaire : un mode de preuve pleinement admis sous condition de corroboration",
+                    "l": "https://www.neujanicki.com/expertise-non-judiciaire-preuve-recevable/",
+                    "d": "2026-04-06"
                 },
                 {
-                    "t": "Bail d’habitation : Point de départ du délai de prescription de l’action pour trouble de jouissance",
-                    "l": "https://www.neujanicki.com/jouissance-paisible-bailleur-prescription-action-locataire/",
-                    "d": "2026-03-22"
+                    "t": "Bail commercial : qui doit obtenir les autorisations de copropriété nécessaires aux travaux du preneur ?",
+                    "l": "https://www.neujanicki.com/bail-commercial-travaux-copropriete-obligation-bailleur/",
+                    "d": "2026-04-06"
                 },
                 {
-                    "t": "Vente : Incendie et l’occupant à titre gratuit",
-                    "l": "https://www.neujanicki.com/incendie-occupant-titre-gratuit-article-1733-code-civil/",
-                    "d": "2026-03-22"
+                    "t": "Bail commercial : l’immatriculation unique et multiplicité de locaux",
+                    "l": "https://www.neujanicki.com/bail-commercial-immatriculation-unite-exploitation/",
+                    "d": "2026-04-06"
                 },
                 {
-                    "t": "Bail d’habitation : Chien méchant et résiliation du bail",
-                    "l": "https://www.neujanicki.com/resiliation-bail-habitation-chien-trouble-voisinage/",
-                    "d": "2026-03-22"
+                    "t": "Bail professionnel : changement d’usage et prescription de l’action en nullité",
+                    "l": "https://www.neujanicki.com/changement-usage-nullite-bail-prescription-5-ans/",
+                    "d": "2026-04-06"
                 },
                 {
-                    "t": "Bail commercial : le bailleur peut acquiescer à une cession de bail non signifiée par des actes non équivoques",
-                    "l": "https://www.neujanicki.com/cession-bail-non-signifiee-acquiescement-bailleur/",
-                    "d": "2026-03-22"
+                    "t": "Bail commercial : sinistre et perte de loyers",
+                    "l": "https://www.neujanicki.com/bail-commercial-sinistre-et-perte-de-loyers/",
+                    "d": "2026-04-06"
                 },
                 {
-                    "t": "Sous-location commerciale : l’agrément du bailleur peut être tacite",
-                    "l": "https://www.neujanicki.com/agrement-tacite-sous-location-commerciale/",
-                    "d": "2026-03-22"
+                    "t": "Droit de préférence du locataire commercial : une portée strictement limitée au local loué",
+                    "l": "https://www.neujanicki.com/droit-preference-locataire-commercial/",
+                    "d": "2026-04-06"
                 },
                 {
-                    "t": "Dol du vendeur et responsabilité de l’agent immobilier : l’agent n’est pas tenu d’investigations techniques",
-                    "l": "https://www.neujanicki.com/dol-vendeur-responsabilite-agent-immobilier-vice-cache/",
-                    "d": "2026-03-08"
+                    "t": "Agent immobilier : obligation de vérifier la solvabilité de l’acquéreur et responsabilité en cas de défaillance",
+                    "l": "https://www.neujanicki.com/agent-immobilier-verification-solvabilite-acquereur/",
+                    "d": "2026-04-06"
                 },
                 {
-                    "t": "Bail commercial : Compétence du tribunal judiciare pour fixer le loyer du bail",
-                    "l": "https://www.neujanicki.com/fixation-loyer-bail-commercial-competence-tribunal-judiciaire/",
-                    "d": "2026-03-08"
+                    "t": "Bail commercial : l’obligation de délivrance permanente",
+                    "l": "https://www.neujanicki.com/obligation-delivrance-bailleur-bail-commercial-duree/",
+                    "d": "2026-04-06"
                 },
                 {
-                    "t": "Prescription de l’indemnité d’éviction : le locataire perd son droit à indemnité et son droit au maintien dans les lieux même en cas de mauvaise foi du bailleur",
-                    "l": "https://www.neujanicki.com/prescription-indemnite-eviction-bail-commercial/",
-                    "d": "2026-03-08"
+                    "t": "Commission d’apporteur d’affaires : la prescription court dès la vente, même en l’absence de connaissance du prix",
+                    "l": "https://www.neujanicki.com/prescription-commission-apporteur-affaires-vente-immobiliere/",
+                    "d": "2026-04-06"
                 },
                 {
-                    "t": "Indemnité d’éviction : la prescription biennale fait perdre le droit au maintien dans les lieux",
-                    "l": "https://www.neujanicki.com/prescription-indemnite-eviction-bail-commercial-2/",
-                    "d": "2026-03-08"
+                    "t": "Bail d’habitation : DPE G et bail d’habitation en cours",
+                    "l": "https://www.neujanicki.com/dpe-g-bail-en-cours-consequences-2025/",
+                    "d": "2026-04-06"
                 }
             ]
         },
@@ -740,6 +538,11 @@
                     "d": "2026-04-01"
                 },
                 {
+                    "t": "Compte rendu intégral de la troisième séance du jeudi 26 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260183.asp",
+                    "d": "2026-03-26"
+                },
+                {
                     "t": "Compte rendu intégral de la séance du jeudi 02 avril 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260191.asp",
                     "d": "2026-04-02"
@@ -778,11 +581,6 @@
                     "t": "Compte rendu intégral de la deuxième séance du lundi 30 mars 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260185.asp",
                     "d": "2026-03-30"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du mercredi 01 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260190.asp",
-                    "d": "2026-04-01"
                 }
             ]
         },
@@ -790,24 +588,29 @@
             "nom_site": "AN|Documents",
             "articles": [
                 {
-                    "t": "N° 2613 rapport - Rapport de M. Sylvain Berrios sur la proposition de loi de M. Sylvain Berrios et plusieurs de ses collègues visant à prévenir l'utilisation de contrats d'énergie pour légitimer des occupations illicites (2492).",
-                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2613.asp",
-                    "d": "2026-04-01"
-                },
-                {
                     "t": "N° 2301 - Proposition de loi de M. Benoît Biteau visant à protéger l'alimentation des Français et des Françaises des contaminations au cadmium",
                     "l": "https://www.assemblee-nationale.fr/17/propositions/pion2301.asp",
                     "d": "2025-12-23"
                 },
                 {
-                    "t": "N° 575 - Proposition de loi de Mme Caroline Yadan visant à lutter contre les formes renouvelées de l'antisémitisme",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion0575.asp",
-                    "d": "2024-11-19"
+                    "t": "N° 2553 - Proposition de loi de Mme Océane Godard pour un droit effectif aux acomptes sur salaire et rémunération",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2553.asp",
+                    "d": "2026-03-03"
                 },
                 {
-                    "t": "N° 2608 - Proposition de loi, modifiée par le Sénat, facilitant l'exercice en France des médecins diplômés au Royaume-Uni ayant débuté leurs études avant le Brexit",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2608.asp",
-                    "d": "2026-04-03"
+                    "t": "N° 2113 - Proposition de loi de M. Emmanuel Mandon posant l'interdiction de la fabrication, de la commercialisation et de l'emploi des pièges à colle et dispositifs connexes",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2113.asp",
+                    "d": "2025-11-18"
+                },
+                {
+                    "t": "N° 1800 - Proposition de loi de Mme Brigitte Klinkert visant à simplifier le millefeuille territorial par la collectivité unique",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1800.asp",
+                    "d": "2025-09-16"
+                },
+                {
+                    "t": "N° 2590 - Proposition de loi de Mme Gabrielle Cathala visant à créer un parcours de soins pour les victimes de violences sexistes et sexuelles",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2590.asp",
+                    "d": "2026-03-27"
                 },
                 {
                     "t": "N° 1319 - Proposition de loi de M. Julien Brugerolles portant plusieurs mesures de justice en faveur de la revalorisation des pensions de retraites agricoles",
@@ -815,29 +618,24 @@
                     "d": "2025-04-17"
                 },
                 {
-                    "t": "N° 1803 - Proposition de loi de Mme Danielle Simonnet visant à responsabiliser les clubs pour mettre fin à l'homophobie dans le sport",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1803.asp",
-                    "d": "2025-09-16"
+                    "t": "N° 2602 - Proposition de loi de M. Stéphane Viry visant à renforcer l'effectivité de la lutte contre les discriminations liées au handicap dans la sphère professionnelle",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2602.asp",
+                    "d": "2026-03-27"
                 },
                 {
-                    "t": "N° 1796 - Proposition de loi de M. Thomas Cazenave visant à moderniser la gestion du patrimoine immobilier de l'État",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1796.asp",
-                    "d": "2025-09-16"
+                    "t": "N° 2494 - Proposition de loi de M. Paul Christophe pour la sécurisation des ressources des familles monoparentales par une pension alimentaire garantie",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2494.asp",
+                    "d": "2026-02-17"
                 },
                 {
-                    "t": "N° 1737 - Proposition de loi de M. Vincent Jeanbrun relative à la création d'une compétence sécurité pour les régions",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1737.asp",
-                    "d": "2025-07-11"
+                    "t": "N° 2613 rapport - Rapport de M. Sylvain Berrios sur la proposition de loi de M. Sylvain Berrios et plusieurs de ses collègues visant à prévenir l'utilisation de contrats d'énergie pour légitimer des occupations illicites (2492).",
+                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2613.asp",
+                    "d": "2026-04-01"
                 },
                 {
-                    "t": "N° 2605 rapport - Rapport de M. Thomas Lam sur la proposition de loi de M. Thomas Lam et plusieurs de ses collègues visant à simplifier la gestion de la commande publique par les acheteurs publics et les opérateurs économiques (2491).",
-                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2605.asp",
-                    "d": "2026-04-02"
-                },
-                {
-                    "t": "N° 2606 rapport - Rapport de M. Jean-René Cazeneuve sur la proposition de loi de Mme Brigitte Klinkert et plusieurs de ses collègues visant à simplifier le millefeuille territorial par la collectivité unique (1800).",
-                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2606.asp",
-                    "d": "2026-04-02"
+                    "t": "N° 575 - Proposition de loi de Mme Caroline Yadan visant à lutter contre les formes renouvelées de l'antisémitisme",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion0575.asp",
+                    "d": "2024-11-19"
                 }
             ]
         },
@@ -847,102 +645,102 @@
                 {
                     "t": "Prévention et gestion des inondations par les collectivités territoriales - texte N° 481",
                     "l": "http://www.senat.fr/leg/ppl25-481.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Nouvelle-Calédonie - texte N° 509",
                     "l": "http://www.senat.fr/leg/pjl25-509.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Garantir la liberté de choix des familles dans l'organisation des obsèques - texte N° 332",
                     "l": "http://www.senat.fr/leg/ppl25-332.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Équilibre économique de l'exploitation des RIP par un mécanisme de péréquation - texte de la commission N° 503",
                     "l": "http://www.senat.fr/leg/ppl25-503.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Relancer les investissements dans le secteur de l'hydroélectricité - texte de la commission N° 499",
                     "l": "http://www.senat.fr/leg/ppl25-499.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Renforcement de l'attractivité de l'épargne salariale - texte de la commission N° 495",
                     "l": "http://www.senat.fr/leg/ppl25-495.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Exercice des compétences du service public de la petite enfance - texte de la commission N° 501",
                     "l": "http://www.senat.fr/leg/ppl25-501.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Coordonner le droit des entreprises publiques - texte de la commission N° 493",
                     "l": "http://www.senat.fr/leg/ppl25-493.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Présomption d'exploitation des contenus culturels par les fournisseurs d'IA - texte de la commission N° 497",
                     "l": "http://www.senat.fr/leg/ppl25-497.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Mettre fin au devoir conjugal - texte de la commission N° 491",
                     "l": "http://www.senat.fr/leg/ppl25-491.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - texte de la commission N° 489",
                     "l": "http://www.senat.fr/leg/pjl25-489.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Enseignement à la défense nationale dans le cadre du parcours de citoyenneté - texte N° 482",
                     "l": "http://www.senat.fr/leg/ppl25-482.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Renforcer la place des agriculteurs dans l'aménagement du territoire - texte N° 480",
                     "l": "http://www.senat.fr/leg/ppl25-480.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Reconnaître un droit à l'accès aux toilettes - texte N° 473",
                     "l": "http://www.senat.fr/leg/ppl25-473.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Clarté du scrutin municipal dans les communes de moins de 1 000 habitants - texte N° 474",
                     "l": "http://www.senat.fr/leg/ppl25-474.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Commercialisation à distance de services financiers auprès des consommateurs - texte N° 471",
                     "l": "http://www.senat.fr/leg/pjl25-471.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Contrôle, gouvernance et responsabilité financière des opérateurs de l'État - texte N° 483",
                     "l": "http://www.senat.fr/leg/ppl25-483.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Paquet sur les infrastructures d'énergie et les réseaux - texte N° 479",
                     "l": "http://www.senat.fr/leg/ppr25-479.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Interdire les sucres ajoutés dans les aliments destinés aux enfants en bas âge - texte N° 484",
                     "l": "http://www.senat.fr/leg/ppl25-484.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Paquet « omnibus environnement » - texte N° 478",
                     "l": "http://www.senat.fr/leg/ppr25-478.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 }
             ]
         },
@@ -952,72 +750,72 @@
                 {
                     "t": "Mettre fin au devoir conjugal - rapport n° 490",
                     "l": "http://www.senat.fr/rap/l25-490/l25-490.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Équilibre économique de l'exploitation des RIP par un mécanisme de péréquation - rapport n° 502",
                     "l": "http://www.senat.fr/rap/l25-502/l25-502.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Pour suite à donner à l'enquête de la Cour des comptes, transmise en application de l'article 58-2° de la LOLF, sur le soutien de l'État à la filière automobile - rapport d'information n° 504",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-504-notice.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Coordonner le droit des entreprises publiques - rapport n° 492",
                     "l": "http://www.senat.fr/rap/l25-492/l25-492.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Logements abordables - rapport n° 476",
                     "l": "http://www.senat.fr/rap/l25-476/l25-476.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Exercice des compétences du service public de la petite enfance - rapport n° 500",
                     "l": "http://www.senat.fr/rap/l25-500/l25-500.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Relancer les investissements dans le secteur de l'hydroélectricité - rapport n° 498",
                     "l": "http://www.senat.fr/rap/l25-498/l25-498.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Renforcement de l'attractivité de l'épargne salariale - rapport n° 494",
                     "l": "http://www.senat.fr/rap/l25-494/l25-494.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Présomption d'exploitation des contenus culturels par les fournisseurs d'IA - rapport n° 496",
                     "l": "http://www.senat.fr/rap/l25-496/l25-496.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - rapport n° 488",
                     "l": "http://www.senat.fr/rap/l25-488/l25-488.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Protéger les mineurs des risques des réseaux sociaux - rapport n° 468",
                     "l": "http://www.senat.fr/rap/l25-468/l25-468.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Gouvernance claire, juste et solidaire pour la GEMAPI - rapport n° 466",
                     "l": "http://www.senat.fr/rap/l25-466/l25-466.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Faciliter l'exercice en France des médecins diplômés au Royaume-Uni - rapport n° 461",
                     "l": "http://www.senat.fr/rap/l25-461/l25-461.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 },
                 {
                     "t": "Règles applicables en Martinique en matière d'énergie, d'eau et d'assainissement - avis n° 463",
                     "l": "http://www.senat.fr/rap/a25-463/a25-463.html",
-                    "d": "2026-04-05"
+                    "d": "2026-04-07"
                 }
             ]
         },
@@ -1373,6 +1171,11 @@
                     "d": "2026-03-31"
                 },
                 {
+                    "t": "Évolution de l'indice des prix à la consommation harmonisé dans l'Union européenne et la zone euro",
+                    "l": "https://www.insee.fr/fr/statistiques/2414942",
+                    "d": "2026-03-31"
+                },
+                {
                     "t": "Poids des prélèvements obligatoires au sein de l'Union européenne",
                     "l": "https://www.insee.fr/fr/statistiques/2381410",
                     "d": "2026-03-31"
@@ -1383,18 +1186,13 @@
                     "d": "2026-03-31"
                 },
                 {
-                    "t": "Évolution de l'indice des prix à la consommation harmonisé dans l'Union européenne et la zone euro",
-                    "l": "https://www.insee.fr/fr/statistiques/2414942",
+                    "t": "En janvier 2026, le chiffre d’affaires dans l’industrie manufacturière se replie (-0,7 %)",
+                    "l": "https://www.insee.fr/fr/statistiques/8962351",
                     "d": "2026-03-31"
                 },
                 {
                     "t": "En février 2026, les prix des produits agricoles à la production se replient sur un an",
                     "l": "https://www.insee.fr/fr/statistiques/8962354",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "En janvier 2026, le chiffre d’affaires dans l’industrie manufacturière se replie (-0,7 %)",
-                    "l": "https://www.insee.fr/fr/statistiques/8962351",
                     "d": "2026-03-31"
                 },
                 {
@@ -1413,23 +1211,23 @@
                     "d": "2026-03-31"
                 },
                 {
-                    "t": "En janvier 2026, le volume des ventes est stable dans le commerce",
-                    "l": "https://www.insee.fr/fr/statistiques/8949688",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "En mars 2026, les prix à la consommation augmentent de 1,7 % sur un an",
-                    "l": "https://www.insee.fr/fr/statistiques/8964202",
-                    "d": "2026-03-31"
-                },
-                {
                     "t": "En février 2026, les prix de production de l’industrie française baissent de 1,2 % sur un mois et de 3,1 % sur un an",
                     "l": "https://www.insee.fr/fr/statistiques/8962962",
                     "d": "2026-03-31"
                 },
                 {
+                    "t": "En janvier 2026, le volume des ventes est stable dans le commerce",
+                    "l": "https://www.insee.fr/fr/statistiques/8949688",
+                    "d": "2026-03-31"
+                },
+                {
                     "t": "En janvier 2026, la production dans les services se replie (‑0,6 %)",
                     "l": "https://www.insee.fr/fr/statistiques/8905313",
+                    "d": "2026-03-31"
+                },
+                {
+                    "t": "En mars 2026, les prix à la consommation augmentent de 1,7 % sur un an",
+                    "l": "https://www.insee.fr/fr/statistiques/8964202",
                     "d": "2026-03-31"
                 },
                 {
@@ -1528,13 +1326,13 @@
                     "d": "2026-03-31"
                 },
                 {
-                    "t": "En 2025, le déficit naturel se creuse en Nouvelle-Aquitaine",
-                    "l": "https://www.insee.fr/fr/statistiques/8954994",
+                    "t": "Dans les Hauts-de-France, près d’un emploi sur deux situé dans une zone d’activité économique",
+                    "l": "https://www.insee.fr/fr/statistiques/8905365",
                     "d": "2026-03-31"
                 },
                 {
-                    "t": "Dans les Hauts-de-France, près d’un emploi sur deux situé dans une zone d’activité économique",
-                    "l": "https://www.insee.fr/fr/statistiques/8905365",
+                    "t": "En 2025, le déficit naturel se creuse en Nouvelle-Aquitaine",
+                    "l": "https://www.insee.fr/fr/statistiques/8954994",
                     "d": "2026-03-31"
                 },
                 {
@@ -1548,13 +1346,13 @@
                     "d": "2026-03-31"
                 },
                 {
-                    "t": "Des disparités d’emploi et de chômage au sein des 27 comités locaux pour l’emploi franciliens",
-                    "l": "https://www.insee.fr/fr/statistiques/8907190",
+                    "t": "Le Luxembourg, première destination des professionnels de santé frontaliers du Grand Est",
+                    "l": "https://www.insee.fr/fr/statistiques/8949613",
                     "d": "2026-03-26"
                 },
                 {
-                    "t": "Le Luxembourg, première destination des professionnels de santé frontaliers du Grand Est",
-                    "l": "https://www.insee.fr/fr/statistiques/8949613",
+                    "t": "Des disparités d’emploi et de chômage au sein des 27 comités locaux pour l’emploi franciliens",
+                    "l": "https://www.insee.fr/fr/statistiques/8907190",
                     "d": "2026-03-26"
                 }
             ]

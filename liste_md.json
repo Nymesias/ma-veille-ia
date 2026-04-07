@@ -1,8 +1,43 @@
 [
     {
+        "date_affichage": "2026-04-07",
+        "date_tri": "2026-04-07",
+        "nom_fichier": "synthese-2026-04-07.md"
+    },
+    {
+        "date_affichage": "2026-04-06",
+        "date_tri": "2026-04-06",
+        "nom_fichier": "2026-04-06-news.md"
+    },
+    {
+        "date_affichage": "2026-04-06",
+        "date_tri": "2026-04-06",
+        "nom_fichier": "2026-04-06-finance.md"
+    },
+    {
+        "date_affichage": "2026-04-06",
+        "date_tri": "2026-04-06",
+        "nom_fichier": "2026-04-06-cour-de-cassation.md"
+    },
+    {
+        "date_affichage": "2026-04-05",
+        "date_tri": "2026-04-05",
+        "nom_fichier": "2026-04-05-news.md"
+    },
+    {
+        "date_affichage": "2026-04-05",
+        "date_tri": "2026-04-05",
+        "nom_fichier": "2026-04-05-cour-de-cassation.md"
+    },
+    {
         "date_affichage": "2026-04-05",
         "date_tri": "2026-04-05",
         "nom_fichier": "synthese-2026-04-05.md"
+    },
+    {
+        "date_affichage": "2026-04-05",
+        "date_tri": "2026-04-05",
+        "nom_fichier": "2026-04-05-finance.md"
     },
     {
         "date_affichage": "2026-04-04",
