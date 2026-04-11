@@ -735,19 +735,14 @@
             "nom_site": "AN|Séances",
             "articles": [
                 {
-                    "t": "Compte rendu intégral de la première séance du jeudi 09 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260197.asp",
-                    "d": "2026-04-09"
+                    "t": "Compte rendu intégral de la première séance du vendredi 10 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260200.asp",
+                    "d": "2026-04-10"
                 },
                 {
                     "t": "Compte rendu intégral de la deuxième séance du jeudi 09 avril 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260198.asp",
                     "d": "2026-04-09"
-                },
-                {
-                    "t": "Compte rendu intégral de la première séance du mardi 07 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260192.asp",
-                    "d": "2026-04-07"
                 },
                 {
                     "t": "Compte rendu intégral de la deuxième séance du mardi 07 avril 2026",
@@ -760,29 +755,34 @@
                     "d": "2026-04-08"
                 },
                 {
+                    "t": "Compte rendu intégral de la troisième séance du mardi 07 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260194.asp",
+                    "d": "2026-04-07"
+                },
+                {
+                    "t": "Compte rendu intégral de la troisième séance du jeudi 09 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260199.asp",
+                    "d": "2026-04-09"
+                },
+                {
                     "t": "Compte rendu intégral de la deuxième séance du mercredi 08 avril 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260196.asp",
                     "d": "2026-04-08"
                 },
                 {
-                    "t": "Compte rendu intégral de la troisième séance du mardi 07 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260194.asp",
+                    "t": "Compte rendu intégral de la première séance du jeudi 09 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260197.asp",
+                    "d": "2026-04-09"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du mardi 07 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260192.asp",
                     "d": "2026-04-07"
                 },
                 {
                     "t": "Compte rendu intégral de la séance du jeudi 02 avril 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260191.asp",
                     "d": "2026-04-02"
-                },
-                {
-                    "t": "Compte rendu intégral de la première séance du mercredi 01 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260189.asp",
-                    "d": "2026-04-01"
-                },
-                {
-                    "t": "Compte rendu intégral de la première séance du mardi 31 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260187.asp",
-                    "d": "2026-03-31"
                 }
             ]
         },
@@ -790,29 +790,19 @@
             "nom_site": "AN|Documents",
             "articles": [
                 {
-                    "t": "N° 2627 - Proposition de résolution de M. Corentin Le Fur invitant le Gouvernement à faire de la scolarisation des enfants en situation de handicap la grande cause nationale 2027",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2627.asp",
+                    "t": "N° 2628 rapport - Rapport de M. Frantz Gumbs sur le projet de loi, adopté par le Sénat après engagement de la procédure accélérée, relatif à la restitution de biens culturels provenant d'États qui, du fait d'une appropriation illicite, en ont été privés (n°2408).",
+                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2628.asp",
                     "d": "2026-04-08"
                 },
                 {
-                    "t": "N° 2630 - Projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense",
-                    "l": "https://www.assemblee-nationale.fr/17/projets/pl2630.asp",
+                    "t": "N° 1141 - Proposition de loi de M. Paul Midy visant à rétablir le dispositif « jeune docteur » dans le crédit d'impôt recherche",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1141.asp",
+                    "d": "2025-03-18"
+                },
+                {
+                    "t": "N° 2633 annexe 0 - Rapport sur le projet de loi, adopté par le Sénat après engagement de la procédure accélérée, portant transposition de l'avenant n°3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage (n°2619).",
+                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2633-a0.asp",
                     "d": "2026-04-10"
-                },
-                {
-                    "t": "N° 2175 - Proposition de loi de M. Paul Christophe visant à mettre fin au devoir conjugal",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2175.asp",
-                    "d": "2025-12-03"
-                },
-                {
-                    "t": "N° 1535 - Proposition de loi de M. Vincent Jeanbrun visant à interdire et sanctionner les contenus et discours à caractère anti-républicain",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1535.asp",
-                    "d": "2025-06-10"
-                },
-                {
-                    "t": "N° 2491 - Proposition de loi de M. Thomas Lam visant à simplifier la gestion de la commande publique par les acheteurs publics et les opérateurs économiques",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2491.asp",
-                    "d": "2026-02-17"
                 },
                 {
                     "t": "N° 2448 - Proposition de loi de Mme Violette Spillebout et M. Paul Vannier visant à prévenir et lutter contre les violences en milieu scolaire",
@@ -820,24 +810,34 @@
                     "d": "2026-02-04"
                 },
                 {
-                    "t": "N° 575 - Proposition de loi de Mme Caroline Yadan visant à lutter contre les formes renouvelées de l'antisémitisme",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion0575.asp",
-                    "d": "2024-11-19"
+                    "t": "N° 2085 - Proposition de loi de M. Stéphane Buchou visant à définir juridiquement la fleur de sel",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2085.asp",
+                    "d": "2025-11-18"
                 },
                 {
-                    "t": "N° 1737 - Proposition de loi de M. Vincent Jeanbrun relative à la création d'une compétence sécurité pour les régions",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1737.asp",
-                    "d": "2025-07-11"
+                    "t": "N° 2640 rapport - Rapport de M. Pierre Pribetich sur le projet de loi autorisant l'approbation de l'accord entre le Gouvernement de la République française et le Gouvernement de la République de Moldavie dans le domaine de la sécurité sociale (n°2471).",
+                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2640.asp",
+                    "d": "2026-04-10"
                 },
                 {
-                    "t": "N° 1133 - Proposition de loi de Mme Laetitia Saint-Paul visant à renforcer la pénalisation de l'organisation de rave-parties",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1133.asp",
-                    "d": "2025-03-18"
+                    "t": "N° 2632 - Projet de loi d'urgence pour la protection et la souveraineté agricoles",
+                    "l": "https://www.assemblee-nationale.fr/17/projets/pl2632.asp",
+                    "d": "2026-04-09"
                 },
                 {
-                    "t": "N° 2301 - Proposition de loi de M. Benoît Biteau visant à protéger l'alimentation des Français et des Françaises des contaminations au cadmium",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2301.asp",
-                    "d": "2025-12-23"
+                    "t": "Texte adopté n° 265 - Proposition de loi, adoptée, par l'Assemblée nationale après engagement de la procédure accélérée, visant à accélérer la prévention cardio-neuro-vasculaire et à anticiper un risque sanitaire et social majeur",
+                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0265.asp",
+                    "d": "2026-04-09"
+                },
+                {
+                    "t": "N° 2639 - Proposition de résolution européenne de M. Fabrice Brun visant à abandonner le conditionnement du renouvellement du permis de conduire à une visite médicale obligatoire",
+                    "l": "https://www.assemblee-nationale.fr/17/europe/resolutions/ppe2639.asp",
+                    "d": "2026-04-10"
+                },
+                {
+                    "t": "Texte adopté n° 267 - Proposition de loi, adoptée, par l'Assemblée nationale, visant à encadrer les regroupements pédagogiques intercommunaux afin de garantir l'égalité d'accès à l'école en milieu rural",
+                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0267.asp",
+                    "d": "2026-04-09"
                 }
             ]
         },
@@ -845,104 +845,104 @@
             "nom_site": "Sénat|Textes",
             "articles": [
                 {
+                    "t": "Accélérer la prévention cardio-neuro-vasculaire - texte N° 529",
+                    "l": "http://www.senat.fr/leg/ppl25-529.html",
+                    "d": "2026-04-11"
+                },
+                {
+                    "t": "Encadrer les regroupements pédagogiques intercommunaux - texte N° 534",
+                    "l": "http://www.senat.fr/leg/ppl25-534.html",
+                    "d": "2026-04-11"
+                },
+                {
+                    "t": "Permettre aux salariés de certains secteurs de travailler le 1er mai - texte N° 539",
+                    "l": "http://www.senat.fr/leg/ppl25-539.html",
+                    "d": "2026-04-11"
+                },
+                {
                     "t": "Développement des transports - texte de la commission N° 524",
                     "l": "http://www.senat.fr/leg/pjl25-524.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Exclure de la notion de soin la provocation active de la mort - texte N° 510",
                     "l": "http://www.senat.fr/leg/ppl25-510.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Mise en oeuvre du Pacte sur la migration et l'asile - texte N° 526",
                     "l": "http://www.senat.fr/leg/pjl25-526.html",
-                    "d": "2026-04-10"
-                },
-                {
-                    "t": "Justice criminelle et respect des victimes - texte de la commission N° 521",
-                    "l": "http://www.senat.fr/leg/pjl25-521.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Renforcement des juridictions criminelles - texte de la commission N° 522",
                     "l": "http://www.senat.fr/leg/pjl25-522.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
+                },
+                {
+                    "t": "Justice criminelle et respect des victimes - texte de la commission N° 521",
+                    "l": "http://www.senat.fr/leg/pjl25-521.html",
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Organiser un troisième tour en cas d'égalité parfaite aux élections municipales - texte N° 507",
                     "l": "http://www.senat.fr/leg/ppl25-507.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Ériger le don de plasma en grande cause nationale pour 2027 - texte N° 505",
                     "l": "http://www.senat.fr/leg/ppr25-505.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Nouvelle-Calédonie - texte N° 509",
                     "l": "http://www.senat.fr/leg/pjl25-509.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Prévention et gestion des inondations par les collectivités territoriales - texte N° 481",
                     "l": "http://www.senat.fr/leg/ppl25-481.html",
-                    "d": "2026-04-10"
-                },
-                {
-                    "t": "Équilibre économique de l'exploitation des RIP par un mécanisme de péréquation - texte de la commission N° 503",
-                    "l": "http://www.senat.fr/leg/ppl25-503.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Garantir la liberté de choix des familles dans l'organisation des obsèques - texte N° 332",
                     "l": "http://www.senat.fr/leg/ppl25-332.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
-                    "t": "Relancer les investissements dans le secteur de l'hydroélectricité - texte de la commission N° 499",
-                    "l": "http://www.senat.fr/leg/ppl25-499.html",
-                    "d": "2026-04-10"
+                    "t": "Équilibre économique de l'exploitation des RIP par un mécanisme de péréquation - texte de la commission N° 503",
+                    "l": "http://www.senat.fr/leg/ppl25-503.html",
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Renforcement de l'attractivité de l'épargne salariale - texte de la commission N° 495",
                     "l": "http://www.senat.fr/leg/ppl25-495.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
+                },
+                {
+                    "t": "Relancer les investissements dans le secteur de l'hydroélectricité - texte de la commission N° 499",
+                    "l": "http://www.senat.fr/leg/ppl25-499.html",
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Exercice des compétences du service public de la petite enfance - texte de la commission N° 501",
                     "l": "http://www.senat.fr/leg/ppl25-501.html",
-                    "d": "2026-04-10"
-                },
-                {
-                    "t": "Mettre fin au devoir conjugal - texte de la commission N° 491",
-                    "l": "http://www.senat.fr/leg/ppl25-491.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Présomption d'utilisation des contenus culturels par les fournisseurs d'IA - texte de la commission N° 497",
                     "l": "http://www.senat.fr/leg/ppl25-497.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Coordonner le droit des entreprises publiques - texte de la commission N° 493",
                     "l": "http://www.senat.fr/leg/ppl25-493.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
-                    "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - texte de la commission N° 489",
-                    "l": "http://www.senat.fr/leg/pjl25-489.html",
-                    "d": "2026-04-10"
-                },
-                {
-                    "t": "Enseignement à la défense nationale dans le cadre du parcours de citoyenneté - texte N° 482",
-                    "l": "http://www.senat.fr/leg/ppl25-482.html",
-                    "d": "2026-04-10"
-                },
-                {
-                    "t": "Clarté du scrutin municipal dans les communes de moins de 1 000 habitants - texte N° 474",
-                    "l": "http://www.senat.fr/leg/ppl25-474.html",
-                    "d": "2026-04-10"
+                    "t": "Mettre fin au devoir conjugal - texte de la commission N° 491",
+                    "l": "http://www.senat.fr/leg/ppl25-491.html",
+                    "d": "2026-04-11"
                 }
             ]
         },
@@ -950,79 +950,104 @@
             "nom_site": "Sénat|Rapports",
             "articles": [
                 {
+                    "t": "Justice criminelle et respect des victimes - rapport n° 520",
+                    "l": "http://www.senat.fr/rap/l25-520/l25-520.html",
+                    "d": "2026-04-11"
+                },
+                {
+                    "t": "Partenariat et coopération Union européenne-République kirghize - rapport n° 516",
+                    "l": "http://www.senat.fr/rap/l25-516/l25-516.html",
+                    "d": "2026-04-11"
+                },
+                {
+                    "t": "Accord France - Agence spatiale européenne - rapport n° 518",
+                    "l": "http://www.senat.fr/rap/l25-518/l25-518.html",
+                    "d": "2026-04-11"
+                },
+                {
+                    "t": "Financement des déploiements opérationnels des forces armées françaises à l'étranger - rapport d'information n° 513",
+                    "l": "http://www.senat.fr/notice-rapport/2025/r25-513-notice.html",
+                    "d": "2026-04-11"
+                },
+                {
+                    "t": "Développement des transports - rapport n° 523",
+                    "l": "http://www.senat.fr/rap/l25-523/l25-523.html",
+                    "d": "2026-04-11"
+                },
+                {
+                    "t": "Développement des transports - avis n° 511",
+                    "l": "http://www.senat.fr/rap/a25-511/a25-511.html",
+                    "d": "2026-04-11"
+                },
+                {
                     "t": "Mayotte et La Réunion : entre fragilités structurelles et menaces émergentes - rapport d'information n° 525",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-525-notice.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Mettre fin au devoir conjugal - rapport n° 490",
                     "l": "http://www.senat.fr/rap/l25-490/l25-490.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Équilibre économique de l'exploitation des RIP par un mécanisme de péréquation - rapport n° 502",
                     "l": "http://www.senat.fr/rap/l25-502/l25-502.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Pour suite à donner à l'enquête de la Cour des comptes, transmise en application de l'article 58-2° de la LOLF, sur le soutien de l'État à la filière automobile - rapport d'information n° 504",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-504-notice.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Coordonner le droit des entreprises publiques - rapport n° 492",
                     "l": "http://www.senat.fr/rap/l25-492/l25-492.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Logements abordables - rapport n° 476",
                     "l": "http://www.senat.fr/rap/l25-476/l25-476.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Exercice des compétences du service public de la petite enfance - rapport n° 500",
                     "l": "http://www.senat.fr/rap/l25-500/l25-500.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Relancer les investissements dans le secteur de l'hydroélectricité - rapport n° 498",
                     "l": "http://www.senat.fr/rap/l25-498/l25-498.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Renforcement de l'attractivité de l'épargne salariale - rapport n° 494",
                     "l": "http://www.senat.fr/rap/l25-494/l25-494.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Présomption d'utilisation des contenus culturels par les fournisseurs d'IA - rapport n° 496",
                     "l": "http://www.senat.fr/rap/l25-496/l25-496.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - rapport n° 488",
                     "l": "http://www.senat.fr/rap/l25-488/l25-488.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Protéger les mineurs des risques des réseaux sociaux - rapport n° 468",
                     "l": "http://www.senat.fr/rap/l25-468/l25-468.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Gouvernance claire, juste et solidaire pour la GEMAPI - rapport n° 466",
                     "l": "http://www.senat.fr/rap/l25-466/l25-466.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 },
                 {
                     "t": "Faciliter l'exercice en France des médecins diplômés au Royaume-Uni - rapport n° 461",
                     "l": "http://www.senat.fr/rap/l25-461/l25-461.html",
-                    "d": "2026-04-10"
-                },
-                {
-                    "t": "Règles applicables en Martinique en matière d'énergie, d'eau et d'assainissement - avis n° 463",
-                    "l": "http://www.senat.fr/rap/a25-463/a25-463.html",
-                    "d": "2026-04-10"
+                    "d": "2026-04-11"
                 }
             ]
         },
@@ -1094,6 +1119,11 @@
         {
             "nom_site": "AMF",
             "articles": [
+                {
+                    "t": "L'AMF confirme la reprise des négociations sur le titre RAPID NUTRITION",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-confirme-la-reprise-des-negociations-sur-le-titre-rapid-nutrition#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "2026-04-10"
+                },
                 {
                     "t": "Un délit d'entrave à une enquête de l'AMF sanctionné par le Tribunal correctionnel de Paris",
                     "l": "https://www.amf-france.org/fr/actualites-publications/actualites/un-delit-dentrave-une-enquete-de-lamf-sanctionne-par-le-tribunal-correctionnel-de-paris#xts=607212&xtor=RSS-3&type=RSS",
@@ -1188,11 +1218,6 @@
                     "t": "La Bourse séduit un nombre record d’investisseurs particuliers en 2025",
                     "l": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/la-bourse-seduit-un-nombre-record-dinvestisseurs-particuliers-en-2025#xts=607212&xtor=RSS-3&type=RSS",
                     "d": "2026-03-25"
-                },
-                {
-                    "t": "Tableau de bord des investisseurs particuliers actifs - n°21 - Mars 2026",
-                    "l": "https://www.amf-france.org/fr/actualites-publications/publications/observatoire-de-lepargne/tableau-de-bord-des-investisseurs-particuliers/tableau-de-bord-des-investisseurs-particuliers-actifs-ndeg21-mars-2026#xts=607212&xtor=RSS-3&type=RSS",
-                    "d": "2026-03-25"
                 }
             ]
         },
@@ -1206,6 +1231,26 @@
             "nom_site": "INSEE|National",
             "articles": [
                 {
+                    "t": "Effort de recherche dans l'Union européenne",
+                    "l": "https://www.insee.fr/fr/statistiques/2411616",
+                    "d": "2026-04-10"
+                },
+                {
+                    "t": "Nuptialité et divortialité dans l’Union européenne",
+                    "l": "https://www.insee.fr/fr/statistiques/2381492",
+                    "d": "2026-04-10"
+                },
+                {
+                    "t": "Stocks d'unités légales et d'établissements des entreprises individuelles économiquement actives entre 2014 et 2023",
+                    "l": "https://www.insee.fr/fr/statistiques/8655070",
+                    "d": "2026-04-10"
+                },
+                {
+                    "t": "Stocks d’unités légales et d'établissements économiquement actifs entre 2014 et 2023",
+                    "l": "https://www.insee.fr/fr/statistiques/8655084",
+                    "d": "2026-04-10"
+                },
+                {
                     "t": "Les entreprises économiquement actives en 2023",
                     "l": "https://www.insee.fr/fr/statistiques/8966966",
                     "d": "2026-04-08"
@@ -1213,6 +1258,11 @@
                 {
                     "t": "Patrimoine – tableau de bord de l’économie française",
                     "l": "https://www.insee.fr/fr/statistiques/5368113",
+                    "d": "2026-04-07"
+                },
+                {
+                    "t": "Composition du patrimoine brut par décile",
+                    "l": "https://www.insee.fr/fr/statistiques/5213910",
                     "d": "2026-04-07"
                 },
                 {
@@ -1228,11 +1278,6 @@
                 {
                     "t": "Taux de détention des actifs de patrimoine par les ménages selon différentes caractéristiques",
                     "l": "https://www.insee.fr/fr/statistiques/2412784",
-                    "d": "2026-04-07"
-                },
-                {
-                    "t": "Composition du patrimoine brut par décile",
-                    "l": "https://www.insee.fr/fr/statistiques/5213910",
                     "d": "2026-04-07"
                 },
                 {
@@ -1284,32 +1329,17 @@
                     "t": "En février 2026, les prix des produits agricoles à la production se replient sur un an",
                     "l": "https://www.insee.fr/fr/statistiques/8962354",
                     "d": "2026-03-31"
-                },
-                {
-                    "t": "En janvier 2026, le chiffre d’affaires dans l’industrie manufacturière se replie (-0,7 %)",
-                    "l": "https://www.insee.fr/fr/statistiques/8962351",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "Comparateur de territoires",
-                    "l": "https://www.insee.fr/fr/statistiques/1405599",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "Caractéristiques des établissements fin 2024",
-                    "l": "https://www.insee.fr/fr/statistiques/8956736",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "En janvier 2026, le volume des ventes est stable dans le commerce",
-                    "l": "https://www.insee.fr/fr/statistiques/8949688",
-                    "d": "2026-03-31"
                 }
             ]
         },
         {
             "nom_site": "INSEE|Régional",
             "articles": [
+                {
+                    "t": "Une économie régionale résiliente : croissance économique stabilisée, emploi en légère hausse",
+                    "l": "https://www.insee.fr/fr/statistiques/8899585",
+                    "d": "2026-04-10"
+                },
                 {
                     "t": "L’économie francilienne en 2025 : entre dynamisme et signes de fragilité",
                     "l": "https://www.insee.fr/fr/statistiques/8905342",
@@ -1351,13 +1381,13 @@
                     "d": "2026-04-09"
                 },
                 {
-                    "t": "Une conjoncture économique morose en fin d’année",
-                    "l": "https://www.insee.fr/fr/statistiques/8899567",
+                    "t": "L’emploi se rétracte, le chômage continue à augmenter",
+                    "l": "https://www.insee.fr/fr/statistiques/8899575",
                     "d": "2026-04-09"
                 },
                 {
-                    "t": "L’emploi se rétracte, le chômage continue à augmenter",
-                    "l": "https://www.insee.fr/fr/statistiques/8899575",
+                    "t": "Une conjoncture économique morose en fin d’année",
+                    "l": "https://www.insee.fr/fr/statistiques/8899567",
                     "d": "2026-04-09"
                 },
                 {
@@ -1403,11 +1433,6 @@
                 {
                     "t": "En 2025, la conjoncture économique reste favorable en Guyane",
                     "l": "https://www.insee.fr/fr/statistiques/8905340",
-                    "d": "2026-04-02"
-                },
-                {
-                    "t": "En 2025, la conjoncture économique se dégrade en Martinique",
-                    "l": "https://www.insee.fr/fr/statistiques/8905346",
                     "d": "2026-04-02"
                 }
             ]
