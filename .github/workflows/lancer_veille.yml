@@ -2,7 +2,7 @@ name: Ma Veille IA Quotidienne
 
 on:
   schedule:
-    - cron: '0 3 * * *' # S'exécute tous les jours à 3h00
+#    - cron: '0 3 * * *' # S'exécute tous les jours à 3h00
   workflow_dispatch:      # Permet de lancer le script manuellement
 
 jobs:
