@@ -59,6 +59,16 @@
             "nom_site": "Dalloz|Etudiant",
             "articles": [
                 {
+                    "t": "« Erreur 1014 » : black-out à la Cour de cassation !",
+                    "l": "https://actu.dalloz-etudiant.fr/le-billet/article/erreur-1014-black-out-a-la-cour-de-cassation/h/c7d807c2d1cb32256aac8e8052911442.html",
+                    "d": "2026-05-04"
+                },
+                {
+                    "t": "Prestataire de services de paiement : son obligation de non-immixtion le dispense de conseiller et de mettre en garde son client",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/prestataire-de-services-de-paiement-son-obligation-de-non-immixtion-le-dispense-de-conseiller-et-d/h/7d56ee45726af21820818415d8d7abf8.html",
+                    "d": "2026-05-04"
+                },
+                {
                     "t": "Pause printanière !",
                     "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/pause-printaniere-2/h/4b663366ead92d4c60e66c1218adb4fe.html",
                     "d": "2026-04-24"
@@ -147,16 +157,6 @@
                     "t": "Indifférence à la situation de couple des parents au moment du fait dommageable pour l’indemnisation du préjudice économique du parent survivant en charge de l’enfant commun",
                     "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/indifference-a-la-situation-de-couple-des-parents-au-moment-du-fait-dommageable-pour-lindemnisa/h/80a1551af0160c54728c3f92d0c5599a.html",
                     "d": "2026-04-13"
-                },
-                {
-                    "t": "Droits et libertés fondamentaux : la laïcité",
-                    "l": "https://actu.dalloz-etudiant.fr/le-saviez-vous/article/droits-et-libertes-fondamentaux-la-laicite/h/fa9bebe68081f607a26d3bf440916384.html",
-                    "d": "2026-04-10"
-                },
-                {
-                    "t": "Responsabilité bancaire en cas de fraude au RIB : retour au droit commun",
-                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/responsabilite-bancaire-en-cas-de-fraude-au-rib-retour-au-droit-commun/h/086efc3d8b54edea480fde812e7c6552.html",
-                    "d": "2026-04-10"
                 }
             ]
         },
@@ -634,39 +634,14 @@
             "nom_site": "AN|Séances",
             "articles": [
                 {
-                    "t": "Compte rendu intégral de la deuxième séance du jeudi 30 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260217.asp",
-                    "d": "2026-04-30"
-                },
-                {
-                    "t": "Compte rendu intégral de la première séance du mardi 24 mars 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260176.asp",
-                    "d": "2026-03-24"
-                },
-                {
-                    "t": "Compte rendu intégral de la séance du lundi 27 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260210.asp",
-                    "d": "2026-04-27"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du mardi 28 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260212.asp",
-                    "d": "2026-04-28"
-                },
-                {
-                    "t": "Compte rendu intégral de la première séance du jeudi 30 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260216.asp",
-                    "d": "2026-04-30"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du mercredi 29 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260215.asp",
-                    "d": "2026-04-29"
-                },
-                {
                     "t": "Compte rendu intégral de la première séance du mercredi 29 avril 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260214.asp",
                     "d": "2026-04-29"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du lundi 04 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260218.asp",
+                    "d": "2026-05-04"
                 },
                 {
                     "t": "Compte rendu intégral de la première séance du mardi 28 avril 2026",
@@ -674,14 +649,39 @@
                     "d": "2026-04-28"
                 },
                 {
+                    "t": "Compte rendu intégral de la deuxième séance du jeudi 30 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260217.asp",
+                    "d": "2026-04-30"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du mardi 28 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260212.asp",
+                    "d": "2026-04-28"
+                },
+                {
+                    "t": "Compte rendu intégral de la séance du lundi 27 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260210.asp",
+                    "d": "2026-04-27"
+                },
+                {
                     "t": "Compte rendu intégral de la troisième séance du mardi 28 avril 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260213.asp",
                     "d": "2026-04-28"
                 },
                 {
-                    "t": "Compte rendu intégral de la première séance du jeudi 16 avril 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260207.asp",
-                    "d": "2026-04-16"
+                    "t": "Compte rendu intégral de la deuxième séance du mercredi 29 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260215.asp",
+                    "d": "2026-04-29"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du jeudi 30 avril 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260216.asp",
+                    "d": "2026-04-30"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du mardi 24 mars 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260176.asp",
+                    "d": "2026-03-24"
                 }
             ]
         },
@@ -689,24 +689,14 @@
             "nom_site": "AN|Documents",
             "articles": [
                 {
-                    "t": "N° 2680 - Proposition de loi de Mme Laure Miller visant à protéger durablement les jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2680.asp",
-                    "d": "2026-04-15"
+                    "t": "N° 2698 tome 1 - Rapport d'enquête de M. Charles Alloncle sur la neutralité, le fonctionnement et le financement de l'audiovisuel public",
+                    "l": "https://www.assemblee-nationale.fr/17/rap-enq/r2698-t1.asp",
+                    "d": "2026-05-05"
                 },
                 {
-                    "t": "N° 2745 rapport - Rapport de M. Frantz Gumbs de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion du projet de loi relatif à la restitution de biens culturels provenant d'états qui, du fait d'une appropriation illicite, en ont été privés.",
-                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2745.asp",
-                    "d": "2026-04-30"
-                },
-                {
-                    "t": "N° 2695 tome II - Rapport de M. Yannick Chenevard et M. Jean-Louis Thiériot sur le projet de loi, après engagement de la procédure accélérée, actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense (n°2630).",
-                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2695-tII.asp",
-                    "d": "2026-04-30"
-                },
-                {
-                    "t": "N° 2695 tome I - Rapport de M. Yannick Chenevard et M. Jean-Louis Thiériot sur le projet de loi, après engagement de la procédure accélérée, actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense (n°2630).",
-                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2695-tI.asp",
-                    "d": "2025-04-29"
+                    "t": "N° 2701 rapport - Rapport de M. Patrick Hetzel de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion du projet de loi relatif à la lutte contre les fraudes sociales et fiscales.",
+                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2701.asp",
+                    "d": "2026-05-04"
                 },
                 {
                     "t": "N° 2557 - Proposition de loi de Mme Corinne Vignon visant à interdire la vente de chiens et de chats dans les foires et salons",
@@ -714,19 +704,24 @@
                     "d": "2026-03-03"
                 },
                 {
-                    "t": "N° 2683 rapport d'information - Rapport d'information de Mme Amélia Lakrafi et Mme Sabrina Sebaihi déposé en application de l'article 145 du règlement, par la commission des affaires étrangères sur l'influence de la France dans un monde postcolonial",
-                    "l": "https://www.assemblee-nationale.fr/17/rap-info/i2683.asp",
-                    "d": "2026-04-30"
+                    "t": "N° 2747 rapport d'information - Rapport d'information de M. Thierry Benoit et M. Robert Le Bourgeois déposé en application de l'article 145 du règlement, par la commission des affaires économiques, en conclusion des travaux d'une mission d'information sur l'évolution du pouvoir d'achat en France depuis 2017 au regard des indicateurs de prix et de consommation",
+                    "l": "https://www.assemblee-nationale.fr/17/rap-info/i2747.asp",
+                    "d": "2026-05-04"
                 },
                 {
-                    "t": "N° 2701 annexe 0 - Rapport de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion du projet de loi relatif à la lutte contre les fraudes sociales et fiscales.",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2701-a0.asp",
-                    "d": "2026-04-30"
+                    "t": "N° 2675 - Proposition de loi de Mme Eva Sas portant création d'une contribution exceptionnelle de solidarité sur les superprofits des entreprises pétro-gazières",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2675.asp",
+                    "d": "2026-04-14"
                 },
                 {
-                    "t": "N° 2733 rapport - Rapport de M. Vincent Caure sur la proposition de loi, modifiée par le Sénat, facilitant l'exercice en France des médecins diplômés au Royaume-Uni ayant débuté leurs études avant le Brexit (n°2608).",
-                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2733.asp",
-                    "d": "2026-04-29"
+                    "t": "N° 2566 - Proposition de loi de Mme Eva Sas relative à l'encadrement des loyers des baux commerciaux",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2566.asp",
+                    "d": "2026-03-03"
+                },
+                {
+                    "t": "N° 2720 - Proposition de loi de Mme Sabrina Sebaihi visant à restituer le canon dit de “la Consulaire” à la République Algérienne Démocratique",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2720.asp",
+                    "d": "2026-04-28"
                 },
                 {
                     "t": "N° 2677 - Proposition de loi de M. Arnaud Bonnet visant à rendre imprescriptibles les crimes sur les mineurs",
@@ -734,9 +729,14 @@
                     "d": "2026-04-14"
                 },
                 {
-                    "t": "N° 2566 - Proposition de loi de Mme Eva Sas relative à l'encadrement des loyers des baux commerciaux",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2566.asp",
-                    "d": "2026-03-03"
+                    "t": "N° 1905 - Proposition de loi organique de M. Erwan Balanant visant à instaurer le scrutin proportionnel pour les élections législatives",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1905.asp",
+                    "d": "2025-10-13"
+                },
+                {
+                    "t": "N° 2713 - Proposition de loi de M. Erwan Balanant relative à la reconnaissance de la création sonore",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2713.asp",
+                    "d": "2026-04-28"
                 }
             ]
         },
@@ -746,102 +746,102 @@
                 {
                     "t": "Droit à l'aide à mourir - texte de la commission N° 587",
                     "l": "http://www.senat.fr/leg/ppl25-587.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Restitution de biens culturels - texte de la commission N° 593",
                     "l": "http://www.senat.fr/leg/pjl25-593.html",
-                    "d": "2026-05-01"
-                },
-                {
-                    "t": "Égal accès de tous à l'accompagnement et aux soins palliatifs - texte de la commission N° 585",
-                    "l": "http://www.senat.fr/leg/ppl25-585.html",
-                    "d": "2026-05-01"
-                },
-                {
-                    "t": "Lutte contre les fraudes sociales et fiscales - texte de la commission N° 571",
-                    "l": "http://www.senat.fr/leg/pjl25-571.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Reconnaissance des droits fondamentaux des travailleurs et travailleuses du sex - texte N° 541",
                     "l": "http://www.senat.fr/leg/ppl25-541.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Expérimentation d'une gouvernance territoriale unifiée pour le CREPS de Vichy - texte N° 533",
                     "l": "http://www.senat.fr/leg/ppl25-533.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
+                },
+                {
+                    "t": "Égal accès de tous à l'accompagnement et aux soins palliatifs - texte de la commission N° 585",
+                    "l": "http://www.senat.fr/leg/ppl25-585.html",
+                    "d": "2026-05-05"
+                },
+                {
+                    "t": "Lutte contre les fraudes sociales et fiscales - texte de la commission N° 571",
+                    "l": "http://www.senat.fr/leg/pjl25-571.html",
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Refonte du code des postes et des communications électroniques - texte N° 589",
                     "l": "http://www.senat.fr/leg/pjl25-589.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Travail le 1er mai des boulangers-pâtissiers artisanaux et artisans fleuristes - texte N° 588",
                     "l": "http://www.senat.fr/leg/pjl25-588.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Lutter contre l'entrisme islamiste en France - texte de la commission N° 576",
                     "l": "http://www.senat.fr/leg/ppl25-576.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Protection des personnes ciblées par les réseaux de criminalité organisée - texte N° 578",
                     "l": "http://www.senat.fr/leg/ppl25-578.html",
-                    "d": "2026-05-01"
-                },
-                {
-                    "t": "Accès au compte bancaire pour les Français établis hors de France - texte N° 582",
-                    "l": "http://www.senat.fr/leg/ppl25-582.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Prévention et gestion des inondations par les collectivités territoriales - texte de la commission N° 580",
                     "l": "http://www.senat.fr/leg/ppl25-580.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
+                },
+                {
+                    "t": "Accès au compte bancaire pour les Français établis hors de France - texte N° 582",
+                    "l": "http://www.senat.fr/leg/ppl25-582.html",
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Simplifier les procédures pour l'industrie nucléaire innovante - texte N° 558",
                     "l": "http://www.senat.fr/leg/ppl25-558.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Améliorer l'accès au logement des travailleurs des services publics - texte de la commission N° 568",
                     "l": "http://www.senat.fr/leg/ppl25-568.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Repenser l'agencification pour renforcer l'action publique - texte N° 566",
                     "l": "http://www.senat.fr/leg/ppl25-566.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Exclusion des unités de valorisation énergétique du SEQE-UE - texte N° 559",
                     "l": "http://www.senat.fr/leg/ppr25-559.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Reconnaître une politique nationale d'adaptation au changement climatique - texte N° 530",
                     "l": "http://www.senat.fr/leg/ppl25-530.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Interdire le port de signes religieux par les élus locaux - texte N° 535",
                     "l": "http://www.senat.fr/leg/ppl25-535.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - texte N° 561",
                     "l": "http://www.senat.fr/leg/pjl25-561.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Simplifier la gestion de la commande publique par les acheteurs publics - texte N° 538",
                     "l": "http://www.senat.fr/leg/ppl25-538.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 }
             ]
         },
@@ -849,110 +849,130 @@
             "nom_site": "Sénat|Rapports",
             "articles": [
                 {
+                    "t": "Améliorer l'accès au logement des travailleurs des services publics - rapport n° 567",
+                    "l": "http://www.senat.fr/rap/l25-567/l25-567.html",
+                    "d": "2026-05-05"
+                },
+                {
+                    "t": "Les rodéos urbains - Étude de législation comparée n° 355",
+                    "l": "http://www.senat.fr/notice-rapport/2025/lc355-notice.html",
+                    "d": "2026-05-05"
+                },
+                {
                     "t": "Lutte contre les fraudes sociales et fiscales - rapport n° 570",
                     "l": "http://www.senat.fr/rap/l25-570/l25-570.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Droit à l'aide à mourir - rapport n° 586",
                     "l": "http://www.senat.fr/rap/l25-586/l25-586.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Lutter contre l'entrisme islamiste en France - rapport n° 575",
                     "l": "http://www.senat.fr/rap/l25-575/l25-575.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Protection des personnes ciblées par les réseaux de criminalité organisée - rapport n° 577",
                     "l": "http://www.senat.fr/rap/l25-577/l25-577.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Rapport d'avancement annuel du plan budgétaire et structurel à moyen terme 2025-2029 - rapport d'information n° 569",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-569-notice.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Égal accès de tous à l'accompagnement et aux soins palliatifs - rapport n° 584",
                     "l": "http://www.senat.fr/rap/l25-584/l25-584.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Accès au compte bancaire pour les Français établis hors de France - rapport n° 581",
                     "l": "http://www.senat.fr/rap/l25-581/l25-581.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Prévention et gestion des inondations par les collectivités territoriales - rapport n° 579",
                     "l": "http://www.senat.fr/rap/l25-579/l25-579.html",
-                    "d": "2026-05-01"
-                },
-                {
-                    "t": "Rodéos motorisés et rave parties illégales : 28 propositions pour mieux les prévenir, les détecter et les réprimer - rapport d'information n° 583",
-                    "l": "http://www.senat.fr/notice-rapport/2025/r25-583-notice.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Protection de l'enfance - rapport d'information n° 574",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-574-notice.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Activité de la délégation parlementaire au renseignement pour l'année 2025 - Actes du colloque - rapport n° 227 tome II",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-227-2-notice.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "CFP 2028-2034 :  de grandes fusions au risque de beaucoup de confusion - rapport d'information n° 532",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-532-notice.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Raccordement des installations de production d'énergies renouvelables - rapport n° 548",
                     "l": "http://www.senat.fr/rap/l25-548/l25-548.html",
-                    "d": "2026-05-01"
-                },
-                {
-                    "t": "Moyens de lutte contre la cabanisation - rapport n° 550",
-                    "l": "http://www.senat.fr/rap/l25-550/l25-550.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Organisation des scrutins en cas de candidature unique au second tour - rapport n° 552",
                     "l": "http://www.senat.fr/rap/l25-552/l25-552.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
+                },
+                {
+                    "t": "Moyens de lutte contre la cabanisation - rapport n° 550",
+                    "l": "http://www.senat.fr/rap/l25-550/l25-550.html",
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Garantir le droit de visite dans les lieux de privation de liberté - rapport n° 546",
                     "l": "http://www.senat.fr/rap/l25-546/l25-546.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Accord France - Pays-Bas Frontière République française (Saint-Martin) Pays-Bas (Sint Maarten) - rapport n° 514",
                     "l": "http://www.senat.fr/rap/l25-514/l25-514.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Justice criminelle et respect des victimes - rapport n° 520",
                     "l": "http://www.senat.fr/rap/l25-520/l25-520.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 },
                 {
                     "t": "Partenariat et coopération Union européenne-République kirghize - rapport n° 516",
                     "l": "http://www.senat.fr/rap/l25-516/l25-516.html",
-                    "d": "2026-05-01"
-                },
-                {
-                    "t": "Accord France - Agence spatiale européenne - rapport n° 518",
-                    "l": "http://www.senat.fr/rap/l25-518/l25-518.html",
-                    "d": "2026-05-01"
+                    "d": "2026-05-05"
                 }
             ]
         },
         {
             "nom_site": "DAJ Bercy",
             "articles": [
+                {
+                    "t": "La sollicitation de trois devis, dans le cadre de la passation d’un marché pouvant être conclu sans publicité ni mise en concurrence préalables, n’entraîne pas l’application des règles propres à la procédure adaptée",
+                    "l": "https://www.economie.gouv.fr/daj/la-sollicitation-de-trois-devis-dans-le-cadre-de-la-passation-dun-marche-pouvant-etre-conclu-sans-publicite-ni-mise-en-concurrence-prealables",
+                    "d": "2026-05-04"
+                },
+                {
+                    "t": "Le Conseil d’État rappelle la compétence exclusive du juge administratif pour déterminer la qualification des biens affectés à l’exécution d’un service public concédé",
+                    "l": "https://www.economie.gouv.fr/daj/le-conseil-detat-rappelle-la-competence-exclusive-du-juge-administratif-pour-determiner-la-qualification-des-biens-affectes-lexecution-dun",
+                    "d": "2026-05-04"
+                },
+                {
+                    "t": "Un acheteur peut fixer un critère d’attribution tenant compte de l’augmentation salariale, prévue par le candidat, du personnel exécutant le marché",
+                    "l": "https://www.economie.gouv.fr/daj/un-acheteur-peut-fixer-un-critere-dattribution-tenant-compte-de-laugmentation-salariale-prevue-par-le-candidat-du-personnel-executant-le-marche",
+                    "d": "2026-05-04"
+                },
+                {
+                    "t": "Crise au Moyen-Orient : la Commission européenne adopte un encadrement temporaire des aides d’Etat",
+                    "l": "https://www.economie.gouv.fr/daj/crise-au-moyen-orient-la-commission-europeenne-adopte-un-encadrement-temporaire-des-aides-detat",
+                    "d": "2026-05-04"
+                },
                 {
                     "t": "La Cour des comptes publie un rapport sur la tarification des services publics locaux",
                     "l": "https://www.economie.gouv.fr/daj/la-cour-des-comptes-publie-un-rapport-sur-la-tarification-des-services-publics-locaux",
@@ -982,26 +1002,6 @@
                     "t": "Clarification par la Cour de cassation de la notion de contrôle de fait au sens de l’article L.233-3 du code de commerce",
                     "l": "https://www.economie.gouv.fr/daj/clarification-par-la-cour-de-cassation-de-la-notion-de-controle-de-fait-au-sens-de-larticle-l233-3-du-code-de-commerce",
                     "d": "2026-04-02"
-                },
-                {
-                    "t": "Saisir la DAJ",
-                    "l": "https://www.economie.gouv.fr/daj/saisir-la-daj",
-                    "d": "2026-04-01"
-                },
-                {
-                    "t": "La divergence linguistique entre les Etats membres de l’Union européenne sur une disposition doit donner lieu à une interprétation contextuelle et téléologique",
-                    "l": "https://www.economie.gouv.fr/daj/la-divergence-linguistique-entre-les-etats-membres-de-lunion-europeenne-sur-une-disposition-doit-donner-lieu-une-interpretation-contextuelle-et",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "Le droit de priorité permettant à un opérateur économique de s’aligner sur l’offre de l’attributaire porte atteinte au principe d’égalité de traitement des soumissionnaires",
-                    "l": "https://www.economie.gouv.fr/daj/le-droit-de-priorite-permettant-un-operateur-economique-de-saligner-sur-loffre-de-lattributaire-porte-atteinte-au-principe-degalite-de-traitement",
-                    "d": "2026-03-31"
-                },
-                {
-                    "t": "Dysfonctionnement du service public de la justice et exigences du mandat ad litem de l’avocat : l’annulation d’une assignation groupée en appel",
-                    "l": "https://www.economie.gouv.fr/daj/dysfonctionnement-du-service-public-de-la-justice-et-exigences-du-mandat-ad-litem-de-lavocat-lannulation-dune-assignation-groupee-en-appel",
-                    "d": "2026-03-31"
                 }
             ]
         },
