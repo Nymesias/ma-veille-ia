@@ -4,6 +4,11 @@
             "nom_site": "Cridon NE",
             "articles": [
                 {
+                    "t": "Un nouveau décret applicable en matière de formalités des entreprises : entre simplification et protection en matière de droit des sociétés !",
+                    "l": "https://www.cridon-ne.org/nouveau-decret-applicable-formalites-des-entreprises/",
+                    "d": "2026-05-18"
+                },
+                {
                     "t": "Les frais de garde par une chambre mortuaire ne sont pas des frais funéraires",
                     "l": "https://www.cridon-ne.org/frais-de-garde-par-une-chambre-mortuaire-ne-sont-pas-des-frais-funeraires/",
                     "d": "2026-05-12"
@@ -47,17 +52,32 @@
                     "t": "Coopération notariale franco-chinoise",
                     "l": "https://www.cridon-ne.org/cooperation-notariale-franco-chinoise/",
                     "d": "2026-04-08"
-                },
-                {
-                    "t": "Fermeture exceptionnelle – Week-end de Pâques",
-                    "l": "https://www.cridon-ne.org/fermeture-exceptionnelle-paques/",
-                    "d": "2026-03-31"
                 }
             ]
         },
         {
             "nom_site": "Dalloz|Etudiant",
             "articles": [
+                {
+                    "t": "Que je t’aime",
+                    "l": "https://actu.dalloz-etudiant.fr/le-cas-du-mois/article/que-je-taime/h/11f22198a0118f94dc7df0399df482bf.html",
+                    "d": "2026-05-19"
+                },
+                {
+                    "t": "Cautionnement non solidaire : plafonnement du montant des condamnations",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/cautionnement-non-solidaire-plafonnement-du-montant-des-condamnations/h/d020e2b217d8499cc400ce50591aca0c.html",
+                    "d": "2026-05-19"
+                },
+                {
+                    "t": "Initiative citoyenne européenne, expression de la vitalité de la démocratie",
+                    "l": "https://actu.dalloz-etudiant.fr/le-billet/article/initiative-citoyenne-europeenne-expression-de-la-vitalite-de-la-democratie/h/e3d50162522b6cf85b822675d5e419e7.html",
+                    "d": "2026-05-18"
+                },
+                {
+                    "t": "Arrêt des soins maintenant artificiellement une enfant en vie : pas de violation de l’article 2 de la Conv. EDH",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/arret-des-soins-maintenant-artificiellement-une-enfant-en-vie-pas-de-violation-de-larticle-2-d/h/30d75a5063834e65b371489cc985ae39.html",
+                    "d": "2026-05-18"
+                },
                 {
                     "t": "Codeck Challenge le 19 mai !!",
                     "l": "https://actu.dalloz-etudiant.fr/le-saviez-vous/article/codeck-challenge-le-19-mai/h/d0be96d00c8be7f58f432e7effd731e5.html",
@@ -137,26 +157,6 @@
                     "t": "Contrat de consommation : limite au principe de licéité de la clause attributive de juridiction étrangère",
                     "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/contrat-de-consommation-limite-au-principe-de-liceite-de-la-clause-attributive-de-juridiction-e/h/d67a0a75ca9b97b7001c8622af74382b.html",
                     "d": "2026-04-24"
-                },
-                {
-                    "t": "Renvoi préjudiciel devant la CJUE : précisions sur l’obligation de motivation en cas de refus des juridictions de dernier ressort",
-                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/renvoi-prejudiciel-devant-la-cjue-precisions-sur-lobligation-de-motivation-en-cas-de-refus-de/h/552943590551d9cad1a67fa2f52ad11a.html",
-                    "d": "2026-04-23"
-                },
-                {
-                    "t": "Le devoir conjugal et le consentement au mariage",
-                    "l": "https://actu.dalloz-etudiant.fr/focus-sur/article/le-devoir-conjugal-et-le-consentement-au-mariage/h/3ba18f31920fed80a87eaeacaf4cc526.html",
-                    "d": "2026-04-23"
-                },
-                {
-                    "t": "Le concubinage peut-il s’accommoder de la chasteté ?",
-                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/le-concubinage-peut-il-saccommoder-de-la-chastete/h/d8a31cdede216180b3a01598eac52f60.html",
-                    "d": "2026-04-22"
-                },
-                {
-                    "t": "Utilisation d’un véhicule à des fins privées et professionnelles : la mixité de l’usage n’exclut pas la garantie légale de conformité",
-                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/utilisation-dun-vehicule-a-des-fins-privees-et-professionnelles-la-mixite-de-lusage-n/h/5c8388bca60f26c66f9abb706b908f2d.html",
-                    "d": "2026-04-21"
                 }
             ]
         },
@@ -634,28 +634,23 @@
             "nom_site": "AN|Séances",
             "articles": [
                 {
-                    "t": "Compte rendu intégral de la première séance du mardi 12 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260229.asp",
-                    "d": "2026-05-12"
+                    "t": "Compte rendu intégral de la première séance du lundi 18 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260234.asp",
+                    "d": "2026-05-18"
                 },
                 {
-                    "t": "Compte rendu intégral de la deuxième séance du mardi 12 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260230.asp",
-                    "d": "2026-05-12"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du jeudi 07 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260225.asp",
-                    "d": "2026-05-07"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du mercredi 13 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260233.asp",
-                    "d": "2026-05-13"
+                    "t": "Compte rendu intégral de la deuxième séance du lundi 18 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260235.asp",
+                    "d": "2026-05-18"
                 },
                 {
                     "t": "Compte rendu intégral de la première séance du mercredi 13 mai 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260232.asp",
+                    "d": "2026-05-13"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du mercredi 13 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260233.asp",
                     "d": "2026-05-13"
                 },
                 {
@@ -664,14 +659,14 @@
                     "d": "2026-05-11"
                 },
                 {
+                    "t": "Compte rendu intégral de la deuxième séance du mardi 12 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260230.asp",
+                    "d": "2026-05-12"
+                },
+                {
                     "t": "Compte rendu intégral de la deuxième séance du lundi 11 mai 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260228.asp",
                     "d": "2026-05-11"
-                },
-                {
-                    "t": "Compte rendu intégral de la troisième séance du jeudi 07 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260226.asp",
-                    "d": "2026-05-07"
                 },
                 {
                     "t": "Compte rendu intégral de la troisième séance du mardi 12 mai 2026",
@@ -679,8 +674,13 @@
                     "d": "2026-05-12"
                 },
                 {
-                    "t": "Compte rendu intégral de la première séance du jeudi 07 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260224.asp",
+                    "t": "Compte rendu intégral de la première séance du mardi 12 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260229.asp",
+                    "d": "2026-05-12"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du jeudi 07 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260225.asp",
                     "d": "2026-05-07"
                 }
             ]
@@ -689,14 +689,24 @@
             "nom_site": "AN|Documents",
             "articles": [
                 {
-                    "t": "N° 2077 - Proposition de résolution européenne de Mme Olivia Grégoire visant à renforcer l'exécution du règlement européen sur les services numériques à l'égard des très grandes plateformes de e-commerce et à accélérer la réforme douanière afin de protéger les Français, les Européens et nos commerces de proximité",
-                    "l": "https://www.assemblee-nationale.fr/17/europe/resolutions/ppe2077.asp",
-                    "d": "2025-11-14"
+                    "t": "N° 2804 - Proposition de loi organique, adoptée par le Sénat après engagement de la procédure accélérée, portant régularisation des natifs dans le corps électoral pour les élections au congrès et aux assemblées de province de Nouvelle-Calédonie",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2804.asp",
+                    "d": "2026-05-18"
                 },
                 {
-                    "t": "N° 2765 rapport - Rapport de M. Jean-René Cazeneuve et M. Julien Dive sur le projet de loi, après engagement de la procédure accélérée, d'urgence pour la protection et la souveraineté agricoles (n°2632).",
-                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2765.asp",
-                    "d": "2026-05-07"
+                    "t": "N° 2539 - Proposition de résolution de Mme Danièle Obono visant à la reconnaissance du traumatisme psychique conséquent au vécu raciste",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2539.asp",
+                    "d": "2026-02-27"
+                },
+                {
+                    "t": "N° 2602 - Proposition de loi de M. Stéphane Viry visant à renforcer l'effectivité de la lutte contre les discriminations liées au handicap dans la sphère professionnelle",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2602.asp",
+                    "d": "2026-03-27"
+                },
+                {
+                    "t": "N° 2732 annexe 0 - Rapport sur le projet de loi, adopté par le Sénat après engagement de la procédure accélérée, relatif à l'extension des prérogatives, des moyens, de l'organisation et du contrôle des polices municipales et des gardes champêtres (n°2464).",
+                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2732-a0.asp",
+                    "d": "2026-05-18"
                 },
                 {
                     "t": "N° 2553 - Proposition de loi de Mme Océane Godard pour un droit effectif aux acomptes sur salaire et rémunération",
@@ -704,251 +714,39 @@
                     "d": "2026-03-03"
                 },
                 {
-                    "t": "N° 1817 - Proposition de loi de M. Max Mathiasin portant abrogation du Code noir",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1817.asp",
-                    "d": "2025-09-16"
+                    "t": "N° 2770 - Proposition de loi, adoptée par l'Assemblée nationale, améliorant la protection des personnes ciblées par les réseaux de criminalité organisée",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2770.asp",
+                    "d": "2026-05-18"
                 },
                 {
-                    "t": "N° 2794 - Proposition de résolution de M. Guillaume Bigot tendant à la création d'une commission d'enquête sur la prostitution et l'exploitation sexuelle des mineurs",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2794.asp",
-                    "d": "2026-05-13"
+                    "t": "N° 2708 - Proposition de loi de Mme Violette Spillebout visant à protéger les enfants et à lutter contre les violences en milieu scolaire",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2708.asp",
+                    "d": "2026-04-28"
+                },
+                {
+                    "t": "N° 2764 - Proposition de loi, adoptée par le Sénat, visant à donner aux acteurs locaux les moyens de lutter contre la cabanisation",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2764.asp",
+                    "d": "2026-05-18"
+                },
+                {
+                    "t": "N° 2655 - Proposition de loi de Mme Maud Petit relative aux droits des personnes handicapées et de leur chien guide ou d'assistance",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2655.asp",
+                    "d": "2026-04-14"
                 },
                 {
                     "t": "N° 2603 - Proposition de loi de M. Michel Castellani visant à favoriser la création et la reprise d'entreprises sous forme de sociétés coopératives et participatives et de sociétés coopératives d'intérêt collectif",
                     "l": "https://www.assemblee-nationale.fr/17/propositions/pion2603.asp",
                     "d": "2026-03-27"
-                },
-                {
-                    "t": "N° 2542 - Proposition de résolution de Mme Karine Lebon tendant à la création d'une commission d'enquête sur les manquements et dysfonctionnements du Comité national d'accueil et d'actions pour les Réunionnais en mobilité",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2542.asp",
-                    "d": "2026-03-05"
-                },
-                {
-                    "t": "Texte adopté n° 285 - Proposition de loi, adoptée, par l'Assemblée nationale, visant à mettre en place un programme de soutien à l'innovation thérapeutique contre les cancers, les maladies rares et les maladies orphelines de l'enfant",
-                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0285.asp",
-                    "d": "2026-05-13"
-                },
-                {
-                    "t": "Texte adopté n° 284 - Proposition de loi, adoptée, par l'Assemblée nationale après engagement de la procédure accélérée, visant à garantir l'information et la protection effective des victimes de violences sexistes et sexuelles lors de la libération de leur agresseur",
-                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0284.asp",
-                    "d": "2026-05-13"
-                },
-                {
-                    "t": "Texte adopté n° 283 - Proposition de loi, adoptée, par l'Assemblée nationale, visant à accélérer le développement du transport maritime à propulsion vélique",
-                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0283.asp",
-                    "d": "2026-05-13"
                 }
             ]
         },
         {
             "nom_site": "Sénat|Textes",
-            "articles": [
-                {
-                    "t": "Développement du transport maritime à propulsion vélique - texte N° 613",
-                    "l": "http://www.senat.fr/leg/ppl25-613.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Renforcer le parcours inclusif des enfants à besoins éducatifs particuliers - texte N° 608",
-                    "l": "http://www.senat.fr/leg/ppl25-608.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Mise en oeuvre du Pacte sur la migration et l'asile - texte de la commission N° 618",
-                    "l": "http://www.senat.fr/leg/pjl25-618.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Déclassement et remise à la collectivité de Guyane de restes humains kali'nas - texte de la commission N° 615",
-                    "l": "http://www.senat.fr/leg/ppl25-615.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - texte de la commission N° 621",
-                    "l": "http://www.senat.fr/leg/pjl25-621.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Paquet européen sur la cybersécurité 2 - texte N° 624",
-                    "l": "http://www.senat.fr/leg/ppr25-624.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Simplification des règles applicables aux dispositifs médicaux - texte N° 623",
-                    "l": "http://www.senat.fr/leg/ppr25-623.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Renforcer la prévention des risques d'attentat - texte de la commission N° 612",
-                    "l": "http://www.senat.fr/leg/ppl25-612.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Création d'une commission d'enquête sur les cyberattaques - texte N° 595",
-                    "l": "http://www.senat.fr/leg/ppr25-595.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Interdire aux Français signalés de se présenter aux élections - texte N° 600",
-                    "l": "http://www.senat.fr/leg/ppl25-600.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Abaisser le seuil de maintien d'une candidature au second tour - texte N° 596",
-                    "l": "http://www.senat.fr/leg/ppl25-596.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Adaptation des dispositions du code rural et de la pêche maritime en outre-mer - texte N° 603",
-                    "l": "http://www.senat.fr/leg/pjl25-603.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Réponses immédiates aux phénomènes troublant l'ordre public - texte de la commission N° 602",
-                    "l": "http://www.senat.fr/leg/pjl25-602.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Réécriture du code de procédure pénale - texte N° 604",
-                    "l": "http://www.senat.fr/leg/pjl25-604.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Renforcer la lutte contre la fraude en matière d'état civil - texte N° 590",
-                    "l": "http://www.senat.fr/leg/ppl25-590.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Renforcer la prévention des risques d'attentat - texte N° 597",
-                    "l": "http://www.senat.fr/leg/ppl25-597.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Négociations sur le cadre financier pluriannuel (CFP) 2028-2034 - texte de la commission N° 599",
-                    "l": "http://www.senat.fr/leg/ppr25-599.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Simplification, modernisation et sécurisation du droit applicable au tourisme - texte N° 560",
-                    "l": "http://www.senat.fr/leg/ppl25-560.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Élargir le champ des possibles pour les outre-mer - texte N° 563",
-                    "l": "http://www.senat.fr/leg/ppl25-563.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Conférer plus de libertés et de responsabilités aux DROM - texte N° 564",
-                    "l": "http://www.senat.fr/leg/ppl25-564.html",
-                    "d": "2026-05-16"
-                }
-            ]
+            "articles": []
         },
         {
             "nom_site": "Sénat|Rapports",
-            "articles": [
-                {
-                    "t": "Renforcer la prévention des risques d'attentat - rapport n° 611",
-                    "l": "http://www.senat.fr/rap/l25-611/l25-611.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Mise en oeuvre du Pacte sur la migration et l'asile - rapport n° 617",
-                    "l": "http://www.senat.fr/rap/l25-617/l25-617.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - rapport n° 620",
-                    "l": "http://www.senat.fr/rap/l25-620/l25-620.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Déclassement et remise à la collectivité de Guyane de restes humains kali'nas - rapport n° 614",
-                    "l": "http://www.senat.fr/rap/l25-614/l25-614.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Réponses immédiates aux phénomènes troublant l'ordre public - rapport n° 601",
-                    "l": "http://www.senat.fr/rap/l25-601/l25-601.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Négociations sur le cadre financier pluriannuel (CFP) 2028-2034 - rapport n° 598",
-                    "l": "http://www.senat.fr/rap/l25-598/l25-598.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Observations sur le projet de loi n° 526 (2025-2026) - rapport d'information n° 606",
-                    "l": "http://www.senat.fr/notice-rapport/2025/r25-606-notice.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "L'entreprise 5.0 : impact de l'IA sur les entreprises - rapport d'information n° 572",
-                    "l": "http://www.senat.fr/notice-rapport/2025/r25-572-notice.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Restitution de biens culturels - rapport n° 592",
-                    "l": "http://www.senat.fr/rap/l25-592/l25-592.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Améliorer l'accès au logement des travailleurs des services publics - rapport n° 567",
-                    "l": "http://www.senat.fr/rap/l25-567/l25-567.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Les rodéos urbains - Étude de législation comparée n° 355",
-                    "l": "http://www.senat.fr/notice-rapport/2025/lc355-notice.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Lutte contre les fraudes sociales et fiscales - rapport n° 570",
-                    "l": "http://www.senat.fr/rap/l25-570/l25-570.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Droit à l'aide à mourir - rapport n° 586",
-                    "l": "http://www.senat.fr/rap/l25-586/l25-586.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Lutter contre l'entrisme islamiste en France - rapport n° 575",
-                    "l": "http://www.senat.fr/rap/l25-575/l25-575.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Rapport d'avancement annuel du plan budgétaire et structurel à moyen terme 2025-2029 - rapport d'information n° 569",
-                    "l": "http://www.senat.fr/notice-rapport/2025/r25-569-notice.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Protection des personnes ciblées par les réseaux de criminalité organisée - rapport n° 577",
-                    "l": "http://www.senat.fr/rap/l25-577/l25-577.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Égal accès de tous à l'accompagnement et aux soins palliatifs - rapport n° 584",
-                    "l": "http://www.senat.fr/rap/l25-584/l25-584.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Accès au compte bancaire pour les Français établis hors de France - rapport n° 581",
-                    "l": "http://www.senat.fr/rap/l25-581/l25-581.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Prévention et gestion des inondations par les collectivités territoriales - rapport n° 579",
-                    "l": "http://www.senat.fr/rap/l25-579/l25-579.html",
-                    "d": "2026-05-16"
-                },
-                {
-                    "t": "Protection de l'enfance - rapport d'information n° 574",
-                    "l": "http://www.senat.fr/notice-rapport/2025/r25-574-notice.html",
-                    "d": "2026-05-16"
-                }
-            ]
+            "articles": []
         },
         {
             "nom_site": "DAJ Bercy",
@@ -1009,6 +807,21 @@
             "nom_site": "Vie Publique|Actualités",
             "articles": [
                 {
+                    "t": "Le service public local de l'eau potable et de l'assainissement",
+                    "l": "https://www.vie-publique.fr/eclairage/24024-le-service-public-local-de-leau-potable-et-de-lassainissement?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-05-18"
+                },
+                {
+                    "t": "Seniors en perte d'autonomie : qu'est-ce que l'habitat partagé ?",
+                    "l": "https://www.vie-publique.fr/en-bref/303221-seniors-en-perte-dautonomie-quest-ce-que-lhabitat-partage?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-05-18"
+                },
+                {
+                    "t": "Banque de France : quelles perspectives pour l'économie française ?",
+                    "l": "https://www.vie-publique.fr/en-bref/303191-les-perspectives-de-leconomie-francaise-selon-la-banque-de-france?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-05-18"
+                },
+                {
                     "t": "Pouvoir d'achat : un décalage croissant entre statistiques et vécu des ménages ?",
                     "l": "https://www.vie-publique.fr/en-bref/303183-la-mesure-officielle-du-pouvoir-dachat-un-enjeu-democratique?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
                     "d": "2026-05-15"
@@ -1042,27 +855,17 @@
                     "t": "Les infractions anti-LGBT+ en hausse de 2% en 2025",
                     "l": "https://www.vie-publique.fr/en-bref/303192-4-945-infractions-anti-lgbt-en-2025?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
                     "d": "2026-05-13"
-                },
-                {
-                    "t": "Non-recours au RSA pour plus d'un tiers des foyers éligibles fin 2021",
-                    "l": "https://www.vie-publique.fr/en-bref/303136-non-recours-au-rsa-pour-plus-dun-tiers-des-foyers-eligibles-fin-2021?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-05-13"
-                },
-                {
-                    "t": "Sommet Africa Forward de Nairobi : 23 milliards d'euros d'investissements annoncés",
-                    "l": "https://www.vie-publique.fr/en-bref/303166-sommet-africa-forward-au-kenya-des-investissements-pour-lafrique?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-05-12"
-                },
-                {
-                    "t": "Baisse de la natalité : des politiques familiales à adapter",
-                    "l": "https://www.vie-publique.fr/en-bref/303125-baisse-de-la-natalite-des-politique-familiales-adapter?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-05-12"
                 }
             ]
         },
         {
             "nom_site": "Vie Publique|Lois",
             "articles": [
+                {
+                    "t": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
+                    "l": "https://www.vie-publique.fr/loi/300456-lutte-contre-les-fraudes-sociales-et-fiscales-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-05-18"
+                },
                 {
                     "t": "Proposition de loi visant à garantir l'information et la protection effective des victimes de violences sexistes et sexuelles lors de la libération de leur agresseur",
                     "l": "https://www.vie-publique.fr/loi/303206-violences-sexuelles-information-victimes-liberation-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
@@ -1072,11 +875,6 @@
                     "t": "Proposition de loi relative au droit à l'aide à mourir",
                     "l": "https://www.vie-publique.fr/loi/298544-fin-de-vie-droit-laide-mourir-proposition-de-loi-falorni?egn-publisher=dila_vp&egn-name=informer_rss_lois",
                     "d": "2026-05-13"
-                },
-                {
-                    "t": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
-                    "l": "https://www.vie-publique.fr/loi/300456-lutte-contre-les-fraudes-sociales-et-fiscales-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-05-12"
                 },
                 {
                     "t": "Proposition de loi visant à garantir l'égal accès de tous à l'accompagnement et aux soins palliatifs",
@@ -1171,6 +969,16 @@
             "nom_site": "AMF",
             "articles": [
                 {
+                    "t": "France FinTech, l'ACPR et l'AMF lancent l’appel à candidatures pour participer à la 6ème édition des French FinTech Weeks",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/actualites/france-fintech-lacpr-et-lamf-lancent-lappel-candidatures-pour-participer-la-6eme-edition-des-french#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "2026-05-18"
+                },
+                {
+                    "t": "Retrait de parts de SCPI : où placer dans le registre chronologique les demandes incomplètes ?",
+                    "l": "https://www.amf-france.org/fr/le-mediateur/journal-de-bord-du-mediateur/dossiers-du-mois/retrait-de-parts-de-scpi-ou-placer-dans-le-registre-chronologique-les-demandes-incompletes#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "2026-05-18"
+                },
+                {
                     "t": "Outil de gestion de la liquidité : l'AMF a l’intention d’appliquer les orientations de l'ESMA",
                     "l": "https://www.amf-france.org/fr/actualites-publications/actualites/outil-de-gestion-de-la-liquidite-lamf-lintention-dappliquer-les-orientations-de-lesma#xts=607212&xtor=RSS-3&type=RSS",
                     "d": "2026-05-13"
@@ -1259,16 +1067,6 @@
                     "t": "L'AMF Québec, la CVMO et l'AMF France concluent un accord pour la cotation croisée de valeurs mobilières au Canada et en France",
                     "l": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-quebec-la-cvmo-et-lamf-france-concluent-un-accord-pour-la-cotation-croisee-de-valeurs#xts=607212&xtor=RSS-3&type=RSS",
                     "d": "2026-04-20"
-                },
-                {
-                    "t": "Ontario & Québec - 2026 – Accord visant à faciliter la cotation croisée",
-                    "l": "https://www.amf-france.org/fr/lamf/nos-accords-de-cooperation/conventions-bilaterales/ontario-quebec-2026-accord-visant-faciliter-la-cotation-croisee#xts=607212&xtor=RSS-3&type=RSS",
-                    "d": "2026-04-20"
-                },
-                {
-                    "t": "L'AMF salue de premières décisions pénales dans le cadre d’une affaire de réseaux d'initiés",
-                    "l": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-salue-de-premieres-decisions-penales-dans-le-cadre-dune-affaire-de-reseaux-dinities#xts=607212&xtor=RSS-3&type=RSS",
-                    "d": "2026-04-13"
                 }
             ]
         },
@@ -1327,13 +1125,13 @@
                     "d": "2026-05-12"
                 },
                 {
-                    "t": "Produit intérieur brut en 2024",
-                    "l": "https://www.insee.fr/fr/statistiques/2012723",
+                    "t": "Valeur ajoutée par branche en 2024",
+                    "l": "https://www.insee.fr/fr/statistiques/2012681",
                     "d": "2026-05-12"
                 },
                 {
-                    "t": "Valeur ajoutée par branche en 2024",
-                    "l": "https://www.insee.fr/fr/statistiques/2012681",
+                    "t": "Produit intérieur brut en 2024",
+                    "l": "https://www.insee.fr/fr/statistiques/2012723",
                     "d": "2026-05-12"
                 },
                 {
@@ -1342,8 +1140,8 @@
                     "d": "2026-05-11"
                 },
                 {
-                    "t": "Taux de pauvreté selon l'âge du référent fiscal en 2023",
-                    "l": "https://www.insee.fr/fr/statistiques/2012803",
+                    "t": "Créations d'entreprises par secteur d'activité en 2025",
+                    "l": "https://www.insee.fr/fr/statistiques/2134432",
                     "d": "2026-05-11"
                 },
                 {
@@ -1352,19 +1150,14 @@
                     "d": "2026-05-11"
                 },
                 {
-                    "t": "Créations d'entreprises par secteur d'activité en 2025",
-                    "l": "https://www.insee.fr/fr/statistiques/2134432",
+                    "t": "Taux de pauvreté selon l'âge du référent fiscal en 2023",
+                    "l": "https://www.insee.fr/fr/statistiques/2012803",
                     "d": "2026-05-11"
                 },
                 {
                     "t": "Décomposition du revenu disponible des ménages en 2023",
                     "l": "https://www.insee.fr/fr/statistiques/2012802",
                     "d": "2026-05-11"
-                },
-                {
-                    "t": "Les salaires dans la fonction publique territoriale en 2024",
-                    "l": "https://www.insee.fr/fr/statistiques/8984823",
-                    "d": "2026-05-06"
                 },
                 {
                     "t": "Les salaires dans la fonction publique hospitalière en 2024",
@@ -1374,6 +1167,11 @@
                 {
                     "t": "Équipements géolocalisés (commerce, services, sport, santé...) en 2024",
                     "l": "https://www.insee.fr/fr/statistiques/8217525",
+                    "d": "2026-05-06"
+                },
+                {
+                    "t": "Les salaires dans la fonction publique territoriale en 2024",
+                    "l": "https://www.insee.fr/fr/statistiques/8984823",
                     "d": "2026-05-06"
                 },
                 {
@@ -1402,13 +1200,13 @@
                     "d": "2026-05-07"
                 },
                 {
-                    "t": "En Guadeloupe, la dépendance à la voiture s’accentue dans les déplacements domicile-travail",
-                    "l": "https://www.insee.fr/fr/statistiques/8987911",
+                    "t": "En Guyane, près de sept travailleurs sur dix exercent leur emploi dans leur commune de résidence",
+                    "l": "https://www.insee.fr/fr/statistiques/8987968",
                     "d": "2026-05-07"
                 },
                 {
-                    "t": "En Guyane, près de sept travailleurs sur dix exercent leur emploi dans leur commune de résidence",
-                    "l": "https://www.insee.fr/fr/statistiques/8987968",
+                    "t": "En Guadeloupe, la dépendance à la voiture s’accentue dans les déplacements domicile-travail",
+                    "l": "https://www.insee.fr/fr/statistiques/8987911",
                     "d": "2026-05-07"
                 },
                 {
