@@ -639,19 +639,34 @@
                     "d": "2026-05-22"
                 },
                 {
+                    "t": "Compte rendu intégral de la première séance du mardi 19 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260236.asp",
+                    "d": "2026-05-19"
+                },
+                {
                     "t": "Compte rendu intégral de la première séance du vendredi 22 mai 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260243.asp",
                     "d": "2026-05-22"
                 },
                 {
-                    "t": "Compte rendu intégral de la deuxième séance du jeudi 21 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260241.asp",
-                    "d": "2026-05-21"
+                    "t": "Compte rendu intégral de la troisième séance du vendredi 22 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260245.asp",
+                    "d": "2026-05-22"
                 },
                 {
                     "t": "Compte rendu intégral de la première séance du mercredi 20 mai 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260238.asp",
                     "d": "2026-05-20"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du mercredi 20 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260239.asp",
+                    "d": "2026-05-20"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du jeudi 21 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260241.asp",
+                    "d": "2026-05-21"
                 },
                 {
                     "t": "Compte rendu intégral de la troisième séance du jeudi 21 mai 2026",
@@ -667,27 +682,17 @@
                     "t": "Compte rendu intégral de la première séance du jeudi 21 mai 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260240.asp",
                     "d": "2026-05-21"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du mercredi 20 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260239.asp",
-                    "d": "2026-05-20"
-                },
-                {
-                    "t": "Compte rendu intégral de la première séance du mardi 19 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260236.asp",
-                    "d": "2026-05-19"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du mercredi 13 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260233.asp",
-                    "d": "2026-05-13"
                 }
             ]
         },
         {
             "nom_site": "AN|Documents",
             "articles": [
+                {
+                    "t": "N° 2811 rapport - Rapport de M. Joël Bruneau sur la proposition de loi de M. Joël Bruneau et plusieurs de ses collègues visant à encourager les partenariats entre les collectivités territoriales et les personnes morales de droit privé en matière d'acquisition, de réalisation ou de rénovation d'équipements sportifs (2667).",
+                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2811.asp",
+                    "d": "2026-05-23"
+                },
                 {
                     "t": "N° 2816 rapport - Rapport de Mme Valérie Létard sur la proposition de loi de Mme Valérie Létard et plusieurs de ses collègues pour la mobilisation de l'habitat existant en réponse à la crise du logement (2674).",
                     "l": "https://www.assemblee-nationale.fr/17/rapports/r2816.asp",
@@ -732,11 +737,6 @@
                     "t": "N° 2698 tome 2 - Rapport d'enquête de M. Charles Alloncle sur la neutralité, le fonctionnement et le financement de l'audiovisuel public",
                     "l": "https://www.assemblee-nationale.fr/17/rap-enq/r2698-t2.asp",
                     "d": "2026-04-27"
-                },
-                {
-                    "t": "N° 2705 - Proposition de loi de M. Christophe Blanchet pour une restauration hors domicile transparente et responsable",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2705.asp",
-                    "d": "2026-04-28"
                 }
             ]
         },
@@ -746,102 +746,102 @@
                 {
                     "t": "Régulation de l'enseignement supérieur privé - texte de la commission N° 643",
                     "l": "http://www.senat.fr/leg/pjl25-643.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Renforcer l'État local et articuler son action avec les collectivités - texte N° 651",
                     "l": "http://www.senat.fr/leg/pjl25-651.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Reconnaître les victimes de l'exposition aux essais nucléaires français - texte de la commission N° 641",
                     "l": "http://www.senat.fr/leg/ppl25-641.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Réforme des critères d'attribution de l'éducation prioritaire - texte de la commission N° 649",
                     "l": "http://www.senat.fr/leg/ppl25-649.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Programmation militaire pour les années 2024 à 2030 - texte N° 635",
                     "l": "http://www.senat.fr/leg/pjl25-635.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Assurer le droit de chaque enfant à être assisté d'un avocat - texte de la commission N° 639",
                     "l": "http://www.senat.fr/leg/ppl25-639.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Établissements et services médico-sociaux à caractère expérimental - texte de la commission N° 645",
                     "l": "http://www.senat.fr/leg/ppl25-645.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Enquête et contrôle des antécédents des personnels d'encadrement des enfants - texte de la commission N° 637",
                     "l": "http://www.senat.fr/leg/ppl25-637.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Pour une montagne vivante et souveraine - texte N° 629",
                     "l": "http://www.senat.fr/leg/ppl25-629.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Interdire la manipulation et la sélection génétique des animaux de compagnie - texte N° 607",
                     "l": "http://www.senat.fr/leg/ppl25-607.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Dispositif des stocks de sécurité des médicaments - texte N° 610",
                     "l": "http://www.senat.fr/leg/ppl25-610.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Soutien à l'innovation thérapeutique contre les maladies de l'enfant - texte N° 627",
                     "l": "http://www.senat.fr/leg/ppl25-627.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Garantir la protection des victimes de violences sexistes et sexuelles - texte N° 619",
                     "l": "http://www.senat.fr/leg/ppl25-619.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Règlement omnibus numérique - texte N° 625",
                     "l": "http://www.senat.fr/leg/ppr25-625.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Généraliser la vidéoprotection algorithmique - texte N° 609",
                     "l": "http://www.senat.fr/leg/ppl25-609.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Régularisation des natifs pour les élections en Nouvelle-Calédonie - texte de la commission N° 631",
                     "l": "http://www.senat.fr/leg/ppl25-631.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Développement du transport maritime à propulsion vélique - texte N° 613",
                     "l": "http://www.senat.fr/leg/ppl25-613.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Renforcer le parcours inclusif des enfants à besoins éducatifs particuliers - texte N° 608",
                     "l": "http://www.senat.fr/leg/ppl25-608.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - texte de la commission N° 621",
                     "l": "http://www.senat.fr/leg/pjl25-621.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Paquet européen sur la cybersécurité 2 - texte N° 624",
                     "l": "http://www.senat.fr/leg/ppr25-624.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 }
             ]
         },
@@ -851,102 +851,102 @@
                 {
                     "t": "L'impact de la concurrence dans le ferroviaire sur les finances publiques - rapport d'information n° 633",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-633-notice.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Les marges des industriels et de la grande distribution - Comptes rendus - rapport n° 632 tome II",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-632-2-notice.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Assurer le droit de chaque enfant à être assisté d'un avocat - rapport n° 638",
                     "l": "http://www.senat.fr/rap/l25-638/l25-638.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Les marges des industriels et de la grande distribution - Comptes rendus - rapport n° 632 tome III",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-632-3-notice.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "L'école inclusive - rapport d'information n° 647",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-647-notice.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Établissements et services médico-sociaux à caractère expérimental - rapport n° 644",
                     "l": "http://www.senat.fr/rap/l25-644/l25-644.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Enquête et contrôle des antécédents des personnels d'encadrement des enfants - rapport n° 636",
                     "l": "http://www.senat.fr/rap/l25-636/l25-636.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Les marges des industriels et de la grande distribution - Rapport - rapport n° 632 tome I",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-632-1-notice.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Réforme des critères d'attribution de l'éducation prioritaire - rapport n° 648",
                     "l": "http://www.senat.fr/rap/l25-648/l25-648.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Reconnaître les victimes de l'exposition aux essais nucléaires français - rapport n° 640",
                     "l": "http://www.senat.fr/rap/l25-640/l25-640.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Programmation militaire pour les années 2024 à 2030 - avis n° 646",
                     "l": "http://www.senat.fr/rap/a25-646/a25-646.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Régulation de l'enseignement supérieur privé - rapport n° 642",
                     "l": "http://www.senat.fr/rap/l25-642/l25-642.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Les perspectives de financement de la politique de renouvellement urbain - rapport d'information n° 616",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-616-notice.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Omnibus numérique européen : un risque pour la protection des droits numériques des citoyens - rapport d'information n° 626",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-626-notice.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Régularisation des natifs pour les élections en Nouvelle-Calédonie - rapport n° 630",
                     "l": "http://www.senat.fr/rap/l25-630/l25-630.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Renforcer la prévention des risques d'attentat - rapport n° 611",
                     "l": "http://www.senat.fr/rap/l25-611/l25-611.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Mise en oeuvre du Pacte sur la migration et l'asile - rapport n° 617",
                     "l": "http://www.senat.fr/rap/l25-617/l25-617.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage - rapport n° 620",
                     "l": "http://www.senat.fr/rap/l25-620/l25-620.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Sortie des collections publiques de restes humains kali'nas et arawaks - rapport n° 614",
                     "l": "http://www.senat.fr/rap/l25-614/l25-614.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 },
                 {
                     "t": "Réponses immédiates aux phénomènes troublant l'ordre public - rapport n° 601",
                     "l": "http://www.senat.fr/rap/l25-601/l25-601.html",
-                    "d": "2026-05-23"
+                    "d": "2026-05-24"
                 }
             ]
         },
