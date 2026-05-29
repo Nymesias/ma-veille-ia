@@ -244,7 +244,7 @@ def main():
                     "model": "mistral-small-latest", 
                     "messages": [{"role": "user", "content": prompt}],
                     "temperature": 0.2,   # 0.2 pour la précision technique
-                    "max_tokens": 1500    # Limite la longueur du mail
+                    "max_tokens": 2500    # Limite la longueur du mail
                 },
                 headers={
                     "Authorization": f"Bearer {MISTRAL_KEY}", 
