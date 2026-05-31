@@ -735,14 +735,29 @@
             "nom_site": "AN|Séances",
             "articles": [
                 {
-                    "t": "Compte rendu intégral de la deuxième séance du vendredi 29 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260254.asp",
+                    "t": "Compte rendu intégral de la troisième séance du vendredi 29 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260255.asp",
                     "d": "2026-05-29"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du mercredi 27 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260248.asp",
+                    "d": "2026-05-27"
                 },
                 {
                     "t": "Compte rendu intégral de la deuxième séance du jeudi 28 mai 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260251.asp",
                     "d": "2026-05-28"
+                },
+                {
+                    "t": "Compte rendu intégral de la séance du samedi 30 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260256.asp",
+                    "d": "2026-05-30"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du vendredi 29 mai 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260254.asp",
+                    "d": "2026-05-29"
                 },
                 {
                     "t": "Compte rendu intégral de la première séance du vendredi 29 mai 2026",
@@ -760,11 +775,6 @@
                     "d": "2026-05-26"
                 },
                 {
-                    "t": "Compte rendu intégral de la première séance du mercredi 27 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260248.asp",
-                    "d": "2026-05-27"
-                },
-                {
                     "t": "Compte rendu intégral de la première séance du mardi 26 mai 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260246.asp",
                     "d": "2026-05-26"
@@ -773,22 +783,47 @@
                     "t": "Compte rendu intégral de la deuxième séance du vendredi 22 mai 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260244.asp",
                     "d": "2026-05-22"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du jeudi 21 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260241.asp",
-                    "d": "2026-05-21"
-                },
-                {
-                    "t": "Compte rendu intégral de la première séance du jeudi 28 mai 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260250.asp",
-                    "d": "2026-05-28"
                 }
             ]
         },
         {
             "nom_site": "AN|Documents",
             "articles": [
+                {
+                    "t": "N° 2851 - Proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, visant à assouplir la procédure d'autorisation des établissements et services sociaux et médico-sociaux à caractère expérimental",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2851.asp",
+                    "d": "2026-05-30"
+                },
+                {
+                    "t": "N° 2850 - Projet de loi, adopté, par le Sénat après engagement de la procédure accélérée, visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens",
+                    "l": "https://www.assemblee-nationale.fr/17/projets/pl2850.asp",
+                    "d": "2026-05-30"
+                },
+                {
+                    "t": "N° 2831 - Proposition de loi de M. Thomas Ménagé visant à exonérer de majoration de participation les assurés dans l'impossibilité manifeste de désigner un médecin traitant",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2831.asp",
+                    "d": "2026-05-26"
+                },
+                {
+                    "t": "N° 2717 - Proposition de loi de M. Nicolas Tryzna visant à faciliter le remplacement des membres des commissions permanentes des conseils départementaux",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2717.asp",
+                    "d": "2026-04-28"
+                },
+                {
+                    "t": "N° 2715 - Proposition de loi de M. Nicolas Tryzna visant à renforcer l'encadrement de l'affichage électoral et de la communication préélectorale",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2715.asp",
+                    "d": "2026-04-28"
+                },
+                {
+                    "t": "N° 2714 - Proposition de loi de M. Nicolas Tryzna portant création d'une Banque de la démocratie pour le financement équitable des campagnes électorales",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2714.asp",
+                    "d": "2026-04-28"
+                },
+                {
+                    "t": "Texte adopté n° 288 - Proposition de loi organique, adoptée sans modification, par l'Assemblée nationale, portant régularisation des natifs dans le corps électoral pour les élections au congrès et aux assemblées de province de Nouvelle-Calédonie",
+                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0288.asp",
+                    "d": "2026-05-20"
+                },
                 {
                     "t": "N° 2797 rapport - Rapport de M. Lionel Duparay, Mme Véronique Riotton, Mme Sophie Mette et M. Belkhir Belhaddad sur la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, relative à l'organisation, à la gestion et au financement du sport professionnel (n°1560).",
                     "l": "https://www.assemblee-nationale.fr/17/rapports/r2797.asp",
@@ -803,41 +838,6 @@
                     "t": "N° 2846 rapport d'information - Rapport d'information de M. Philippe Fait et Mme Isabelle Santiago sur la prise en charge de l'autisme",
                     "l": "https://www.assemblee-nationale.fr/17/rap-info/i2846.asp",
                     "d": "2026-05-28"
-                },
-                {
-                    "t": "N° 2829 - Proposition de loi de Mme Alexandra Martin (Alpes-Maritimes) visant à lutter contre la pédocriminalité en ligne et les violences sexuelles sur mineurs",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2829.asp",
-                    "d": "2026-05-26"
-                },
-                {
-                    "t": "N° 2679 - Proposition de loi de Mme Constance de Pélichy visant à faciliter l'accès au logement des familles par la création d'un prêt à taux zéro",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2679.asp",
-                    "d": "2026-04-14"
-                },
-                {
-                    "t": "N° 2838 rapport - Rapport de Mme Graziella Melchior sur la proposition de loi, après engagement de la procédure accélérée, de Mme Graziella Melchior et plusieurs de ses collègues visant à garantir l'interdiction de la vaisselle en plastique dans la restauration collective accueillant du jeune public et liée à la petite enfance (1169).",
-                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2838.asp",
-                    "d": "2026-05-27"
-                },
-                {
-                    "t": "N° 2837 rapport - Rapport de M. Elie Califer sur la proposition de loi, modifiée par le Sénat, visant à reconnaître la responsabilité de l'État et à indemniser les victimes du chlordécone (n°1578).",
-                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2837.asp",
-                    "d": "2026-05-27"
-                },
-                {
-                    "t": "N° 2767 - Proposition de résolution de M. René Pilato tendant à la création d'une commission d'enquête sur la faillite de la gouvernance de la retraite des artistes-auteurs et les défaillances de l'organisme agréé par l'État pour le recouvrement de leurs cotisations",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2767.asp",
-                    "d": "2026-05-11"
-                },
-                {
-                    "t": "N° 2849 - Proposition de loi, adoptée par le Sénat, portant réforme des critères d'attribution de l'éducation prioritaire pour l'équité des résultats et l'égalité territoriale",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2849.asp",
-                    "d": "2026-05-29"
-                },
-                {
-                    "t": "N° 1727 - Proposition de loi de M. Arnaud Bonnet visant à instaurer des normes de températures dans les établissements scolaires et universitaires",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1727.asp",
-                    "d": "2025-07-11"
                 }
             ]
         },
@@ -847,102 +847,102 @@
                 {
                     "t": "Capital de la société TotalEnergies - texte N° 658",
                     "l": "http://www.senat.fr/leg/ppl25-658.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Interdire l'importation des trophées de chasse d'espèces protégées - texte N° 622",
                     "l": "http://www.senat.fr/leg/ppr25-622.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Lutter contre les déserts médicaux - texte de la commission N° 669",
                     "l": "http://www.senat.fr/leg/ppl25-669.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Inscription de la culture du cognac au patrimoine immatériel de l'UNESCO - texte N° 634",
                     "l": "http://www.senat.fr/leg/ppr25-634.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Représentation des communes associées pour les élections sénatoriales - texte N° 605",
                     "l": "http://www.senat.fr/leg/ppl25-605.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Programmation militaire pour les années 2024 à 2030 - texte de la commission N° 667",
                     "l": "http://www.senat.fr/leg/pjl25-667.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Représentativité au sein des unions régionales des professionnels de santé - texte de la commission N° 665",
                     "l": "http://www.senat.fr/leg/ppl25-665.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Régulation de l'enseignement supérieur privé - texte de la commission N° 643",
                     "l": "http://www.senat.fr/leg/pjl25-643.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Renforcer l'État local et articuler son action avec les collectivités - texte N° 651",
                     "l": "http://www.senat.fr/leg/pjl25-651.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Reconnaître les victimes de l'exposition aux essais nucléaires français - texte de la commission N° 641",
                     "l": "http://www.senat.fr/leg/ppl25-641.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Réforme des critères d'attribution de l'éducation prioritaire - texte de la commission N° 649",
                     "l": "http://www.senat.fr/leg/ppl25-649.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Programmation militaire pour les années 2024 à 2030 - texte N° 635",
                     "l": "http://www.senat.fr/leg/pjl25-635.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Enquête et contrôle des antécédents des personnels d'encadrement des enfants - texte de la commission N° 637",
                     "l": "http://www.senat.fr/leg/ppl25-637.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Assurer le droit de chaque enfant à être assisté d'un avocat - texte de la commission N° 639",
                     "l": "http://www.senat.fr/leg/ppl25-639.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Établissements et services médico-sociaux à caractère expérimental - texte de la commission N° 645",
                     "l": "http://www.senat.fr/leg/ppl25-645.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Interdire la manipulation et la sélection génétique des animaux de compagnie - texte N° 607",
                     "l": "http://www.senat.fr/leg/ppl25-607.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Pour une montagne vivante et souveraine - texte N° 629",
                     "l": "http://www.senat.fr/leg/ppl25-629.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Dispositif des stocks de sécurité des médicaments - texte N° 610",
                     "l": "http://www.senat.fr/leg/ppl25-610.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Garantir la protection des victimes de violences sexistes et sexuelles - texte N° 619",
                     "l": "http://www.senat.fr/leg/ppl25-619.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Soutien à l'innovation thérapeutique contre les maladies de l'enfant - texte N° 627",
                     "l": "http://www.senat.fr/leg/ppl25-627.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 }
             ]
         },
@@ -952,102 +952,102 @@
                 {
                     "t": "Le tribunal du stationnement payant - rapport d'information n° 661",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-661-notice.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "L'immobilier de la Bibliothèque nationale de France - rapport d'information n° 663",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-663-notice.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Lutter contre les déserts médicaux - rapport n° 668",
                     "l": "http://www.senat.fr/rap/l25-668/l25-668.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Programmation militaire pour les années 2024 à 2030 - rapport n° 666",
                     "l": "http://www.senat.fr/rap/l25-666/l25-666.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Les comptes du Sénat de l'exercice 2025 - rapport d'information n° 628",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-628-notice.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Représentativité au sein des unions régionales des professionnels de santé - rapport n° 664",
                     "l": "http://www.senat.fr/rap/l25-664/l25-664.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Exonérations de cotisations patronales en outre-mer : Lodéom et Lopom, des dispositifs efficients - rapport d'information n° 662",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-662-notice.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Programmation militaire pour les années 2024 à 2030 - avis n° 654",
                     "l": "http://www.senat.fr/rap/a25-654/a25-654.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Le futur de notre rapport à l'autorité et à la vérité à l'horizon 2050 - rapport d'information n° 655",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-655-notice.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Le bilan incertain de la concurrence ferroviaire sur les finances publiques - rapport d'information n° 633",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-633-notice.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Quand la guerre des prix affaiblit l'agriculture et l'industrie : vers un partage plus équitable de la valeur - Comptes rendus - rapport n° 632 tome II",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-632-2-notice.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Quand la guerre des prix affaiblit l'agriculture et l'industrie : vers un partage plus équitable de la valeur - Comptes rendus - rapport n° 632 tome III",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-632-3-notice.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Assurer le droit de chaque enfant à être assisté d'un avocat - rapport n° 638",
                     "l": "http://www.senat.fr/rap/l25-638/l25-638.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "De la compensation du handicap  à l'accessibilité des apprentissages : vers une école plus inclusive - rapport d'information n° 647",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-647-notice.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Établissements et services médico-sociaux à caractère expérimental - rapport n° 644",
                     "l": "http://www.senat.fr/rap/l25-644/l25-644.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Enquête et contrôle des antécédents des personnels d'encadrement des enfants - rapport n° 636",
                     "l": "http://www.senat.fr/rap/l25-636/l25-636.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Les marges des industriels et de la grande distribution - Rapport - rapport n° 632 tome I",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-632-1-notice.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Réforme des critères d'attribution de l'éducation prioritaire - rapport n° 648",
                     "l": "http://www.senat.fr/rap/l25-648/l25-648.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Reconnaître les victimes de l'exposition aux essais nucléaires français - rapport n° 640",
                     "l": "http://www.senat.fr/rap/l25-640/l25-640.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 },
                 {
                     "t": "Programmation militaire pour les années 2024 à 2030 - avis n° 646",
                     "l": "http://www.senat.fr/rap/a25-646/a25-646.html",
-                    "d": "2026-05-30"
+                    "d": "2026-05-31"
                 }
             ]
         },
