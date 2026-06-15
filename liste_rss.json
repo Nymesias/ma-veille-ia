@@ -6,7 +6,7 @@
                 {
                     "t": "Abus de dépendance et avantage manifestement excessif, le cocktail de la violence contractuelle",
                     "l": "https://www.cridon-ne.org/abus-dependance-avantage-manifestement-excessif/",
-                    "d": "2026-06-10"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Adieu au prélèvement compensatoire de l’article 913, alinéa 3, du Code civil ou presque…",
@@ -58,6 +58,16 @@
         {
             "nom_site": "Dalloz|Etudiant",
             "articles": [
+                {
+                    "t": "La désinformation juridique, ça existe aussi",
+                    "l": "https://actu.dalloz-etudiant.fr/le-billet/article/la-desinformation-juridique-ca-existe-aussi/h/9d2b5c2cc77e72a8c9be8f9778762632.html",
+                    "d": "2026-06-15"
+                },
+                {
+                    "t": "Validité de la transaction conclue en méconnaissance de la valeur du droit d’ordre public concédé",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/validite-de-la-transaction-conclue-en-meconnaissance-de-la-valeur-du-droit-dordre-public-conce/h/09fcc343dac7e4c4cff83878f8e06328.html",
+                    "d": "2026-06-15"
+                },
                 {
                     "t": "Congé supplémentaire de naissance",
                     "l": "https://actu.dalloz-etudiant.fr/le-saviez-vous/article/conge-supplementaire-de-naissance/h/b156bd909f0d2c54e2643e578a7edeed.html",
@@ -147,16 +157,6 @@
                     "t": "Point sur l’audition de l’enfant en justice",
                     "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/point-sur-laudition-de-lenfant-en-justice/h/6ad5d9f80f398d9ec7ab7a010bfdc628.html",
                     "d": "2026-05-29"
-                },
-                {
-                    "t": "Nos concitoyens : les enfermé.es",
-                    "l": "https://actu.dalloz-etudiant.fr/focus-sur/article/nos-concitoyens-les-enfermees/h/c5282ccfa2d9b7d922c9f39c461a5479.html",
-                    "d": "2026-05-28"
-                },
-                {
-                    "t": "Procédure d’assistance éducative : précisions sur l’articulation des pouvoirs du juge des enfants et de la juridiction d’appel",
-                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/procedure-dassistance-educative-precisions-sur-larticulation-des-pouvoirs-du-juge-des-enf/h/4e2c4c863279cfd950b6bf2c61ce2be6.html",
-                    "d": "2026-05-28"
                 }
             ]
         },
@@ -515,6 +515,41 @@
             "nom_site": "Me NEUJANICKI|Immobilier",
             "articles": [
                 {
+                    "t": "Clause résolutoire : faut-il énumérer toutes les obligations dont la violation entraîne la résiliation du contrat ?",
+                    "l": "https://www.neujanicki.com/clause-resolutoire-obligations-article-1225-code-civil/",
+                    "d": "2026-06-14"
+                },
+                {
+                    "t": "Refus de renouvellement : la contestation du congé peut-elle interrompre la prescription de l’indemnité d’éviction ?",
+                    "l": "https://www.neujanicki.com/contestation-conge-interruption-prescription-indemnite-eviction/",
+                    "d": "2026-06-14"
+                },
+                {
+                    "t": "Bail commercial : le cas fortuit n’exonère pas durablement le bailleur de son obligation de délivrance",
+                    "l": "https://www.neujanicki.com/bail-commercial-cas-fortuit-obligation-delivrance-bailleur/",
+                    "d": "2026-06-14"
+                },
+                {
+                    "t": "Bail commercial : le bailleur doit-il prouver les charges même si le locataire ne les a jamais contestées ?",
+                    "l": "https://www.neujanicki.com/bail-commercial-preuve-charges-locatives-bailleur/",
+                    "d": "2026-06-14"
+                },
+                {
+                    "t": "Bail dérogatoire : le maintien dans les lieux ne suffit pas à bénéficier du statut des baux commerciaux",
+                    "l": "https://www.neujanicki.com/bail-derogatoire-maintien-lieux-statut-baux-commerciaux/",
+                    "d": "2026-06-14"
+                },
+                {
+                    "t": "Résidence de tourisme : un bailleur peut-il annuler le bail commercial en invoquant une promesse de renonciation à l’indemnité d’éviction ?",
+                    "l": "https://www.neujanicki.com/residence-tourisme-renonciation-indemnite-eviction-bail-commercial/",
+                    "d": "2026-06-14"
+                },
+                {
+                    "t": "Bail commercial sur le domaine public : la nullité du bail n’empêche pas le bailleur d’obtenir une indemnité d’occupation",
+                    "l": "https://www.neujanicki.com/bail-commercial-domaine-public-nullite-indemnite-occupation/",
+                    "d": "2026-06-14"
+                },
+                {
                     "t": "Bail commercial : indemnité d’éviction et congé triennal du bailleur pour reconstruction",
                     "l": "https://www.neujanicki.com/bail-commercial-indemnite-eviction-conge-reconstruction/",
                     "d": "2026-05-31"
@@ -528,41 +563,6 @@
                     "t": "Agent immobilier : les fissures apparentes n’exonèrent pas le professionnel de son devoir de conseil",
                     "l": "https://www.neujanicki.com/agent-immobilier-fissures-apparentes-devoir-conseil-responsabilite/",
                     "d": "2026-05-31"
-                },
-                {
-                    "t": "Bail commercial : liquidation judiciaire : pas de cession du fonds de commerce sans clientèle exploitable",
-                    "l": "https://www.neujanicki.com/liquidation-judiciaire-cession-fonds-commerce-sans-clientele/",
-                    "d": "2026-05-31"
-                },
-                {
-                    "t": "Agent immobilier : fraude de l’acquéreur et conséquences",
-                    "l": "https://www.neujanicki.com/agent-immobilier-acquereur-fraude-commission-responsabilite-delictuelle/",
-                    "d": "2026-05-31"
-                },
-                {
-                    "t": "Offre acceptée, vente parfaite : le mandat de l’agent immobilier est indifférent à la rencontre des volontés",
-                    "l": "https://www.neujanicki.com/vente-parfaite-mandat-agent-immobilier-offre-acceptee/",
-                    "d": "2026-05-31"
-                },
-                {
-                    "t": "Absence d’exploitation effective du fonds : le locataire perd son droit à l’indemnité d’éviction",
-                    "l": "https://www.neujanicki.com/absence-exploitation-fonds-commerce-perte-indemnite-eviction/",
-                    "d": "2026-05-31"
-                },
-                {
-                    "t": "Expertise non judiciaire : un mode de preuve pleinement admis sous condition de corroboration",
-                    "l": "https://www.neujanicki.com/expertise-non-judiciaire-preuve-recevable/",
-                    "d": "2026-04-06"
-                },
-                {
-                    "t": "Bail commercial : qui doit obtenir les autorisations de copropriété nécessaires aux travaux du preneur ?",
-                    "l": "https://www.neujanicki.com/bail-commercial-travaux-copropriete-obligation-bailleur/",
-                    "d": "2026-04-06"
-                },
-                {
-                    "t": "Bail commercial : l’immatriculation unique et multiplicité de locaux",
-                    "l": "https://www.neujanicki.com/bail-commercial-immatriculation-unite-exploitation/",
-                    "d": "2026-04-06"
                 }
             ]
         },
@@ -735,8 +735,8 @@
             "nom_site": "AN|Séances",
             "articles": [
                 {
-                    "t": "Compte rendu intégral de la deuxième séance du jeudi 11 juin 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260268.asp",
+                    "t": "Compte rendu intégral de la première séance du jeudi 11 juin 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260267.asp",
                     "d": "2026-06-11"
                 },
                 {
@@ -745,19 +745,19 @@
                     "d": "2026-06-09"
                 },
                 {
-                    "t": "Compte rendu intégral de la séance du mercredi 10 juin 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260266.asp",
-                    "d": "2026-06-10"
-                },
-                {
-                    "t": "Compte rendu intégral de la première séance du jeudi 11 juin 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260267.asp",
-                    "d": "2026-06-11"
-                },
-                {
                     "t": "Compte rendu intégral de la troisième séance du jeudi 11 juin 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260269.asp",
                     "d": "2026-06-11"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du jeudi 11 juin 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260268.asp",
+                    "d": "2026-06-11"
+                },
+                {
+                    "t": "Compte rendu intégral de la séance du mercredi 10 juin 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260266.asp",
+                    "d": "2026-06-10"
                 },
                 {
                     "t": "Compte rendu intégral de la première séance du jeudi 04 juin 2026",
@@ -795,6 +795,41 @@
                     "d": "2025-12-03"
                 },
                 {
+                    "t": "N° 2891 - Proposition de loi de M. Jean-Louis Roumégas visant à abolir la prescription décennale civile et à garantir une réparation des préjudices pour les victimes d'une exposition au diéthylstilbestrol et autres hormones de synthèse similaires",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2891.asp",
+                    "d": "2026-06-09"
+                },
+                {
+                    "t": "Texte adopté n° 298 - Proposition de loi, adoptée sans modification, par l'Assemblée nationale, en deuxième lecture, visant à améliorer la protection et l'accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap",
+                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0298.asp",
+                    "d": "2026-06-03"
+                },
+                {
+                    "t": "Texte adopté n° 297 - Proposition de loi, adoptée sans modification, par l'Assemblée nationale, en deuxième lecture, visant à reconnaître la responsabilité de l'État et à indemniser les victimes du chlordécone",
+                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0297.asp",
+                    "d": "2026-06-03"
+                },
+                {
+                    "t": "N° 2848 - Proposition de loi, adoptée par le Sénat, visant à permettre la mise en place d'une enquête administrative et le contrôle des antécédents judiciaires des personnels d'encadrement des enfants",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2848.asp",
+                    "d": "2026-06-15"
+                },
+                {
+                    "t": "N° 2917 - Proposition de loi, modifiée par le Sénat, visant à moderniser la gestion du patrimoine immobilier de l'État",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2917.asp",
+                    "d": "2026-06-15"
+                },
+                {
+                    "t": "N° 1796 - Proposition de loi de M. Thomas Cazenave visant à moderniser la gestion du patrimoine immobilier de l'État",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1796.asp",
+                    "d": "2025-09-16"
+                },
+                {
+                    "t": "N° 2823 - Proposition de loi de M. Laurent Croizier visant à assurer l'armement de plein droit des policiers municipaux",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2823.asp",
+                    "d": "2026-05-26"
+                },
+                {
                     "t": "N° 2905 rapport - Rapport de M. Marcellin Nadeau sur le projet de loi, adopté par le Sénat après engagement de la procédure accélérée, portant habilitation de l'assemblée de Martinique à fixer des règles applicables sur son territoire en application de l'article 73 de la Constitution en matière d'énergie, d'eau et d'assainissement (n°2609).",
                     "l": "https://www.assemblee-nationale.fr/17/rapports/r2905.asp",
                     "d": "2026-06-10"
@@ -803,148 +838,12 @@
                     "t": "N° 2865 rapport - Rapport de M. Florent Boudié sur le projet de loi constitutionnelle pour une Corse autonome au sein de la République (n°2697).",
                     "l": "https://www.assemblee-nationale.fr/17/rapports/r2865.asp",
                     "d": "2026-06-03"
-                },
-                {
-                    "t": "Texte adopté n° 312 - Proposition de loi, adoptée, par l'Assemblée nationale, pour l'égalité d'accès aux soins des Ultramarins sur l'ensemble du territoire national",
-                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0312.asp",
-                    "d": "2026-06-12"
-                },
-                {
-                    "t": "Texte adopté n° 311 - Proposition de loi, adoptée, par l'Assemblée nationale, visant à réformer les bourses sur critères sociaux et à lutter contre la précarité étudiante",
-                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0311.asp",
-                    "d": "2026-06-12"
-                },
-                {
-                    "t": "N° 2912 rapport - Rapport de M. Jean-Victor Castor sur la proposition de loi, adoptée par le Sénat après engagement de la procédure accélérée, relative à la sortie des collections publiques de restes humains kali'nas et arawaks en vue de funérailles sur le territoire de la Guyane (n°2803).",
-                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2912.asp",
-                    "d": "2026-06-10"
-                },
-                {
-                    "t": "N° 2500 - Proposition de loi de M. Arnaud Bonnet visant à garantir l'honorabilité des personnes intervenant auprès des mineurs",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2500.asp",
-                    "d": "2026-02-17"
-                },
-                {
-                    "t": "N° 2677 - Proposition de loi de M. Arnaud Bonnet visant à rendre imprescriptibles les crimes sur les mineurs",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2677.asp",
-                    "d": "2026-04-14"
-                },
-                {
-                    "t": "N° 2767 - Proposition de résolution de M. René Pilato tendant à la création d'une commission d'enquête sur la faillite de la gouvernance de la retraite des artistes-auteurs et les défaillances de l'organisme agréé par l'État pour le recouvrement de leurs cotisations",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2767.asp",
-                    "d": "2026-05-11"
-                },
-                {
-                    "t": "N° 2875 rapport d'information - Rapport d'information de M. Jérôme Guedj, M. Cyrille Isaac-Sibille et M. Sébastien Peytavie déposé en application de l'article 145 du règlement, par la commission des affaires sociales en conclusion d'auditions de la mission d'évaluation et de contrôle des lois de financement de la sécurité sociale",
-                    "l": "https://www.assemblee-nationale.fr/17/rap-info/i2875.asp",
-                    "d": "2026-06-03"
                 }
             ]
         },
         {
             "nom_site": "Sénat|Textes",
-            "articles": [
-                {
-                    "t": "Règlement sur les réseaux numériques - texte N° 731",
-                    "l": "http://www.senat.fr/leg/ppr25-731.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Exploitation des hydrocarbures en outre-mer - texte N° 738",
-                    "l": "http://www.senat.fr/leg/ppl25-738.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Statut des magistrats et respect des victimes - texte N° 715",
-                    "l": "http://www.senat.fr/leg/ppl25-715.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Renforcer la solidarité envers les retraités pauvres - texte N° 734",
-                    "l": "http://www.senat.fr/leg/ppl25-734.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Droit des victimes à l'information et à la compréhension des procédures - texte N° 714",
-                    "l": "http://www.senat.fr/leg/ppl25-714.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Nationalisation d'ArcelorMittal France - texte N° 735",
-                    "l": "http://www.senat.fr/leg/ppl25-735.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Création d'un centre hosptialier universitaire dans le Pas-de-Calais - texte N° 716",
-                    "l": "http://www.senat.fr/leg/ppl25-716.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Faire de la « parento-natalité » un principe structurant de l'action publique - texte N° 712",
-                    "l": "http://www.senat.fr/leg/ppr25-712.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Approbation des comptes de la sécurité sociale de l'année 2025 - texte N° 727",
-                    "l": "http://www.senat.fr/leg/pjl25-727.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Expérimentation d'une gouvernance territoriale unifiée pour le CREPS de Vichy - texte de la commission N° 730",
-                    "l": "http://www.senat.fr/leg/ppl25-730.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Travail le 1er mai des boulangers-pâtissiers artisanaux et artisans fleuristes - texte de la commission N° 718",
-                    "l": "http://www.senat.fr/leg/pjl25-718.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Renforcer l'effectivité des droits voisins des éditeurs et des agences de press - texte de la commission N° 721",
-                    "l": "http://www.senat.fr/leg/ppl25-721.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 - texte N° 726",
-                    "l": "http://www.senat.fr/leg/pjl25-726.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Réparer les préjudices causés par la transplantation de mineurs de La Réunion - texte de la commission N° 723",
-                    "l": "http://www.senat.fr/leg/ppl25-723.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Adapter la rénovation énergétique au « petit patrimoine » - texte N° 696",
-                    "l": "http://www.senat.fr/leg/ppl25-696.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Prévenir le mal-être et le risque suicidaire dans le monde agricole - texte N° 710",
-                    "l": "http://www.senat.fr/leg/ppl25-710.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Mesures de justice pour la revalorisation des pensions de retraites agricoles - texte N° 709",
-                    "l": "http://www.senat.fr/leg/ppl25-709.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Relancer les investissements dans le secteur de l'hydroélectricité - texte de la commission N° 677",
-                    "l": "http://www.senat.fr/leg/ppl25-677.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Protéger les enfants et lutter contre les violences en milieu scolaire - texte N° 675",
-                    "l": "http://www.senat.fr/leg/ppl25-675.html",
-                    "d": "2026-06-13"
-                },
-                {
-                    "t": "Améliorer les moyens d'action de l'AGRASC - texte N° 703",
-                    "l": "http://www.senat.fr/leg/ppl25-703.html",
-                    "d": "2026-06-13"
-                }
-            ]
+            "articles": []
         },
         {
             "nom_site": "Sénat|Rapports",
@@ -952,102 +851,102 @@
                 {
                     "t": "Le financement du déploiement de la vidéoprotection - rapport d'information n° 719",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-719-notice.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Expérimentation d'une gouvernance territoriale unifiée pour le CREPS de Vichy - rapport n° 729",
                     "l": "http://www.senat.fr/rap/l25-729/l25-729.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Pour suite à donner à l'enquête de la Cour des comptes, transmise en application de l'article 58-2° de la LOLF, sur la prime d'activité - rapport d'information n° 728",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-728-notice.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Renforcer l'effectivité des droits voisins des éditeurs et des agences de presse - rapport n° 720",
                     "l": "http://www.senat.fr/rap/l25-720/l25-720.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Réparer les préjudices causés par la transplantation de mineurs de La Réunion - rapport n° 722",
                     "l": "http://www.senat.fr/rap/l25-722/l25-722.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Travail le 1er mai des boulangers-pâtissiers artisanaux et artisans fleuristes - rapport n° 717",
                     "l": "http://www.senat.fr/rap/l25-717/l25-717.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Relancer les investissements dans le secteur de l'hydroélectricité - rapport n° 676",
                     "l": "http://www.senat.fr/rap/l25-676/l25-676.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "L'évolution des valeurs sociales à l'horizon 2050 - rapport d'information n° 733",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-733-notice.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Ingénierie publique : l'avenir en projet - rapport d'information n° 724",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-724-notice.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Renforcer la prévention des risques d'attentat - rapport n° 705",
                     "l": "http://www.senat.fr/rap/l25-705/l25-705.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Avis sur le projet de décret d'avance notifié le 28 mai 2026 - rapport d'information n° 702",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-702-notice.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Territoires zéro chômeur de longue durée - rapport n° 700",
                     "l": "http://www.senat.fr/rap/l25-700/l25-700.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Le bilan des positions européennes du Sénat 2024-2025 - rapport d'information n° 656",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-656-notice.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Contrat d'édition - rapport n° 694",
                     "l": "http://www.senat.fr/rap/l25-694/l25-694.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Garantir la neutralité financière du don d'organes par les vivants - rapport n° 687",
                     "l": "http://www.senat.fr/rap/l25-687/l25-687.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Réforme des Agences régionales de santé : construire la proximité. Un échelon départemental renforcé, un pouvoir de dérogation élargi, un socle de services de santé garanti pour toute la population - rapport d'information n° 657",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-657-notice.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Droit à l'aide à mourir - rapport n° 680",
                     "l": "http://www.senat.fr/rap/l25-680/l25-680.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires - rapport n° 697",
                     "l": "http://www.senat.fr/rap/l25-697/l25-697.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "La coopération et l'intégration régionales des outre-mer - volet 3 : bassin océan Pacifique - rapport d'information n° 671",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-671-notice.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Moniteurs de ski stagiaires - rapport n° 683",
                     "l": "http://www.senat.fr/rap/l25-683/l25-683.html",
-                    "d": "2026-06-13"
+                    "d": "2026-06-15"
                 }
             ]
         },
@@ -1272,6 +1171,21 @@
             "nom_site": "AMF",
             "articles": [
                 {
+                    "t": "L'Autorité des marchés financiers publie la synthèse de ses contrôles en matière de lutte contre le blanchiment de capitaux et le financement du terrorisme",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lautorite-des-marches-financiers-publie-la-synthese-de-ses-controles-en-matiere-de-lutte-contre-le#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "2026-06-15"
+                },
+                {
+                    "t": "Synthèse des constats des contrôles de l'AMF en matière de lutte contre le blanchiment de capitaux et le financement du terrorisme (LCB-FT) ayant donné lieu à des suites (2022-2025)",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-etudes-et-analyses/synthese-des-constats-des-controles-de-lamf-en-matiere-de-lutte-contre-le-blanchiment-de-capitaux-et#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "2026-06-15"
+                },
+                {
+                    "t": "L'AMF met à jour sa doctrine sur les gestionnaires de certains Autres FIA",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-met-jour-sa-doctrine-sur-les-gestionnaires-de-certains-autres-fia#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "2026-06-15"
+                },
+                {
                     "t": "L'AMF instaure une nouvelle méthodologie de contrôle sur pièces des conseillers en investissements financiers",
                     "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-instaure-une-nouvelle-methodologie-de-controle-sur-pieces-des-conseillers-en-investissements#xts=607212&xtor=RSS-3&type=RSS",
                     "d": "2026-06-12"
@@ -1355,21 +1269,6 @@
                     "t": "Résilience cyber : l'AMF appelle les acteurs financiers à renforcer leurs dispositifs face à l’évolution rapide des menaces liées à l’intelligence artificielle",
                     "l": "https://www.amf-france.org/fr/actualites-publications/actualites/resilience-cyber-lamf-appelle-les-acteurs-financiers-renforcer-leurs-dispositifs-face-levolution#xts=607212&xtor=RSS-3&type=RSS",
                     "d": "2026-06-03"
-                },
-                {
-                    "t": "L'AMF accompagne les sociétés cotées dans la mise en œuvre de leur déclaration des informations relatives à la parité au sein des organes collégiaux",
-                    "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-accompagne-les-societes-cotees-dans-la-mise-en-oeuvre-de-leur-declaration-des-informations#xts=607212&xtor=RSS-3&type=RSS",
-                    "d": "2026-06-01"
-                },
-                {
-                    "t": "La Directive « Women on Boards »",
-                    "l": "https://www.amf-france.org/fr/actualites-publications/dossiers-thematiques/women-boards#xts=607212&xtor=RSS-3&type=RSS",
-                    "d": "2026-06-01"
-                },
-                {
-                    "t": "Arrêté du 11 mai 2026 portant homologation d'une modification du règlement général de l'Autorité des marchés financiers",
-                    "l": "https://www.amf-france.org/fr/reglementation/reglement-general/arretes-dhomologation/arrete-du-11-mai-2026-portant-homologation-dune-modification-du-reglement-general-de-lautorite-des#xts=607212&xtor=RSS-3&type=RSS",
-                    "d": "2026-06-01"
                 }
             ]
         },
