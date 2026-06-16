@@ -59,6 +59,16 @@
             "nom_site": "Dalloz|Etudiant",
             "articles": [
                 {
+                    "t": "Annulation d’une vente pour dol et droit du vendeur à une indemnité d’occupation",
+                    "l": "https://actu.dalloz-etudiant.fr/a-vos-copies/article/annulation-dune-vente-pour-dol-et-droit-du-vendeur-a-une-indemnite-doccupation/h/914183163d7c0e9476d2569d1e1cbc70.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Protection du professionnel contre le déséquilibre significatif : l’inefficacité confirmée de l’article 1171 du Code civil",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/protection-du-professionnel-contre-le-desequilibre-significatif-linefficacite-confirmee-de-1/h/05a1861b52281d6637fba44001249087.html",
+                    "d": "2026-06-16"
+                },
+                {
                     "t": "La désinformation juridique, ça existe aussi",
                     "l": "https://actu.dalloz-etudiant.fr/le-billet/article/la-desinformation-juridique-ca-existe-aussi/h/9d2b5c2cc77e72a8c9be8f9778762632.html",
                     "d": "2026-06-15"
@@ -147,16 +157,6 @@
                     "t": "Exécution forcée du contrat : retour au quoi qu’il en coûte",
                     "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/execution-forcee-du-contrat-retour-au-quoi-quil-en-coute/h/5814c4669e71dfddae76d156fc17ab51.html",
                     "d": "2026-06-01"
-                },
-                {
-                    "t": "Création d’un délit d’inhalation de protoxyde d’azote",
-                    "l": "https://actu.dalloz-etudiant.fr/le-saviez-vous/article/creation-dun-delit-dinhalation-de-protoxyde-dazote/h/2807443c459c7bd2be86c61fa23a0a23.html",
-                    "d": "2026-05-29"
-                },
-                {
-                    "t": "Point sur l’audition de l’enfant en justice",
-                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/point-sur-laudition-de-lenfant-en-justice/h/6ad5d9f80f398d9ec7ab7a010bfdc628.html",
-                    "d": "2026-05-29"
                 }
             ]
         },
@@ -735,14 +735,19 @@
             "nom_site": "AN|Séances",
             "articles": [
                 {
-                    "t": "Compte rendu intégral de la première séance du jeudi 11 juin 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260267.asp",
-                    "d": "2026-06-11"
+                    "t": "Compte rendu intégral de la première séance du lundi 15 juin 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260270.asp",
+                    "d": "2026-06-15"
                 },
                 {
                     "t": "Compte rendu intégral de la séance du mardi 09 juin 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260265.asp",
                     "d": "2026-06-09"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du jeudi 11 juin 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260267.asp",
+                    "d": "2026-06-11"
                 },
                 {
                     "t": "Compte rendu intégral de la troisième séance du jeudi 11 juin 2026",
@@ -778,11 +783,6 @@
                     "t": "Compte rendu intégral de la séance du samedi 24 mai 2025",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2024-2025/20250215.asp",
                     "d": "2025-05-24"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du mardi 02 juin 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260260.asp",
-                    "d": "2026-06-02"
                 }
             ]
         },
@@ -795,55 +795,156 @@
                     "d": "2025-12-03"
                 },
                 {
-                    "t": "N° 2891 - Proposition de loi de M. Jean-Louis Roumégas visant à abolir la prescription décennale civile et à garantir une réparation des préjudices pour les victimes d'une exposition au diéthylstilbestrol et autres hormones de synthèse similaires",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2891.asp",
+                    "t": "N° 2557 - Proposition de loi de Mme Corinne Vignon visant à interdire la vente de chiens et de chats dans les foires et salons",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2557.asp",
+                    "d": "2026-03-03"
+                },
+                {
+                    "t": "N° 2915 annexe 0 - Rapport, en nouvelle lecture, sur la proposition de loi, adoptée par l'Assemblée nationale, en deuxième lecture, relative au droit à l'aide à mourir (n°2773).",
+                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2915-a0.asp",
+                    "d": "2026-06-11"
+                },
+                {
+                    "t": "N° 2453 annexe 0 - Rapport sur la proposition de loi, adoptée par l'Assemblée nationale, relative au droit à l'aide à mourir (n°2401).",
+                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2453-a0.asp",
+                    "d": "2026-02-06"
+                },
+                {
+                    "t": "N° 1364 annexe 0 - Rapport sur la proposition de loi de M. Olivier Falorni relative à la fin de vie (1100).",
+                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r1364-a0.asp",
+                    "d": "2025-05-02"
+                },
+                {
+                    "t": "N° 2886 - Proposition de loi de M. Sébastien Peytavie visant à garantir l'exercice des droits fondamentaux des personnes handicapées",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2886.asp",
                     "d": "2026-06-09"
                 },
                 {
-                    "t": "Texte adopté n° 298 - Proposition de loi, adoptée sans modification, par l'Assemblée nationale, en deuxième lecture, visant à améliorer la protection et l'accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap",
-                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0298.asp",
-                    "d": "2026-06-03"
+                    "t": "N° 2448 - Proposition de loi de Mme Violette Spillebout et M. Paul Vannier visant à prévenir et lutter contre les violences en milieu scolaire",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2448.asp",
+                    "d": "2026-02-04"
                 },
                 {
-                    "t": "Texte adopté n° 297 - Proposition de loi, adoptée sans modification, par l'Assemblée nationale, en deuxième lecture, visant à reconnaître la responsabilité de l'État et à indemniser les victimes du chlordécone",
-                    "l": "https://www.assemblee-nationale.fr/17/ta/ta0297.asp",
-                    "d": "2026-06-03"
+                    "t": "N° 1535 - Proposition de loi de M. Vincent Jeanbrun visant à interdire et sanctionner les contenus et discours à caractère anti-républicain",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1535.asp",
+                    "d": "2025-06-10"
                 },
                 {
-                    "t": "N° 2848 - Proposition de loi, adoptée par le Sénat, visant à permettre la mise en place d'une enquête administrative et le contrôle des antécédents judiciaires des personnels d'encadrement des enfants",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2848.asp",
-                    "d": "2026-06-15"
+                    "t": "N° 1737 - Proposition de loi de M. Vincent Jeanbrun relative à la création d'une compétence sécurité pour les régions",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1737.asp",
+                    "d": "2025-07-11"
                 },
                 {
-                    "t": "N° 2917 - Proposition de loi, modifiée par le Sénat, visant à moderniser la gestion du patrimoine immobilier de l'État",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2917.asp",
-                    "d": "2026-06-15"
-                },
-                {
-                    "t": "N° 1796 - Proposition de loi de M. Thomas Cazenave visant à moderniser la gestion du patrimoine immobilier de l'État",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1796.asp",
-                    "d": "2025-09-16"
-                },
-                {
-                    "t": "N° 2823 - Proposition de loi de M. Laurent Croizier visant à assurer l'armement de plein droit des policiers municipaux",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2823.asp",
-                    "d": "2026-05-26"
-                },
-                {
-                    "t": "N° 2905 rapport - Rapport de M. Marcellin Nadeau sur le projet de loi, adopté par le Sénat après engagement de la procédure accélérée, portant habilitation de l'assemblée de Martinique à fixer des règles applicables sur son territoire en application de l'article 73 de la Constitution en matière d'énergie, d'eau et d'assainissement (n°2609).",
-                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2905.asp",
-                    "d": "2026-06-10"
-                },
-                {
-                    "t": "N° 2865 rapport - Rapport de M. Florent Boudié sur le projet de loi constitutionnelle pour une Corse autonome au sein de la République (n°2697).",
-                    "l": "https://www.assemblee-nationale.fr/17/rapports/r2865.asp",
-                    "d": "2026-06-03"
+                    "t": "N° 2609 - Projet de loi, adopté par le Sénat après engagement de la procédure accélérée, portant habilitation de l'assemblée de Martinique à fixer des règles applicables sur son territoire en application de l'article 73 de la Constitution en matière d'énergie, d'eau et d'assainissement",
+                    "l": "https://www.assemblee-nationale.fr/17/projets/pl2609.asp",
+                    "d": "2026-04-02"
                 }
             ]
         },
         {
             "nom_site": "Sénat|Textes",
-            "articles": []
+            "articles": [
+                {
+                    "t": "Réformer les bourses et lutter contre la précarité étudiante - texte N° 739",
+                    "l": "http://www.senat.fr/leg/ppl25-739.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Égalité d'accès aux soins des Ultramarins sur l'ensemble du territoire national - texte N° 740",
+                    "l": "http://www.senat.fr/leg/ppl25-740.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Règlement sur les réseaux numériques - texte N° 731",
+                    "l": "http://www.senat.fr/leg/ppr25-731.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Exploitation des hydrocarbures en outre-mer - texte N° 738",
+                    "l": "http://www.senat.fr/leg/ppl25-738.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Statut des magistrats et respect des victimes - texte N° 715",
+                    "l": "http://www.senat.fr/leg/ppl25-715.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Droit des victimes à l'information et à la compréhension des procédures - texte N° 714",
+                    "l": "http://www.senat.fr/leg/ppl25-714.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Renforcer la solidarité envers les retraités pauvres - texte N° 734",
+                    "l": "http://www.senat.fr/leg/ppl25-734.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Nationalisation d'ArcelorMittal France - texte N° 735",
+                    "l": "http://www.senat.fr/leg/ppl25-735.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Faire de la « parento-natalité » un principe structurant de l'action publique - texte N° 712",
+                    "l": "http://www.senat.fr/leg/ppr25-712.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Création d'un centre hosptialier universitaire dans le Pas-de-Calais - texte N° 716",
+                    "l": "http://www.senat.fr/leg/ppl25-716.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 - texte N° 726",
+                    "l": "http://www.senat.fr/leg/pjl25-726.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Expérimentation d'une gouvernance territoriale unifiée pour le CREPS de Vichy - texte de la commission N° 730",
+                    "l": "http://www.senat.fr/leg/ppl25-730.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Travail le 1er mai des boulangers-pâtissiers artisanaux et artisans fleuristes - texte de la commission N° 718",
+                    "l": "http://www.senat.fr/leg/pjl25-718.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Renforcer l'effectivité des droits voisins des éditeurs et des agences de press - texte de la commission N° 721",
+                    "l": "http://www.senat.fr/leg/ppl25-721.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Réparer les préjudices causés par la transplantation de mineurs de La Réunion - texte de la commission N° 723",
+                    "l": "http://www.senat.fr/leg/ppl25-723.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Approbation des comptes de la sécurité sociale de l'année 2025 - texte N° 727",
+                    "l": "http://www.senat.fr/leg/pjl25-727.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Adapter la rénovation énergétique au « petit patrimoine » - texte N° 696",
+                    "l": "http://www.senat.fr/leg/ppl25-696.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Prévenir le mal-être et le risque suicidaire dans le monde agricole - texte N° 710",
+                    "l": "http://www.senat.fr/leg/ppl25-710.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Mesures de justice pour la revalorisation des pensions de retraites agricoles - texte N° 709",
+                    "l": "http://www.senat.fr/leg/ppl25-709.html",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Relancer les investissements dans le secteur de l'hydroélectricité - texte de la commission N° 677",
+                    "l": "http://www.senat.fr/leg/ppl25-677.html",
+                    "d": "2026-06-16"
+                }
+            ]
         },
         {
             "nom_site": "Sénat|Rapports",
@@ -851,102 +952,102 @@
                 {
                     "t": "Le financement du déploiement de la vidéoprotection - rapport d'information n° 719",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-719-notice.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Expérimentation d'une gouvernance territoriale unifiée pour le CREPS de Vichy - rapport n° 729",
                     "l": "http://www.senat.fr/rap/l25-729/l25-729.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Pour suite à donner à l'enquête de la Cour des comptes, transmise en application de l'article 58-2° de la LOLF, sur la prime d'activité - rapport d'information n° 728",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-728-notice.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Renforcer l'effectivité des droits voisins des éditeurs et des agences de presse - rapport n° 720",
                     "l": "http://www.senat.fr/rap/l25-720/l25-720.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Réparer les préjudices causés par la transplantation de mineurs de La Réunion - rapport n° 722",
                     "l": "http://www.senat.fr/rap/l25-722/l25-722.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Travail le 1er mai des boulangers-pâtissiers artisanaux et artisans fleuristes - rapport n° 717",
                     "l": "http://www.senat.fr/rap/l25-717/l25-717.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Relancer les investissements dans le secteur de l'hydroélectricité - rapport n° 676",
                     "l": "http://www.senat.fr/rap/l25-676/l25-676.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "L'évolution des valeurs sociales à l'horizon 2050 - rapport d'information n° 733",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-733-notice.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Ingénierie publique : l'avenir en projet - rapport d'information n° 724",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-724-notice.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Renforcer la prévention des risques d'attentat - rapport n° 705",
                     "l": "http://www.senat.fr/rap/l25-705/l25-705.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Avis sur le projet de décret d'avance notifié le 28 mai 2026 - rapport d'information n° 702",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-702-notice.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Territoires zéro chômeur de longue durée - rapport n° 700",
                     "l": "http://www.senat.fr/rap/l25-700/l25-700.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Le bilan des positions européennes du Sénat 2024-2025 - rapport d'information n° 656",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-656-notice.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Contrat d'édition - rapport n° 694",
                     "l": "http://www.senat.fr/rap/l25-694/l25-694.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Garantir la neutralité financière du don d'organes par les vivants - rapport n° 687",
                     "l": "http://www.senat.fr/rap/l25-687/l25-687.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Réforme des Agences régionales de santé : construire la proximité. Un échelon départemental renforcé, un pouvoir de dérogation élargi, un socle de services de santé garanti pour toute la population - rapport d'information n° 657",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-657-notice.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Droit à l'aide à mourir - rapport n° 680",
                     "l": "http://www.senat.fr/rap/l25-680/l25-680.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires - rapport n° 697",
                     "l": "http://www.senat.fr/rap/l25-697/l25-697.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "La coopération et l'intégration régionales des outre-mer - volet 3 : bassin océan Pacifique - rapport d'information n° 671",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-671-notice.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "Moniteurs de ski stagiaires - rapport n° 683",
                     "l": "http://www.senat.fr/rap/l25-683/l25-683.html",
-                    "d": "2026-06-15"
+                    "d": "2026-06-16"
                 }
             ]
         },
@@ -1009,6 +1110,21 @@
             "nom_site": "Vie Publique|Actualités",
             "articles": [
                 {
+                    "t": "Parlement : une session extraordinaire à partir du 1er juillet 2026",
+                    "l": "https://www.vie-publique.fr/en-bref/303674-parlement-une-session-extraordinaire-partir-du-1er-juillet-2026?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-06-15"
+                },
+                {
+                    "t": "Traitement judiciaire des violences sexuelles : quels moyens pour la justice ?",
+                    "l": "https://www.vie-publique.fr/en-bref/303586-moyens-de-la-justice-et-traitement-des-affaires-de-violences-sexuelles?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-06-14"
+                },
+                {
+                    "t": "La parole de l'enfant devant la justice : le point en six questions",
+                    "l": "https://www.vie-publique.fr/questions-reponses/303614-la-parole-de-lenfant-devant-la-justice-le-point-en-6-questions?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-06-14"
+                },
+                {
                     "t": "Pêche durable dans l'UE : la Commission européenne publie son bilan annuel",
                     "l": "https://www.vie-publique.fr/en-bref/303562-peche-durable-dans-lue-la-commission-europeenne-publie-son-bilan-annuel?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
                     "d": "2026-06-12"
@@ -1042,27 +1158,22 @@
                     "t": "Taxe foncière : quel poids dans les finances locales ?",
                     "l": "https://www.vie-publique.fr/en-bref/303585-taxe-fonciere-quel-poids-dans-les-finances-locales?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
                     "d": "2026-06-10"
-                },
-                {
-                    "t": "Délais de jugement, nombre d'affaires... Six questions sur la surcharge de la justice criminelle",
-                    "l": "https://www.vie-publique.fr/questions-reponses/296945-justice-criminelle-le-point-sur-la-surcharge-du-systeme-en-questions?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-06-10"
-                },
-                {
-                    "t": "Fonction publique : les défis de la montée en puissance de l'emploi contractuel",
-                    "l": "https://www.vie-publique.fr/en-bref/303530-fonction-publique-montee-en-puissance-de-lemploi-contractuel?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-06-09"
-                },
-                {
-                    "t": "Police et gendarmerie : quelles relations avec la population ?",
-                    "l": "https://www.vie-publique.fr/en-bref/303476-quelles-relations-entre-forces-de-securite-interieure-et-population?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-06-09"
                 }
             ]
         },
         {
             "nom_site": "Vie Publique|Lois",
             "articles": [
+                {
+                    "t": "Projet de loi constitutionnelle pour une Corse autonome au sein de la République",
+                    "l": "https://www.vie-publique.fr/loi/299712-autonomie-de-la-corse-projet-de-loi-de-revision-constitutionnelle?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-06-14"
+                },
+                {
+                    "t": "Proposition de loi visant à renforcer la sécurité, la rétention administrative et la prévention des risques d’attentat",
+                    "l": "https://www.vie-publique.fr/loi/302835-etrangers-dangereux-retention-proposition-de-loi-dite-philippine?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-06-14"
+                },
                 {
                     "t": "Loi du 12 juin 2026 visant à améliorer la protection et l'accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap",
                     "l": "https://www.vie-publique.fr/loi/296460-protection-parents-enfants-atteints-maladies-graves-loi-du-12-juin-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
@@ -1090,7 +1201,7 @@
                 },
                 {
                     "t": "Loi du 11 juin 2026 portant transposition de l'avenant n°3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage",
-                    "l": "https://www.vie-publique.fr/loi/302566-accord-assurance-chomage-rupture-conventionnelle-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "l": "https://www.vie-publique.fr/loi/302566-accord-assurance-chomage-rupture-conventionnelle-loi-du-11-juin-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
                     "d": "2026-06-11"
                 },
                 {
@@ -1152,16 +1263,6 @@
                     "t": "Projet de loi portant approbation des comptes de la sécurité sociale de l'année 2025",
                     "l": "https://www.vie-publique.fr/loi/303384-projet-de-loi-approbation-comptes-de-la-securite-sociale-deficit-2025?egn-publisher=dila_vp&egn-name=informer_rss_lois",
                     "d": "2026-06-09"
-                },
-                {
-                    "t": "Proposition de loi visant à renforcer la sécurité, la rétention administrative et la prévention des risques d’attentat",
-                    "l": "https://www.vie-publique.fr/loi/302835-etrangers-dangereux-retention-proposition-de-loi-dite-philippine?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-06-04"
-                },
-                {
-                    "t": "Loi du 4 juin 2026 visant à étendre à toutes les communes la compensation financière prévue pour les communes de plus de 3 500 habitants pour l'exercice de l'ensemble des compétences du service public de la petite enfance",
-                    "l": "https://www.vie-publique.fr/loi/302757-communes-petite-enfance-compensation-financiere-loi-du-4-juin-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-06-04"
                 }
             ]
         }
@@ -1282,6 +1383,56 @@
             "nom_site": "INSEE|National",
             "articles": [
                 {
+                    "t": "Salaires, revenus d’activité – tableau de bord de l’économie française",
+                    "l": "https://www.insee.fr/fr/statistiques/5368157",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Évolution du coût du travail selon le secteur d’activité",
+                    "l": "https://www.insee.fr/fr/statistiques/5236290",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Au premier trimestre 2026, les salaires horaires augmentent de 2,0 % sur un an, le coût horaire du travail de 2,3 %",
+                    "l": "https://www.insee.fr/fr/statistiques/9006840",
+                    "d": "2026-06-16"
+                },
+                {
+                    "t": "Données nationales - Population",
+                    "l": "https://www.insee.fr/fr/statistiques/8999013",
+                    "d": "2026-06-15"
+                },
+                {
+                    "t": "Données nationales - Mariages, nuptialité, Pacs et situation conjugale",
+                    "l": "https://www.insee.fr/fr/statistiques/8999021",
+                    "d": "2026-06-15"
+                },
+                {
+                    "t": "Données nationales - Décès, mortalité, espérance de vie",
+                    "l": "https://www.insee.fr/fr/statistiques/8999019",
+                    "d": "2026-06-15"
+                },
+                {
+                    "t": "Données nationales - Naissances, natalité et fécondité",
+                    "l": "https://www.insee.fr/fr/statistiques/8999017",
+                    "d": "2026-06-15"
+                },
+                {
+                    "t": "Données européennes",
+                    "l": "https://www.insee.fr/fr/statistiques/8999201",
+                    "d": "2026-06-15"
+                },
+                {
+                    "t": "La situation démographique en 2025 et en séries longues",
+                    "l": "https://www.insee.fr/fr/statistiques/8999231",
+                    "d": "2026-06-15"
+                },
+                {
+                    "t": "Données départementales et régionales",
+                    "l": "https://www.insee.fr/fr/statistiques/8999023",
+                    "d": "2026-06-15"
+                },
+                {
                     "t": "Les index Bâtiment, Travaux publics et divers de la construction en avril 2026",
                     "l": "https://www.insee.fr/fr/statistiques/9006734",
                     "d": "2026-06-12"
@@ -1312,13 +1463,8 @@
                     "d": "2026-06-08"
                 },
                 {
-                    "t": "Résultats détaillés des projections de population 2026 pour la France – Hypothèses de mortalité jusqu’en 2125",
-                    "l": "https://www.insee.fr/fr/statistiques/8990899",
-                    "d": "2026-06-08"
-                },
-                {
-                    "t": "Projections de population à l’horizon 2070 : une population plus âgée qu’en 2026, et probablement moins nombreuse",
-                    "l": "https://www.insee.fr/fr/statistiques/9004289",
+                    "t": "Pyramides des âges interactives",
+                    "l": "https://www.insee.fr/fr/statistiques/8991977",
                     "d": "2026-06-08"
                 },
                 {
@@ -1335,57 +1481,17 @@
                     "t": "Résultats détaillés des projections de population 2026 pour la France – Scénario central",
                     "l": "https://www.insee.fr/fr/statistiques/8990852",
                     "d": "2026-06-08"
-                },
-                {
-                    "t": "Résultats détaillés des projections de population 2026 pour la France – Les quatre scénarios extrêmes",
-                    "l": "https://www.insee.fr/fr/statistiques/8990858",
-                    "d": "2026-06-08"
-                },
-                {
-                    "t": "Résultats détaillés des projections de population 2026 pour la France – Les 2 scénarios complémentaires (de travail)",
-                    "l": "https://www.insee.fr/fr/statistiques/8990868",
-                    "d": "2026-06-08"
-                },
-                {
-                    "t": "Résultats détaillés des projections de population 2026 pour la France – Les 6 scénarios qui ne diffèrent du scénario central que par une seule composante",
-                    "l": "https://www.insee.fr/fr/statistiques/8990856",
-                    "d": "2026-06-08"
-                },
-                {
-                    "t": "Pyramides des âges interactives",
-                    "l": "https://www.insee.fr/fr/statistiques/8991977",
-                    "d": "2026-06-08"
-                },
-                {
-                    "t": "En avril 2026, la production manufacturière augmente de 0,4 %",
-                    "l": "https://www.insee.fr/fr/statistiques/9003031",
-                    "d": "2026-06-05"
-                },
-                {
-                    "t": "Etrangers – immigrés – tableau de bord de l’économie française",
-                    "l": "https://www.insee.fr/fr/statistiques/5368075",
-                    "d": "2026-06-04"
-                },
-                {
-                    "t": "Répartition des étrangers par groupe de nationalités",
-                    "l": "https://www.insee.fr/fr/statistiques/2381750",
-                    "d": "2026-06-04"
-                },
-                {
-                    "t": "Population immigrée et étrangère par sexe et âge",
-                    "l": "https://www.insee.fr/fr/statistiques/2381759",
-                    "d": "2026-06-04"
-                },
-                {
-                    "t": "Population immigrée et étrangère en France",
-                    "l": "https://www.insee.fr/fr/statistiques/2381757",
-                    "d": "2026-06-04"
                 }
             ]
         },
         {
             "nom_site": "INSEE|Régional",
             "articles": [
+                {
+                    "t": "En Corse, la ruralité et la pauvreté sont les principaux défis du maintien à domicile des seniors",
+                    "l": "https://www.insee.fr/fr/statistiques/9002447",
+                    "d": "2026-06-15"
+                },
                 {
                     "t": "Plus d’un tiers des ménages du parc social sont pauvres",
                     "l": "https://www.insee.fr/fr/statistiques/9003663",
@@ -1427,13 +1533,13 @@
                     "d": "2026-06-04"
                 },
                 {
-                    "t": "En Occitanie, la redistribution réduit de moitié les inégalités de revenus",
-                    "l": "https://www.insee.fr/fr/statistiques/8995360",
+                    "t": "L’arrondissement de Douai : entre mutations économiques et fragilités sociales",
+                    "l": "https://www.insee.fr/fr/statistiques/8999462",
                     "d": "2026-06-04"
                 },
                 {
-                    "t": "L’arrondissement de Douai : entre mutations économiques et fragilités sociales",
-                    "l": "https://www.insee.fr/fr/statistiques/8999462",
+                    "t": "En Occitanie, la redistribution réduit de moitié les inégalités de revenus",
+                    "l": "https://www.insee.fr/fr/statistiques/8995360",
                     "d": "2026-06-04"
                 },
                 {
@@ -1462,8 +1568,8 @@
                     "d": "2026-05-28"
                 },
                 {
-                    "t": "21 800 couples se sont dit « oui » en Nouvelle-Aquitaine en 2024",
-                    "l": "https://www.insee.fr/fr/statistiques/8993510",
+                    "t": "En 2024, un habitant sur deux perçoit au moins une prestation des Caisses d’allocations familiales",
+                    "l": "https://www.insee.fr/fr/statistiques/8995663",
                     "d": "2026-05-28"
                 },
                 {
@@ -1477,14 +1583,9 @@
                     "d": "2026-05-28"
                 },
                 {
-                    "t": "En 2024, un habitant sur deux perçoit au moins une prestation des Caisses d’allocations familiales",
-                    "l": "https://www.insee.fr/fr/statistiques/8995663",
+                    "t": "21 800 couples se sont dit « oui » en Nouvelle-Aquitaine en 2024",
+                    "l": "https://www.insee.fr/fr/statistiques/8993510",
                     "d": "2026-05-28"
-                },
-                {
-                    "t": "D’ici 2035, d’importants besoins en professionnels de santé libéraux en Normandie, infirmiers et médecins notamment",
-                    "l": "https://www.insee.fr/fr/statistiques/8995751",
-                    "d": "2026-05-27"
                 }
             ]
         },
