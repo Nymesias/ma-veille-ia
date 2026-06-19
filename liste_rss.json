@@ -59,6 +59,16 @@
             "nom_site": "Dalloz|Etudiant",
             "articles": [
                 {
+                    "t": "Code noir",
+                    "l": "https://actu.dalloz-etudiant.fr/le-saviez-vous/article/code-noir/h/93b77e5123fa32da9060d6f5c4a19cf7.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Nullité du mariage pour vice du consentement : objectivité du point de départ du délai de prescription",
+                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/nullite-du-mariage-pour-vice-du-consentement-objectivite-du-point-de-depart-du-delai-de-prescr/h/f26c4b8d687cdc3400e2558ac6c122e9.html",
+                    "d": "2026-06-19"
+                },
+                {
                     "t": "Résiliation anticipée d’un contrat à durée déterminée : le prix n’est dû qu’en contrepartie des prestations exécutées au jour de la rupture",
                     "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/resiliation-anticipee-dun-contrat-a-duree-determinee-le-prix-nest-du-quen-contrepa/h/c7abed443c4e1527a6f2250076a7bb03.html",
                     "d": "2026-06-18"
@@ -147,16 +157,6 @@
                     "t": "Retour des tests de féminité des athlètes sportives ?",
                     "l": "https://actu.dalloz-etudiant.fr/focus-sur/article/retour-des-tests-de-feminite-des-athletes-sportives/h/f2be14bd22590c12ee7484d0e087b183.html",
                     "d": "2026-06-04"
-                },
-                {
-                    "t": "Inconstitutionnalité de la peine obligatoire de confiscation en matière de trafic de stupéfiants",
-                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/inconstitutionnalite-de-la-peine-obligatoire-de-confiscation-en-matiere-de-trafic-de-stupefiants/h/edc6c327dd73b2863baa4530d9299613.html",
-                    "d": "2026-06-03"
-                },
-                {
-                    "t": "Valeurs de l’Union : condamnation de la Hongrie pour une loi stigmatisant et marginalisant les personnes LGBTQIA+",
-                    "l": "https://actu.dalloz-etudiant.fr/a-la-une/article/valeurs-de-lunion-condamnation-de-la-hongrie-pour-une-loi-stigmatisant-et-marginalisant-les-per/h/ed8910e4a82634309e282ab7b60d1d8d.html",
-                    "d": "2026-06-02"
                 }
             ]
         },
@@ -173,6 +173,11 @@
         {
             "nom_site": "Conseil d'Etat|LJA",
             "articles": [
+                {
+                    "t": "La lettre de la justice administrative n°94 est en ligne !",
+                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-94-est-en-ligne",
+                    "d": "2026-06-18"
+                },
                 {
                     "t": "La lettre de la justice administrative n°93 est en ligne !",
                     "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-93-est-en-ligne",
@@ -267,11 +272,6 @@
                     "t": "Lettre de la justice administrative n° 75",
                     "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative-n-752",
                     "d": "2024-06-21"
-                },
-                {
-                    "t": "Lettre de la justice administrative n° 74",
-                    "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative-n-742",
-                    "d": "2024-02-16"
                 }
             ]
         },
@@ -384,6 +384,26 @@
             "nom_site": "Conseil Constitutionnel",
             "articles": [
                 {
+                    "t": "Décision n° 2026-1207 QPC du 19 juin 2026",
+                    "l": "https://www.conseil-constitutionnel.fr/decision/2026/20261207QPC.htm",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Décision n° 2026-1206 QPC du 19 juin 2026",
+                    "l": "https://www.conseil-constitutionnel.fr/decision/2026/20261206QPC.htm",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Décision n° 2026-904 DC du 18 juin 2026 - Communiqué de presse",
+                    "l": "https://www.conseil-constitutionnel.fr/actualites/communique/decision-n-2026-904-dc-du-18-juin-2026-communique-de-presse",
+                    "d": "2026-06-18"
+                },
+                {
+                    "t": "Décision n° 2026-904 DC du 18 juin 2026",
+                    "l": "https://www.conseil-constitutionnel.fr/decision/2026/2026904DC.htm",
+                    "d": "2026-06-18"
+                },
+                {
                     "t": "Décision n° 2026-7 RIP du 17 juin 2026 - Communiqué de presse",
                     "l": "https://www.conseil-constitutionnel.fr/actualites/communique/decision-n-2026-7-rip-du-17-juin-2026-communique-de-presse",
                     "d": "2026-06-17"
@@ -462,26 +482,6 @@
                     "t": "Décision n° 2026-321/322/323 L du 21 mai 2026",
                     "l": "https://www.conseil-constitutionnel.fr/decision/2026/2026321_322_323L.htm",
                     "d": "2026-05-21"
-                },
-                {
-                    "t": "Decision no. 2025-1157 QPC of 12 September 2025",
-                    "l": "https://www.conseil-constitutionnel.fr/decision/2025/20251157QPC.htm",
-                    "d": "2026-05-19"
-                },
-                {
-                    "t": "Decision no. 2025-895 DC of 7 August 2025",
-                    "l": "https://www.conseil-constitutionnel.fr/decision/2025/2025895DC.htm",
-                    "d": "2026-05-19"
-                },
-                {
-                    "t": "Decision no. 2025-889 DC of 17 July 2025",
-                    "l": "https://www.conseil-constitutionnel.fr/decision/2025/2025889DC.htm",
-                    "d": "2026-05-19"
-                },
-                {
-                    "t": "Decision no. 2024-1127 QPC of 5 March 2025",
-                    "l": "https://www.conseil-constitutionnel.fr/decision/2025/20241127QPC.htm",
-                    "d": "2026-05-19"
                 }
             ]
         },
@@ -740,34 +740,29 @@
             "nom_site": "AN|Séances",
             "articles": [
                 {
+                    "t": "Compte rendu intégral de la deuxième séance du jeudi 18 juin 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260277.asp",
+                    "d": "2026-06-18"
+                },
+                {
+                    "t": "Compte rendu intégral de la première séance du jeudi 18 juin 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260276.asp",
+                    "d": "2026-06-18"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du mercredi 17 juin 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260275.asp",
+                    "d": "2026-06-17"
+                },
+                {
                     "t": "Compte rendu intégral de la première séance du mercredi 17 juin 2026",
                     "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260274.asp",
                     "d": "2026-06-17"
                 },
                 {
-                    "t": "Compte rendu intégral de la première séance du lundi 15 juin 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260270.asp",
-                    "d": "2026-06-15"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du mardi 16 juin 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260272.asp",
-                    "d": "2026-06-16"
-                },
-                {
-                    "t": "Compte rendu intégral de la troisième séance du mardi 16 juin 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260273.asp",
-                    "d": "2026-06-16"
-                },
-                {
-                    "t": "Compte rendu intégral de la deuxième séance du jeudi 11 juin 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260268.asp",
+                    "t": "Compte rendu intégral de la première séance du jeudi 11 juin 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260267.asp",
                     "d": "2026-06-11"
-                },
-                {
-                    "t": "Compte rendu intégral de la séance du mardi 09 juin 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260265.asp",
-                    "d": "2026-06-09"
                 },
                 {
                     "t": "Compte rendu intégral de la première séance du mardi 16 juin 2026",
@@ -775,9 +770,14 @@
                     "d": "2026-06-16"
                 },
                 {
-                    "t": "Compte rendu intégral de la séance du mercredi 10 juin 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260266.asp",
-                    "d": "2026-06-10"
+                    "t": "Compte rendu intégral de la première séance du lundi 15 juin 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260270.asp",
+                    "d": "2026-06-15"
+                },
+                {
+                    "t": "Compte rendu intégral de la deuxième séance du jeudi 11 juin 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260268.asp",
+                    "d": "2026-06-11"
                 },
                 {
                     "t": "Compte rendu intégral de la troisième séance du jeudi 11 juin 2026",
@@ -785,9 +785,9 @@
                     "d": "2026-06-11"
                 },
                 {
-                    "t": "Compte rendu intégral de la première séance du jeudi 11 juin 2026",
-                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260267.asp",
-                    "d": "2026-06-11"
+                    "t": "Compte rendu intégral de la deuxième séance du mardi 16 juin 2026",
+                    "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260272.asp",
+                    "d": "2026-06-16"
                 }
             ]
         },
@@ -795,24 +795,9 @@
             "nom_site": "AN|Documents",
             "articles": [
                 {
-                    "t": "N° 2925 annexe 0 - Rapport sur la proposition de loi de M. Maxime Michelet et plusieurs de ses collègues visant à garantir la transparence du calcul des contributions des collectivités territoriales au financement des établissements d'enseignement privés sous contrat d'association (2786).",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2925-a0.asp",
-                    "d": "2026-06-17"
-                },
-                {
-                    "t": "N° 2830 - Proposition de loi de Mme Véronique Besse visant à renforcer l'accès aux soins non programmés par le développement des structures de soins de proximité",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2830.asp",
-                    "d": "2026-05-26"
-                },
-                {
-                    "t": "N° 2679 - Proposition de loi de Mme Constance de Pélichy visant à faciliter l'accès au logement des familles par la création d'un prêt à taux zéro",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2679.asp",
-                    "d": "2026-04-14"
-                },
-                {
-                    "t": "N° 2881 - Proposition de résolution de M. Thierry Liger visant à garantir une juste rémunération des producteurs laitiers, à renforcer la régulation européenne de la filière et à valoriser l'origine française des produits laitiers",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2881.asp",
-                    "d": "2026-06-11"
+                    "t": "N° 2923 - Proposition de résolution de Mme Alix Fruchon pour une ambition ferroviaire française",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2923.asp",
+                    "d": "2026-06-16"
                 },
                 {
                     "t": "N° 2829 - Proposition de loi de Mme Alexandra Martin (Alpes-Maritimes) visant à lutter contre la pédocriminalité en ligne et les violences sexuelles sur mineurs",
@@ -820,29 +805,44 @@
                     "d": "2026-05-26"
                 },
                 {
-                    "t": "N° 2748 - Proposition de résolution européenne de M. Pierre Pribetich en faveur d'un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et de l'élaboration d'une position commune européenne sur ce sujet",
-                    "l": "https://www.assemblee-nationale.fr/17/europe/resolutions/ppe2748.asp",
-                    "d": "2026-05-05"
+                    "t": "N° 2932 rapport d'information - Rapport d'information de M. Maxime Amblard et M. Vincent Rolland déposé en application de l'article 146-3 du règlement, par le comité d'évaluation et de contrôle des politiques publiques sur l'évaluation du chèque énergie",
+                    "l": "https://www.assemblee-nationale.fr/17/rap-info/i2932.asp",
+                    "d": "2026-06-18"
                 },
                 {
-                    "t": "N° 2934 annexe 0 - Rapport sur la proposition de loi, modifiée par le Sénat, visant à assurer le droit de chaque enfant à être assisté d'un avocat dans le cadre d'une mesure d'assistance éducative et de protection de l'enfance (n°2853).",
-                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2934-a0.asp",
-                    "d": "2026-06-17"
+                    "t": "N° 2938 annexe 0 - Rapport sur la proposition de loi de M. Gérault Verny et plusieurs de ses collègues visant à protéger les petits porteurs et les entreprises des fonds vautours (2789).",
+                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2938-a0.asp",
+                    "d": "2026-06-18"
                 },
                 {
-                    "t": "N° 2539 - Proposition de résolution de Mme Danièle Obono visant à la reconnaissance du traumatisme psychique conséquent au vécu raciste",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2539.asp",
-                    "d": "2026-02-27"
+                    "t": "N° 2940 annexe 0 - Rapport de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion de la proposition de loi visant à réduire l'impact environnemental de l'industrie textile.",
+                    "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2940-a0.asp",
+                    "d": "2026-06-18"
                 },
                 {
-                    "t": "N° 966 - Proposition de loi de M. Guillaume Garot visant à lutter contre les déserts médicaux, d'initiative transpartisane",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion0966.asp",
-                    "d": "2025-02-13"
+                    "t": "N° 2902 - Proposition de loi de M. Alexandre Dufosset visant à renforcer le contrôle de l'interdiction de détention d'un animal par la création d'un fichier national automatisé des auteurs d'infractions envers les animaux",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2902.asp",
+                    "d": "2026-06-09"
                 },
                 {
-                    "t": "N° 1803 - Proposition de loi de Mme Danielle Simonnet visant à responsabiliser les clubs pour mettre fin à l'homophobie dans le sport",
-                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion1803.asp",
-                    "d": "2025-09-16"
+                    "t": "N° 2900 - Proposition de loi de Mme Alix Fruchon visant à renforcer l'encadrement de l'usage de la trottinette électrique",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2900.asp",
+                    "d": "2026-06-09"
+                },
+                {
+                    "t": "N° 2823 - Proposition de loi de M. Laurent Croizier visant à assurer l'armement de plein droit des policiers municipaux",
+                    "l": "https://www.assemblee-nationale.fr/17/propositions/pion2823.asp",
+                    "d": "2026-05-26"
+                },
+                {
+                    "t": "N° 2920 - Projet de loi, modifié par le Sénat, actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense",
+                    "l": "https://www.assemblee-nationale.fr/17/projets/pl2920.asp",
+                    "d": "2026-06-18"
+                },
+                {
+                    "t": "N° 2841 - Projet de loi relatif à la protection des enfants",
+                    "l": "https://www.assemblee-nationale.fr/17/projets/pl2841.asp",
+                    "d": "2026-06-01"
                 }
             ]
         },
@@ -850,104 +850,104 @@
             "nom_site": "Sénat|Textes",
             "articles": [
                 {
+                    "t": "Impact environnemental de l'industrie textile - texte de la commission N° 766",
+                    "l": "http://www.senat.fr/leg/ppl25-766.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Accélérateur industriel européen - texte N° 767",
+                    "l": "http://www.senat.fr/leg/ppr25-767.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Restitution de biens culturels aux États-Unis du Mexique - texte N° 713",
+                    "l": "http://www.senat.fr/leg/ppl25-713.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Préserver une politique agricole commune indépendante - texte N° 761",
+                    "l": "http://www.senat.fr/leg/ppr25-761.html",
+                    "d": "2026-06-19"
+                },
+                {
                     "t": "Simplification des normes applicables aux collectivités territoriales - texte de la commission N° 758",
                     "l": "http://www.senat.fr/leg/pjl25-758.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Renforcer la liberté de choix de l'opérateur funéraire par les familles en deui - texte N° 682",
                     "l": "http://www.senat.fr/leg/ppl25-682.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Renforcer la sécurité juridique des projets d'infrastructures publiques - texte N° 707",
                     "l": "http://www.senat.fr/leg/ppl25-707.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Extension du régime des casinos aux communes métropolitaines et ultramarines - texte N° 725",
                     "l": "http://www.senat.fr/leg/ppl25-725.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Égalité d'accès aux soins des Ultramarins sur l'ensemble du territoire national - texte N° 740",
-                    "l": "http://www.senat.fr/leg/ppl25-740.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Réformer les bourses et lutter contre la précarité étudiante - texte N° 739",
                     "l": "http://www.senat.fr/leg/ppl25-739.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Égalité d'accès aux soins des Ultramarins sur l'ensemble du territoire national - texte N° 740",
+                    "l": "http://www.senat.fr/leg/ppl25-740.html",
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Règlement sur les réseaux numériques - texte N° 731",
                     "l": "http://www.senat.fr/leg/ppr25-731.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Exploitation des hydrocarbures en outre-mer - texte N° 738",
                     "l": "http://www.senat.fr/leg/ppl25-738.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Statut des magistrats et respect des victimes - texte N° 715",
                     "l": "http://www.senat.fr/leg/ppl25-715.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Renforcer la solidarité envers les retraités pauvres - texte N° 734",
-                    "l": "http://www.senat.fr/leg/ppl25-734.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Nationalisation d'ArcelorMittal France - texte N° 735",
-                    "l": "http://www.senat.fr/leg/ppl25-735.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Droit des victimes à l'information et à la compréhension des procédures - texte N° 714",
                     "l": "http://www.senat.fr/leg/ppl25-714.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 },
                 {
-                    "t": "Faire de la « parento-natalité » un principe structurant de l'action publique - texte N° 712",
-                    "l": "http://www.senat.fr/leg/ppr25-712.html",
-                    "d": "2026-06-18"
+                    "t": "Renforcer la solidarité envers les retraités pauvres - texte N° 734",
+                    "l": "http://www.senat.fr/leg/ppl25-734.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Nationalisation d'ArcelorMittal France - texte N° 735",
+                    "l": "http://www.senat.fr/leg/ppl25-735.html",
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Création d'un centre hosptialier universitaire dans le Pas-de-Calais - texte N° 716",
                     "l": "http://www.senat.fr/leg/ppl25-716.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 },
                 {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 - texte N° 726",
-                    "l": "http://www.senat.fr/leg/pjl25-726.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Approbation des comptes de la sécurité sociale de l'année 2025 - texte N° 727",
-                    "l": "http://www.senat.fr/leg/pjl25-727.html",
-                    "d": "2026-06-18"
+                    "t": "Faire de la « parento-natalité » un principe structurant de l'action publique - texte N° 712",
+                    "l": "http://www.senat.fr/leg/ppr25-712.html",
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Expérimentation d'une gouvernance territoriale unifiée pour le CREPS de Vichy - texte de la commission N° 730",
                     "l": "http://www.senat.fr/leg/ppl25-730.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Réparer les préjudices causés par la transplantation de mineurs de La Réunion - texte de la commission N° 723",
-                    "l": "http://www.senat.fr/leg/ppl25-723.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Travail le 1er mai des boulangers-pâtissiers artisanaux et artisans fleuristes - texte de la commission N° 718",
-                    "l": "http://www.senat.fr/leg/pjl25-718.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Renforcer l'effectivité des droits voisins des éditeurs et des agences de press - texte de la commission N° 721",
                     "l": "http://www.senat.fr/leg/ppl25-721.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 }
             ]
         },
@@ -955,104 +955,104 @@
             "nom_site": "Sénat|Rapports",
             "articles": [
                 {
+                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Travail, emploi et administration des ministères sociaux - rapport spécial n° 736 annexe 32 tome II",
+                    "l": "http://www.senat.fr/rap/l25-736-232/l25-736-232.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Pouvoirs publics - rapport spécial n° 736 annexe 23 tome II",
+                    "l": "http://www.senat.fr/rap/l25-736-223/l25-736-223.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Protection et souveraineté agricoles - avis n° 746",
+                    "l": "http://www.senat.fr/rap/a25-746/a25-746.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Engagements financiers de l'État - rapport spécial n° 736 annexe 13 tome II",
+                    "l": "http://www.senat.fr/rap/l25-736-213/l25-736-213.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Avenir du modèle démocratique à l'horizon 2050 - rapport d'information n° 770",
+                    "l": "http://www.senat.fr/notice-rapport/2025/r25-770-notice.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Écologie, développement et mobilité durables - rapport spécial n° 736 annexe 11 tome II",
+                    "l": "http://www.senat.fr/rap/l25-736-211-1/l25-736-211-1.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Cohésion des territoires - Logement et ville - rapport spécial n° 736 annexe 6 tome II",
+                    "l": "http://www.senat.fr/rap/l25-736-26-1/l25-736-26-1.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Anciens combattants, mémoire et liens avec la Nation - rapport spécial n° 736 annexe 5 tome II",
+                    "l": "http://www.senat.fr/rap/l25-736-25/l25-736-25.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Compte d'affectation spéciale : participations financières de l'État - rapport spécial n° 736 annexe 21 tome II",
+                    "l": "http://www.senat.fr/rap/l25-736-221/l25-736-221.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Cohésion des territoires - Politique des territoires - rapport spécial n° 736 annexe 6 tome II",
+                    "l": "http://www.senat.fr/rap/l25-736-26-2/l25-736-26-2.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Remboursements et dégrèvements - rapport spécial n° 736 annexe 27 tome II",
+                    "l": "http://www.senat.fr/rap/l25-736-227/l25-736-227.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Sécurités - rapport spécial n° 736 annexe 29 tome II",
+                    "l": "http://www.senat.fr/rap/l25-736-229-1/l25-736-229-1.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Outre-mer - rapport spécial n° 736 annexe 20 tome II",
+                    "l": "http://www.senat.fr/rap/l25-736-220/l25-736-220.html",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Aide publique au développement - rapport spécial n° 736 annexe 4 tome II",
+                    "l": "http://www.senat.fr/rap/l25-736-24/l25-736-24.html",
+                    "d": "2026-06-19"
+                },
+                {
                     "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Agriculture, alimentation, forêt et affaires rurales - rapport spécial n° 736 annexe 3 tome II",
                     "l": "http://www.senat.fr/rap/l25-736-23/l25-736-23.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Recherche et enseignement supérieur - rapport spécial n° 736 annexe 24 tome II",
                     "l": "http://www.senat.fr/rap/l25-736-224/l25-736-224.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Investir pour la France de 2030 - rapport spécial n° 736 annexe 17 tome II",
                     "l": "http://www.senat.fr/rap/l25-736-217/l25-736-217.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Simplification des normes applicables aux collectivités territoriales - avis n° 744",
-                    "l": "http://www.senat.fr/rap/a25-744/a25-744.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Plan de relance - rapport spécial n° 736 annexe 22 tome II",
                     "l": "http://www.senat.fr/rap/l25-736-222/l25-736-222.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Simplification des normes applicables aux collectivités territoriales - avis n° 744",
+                    "l": "http://www.senat.fr/rap/a25-744/a25-744.html",
+                    "d": "2026-06-19"
                 },
                 {
                     "t": "Entreprendre sous enseigne - rapport d'information n° 764",
                     "l": "http://www.senat.fr/notice-rapport/2025/r25-764-notice.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Relations avec les collectivités territoriales - rapport spécial n° 736 annexe 26 tome II",
-                    "l": "http://www.senat.fr/rap/l25-736-226/l25-736-226.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Régimes sociaux et de retraite - rapport spécial n° 736 annexe 25 tome II",
-                    "l": "http://www.senat.fr/rap/l25-736-225/l25-736-225.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Direction de l'action du Gouvernement - rapport spécial n° 736 annexe 10 tome II",
-                    "l": "http://www.senat.fr/rap/l25-736-210/l25-736-210.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Médias, livre et industries culturelles et audiovisuel public - rapport spécial n° 736 annexe 19 tome II",
-                    "l": "http://www.senat.fr/rap/l25-736-219/l25-736-219.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Défense - rapport spécial n° 736 annexe 9 tome II",
-                    "l": "http://www.senat.fr/rap/l25-736-29/l25-736-29.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Santé - rapport spécial n° 736 annexe 28 tome II",
-                    "l": "http://www.senat.fr/rap/l25-736-228/l25-736-228.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Justice - rapport spécial n° 736 annexe 18 tome II",
-                    "l": "http://www.senat.fr/rap/l25-736-218/l25-736-218.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "La coopération intercommunale en Europe - Étude de législation comparée n° 357",
-                    "l": "http://www.senat.fr/notice-rapport/2025/lc357-notice.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Immigration, asile et intégration - rapport spécial n° 736 annexe 16 tome II",
-                    "l": "http://www.senat.fr/rap/l25-736-216/l25-736-216.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Gestion des finances publiques - Crédits non répartis - Transformation et fonction publiques - rapport spécial n° 736 annexe 15 tome II",
-                    "l": "http://www.senat.fr/rap/l25-736-215/l25-736-215.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Culture - rapport spécial n° 736 annexe 8 tome II",
-                    "l": "http://www.senat.fr/rap/l25-736-28/l25-736-28.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Sécurités - rapport spécial n° 736 annexe 29 tome II",
-                    "l": "http://www.senat.fr/rap/l25-736-229-2/l25-736-229-2.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Conseil et contrôle de l'État - rapport spécial n° 736 annexe 7 tome II",
-                    "l": "http://www.senat.fr/rap/l25-736-27/l25-736-27.html",
-                    "d": "2026-06-18"
-                },
-                {
-                    "t": "Résultats de la gestion et approbation des comptes de l'année 2025 : Enseignement scolaire - rapport spécial n° 736 annexe 14 tome II",
-                    "l": "http://www.senat.fr/rap/l25-736-214/l25-736-214.html",
-                    "d": "2026-06-18"
+                    "d": "2026-06-19"
                 }
             ]
         },
@@ -1115,6 +1115,26 @@
             "nom_site": "Vie Publique|Actualités",
             "articles": [
                 {
+                    "t": "La Coupe du monde de football dans les discours publics",
+                    "l": "https://www.vie-publique.fr/discours-dans-lactualite/287100-la-coupe-du-monde-de-football-dans-les-discours-publics?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-06-17"
+                },
+                {
+                    "t": "Autonomie de la Corse : évolution du statut depuis 50 ans",
+                    "l": "https://www.vie-publique.fr/questions-reponses/303721-autonomie-de-la-corse-evolution-du-statut-depuis-50-ans?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-06-17"
+                },
+                {
+                    "t": "Audiovisuel : l'Arcom adresse une mise en demeure à la chaîne CNews",
+                    "l": "https://www.vie-publique.fr/en-bref/303714-larcom-adresse-une-mise-en-demeure-la-chaine-cnews?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-06-17"
+                },
+                {
+                    "t": "Transport de voyageurs : une dynamique confirmée en faveur du train en 2024",
+                    "l": "https://www.vie-publique.fr/en-bref/303678-transport-de-voyageurs-hausse-du-transport-ferroviaire-en-2024?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+                    "d": "2026-06-17"
+                },
+                {
                     "t": "Pornographie en ligne : quelle législation pour protéger les mineurs ?",
                     "l": "https://www.vie-publique.fr/en-bref/298877-pornographie-en-ligne-la-legislation-pour-proteger-les-mineurs?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
                     "d": "2026-06-17"
@@ -1143,26 +1163,6 @@
                     "t": "Droits de douane : l'accord commercial entre l'Union européenne et les États-Unis validé",
                     "l": "https://www.vie-publique.fr/en-bref/299692-accord-sur-les-droits-de-douane-entre-lue-et-les-etats-unis?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
                     "d": "2026-06-16"
-                },
-                {
-                    "t": "Qu'est-ce que le Pacte européen sur la migration et l'asile entré en vigueur le 12 juin 2026 ?",
-                    "l": "https://www.vie-publique.fr/questions-reponses/302670-pacte-de-lunion-europeenne-sur-la-migration-et-lasile-en-7-questions?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-06-16"
-                },
-                {
-                    "t": "Répartition des migrants en régions : un dispositif efficace ?",
-                    "l": "https://www.vie-publique.fr/en-bref/303676-repartition-des-migrants-en-regions-un-dispositif-efficace?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-06-16"
-                },
-                {
-                    "t": "Tensions commerciales sur les droits de douane entre l'UE et les États-Unis : menace ou réalité ?",
-                    "l": "https://www.vie-publique.fr/questions-reponses/297408-tensions-commerciales-entre-lue-et-les-etats-unis-menace-ou-realite?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-06-16"
-                },
-                {
-                    "t": "Îles et communautés côtières dans l'UE : la double stratégie de la Commission européenne",
-                    "l": "https://www.vie-publique.fr/en-bref/303649-iles-et-communautes-cotieres-premieres-strategies-de-soutien-de-lue?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-                    "d": "2026-06-15"
                 }
             ]
         },
@@ -1170,9 +1170,39 @@
             "nom_site": "Vie Publique|Lois",
             "articles": [
                 {
+                    "t": "Projet de loi relatif à la lutte contre les fraudes sociales et fiscales",
+                    "l": "https://www.vie-publique.fr/loi/300456-lutte-contre-les-fraudes-sociales-et-fiscales-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-06-17"
+                },
+                {
+                    "t": "Proposition de loi relative au droit à l'aide à mourir",
+                    "l": "https://www.vie-publique.fr/loi/298544-fin-de-vie-droit-laide-mourir-proposition-de-loi-falorni?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-06-17"
+                },
+                {
+                    "t": "Projet de loi constitutionnelle pour une Corse autonome au sein de la République",
+                    "l": "https://www.vie-publique.fr/loi/299712-autonomie-de-la-corse-projet-de-loi-de-revision-constitutionnelle?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-06-17"
+                },
+                {
+                    "t": "Proposition de loi portant diverses dispositions d'adaptation du droit des outre-mer",
+                    "l": "https://www.vie-publique.fr/loi/303724-dispositions-dadaptation-droit-des-outre-mer-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-06-17"
+                },
+                {
                     "t": "Proposition de loi visant à réduire l'impact environnemental de l'industrie textile",
                     "l": "https://www.vie-publique.fr/loi/293332-proposition-de-loi-fast-fashion-impact-environnemental-mode-jetable?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-06-16"
+                    "d": "2026-06-17"
+                },
+                {
+                    "t": "Proposition de loi visant à relancer les investissements dans le secteur de l'hydroélectricité pour contribuer à la transition énergétique",
+                    "l": "https://www.vie-publique.fr/loi/301971-hydroelectricite-barrages-et-centrales-hydrauliques-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-06-17"
+                },
+                {
+                    "t": "Proposition de loi visant à améliorer l'accès au logement des travailleurs des services publics",
+                    "l": "https://www.vie-publique.fr/loi/301612-acces-au-logement-travailleurs-des-services-publics-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+                    "d": "2026-06-17"
                 },
                 {
                     "t": "Proposition de loi visant à renforcer l'effectivité des droits voisins des éditeurs et des agences de presse",
@@ -1182,11 +1212,6 @@
                 {
                     "t": "Proposition de loi visant à réparer les préjudices causés par la transplantation de mineurs de La Réunion en France hexagonale de 1962 à 1984",
                     "l": "https://www.vie-publique.fr/loi/301947-enfants-de-la-creuse-reunionnais-reparation-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-06-16"
-                },
-                {
-                    "t": "Proposition de loi visant à relancer les investissements dans le secteur de l'hydroélectricité pour contribuer à la transition énergétique",
-                    "l": "https://www.vie-publique.fr/loi/301971-hydroelectricite-barrages-et-centrales-hydrauliques-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
                     "d": "2026-06-16"
                 },
                 {
@@ -1213,11 +1238,6 @@
                     "t": "Proposition de loi visant à doter la France d’une stratégie nationale de lutte contre les maladies cardio‑neuro‑vasculaires",
                     "l": "https://www.vie-publique.fr/loi/303718-prevention-maladies-cardio-neuro-vasculaire-proposition-de-loi-neuder?egn-publisher=dila_vp&egn-name=informer_rss_lois",
                     "d": "2026-06-15"
-                },
-                {
-                    "t": "Projet de loi constitutionnelle pour une Corse autonome au sein de la République",
-                    "l": "https://www.vie-publique.fr/loi/299712-autonomie-de-la-corse-projet-de-loi-de-revision-constitutionnelle?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-06-14"
                 },
                 {
                     "t": "Loi du 12 juin 2026 visant à améliorer la protection et l'accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap",
@@ -1248,26 +1268,6 @@
                     "t": "Loi du 11 juin 2026 portant transposition de l'avenant n°3 du 25 février 2026 au protocole d'accord du 10 novembre 2023 relatif à l'assurance chômage",
                     "l": "https://www.vie-publique.fr/loi/302566-accord-assurance-chomage-rupture-conventionnelle-loi-du-11-juin-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
                     "d": "2026-06-11"
-                },
-                {
-                    "t": "Proposition de loi visant à lever, dans les territoires d'outre-mer, l'interdiction de recherche, d'exploration et d'exploitation des hydrocarbures",
-                    "l": "https://www.vie-publique.fr/loi/301921-outre-mer-exploitation-des-hydrocarbures-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-06-10"
-                },
-                {
-                    "t": "Projet de loi sur la justice criminelle et le respect des victimes",
-                    "l": "https://www.vie-publique.fr/loi/302487-projet-de-loi-justice-criminelle-respect-des-victimes-plaider-coupable?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-06-10"
-                },
-                {
-                    "t": "Proposition de loi visant à renforcer la solidarité envers les retraités pauvres",
-                    "l": "https://www.vie-publique.fr/loi/303615-aspa-retraites-pauvres-forfait-logement-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-06-10"
-                },
-                {
-                    "t": "Proposition de loi visant à moderniser la gestion du patrimoine immobilier de l'État",
-                    "l": "https://www.vie-publique.fr/loi/301991-gestion-du-patrimoine-immobilier-de-letat-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-                    "d": "2026-06-10"
                 }
             ]
         }
@@ -1276,6 +1276,11 @@
         {
             "nom_site": "AMF",
             "articles": [
+                {
+                    "t": "Le règlement européen EMIR",
+                    "l": "https://www.amf-france.org/fr/actualites-publications/dossiers-thematiques/emir#xts=607212&xtor=RSS-3&type=RSS",
+                    "d": "2026-06-19"
+                },
                 {
                     "t": "La Banque de France, l'ACPR et l'AMF publient un rapport méthodologique sur leur premier test de résistance portant sur l’ensemble du système financier (« system-wide stress test »)",
                     "l": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/la-banque-de-france-lacpr-et-lamf-publient-un-rapport-methodologique-sur-leur-premier-test-de#xts=607212&xtor=RSS-3&type=RSS",
@@ -1370,11 +1375,6 @@
                     "t": "L'OICV publie son rapport final sur la valorisation des organismes de placement collectif, renforçant ainsi les normes internationales en matière de valorisation des fonds ouverts",
                     "l": "https://www.amf-france.org/fr/actualites-publications/actualites/loicv-publie-son-rapport-final-sur-la-valorisation-des-organismes-de-placement-collectif-renforcant#xts=607212&xtor=RSS-3&type=RSS",
                     "d": "2026-06-08"
-                },
-                {
-                    "t": "Edition spéciale du Baromètre AMF : encore peu utilisée dans les pratiques d’investissement, l’intelligence artificielle séduit davantage les jeunes investisseurs",
-                    "l": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/edition-speciale-du-barometre-amf-encore-peu-utilisee-dans-les-pratiques-dinvestissement#xts=607212&xtor=RSS-3&type=RSS",
-                    "d": "2026-06-08"
                 }
             ]
         },
@@ -1388,18 +1388,58 @@
             "nom_site": "INSEE|National",
             "articles": [
                 {
+                    "t": "Fort rebond des créations d’entreprises en mai 2026",
+                    "l": "https://www.insee.fr/fr/statistiques/9007871",
+                    "d": "2026-06-19"
+                },
+                {
+                    "t": "Parts de marché du commerce de détail selon la forme de vente",
+                    "l": "https://www.insee.fr/fr/statistiques/2015133",
+                    "d": "2026-06-18"
+                },
+                {
+                    "t": "Évolution des ventes du commerce",
+                    "l": "https://www.insee.fr/fr/statistiques/2016224",
+                    "d": "2026-06-18"
+                },
+                {
+                    "t": "Ventes de marchandises du commerce de gros et des intermédiaires du commerce",
+                    "l": "https://www.insee.fr/fr/statistiques/2015366",
+                    "d": "2026-06-18"
+                },
+                {
+                    "t": "Activité des formes de vente du commerce de détail",
+                    "l": "https://www.insee.fr/fr/statistiques/2015073",
+                    "d": "2026-06-18"
+                },
+                {
+                    "t": "La situation du commerce en 2025 (éd. juin)",
+                    "l": "https://www.insee.fr/fr/statistiques/9004484",
+                    "d": "2026-06-18"
+                },
+                {
+                    "t": "Economie et Statistique / Economics and Statistics no 549 - 2025",
+                    "l": "https://www.insee.fr/fr/statistiques/9008717",
+                    "d": "2026-06-18"
+                },
+                {
+                    "t": "Le compte du commerce en 2025",
+                    "l": "https://www.insee.fr/fr/statistiques/9008999",
+                    "d": "2026-06-18"
+                },
+                {
                     "t": "L’industrie tient la barre, les ménages accusent le coup",
                     "l": "https://www.insee.fr/fr/statistiques/9007948",
                     "d": "2026-06-17"
                 },
                 {
-                    "t": "Comptes nationaux",
-                    "l": "https://www.insee.fr/fr/statistiques/8071406",
+                    "t": "Évolution de la consommation effective de biens durables",
+                    "l": "https://www.insee.fr/fr/statistiques/2385831",
                     "d": "2026-06-16"
                 },
                 {
-                    "t": "Évolution de la consommation effective de biens durables",
-                    "l": "https://www.insee.fr/fr/statistiques/2385831",
+                    "t": "Comptes nationaux",
+                    "l": "https://www.insee.fr/fr/statistiques/8071406",
                     "d": "2026-06-16"
                 },
                 {
@@ -1438,60 +1478,30 @@
                     "d": "2026-06-16"
                 },
                 {
-                    "t": "Données nationales - Population",
-                    "l": "https://www.insee.fr/fr/statistiques/8999013",
-                    "d": "2026-06-15"
-                },
-                {
-                    "t": "Données nationales - Naissances, natalité et fécondité",
-                    "l": "https://www.insee.fr/fr/statistiques/8999017",
+                    "t": "Données européennes",
+                    "l": "https://www.insee.fr/fr/statistiques/8999201",
                     "d": "2026-06-15"
                 },
                 {
                     "t": "Données nationales - Mariages, nuptialité, Pacs et situation conjugale",
                     "l": "https://www.insee.fr/fr/statistiques/8999021",
                     "d": "2026-06-15"
-                },
-                {
-                    "t": "Données nationales - Décès, mortalité, espérance de vie",
-                    "l": "https://www.insee.fr/fr/statistiques/8999019",
-                    "d": "2026-06-15"
-                },
-                {
-                    "t": "La situation démographique en 2025 et en séries longues",
-                    "l": "https://www.insee.fr/fr/statistiques/8999231",
-                    "d": "2026-06-15"
-                },
-                {
-                    "t": "Données départementales et régionales",
-                    "l": "https://www.insee.fr/fr/statistiques/8999023",
-                    "d": "2026-06-15"
-                },
-                {
-                    "t": "Données européennes",
-                    "l": "https://www.insee.fr/fr/statistiques/8999201",
-                    "d": "2026-06-15"
-                },
-                {
-                    "t": "Les index Bâtiment, Travaux publics et divers de la construction en avril 2026",
-                    "l": "https://www.insee.fr/fr/statistiques/9006734",
-                    "d": "2026-06-12"
-                },
-                {
-                    "t": "En mai 2026, les prix à la consommation augmentent de 2,4 % sur un an",
-                    "l": "https://www.insee.fr/fr/statistiques/9006268",
-                    "d": "2026-06-12"
-                },
-                {
-                    "t": "Sécurité numérique",
-                    "l": "https://www.insee.fr/fr/statistiques/8982588",
-                    "d": "2026-06-11"
                 }
             ]
         },
         {
             "nom_site": "INSEE|Régional",
             "articles": [
+                {
+                    "t": "L’économie présentielle, moteur de l’emploi en Bourgogne-Franche-Comté",
+                    "l": "https://www.insee.fr/fr/statistiques/9008307",
+                    "d": "2026-06-18"
+                },
+                {
+                    "t": "Des conditions de logement toujours précaires à Mayotte, malgré quelques améliorations",
+                    "l": "https://www.insee.fr/fr/statistiques/9007686",
+                    "d": "2026-06-18"
+                },
                 {
                     "t": "En 2050, 346 000 seniors en perte d’autonomie en Île-de-France",
                     "l": "https://www.insee.fr/fr/statistiques/9007208",
@@ -1513,13 +1523,13 @@
                     "d": "2026-06-11"
                 },
                 {
-                    "t": "Les Hauts-de-France : première région de province pour la consommation d’espace par l’activité économique",
-                    "l": "https://www.insee.fr/fr/statistiques/9004772",
+                    "t": "En Bretagne, plus d’un établissement industriel sur deux engage des dépenses pour réduire son impact sur l’environnement",
+                    "l": "https://www.insee.fr/fr/statistiques/9006435",
                     "d": "2026-06-11"
                 },
                 {
-                    "t": "En Bretagne, plus d’un établissement industriel sur deux engage des dépenses pour réduire son impact sur l’environnement",
-                    "l": "https://www.insee.fr/fr/statistiques/9006435",
+                    "t": "Les Hauts-de-France : première région de province pour la consommation d’espace par l’activité économique",
+                    "l": "https://www.insee.fr/fr/statistiques/9004772",
                     "d": "2026-06-11"
                 },
                 {
@@ -1548,13 +1558,13 @@
                     "d": "2026-06-04"
                 },
                 {
-                    "t": "L’arrondissement de Douai : entre mutations économiques et fragilités sociales",
-                    "l": "https://www.insee.fr/fr/statistiques/8999462",
+                    "t": "La mixité des métiers progresse en Nouvelle-Aquitaine",
+                    "l": "https://www.insee.fr/fr/statistiques/9000773",
                     "d": "2026-06-04"
                 },
                 {
-                    "t": "La mixité des métiers progresse en Nouvelle-Aquitaine",
-                    "l": "https://www.insee.fr/fr/statistiques/9000773",
+                    "t": "L’arrondissement de Douai : entre mutations économiques et fragilités sociales",
+                    "l": "https://www.insee.fr/fr/statistiques/8999462",
                     "d": "2026-06-04"
                 },
                 {
@@ -1580,16 +1590,6 @@
                 {
                     "t": "Dans le Grand Est, 30 % des étudiants ont un emploi, majoritairement en tant qu’apprentis",
                     "l": "https://www.insee.fr/fr/statistiques/8993248",
-                    "d": "2026-05-28"
-                },
-                {
-                    "t": "21 800 couples se sont dit « oui » en Nouvelle-Aquitaine en 2024",
-                    "l": "https://www.insee.fr/fr/statistiques/8993510",
-                    "d": "2026-05-28"
-                },
-                {
-                    "t": "Achats transfrontaliers : une pratique ancrée en Occitanie, surtout dans les Pyrénées-Orientales",
-                    "l": "https://www.insee.fr/fr/statistiques/8992219",
                     "d": "2026-05-28"
                 }
             ]
