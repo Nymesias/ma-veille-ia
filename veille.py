@@ -245,21 +245,28 @@ def collecter_decisions_judilibre():
         return []
 
     date_debut = (MAINTENANT - timedelta(days=45)).strftime("%Y-%m-%d")
+    date_fin = MAINTENANT.strftime("%Y-%m-%d")
     try:
         reponse = requests.get(
             f"{JUDILIBRE_API_URL}/search",
             headers={"accept": "application/json", "KeyId": JUDILIBRE_KEY_ID},
             params={
-                "query": "",
-                "jurisdiction": "cc",
                 "date_start": date_debut,
+                "date_end": date_fin,
+                "sort": "date",
+                "order": "desc",
                 "page": 0,
                 "page_size": 50,
+                "resolve_references": "true",
             },
             timeout=45,
         )
         reponse.raise_for_status()
         donnees = reponse.json()
+    except requests.HTTPError as exc:
+        corps = exc.response.text[:1000] if exc.response is not None else ""
+        print(f"Erreur API Judilibre: {exc} — {corps}")
+        return []
     except Exception as exc:
         print(f"Erreur API Judilibre: {exc}")
         return []
