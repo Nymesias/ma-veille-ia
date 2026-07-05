@@ -2,40 +2,42 @@ name: Ma Veille IA Quotidienne
 
 on:
   schedule:
-    - cron: '0 3 * * *' # S'exécute tous les jours à 3h00
+    - cron: '0 4 * * *' # 06:00 à Paris en été, 05:00 en hiver
   workflow_dispatch:      # Permet de lancer le script manuellement
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-quotidienne
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # --- 1. LE PULL (On récupère tout le dépôt) ---
+      # --- 1. RÉCUPÉRATION DU DÉPÔT ---
       - name: Checkout du dépôt
         uses: actions/checkout@v4
         with:
           persist-credentials: true
-          fetch-depth: 0 # Récupère tout l'historique pour éviter les erreurs de branche
-
-      - name: Synchronisation avant calcul
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # On récupère les derniers fichiers Markdown ou modifs de code
-          git pull origin veille --rebase
+          fetch-depth: 0
 
       # --- 2. INSTALLATION ---
       - name: Installer Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
       - name: Installer les dépendances
-        run: pip install feedparser requests markdown
+        run: pip install feedparser requests markdown beautifulsoup4
 
       # --- 3. LE SCRIPT (Génère MD + Envoie Mail) ---
       - name: Lancer la veille
         env:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          MISTRAL_MODEL: ${{ vars.MISTRAL_MODEL || 'mistral-medium-3-5' }}
+          JUDILIBRE_KEY_ID: ${{ secrets.JUDILIBRE_KEY_ID }}
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
@@ -44,9 +46,10 @@ jobs:
       # --- 4. LE PUSH (Sauvegarde les nouveaux fichiers) ---
       - name: Sauvegarder sur le serveur
         run: |
-          # On ajoute tout : nouveaux MD et JSON écrasés
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add markdown/*.md *.json
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Veille auto : Nouvelle synthèse et listes à jour"
-            git push origin veille --force-with-lease 
+            git commit -m "Veille auto : synthèses et listes à jour"
+            git push
           fi

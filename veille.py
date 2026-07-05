@@ -1,285 +1,488 @@
-import os
-import json
 import csv
-import requests
 import html
-import feedparser
+import json
+import os
 import re
 import smtplib
-import markdown
-from email.mime.text import MIMEText
-from email.header import Header
 from datetime import datetime, timedelta
+from email.header import Header
+from email.mime.text import MIMEText
 
-# --- CONFIGURATION ---
+import feedparser
+import markdown
+import requests
+from bs4 import BeautifulSoup
+
+
+MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 MISTRAL_KEY = os.getenv("MISTRAL_API_KEY")
+MISTRAL_MODEL = os.getenv("MISTRAL_MODEL", "mistral-medium-3-5")
+
 DOSSIER_MD = "markdown"
 FICHIER_SOURCES = "sources.csv"
-AUJOURDHUI = datetime.now().strftime("%Y-%m-%d")
-HIER = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
-
 FICHIER_LISTE_RSS = "liste_rss.json"
 FICHIER_LISTE_MD = "liste_md.json"
+FICHIER_LETTRES = "lettres_cour_cassation.json"
+FICHIER_DECISIONS = "decisions_judilibre.json"
 
-if not os.path.exists(DOSSIER_MD):
-    os.makedirs(DOSSIER_MD)
+JUDILIBRE_KEY_ID = os.getenv("JUDILIBRE_KEY_ID")
+JUDILIBRE_API_URL = os.getenv(
+    "JUDILIBRE_API_URL",
+    "https://api.piste.gouv.fr/cassation/judilibre/v1.0",
+)
+
+COLLECTIONS_LETTRES = {
+    "Lettre de la Cour": 2666,
+    "Première chambre civile": 15,
+    "Deuxième chambre civile": 170,
+    "Troisième chambre civile": 171,
+    "Chambre commerciale": 172,
+    "Chambre sociale": 16,
+    "Chambre criminelle": 173,
+    "Lettre internationale": 3643,
+}
+
+MAINTENANT = datetime.now()
+AUJOURDHUI = MAINTENANT.strftime("%Y-%m-%d")
+HIER = (MAINTENANT - timedelta(days=1)).strftime("%Y-%m-%d")
+
+os.makedirs(DOSSIER_MD, exist_ok=True)
+
+
+def nettoyer_texte(valeur, limite=900):
+    """Transforme le HTML d'un flux en texte court exploitable par le modèle."""
+    texte = html.unescape(valeur or "")
+    texte = re.sub(r"<[^>]+>", " ", texte)
+    texte = re.sub(r"\s+", " ", texte).strip()
+    return texte[:limite]
+
 
 def charger_sources():
-    sources = []
     if not os.path.exists(FICHIER_SOURCES):
-        return sources
-    with open(FICHIER_SOURCES, mode='r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            sources.append(row)
-    return sources
+        return []
+    with open(FICHIER_SOURCES, newline="", encoding="utf-8-sig") as fichier:
+        return list(csv.DictReader(fichier))
 
-def synchroniser_listes(data_rss):
-    # 1. Mise à jour du JSON RSS (On remplace les flux, car ils sont frais)
-    with open(FICHIER_LISTE_RSS, "w", encoding='utf-8') as f:
-        json.dump(data_rss, f, indent=4, ensure_ascii=False)
 
-    # 2. Mise à jour intelligente du JSON MD (Archives)
-    liste_existante = []
-    if os.path.exists(FICHIER_LISTE_MD):
-        try:
-            with open(FICHIER_LISTE_MD, "r", encoding='utf-8') as f:
-                liste_existante = json.load(f)
-        except:
-            liste_existante = []
+def date_entree(entry):
+    date_structuree = entry.get("published_parsed") or entry.get("updated_parsed")
+    if not date_structuree:
+        return AUJOURDHUI
+    return datetime(*date_structuree[:3]).strftime("%Y-%m-%d")
 
-    # On récupère les fichiers MD actuels sur le disque
-    fichiers_sur_disque = [f for f in os.listdir(DOSSIER_MD) if f.endswith(".md")]
-    
-    # On reconstruit la liste proprement pour être sûr de ne rien oublier
-    # (C'est plus sûr que de "append" car cela gère les fichiers supprimés à la main)
-    nouvelle_liste = []
-    for f in fichiers_sur_disque:
-        match = re.search(r"(\d{4}-\d{2}-\d{2})", f)
-        date_f = match.group(1) if match else AUJOURDHUI
-        nouvelle_liste.append({
-            "date_affichage": date_f,
-            "date_tri": date_f,
-            "nom_fichier": f
-        })
 
-    # Tri par date décroissante (plus récent en haut)
-    nouvelle_liste.sort(key=lambda x: x['date_tri'], reverse=True)
+def collecter_articles(sources):
+    data_rss = {}
+    articles_hier = []
 
-    # 3. Écriture finale (Mise à jour du fichier)
-    with open(FICHIER_LISTE_MD, "w", encoding='utf-8') as f:
-        json.dump(nouvelle_liste, f, indent=4, ensure_ascii=False)
+    for source in sources:
+        categorie = source.get("categorie", "general").strip().lower()
+        nom_source = source.get("source", "Source inconnue").strip()
+        url = source.get("url", "").strip()
+        if not url:
+            continue
 
-def envoyer_synthese_par_mail(texte_markdown):
-    host = "smtp.bookmyname.com"
-    expediteur = os.getenv("EMAIL_SENDER")
-    mot_de_pass = os.getenv("EMAIL_PASSWORD")
-    destinataire = os.getenv("EMAIL_RECEIVER")
-    url_site = "https://nymesias.github.io/ma-veille-ia/"
-
-    if not all([expediteur, mot_de_pass, destinataire]):
-        print("⚠️ Variables d'email manquantes.")
-        return
-
-    corps_html_brut = markdown.markdown(texte_markdown)
-    date_fr = datetime.now().strftime('%d/%m/%Y')
-
-    style_css = """
-    <style>
-        /* Reset pour les clients mail */
-        body { margin: 0; padding: 0; background-color: #f4f7f6; font-family: 'Segoe UI', Arial, sans-serif; }
-        table { border-collapse: collapse; width: 100%; }
-        
-        /* Container principal */
-        .email-container { max-width: 800px; margin: 0 auto; background-color: #f4f7f6; }
-        
-        /* Le bloc Article (style .post du site) */
-        .post-veille { 
-            background-color: #ffffff;
-            border-left: 6px solid #3498db; 
-            margin: 20px 0;
-            padding: 30px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            /* Force la largeur totale de la colonne */
-            width: 100%;
-            box-sizing: border-box; 
-        }
-
-        /* Titres et textes */
-        h1 { color: #2c3e50; font-size: 26px; text-align: center; padding: 20px; margin: 0; }
-        h2 { color: #2c3e50; font-size: 22px; border-bottom: 2px solid #3498db; padding-bottom: 8px; margin-top: 40px; }
-        h3 { color: #34495e; font-size: 18px; margin-top: 25px; } /* Pour les titres d'articles */
-        
-        p { line-height: 1.7; color: #444; font-size: 16px; margin: 15px 0; }
-        a { color: #3498db; text-decoration: none; font-weight: bold; }
-        
-        .footer { text-align: center; padding: 30px; font-size: 13px; color: #999; }
-
-        /* Responsive : sur mobile, on réduit un peu le padding */
-        @media screen and (max-width: 600px) {
-            .post-veille { padding: 20px; border-left-width: 4px; }
-            h1 { font-size: 22px; }
-        }
-    </style>
-    """
-
-    html_final = f"""
-    <html>
-    <head>{style_css}</head>
-    <body>
-        <div class="email-container">
-            <table>
-                <tr>
-                    <td>
-                        <h1>✨ Bonjour Pauline !</h1>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="padding: 0 10px;">
-                        <div class="post-veille">
-                            {corps_html_brut}
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="footer">
-                        <p>📅 Publié le {date_fr}</p>
-                        <p><a href="{url_site}">Accéder aux archives sur le site</a></p>
-                        <hr style="border: 0; border-top: 1px solid #ddd; width: 50%;">
-                        <p>Généré automatiquement par Mistral IA</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </body>
-    </html>
-    """
-
-    msg = MIMEText(html_final, 'html', 'utf-8')
-    msg['Subject'] = Header(f"🤖 Veille du {HIER}", 'utf-8')
-    msg['From'] = expediteur
-    msg['To'] = destinataire
-
-    try:
-        with smtplib.SMTP(host, 587, timeout=30) as smtp:
-            smtp.starttls()
-            smtp.login(expediteur.strip(), mot_de_pass.strip())
-            smtp.send_message(msg)
-            print("✅ Mail envoyé avec succès.")
-    except Exception as e:
-        print(f"❌ Erreur mail : {e}")
-
-def main():
-    sources = charger_sources()
-    data_globale = {}
-    articles_par_categorie = {} 
-    # Initialisation ici pour éviter toute erreur plus tard
-    contenu_pour_mistral = ""
-
-    print(f"--- 📡 Récupération (Filtre: {HIER}) ---")
-    
-    for s in sources:
-        cat_nom = s.get('categorie', 'Général').strip()
-        src_name = s.get('source', 'Inconnue')
-        url = s.get('url')
-        if not url: continue
-
-        # --- CORRECTION 1 : Initialiser ICI pour chaque source ---
-        articles_du_site = []
-
+        articles_source = []
         try:
             flux = feedparser.parse(url)
-            for entry in flux.entries[:20]:
-                t = html.unescape(entry.get('title', 'Sans titre')).strip()
-                l = entry.get('link', url)
-                
-                dt_struct = entry.get('published_parsed') or entry.get('updated_parsed')
-                date_art = datetime(*dt_struct[:3]).strftime('%Y-%m-%d') if dt_struct else AUJOURDHUI
+            if getattr(flux, "bozo", False):
+                print(f"Avertissement flux {nom_source}: {flux.bozo_exception}")
 
-                articles_du_site.append({"t": t, "l": l, "d": date_art})
+            for entry in flux.entries[:30]:
+                article = {
+                    "categorie": categorie,
+                    "source": nom_source,
+                    "titre": nettoyer_texte(entry.get("title", "Sans titre"), 300),
+                    "lien": entry.get("link", url),
+                    "date": date_entree(entry),
+                    "resume": nettoyer_texte(
+                        entry.get("summary") or entry.get("description") or ""
+                    ),
+                }
+                articles_source.append(
+                    {"t": article["titre"], "l": article["lien"], "d": article["date"]}
+                )
+                if article["date"] == HIER:
+                    articles_hier.append(article)
+        except Exception as exc:
+            print(f"Erreur flux {nom_source}: {exc}")
 
-                if date_art == HIER:
-                    if cat_nom not in articles_par_categorie:
-                        articles_par_categorie[cat_nom] = []
-                    articles_par_categorie[cat_nom].append(f"{src_name} : {t} (Lien: {l})")
-            
-            # --- CORRECTION 2 : Déplacer l'enregistrement à l'intérieur du bloc source ---
-            if cat_nom not in data_globale: 
-                data_globale[cat_nom] = []
-            data_globale[cat_nom].append({"nom_site": src_name, "articles": articles_du_site})
+        data_rss.setdefault(categorie, []).append(
+            {"nom_site": nom_source, "articles": articles_source}
+        )
 
-        except Exception as e:
-            print(f"❌ Erreur flux {src_name}: {e}")
-            # On assure que data_globale a quand même une entrée vide en cas d'erreur
-            if cat_nom not in data_globale: data_globale[cat_nom] = []
-            data_globale[cat_nom].append({"nom_site": src_name, "articles": []})
+    return data_rss, articles_hier
 
-    # --- CONSTRUCTION DU TEXTE POUR MISTRAL ---
-    for categorie, liste_articles in articles_par_categorie.items():
-        contenu_pour_mistral += f"\n### CATÉGORIE : {categorie} ###\n"
-        # On limite par exemple à 3 articles par catégorie pour l'IA
-        for art in liste_articles[:3]: 
-            contenu_pour_mistral += f"- {art}\n"
 
-   # --- VÉRIFICATION AVANT ENVOI ---
-    if not contenu_pour_mistral.strip():
-        print("⚠️ Aucune actualité trouvée pour hier. Fin du script.")
-        return # On arrête ici, pas besoin d'appeler l'IA ou d'envoyer un mail vide
+def synchroniser_listes(data_rss):
+    with open(FICHIER_LISTE_RSS, "w", encoding="utf-8") as fichier:
+        json.dump(data_rss, fichier, indent=2, ensure_ascii=False)
 
-    # --- SYNTHESE MISTRAL ---
-    if MISTRAL_KEY and contenu_pour_mistral.strip():
-        print(f"--- 🤖 Synthèse IA ({contenu_pour_mistral.count(' : ')} articles de hier) ---")
-        
-        # Préparation du prompt (on peut ajouter une consigne de brièveté ici)
-        prompt = (
-         f"Tu es un expert en veille. Voici les actus du {HIER} classées par catégories. Synthétise chaque catégorie séparément, sans en oublier une seule. Cite tes sources et inclue les liens [Lire l'article](URL).\n\nACTUS :\n{contenu_pour_mistral[:10000]}"
-         f"DONNÉES :\n{contenu_pour_mistral[:12000]}"
-       )
+    fichiers = []
+    for nom in os.listdir(DOSSIER_MD):
+        if not nom.endswith(".md"):
+            continue
+        correspondance = re.search(r"(\d{4}-\d{2}-\d{2})", nom)
+        date_fichier = correspondance.group(1) if correspondance else AUJOURDHUI
+        fichiers.append(
+            {
+                "date_affichage": date_fichier,
+                "date_tri": date_fichier,
+                "nom_fichier": nom,
+            }
+        )
 
+    fichiers.sort(key=lambda item: (item["date_tri"], item["nom_fichier"]), reverse=True)
+    with open(FICHIER_LISTE_MD, "w", encoding="utf-8") as fichier:
+        json.dump(fichiers, fichier, indent=2, ensure_ascii=False)
+
+
+def collecter_lettres():
+    """Collecte les dernières parutions des huit collections officielles."""
+    base = "https://www.courdecassation.fr"
+    lettres = []
+    vus = set()
+    entetes = {"User-Agent": "MaVeilleIA/1.0 (veille personnelle)"}
+
+    for collection, identifiant in COLLECTIONS_LETTRES.items():
         try:
-            # Appel API avec limitation des tokens et température
-            r = requests.post(
-                "https://api.mistral.ai/v1/chat/completions", 
-                json={
-                    "model": "mistral-small-latest", 
-                    "messages": [{"role": "user", "content": prompt}],
-                    "temperature": 0.2,   # 0.2 pour la précision technique
-                    "max_tokens": 2500    # Limite la longueur du mail
+            reponse = requests.get(
+                f"{base}/publications",
+                params={
+                    "date_du": "",
+                    "date_au": "",
+                    "field_type[0]": identifiant,
+                    "items_per_page": 10,
+                    "sort_bef_combine": "created_DESC",
                 },
-                headers={
-                    "Authorization": f"Bearer {MISTRAL_KEY}", 
-                    "Content-Type": "application/json"
-                },
-                timeout=60 # Sécurité pour ne pas bloquer le script indéfiniment
+                headers=entetes,
+                timeout=30,
             )
-            
-            if r.status_code == 200:
-                reponse_json = r.json()
-                synthese_texte = reponse_json['choices'][0]['message']['content']
-                
-                if synthese_texte:
-                    nom_md = f"synthese-{AUJOURDHUI}.md" # Utilisation de AUJOURDH'HUI pour le nom du fichier sur les ACTUS de HIER
-                    chemin_fichier = os.path.join(DOSSIER_MD, nom_md)
-                    
-                    with open(chemin_fichier, "w", encoding='utf-8') as f:
-                        f.write(synthese_texte)
-                    
-                    # ENVOI DU MAIL (seulement si la synthèse a fonctionné)
-                    envoyer_synthese_par_mail(synthese_texte)
-                else:
-                    print("⚠️ Mistral a renvoyé une réponse vide.")
-            else:
-                print(f"❌ Erreur API Mistral : {r.status_code} - {r.text}")
-                
-        except Exception as e: 
-            print(f"❌ Erreur lors de l'appel Mistral: {e}")
-    else:
-        print("ℹ️ Aucun article trouvé pour hier (ou clé API manquante). Pas de synthèse.")
+            reponse.raise_for_status()
+            page = BeautifulSoup(reponse.text, "html.parser")
+            for article in page.select("main article")[:5]:
+                lien = article.select_one("h2 a[href], h3 a[href]")
+                if not lien:
+                    continue
+                url = requests.compat.urljoin(base, lien.get("href"))
+                if url in vus:
+                    continue
+                vus.add(url)
+                paragraphes = [
+                    nettoyer_texte(p.get_text(" ", strip=True), 500)
+                    for p in article.select("p")
+                ]
+                lettres.append(
+                    {
+                        "collection": collection,
+                        "titre": nettoyer_texte(lien.get_text(" ", strip=True), 250),
+                        "resume": next((p for p in paragraphes if p and p != collection), ""),
+                        "url": url,
+                    }
+                )
+        except Exception as exc:
+            print(f"Erreur collecte {collection}: {exc}")
 
-    # On synchronise les listes JSON même s'il n'y a pas eu de synthèse
-    synchroniser_listes(data_globale)
-    print("✅ Processus terminé et fichiers mis à jour.")
+    if lettres:
+        with open(FICHIER_LETTRES, "w", encoding="utf-8") as fichier:
+            json.dump(
+                {"mis_a_jour": MAINTENANT.isoformat(timespec="seconds"), "lettres": lettres},
+                fichier,
+                indent=2,
+                ensure_ascii=False,
+            )
+        print(f"{len(lettres)} parutions de Lettres collectées.")
+    return lettres
+
+
+def valeur_liste(valeur):
+    if isinstance(valeur, list):
+        return ", ".join(str(item) for item in valeur if item)
+    return valeur or ""
+
+
+def sources_analyse_cassation(lettres, decisions):
+    """Convertit Lettres et décisions en sources factuelles pour Mistral."""
+    sources = []
+    for lettre in lettres[:16]:
+        sources.append(
+            {
+                "categorie": "lettres de la cour de cassation",
+                "source": lettre.get("collection", "Cour de cassation"),
+                "titre": lettre.get("titre", "Lettre de la Cour de cassation"),
+                "lien": lettre.get("url", ""),
+                "date": AUJOURDHUI,
+                "resume": lettre.get("resume", ""),
+            }
+        )
+    for decision in decisions[:30]:
+        details = []
+        if decision.get("numero"):
+            details.append(f"Pourvoi n° {decision['numero']}")
+        if decision.get("solution"):
+            details.append(f"Solution : {decision['solution']}")
+        if decision.get("publication"):
+            details.append(f"Publication : {decision['publication']}")
+        if decision.get("sommaire"):
+            details.append(decision["sommaire"])
+        sources.append(
+            {
+                "categorie": "décisions judilibre",
+                "source": decision.get("chambre") or "Cour de cassation",
+                "titre": " — ".join(details[:2]) or "Décision Judilibre",
+                "lien": decision.get("url", ""),
+                "date": decision.get("date", ""),
+                "resume": " ".join(details[2:]),
+            }
+        )
+    return sources
+
+
+def collecter_decisions_judilibre():
+    """Publie un cache sans secret des dernières décisions de la Cour de cassation."""
+    if not JUDILIBRE_KEY_ID:
+        print("JUDILIBRE_KEY_ID absente: collecte des décisions ignorée.")
+        return []
+
+    date_debut = (MAINTENANT - timedelta(days=45)).strftime("%Y-%m-%d")
+    try:
+        reponse = requests.get(
+            f"{JUDILIBRE_API_URL}/search",
+            headers={"accept": "application/json", "KeyId": JUDILIBRE_KEY_ID},
+            params={
+                "query": "",
+                "jurisdiction": "cc",
+                "date_start": date_debut,
+                "page": 0,
+                "page_size": 50,
+            },
+            timeout=45,
+        )
+        reponse.raise_for_status()
+        donnees = reponse.json()
+    except Exception as exc:
+        print(f"Erreur API Judilibre: {exc}")
+        return []
+
+    decisions = []
+    for resultat in donnees.get("results", []):
+        identifiant = resultat.get("id") or resultat.get("_id")
+        juridiction = str(resultat.get("jurisdiction", "")).lower()
+        if juridiction and juridiction not in {"cc", "cour de cassation"}:
+            continue
+        decisions.append(
+            {
+                "id": identifiant,
+                "date": resultat.get("decision_date") or resultat.get("date_decision") or "",
+                "chambre": valeur_liste(resultat.get("chamber")),
+                "formation": valeur_liste(resultat.get("formation")),
+                "numero": resultat.get("number") or resultat.get("numero") or "",
+                "solution": valeur_liste(resultat.get("solution")),
+                "publication": valeur_liste(resultat.get("publication")),
+                "sommaire": nettoyer_texte(
+                    resultat.get("summary")
+                    or resultat.get("sommaire")
+                    or "",
+                    700,
+                ),
+                "url": (
+                    f"https://www.courdecassation.fr/decision/{identifiant}"
+                    if identifiant
+                    else "https://www.courdecassation.fr/recherche-judilibre"
+                ),
+            }
+        )
+
+    decisions.sort(key=lambda item: item["date"], reverse=True)
+    with open(FICHIER_DECISIONS, "w", encoding="utf-8") as fichier:
+        json.dump(
+            {
+                "mis_a_jour": MAINTENANT.isoformat(timespec="seconds"),
+                "total_api": donnees.get("total"),
+                "decisions": decisions,
+            },
+            fichier,
+            indent=2,
+            ensure_ascii=False,
+        )
+    print(f"{len(decisions)} décisions Judilibre collectées.")
+    return decisions
+
+
+def articles_pour(cible, articles):
+    if cible == "news":
+        return [article for article in articles if article["categorie"] == "news"]
+    if cible == "finance":
+        return [article for article in articles if article["categorie"] == "finance"]
+    if cible == "cour-de-cassation":
+        return [
+            article
+            for article in articles
+            if "cour de cassation" in article["source"].lower()
+            or "cour de cassation" in article["titre"].lower()
+        ]
+    return articles
+
+
+def donnees_prompt(articles):
+    blocs = []
+    for numero, article in enumerate(articles, start=1):
+        bloc = (
+            f"[{numero}] Categorie: {article['categorie']}\n"
+            f"Source: {article['source']}\n"
+            f"Titre: {article['titre']}\n"
+            f"URL: {article['lien']}"
+        )
+        if article["resume"]:
+            bloc += f"\nExtrait du flux: {article['resume']}"
+        blocs.append(bloc)
+    return "\n\n".join(blocs)
+
+
+def prompt_pour(cible, articles):
+    titres = {
+        "synthese": f"Synthèse de veille du {HIER}",
+        "news": f"Actualités générales — {HIER}",
+        "finance": f"Finance et économie — {HIER}",
+        "cour-de-cassation": f"Cour de cassation — {HIER}",
+    }
+    specificites = {
+        "synthese": "Regroupe les informations par catégorie et fais ressortir 3 à 6 faits majeurs.",
+        "news": "Retiens les faits d'actualité générale réellement significatifs.",
+        "finance": "Distingue faits, chiffres et conséquences possibles. N'invente aucune cotation.",
+        "cour-de-cassation": (
+            "Croise les décisions Judilibre avec les sélections éditoriales des Lettres lorsqu'un lien "
+            "thématique est explicitement établi par les données. Distingue clairement : décisions "
+            "notables, tendances par chambre et nouvelles parutions. Pour chaque décision, indique la "
+            "chambre, la date et le numéro uniquement s'ils figurent dans les données. Explique "
+            "sobrement la portée juridique sans inventer de solution."
+        ),
+    }
+    return f"""Tu rédiges un briefing professionnel en français à partir des seules données ci-dessous.
+
+Titre exact à utiliser : # {titres[cible]}
+
+Règles impératives :
+- N'ajoute aucun fait, chiffre, date, citation, décision ou contexte absent des données.
+- Si les données sont insuffisantes pour affirmer un point, omets-le.
+- Déduplique les sujets repris par plusieurs sources.
+- Sois synthétique : 350 à 700 mots, phrases courtes, aucun remplissage.
+- Utilise des titres Markdown ##, puis des puces factuelles.
+- Place le lien de la source au bout de chaque puce sous la forme [Source](URL).
+- Ne crée ni bibliographie séparée, ni note de méthode, ni prévision.
+- {specificites[cible]}
+
+DONNÉES DU {HIER} :
+{donnees_prompt(articles)}
+"""
+
+
+def appeler_mistral(cible, articles):
+    reponse = requests.post(
+        MISTRAL_API_URL,
+        headers={"Authorization": f"Bearer {MISTRAL_KEY}", "Content-Type": "application/json"},
+        json={
+            "model": MISTRAL_MODEL,
+            "messages": [
+                {
+                    "role": "system",
+                    "content": (
+                        "Tu es un analyste de veille rigoureux. Tu préfères omettre une information "
+                        "plutôt que de la compléter par supposition."
+                    ),
+                },
+                {"role": "user", "content": prompt_pour(cible, articles)},
+            ],
+            "temperature": 0.1,
+            "max_tokens": 2500,
+        },
+        timeout=90,
+    )
+    reponse.raise_for_status()
+    contenu = reponse.json()["choices"][0]["message"]["content"].strip()
+    if not contenu:
+        raise ValueError("Mistral a renvoyé une réponse vide")
+    return contenu
+
+
+def ecrire_markdown(cible, contenu):
+    nom = f"synthese-{AUJOURDHUI}.md" if cible == "synthese" else f"{AUJOURDHUI}-{cible}.md"
+    chemin = os.path.join(DOSSIER_MD, nom)
+    with open(chemin, "w", encoding="utf-8") as fichier:
+        fichier.write(contenu + "\n")
+    print(f"Fichier généré: {chemin}")
+
+
+def envoyer_synthese_par_mail(texte_markdown):
+    expediteur = os.getenv("EMAIL_SENDER")
+    mot_de_passe = os.getenv("EMAIL_PASSWORD")
+    destinataire = os.getenv("EMAIL_RECEIVER")
+    if not all([expediteur, mot_de_passe, destinataire]):
+        print("Variables d'email manquantes: envoi ignoré.")
+        return
+
+    corps = markdown.markdown(texte_markdown)
+    html_final = f"""<html><body style="font-family:Segoe UI,Arial,sans-serif;background:#f4f7f6">
+    <main style="max-width:800px;margin:auto;background:white;padding:30px;border-left:6px solid #3498db">
+    {corps}</main>
+    <p style="text-align:center;color:#777">Généré automatiquement par Mistral AI —
+    <a href="https://nymesias.github.io/ma-veille-ia/">Accéder aux archives</a></p>
+    </body></html>"""
+    message = MIMEText(html_final, "html", "utf-8")
+    message["Subject"] = Header(f"Veille du {HIER}", "utf-8")
+    message["From"] = expediteur
+    message["To"] = destinataire
+
+    with smtplib.SMTP("smtp.bookmyname.com", 587, timeout=30) as smtp:
+        smtp.starttls()
+        smtp.login(expediteur.strip(), mot_de_passe.strip())
+        smtp.send_message(message)
+    print("Mail envoyé.")
+
+
+def main():
+    print(f"Collecte des flux pour le {HIER}...")
+    data_rss, articles = collecter_articles(charger_sources())
+
+    lettres = collecter_lettres()
+    decisions = collecter_decisions_judilibre()
+    sources_cassation = sources_analyse_cassation(lettres, decisions)
+
+    # Les flux et les archives doivent rester à jour, même sans article ou sans clé API.
+    synchroniser_listes(data_rss)
+
+    if not MISTRAL_KEY:
+        print("MISTRAL_API_KEY absente: génération IA ignorée.")
+        return
+    if not articles and not sources_cassation:
+        print(f"Aucun article daté du {HIER} et aucune source Cour: aucun Markdown généré.")
+        return
+
+    synthese = None
+    for cible in ("synthese", "news", "finance", "cour-de-cassation"):
+        selection = (
+            sources_cassation
+            if cible == "cour-de-cassation"
+            else articles_pour(cible, articles)
+        )
+        if not selection:
+            print(f"Aucune donnée pour {cible}: fichier non généré.")
+            continue
+        try:
+            contenu = appeler_mistral(cible, selection)
+            ecrire_markdown(cible, contenu)
+            if cible == "synthese":
+                synthese = contenu
+        except Exception as exc:
+            print(f"Erreur de génération {cible}: {exc}")
+
+    synchroniser_listes(data_rss)
+    if synthese:
+        try:
+            envoyer_synthese_par_mail(synthese)
+        except Exception as exc:
+            print(f"Erreur d'envoi du mail: {exc}")
+
 
 if __name__ == "__main__":
     main()
-

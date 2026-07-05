@@ -3,13 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma Veille Personnalisée - Cour de Cassation</title>
+    <title>Ma Veille Personnalisée - Cour de cassation</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        .cassation-intro { color: #52606d; text-align: center; margin: -10px auto 24px; max-width: 760px; }
+        .cassation-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+        .cassation-card { background: #fff; border: 1px solid #dce4ea; border-radius: 10px; padding: 20px; }
+        .cassation-card h2, .cassation-card h3 { margin-top: 8px; }
+        .cassation-card p { line-height: 1.55; }
+        .cassation-meta { color: #607080; font-size: .88rem; }
+        .cassation-badge { display: inline-block; color: #20618a; background: #eaf5fb; border-radius: 20px; padding: 4px 10px; font-size: .78rem; font-weight: 700; }
+        .cassation-link { display: inline-block; margin-top: 8px; font-weight: 700; }
+        .cassation-status { text-align: center; padding: 45px 20px; color: #607080; }
+        .cassation-updated { color: #607080; font-size: .85rem; margin-bottom: 18px; }
+        @media (max-width: 700px) { .tabs-bar { flex-wrap: wrap; } .tab-btn { flex: 1 1 45%; } }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Actualités de la Cour de Cassation</h1>
+        <h1>Actualités de la Cour de cassation</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
@@ -21,58 +34,147 @@
         </nav>
     </header>
 
-    <main id="cassation-content">
-        <p style="text-align:center;">Chargement des analyses juridiques...</p>
+    <main>
+        <p class="cassation-intro">Analyses de veille, dernières Lettres des chambres et décisions récemment publiées dans Judilibre.</p>
+        <div class="tabs-bar" role="tablist" aria-label="Contenus de la Cour de cassation">
+            <button class="tab-btn active" role="tab" aria-selected="true" data-tab="analyses">Analyses</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="lettres">Les Lettres</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="decisions">Dernières décisions</button>
+        </div>
+
+        <section id="panel-analyses" class="cassation-panel" role="tabpanel">
+            <div class="cassation-status">Chargement des analyses juridiques…</div>
+        </section>
+        <section id="panel-lettres" class="cassation-panel" role="tabpanel" hidden>
+            <div class="cassation-status">Chargement des Lettres…</div>
+        </section>
+        <section id="panel-decisions" class="cassation-panel" role="tabpanel" hidden>
+            <div class="cassation-status">Chargement des décisions Judilibre…</div>
+        </section>
     </main>
 
-    <script src="rss-reader.js"></script>
     <script>
-        async function chargerAnalysesCassation() {
-            const zone = document.getElementById('cassation-content');
-            
-            try {
-                // 1. On charge la liste centralisée (liste_md.json est à la racine)
-                const res = await fetch('liste_md.json');
-                const fichiers = await res.json();
-                
-                // 2. On filtre pour ne garder que la Cour de Cassation
-                const articlesFiltres = fichiers.filter(f => 
-                    f.nom_fichier.toLowerCase().includes('cour-de-cassation') || 
-                    f.nom_fichier.toLowerCase().includes('cassation')
-                );
+        const etatCharge = { analyses: false, lettres: false, decisions: false };
 
-                if (articlesFiltres.length === 0) {
-                    zone.innerHTML = "<p style='text-align:center;'>Aucune analyse disponible pour la Cour de Cassation.</p>";
+        function echapper(valeur) {
+            const element = document.createElement('div');
+            element.textContent = valeur == null ? '' : String(valeur);
+            return element.innerHTML;
+        }
+
+        function dateFrancaise(valeur) {
+            if (!valeur) return '';
+            const date = new Date(`${valeur}T12:00:00`);
+            return Number.isNaN(date.getTime()) ? valeur : date.toLocaleDateString('fr-FR', {
+                day: 'numeric', month: 'long', year: 'numeric'
+            });
+        }
+
+        function dateMiseAJour(valeur) {
+            if (!valeur) return '';
+            const date = new Date(valeur);
+            return Number.isNaN(date.getTime()) ? '' : date.toLocaleString('fr-FR');
+        }
+
+        async function chargerAnalyses() {
+            const zone = document.getElementById('panel-analyses');
+            try {
+                const res = await fetch('liste_md.json');
+                if (!res.ok) throw new Error('Liste indisponible');
+                const fichiers = await res.json();
+                const filtres = fichiers.filter(f => f.nom_fichier.toLowerCase().includes('cour-de-cassation'));
+                if (!filtres.length) {
+                    zone.innerHTML = '<p class="cassation-status">Aucune analyse disponible.</p>';
                     return;
                 }
-
-                zone.innerHTML = ""; // On efface le message de chargement
-
-                // 3. Boucle d'affichage
-                for (const item of articlesFiltres) {
-                    const resMd = await fetch('markdown/' + item.nom_fichier);
-                    
-                    // Gestion des accents (UTF-8)
-                    const buffer = await resMd.arrayBuffer();
-                    const decoder = new TextDecoder('utf-8');
-                    const texteBrut = decoder.decode(buffer);
-
-                    zone.innerHTML += `
-                        <article class="post-md" style="margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
-                            <small style="color: #2980b9; font-weight: bold;">Publié le ${item.date_affichage}</small>
-                            <div class="article-body" style="margin-top: 15px;">
-                                ${marked.parse(texteBrut)}
-                            </div>
-                        </article>`;
-                }
-            } catch (e) {
-                console.error("Erreur Cassation:", e);
-                zone.innerHTML = "<p style='text-align:center; color:red;'>Erreur lors du chargement des articles.</p>";
+                const contenus = await Promise.all(filtres.map(async item => {
+                    const reponse = await fetch(`markdown/${encodeURIComponent(item.nom_fichier)}`);
+                    if (!reponse.ok) return '';
+                    const texte = await reponse.text();
+                    return `<article class="post-md" style="margin-bottom:40px">
+                        <small>Publié le ${echapper(item.date_affichage)}</small>
+                        <div class="article-body">${marked.parse(texte)}</div>
+                    </article>`;
+                }));
+                zone.innerHTML = contenus.join('');
+            } catch (erreur) {
+                console.error('Erreur analyses :', erreur);
+                zone.innerHTML = '<p class="cassation-status">Impossible de charger les analyses.</p>';
             }
         }
 
-        // Lancement au chargement de la page
-        window.onload = chargerAnalysesCassation;
+        async function chargerLettres() {
+            const zone = document.getElementById('panel-lettres');
+            try {
+                const res = await fetch('lettres_cour_cassation.json');
+                if (!res.ok) throw new Error('Cache des Lettres indisponible');
+                const data = await res.json();
+                const lettres = Array.isArray(data.lettres) ? data.lettres : [];
+                if (!lettres.length) throw new Error('Aucune Lettre');
+                zone.innerHTML = `
+                    <p class="cassation-updated">Mis à jour le ${echapper(dateMiseAJour(data.mis_a_jour))} —
+                    <a href="https://www.courdecassation.fr/kiosque/les-lettres" target="_blank" rel="noopener noreferrer">Voir le kiosque officiel</a></p>
+                    <div class="cassation-grid">${lettres.map(lettre => `
+                        <article class="cassation-card">
+                            <span class="cassation-badge">${echapper(lettre.collection)}</span>
+                            <h2>${echapper(lettre.titre)}</h2>
+                            ${lettre.resume ? `<p>${echapper(lettre.resume)}</p>` : ''}
+                            <a class="cassation-link" href="${echapper(lettre.url)}" target="_blank" rel="noopener noreferrer">Lire la Lettre →</a>
+                        </article>`).join('')}</div>`;
+            } catch (erreur) {
+                console.error('Erreur Lettres :', erreur);
+                zone.innerHTML = `<p class="cassation-status">Les Lettres n'ont pas encore été synchronisées.<br>
+                    <a href="https://www.courdecassation.fr/kiosque/les-lettres" target="_blank" rel="noopener noreferrer">Consulter le kiosque officiel</a></p>`;
+            }
+        }
+
+        async function chargerDecisions() {
+            const zone = document.getElementById('panel-decisions');
+            try {
+                const res = await fetch('decisions_judilibre.json');
+                if (!res.ok) throw new Error('Cache Judilibre indisponible');
+                const data = await res.json();
+                const decisions = Array.isArray(data.decisions) ? data.decisions : [];
+                if (!decisions.length) throw new Error('Aucune décision');
+                zone.innerHTML = `
+                    <p class="cassation-updated">Mis à jour le ${echapper(dateMiseAJour(data.mis_a_jour))}. Les données proviennent de l'API officielle Judilibre.</p>
+                    <div class="cassation-grid">${decisions.map(decision => `
+                        <article class="cassation-card">
+                            <span class="cassation-badge">${echapper(decision.chambre || 'Cour de cassation')}</span>
+                            <h2>${echapper(decision.numero ? `Pourvoi n° ${decision.numero}` : 'Décision')}</h2>
+                            <p class="cassation-meta">${echapper(dateFrancaise(decision.date))}${decision.formation ? ` · ${echapper(decision.formation)}` : ''}</p>
+                            ${decision.solution ? `<p><strong>Solution :</strong> ${echapper(decision.solution)}</p>` : ''}
+                            ${decision.publication ? `<p><strong>Publication :</strong> ${echapper(decision.publication)}</p>` : ''}
+                            ${decision.sommaire ? `<p>${echapper(decision.sommaire)}</p>` : ''}
+                            <a class="cassation-link" href="${echapper(decision.url)}" target="_blank" rel="noopener noreferrer">Consulter la décision →</a>
+                        </article>`).join('')}</div>`;
+            } catch (erreur) {
+                console.warn('Judilibre en attente de synchronisation :', erreur.message);
+                zone.innerHTML = `<p class="cassation-status">Les décisions Judilibre ne sont pas encore synchronisées.<br>
+                    Ajoutez la clé PISTE au secret GitHub <code>JUDILIBRE_KEY_ID</code>.</p>`;
+            }
+        }
+
+        async function afficherOnglet(nom) {
+            document.querySelectorAll('.tab-btn').forEach(bouton => {
+                const actif = bouton.dataset.tab === nom;
+                bouton.classList.toggle('active', actif);
+                bouton.setAttribute('aria-selected', String(actif));
+            });
+            document.querySelectorAll('.cassation-panel').forEach(panel => {
+                panel.hidden = panel.id !== `panel-${nom}`;
+            });
+            if (etatCharge[nom]) return;
+            etatCharge[nom] = true;
+            if (nom === 'analyses') await chargerAnalyses();
+            if (nom === 'lettres') await chargerLettres();
+            if (nom === 'decisions') await chargerDecisions();
+        }
+
+        document.querySelectorAll('.tab-btn').forEach(bouton => {
+            bouton.addEventListener('click', () => afficherOnglet(bouton.dataset.tab));
+        });
+        afficherOnglet('analyses');
     </script>
 </body>
 </html>
