@@ -150,8 +150,7 @@
                         </article>`).join('')}</div>`;
             } catch (erreur) {
                 console.warn('Judilibre en attente de synchronisation :', erreur.message);
-                zone.innerHTML = `<p class="cassation-status">Les décisions Judilibre ne sont pas encore synchronisées.<br>
-                    Ajoutez la clé PISTE au secret GitHub <code>JUDILIBRE_KEY_ID</code>.</p>`;
+                zone.innerHTML = '<p class="cassation-status">Les décisions Judilibre ne sont pas encore disponibles.</p>';
             }
         }
 
