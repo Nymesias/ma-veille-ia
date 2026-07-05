@@ -248,15 +248,16 @@ def collecter_decisions_judilibre():
     date_fin = MAINTENANT.strftime("%Y-%m-%d")
     try:
         reponse = requests.get(
-            f"{JUDILIBRE_API_URL}/search",
+            f"{JUDILIBRE_API_URL}/export",
             headers={"accept": "application/json", "KeyId": JUDILIBRE_KEY_ID},
             params={
                 "date_start": date_debut,
                 "date_end": date_fin,
-                "sort": "date",
+                "date_type": "creation",
                 "order": "desc",
-                "page": 0,
-                "page_size": 50,
+                "batch": 0,
+                "batch_size": 50,
+                "abridged": "true",
                 "resolve_references": "true",
             },
             timeout=45,
