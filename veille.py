@@ -306,6 +306,16 @@ def collecter_decisions_judilibre():
             headers={"accept": "application/json"},
             timeout=30,
         )
+        if jeton.status_code == 400 and jeton.json().get("error") == "invalid_client":
+            # Certains clients PISTE exigent client_secret_basic plutôt que
+            # client_secret_post, malgré l'exemple historique de leur guide.
+            jeton = requests.post(
+                JUDILIBRE_OAUTH_URL,
+                data={"grant_type": "client_credentials", "scope": "openid"},
+                auth=(JUDILIBRE_OAUTH_CLIENT_ID, JUDILIBRE_OAUTH_CLIENT_SECRET),
+                headers={"accept": "application/json"},
+                timeout=30,
+            )
         jeton.raise_for_status()
         acces = jeton.json().get("access_token")
         if not acces:
