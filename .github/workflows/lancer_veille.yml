@@ -30,7 +30,9 @@ jobs:
           python-version: '3.10'
 
       - name: Installer les dépendances
-        run: pip install feedparser requests markdown beautifulsoup4
+        run: |
+          pip install feedparser requests markdown beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
 
       # --- 3. LE SCRIPT (Génère MD + Envoie Mail) ---
       - name: Lancer la veille

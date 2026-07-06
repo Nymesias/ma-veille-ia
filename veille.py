@@ -286,8 +286,12 @@ def collecter_decisions_judilibre():
     entetes = {"User-Agent": "Mozilla/5.0 (veille-juridique; contact local)"}
     decisions = []
     identifiants = set()
+    def extraire_articles(contenu):
+        soupe = BeautifulSoup(contenu, "html.parser")
+        return soupe.select("article.decision-item-article")
+
     try:
-        for page in (0, 1):
+        for page in (0,):
             reponse = requests.get(
                 JUDILIBRE_PUBLIC_URL,
                 params={"page": page} if page else None,
@@ -295,8 +299,26 @@ def collecter_decisions_judilibre():
                 timeout=45,
             )
             reponse.raise_for_status()
-            soupe = BeautifulSoup(reponse.text, "html.parser")
-            for article in soupe.select("article.decision-item-article"):
+            articles = extraire_articles(reponse.text)
+            if not articles:
+                from playwright.sync_api import sync_playwright
+
+                with sync_playwright() as moteur:
+                    navigateur = moteur.chromium.launch(headless=True)
+                    page_web = navigateur.new_page(user_agent=entetes["User-Agent"])
+                    page_web.goto(
+                        reponse.url,
+                        wait_until="domcontentloaded",
+                        timeout=90000,
+                    )
+                    page_web.wait_for_selector(
+                        "article.decision-item-article",
+                        timeout=90000,
+                    )
+                    articles = extraire_articles(page_web.content())
+                    navigateur.close()
+
+            for article in articles:
                 lien = article.select_one('a[href*="/decision/"]')
                 entete = article.select_one(".decision-item--header h3")
                 if not lien or not entete:
