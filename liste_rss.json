@@ -790,14 +790,19 @@
       "nom_site": "AN|Séances",
       "articles": [
         {
-          "t": "Compte rendu intégral de la troisième séance du mardi 30 juin 2026",
-          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260296.asp",
-          "d": "2026-06-30"
+          "t": "Compte rendu intégral de la première séance du lundi 29 juin 2026",
+          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260292.asp",
+          "d": "2026-06-29"
         },
         {
           "t": "Compte rendu intégral de la première séance du mercredi 01 juillet 2026",
           "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026-extra/20261001.asp",
           "d": "2026-07-01"
+        },
+        {
+          "t": "Compte rendu intégral de la troisième séance du mardi 30 juin 2026",
+          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260296.asp",
+          "d": "2026-06-30"
         },
         {
           "t": "Compte rendu intégral de la deuxième séance du mardi 30 juin 2026",
@@ -833,11 +838,6 @@
           "t": "Compte rendu intégral de la troisième séance du vendredi 26 juin 2026",
           "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260289.asp",
           "d": "2026-06-26"
-        },
-        {
-          "t": "Compte rendu intégral de la première séance du vendredi 26 juin 2026",
-          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260287.asp",
-          "d": "2026-06-26"
         }
       ]
     },
@@ -845,60 +845,65 @@
       "nom_site": "AN|Documents",
       "articles": [
         {
+          "t": "N° 3014 - Proposition de résolution de M. Stéphane Viry tendant à favoriser l'orientation et l'insertion professionnelle des collégiens par des immersions professionnelles tout au long de leur scolarité",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion3014.asp",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "N° 2995 rapport - Rapport de M. Yannick Neuder de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion de la proposition de loi visant à doter la france d'une stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires.",
+          "l": "https://www.assemblee-nationale.fr/17/rapports/r2995.asp",
+          "d": "2026-07-01"
+        },
+        {
+          "t": "N° 2993 rapport d'information - Rapport d'information de Mme Céline Calvez déposé en application de l'article 145 du règlement, par la commission des affaires culturelles et de l'éducation, en conclusion des travaux d'une mission d'information sur le thème « Création, diffusion et acquisition des co",
+          "l": "https://www.assemblee-nationale.fr/17/rap-info/i2993.asp",
+          "d": "2026-07-01"
+        },
+        {
+          "t": "N° 2984 rapport - Rapport de M. Xavier Albertini et M. Vincent Caure sur le projet de loi, adopté, par le Sénat après engagement de la procédure accélérée, visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (n°2850).",
+          "l": "https://www.assemblee-nationale.fr/17/rapports/r2984.asp",
+          "d": "2026-07-03"
+        },
+        {
           "t": "N° 2169 - Proposition de loi de Mme Céline Thiébault-Martinez visant à lutter de manière intégrale contre les violences sexistes et sexuelles commises à l'encontre des femmes et des enfants",
           "l": "https://www.assemblee-nationale.fr/17/propositions/pion2169.asp",
           "d": "2025-12-03"
         },
         {
+          "t": "N° 2995 annexe 0 - Rapport de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion de la proposition de loi visant à doter la france d'une stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires.",
+          "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2995-a0.asp",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "N° 2652 - Proposition de loi de M. Lionel Causse visant à enrichir les dispositions applicables au Haut Conseil de stabilité financière",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion2652.asp",
+          "d": "2026-04-14"
+        },
+        {
+          "t": "N° 2975 rapport d'information - Rapport d'information de M. Emmanuel Mandon déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur la péréquation et les autres dispositifs de compensation des inégalités de ressources ",
+          "l": "https://www.assemblee-nationale.fr/17/rap-info/i2975.asp",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "Texte adopté n° 322 - Proposition de loi, modifiée, par l'Assemblée nationale, relative à l'organisation, à la gestion et au financement du sport professionnel",
+          "l": "https://www.assemblee-nationale.fr/17/ta/ta0322.asp",
+          "d": "2026-06-30"
+        },
+        {
           "t": "N° 2977 - Proposition de résolution européenne de M. Christophe Marion visant à inscrire les Forces de soutien rapide sur la liste des organisations terroristes",
           "l": "https://www.assemblee-nationale.fr/17/europe/resolutions/ppe2977.asp",
           "d": "2026-06-24"
-        },
-        {
-          "t": "N° 2984 rapport - Rapport de M. Xavier Albertini et M. Vincent Caure sur le projet de loi, adopté, par le Sénat après engagement de la procédure accélérée, visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (n°2850).",
-          "l": "https://www.assemblee-nationale.fr/17/rapports/r2984.asp",
-          "d": "2026-06-24"
-        },
-        {
-          "t": "N° 3013 - Proposition de résolution de M. Julien Guibert invitant le Gouvernement à rétablir la limitation de vitesse à 90 km/h sur l'ensemble des routes bidirectionnelles sans séparateur central",
-          "l": "https://www.assemblee-nationale.fr/17/propositions/pion3013.asp",
-          "d": "2026-07-03"
-        },
-        {
-          "t": "N° 3004 rapport - Rapport de M. Pierre Cazeneuve de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion de la proposition de loi visant à moderniser la gestion du patrimoine immobilier de l'état.",
-          "l": "https://www.assemblee-nationale.fr/17/rapports/r3004.asp",
-          "d": "2026-07-03"
-        },
-        {
-          "t": "N° 3011 rapport d'information - Rapport d'information de M. Gérard Leseul sur l'hydrogène natif",
-          "l": "https://www.assemblee-nationale.fr/17/rap-info/i3011.asp",
-          "d": "2026-07-02"
-        },
-        {
-          "t": "N° 2979 rapport d'information - Rapport d'information de Mme Perrine Goulet déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur l'évaluation des politiques de soutien à la restauration scolaire en outre-mer",
-          "l": "https://www.assemblee-nationale.fr/17/rap-info/i2979.asp",
-          "d": "2026-06-24"
-        },
-        {
-          "t": "N° 2898 - Proposition de loi de Mme Danielle Simonnet visant à interdire l'utilisation d'animaux non domestiques dans les créations artistiques",
-          "l": "https://www.assemblee-nationale.fr/17/propositions/pion2898.asp",
-          "d": "2026-06-09"
-        },
-        {
-          "t": "N° 2738 - Proposition de résolution européenne de M. Vincent Ledoux visant à lutter contre le vol de véhicules et les filières criminelles organisées en Europe",
-          "l": "https://www.assemblee-nationale.fr/17/europe/resolutions/ppe2738.asp",
-          "d": "2026-04-29"
-        },
-        {
-          "t": "N° 3012 - Proposition de résolution de M. Julien Odoul relative à la reconnaissance du massacre du 5 juillet 1962 à Oran",
-          "l": "https://www.assemblee-nationale.fr/17/propositions/pion3012.asp",
-          "d": "2026-07-03"
         }
       ]
     },
     {
       "nom_site": "Sénat|Textes",
       "articles": [
+        {
+          "t": "Sécurité, résilience et durabilité des activités spatiales dans l'Union - texte N° 846",
+          "l": "http://www.senat.fr/leg/ppr25-846.html",
+          "d": "2026-07-06"
+        },
         {
           "t": "Rendre obligatoire la déclaration domiciliaire - texte N° 816",
           "l": "http://www.senat.fr/leg/ppl25-816.html",
@@ -945,13 +950,13 @@
           "d": "2026-07-06"
         },
         {
-          "t": "Droit à l'aide à mourir - texte N° 826",
-          "l": "http://www.senat.fr/leg/ppl25-826.html",
+          "t": "Stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires - texte de la commission N° 818",
+          "l": "http://www.senat.fr/leg/ppl25-818.html",
           "d": "2026-07-06"
         },
         {
-          "t": "Stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires - texte de la commission N° 818",
-          "l": "http://www.senat.fr/leg/ppl25-818.html",
+          "t": "Droit à l'aide à mourir - texte N° 826",
+          "l": "http://www.senat.fr/leg/ppl25-826.html",
           "d": "2026-07-06"
         },
         {
@@ -1020,13 +1025,13 @@
           "d": "2026-07-06"
         },
         {
-          "t": "Accélérateur industriel européen - texte N° 767",
-          "l": "http://www.senat.fr/leg/ppr25-767.html",
+          "t": "Impact environnemental de l'industrie textile - texte de la commission N° 766",
+          "l": "http://www.senat.fr/leg/ppl25-766.html",
           "d": "2026-07-06"
         },
         {
-          "t": "Impact environnemental de l'industrie textile - texte de la commission N° 766",
-          "l": "http://www.senat.fr/leg/ppl25-766.html",
+          "t": "Accélérateur industriel européen - texte N° 767",
+          "l": "http://www.senat.fr/leg/ppr25-767.html",
           "d": "2026-07-06"
         },
         {
@@ -1043,17 +1048,27 @@
           "t": "Simplification des normes applicables aux collectivités territoriales - texte de la commission N° 758",
           "l": "http://www.senat.fr/leg/pjl25-758.html",
           "d": "2026-07-06"
-        },
-        {
-          "t": "Extension du régime des casinos aux communes métropolitaines et ultramarines - texte N° 725",
-          "l": "http://www.senat.fr/leg/ppl25-725.html",
-          "d": "2026-07-06"
         }
       ]
     },
     {
       "nom_site": "Sénat|Rapports",
       "articles": [
+        {
+          "t": "Quelles valeurs en 2050 ? Synthèse des travaux - rapport d'information n° 851",
+          "l": "http://www.senat.fr/notice-rapport/2025/r25-851-notice.html",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "Stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires - rapport n° 817",
+          "l": "http://www.senat.fr/rap/l25-817/l25-817.html",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "Bilan triennal d'activité (2023-2026) - rapport d'information n° 844",
+          "l": "http://www.senat.fr/notice-rapport/2025/r25-844-notice.html",
+          "d": "2026-07-06"
+        },
         {
           "t": "Politique de tarification des opérateurs culturels - rapport d'information n° 828",
           "l": "http://www.senat.fr/notice-rapport/2025/r25-828-notice.html",
@@ -1075,13 +1090,13 @@
           "d": "2026-07-06"
         },
         {
-          "t": "Octroi des prérogatives d'une commission d'enquête - rapport n° 820",
-          "l": "http://www.senat.fr/rap/l25-820/l25-820.html",
+          "t": "Moderniser la gestion du patrimoine immobilier de l'État - rapport n° 842",
+          "l": "http://www.senat.fr/rap/l25-842/l25-842.html",
           "d": "2026-07-06"
         },
         {
-          "t": "Moderniser la gestion du patrimoine immobilier de l'État - rapport n° 842",
-          "l": "http://www.senat.fr/rap/l25-842/l25-842.html",
+          "t": "Octroi des prérogatives d'une commission d'enquête - rapport n° 820",
+          "l": "http://www.senat.fr/rap/l25-820/l25-820.html",
           "d": "2026-07-06"
         },
         {
@@ -1100,13 +1115,13 @@
           "d": "2026-07-06"
         },
         {
-          "t": "Règlement européen sur les biotechnologies - rapport d'information n° 838",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-838-notice.html",
+          "t": "Révision de la réglementation européenne applicable aux dispositifs médicaux et aux dispositifs médicaux de diagnostic in vitro - rapport d'information n° 840",
+          "l": "http://www.senat.fr/notice-rapport/2025/r25-840-notice.html",
           "d": "2026-07-06"
         },
         {
-          "t": "Révision de la réglementation européenne applicable aux dispositifs médicaux et aux dispositifs médicaux de diagnostic in vitro - rapport d'information n° 840",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-840-notice.html",
+          "t": "Règlement européen sur les biotechnologies - rapport d'information n° 838",
+          "l": "http://www.senat.fr/notice-rapport/2025/r25-838-notice.html",
           "d": "2026-07-06"
         },
         {
@@ -1145,13 +1160,13 @@
           "d": "2026-07-06"
         },
         {
-          "t": "Droit à l'aide à mourir - rapport n° 825",
-          "l": "http://www.senat.fr/rap/l25-825/l25-825.html",
+          "t": "Pour une montagne vivante et souveraine - avis n° 815",
+          "l": "http://www.senat.fr/rap/a25-815/a25-815.html",
           "d": "2026-07-06"
         },
         {
-          "t": "Pour une montagne vivante et souveraine - avis n° 815",
-          "l": "http://www.senat.fr/rap/a25-815/a25-815.html",
+          "t": "Droit à l'aide à mourir - rapport n° 825",
+          "l": "http://www.senat.fr/rap/l25-825/l25-825.html",
           "d": "2026-07-06"
         },
         {
@@ -1160,13 +1175,13 @@
           "d": "2026-07-06"
         },
         {
-          "t": "Proposition de règlement relatif au cadre juridique du 28e régime pour les entreprises - « EU Inc. » - COM(2026) 321 final - rapport d'information n° 795",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-795-notice.html",
+          "t": "Clarifier le parcours des praticiens à diplôme hors Union européenne, entre accès aux soins et sécurité des patients - rapport d'information n° 824",
+          "l": "http://www.senat.fr/notice-rapport/2025/r25-824-notice.html",
           "d": "2026-07-06"
         },
         {
-          "t": "Clarifier le parcours des praticiens à diplôme hors Union européenne, entre accès aux soins et sécurité des patients - rapport d'information n° 824",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-824-notice.html",
+          "t": "Proposition de règlement relatif au cadre juridique du 28e régime pour les entreprises - « EU Inc. » - COM(2026) 321 final - rapport d'information n° 795",
+          "l": "http://www.senat.fr/notice-rapport/2025/r25-795-notice.html",
           "d": "2026-07-06"
         },
         {
@@ -1187,21 +1202,6 @@
         {
           "t": "Pour une approche inclusive du développement durable des territoires ruraux à l'ère des transitions - rapport d'information n° 796",
           "l": "http://www.senat.fr/notice-rapport/2025/r25-796-notice.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Beaucoup de soin, mais peu de santé : l'impératif de la prévention - rapport d'information n° 789",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-789-notice.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Accord multilatéral sur l'échange des informations GloBE - rapport n° 780",
-          "l": "http://www.senat.fr/rap/l25-780/l25-780.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Le soutien public aux filières sucrières - rapport d'information n° 784",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-784-notice.html",
           "d": "2026-07-06"
         }
       ]
@@ -1265,6 +1265,11 @@
       "nom_site": "Vie Publique|Actualités",
       "articles": [
         {
+          "t": "Application des lois : le Sénat publie son rapport sur la session 2024-2025",
+          "l": "https://www.vie-publique.fr/en-bref/303923-application-des-lois-rapport-du-senat-sur-la-session-2024-2025?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-07-05"
+        },
+        {
           "t": "Industrie de défense européenne : quelles options pour réduire la dépendance technologique aux États-Unis ?",
           "l": "https://www.vie-publique.fr/en-bref/303922-industrie-de-defense-europeenne-comment-gagner-en-autonomie?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
           "d": "2026-07-02"
@@ -1308,11 +1313,6 @@
           "t": "Calendrier électoral : les dates de l'élection présidentielle 2027 sont connues",
           "l": "https://www.vie-publique.fr/en-bref/303896-election-presidentielle-2027-les-dates-sont-connues?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
           "d": "2026-06-30"
-        },
-        {
-          "t": "Barrages hydroélectriques : la loi de relance des investissements promulguée",
-          "l": "https://www.vie-publique.fr/questions-reponses/293442-les-barrages-hydroelectriques-en-cinq-questions?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-06-30"
         }
       ]
     },
@@ -1320,13 +1320,23 @@
       "nom_site": "Vie Publique|Lois",
       "articles": [
         {
+          "t": "Projet de loi sur la justice criminelle et le respect des victimes",
+          "l": "https://www.vie-publique.fr/loi/302487-projet-de-loi-justice-criminelle-respect-des-victimes-plaider-coupable?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+          "d": "2026-07-05"
+        },
+        {
+          "t": "Projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense",
+          "l": "https://www.vie-publique.fr/loi/302742-actualisation-lpm-2024-2030-etat-dalerte-de-securite-nationale?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+          "d": "2026-07-05"
+        },
+        {
           "t": "Projet de loi d'urgence pour la protection et la souveraineté agricoles",
           "l": "https://www.vie-publique.fr/loi/302739-projet-de-loi-durgence-agricole?egn-publisher=dila_vp&egn-name=informer_rss_lois",
           "d": "2026-07-02"
         },
         {
-          "t": "Projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense",
-          "l": "https://www.vie-publique.fr/loi/302742-actualisation-lpm-2024-2030-etat-dalerte-de-securite-nationale?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+          "t": "Proposition de loi visant à doter la France d'une stratégie nationale de lutte contre les maladies cardio‑neuro‑vasculaires",
+          "l": "https://www.vie-publique.fr/loi/303718-prevention-maladies-cardio-neuro-vasculaire-proposition-de-loi-neuder?egn-publisher=dila_vp&egn-name=informer_rss_lois",
           "d": "2026-07-01"
         },
         {
@@ -1425,11 +1435,6 @@
           "d": "2026-06-16"
         },
         {
-          "t": "Proposition de loi visant à doter la France d’une stratégie nationale de lutte contre les maladies cardio‑neuro‑vasculaires",
-          "l": "https://www.vie-publique.fr/loi/303718-prevention-maladies-cardio-neuro-vasculaire-proposition-de-loi-neuder?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-          "d": "2026-06-15"
-        },
-        {
           "t": "Loi du 12 juin 2026 visant à améliorer la protection et l'accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap",
           "l": "https://www.vie-publique.fr/loi/296460-protection-parents-enfants-atteints-maladies-graves-loi-du-12-juin-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
           "d": "2026-06-12"
@@ -1463,11 +1468,6 @@
           "t": "Proposition de loi visant à lever, dans les territoires d'outre-mer, l'interdiction de recherche, d'exploration et d'exploitation des hydrocarbures",
           "l": "https://www.vie-publique.fr/loi/301921-outre-mer-exploitation-des-hydrocarbures-proposition-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
           "d": "2026-06-10"
-        },
-        {
-          "t": "Projet de loi sur la justice criminelle et le respect des victimes",
-          "l": "https://www.vie-publique.fr/loi/302487-projet-de-loi-justice-criminelle-respect-des-victimes-plaider-coupable?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-          "d": "2026-06-10"
         }
       ]
     }
@@ -1476,6 +1476,11 @@
     {
       "nom_site": "AMF",
       "articles": [
+        {
+          "t": "Crypto-actifs : la fin de la période de transition entre la loi Pacte et le règlement européen MiCA consacre un nouveau rôle pour l'AMF",
+          "l": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/crypto-actifs-la-fin-de-la-periode-de-transition-entre-la-loi-pacte-et-le-reglement-europeen-mica#xts=607212&xtor=RSS-3&type=RSS",
+          "d": "2026-07-06"
+        },
         {
           "t": "Communiqué ESMA : ESMA reminds firms of existing rules and obligations under binary option measures amid growing popularity of prediction markets globally",
           "l": "https://www.amf-france.org/fr/actualites-publications/actualites/communique-esma-esma-reminds-firms-existing-rules-and-obligations-under-binary-option-measures-amid#xts=607212&xtor=RSS-3&type=RSS",
@@ -1620,11 +1625,6 @@
           "t": "Séance publique de la commission des sanctions - 9 octobre 2026",
           "l": "https://www.amf-france.org/fr/sanctions-transactions/seances-de-la-commission-des-sanctions/seance-publique-de-la-commission-des-sanctions-25-septembre-2026-0#xts=607212&xtor=RSS-3&type=RSS",
           "d": "2026-06-10"
-        },
-        {
-          "t": "Séance publique de la commission des sanctions - 25 septembre 2026",
-          "l": "https://www.amf-france.org/fr/sanctions-transactions/seances-de-la-commission-des-sanctions/seance-publique-de-la-commission-des-sanctions-25-septembre-2026#xts=607212&xtor=RSS-3&type=RSS",
-          "d": "2026-06-10"
         }
       ]
     },
@@ -1638,6 +1638,36 @@
       "nom_site": "INSEE|National",
       "articles": [
         {
+          "t": "Naissances – fécondité – tableau de bord de l’économie française",
+          "l": "https://www.insee.fr/fr/statistiques/5368069",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "Naissances selon la nationalité et le pays de naissance des parents",
+          "l": "https://www.insee.fr/fr/statistiques/2381382",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "Les naissances en 2025",
+          "l": "https://www.insee.fr/fr/statistiques/9017867",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "Les naissances en 2025",
+          "l": "https://www.insee.fr/fr/statistiques/9016525",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "Les naissances en 2025 et en séries longues",
+          "l": "https://www.insee.fr/fr/statistiques/9000195",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "Les entreprises en France",
+          "l": "https://www.insee.fr/fr/statistiques/7667330",
+          "d": "2026-07-06"
+        },
+        {
           "t": "En mai 2026, la production manufacturière se replie de 1,0 %",
           "l": "https://www.insee.fr/fr/statistiques/9019268",
           "d": "2026-07-03"
@@ -1648,13 +1678,13 @@
           "d": "2026-07-02"
         },
         {
-          "t": "Emploi, chômage, revenus du travail",
-          "l": "https://www.insee.fr/fr/statistiques/8733125",
+          "t": "Caractéristiques des emplois en 2025",
+          "l": "https://www.insee.fr/fr/statistiques/9012121",
           "d": "2026-07-02"
         },
         {
-          "t": "Caractéristiques des emplois en 2025",
-          "l": "https://www.insee.fr/fr/statistiques/9012121",
+          "t": "Emploi, chômage, revenus du travail",
+          "l": "https://www.insee.fr/fr/statistiques/8733125",
           "d": "2026-07-02"
         },
         {
@@ -1708,6 +1738,11 @@
           "d": "2026-06-30"
         },
         {
+          "t": "La consommation des ménages en biens rebondit en mai 2026 (+0,5 % après -0,5 %)",
+          "l": "https://www.insee.fr/fr/statistiques/9016443",
+          "d": "2026-06-30"
+        },
+        {
           "t": "En juin 2026, les prix à la consommation augmenteraient de 1,8 % sur un an",
           "l": "https://www.insee.fr/fr/statistiques/9015205",
           "d": "2026-06-30"
@@ -1716,16 +1751,6 @@
           "t": "En mai 2026, les prix de production de l’industrie française augmentent de 0,2 % sur un mois et de 3,3 % sur un an",
           "l": "https://www.insee.fr/fr/statistiques/9016917",
           "d": "2026-06-30"
-        },
-        {
-          "t": "La consommation des ménages en biens rebondit en mai 2026 (+0,5 % après -0,5 %)",
-          "l": "https://www.insee.fr/fr/statistiques/9016443",
-          "d": "2026-06-30"
-        },
-        {
-          "t": "Les entreprises en France",
-          "l": "https://www.insee.fr/fr/statistiques/7667330",
-          "d": "2026-06-29"
         },
         {
           "t": "Les changements environnementaux inquiètent, mais les pratiques quotidiennes ne sont pas guidées par l’écologie",
@@ -1743,26 +1768,6 @@
           "d": "2026-06-25"
         },
         {
-          "t": "Ménages selon la structure familiale",
-          "l": "https://www.insee.fr/fr/statistiques/2381514",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "Équipement des ménages en voiture selon différentes caractéristiques",
-          "l": "https://www.insee.fr/fr/statistiques/8670751",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "Taille des résidences principales",
-          "l": "https://www.insee.fr/fr/statistiques/2490426",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "Personnes vivant seules dans leur logement selon l’âge et le sexe",
-          "l": "https://www.insee.fr/fr/statistiques/2381512",
-          "d": "2026-06-25"
-        },
-        {
           "t": "Familles avec enfants de moins de 18 ans",
           "l": "https://www.insee.fr/fr/statistiques/2381508",
           "d": "2026-06-25"
@@ -1773,18 +1778,13 @@
           "d": "2026-06-25"
         },
         {
-          "t": "Taille des ménages",
-          "l": "https://www.insee.fr/fr/statistiques/2381486",
-          "d": "2026-06-25"
-        },
-        {
           "t": "Enfants des familles par âge et type de famille",
           "l": "https://www.insee.fr/fr/statistiques/2381504",
           "d": "2026-06-25"
         },
         {
-          "t": "Rapport du Groupe de travail sur le thème « Mieux comprendre et mesurer la grande pauvreté » - Second Volet",
-          "l": "https://www.insee.fr/fr/statistiques/9013173",
+          "t": "Équipement des ménages en voiture selon différentes caractéristiques",
+          "l": "https://www.insee.fr/fr/statistiques/8670751",
           "d": "2026-06-25"
         }
       ]
@@ -1793,13 +1793,23 @@
       "nom_site": "INSEE|Régional",
       "articles": [
         {
-          "t": "L’activité économique ralentit, les créations d’entreprises accélèrent",
-          "l": "https://www.insee.fr/fr/statistiques/9006905",
-          "d": "2026-07-02"
+          "t": "Saint-Martin : l’impact d’Irma et de la crise sanitaire est encore visible",
+          "l": "https://www.insee.fr/fr/statistiques/9018278",
+          "d": "2026-07-06"
         },
         {
-          "t": "Au premier trimestre 2026, l’activité économique se dégrade en Guadeloupe",
-          "l": "https://www.insee.fr/fr/statistiques/9006919",
+          "t": "L’activité régionale reste atone, freinée par la construction",
+          "l": "https://www.insee.fr/fr/statistiques/9006917",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "En Auvergne‑Rhône‑Alpes, moins d’ouvriers, toujours plus de cadres",
+          "l": "https://www.insee.fr/fr/statistiques/9018689",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "L’activité économique ralentit, les créations d’entreprises accélèrent",
+          "l": "https://www.insee.fr/fr/statistiques/9006905",
           "d": "2026-07-02"
         },
         {
@@ -1808,23 +1818,13 @@
           "d": "2026-07-02"
         },
         {
+          "t": "Au premier trimestre 2026, l’activité économique se dégrade en Guadeloupe",
+          "l": "https://www.insee.fr/fr/statistiques/9006919",
+          "d": "2026-07-02"
+        },
+        {
           "t": "Au premier trimestre 2026, l’activité économique martiniquaise poursuit sa trajectoire négative",
           "l": "https://www.insee.fr/fr/statistiques/9006927",
-          "d": "2026-07-02"
-        },
-        {
-          "t": "La lente dégradation du marché du travail se poursuit au premier trimestre 2026",
-          "l": "https://www.insee.fr/fr/statistiques/9006911",
-          "d": "2026-07-02"
-        },
-        {
-          "t": "L’activité suit la tendance nationale, le marché du travail reste peu dynamique",
-          "l": "https://www.insee.fr/fr/statistiques/9006933",
-          "d": "2026-07-02"
-        },
-        {
-          "t": "Léger recul de l’activité et de l’emploi, tourisme hivernal en repli",
-          "l": "https://www.insee.fr/fr/statistiques/9006935",
           "d": "2026-07-02"
         },
         {
@@ -1833,18 +1833,33 @@
           "d": "2026-07-02"
         },
         {
-          "t": "Plus de la moitié des Bretons vivant en communauté résident dans des maisons de retraite",
-          "l": "https://www.insee.fr/fr/statistiques/9018375",
-          "d": "2026-07-02"
-        },
-        {
           "t": "Au premier trimestre 2026, le recul du secteur de l’information et communication continue de peser sur l’économie francilienne",
           "l": "https://www.insee.fr/fr/statistiques/9006923",
           "d": "2026-07-02"
         },
         {
+          "t": "Plus de la moitié des Bretons vivant en communauté résident dans des maisons de retraite",
+          "l": "https://www.insee.fr/fr/statistiques/9018375",
+          "d": "2026-07-02"
+        },
+        {
+          "t": "La lente dégradation du marché du travail se poursuit au premier trimestre 2026",
+          "l": "https://www.insee.fr/fr/statistiques/9006911",
+          "d": "2026-07-02"
+        },
+        {
           "t": "Saison d’hiver 2026 - En Occitanie, la fréquentation patine malgré un tourisme international en progrès",
           "l": "https://www.insee.fr/fr/statistiques/9011130",
+          "d": "2026-07-02"
+        },
+        {
+          "t": "Léger recul de l’activité et de l’emploi, tourisme hivernal en repli",
+          "l": "https://www.insee.fr/fr/statistiques/9006935",
+          "d": "2026-07-02"
+        },
+        {
+          "t": "L’activité suit la tendance nationale, le marché du travail reste peu dynamique",
+          "l": "https://www.insee.fr/fr/statistiques/9006933",
           "d": "2026-07-02"
         },
         {
@@ -1868,19 +1883,24 @@
           "d": "2026-06-30"
         },
         {
-          "t": "En 2050, 173 800 seniors en perte d’autonomie",
-          "l": "https://www.insee.fr/fr/statistiques/9012901",
+          "t": "Dans le Grand Est, trois ménages sur dix vivent dans un logement en sous-occupation très accentuée",
+          "l": "https://www.insee.fr/fr/statistiques/9014367",
           "d": "2026-06-30"
         },
         {
-          "t": "Dans le Grand Est, trois ménages sur dix vivent dans un logement en sous-occupation très accentuée",
-          "l": "https://www.insee.fr/fr/statistiques/9014367",
+          "t": "En 2050, 173 800 seniors en perte d’autonomie",
+          "l": "https://www.insee.fr/fr/statistiques/9012901",
           "d": "2026-06-30"
         },
         {
           "t": "En Normandie, plus de 100 000 microentreprises réparties sur l’ensemble du territoire",
           "l": "https://www.insee.fr/fr/statistiques/9009827",
           "d": "2026-06-26"
+        },
+        {
+          "t": "En mai 2026, les prix à la consommation sont stables sur un mois et augmentent de 2,0 % sur un an en Martinique",
+          "l": "https://www.insee.fr/fr/statistiques/9012083",
+          "d": "2026-06-25"
         },
         {
           "t": "En mai 2026, les prix à la consommation sont stables sur un mois et augmentent de 2,0 % sur un an en Guadeloupe",
@@ -1893,23 +1913,8 @@
           "d": "2026-06-25"
         },
         {
-          "t": "En mai 2026, les prix à la consommation sont stables sur un mois et augmentent de 2,0 % sur un an en Martinique",
-          "l": "https://www.insee.fr/fr/statistiques/9012083",
-          "d": "2026-06-25"
-        },
-        {
           "t": "23 000 personnes travaillent dans la filière automobile en Normandie",
           "l": "https://www.insee.fr/fr/statistiques/9008892",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "28 700 emplois sont dédiés à la filière automobile en Bourgogne-Franche-Comté",
-          "l": "https://www.insee.fr/fr/statistiques/9011913",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "Le Grand Est, deuxième région pour la part de l’emploi salarié dédié à l’automobile",
-          "l": "https://www.insee.fr/fr/statistiques/9010969",
           "d": "2026-06-25"
         },
         {
@@ -1918,13 +1923,13 @@
           "d": "2026-06-25"
         },
         {
-          "t": "12 900 emplois dédiés à l’activité automobile en Centre-Val de Loire",
-          "l": "https://www.insee.fr/fr/statistiques/9010892",
+          "t": "Le Grand Est, deuxième région pour la part de l’emploi salarié dédié à l’automobile",
+          "l": "https://www.insee.fr/fr/statistiques/9010969",
           "d": "2026-06-25"
         },
         {
-          "t": "Auvergne-Rhône-Alpes : la filière automobile génère 4,6 milliards de valeur ajoutée en 2023",
-          "l": "https://www.insee.fr/fr/statistiques/9010728",
+          "t": "28 700 emplois sont dédiés à la filière automobile en Bourgogne-Franche-Comté",
+          "l": "https://www.insee.fr/fr/statistiques/9011913",
           "d": "2026-06-25"
         },
         {
@@ -1933,13 +1938,8 @@
           "d": "2026-06-25"
         },
         {
-          "t": "Les Hauts-de-France, 4e région de France pour l’emploi salarié dans la filière automobile",
-          "l": "https://www.insee.fr/fr/statistiques/9006819",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "En 2025, la conjoncture dans le transport est en berne en Bretagne",
-          "l": "https://www.insee.fr/fr/statistiques/9013253",
+          "t": "12 900 emplois dédiés à l’activité automobile en Centre-Val de Loire",
+          "l": "https://www.insee.fr/fr/statistiques/9010892",
           "d": "2026-06-25"
         }
       ]
