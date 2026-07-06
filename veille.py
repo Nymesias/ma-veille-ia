@@ -412,7 +412,9 @@ def collecter_decisions_judilibre():
 
 def articles_pour(cible, articles):
     if cible == "news":
-        return [article for article in articles if article["categorie"] == "news"]
+        # "News" couvre l'actualite generale, pas uniquement les flux ranges
+        # sous la cle technique "news" (INSEE, etc.).
+        return [article for article in articles if article["categorie"] != "finance"]
     if cible == "finance":
         return [article for article in articles if article["categorie"] == "finance"]
     if cible == "cour-de-cassation":
@@ -527,6 +529,20 @@ def ecrire_markdown(cible, contenu):
     print(f"Fichier généré: {chemin}")
 
 
+def compte_rendu_sans_donnees(cible):
+    """Publie tout de meme le compte rendu quotidien d'une rubrique vide."""
+    titres = {
+        "news": f"Actualités générales — {HIER}",
+        "finance": f"Finance et économie — {HIER}",
+        "synthese": f"Synthèse de veille du {HIER}",
+    }
+    return (
+        f"# {titres[cible]}\n\n"
+        f"Aucune actualité datée du {HIER} n'a été publiée dans les flux "
+        "de cette rubrique."
+    )
+
+
 def envoyer_synthese_par_mail(texte_markdown):
     expediteur = os.getenv("EMAIL_SENDER")
     mot_de_passe = os.getenv("EMAIL_PASSWORD")
@@ -566,13 +582,10 @@ def main():
     synchroniser_listes(data_rss)
 
     if not MISTRAL_KEY:
-        print("MISTRAL_API_KEY absente: génération IA ignorée.")
-        return
-    if not articles and not sources_cassation:
-        print(f"Aucun article daté du {HIER} et aucune source Cour: aucun Markdown généré.")
-        return
+        raise RuntimeError("MISTRAL_API_KEY absente: génération IA impossible.")
 
     synthese = None
+    sorties_generees = set()
     # Les trois comptes rendus sont produits en premier. La synthèse mail est ensuite
     # générée à partir de toutes leurs sources, y compris celles de la Cour de cassation.
     for cible in ("news", "finance", "cour-de-cassation", "synthese"):
@@ -583,15 +596,30 @@ def main():
         else:
             selection = articles_pour(cible, articles)
         if not selection:
-            print(f"Aucune donnée pour {cible}: fichier non généré.")
+            if cible in ("news", "finance", "synthese"):
+                ecrire_markdown(cible, compte_rendu_sans_donnees(cible))
+                sorties_generees.add(cible)
+            else:
+                print(f"Aucune donnée pour {cible}: fichier non généré.")
             continue
         try:
             contenu = appeler_mistral(cible, selection)
             ecrire_markdown(cible, contenu)
+            sorties_generees.add(cible)
             if cible == "synthese":
                 synthese = contenu
         except Exception as exc:
             print(f"Erreur de génération {cible}: {exc}")
+
+    sorties_attendues = {"news", "finance", "synthese"}
+    if sources_cassation:
+        sorties_attendues.add("cour-de-cassation")
+    sorties_manquantes = sorties_attendues - sorties_generees
+    if sorties_manquantes:
+        raise RuntimeError(
+            "Générations quotidiennes manquantes: "
+            + ", ".join(sorted(sorties_manquantes))
+        )
 
     synchroniser_listes(data_rss)
     if synthese:
