@@ -37,7 +37,8 @@ jobs:
         env:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           MISTRAL_MODEL: ${{ vars.MISTRAL_MODEL || 'mistral-medium-3-5' }}
-          JUDILIBRE_KEY_ID: ${{ secrets.JUDILIBRE_KEY_ID }}
+          JUDILIBRE_OAUTH_CLIENT_ID: ${{ secrets.JUDILIBRE_OAUTH_CLIENT_ID }}
+          JUDILIBRE_OAUTH_CLIENT_SECRET: ${{ secrets.JUDILIBRE_OAUTH_CLIENT_SECRET }}
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}

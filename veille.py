@@ -25,7 +25,12 @@ FICHIER_LISTE_MD = "liste_md.json"
 FICHIER_LETTRES = "lettres_cour_cassation.json"
 FICHIER_DECISIONS = "decisions_judilibre.json"
 
-JUDILIBRE_KEY_ID = os.getenv("JUDILIBRE_KEY_ID")
+JUDILIBRE_OAUTH_CLIENT_ID = os.getenv("JUDILIBRE_OAUTH_CLIENT_ID")
+JUDILIBRE_OAUTH_CLIENT_SECRET = os.getenv("JUDILIBRE_OAUTH_CLIENT_SECRET")
+JUDILIBRE_OAUTH_URL = os.getenv(
+    "JUDILIBRE_OAUTH_URL",
+    "https://oauth.piste.gouv.fr/api/oauth/token",
+)
 JUDILIBRE_API_URL = os.getenv(
     "JUDILIBRE_API_URL",
     "https://api.piste.gouv.fr/cassation/judilibre/v1.0",
@@ -285,14 +290,33 @@ def sources_analyse_cassation(lettres, decisions):
 
 def collecter_decisions_judilibre():
     """Publie un cache sans secret des dernières décisions de la Cour de cassation."""
-    if not JUDILIBRE_KEY_ID:
-        print("JUDILIBRE_KEY_ID absente: collecte des décisions ignorée.")
+    if not JUDILIBRE_OAUTH_CLIENT_ID or not JUDILIBRE_OAUTH_CLIENT_SECRET:
+        print("Identifiants OAuth Judilibre absents: collecte des décisions ignorée.")
         return []
 
     try:
+        jeton = requests.post(
+            JUDILIBRE_OAUTH_URL,
+            data={
+                "grant_type": "client_credentials",
+                "client_id": JUDILIBRE_OAUTH_CLIENT_ID,
+                "client_secret": JUDILIBRE_OAUTH_CLIENT_SECRET,
+                "scope": "openid",
+            },
+            headers={"accept": "application/json"},
+            timeout=30,
+        )
+        jeton.raise_for_status()
+        acces = jeton.json().get("access_token")
+        if not acces:
+            raise RuntimeError("PISTE n'a pas renvoyé de jeton OAuth.")
+
         reponse = requests.get(
             f"{JUDILIBRE_API_URL}/export",
-            headers={"accept": "application/json", "KeyId": JUDILIBRE_KEY_ID},
+            headers={
+                "accept": "application/json",
+                "Authorization": f"Bearer {acces}",
+            },
             params={
                 # Sans filtre de juridiction, /export utilise "cc" par défaut.
                 # Un lot antéchronologique fournit directement les décisions
