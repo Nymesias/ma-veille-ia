@@ -23,6 +23,19 @@ textes officiels,Vie Publique|Actualités,https://www.vie-publique.fr/actualites
 textes officiels,Vie Publique|Lois,https://www.vie-publique.fr/lois-feeds.xml
 finance,AMF,https://www.amf-france.org/fr/flux-rss/display/21
 finance,AFT,https://www.aft.gouv.fr/fr/rss.xml
+finance,BCE|Politique monétaire,https://www.ecb.europa.eu/rss/press.html
+finance,Le Monde|Économie,https://www.lemonde.fr/economie/rss_full.xml
+finance,INSEE|Économie nationale,https://www.insee.fr/fr/flux/1
 news,INSEE|National,https://www.insee.fr/fr/flux/1
 news,INSEE|Régional,https://www.insee.fr/fr/flux/10
 news,Santé Publique France,https://www.santepubliquefrance.fr/flux-rss
+news,France 24|Géopolitique,https://www.france24.com/fr/rss
+news,Franceinfo|Actualités générales,https://www.franceinfo.fr/titres.rss
+news,Le Monde|Géopolitique,https://www.lemonde.fr/international/rss_full.xml
+news,Le Monde|Environnement,https://www.lemonde.fr/planete/rss_full.xml
+news,Le Monde|Politique nationale,https://www.lemonde.fr/politique/rss_full.xml
+news,Le Monde|Tech,https://www.lemonde.fr/pixels/rss_full.xml
+news,Le Monde|Société et pouvoir d'achat,https://www.lemonde.fr/societe/rss_full.xml
+news,Le Monde|Santé,https://www.lemonde.fr/sante/rss_full.xml
+news,Vie Publique|Actualités,https://www.vie-publique.fr/actualites-feeds.xml
+news,Vie Publique|Lois,https://www.vie-publique.fr/lois-feeds.xml

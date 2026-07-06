@@ -412,11 +412,22 @@ def collecter_decisions_judilibre():
 
 def articles_pour(cible, articles):
     if cible == "news":
-        # "News" couvre l'actualite generale, pas uniquement les flux ranges
-        # sous la cle technique "news" (INSEE, etc.).
-        return [article for article in articles if article["categorie"] != "finance"]
+        return [article for article in articles if article["categorie"] == "news"]
     if cible == "finance":
-        return [article for article in articles if article["categorie"] == "finance"]
+        mots_cles = (
+            "marché", "bourse", "action", "obligation", "taux", "inflation",
+            "dette", "déficit", "budget", "finances publiques", "comptes publics",
+            "économie", "croissance", "récession", "emploi", "chômage", "pib",
+            "banque", "crédit", "monétaire", "amf", "acpr", "bce", "régulation",
+        )
+        selection = []
+        for article in articles:
+            texte = " ".join(
+                (article["source"], article["titre"], article["resume"])
+            ).lower()
+            if article["categorie"] == "finance" or any(mot in texte for mot in mots_cles):
+                selection.append(article)
+        return selection
     if cible == "cour-de-cassation":
         return [
             article
@@ -459,8 +470,18 @@ def prompt_pour(cible, articles):
             "comme « Item », « Thème », « Résumé » ou « Source ». Retiens seulement 3 à 6 "
             "sujets majeurs au total et relie les informations qui traitent du même thème."
         ),
-        "news": "Retiens les faits d'actualité générale réellement significatifs.",
-        "finance": "Distingue faits, chiffres et conséquences possibles. N'invente aucune cotation.",
+        "news": (
+            "Construis un panorama équilibré des actualités significatives de la veille. "
+            "Couvre, lorsque les données le permettent, la géopolitique, l'environnement, "
+            "la politique nationale, la tech, les questions de société et de pouvoir d'achat, "
+            "la santé, puis toute autre actualité majeure. Ne force pas une rubrique sans fait "
+            "pertinent et évite qu'un seul thème occupe toute la synthèse."
+        ),
+        "finance": (
+            "Concentre-toi sur les marchés financiers, la dette souveraine, les comptes publics, "
+            "l'économie, la politique monétaire et la régulation. Distingue faits, chiffres et "
+            "conséquences possibles. N'invente aucune cotation."
+        ),
         "cour-de-cassation": (
             "Croise les décisions Judilibre avec les sélections éditoriales des Lettres lorsqu'un lien "
             "thématique est explicitement établi par les données. Distingue clairement : décisions "
