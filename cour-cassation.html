@@ -146,9 +146,12 @@
                 const decisions = Array.isArray(data.decisions)
                     ? [...data.decisions].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
                     : [];
-                if (!decisions.length) throw new Error('Aucune décision');
+                if (!decisions.length) {
+                    zone.innerHTML = `<p class="cassation-status">Aucune décision publiée le ${echapper(dateFrancaise(data.date_cible))}.</p>`;
+                    return;
+                }
                 zone.innerHTML = `
-                    <p class="cassation-updated">Mis à jour le ${echapper(dateMiseAJour(data.mis_a_jour))}. Les données proviennent de l'API officielle Judilibre.</p>
+                    <p class="cassation-updated">Décisions publiées le ${echapper(dateFrancaise(data.date_cible))} — mise à jour le ${echapper(dateMiseAJour(data.mis_a_jour))}.</p>
                     <div class="cassation-grid">${decisions.map(decision => `
                         <article class="cassation-card">
                             <span class="cassation-badge">${echapper(decision.chambre || 'Cour de cassation')}</span>

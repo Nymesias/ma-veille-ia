@@ -291,10 +291,18 @@ def collecter_decisions_judilibre():
         return soupe.select("article.decision-item-article")
 
     try:
-        for page in (0,):
+        for page in range(10):
+            params = {
+                "date_du": HIER,
+                "date_au": HIER,
+                "judilibre_juridiction": "cc",
+                "sort": "date-desc",
+                "items_per_page": 30,
+                "page": page,
+            }
             reponse = requests.get(
                 JUDILIBRE_PUBLIC_URL,
-                params={"page": page} if page else None,
+                params=params,
                 headers=entetes,
                 timeout=45,
             )
@@ -311,12 +319,16 @@ def collecter_decisions_judilibre():
                         wait_until="domcontentloaded",
                         timeout=90000,
                     )
-                    page_web.wait_for_selector(
-                        "article.decision-item-article",
+                    page_web.wait_for_function(
+                        """() => document.querySelector('article.decision-item-article')
+                        || document.body.innerText.includes('Aucun résultat')""",
                         timeout=90000,
                     )
                     articles = extraire_articles(page_web.content())
                     navigateur.close()
+
+            if not articles:
+                break
 
             for article in articles:
                 lien = article.select_one('a[href*="/decision/"]')
@@ -375,17 +387,17 @@ def collecter_decisions_judilibre():
                         "url": url,
                     }
                 )
+            if len(articles) < 30:
+                break
     except Exception as exc:
         raise RuntimeError(f"Erreur page publique Judilibre: {exc}") from exc
-
-    if not decisions:
-        raise RuntimeError("La page publique Judilibre n'a retourné aucune décision.")
 
     decisions.sort(key=lambda item: item["date"], reverse=True)
     with open(FICHIER_DECISIONS, "w", encoding="utf-8") as fichier:
         json.dump(
             {
                 "mis_a_jour": MAINTENANT.isoformat(timespec="seconds"),
+                "date_cible": HIER,
                 "total": len(decisions),
                 "source": JUDILIBRE_PUBLIC_URL,
                 "decisions": decisions,
@@ -394,7 +406,7 @@ def collecter_decisions_judilibre():
             indent=2,
             ensure_ascii=False,
         )
-    print(f"{len(decisions)} décisions Judilibre collectées.")
+    print(f"{len(decisions)} décisions Judilibre collectées pour le {HIER}.")
     return decisions
 
 
