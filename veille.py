@@ -7,6 +7,7 @@ import smtplib
 from datetime import datetime, timedelta
 from email.header import Header
 from email.mime.text import MIMEText
+from urllib.parse import urljoin
 
 import feedparser
 import markdown
@@ -25,16 +26,7 @@ FICHIER_LISTE_MD = "liste_md.json"
 FICHIER_LETTRES = "lettres_cour_cassation.json"
 FICHIER_DECISIONS = "decisions_judilibre.json"
 
-JUDILIBRE_OAUTH_CLIENT_ID = os.getenv("JUDILIBRE_OAUTH_CLIENT_ID")
-JUDILIBRE_OAUTH_CLIENT_SECRET = os.getenv("JUDILIBRE_OAUTH_CLIENT_SECRET")
-JUDILIBRE_OAUTH_URL = os.getenv(
-    "JUDILIBRE_OAUTH_URL",
-    "https://oauth.piste.gouv.fr/api/oauth/token",
-)
-JUDILIBRE_API_URL = os.getenv(
-    "JUDILIBRE_API_URL",
-    "https://api.piste.gouv.fr/cassation/judilibre/v1.0",
-)
+JUDILIBRE_PUBLIC_URL = "https://www.courdecassation.fr/recherche-judilibre"
 
 COLLECTIONS_LETTRES = {
     "Lettre de la Cour": 2666,
@@ -289,98 +281,91 @@ def sources_analyse_cassation(lettres, decisions):
 
 
 def collecter_decisions_judilibre():
-    """Publie un cache sans secret des dernières décisions de la Cour de cassation."""
-    if not JUDILIBRE_OAUTH_CLIENT_ID or not JUDILIBRE_OAUTH_CLIENT_SECRET:
-        print("Identifiants OAuth Judilibre absents: collecte des décisions ignorée.")
-        return []
-
-    try:
-        jeton = requests.post(
-            JUDILIBRE_OAUTH_URL,
-            data={
-                "grant_type": "client_credentials",
-                "client_id": JUDILIBRE_OAUTH_CLIENT_ID,
-                "client_secret": JUDILIBRE_OAUTH_CLIENT_SECRET,
-                "scope": "openid",
-            },
-            headers={"accept": "application/json"},
-            timeout=30,
-        )
-        if jeton.status_code == 400 and jeton.json().get("error") == "invalid_client":
-            # Certains clients PISTE exigent client_secret_basic plutôt que
-            # client_secret_post, malgré l'exemple historique de leur guide.
-            jeton = requests.post(
-                JUDILIBRE_OAUTH_URL,
-                data={"grant_type": "client_credentials", "scope": "openid"},
-                auth=(JUDILIBRE_OAUTH_CLIENT_ID, JUDILIBRE_OAUTH_CLIENT_SECRET),
-                headers={"accept": "application/json"},
-                timeout=30,
-            )
-        jeton.raise_for_status()
-        acces = jeton.json().get("access_token")
-        if not acces:
-            raise RuntimeError("PISTE n'a pas renvoyé de jeton OAuth.")
-
-        reponse = requests.get(
-            f"{JUDILIBRE_API_URL}/export",
-            headers={
-                "accept": "application/json",
-                "Authorization": f"Bearer {acces}",
-            },
-            params={
-                # Sans filtre de juridiction, /export utilise "cc" par défaut.
-                # Un lot antéchronologique fournit directement les décisions
-                # les plus récentes visibles dans Judilibre.
-                "order": "desc",
-                "batch": 0,
-                "batch_size": 20,
-                "resolve_references": "true",
-            },
-            timeout=45,
-        )
-        reponse.raise_for_status()
-        donnees = reponse.json()
-    except requests.HTTPError as exc:
-        corps = exc.response.text[:1000] if exc.response is not None else ""
-        raise RuntimeError(f"Erreur API Judilibre: {exc} — {corps}") from exc
-    except Exception as exc:
-        raise RuntimeError(f"Erreur API Judilibre: {exc}") from exc
-
+    """Collecte les dernières décisions depuis la page publique Judilibre."""
+    base = "https://www.courdecassation.fr"
+    entetes = {"User-Agent": "Mozilla/5.0 (veille-juridique; contact local)"}
     decisions = []
-    for resultat in donnees.get("results", []):
-        identifiant = resultat.get("id") or resultat.get("_id")
-        juridiction = str(resultat.get("jurisdiction", "")).lower()
-        if juridiction and juridiction not in {"cc", "cour de cassation"}:
-            continue
-        decisions.append(
-            {
-                "id": identifiant,
-                "date": resultat.get("decision_date") or resultat.get("date_decision") or "",
-                "chambre": valeur_liste(resultat.get("chamber")),
-                "formation": valeur_liste(resultat.get("formation")),
-                "numero": resultat.get("number") or resultat.get("numero") or "",
-                "solution": valeur_liste(resultat.get("solution")),
-                "publication": valeur_liste(resultat.get("publication")),
-                "sommaire": nettoyer_texte(
-                    resultat.get("summary")
-                    or resultat.get("sommaire")
-                    or "",
-                    700,
-                ),
-                "url": (
-                    f"https://www.courdecassation.fr/decision/{identifiant}"
-                    if identifiant
-                    else "https://www.courdecassation.fr/recherche-judilibre"
-                ),
-            }
-        )
+    identifiants = set()
+    try:
+        for page in (0, 1):
+            reponse = requests.get(
+                JUDILIBRE_PUBLIC_URL,
+                params={"page": page} if page else None,
+                headers=entetes,
+                timeout=45,
+            )
+            reponse.raise_for_status()
+            soupe = BeautifulSoup(reponse.text, "html.parser")
+            for article in soupe.select("article.decision-item-article"):
+                lien = article.select_one('a[href*="/decision/"]')
+                entete = article.select_one(".decision-item--header h3")
+                if not lien or not entete:
+                    continue
+                url = urljoin(base, lien.get("href", "")).split("?", 1)[0]
+                correspondance_id = re.search(r"/decision/([^/?]+)", url)
+                identifiant = correspondance_id.group(1) if correspondance_id else url
+                if identifiant in identifiants:
+                    continue
+                identifiants.add(identifiant)
+
+                texte_entete = nettoyer_texte(entete.get_text(" ", strip=True), 300)
+                correspondance = re.search(
+                    r"(\d{1,2})\s+([A-Za-zÀ-ÿ]+)\s+(\d{4}).*?Pourvoi\s+n[°º]\s*([^\s]+)",
+                    texte_entete,
+                    re.IGNORECASE,
+                )
+                date_decision = ""
+                numero = ""
+                if correspondance:
+                    jour, mois, annee, numero = correspondance.groups()
+                    numero_mois = MOIS_FRANCAIS.get(mois.lower())
+                    if numero_mois:
+                        date_decision = f"{annee}-{numero_mois:02d}-{int(jour):02d}"
+
+                secondaires = article.select(".decision-item-header--secondary")
+                chambre_formation = nettoyer_texte(
+                    next((p.get_text(" ", strip=True) for p in secondaires if "solution" not in p.get("class", [])), ""),
+                    250,
+                )
+                chambre, _, formation = chambre_formation.partition(" - ")
+                decisions.append(
+                    {
+                        "id": identifiant,
+                        "date": date_decision,
+                        "chambre": chambre,
+                        "formation": formation,
+                        "numero": numero,
+                        "solution": nettoyer_texte(
+                            article.select_one(".solution").get_text(" ", strip=True)
+                            if article.select_one(".solution") else "",
+                            100,
+                        ),
+                        "publication": nettoyer_texte(
+                            article.select_one(".decision-item-header--large").get_text(" ", strip=True)
+                            if article.select_one(".decision-item-header--large") else "",
+                            200,
+                        ),
+                        "sommaire": nettoyer_texte(
+                            article.select_one(".decision-summary").get_text(" ", strip=True)
+                            if article.select_one(".decision-summary") else "",
+                            700,
+                        ),
+                        "url": url,
+                    }
+                )
+    except Exception as exc:
+        raise RuntimeError(f"Erreur page publique Judilibre: {exc}") from exc
+
+    if not decisions:
+        raise RuntimeError("La page publique Judilibre n'a retourné aucune décision.")
 
     decisions.sort(key=lambda item: item["date"], reverse=True)
     with open(FICHIER_DECISIONS, "w", encoding="utf-8") as fichier:
         json.dump(
             {
                 "mis_a_jour": MAINTENANT.isoformat(timespec="seconds"),
-                "total_api": donnees.get("total"),
+                "total": len(decisions),
+                "source": JUDILIBRE_PUBLIC_URL,
                 "decisions": decisions,
             },
             fichier,
