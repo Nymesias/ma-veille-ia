@@ -289,20 +289,17 @@ def collecter_decisions_judilibre():
         print("JUDILIBRE_KEY_ID absente: collecte des décisions ignorée.")
         return []
 
-    date_debut = (MAINTENANT - timedelta(days=45)).strftime("%Y-%m-%d")
-    date_fin = MAINTENANT.strftime("%Y-%m-%d")
     try:
         reponse = requests.get(
             f"{JUDILIBRE_API_URL}/export",
             headers={"accept": "application/json", "KeyId": JUDILIBRE_KEY_ID},
             params={
-                "jurisdiction": "cc",
-                "date_start": date_debut,
-                "date_end": date_fin,
-                "date_type": "creation",
+                # Sans filtre de juridiction, /export utilise "cc" par défaut.
+                # Un lot antéchronologique fournit directement les décisions
+                # les plus récentes visibles dans Judilibre.
+                "order": "desc",
                 "batch": 0,
-                "batch_size": 50,
-                "abridged": "true",
+                "batch_size": 20,
                 "resolve_references": "true",
             },
             timeout=45,
@@ -311,11 +308,9 @@ def collecter_decisions_judilibre():
         donnees = reponse.json()
     except requests.HTTPError as exc:
         corps = exc.response.text[:1000] if exc.response is not None else ""
-        print(f"Erreur API Judilibre: {exc} — {corps}")
-        return []
+        raise RuntimeError(f"Erreur API Judilibre: {exc} — {corps}") from exc
     except Exception as exc:
-        print(f"Erreur API Judilibre: {exc}")
-        return []
+        raise RuntimeError(f"Erreur API Judilibre: {exc}") from exc
 
     decisions = []
     for resultat in donnees.get("results", []):
