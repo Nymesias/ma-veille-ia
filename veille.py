@@ -137,6 +137,48 @@ def synchroniser_listes(data_rss):
         json.dump(fichiers, fichier, indent=2, ensure_ascii=False)
 
 
+MOIS_FRANCAIS = {
+    "janvier": 1,
+    "février": 2,
+    "mars": 3,
+    "avril": 4,
+    "mai": 5,
+    "juin": 6,
+    "juillet": 7,
+    "août": 8,
+    "septembre": 9,
+    "octobre": 10,
+    "novembre": 11,
+    "décembre": 12,
+}
+
+
+def date_lettre(article, titre):
+    """Extrait une date ISO de la page, avec le mois du titre comme repli."""
+    balise_temps = article.select_one("time[datetime]")
+    if balise_temps:
+        valeur = balise_temps.get("datetime", "")
+        correspondance = re.search(r"\d{4}-\d{2}-\d{2}", valeur)
+        if correspondance:
+            return correspondance.group(0)
+
+    texte = nettoyer_texte(article.get_text(" ", strip=True), 1000).lower()
+    correspondance = re.search(r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b", texte)
+    if correspondance:
+        jour, mois, annee = map(int, correspondance.groups())
+        try:
+            return datetime(annee, mois, jour).strftime("%Y-%m-%d")
+        except ValueError:
+            pass
+
+    texte_titre = titre.lower()
+    for nom_mois, numero_mois in MOIS_FRANCAIS.items():
+        correspondance = re.search(rf"\b{nom_mois}\s+(\d{{4}})\b", texte_titre)
+        if correspondance:
+            return f"{correspondance.group(1)}-{numero_mois:02d}-01"
+    return ""
+
+
 def collecter_lettres():
     """Collecte les dernières parutions des huit collections officielles."""
     base = "https://www.courdecassation.fr"
@@ -172,17 +214,20 @@ def collecter_lettres():
                     nettoyer_texte(p.get_text(" ", strip=True), 500)
                     for p in article.select("p")
                 ]
+                titre = nettoyer_texte(lien.get_text(" ", strip=True), 250)
                 lettres.append(
                     {
                         "collection": collection,
-                        "titre": nettoyer_texte(lien.get_text(" ", strip=True), 250),
+                        "titre": titre,
                         "resume": next((p for p in paragraphes if p and p != collection), ""),
                         "url": url,
+                        "date": date_lettre(article, titre),
                     }
                 )
         except Exception as exc:
             print(f"Erreur collecte {collection}: {exc}")
 
+    lettres.sort(key=lambda lettre: lettre.get("date", ""), reverse=True)
     if lettres:
         with open(FICHIER_LETTRES, "w", encoding="utf-8") as fichier:
             json.dump(
@@ -211,7 +256,7 @@ def sources_analyse_cassation(lettres, decisions):
                 "source": lettre.get("collection", "Cour de cassation"),
                 "titre": lettre.get("titre", "Lettre de la Cour de cassation"),
                 "lien": lettre.get("url", ""),
-                "date": AUJOURDHUI,
+                "date": lettre.get("date") or AUJOURDHUI,
                 "resume": lettre.get("resume", ""),
             }
         )
@@ -251,10 +296,10 @@ def collecter_decisions_judilibre():
             f"{JUDILIBRE_API_URL}/export",
             headers={"accept": "application/json", "KeyId": JUDILIBRE_KEY_ID},
             params={
+                "jurisdiction": "cc",
                 "date_start": date_debut,
                 "date_end": date_fin,
                 "date_type": "creation",
-                "order": "desc",
                 "batch": 0,
                 "batch_size": 50,
                 "abridged": "true",
@@ -355,7 +400,15 @@ def prompt_pour(cible, articles):
         "cour-de-cassation": f"Cour de cassation — {HIER}",
     }
     specificites = {
-        "synthese": "Regroupe les informations par catégorie et fais ressortir 3 à 6 faits majeurs.",
+        "synthese": (
+            "Organise le mail en trois rubriques lorsque les données le permettent : News, "
+            "Finance et Cour de cassation. Pour chaque sujet retenu, écris un petit bloc "
+            "éditorial composé d'un intitulé de thème en gras, d'un résumé succinct de deux "
+            "ou trois phrases, puis d'un lien sur une ligne séparée sous la forme "
+            "[Lire l'article](URL). N'utilise ni numérotation, ni puces, ni libellés répétitifs "
+            "comme « Item », « Thème », « Résumé » ou « Source ». Retiens seulement 3 à 6 "
+            "sujets majeurs au total et relie les informations qui traitent du même thème."
+        ),
         "news": "Retiens les faits d'actualité générale réellement significatifs.",
         "finance": "Distingue faits, chiffres et conséquences possibles. N'invente aucune cotation.",
         "cour-de-cassation": (
@@ -366,6 +419,12 @@ def prompt_pour(cible, articles):
             "sobrement la portée juridique sans inventer de solution."
         ),
     }
+    regle_format = (
+        "- Utilise des titres Markdown ##, puis des puces factuelles.\n"
+        "- Place le lien de la source au bout de chaque puce sous la forme [Source](URL)."
+        if cible != "synthese"
+        else "- Adopte un ton éditorial fluide et respecte strictement le format de blocs demandé."
+    )
     return f"""Tu rédiges un briefing professionnel en français à partir des seules données ci-dessous.
 
 Titre exact à utiliser : # {titres[cible]}
@@ -375,8 +434,7 @@ Règles impératives :
 - Si les données sont insuffisantes pour affirmer un point, omets-le.
 - Déduplique les sujets repris par plusieurs sources.
 - Sois synthétique : 350 à 700 mots, phrases courtes, aucun remplissage.
-- Utilise des titres Markdown ##, puis des puces factuelles.
-- Place le lien de la source au bout de chaque puce sous la forme [Source](URL).
+{regle_format}
 - Ne crée ni bibliographie séparée, ni note de méthode, ni prévision.
 - {specificites[cible]}
 
@@ -467,12 +525,15 @@ def main():
         return
 
     synthese = None
-    for cible in ("synthese", "news", "finance", "cour-de-cassation"):
-        selection = (
-            sources_cassation
-            if cible == "cour-de-cassation"
-            else articles_pour(cible, articles)
-        )
+    # Les trois comptes rendus sont produits en premier. La synthèse mail est ensuite
+    # générée à partir de toutes leurs sources, y compris celles de la Cour de cassation.
+    for cible in ("news", "finance", "cour-de-cassation", "synthese"):
+        if cible == "cour-de-cassation":
+            selection = sources_cassation
+        elif cible == "synthese":
+            selection = articles + sources_cassation
+        else:
+            selection = articles_pour(cible, articles)
         if not selection:
             print(f"Aucune donnée pour {cible}: fichier non généré.")
             continue

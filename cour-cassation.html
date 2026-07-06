@@ -106,10 +106,16 @@
         async function chargerLettres() {
             const zone = document.getElementById('panel-lettres');
             try {
-                const res = await fetch('lettres_cour_cassation.json');
+                // Le paramètre et no-store évitent qu'un ancien JSON de GitHub Pages
+                // reste affiché après la synchronisation quotidienne.
+                const res = await fetch(`lettres_cour_cassation.json?v=${Date.now()}`, {
+                    cache: 'no-store'
+                });
                 if (!res.ok) throw new Error('Cache des Lettres indisponible');
                 const data = await res.json();
-                const lettres = Array.isArray(data.lettres) ? data.lettres : [];
+                const lettres = Array.isArray(data.lettres)
+                    ? [...data.lettres].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+                    : [];
                 if (!lettres.length) throw new Error('Aucune Lettre');
                 zone.innerHTML = `
                     <p class="cassation-updated">Mis à jour le ${echapper(dateMiseAJour(data.mis_a_jour))} —
@@ -118,6 +124,7 @@
                         <article class="cassation-card">
                             <span class="cassation-badge">${echapper(lettre.collection)}</span>
                             <h2>${echapper(lettre.titre)}</h2>
+                            ${lettre.date ? `<p class="cassation-meta">Publiée le ${echapper(dateFrancaise(lettre.date))}</p>` : ''}
                             ${lettre.resume ? `<p>${echapper(lettre.resume)}</p>` : ''}
                             <a class="cassation-link" href="${echapper(lettre.url)}" target="_blank" rel="noopener noreferrer">Lire la Lettre →</a>
                         </article>`).join('')}</div>`;
@@ -131,10 +138,14 @@
         async function chargerDecisions() {
             const zone = document.getElementById('panel-decisions');
             try {
-                const res = await fetch('decisions_judilibre.json');
+                const res = await fetch(`decisions_judilibre.json?v=${Date.now()}`, {
+                    cache: 'no-store'
+                });
                 if (!res.ok) throw new Error('Cache Judilibre indisponible');
                 const data = await res.json();
-                const decisions = Array.isArray(data.decisions) ? data.decisions : [];
+                const decisions = Array.isArray(data.decisions)
+                    ? [...data.decisions].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+                    : [];
                 if (!decisions.length) throw new Error('Aucune décision');
                 zone.innerHTML = `
                     <p class="cassation-updated">Mis à jour le ${echapper(dateMiseAJour(data.mis_a_jour))}. Les données proviennent de l'API officielle Judilibre.</p>
@@ -174,6 +185,12 @@
             bouton.addEventListener('click', () => afficherOnglet(bouton.dataset.tab));
         });
         afficherOnglet('analyses');
+
+        // Si la page reste ouverte, les Lettres sont resynchronisées visuellement
+        // toutes les quinze minutes dès que leur onglet a déjà été consulté.
+        window.setInterval(() => {
+            if (etatCharge.lettres) chargerLettres();
+        }, 15 * 60 * 1000);
     </script>
 </body>
 </html>
