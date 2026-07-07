@@ -587,6 +587,92 @@ def compte_rendu_sans_donnees(cible):
     )
 
 
+def generer_html_mail(texte_markdown):
+    """Construit un email autonome, fidèle à la charte graphique du site."""
+    corps = markdown.markdown(texte_markdown)
+    soupe = BeautifulSoup(corps, "html.parser")
+
+    # Le titre principal est déjà repris dans le bandeau du mail.
+    titre_markdown = soupe.find("h1")
+    if titre_markdown:
+        titre_markdown.decompose()
+
+    styles = {
+        "h2": (
+            "margin:32px 0 14px;color:#2c3e50;font-size:20px;line-height:1.3;"
+            "font-weight:700;border-bottom:1px solid #e6ecef;padding-bottom:9px;"
+        ),
+        "h3": "margin:24px 0 10px;color:#2c3e50;font-size:17px;line-height:1.4;font-weight:700;",
+        "p": "margin:0 0 18px;color:#333333;font-size:15px;line-height:1.7;",
+        "ul": "margin:0 0 20px;padding-left:22px;color:#333333;",
+        "ol": "margin:0 0 20px;padding-left:22px;color:#333333;",
+        "li": "margin:0 0 9px;font-size:15px;line-height:1.65;",
+        "strong": "color:#2c3e50;font-weight:700;",
+        "blockquote": (
+            "margin:20px 0;padding:14px 18px;background:#eef6fc;border-left:4px solid #3498db;"
+            "color:#44515d;"
+        ),
+    }
+    for balise, style in styles.items():
+        for element in soupe.find_all(balise):
+            element["style"] = style
+
+    for lien in soupe.find_all("a"):
+        lien["style"] = "color:#2479b5;text-decoration:underline;font-weight:600;"
+        lien["target"] = "_blank"
+
+        # Les liens « Lire l'article » deviennent des appels à l'action homogènes.
+        if lien.get_text(" ", strip=True).lower().startswith("lire"):
+            lien["style"] = (
+                "display:inline-block;background:#3498db;color:#ffffff;text-decoration:none;"
+                "font-size:14px;line-height:20px;font-weight:700;padding:9px 16px;border-radius:5px;"
+            )
+
+    contenu = str(soupe)
+    archives_url = "https://nymesias.github.io/ma-veille-ia/"
+    return f"""<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ma Veille Personnalisée — {HIER}</title>
+</head>
+<body style="margin:0;padding:0;background:#f4f7f6;font-family:'Segoe UI',Tahoma,Arial,sans-serif;color:#333333;">
+  <div style="display:none;max-height:0;overflow:hidden;opacity:0;">Votre synthèse de veille du {HIER}.</div>
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f4f7f6;">
+    <tr>
+      <td align="center" style="padding:24px 12px;">
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:760px;">
+          <tr>
+            <td style="background:#2c3e50;padding:28px 34px;text-align:center;border-radius:8px 8px 0 0;">
+              <div style="color:#ffffff;font-size:25px;line-height:1.25;font-weight:700;">Ma Veille Personnalisée</div>
+              <div style="margin-top:8px;color:#b9d9ee;font-size:13px;line-height:1.4;text-transform:uppercase;letter-spacing:1px;">Synthèse du {HIER}</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="background:#ffffff;border-left:6px solid #3498db;padding:30px 34px 18px;box-shadow:0 4px 15px rgba(0,0,0,0.08);">
+              {contenu}
+            </td>
+          </tr>
+          <tr>
+            <td style="background:#ffffff;border-left:6px solid #3498db;padding:8px 34px 32px;text-align:center;border-radius:0 0 8px 0;">
+              <a href="{archives_url}" target="_blank" style="display:inline-block;background:#2c3e50;color:#ffffff;text-decoration:none;font-size:14px;line-height:20px;font-weight:700;padding:11px 20px;border-radius:5px;">Consulter les archives</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:18px 20px 0;text-align:center;color:#7f8c8d;font-size:12px;line-height:1.5;">
+              Généré automatiquement par Mistral AI<br>
+              Ma Veille Personnalisée
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>"""
+
+
 def envoyer_synthese_par_mail(texte_markdown):
     expediteur = os.getenv("EMAIL_SENDER")
     mot_de_passe = os.getenv("EMAIL_PASSWORD")
@@ -595,13 +681,7 @@ def envoyer_synthese_par_mail(texte_markdown):
         print("Variables d'email manquantes: envoi ignoré.")
         return
 
-    corps = markdown.markdown(texte_markdown)
-    html_final = f"""<html><body style="font-family:Segoe UI,Arial,sans-serif;background:#f4f7f6">
-    <main style="max-width:800px;margin:auto;background:white;padding:30px;border-left:6px solid #3498db">
-    {corps}</main>
-    <p style="text-align:center;color:#777">Généré automatiquement par Mistral AI —
-    <a href="https://nymesias.github.io/ma-veille-ia/">Accéder aux archives</a></p>
-    </body></html>"""
+    html_final = generer_html_mail(texte_markdown)
     message = MIMEText(html_final, "html", "utf-8")
     message["Subject"] = Header(f"Veille du {HIER}", "utf-8")
     message["From"] = expediteur
