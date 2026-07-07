@@ -44,6 +44,8 @@ finance,INSEE|Économie nationale,https://www.insee.fr/fr/flux/1
 finance,EBA|Supervision bancaire UE,https://www.eba.europa.eu/rss.xml
 finance,ESMA|Marchés financiers UE,https://www.esma.europa.eu/rss.xml
 finance,EIOPA|Assurance pensions UE,https://www.eiopa.europa.eu/node/4816/rss_en
+finance,Cour des comptes|Arrêts et publications,https://www.ccomptes.fr/rss/publications
+finance,Cour des comptes|Institution,https://www.ccomptes.fr/rss/juridiction/98
 news,INSEE|Régional,https://www.insee.fr/fr/flux/10
 news,Santé publique France|Canicule,https://www.santepubliquefrance.fr/index.php/rss/1069
 news,Santé publique France|Respiratoire,https://www.santepubliquefrance.fr/index.php/rss/1024

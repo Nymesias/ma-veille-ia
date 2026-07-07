@@ -24,6 +24,9 @@ MISTRAL_MAX_OUTPUT_TOKENS = int(os.getenv("MISTRAL_MAX_OUTPUT_TOKENS", "900"))
 MISTRAL_MAX_ARTICLES = int(os.getenv("MISTRAL_MAX_ARTICLES", "24"))
 MISTRAL_MAX_ARTICLES_PAR_SOURCE = int(os.getenv("MISTRAL_MAX_ARTICLES_PAR_SOURCE", "4"))
 MISTRAL_TOKEN_CHARS = int(os.getenv("MISTRAL_TOKEN_CHARS", "4"))
+MISTRAL_ANALYSE_JURIDIQUE_MAX_ARTICLES = int(
+    os.getenv("MISTRAL_ANALYSE_JURIDIQUE_MAX_ARTICLES", str(MISTRAL_MAX_ARTICLES))
+)
 
 DOSSIER_MD = "markdown"
 FICHIER_SOURCES = "sources.csv"
@@ -34,6 +37,12 @@ FICHIER_DECISIONS = "decisions_judilibre.json"
 FICHIER_QUOTA_MISTRAL = ".mistral_quota.json"
 
 JUDILIBRE_PUBLIC_URL = "https://www.courdecassation.fr/recherche-judilibre"
+JURIDIQUE_ANALYSE_CATEGORIES = {
+    "revues",
+    "blogs",
+    "textes officiels",
+    "juridictions",
+}
 
 COLLECTIONS_LETTRES = {
     "Lettre de la Cour": 2666,
@@ -514,6 +523,112 @@ def articles_pour(cible, articles):
     return articles
 
 
+def texte_article(article):
+    return " ".join(
+        str(article.get(champ, ""))
+        for champ in ("categorie", "source", "titre", "resume")
+    ).lower()
+
+
+def selection_analyse_juridique(articles, sources_cassation, analyse_cassation=None):
+    """Prepare une selection juridique compacte et equilibree pour Mistral."""
+    articles_juridiques = [
+        article
+        for article in articles
+        if article.get("categorie") in JURIDIQUE_ANALYSE_CATEGORIES
+    ]
+    if analyse_cassation:
+        cassation = [{**analyse_cassation, "categorie": "cour de cassation"}]
+    else:
+        cassation = [
+            {**source, "categorie": "cour de cassation"}
+            for source in sources_cassation
+        ]
+    candidats = articles_juridiques + cassation
+
+    def priorite(article):
+        texte = texte_article(article)
+        if "conseil d'etat" in texte or "conseil d’état" in texte:
+            return 0
+        if "cour de cassation" in texte:
+            return 1
+        ordre_categories = {
+            "juridictions": 2,
+            "textes officiels": 3,
+            "revues": 4,
+            "blogs": 5,
+            "cour de cassation": 1,
+        }
+        return ordre_categories.get(article.get("categorie"), 9)
+
+    candidats.sort(key=lambda article: (priorite(article), article.get("source", "")))
+
+    selection = []
+    liens_vus = set()
+
+    def ajouter(article):
+        if len(selection) >= MISTRAL_ANALYSE_JURIDIQUE_MAX_ARTICLES:
+            return
+        cle = article.get("lien") or (
+            article.get("source", ""),
+            article.get("titre", ""),
+        )
+        if cle in liens_vus:
+            return
+        liens_vus.add(cle)
+        selection.append(article)
+
+    for article in candidats:
+        if priorite(article) == 0:
+            ajouter(article)
+        if len([item for item in selection if priorite(item) == 0]) >= 6:
+            break
+
+    for categorie in ("juridictions", "textes officiels", "revues", "blogs"):
+        for article in candidats:
+            if article.get("categorie") == categorie:
+                ajouter(article)
+                break
+
+    for article in candidats:
+        if priorite(article) == 1:
+            ajouter(article)
+        if len([item for item in selection if priorite(item) == 1]) >= 6:
+            break
+
+    for article in candidats:
+        ajouter(article)
+
+    return selection
+
+
+def source_depuis_markdown(cible, contenu):
+    titres = {
+        "juridique-analyse": "Analyse juridique transversale",
+        "cour-de-cassation": "Analyse Cour de cassation",
+    }
+    return {
+        "categorie": "analyse ia",
+        "source": titres.get(cible, cible),
+        "titre": titres.get(cible, cible),
+        "lien": f"markdown/{AUJOURDHUI}-{cible}.md",
+        "date": AUJOURDHUI,
+        "resume": nettoyer_texte(contenu, 1800),
+    }
+
+
+def sources_synthese_generale(articles, analyse_juridique=None):
+    """Utilise une synthese juridique compacte pour limiter le prompt global."""
+    sources = [
+        article
+        for article in articles
+        if article.get("categorie") not in JURIDIQUE_ANALYSE_CATEGORIES
+    ]
+    if analyse_juridique:
+        sources.append(analyse_juridique)
+    return sources
+
+
 def donnees_prompt(articles):
     blocs = []
     for numero, article in enumerate(articles, start=1):
@@ -568,6 +683,7 @@ def prompt_pour(cible, articles):
         "news": f"Actualités générales — {HIER}",
         "finance": f"Finance et économie — {HIER}",
         "cour-de-cassation": f"Cour de cassation — {HIER}",
+        "juridique-analyse": f"Analyse juridique transversale — {HIER}",
     }
     specificites = {
         "synthese": (
@@ -599,6 +715,14 @@ def prompt_pour(cible, articles):
             "notables, tendances par chambre et nouvelles parutions. Pour chaque décision, indique la "
             "chambre, la date et le numéro uniquement s'ils figurent dans les données. Explique "
             "sobrement la portée juridique sans inventer de solution."
+        ),
+        "juridique-analyse": (
+            "Résume transversalement les onglets juridiques : revues, blogs, textes officiels, "
+            "juridictions et Cour de cassation. Structure en quatre à six items maximum, chacun "
+            "rattaché à une source. Mets un focus spécifique sur le Conseil d'État : si des données "
+            "le concernent, il doit avoir un item ou un paragraphe clairement identifiable; sinon, "
+            "signale sobrement qu'aucun fait exploitable du jour ne le concerne. Termine par un court "
+            "point de synthèse transversal en deux phrases maximum."
         ),
     }
     regle_format = (
@@ -713,6 +837,7 @@ def compte_rendu_sans_donnees(cible):
     titres = {
         "news": f"Actualités générales — {HIER}",
         "finance": f"Finance et économie — {HIER}",
+        "juridique-analyse": f"Analyse juridique transversale — {HIER}",
         "synthese": f"Synthèse de veille du {HIER}",
     }
     return (
@@ -851,20 +976,31 @@ def main():
     )
 
     synthese = None
+    analyse_cassation = None
+    analyse_juridique = None
     sorties_generees = set()
-    # Les trois comptes rendus sont produits en premier. La synthèse mail est ensuite
-    # générée à partir de toutes leurs sources, y compris celles de la Cour de cassation.
-    for cible in ("news", "finance", "cour-de-cassation", "synthese"):
+    # Les comptes rendus detailles sont produits en premier. La synthese mail reutilise
+    # ensuite l'analyse juridique compacte pour rester dans le budget d'entree Mistral.
+    for cible in ("news", "finance", "cour-de-cassation", "juridique-analyse", "synthese"):
         if cible == "cour-de-cassation":
             selection = sources_cassation
+        elif cible == "juridique-analyse":
+            selection = selection_analyse_juridique(
+                articles,
+                sources_cassation,
+                analyse_cassation,
+            )
         elif cible == "synthese":
-            selection = articles + sources_cassation
+            selection = sources_synthese_generale(articles, analyse_juridique)
         else:
             selection = articles_pour(cible, articles)
         if not selection:
-            if cible in ("news", "finance", "synthese"):
-                ecrire_markdown(cible, compte_rendu_sans_donnees(cible))
+            if cible in ("news", "finance", "juridique-analyse", "synthese"):
+                contenu = compte_rendu_sans_donnees(cible)
+                ecrire_markdown(cible, contenu)
                 sorties_generees.add(cible)
+                if cible == "juridique-analyse":
+                    analyse_juridique = source_depuis_markdown(cible, contenu)
             else:
                 print(f"Aucune donnée pour {cible}: fichier non généré.")
             continue
@@ -872,12 +1008,16 @@ def main():
             contenu = appeler_mistral(cible, selection, quota_mistral)
             ecrire_markdown(cible, contenu)
             sorties_generees.add(cible)
+            if cible == "cour-de-cassation":
+                analyse_cassation = source_depuis_markdown(cible, contenu)
+            if cible == "juridique-analyse":
+                analyse_juridique = source_depuis_markdown(cible, contenu)
             if cible == "synthese":
                 synthese = contenu
         except Exception as exc:
             print(f"Erreur de génération {cible}: {exc}")
 
-    sorties_attendues = {"news", "finance", "synthese"}
+    sorties_attendues = {"news", "finance", "juridique-analyse", "synthese"}
     if sources_cassation:
         sorties_attendues.add("cour-de-cassation")
     sorties_manquantes = sorties_attendues - sorties_generees

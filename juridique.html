@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Ma Veille Personnalisée</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <header>
@@ -25,6 +26,7 @@
             <button class="tab-btn" onclick="piloterOnglet(this, 'Revues')">Revues</button>
             <button class="tab-btn" onclick="piloterOnglet(this, 'Blogs')">Blogs</button>
             <button class="tab-btn" onclick="piloterOnglet(this, 'Juridictions')">Juridictions</button>
+            <button class="tab-btn" onclick="piloterOnglet(this, 'Analyse')">Analyse</button>
         </div>
 
         <div style="text-align: right; margin-bottom: 20px;">
@@ -55,8 +57,41 @@
         ongletActif = categorie;
         
         // 3. Chargement des données de CET onglet avec le tri ACTUEL
+        if (ongletActif === 'Analyse') {
+            await chargerAnalyseJuridique();
+            return;
+        }
         console.log(`Chargement de ${ongletActif} trié par ${triActuel}`);
+        document.getElementById('juridique-content').classList.add('grille-veille');
+        document.getElementById('juridique-content').classList.remove('post-md');
         await chargerFluxRSS(ongletActif, 'juridique-content', triActuel);
+    }
+
+    async function chargerAnalyseJuridique() {
+        const container = document.getElementById('juridique-content');
+        container.classList.remove('grille-veille');
+        container.classList.add('post-md');
+        container.innerHTML = "<p style='text-align:center;'>Chargement de l'analyse...</p>";
+        try {
+            const res = await fetch('liste_md.json');
+            if (!res.ok) throw new Error('Liste indisponible');
+            const fichiers = await res.json();
+            const analyse = fichiers.find(f => f.nom_fichier.toLowerCase().includes('juridique-analyse'));
+            if (!analyse) {
+                container.innerHTML = "<p>Aucune analyse juridique disponible.</p>";
+                return;
+            }
+            const mdRes = await fetch(`markdown/${analyse.nom_fichier}`);
+            if (!mdRes.ok) throw new Error('Analyse indisponible');
+            const texte = await mdRes.text();
+            container.innerHTML = `
+                <span class="date">Analyse du ${analyse.date_affichage}</span>
+                <div class="article-body">${marked.parse(texte)}</div>
+            `;
+        } catch (erreur) {
+            console.error('Erreur analyse juridique :', erreur);
+            container.innerHTML = "<p>Impossible de charger l'analyse juridique.</p>";
+        }
     }
 
     // --- FONCTION POUR LES BOUTONS DE TRI (Date, Source) ---
@@ -76,7 +111,13 @@
         btnDate.classList.remove('active');
     }
 
-    await chargerFluxRSS(ongletActif, 'juridique-content', mode);
+    if (ongletActif === 'Analyse') {
+        await chargerAnalyseJuridique();
+    } else {
+        document.getElementById('juridique-content').classList.add('grille-veille');
+        document.getElementById('juridique-content').classList.remove('post-md');
+        await chargerFluxRSS(ongletActif, 'juridique-content', mode);
+    }
 }
 
     // --- DÉMARRAGE ---
