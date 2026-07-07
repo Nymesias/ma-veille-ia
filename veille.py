@@ -17,7 +17,12 @@ from bs4 import BeautifulSoup
 
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 MISTRAL_KEY = os.getenv("MISTRAL_API_KEY")
-MISTRAL_MODEL = os.getenv("MISTRAL_MODEL", "mistral-medium-3-5")
+MISTRAL_MODEL = os.getenv("MISTRAL_MODEL", "mistral-small-latest")
+MISTRAL_DAILY_TOKEN_BUDGET = int(os.getenv("MISTRAL_DAILY_TOKEN_BUDGET", "50000"))
+MISTRAL_MAX_INPUT_TOKENS = int(os.getenv("MISTRAL_MAX_INPUT_TOKENS", "6000"))
+MISTRAL_MAX_OUTPUT_TOKENS = int(os.getenv("MISTRAL_MAX_OUTPUT_TOKENS", "900"))
+MISTRAL_MAX_ARTICLES = int(os.getenv("MISTRAL_MAX_ARTICLES", "24"))
+MISTRAL_TOKEN_CHARS = int(os.getenv("MISTRAL_TOKEN_CHARS", "4"))
 
 DOSSIER_MD = "markdown"
 FICHIER_SOURCES = "sources.csv"
@@ -25,6 +30,7 @@ FICHIER_LISTE_RSS = "liste_rss.json"
 FICHIER_LISTE_MD = "liste_md.json"
 FICHIER_LETTRES = "lettres_cour_cassation.json"
 FICHIER_DECISIONS = "decisions_judilibre.json"
+FICHIER_QUOTA_MISTRAL = ".mistral_quota.json"
 
 JUDILIBRE_PUBLIC_URL = "https://www.courdecassation.fr/recherche-judilibre"
 
@@ -44,6 +50,36 @@ AUJOURDHUI = MAINTENANT.strftime("%Y-%m-%d")
 HIER = (MAINTENANT - timedelta(days=1)).strftime("%Y-%m-%d")
 
 os.makedirs(DOSSIER_MD, exist_ok=True)
+
+
+def estimer_tokens(texte):
+    """Approximation prudente: un token vaut souvent 3 a 4 caracteres."""
+    if not texte:
+        return 0
+    return max(1, (len(texte) + MISTRAL_TOKEN_CHARS - 1) // MISTRAL_TOKEN_CHARS)
+
+
+def charger_quota_mistral():
+    if not os.path.exists(FICHIER_QUOTA_MISTRAL):
+        return {"date": AUJOURDHUI, "tokens": 0}
+    try:
+        with open(FICHIER_QUOTA_MISTRAL, encoding="utf-8") as fichier:
+            quota = json.load(fichier)
+    except (json.JSONDecodeError, OSError):
+        return {"date": AUJOURDHUI, "tokens": 0}
+    if quota.get("date") != AUJOURDHUI:
+        return {"date": AUJOURDHUI, "tokens": 0}
+    return {"date": AUJOURDHUI, "tokens": int(quota.get("tokens", 0))}
+
+
+def enregistrer_quota_mistral(quota):
+    with open(FICHIER_QUOTA_MISTRAL, "w", encoding="utf-8") as fichier:
+        json.dump(quota, fichier, indent=2, ensure_ascii=False)
+
+
+def consommer_quota_mistral(quota, tokens):
+    quota["tokens"] = int(quota.get("tokens", 0)) + max(0, int(tokens))
+    enregistrer_quota_mistral(quota)
 
 
 def nettoyer_texte(valeur, limite=900):
@@ -537,7 +573,46 @@ DONNÉES DU {HIER} :
 """
 
 
-def appeler_mistral(cible, articles):
+def limiter_articles_pour_mistral(cible, articles):
+    """Garde les premieres sources tant que le prompt reste sous le plafond."""
+    selection = []
+    for article in articles[:MISTRAL_MAX_ARTICLES]:
+        candidate = selection + [article]
+        tokens_estimes = estimer_tokens(prompt_pour(cible, candidate))
+        if tokens_estimes > MISTRAL_MAX_INPUT_TOKENS:
+            if selection:
+                break
+            article_court = dict(article)
+            article_court["resume"] = nettoyer_texte(article_court.get("resume", ""), 350)
+            if estimer_tokens(prompt_pour(cible, [article_court])) <= MISTRAL_MAX_INPUT_TOKENS:
+                selection.append(article_court)
+            break
+        selection = candidate
+    if len(selection) < len(articles):
+        print(
+            f"{cible}: {len(selection)}/{len(articles)} sources retenues "
+            f"pour rester sous {MISTRAL_MAX_INPUT_TOKENS} tokens d'entree estimes."
+        )
+    return selection
+
+
+def appeler_mistral(cible, articles, quota):
+    articles = limiter_articles_pour_mistral(cible, articles)
+    if not articles:
+        raise RuntimeError("aucune source ne tient dans le budget de tokens configure")
+    prompt = prompt_pour(cible, articles)
+    tokens_entree_estimes = estimer_tokens(prompt)
+    tokens_appel_estimes = tokens_entree_estimes + MISTRAL_MAX_OUTPUT_TOKENS
+    tokens_utilises = int(quota.get("tokens", 0))
+    if tokens_utilises + tokens_appel_estimes > MISTRAL_DAILY_TOKEN_BUDGET:
+        raise RuntimeError(
+            "quota Mistral quotidien preserve: "
+            f"{tokens_utilises} deja comptes, "
+            f"{tokens_appel_estimes} requis, "
+            f"budget {MISTRAL_DAILY_TOKEN_BUDGET}. "
+            "Augmente MISTRAL_DAILY_TOKEN_BUDGET si ton tableau de bord Mistral "
+            "autorise plus de tokens."
+        )
     reponse = requests.post(
         MISTRAL_API_URL,
         headers={"Authorization": f"Bearer {MISTRAL_KEY}", "Content-Type": "application/json"},
@@ -551,15 +626,21 @@ def appeler_mistral(cible, articles):
                         "plutôt que de la compléter par supposition."
                     ),
                 },
-                {"role": "user", "content": prompt_pour(cible, articles)},
+                {"role": "user", "content": prompt},
             ],
             "temperature": 0.1,
-            "max_tokens": 2500,
+            "max_tokens": MISTRAL_MAX_OUTPUT_TOKENS,
         },
         timeout=90,
     )
     reponse.raise_for_status()
-    contenu = reponse.json()["choices"][0]["message"]["content"].strip()
+    payload = reponse.json()
+    usage = payload.get("usage") or {}
+    tokens_reels = usage.get("total_tokens") or (
+        usage.get("prompt_tokens", 0) + usage.get("completion_tokens", 0)
+    )
+    consommer_quota_mistral(quota, tokens_reels or tokens_appel_estimes)
+    contenu = payload["choices"][0]["message"]["content"].strip()
     if not contenu:
         raise ValueError("Mistral a renvoyé une réponse vide")
     return contenu
@@ -708,6 +789,13 @@ def main():
     if not MISTRAL_KEY:
         raise RuntimeError("MISTRAL_API_KEY absente: génération IA impossible.")
 
+    quota_mistral = charger_quota_mistral()
+    print(
+        "Budget Mistral local: "
+        f"{quota_mistral['tokens']}/{MISTRAL_DAILY_TOKEN_BUDGET} tokens "
+        f"(modele {MISTRAL_MODEL})."
+    )
+
     synthese = None
     sorties_generees = set()
     # Les trois comptes rendus sont produits en premier. La synthèse mail est ensuite
@@ -727,7 +815,7 @@ def main():
                 print(f"Aucune donnée pour {cible}: fichier non généré.")
             continue
         try:
-            contenu = appeler_mistral(cible, selection)
+            contenu = appeler_mistral(cible, selection, quota_mistral)
             ecrire_markdown(cible, contenu)
             sorties_generees.add(cible)
             if cible == "synthese":
