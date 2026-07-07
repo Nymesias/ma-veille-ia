@@ -845,6 +845,11 @@
       "nom_site": "AN|Documents",
       "articles": [
         {
+          "t": "N° 3020 rapport d'information - Rapport d'information de Mme Agnès Firmin Le Bodo et M. Matthias Renault déposé en application de l'article 146-3 du règlement, par le comité d'évaluation et de contrôle des politiques publiques sur l'évaluation de la compétitivité des ports français",
+          "l": "https://www.assemblee-nationale.fr/17/rap-info/i3020.asp",
+          "d": "2026-07-07"
+        },
+        {
           "t": "Texte adopté n° 326 - Projet de loi, modifié, par l'Assemblée nationale, sur la justice criminelle et le respect des victimes",
           "l": "https://www.assemblee-nationale.fr/17/ta/ta0326.asp",
           "d": "2026-07-07"
@@ -888,11 +893,6 @@
           "t": "N° 689 - Proposition de loi de Mme Véronique Louwagie visant à abroger le titre de séjour pour étranger malade",
           "l": "https://www.assemblee-nationale.fr/17/propositions/pion0689.asp",
           "d": "2024-12-03"
-        },
-        {
-          "t": "N° 1535 - Proposition de loi de M. Vincent Jeanbrun visant à interdire et sanctionner les contenus et discours à caractère anti-républicain",
-          "l": "https://www.assemblee-nationale.fr/17/propositions/pion1535.asp",
-          "d": "2025-06-10"
         }
       ]
     },
@@ -1811,7 +1811,7 @@
           "d": "2026-07-07"
         },
         {
-          "t": "A Nîmes, le nouveau maire communiste Vincent Bouget met la gauche en pratique",
+          "t": "A Nîmes, le nouveau maire communiste Vincent Bouget veut installer un changement d’ère politique",
           "l": "https://www.lemonde.fr/politique/article/2026/07/07/a-nimes-le-nouveau-maire-communiste-vincent-bouget-met-la-gauche-en-pratique_6721414_823448.html",
           "d": "2026-07-07"
         }
@@ -2327,7 +2327,7 @@
           "d": "2026-07-07"
         },
         {
-          "t": "Argentine - Égypte en direct : les Pharaons font trembler l'Albiceleste de Messi",
+          "t": "Argentine - Égypte en direct : les Argentins menés et en danger, Messi rate un penalty",
           "l": "https://www.france24.com/fr/sports/20260707-argentine-%C3%A9gypte-en-direct-suivez-le-8e-de-finale-entre-l-albiceleste-et-les-pharaons",
           "d": "2026-07-07"
         },
@@ -2447,7 +2447,7 @@
           "d": "2026-07-07"
         },
         {
-          "t": "Coupe du monde 2026 : l'Argentine de Lionel Messi affronte l'Egypte de Mohamed Salah... Suivez le match avec nous",
+          "t": "Coupe du monde 2026 : l'Egypte ouvre le score face à l'Argentine (1-0), Lionel Messi rate un pénalty... Suivez le match avec nous",
           "l": "https://www.franceinfo.fr/coupe-du-monde/direct-coupe-du-monde-2026-la-belgique-ecrase-les-etats-unis-devant-leur-public-avant-les-derniers-8e-de-finale-aujourd-hui_8096333.html#xtor=RSS-3-[lestitres]",
           "d": "2026-07-07"
         },
@@ -2777,6 +2777,11 @@
       "nom_site": "Le Monde|Politique nationale",
       "articles": [
         {
+          "t": "EN DIRECT, procès en appel de Marine Le Pen : la cour d’appel de Paris dit avoir pris en compte « la liberté de choix de l’électeur » dans sa décision",
+          "l": "https://www.lemonde.fr/politique/live/2026/07/07/en-direct-proces-en-appel-de-marine-le-pen-la-cour-d-appel-de-paris-dit-avoir-pris-en-compte-la-liberte-de-choix-de-l-electeur-dans-sa-decision_6721429_823448.html",
+          "d": "2026-07-07"
+        },
+        {
           "t": "En 1988, l’assaut sanglant de la grotte d’Ouvéa et le double jeu de François Mitterrand",
           "l": "https://www.lemonde.fr/societe/article/2026/07/07/en-1988-l-assaut-sanglant-de-la-grotte-d-ouvea-et-le-double-jeu-de-francois-mitterrand_6721524_3224.html",
           "d": "2026-07-07"
@@ -2797,7 +2802,7 @@
           "d": "2026-07-07"
         },
         {
-          "t": "Un élu RN démissionne après la diffusion d’une vidéo où il chante l’hymne pétainiste « Maréchal nous voilà »",
+          "t": "Un élu RN démissionne après la diffusion d’une vidéo où il chante l’hymne pétainiste « Maréchal, nous voilà »",
           "l": "https://www.lemonde.fr/politique/article/2026/07/07/un-elu-rn-demissionne-apres-la-diffusion-d-une-video-ou-il-chante-l-hymne-petainiste-marechal-nous-voila_6721518_823448.html",
           "d": "2026-07-07"
         },
@@ -2844,11 +2849,6 @@
         {
           "t": "La Guyane renforce son intégration régionale en adhérant à la Communauté des Caraïbes",
           "l": "https://www.lemonde.fr/politique/article/2026/07/07/la-guyane-renforce-son-integration-regionale-en-adherant-a-la-communaute-des-caraibes_6721481_823448.html",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "EN DIRECT, procès en appel de Marine Le Pen : la gauche étrille la cheffe de file de l’extrême droite, Emmanuel Macron refuse de « commenter » une décision de justice",
-          "l": "https://www.lemonde.fr/politique/live/2026/07/07/en-direct-proces-en-appel-de-marine-le-pen-suivez-la-lecture-de-l-arret-sur-le-point-de-commencer-devant-la-cour-d-appel-de-paris_6721429_823448.html",
           "d": "2026-07-07"
         },
         {

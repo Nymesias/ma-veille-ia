@@ -1,7 +1,31 @@
 {
-  "mis_a_jour": "2026-07-07T16:17:43",
-  "date_cible": "2026-07-06",
-  "total": 0,
+  "mis_a_jour": "2026-07-07T16:27:09",
+  "date_cible": "2026-07-03",
+  "date_recherche_initiale": "2026-07-06",
+  "total": 2,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
-  "decisions": []
+  "decisions": [
+    {
+      "id": "6a4748ad93c619cd1f2dad4c",
+      "date": "2026-07-03",
+      "chambre": "Assemblée plénière",
+      "formation": "",
+      "numero": "24-50.028",
+      "solution": "Annulation",
+      "publication": "Publié au Bulletin - Publié au Rapport",
+      "sommaire": "La prohibition des conventions de gestation pour autrui par les articles 16-7 et 16-9 du code civil est un principe essentiel du droit français relevant de l'ordre public international français. Celui-ci inclut aussi les droits reconnus par la Convention de sauvegarde des droits de l'homme et des libertés fondamentales, que la France s'est engagée à garantir à toute personne relevant de sa juridiction. Tel est le cas du droit au respect de la vie privée de l'enfant, garanti par l'article 8 de cette Convention. En conséquence, la conformité à l'ordre public international de fond d'une décision étrangère qui établit une filiation à l'issue d'une gestation pour autrui ne saurait être appréciée ",
+      "url": "https://www.courdecassation.fr/decision/6a4748ad93c619cd1f2dad4c"
+    },
+    {
+      "id": "6a4748b393c619cd1f2dadb6",
+      "date": "2026-07-03",
+      "chambre": "Assemblée plénière",
+      "formation": "",
+      "numero": "24-50.029",
+      "solution": "Annulation",
+      "publication": "Publié au Bulletin - Publié au Rapport",
+      "sommaire": "La prohibition des conventions de gestation pour autrui par les articles 16-7 et 16-9 du code civil est un principe essentiel du droit français relevant de l'ordre public international français. Celui-ci inclut aussi les droits reconnus par la Convention de sauvegarde des droits de l'homme et des libertés fondamentales, que la France s'est engagée à garantir à toute personne relevant de sa juridiction. Tel est le cas du droit au respect de la vie privée de l'enfant, garanti par l'article 8 de cette Convention. En conséquence, la conformité à l'ordre public international de fond d'une décision étrangère qui établit une filiation à l'issue d'une gestation pour autrui ne saurait être appréciée ",
+      "url": "https://www.courdecassation.fr/decision/6a4748b393c619cd1f2dadb6"
+    }
+  ]
 }
