@@ -280,124 +280,141 @@ def sources_analyse_cassation(lettres, decisions):
     return sources
 
 
+def collecter_decisions_judilibre_pour_date(date_cible, base, entetes):
+    """Collecte les décisions Judilibre publiées pour une date donnée."""
+    decisions = []
+    identifiants = set()
+
+    def extraire_articles(contenu):
+        soupe = BeautifulSoup(contenu, "html.parser")
+        return soupe.select("article.decision-item-article")
+
+    for page in range(10):
+        params = {
+            "date_du": date_cible,
+            "date_au": date_cible,
+            "judilibre_juridiction": "cc",
+            "sort": "date-desc",
+            "items_per_page": 30,
+            "page": page,
+        }
+        reponse = requests.get(
+            JUDILIBRE_PUBLIC_URL,
+            params=params,
+            headers=entetes,
+            timeout=45,
+        )
+        reponse.raise_for_status()
+        articles = extraire_articles(reponse.text)
+        if not articles:
+            from playwright.sync_api import sync_playwright
+
+            with sync_playwright() as moteur:
+                navigateur = moteur.chromium.launch(headless=True)
+                page_web = navigateur.new_page(user_agent=entetes["User-Agent"])
+                page_web.goto(
+                    reponse.url,
+                    wait_until="domcontentloaded",
+                    timeout=90000,
+                )
+                page_web.wait_for_function(
+                    """() => document.querySelector('article.decision-item-article')
+                    || document.body.innerText.includes('Aucun résultat')""",
+                    timeout=90000,
+                )
+                articles = extraire_articles(page_web.content())
+                navigateur.close()
+
+        if not articles:
+            break
+
+        for article in articles:
+            lien = article.select_one('a[href*="/decision/"]')
+            entete = article.select_one(".decision-item--header h3")
+            if not lien or not entete:
+                continue
+            url = urljoin(base, lien.get("href", "")).split("?", 1)[0]
+            correspondance_id = re.search(r"/decision/([^/?]+)", url)
+            identifiant = correspondance_id.group(1) if correspondance_id else url
+            if identifiant in identifiants:
+                continue
+            identifiants.add(identifiant)
+
+            texte_entete = nettoyer_texte(entete.get_text(" ", strip=True), 300)
+            correspondance = re.search(
+                r"(\d{1,2})\s+([A-Za-zÀ-ÿ]+)\s+(\d{4}).*?Pourvoi\s+n[°º]\s*([^\s]+)",
+                texte_entete,
+                re.IGNORECASE,
+            )
+            date_decision = ""
+            numero = ""
+            if correspondance:
+                jour, mois, annee, numero = correspondance.groups()
+                numero_mois = MOIS_FRANCAIS.get(mois.lower())
+                if numero_mois:
+                    date_decision = f"{annee}-{numero_mois:02d}-{int(jour):02d}"
+
+            secondaires = article.select(".decision-item-header--secondary")
+            chambre_formation = nettoyer_texte(
+                next((p.get_text(" ", strip=True) for p in secondaires if "solution" not in p.get("class", [])), ""),
+                250,
+            )
+            chambre, _, formation = chambre_formation.partition(" - ")
+            decisions.append(
+                {
+                    "id": identifiant,
+                    "date": date_decision,
+                    "chambre": chambre,
+                    "formation": formation,
+                    "numero": numero,
+                    "solution": nettoyer_texte(
+                        article.select_one(".solution").get_text(" ", strip=True)
+                        if article.select_one(".solution") else "",
+                        100,
+                    ),
+                    "publication": nettoyer_texte(
+                        article.select_one(".decision-item-header--large").get_text(" ", strip=True)
+                        if article.select_one(".decision-item-header--large") else "",
+                        200,
+                    ),
+                    "sommaire": nettoyer_texte(
+                        article.select_one(".decision-summary").get_text(" ", strip=True)
+                        if article.select_one(".decision-summary") else "",
+                        700,
+                    ),
+                    "url": url,
+                }
+            )
+        if len(articles) < 30:
+            break
+
+    decisions.sort(key=lambda item: item["date"], reverse=True)
+    return decisions
+
+
 def collecter_decisions_judilibre():
     """Collecte les dernières décisions depuis la page publique Judilibre."""
     base = "https://www.courdecassation.fr"
     entetes = {"User-Agent": "Mozilla/5.0 (veille-juridique; contact local)"}
     decisions = []
-    identifiants = set()
-    def extraire_articles(contenu):
-        soupe = BeautifulSoup(contenu, "html.parser")
-        return soupe.select("article.decision-item-article")
+    date_retenue = HIER
 
     try:
-        for page in range(10):
-            params = {
-                "date_du": HIER,
-                "date_au": HIER,
-                "judilibre_juridiction": "cc",
-                "sort": "date-desc",
-                "items_per_page": 30,
-                "page": page,
-            }
-            reponse = requests.get(
-                JUDILIBRE_PUBLIC_URL,
-                params=params,
-                headers=entetes,
-                timeout=45,
-            )
-            reponse.raise_for_status()
-            articles = extraire_articles(reponse.text)
-            if not articles:
-                from playwright.sync_api import sync_playwright
-
-                with sync_playwright() as moteur:
-                    navigateur = moteur.chromium.launch(headless=True)
-                    page_web = navigateur.new_page(user_agent=entetes["User-Agent"])
-                    page_web.goto(
-                        reponse.url,
-                        wait_until="domcontentloaded",
-                        timeout=90000,
-                    )
-                    page_web.wait_for_function(
-                        """() => document.querySelector('article.decision-item-article')
-                        || document.body.innerText.includes('Aucun résultat')""",
-                        timeout=90000,
-                    )
-                    articles = extraire_articles(page_web.content())
-                    navigateur.close()
-
-            if not articles:
-                break
-
-            for article in articles:
-                lien = article.select_one('a[href*="/decision/"]')
-                entete = article.select_one(".decision-item--header h3")
-                if not lien or not entete:
-                    continue
-                url = urljoin(base, lien.get("href", "")).split("?", 1)[0]
-                correspondance_id = re.search(r"/decision/([^/?]+)", url)
-                identifiant = correspondance_id.group(1) if correspondance_id else url
-                if identifiant in identifiants:
-                    continue
-                identifiants.add(identifiant)
-
-                texte_entete = nettoyer_texte(entete.get_text(" ", strip=True), 300)
-                correspondance = re.search(
-                    r"(\d{1,2})\s+([A-Za-zÀ-ÿ]+)\s+(\d{4}).*?Pourvoi\s+n[°º]\s*([^\s]+)",
-                    texte_entete,
-                    re.IGNORECASE,
-                )
-                date_decision = ""
-                numero = ""
-                if correspondance:
-                    jour, mois, annee, numero = correspondance.groups()
-                    numero_mois = MOIS_FRANCAIS.get(mois.lower())
-                    if numero_mois:
-                        date_decision = f"{annee}-{numero_mois:02d}-{int(jour):02d}"
-
-                secondaires = article.select(".decision-item-header--secondary")
-                chambre_formation = nettoyer_texte(
-                    next((p.get_text(" ", strip=True) for p in secondaires if "solution" not in p.get("class", [])), ""),
-                    250,
-                )
-                chambre, _, formation = chambre_formation.partition(" - ")
-                decisions.append(
-                    {
-                        "id": identifiant,
-                        "date": date_decision,
-                        "chambre": chambre,
-                        "formation": formation,
-                        "numero": numero,
-                        "solution": nettoyer_texte(
-                            article.select_one(".solution").get_text(" ", strip=True)
-                            if article.select_one(".solution") else "",
-                            100,
-                        ),
-                        "publication": nettoyer_texte(
-                            article.select_one(".decision-item-header--large").get_text(" ", strip=True)
-                            if article.select_one(".decision-item-header--large") else "",
-                            200,
-                        ),
-                        "sommaire": nettoyer_texte(
-                            article.select_one(".decision-summary").get_text(" ", strip=True)
-                            if article.select_one(".decision-summary") else "",
-                            700,
-                        ),
-                        "url": url,
-                    }
-                )
-            if len(articles) < 30:
+        for recul in range(8):
+            date_cible = (MAINTENANT - timedelta(days=1 + recul)).strftime("%Y-%m-%d")
+            decisions = collecter_decisions_judilibre_pour_date(date_cible, base, entetes)
+            date_retenue = date_cible
+            if decisions:
                 break
     except Exception as exc:
         raise RuntimeError(f"Erreur page publique Judilibre: {exc}") from exc
 
-    decisions.sort(key=lambda item: item["date"], reverse=True)
     with open(FICHIER_DECISIONS, "w", encoding="utf-8") as fichier:
         json.dump(
             {
                 "mis_a_jour": MAINTENANT.isoformat(timespec="seconds"),
-                "date_cible": HIER,
+                "date_cible": date_retenue,
+                "date_recherche_initiale": HIER,
                 "total": len(decisions),
                 "source": JUDILIBRE_PUBLIC_URL,
                 "decisions": decisions,
@@ -406,7 +423,13 @@ def collecter_decisions_judilibre():
             indent=2,
             ensure_ascii=False,
         )
-    print(f"{len(decisions)} décisions Judilibre collectées pour le {HIER}.")
+    if date_retenue == HIER:
+        print(f"{len(decisions)} décisions Judilibre collectées pour le {HIER}.")
+    else:
+        print(
+            f"{len(decisions)} décisions Judilibre collectées pour le {date_retenue} "
+            f"(aucune pour le {HIER})."
+        )
     return decisions
 
 
