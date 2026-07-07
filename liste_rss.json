@@ -790,8 +790,13 @@
       "nom_site": "AN|Séances",
       "articles": [
         {
-          "t": "Compte rendu intégral de la première séance du mardi 30 juin 2026",
-          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260294.asp",
+          "t": "Compte rendu intégral de la séance du jeudi 02 juillet 2026",
+          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026-extra/20261003.asp",
+          "d": "2026-07-02"
+        },
+        {
+          "t": "Compte rendu intégral de la troisième séance du mardi 30 juin 2026",
+          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260296.asp",
           "d": "2026-06-30"
         },
         {
@@ -800,29 +805,29 @@
           "d": "2026-07-06"
         },
         {
-          "t": "Compte rendu intégral de la première séance du lundi 29 juin 2026",
-          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260292.asp",
-          "d": "2026-06-29"
-        },
-        {
           "t": "Compte rendu intégral de la première séance du mercredi 01 juillet 2026",
           "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026-extra/20261001.asp",
           "d": "2026-07-01"
         },
         {
-          "t": "Compte rendu intégral de la troisième séance du mardi 30 juin 2026",
-          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260296.asp",
+          "t": "Compte rendu intégral de la première séance du samedi 27 juin 2026",
+          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260290.asp",
+          "d": "2026-06-27"
+        },
+        {
+          "t": "Compte rendu intégral de la première séance du mardi 30 juin 2026",
+          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260294.asp",
           "d": "2026-06-30"
+        },
+        {
+          "t": "Compte rendu intégral de la première séance du lundi 29 juin 2026",
+          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260292.asp",
+          "d": "2026-06-29"
         },
         {
           "t": "Compte rendu intégral de la deuxième séance du mardi 30 juin 2026",
           "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260295.asp",
           "d": "2026-06-30"
-        },
-        {
-          "t": "Compte rendu intégral de la séance du jeudi 02 juillet 2026",
-          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026-extra/20261003.asp",
-          "d": "2026-07-02"
         },
         {
           "t": "Compte rendu intégral de la deuxième séance du mercredi 01 juillet 2026",
@@ -833,11 +838,6 @@
           "t": "Compte rendu intégral de la deuxième séance du lundi 29 juin 2026",
           "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260293.asp",
           "d": "2026-06-29"
-        },
-        {
-          "t": "Compte rendu intégral de la deuxième séance du samedi 27 juin 2026",
-          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026/20260291.asp",
-          "d": "2026-06-27"
         }
       ]
     },
@@ -845,60 +845,75 @@
       "nom_site": "AN|Documents",
       "articles": [
         {
-          "t": "N° 3014 - Proposition de résolution de M. Stéphane Viry tendant à favoriser l'orientation et l'insertion professionnelle des collégiens par des immersions professionnelles tout au long de leur scolarité",
-          "l": "https://www.assemblee-nationale.fr/17/propositions/pion3014.asp",
-          "d": "2026-07-06"
+          "t": "Texte adopté n° 326 - Projet de loi, modifié, par l'Assemblée nationale, sur la justice criminelle et le respect des victimes",
+          "l": "https://www.assemblee-nationale.fr/17/ta/ta0326.asp",
+          "d": "2026-07-07"
         },
         {
-          "t": "N° 2995 rapport - Rapport de M. Yannick Neuder de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion de la proposition de loi visant à doter la france d'une stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires.",
-          "l": "https://www.assemblee-nationale.fr/17/rapports/r2995.asp",
-          "d": "2026-07-01"
+          "t": "N° 2682 - Projet de loi organique, adopté par le Sénat après engagement de la procédure accélérée, relatif au renforcement des juridictions criminelles",
+          "l": "https://www.assemblee-nationale.fr/17/projets/pl2682.asp",
+          "d": "2026-04-18"
         },
         {
-          "t": "N° 2993 rapport d'information - Rapport d'information de Mme Céline Calvez déposé en application de l'article 145 du règlement, par la commission des affaires culturelles et de l'éducation, en conclusion des travaux d'une mission d'information sur le thème « Création, diffusion et acquisition des co",
-          "l": "https://www.assemblee-nationale.fr/17/rap-info/i2993.asp",
-          "d": "2026-07-01"
+          "t": "Texte adopté n° 327 - Projet de loi organique, modifié, par l'Assemblée nationale, relatif au renforcement des juridictions criminelles",
+          "l": "https://www.assemblee-nationale.fr/17/ta/ta0327.asp",
+          "d": "2026-07-07"
         },
         {
-          "t": "N° 2984 rapport - Rapport de M. Xavier Albertini et M. Vincent Caure sur le projet de loi, adopté, par le Sénat après engagement de la procédure accélérée, visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens (n°2850).",
-          "l": "https://www.assemblee-nationale.fr/17/rapports/r2984.asp",
-          "d": "2026-07-03"
+          "t": "N° 966 - Proposition de loi de M. Guillaume Garot visant à lutter contre les déserts médicaux, d'initiative transpartisane",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion0966.asp",
+          "d": "2025-02-13"
         },
         {
-          "t": "N° 2169 - Proposition de loi de Mme Céline Thiébault-Martinez visant à lutter de manière intégrale contre les violences sexistes et sexuelles commises à l'encontre des femmes et des enfants",
-          "l": "https://www.assemblee-nationale.fr/17/propositions/pion2169.asp",
-          "d": "2025-12-03"
+          "t": "N° 186 - Proposition de loi organique de M. Jérôme Nury visant à empêcher le parachutage politique en imposant à chaque candidat à l'élection législative d'être électeur dans une commune située dans la circonscription d'élection",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion0186.asp",
+          "d": "2024-09-11"
         },
         {
-          "t": "N° 2995 annexe 0 - Rapport de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion de la proposition de loi visant à doter la france d'une stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires.",
-          "l": "https://www.assemblee-nationale.fr/17/ta-commission/r2995-a0.asp",
-          "d": "2026-07-06"
+          "t": "N° 1803 - Proposition de loi de Mme Danielle Simonnet visant à responsabiliser les clubs pour mettre fin à l'homophobie dans le sport",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion1803.asp",
+          "d": "2025-09-16"
         },
         {
-          "t": "N° 2652 - Proposition de loi de M. Lionel Causse visant à enrichir les dispositions applicables au Haut Conseil de stabilité financière",
-          "l": "https://www.assemblee-nationale.fr/17/propositions/pion2652.asp",
-          "d": "2026-04-14"
+          "t": "N° 2951 - Proposition de loi de M. Thibault Bazin visant à simplifier le modèle de formation continue des professionnels de santé et à consolider l'organisation de la Haute autorité de santé dans sa mission d'évaluation des technologies et des pratiques professionnelles",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion2951.asp",
+          "d": "2026-06-23"
         },
         {
-          "t": "N° 2975 rapport d'information - Rapport d'information de M. Emmanuel Mandon déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur la péréquation et les autres dispositifs de compensation des inégalités de ressources ",
-          "l": "https://www.assemblee-nationale.fr/17/rap-info/i2975.asp",
-          "d": "2026-07-06"
+          "t": "N° 575 - Proposition de loi de Mme Caroline Yadan visant à lutter contre les formes renouvelées de l'antisémitisme",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion0575.asp",
+          "d": "2026-04-16"
         },
         {
-          "t": "Texte adopté n° 322 - Proposition de loi, modifiée, par l'Assemblée nationale, relative à l'organisation, à la gestion et au financement du sport professionnel",
-          "l": "https://www.assemblee-nationale.fr/17/ta/ta0322.asp",
-          "d": "2026-06-30"
+          "t": "N° 689 - Proposition de loi de Mme Véronique Louwagie visant à abroger le titre de séjour pour étranger malade",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion0689.asp",
+          "d": "2024-12-03"
         },
         {
-          "t": "N° 2977 - Proposition de résolution européenne de M. Christophe Marion visant à inscrire les Forces de soutien rapide sur la liste des organisations terroristes",
-          "l": "https://www.assemblee-nationale.fr/17/europe/resolutions/ppe2977.asp",
-          "d": "2026-06-24"
+          "t": "N° 1535 - Proposition de loi de M. Vincent Jeanbrun visant à interdire et sanctionner les contenus et discours à caractère anti-républicain",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion1535.asp",
+          "d": "2025-06-10"
         }
       ]
     },
     {
       "nom_site": "Sénat|Textes",
       "articles": [
+        {
+          "t": "Inscrire l'intercommunalité dans une logique de partenariat des territoires - texte N° 841",
+          "l": "http://www.senat.fr/leg/ppl25-841.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Dématérialiser l'état civil des bénéficiaires de la protection internationale - texte N° 779",
+          "l": "http://www.senat.fr/leg/ppl25-779.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Sauvegarder les conseils d'architecture, d'urbanisme et de l'environnement - texte N° 822",
+          "l": "http://www.senat.fr/leg/ppl25-822.html",
+          "d": "2026-07-07"
+        },
         {
           "t": "Sécurité, résilience et durabilité des activités spatiales dans l'Union - texte N° 846",
           "l": "http://www.senat.fr/leg/ppr25-846.html",
@@ -920,13 +935,13 @@
           "d": "2026-07-07"
         },
         {
-          "t": "Moderniser la gestion du patrimoine immobilier de l'État - texte de la commission N° 843",
-          "l": "http://www.senat.fr/leg/ppl25-843.html",
+          "t": "Gestion des baux de chasse en Alsace-Moselle - texte N° 775",
+          "l": "http://www.senat.fr/leg/ppl25-775.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Gestion des baux de chasse en Alsace-Moselle - texte N° 775",
-          "l": "http://www.senat.fr/leg/ppl25-775.html",
+          "t": "Moderniser la gestion du patrimoine immobilier de l'État - texte de la commission N° 843",
+          "l": "http://www.senat.fr/leg/ppl25-843.html",
           "d": "2026-07-07"
         },
         {
@@ -950,13 +965,13 @@
           "d": "2026-07-07"
         },
         {
-          "t": "Stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires - texte de la commission N° 818",
-          "l": "http://www.senat.fr/leg/ppl25-818.html",
+          "t": "Droit à l'aide à mourir - texte N° 826",
+          "l": "http://www.senat.fr/leg/ppl25-826.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Droit à l'aide à mourir - texte N° 826",
-          "l": "http://www.senat.fr/leg/ppl25-826.html",
+          "t": "Stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires - texte de la commission N° 818",
+          "l": "http://www.senat.fr/leg/ppl25-818.html",
           "d": "2026-07-07"
         },
         {
@@ -1033,27 +1048,22 @@
           "t": "Accélérateur industriel européen - texte N° 767",
           "l": "http://www.senat.fr/leg/ppr25-767.html",
           "d": "2026-07-07"
-        },
-        {
-          "t": "Restitution de biens culturels aux États-Unis du Mexique - texte N° 713",
-          "l": "http://www.senat.fr/leg/ppl25-713.html",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Préserver une politique agricole commune indépendante - texte N° 761",
-          "l": "http://www.senat.fr/leg/ppr25-761.html",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Simplification des normes applicables aux collectivités territoriales - texte de la commission N° 758",
-          "l": "http://www.senat.fr/leg/pjl25-758.html",
-          "d": "2026-07-07"
         }
       ]
     },
     {
       "nom_site": "Sénat|Rapports",
       "articles": [
+        {
+          "t": "Les filières économiques d'avenir outre-mer : un océan d'opportunités - rapport d'information n° 850",
+          "l": "http://www.senat.fr/notice-rapport/2025/r25-850-notice.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Conditions de réussite de l'intercommunalité - rapport d'information n° 771",
+          "l": "http://www.senat.fr/notice-rapport/2025/r25-771-notice.html",
+          "d": "2026-07-07"
+        },
         {
           "t": "Quelles valeurs en 2050 ? Synthèse des travaux - rapport d'information n° 851",
           "l": "http://www.senat.fr/notice-rapport/2025/r25-851-notice.html",
@@ -1193,22 +1203,22 @@
           "t": "Face à la décommercialisation, réinventer le commerce physique - rapport d'information n° 821",
           "l": "http://www.senat.fr/notice-rapport/2025/r25-821-notice.html",
           "d": "2026-07-07"
-        },
-        {
-          "t": "Argentine et Chili : dans un contexte de bouleversements politiques, quelles perspectives de coopération avec la France ? - rapport d'information n° 788",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-788-notice.html",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Pour une approche inclusive du développement durable des territoires ruraux à l'ère des transitions - rapport d'information n° 796",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-796-notice.html",
-          "d": "2026-07-07"
         }
       ]
     },
     {
       "nom_site": "DAJ Bercy",
       "articles": [
+        {
+          "t": "La loi visant à relancer les investissements dans le secteur de l'hydroélectricité pour contribuer à la transition énergétique a été promulguée le 29 juin 2026",
+          "l": "https://www.economie.gouv.fr/daj/la-loi-visant-relancer-les-investissements-dans-le-secteur-de-lhydroelectricite-pour-contribuer-la-transition-energetique-ete-promulguee-le-29",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Appel à manifestation d’intérêt pour le conseil scientifique du CNCP",
+          "l": "https://www.economie.gouv.fr/daj/appel-manifestation-dinteret-pour-le-conseil-scientifique-du-cncp",
+          "d": "2026-07-07"
+        },
         {
           "t": "Encadrement des frais bancaires sur succession : le Conseil constitutionnel valide leur plafonnement, mais pas leur gratuité",
           "l": "https://www.economie.gouv.fr/daj/encadrement-des-frais-bancaires-sur-succession-le-conseil-constitutionnel-valide-leur-plafonnement-mais-pas-leur-gratuite",
@@ -1248,22 +1258,27 @@
           "t": "Loi de simplification de la vie économique : une censure limitée qui préserve l'économie générale de la loi",
           "l": "https://www.economie.gouv.fr/daj/loi-de-simplification-de-la-vie-economique-une-censure-limitee-qui-preserve-leconomie-generale-de-la-loi",
           "d": "2026-06-04"
-        },
-        {
-          "t": "L’Agent judiciaire de l’État présente son action en matière de préjudice écologique aux services du ministère de la Transition écologique",
-          "l": "https://www.economie.gouv.fr/daj/lagent-judiciaire-de-letat-presente-son-action-en-matiere-de-prejudice-ecologique-aux-services-du-ministere-de-la-transition-ecologique",
-          "d": "2026-06-04"
-        },
-        {
-          "t": "Précisions des modalités de régularisation d’un acte illégal en cours d’instance en matière minière",
-          "l": "https://www.economie.gouv.fr/daj/precisions-des-modalites-de-regularisation-dun-acte-illegal-en-cours-dinstance-en-matiere-miniere",
-          "d": "2026-06-04"
         }
       ]
     },
     {
       "nom_site": "Vie Publique|Actualités",
       "articles": [
+        {
+          "t": "Bruit des avions : quels dispositifs contre les nuisances sonores aéroportuaires ?",
+          "l": "https://www.vie-publique.fr/questions-reponses/271392-quels-dispositifs-contre-les-nuisances-sonores-aeroportuaires?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "Feux de forêt : quelle stratégie de prévention et de lutte contre les incendies ?",
+          "l": "https://www.vie-publique.fr/questions-reponses/289696-feux-de-foret-quelle-strategie-contre-les-incendies?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "Système éducatif : comment mieux intégrer l'IA dans l'enseignement primaire et secondaire ?",
+          "l": "https://www.vie-publique.fr/en-bref/303928-systeme-educatif-comment-mieux-integrer-lia-dans-lenseignement?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-07-06"
+        },
         {
           "t": "Application des lois : le Sénat publie son rapport sur la session 2024-2025",
           "l": "https://www.vie-publique.fr/en-bref/303923-application-des-lois-rapport-du-senat-sur-la-session-2024-2025?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
@@ -1297,21 +1312,6 @@
         {
           "t": "Défaut d'assurance routière : plus de 132 millions d'euros versés aux victimes d'accidents",
           "l": "https://www.vie-publique.fr/en-bref/303884-non-assurance-routiere-quelles-indemnites-versees-aux-victimes?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-06-30"
-        },
-        {
-          "t": "Le dérèglement climatique inquiète mais guide peu les pratiques du quotidien selon l'Insee",
-          "l": "https://www.vie-publique.fr/en-bref/303856-dereglement-climatique-peu-deffets-sur-les-pratiques-du-quotidien?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-06-30"
-        },
-        {
-          "t": "Billettique dans les transports collectifs : comment simplifier l'achat des titres de transport ?",
-          "l": "https://www.vie-publique.fr/en-bref/303885-billettique-ferroviaire-comment-simplifier-lachat-des-billets?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-06-30"
-        },
-        {
-          "t": "Calendrier électoral : les dates de l'élection présidentielle 2027 sont connues",
-          "l": "https://www.vie-publique.fr/en-bref/303896-election-presidentielle-2027-les-dates-sont-connues?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
           "d": "2026-06-30"
         }
       ]
@@ -1716,12 +1716,92 @@
       "nom_site": "Le Monde|Économie",
       "articles": [
         {
+          "t": "Finances publiques : la perspective d’une baisse du déficit s’éloigne, de nouvelles économies décidées",
+          "l": "https://www.lemonde.fr/politique/article/2026/07/07/finances-publiques-la-perspective-d-une-baisse-du-deficit-s-eloigne-de-nouvelles-economies-decidees_6721523_823448.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "La publicité pour les énergies fossiles sera bientôt interdite en France, cinq ans après la loi Climat et résilience",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/la-publicite-pour-les-energies-fossiles-sera-bientot-interdite-en-france-cinq-ans-apres-la-loi-climat-et-resilience_6721520_3234.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "« L’immigration est positive pour l’économie dans son ensemble. Pourquoi est-elle aussi impopulaire ? »",
+          "l": "https://www.lemonde.fr/idees/article/2026/07/07/l-immigration-est-positive-pour-l-economie-dans-son-ensemble-pourquoi-est-elle-aussi-impopulaire_6721507_3232.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Plan social chez Bayard : le journal « La Croix » ne sortira pas en kiosque mercredi",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/plan-social-chez-bayard-le-journal-la-croix-ne-sortira-pas-en-kiosque-mercredi_6721503_3234.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "« Le rachat d’actions couvre une pratique de délit d’initié réservée aux dirigeants d’entreprises »",
+          "l": "https://www.lemonde.fr/idees/article/2026/07/07/le-rachat-d-actions-couvre-une-pratique-de-delit-d-initie-reservee-aux-dirigeants-d-entreprises_6721499_3232.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "« La chute de la gauche en Colombie marque la fin du laboratoire de “l’économie de la vie” »",
+          "l": "https://www.lemonde.fr/idees/article/2026/07/07/la-chute-de-la-gauche-en-colombie-marque-la-fin-du-laboratoire-de-l-economie-de-la-vie_6721486_3232.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Le gouvernement annonce 3 milliards d’euros d’économies supplémentaires pour l’Etat et la Sécurité sociale",
+          "l": "https://www.lemonde.fr/politique/article/2026/07/07/le-gouvernement-annonce-trois-milliards-d-euros-d-economies-supplementaires-pour-l-etat-et-la-securite-sociale_6721483_823448.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Logements étudiants : l’association Que choisir ensemble alerte sur le non-respect du plafonnement des loyers",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/logements-etudiants-l-association-que-choisir-ensemble-alerte-sur-le-non-respect-du-plafonnement-des-loyers_6721480_3224.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Retards, indemnisations, remboursements… le Parlement européen renforce les droits des passagers aériens",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/retards-indemnisations-remboursements-le-parlement-europeen-renforce-les-droits-des-passagers-aeriens_6721478_3234.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Les pénuries de carburant en Russie mettent à l’épreuve la sécurité énergétique de l’Asie centrale",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/les-penuries-de-carburant-en-russie-mettent-a-l-epreuve-la-securite-energetique-de-l-asie-centrale_6721473_3234.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Croissance : en France, le gouvernement abaisse sa prévision à 0,7 % pour 2026",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/croissance-en-france-le-gouvernement-abaisse-sa-prevision-a-0-7-pour-2026_6721463_3234.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "A Barcelone, les architectes au chevet d’une planète en transition",
+          "l": "https://www.lemonde.fr/culture/article/2026/07/07/a-barcelone-les-architectes-au-chevet-d-une-planete-en-transition_6721454_3246.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "OTAN : une série de contrats annoncés à Ankara, dont un pour Airbus",
+          "l": "https://www.lemonde.fr/international/article/2026/07/07/otan-avalanche-de-contrats-annonces-a-ankara-dont-un-pour-airbus_6721449_3210.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Le gouvernement nomme Olivier Tainturier « coordonnateur » des projets industriels dits « Notre-Dame »",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/le-gouvernement-nomme-olivier-tainturier-coordonnateur-des-projets-industriels-dits-notre-dame_6721437_3234.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Canicule : à Paris, le réseau électrique d’Enedis face à « des accumulations de chaleur inédites »",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/canicule-a-paris-le-reseau-electrique-d-enedis-face-a-des-accumulations-de-chaleur-inedites_6721435_3234.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Le déficit commercial de la France se creuse en mai à près de 7 milliards d’euros, selon les douanes",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/france-le-deficit-commercial-se-creuse-en-mai-a-pres-de-7-milliards-d-euros-selon-les-douanes_6721430_3234.html",
+          "d": "2026-07-07"
+        },
+        {
           "t": "« A chaque épisode climatique majeur, notre capacité collective à faire face repose sur des travailleurs en première ligne »",
           "l": "https://www.lemonde.fr/idees/article/2026/07/07/a-chaque-episode-climatique-majeur-notre-capacite-collective-a-faire-face-repose-sur-des-travailleurs-en-premiere-ligne_6721427_3232.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Enorme bazar dans les aéroports européens : « En ce moment, par endroits, il faut cinq heures pour passer le contrôle aux frontières ! »",
+          "t": "« En ce moment, par endroits, il faut cinq heures pour passer le contrôle aux frontières ! » : énorme bazar dans les aéroports européens",
           "l": "https://www.lemonde.fr/economie/article/2026/07/07/enorme-bazar-dans-les-aeroports-europeens-en-ce-moment-par-endroits-il-faut-cinq-heures-pour-passer-le-controle-aux-frontieres_6721424_3234.html",
           "d": "2026-07-07"
         },
@@ -1731,95 +1811,25 @@
           "d": "2026-07-07"
         },
         {
-          "t": "Forfait en jours : l’employeur, seul responsable du contrôle de la charge de travail de ses salariés",
-          "l": "https://www.lemonde.fr/emploi/article/2026/07/07/forfait-en-jours-l-employeur-seul-responsable-du-controle-de-la-charge-de-travail-de-ses-salaries_6721409_1698637.html",
+          "t": "A Nîmes, le nouveau maire communiste Vincent Bouget met la gauche en pratique",
+          "l": "https://www.lemonde.fr/politique/article/2026/07/07/a-nimes-le-nouveau-maire-communiste-vincent-bouget-met-la-gauche-en-pratique_6721414_823448.html",
           "d": "2026-07-07"
-        },
-        {
-          "t": "Retraite : trois solutions pour gérer sa fin de carrière",
-          "l": "https://www.lemonde.fr/argent/article/2026/07/07/retraite-trois-solutions-pour-gerer-sa-fin-de-carriere_6721407_1657007.html",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Des petits ateliers aux grandes maisons, la joaillerie ravive un secteur du luxe à la peine",
-          "l": "https://www.lemonde.fr/economie/article/2026/07/07/des-petits-ateliers-aux-grandes-maisons-la-joaillerie-ravive-un-secteur-du-luxe-a-la-peine_6721408_3234.html",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Cuba, sous blocus pétrolier américain, s’efforce de rétablir son réseau électrique après une nouvelle panne générale",
-          "l": "https://www.lemonde.fr/international/article/2026/07/07/cuba-sous-blocus-petrolier-americain-s-efforce-de-retablir-son-reseau-electrique-apres-une-nouvelle-panne-generale_6721252_3211.html",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Le Canada choisit le groupe allemand TKMS pour construire sa nouvelle flotte de sous-marins militaires",
-          "l": "https://www.lemonde.fr/international/article/2026/07/07/le-canada-choisit-le-groupe-allemand-tkms-pour-construire-sa-nouvelle-flotte-de-sous-marins-militaires_6721291_3210.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Fibre Excellence : ultime délai pour conforter le plan de sauvetage de Matthieu Pigasse",
-          "l": "https://www.lemonde.fr/economie/article/2026/07/06/fibre-excellence-ultime-delai-pour-conforter-le-plan-de-sauvetage-de-matthieu-pigasse_6721257_3234.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Thales trouve un accord avec Exail Technologies, l’expert français en drones chasseurs de mines et en systèmes de navigation",
-          "l": "https://www.lemonde.fr/economie/article/2026/07/06/thales-trouve-un-accord-avec-exail-technologies-l-expert-francais-en-drones-chasseurs-de-mines-et-en-systemes-de-navigation_6721253_3234.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Budget 2027 : Sébastien Lecornu exclut le recours à la loi spéciale",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/06/budget-2027-sebastien-lecornu-exclut-le-recours-a-la-loi-speciale_6721250_823448.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Les parfumeries Marionnaud s’apprêtent à repasser sous pavillon français",
-          "l": "https://www.lemonde.fr/economie/article/2026/07/06/les-parfumeries-marionnaud-s-appretent-a-repasser-sous-pavillon-francais_6721248_3234.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Propreté à Paris : Emmanuel Grégoire présente sa méthode pour traiter 1 000 « points noirs »",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/06/proprete-a-paris-emmanuel-gregoire-presente-sa-methode-pour-traiter-1-000-points-noirs_6721246_823448.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Sarah Vanuxem, juriste : « Avec les crises écologiques, l’urgence est de sortir d’une vision purement exclusive de la propriété foncière »",
-          "l": "https://www.lemonde.fr/idees/article/2026/07/06/sarah-vanuxem-juriste-avec-les-crises-ecologiques-l-urgence-est-de-sortir-d-une-vision-purement-exclusive-de-la-propriete-fonciere_6721242_3232.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Accidents du travail : le gouvernement demande 800 millions d’économies aux partenaires sociaux",
-          "l": "https://www.lemonde.fr/economie/article/2026/07/06/accidents-du-travail-le-gouvernement-demande-800-millions-d-economies-aux-partenaires-sociaux_6721241_3234.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Canicule : les salariés de RTE, gestionnaire du réseau de transport d’électricité, alertent sur un « danger grave et imminent »",
-          "l": "https://www.lemonde.fr/economie/article/2026/07/06/canicule-les-salaries-de-rte-gestionnaire-du-reseau-de-transport-d-electricite-alertent-sur-un-danger-grave-et-imminent_6721232_3234.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Microsoft annonce la suppression de 4 800 postes, en partie liée à la restructuration de sa filiale de jeux vidéo Xbox",
-          "l": "https://www.lemonde.fr/economie/article/2026/07/06/microsoft-annonce-la-suppression-de-4-800-postes-en-partie-liee-a-la-restructuration-de-sa-filiale-de-jeux-video-xbox_6721213_3234.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Dans le sous-sol alsacien, du lithium pour les batteries et de la chaleur pour l’énergie",
-          "l": "https://www.lemonde.fr/economie/article/2026/07/06/dans-le-sous-sol-alsacien-du-lithium-pour-les-batteries-et-de-la-chaleur-pour-l-energie_6721207_3234.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Comment s’attaquer aux agressions subies par les salariés en contact avec le public",
-          "l": "https://www.lemonde.fr/emploi/article/2026/07/06/comment-s-attaquer-aux-agressions-subies-par-les-salaries-en-contact-avec-le-public_6721205_1698637.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Les salaires des fonctionnaires, point de cristallisation des tensions depuis le début de la présidence d’Emmanuel Macron",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/06/les-salaires-des-fonctionnaires-point-de-cristallisation-des-tensions-depuis-le-debut-de-la-presidence-d-emmanuel-macron_6721195_823448.html",
-          "d": "2026-07-06"
         }
       ]
     },
     {
       "nom_site": "INSEE|Économie nationale",
       "articles": [
+        {
+          "t": "L’agriculture en 2025",
+          "l": "https://www.insee.fr/fr/statistiques/9019175",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Le compte provisoire de l’agriculture en 2025",
+          "l": "https://www.insee.fr/fr/statistiques/9018334",
+          "d": "2026-07-07"
+        },
         {
           "t": "Naissances – fécondité – tableau de bord de l’économie française",
           "l": "https://www.insee.fr/fr/statistiques/5368069",
@@ -1911,23 +1921,13 @@
           "d": "2026-06-30"
         },
         {
-          "t": "En avril 2026, le chiffre d’affaires dans l’industrie manufacturière accélère (+2,5 %)",
-          "l": "https://www.insee.fr/fr/statistiques/9016739",
-          "d": "2026-06-30"
-        },
-        {
           "t": "En mai 2026, les prix des produits agricoles à la production baissent légèrement sur un an",
           "l": "https://www.insee.fr/fr/statistiques/9016756",
           "d": "2026-06-30"
         },
         {
-          "t": "La consommation des ménages en biens rebondit en mai 2026 (+0,5 % après -0,5 %)",
-          "l": "https://www.insee.fr/fr/statistiques/9016443",
-          "d": "2026-06-30"
-        },
-        {
-          "t": "En juin 2026, les prix à la consommation augmenteraient de 1,8 % sur un an",
-          "l": "https://www.insee.fr/fr/statistiques/9015205",
+          "t": "En avril 2026, le chiffre d’affaires dans l’industrie manufacturière accélère (+2,5 %)",
+          "l": "https://www.insee.fr/fr/statistiques/9016739",
           "d": "2026-06-30"
         },
         {
@@ -1936,13 +1936,18 @@
           "d": "2026-06-30"
         },
         {
-          "t": "Les changements environnementaux inquiètent, mais les pratiques quotidiennes ne sont pas guidées par l’écologie",
-          "l": "https://www.insee.fr/fr/statistiques/9013289",
-          "d": "2026-06-25"
+          "t": "En juin 2026, les prix à la consommation augmenteraient de 1,8 % sur un an",
+          "l": "https://www.insee.fr/fr/statistiques/9015205",
+          "d": "2026-06-30"
         },
         {
-          "t": "Consommation – équipement des ménages – tableau de bord de l’économie française",
-          "l": "https://www.insee.fr/fr/statistiques/5368120",
+          "t": "La consommation des ménages en biens rebondit en mai 2026 (+0,5 % après -0,5 %)",
+          "l": "https://www.insee.fr/fr/statistiques/9016443",
+          "d": "2026-06-30"
+        },
+        {
+          "t": "Les changements environnementaux inquiètent, mais les pratiques quotidiennes ne sont pas guidées par l’écologie",
+          "l": "https://www.insee.fr/fr/statistiques/9013289",
           "d": "2026-06-25"
         },
         {
@@ -1951,18 +1956,13 @@
           "d": "2026-06-25"
         },
         {
-          "t": "Familles avec enfants de moins de 18 ans",
-          "l": "https://www.insee.fr/fr/statistiques/2381508",
+          "t": "Consommation – équipement des ménages – tableau de bord de l’économie française",
+          "l": "https://www.insee.fr/fr/statistiques/5368120",
           "d": "2026-06-25"
         },
         {
           "t": "Familles selon le nombre d’enfants mineurs",
           "l": "https://www.insee.fr/fr/statistiques/2381506",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "Enfants des familles par âge et type de famille",
-          "l": "https://www.insee.fr/fr/statistiques/2381504",
           "d": "2026-06-25"
         },
         {
@@ -1978,6 +1978,16 @@
       "nom_site": "INSEE|National",
       "articles": [
         {
+          "t": "L’agriculture en 2025",
+          "l": "https://www.insee.fr/fr/statistiques/9019175",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Le compte provisoire de l’agriculture en 2025",
+          "l": "https://www.insee.fr/fr/statistiques/9018334",
+          "d": "2026-07-07"
+        },
+        {
           "t": "Naissances – fécondité – tableau de bord de l’économie française",
           "l": "https://www.insee.fr/fr/statistiques/5368069",
           "d": "2026-07-06"
@@ -2068,23 +2078,13 @@
           "d": "2026-06-30"
         },
         {
-          "t": "En avril 2026, le chiffre d’affaires dans l’industrie manufacturière accélère (+2,5 %)",
-          "l": "https://www.insee.fr/fr/statistiques/9016739",
-          "d": "2026-06-30"
-        },
-        {
           "t": "En mai 2026, les prix des produits agricoles à la production baissent légèrement sur un an",
           "l": "https://www.insee.fr/fr/statistiques/9016756",
           "d": "2026-06-30"
         },
         {
-          "t": "La consommation des ménages en biens rebondit en mai 2026 (+0,5 % après -0,5 %)",
-          "l": "https://www.insee.fr/fr/statistiques/9016443",
-          "d": "2026-06-30"
-        },
-        {
-          "t": "En juin 2026, les prix à la consommation augmenteraient de 1,8 % sur un an",
-          "l": "https://www.insee.fr/fr/statistiques/9015205",
+          "t": "En avril 2026, le chiffre d’affaires dans l’industrie manufacturière accélère (+2,5 %)",
+          "l": "https://www.insee.fr/fr/statistiques/9016739",
           "d": "2026-06-30"
         },
         {
@@ -2093,13 +2093,18 @@
           "d": "2026-06-30"
         },
         {
-          "t": "Les changements environnementaux inquiètent, mais les pratiques quotidiennes ne sont pas guidées par l’écologie",
-          "l": "https://www.insee.fr/fr/statistiques/9013289",
-          "d": "2026-06-25"
+          "t": "En juin 2026, les prix à la consommation augmenteraient de 1,8 % sur un an",
+          "l": "https://www.insee.fr/fr/statistiques/9015205",
+          "d": "2026-06-30"
         },
         {
-          "t": "Consommation – équipement des ménages – tableau de bord de l’économie française",
-          "l": "https://www.insee.fr/fr/statistiques/5368120",
+          "t": "La consommation des ménages en biens rebondit en mai 2026 (+0,5 % après -0,5 %)",
+          "l": "https://www.insee.fr/fr/statistiques/9016443",
+          "d": "2026-06-30"
+        },
+        {
+          "t": "Les changements environnementaux inquiètent, mais les pratiques quotidiennes ne sont pas guidées par l’écologie",
+          "l": "https://www.insee.fr/fr/statistiques/9013289",
           "d": "2026-06-25"
         },
         {
@@ -2108,18 +2113,13 @@
           "d": "2026-06-25"
         },
         {
-          "t": "Familles avec enfants de moins de 18 ans",
-          "l": "https://www.insee.fr/fr/statistiques/2381508",
+          "t": "Consommation – équipement des ménages – tableau de bord de l’économie française",
+          "l": "https://www.insee.fr/fr/statistiques/5368120",
           "d": "2026-06-25"
         },
         {
           "t": "Familles selon le nombre d’enfants mineurs",
           "l": "https://www.insee.fr/fr/statistiques/2381506",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "Enfants des familles par âge et type de famille",
-          "l": "https://www.insee.fr/fr/statistiques/2381504",
           "d": "2026-06-25"
         },
         {
@@ -2132,6 +2132,46 @@
     {
       "nom_site": "INSEE|Régional",
       "articles": [
+        {
+          "t": "En 2024, le pouvoir d’achat des salaires s’accroît après des années de baisse",
+          "l": "https://www.insee.fr/fr/statistiques/9016923",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "L’activité économique s’essouffle, l’emploi salarié résiste",
+          "l": "https://www.insee.fr/fr/statistiques/9006915",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Clauses sociales sur les chantiers olympiques : un effet plutôt positif sur l’insertion des bénéficiaires",
+          "l": "https://www.insee.fr/fr/statistiques/9013244",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Stabilisation de l’emploi et nouvelle hausse du chômage",
+          "l": "https://www.insee.fr/fr/statistiques/9006929",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Le chômage au plus haut depuis cinq ans",
+          "l": "https://www.insee.fr/fr/statistiques/9006909",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Un début d’année atone pour l'activité économique en Nouvelle-Aquitaine",
+          "l": "https://www.insee.fr/fr/statistiques/9006907",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "1er trimestre 2026 : stabilité de l’activité économique et atonie de l’emploi",
+          "l": "https://www.insee.fr/fr/statistiques/9006913",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Léger repli de l’activité normande pour le 6e trimestre consécutif",
+          "l": "https://www.insee.fr/fr/statistiques/9006931",
+          "d": "2026-07-07"
+        },
         {
           "t": "Saint-Martin : l’impact d’Irma et de la crise sanitaire est encore visible",
           "l": "https://www.insee.fr/fr/statistiques/9018278",
@@ -2153,11 +2193,6 @@
           "d": "2026-07-02"
         },
         {
-          "t": "La conjoncture économique guyanaise reste dynamique, mais le chômage augmente",
-          "l": "https://www.insee.fr/fr/statistiques/9006921",
-          "d": "2026-07-02"
-        },
-        {
           "t": "Au premier trimestre 2026, l’activité économique se dégrade en Guadeloupe",
           "l": "https://www.insee.fr/fr/statistiques/9006919",
           "d": "2026-07-02"
@@ -2165,6 +2200,31 @@
         {
           "t": "Au premier trimestre 2026, l’activité économique martiniquaise poursuit sa trajectoire négative",
           "l": "https://www.insee.fr/fr/statistiques/9006927",
+          "d": "2026-07-02"
+        },
+        {
+          "t": "La conjoncture économique guyanaise reste dynamique, mais le chômage augmente",
+          "l": "https://www.insee.fr/fr/statistiques/9006921",
+          "d": "2026-07-02"
+        },
+        {
+          "t": "Léger recul de l’activité et de l’emploi, tourisme hivernal en repli",
+          "l": "https://www.insee.fr/fr/statistiques/9006935",
+          "d": "2026-07-02"
+        },
+        {
+          "t": "L’activité suit la tendance nationale, le marché du travail reste peu dynamique",
+          "l": "https://www.insee.fr/fr/statistiques/9006933",
+          "d": "2026-07-02"
+        },
+        {
+          "t": "Plus de la moitié des Bretons vivant en communauté résident dans des maisons de retraite",
+          "l": "https://www.insee.fr/fr/statistiques/9018375",
+          "d": "2026-07-02"
+        },
+        {
+          "t": "Saison d’hiver 2026 - En Occitanie, la fréquentation patine malgré un tourisme international en progrès",
+          "l": "https://www.insee.fr/fr/statistiques/9011130",
           "d": "2026-07-02"
         },
         {
@@ -2178,28 +2238,8 @@
           "d": "2026-07-02"
         },
         {
-          "t": "Plus de la moitié des Bretons vivant en communauté résident dans des maisons de retraite",
-          "l": "https://www.insee.fr/fr/statistiques/9018375",
-          "d": "2026-07-02"
-        },
-        {
           "t": "La lente dégradation du marché du travail se poursuit au premier trimestre 2026",
           "l": "https://www.insee.fr/fr/statistiques/9006911",
-          "d": "2026-07-02"
-        },
-        {
-          "t": "Saison d’hiver 2026 - En Occitanie, la fréquentation patine malgré un tourisme international en progrès",
-          "l": "https://www.insee.fr/fr/statistiques/9011130",
-          "d": "2026-07-02"
-        },
-        {
-          "t": "Léger recul de l’activité et de l’emploi, tourisme hivernal en repli",
-          "l": "https://www.insee.fr/fr/statistiques/9006935",
-          "d": "2026-07-02"
-        },
-        {
-          "t": "L’activité suit la tendance nationale, le marché du travail reste peu dynamique",
-          "l": "https://www.insee.fr/fr/statistiques/9006933",
           "d": "2026-07-02"
         },
         {
@@ -2218,6 +2258,11 @@
           "d": "2026-06-30"
         },
         {
+          "t": "En 2050, 173 800 seniors en perte d’autonomie",
+          "l": "https://www.insee.fr/fr/statistiques/9012901",
+          "d": "2026-06-30"
+        },
+        {
           "t": "En Nouvelle-Aquitaine, près des trois quarts des surfaces bâties sont consacrées à l’habitat",
           "l": "https://www.insee.fr/fr/statistiques/9012935",
           "d": "2026-06-30"
@@ -2228,11 +2273,6 @@
           "d": "2026-06-30"
         },
         {
-          "t": "En 2050, 173 800 seniors en perte d’autonomie",
-          "l": "https://www.insee.fr/fr/statistiques/9012901",
-          "d": "2026-06-30"
-        },
-        {
           "t": "En Normandie, plus de 100 000 microentreprises réparties sur l’ensemble du territoire",
           "l": "https://www.insee.fr/fr/statistiques/9009827",
           "d": "2026-06-26"
@@ -2240,46 +2280,6 @@
         {
           "t": "En mai 2026, les prix à la consommation sont stables sur un mois et augmentent de 2,0 % sur un an en Martinique",
           "l": "https://www.insee.fr/fr/statistiques/9012083",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "En mai 2026, les prix à la consommation sont stables sur un mois et augmentent de 2,0 % sur un an en Guadeloupe",
-          "l": "https://www.insee.fr/fr/statistiques/9012079",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "En mai 2026, les prix à la consommation augmentent de 0,6 % sur un mois et de 1,8 % sur un an en Guyane",
-          "l": "https://www.insee.fr/fr/statistiques/9012087",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "23 000 personnes travaillent dans la filière automobile en Normandie",
-          "l": "https://www.insee.fr/fr/statistiques/9008892",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "Filière automobile francilienne : essor de l’électrification, recul de l’emploi industriel",
-          "l": "https://www.insee.fr/fr/statistiques/9009362",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "Le Grand Est, deuxième région pour la part de l’emploi salarié dédié à l’automobile",
-          "l": "https://www.insee.fr/fr/statistiques/9010969",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "28 700 emplois sont dédiés à la filière automobile en Bourgogne-Franche-Comté",
-          "l": "https://www.insee.fr/fr/statistiques/9011913",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "Filière automobile : 23 240 salariés dédiés à l’automobile",
-          "l": "https://www.insee.fr/fr/statistiques/9010230",
-          "d": "2026-06-25"
-        },
-        {
-          "t": "12 900 emplois dédiés à l’activité automobile en Centre-Val de Loire",
-          "l": "https://www.insee.fr/fr/statistiques/9010892",
           "d": "2026-06-25"
         }
       ]
@@ -2292,124 +2292,119 @@
       "nom_site": "France 24|Géopolitique",
       "articles": [
         {
-          "t": "Détroit d'Ormuz : un tanker prend feu après avoir été touché par un projectile non identifié",
-          "l": "https://www.france24.com/fr/moyen-orient/20260707-tanker-touch%C3%A9-projectile-non-identifi%C3%A9-d%C3%A9troit-ormuz-iran-%C3%A9tats-unis",
+          "t": "Double attentat à Damas : des bombes explosent près de l'hôtel d'Emmanuel Macron",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-double-attentat-%C3%A0-damas-des-bombes-explosent-pr%C3%A8s-de-l-h%C3%B4tel-d-emmanuel-macron",
           "d": "2026-07-07"
         },
         {
-          "t": "Donald Trump ressort la peur du \"grand méchant Rouge\" avant les élections de mi-mandats,",
-          "l": "https://www.france24.com/fr/am%C3%A9riques/20260707-donald-trump-ressort-la-peur-du-grand-m%C3%A9chant-rouge-avant-les-%C3%A9lections-de-mi-mandats",
+          "t": "Mondial 2026 : tollé après des propos racistes d’une sénatrice paraguayenne contre Kylian Mbappé",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-les-propos-racistes-d-une-s%C3%A9natrice-paraguayenne-contre-kylian-mbapp%C3%A9-provoquent-un-toll%C3%A9",
           "d": "2026-07-07"
         },
         {
-          "t": "\"Laissez le peuple palestinien vivre\", plaide le sélectionneur égyptien à la Coupe du monde",
-          "l": "https://www.france24.com/fr/sports/20260707-mondial-2026-peuple-palestine-gaza-vivre-hassan-egypte",
+          "t": "Macron en Syrie : reprise du dialogue et réouverture des ambassades",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-macron-en-syrie-reprise-du-dialogue-et-r%C3%A9ouverture-des-ambassades",
           "d": "2026-07-07"
         },
         {
-          "t": "Mondial 2026 : l'Espagne élimine le Portugal et Cristiano Ronaldo",
-          "l": "https://www.france24.com/fr/%C3%A9missions/sports/20260707-mondial-2026-espagne-%C3%A9limine-portugal-cristiano-ronaldo",
+          "t": "Condamnation allégée pour Marine Le Pen : une victoire de la stratégie du RN ?",
+          "l": "https://www.france24.com/fr/france/20260707-condamnation-allegee-marine-le-pen-victoire-strategie-rassemblement-national-pr%C3%A9sidentielle",
           "d": "2026-07-07"
         },
         {
-          "t": "Gaza : la dissolution des instances dirigeantes du Hamas, \"un geste pour débloquer le plan Trump\"",
-          "l": "https://www.france24.com/fr/moyen-orient/20260707-gaza-dissolution-instances-dirigeantes-hamas-geste-pour-d%C3%A9bloquer-plan-paix-trump-israel",
+          "t": "GB: rattrapé par des affaires, Nigel Farage démissionne pour s'en remettre au vote des électeurs",
+          "l": "https://www.france24.com/fr/info-en-continu/20260707-gb-rattrap%C3%A9-par-des-affaires-nigel-farage-d%C3%A9missionne-pour-s-en-remettre-au-vote-des-%C3%A9lecteurs",
           "d": "2026-07-07"
         },
         {
-          "t": "À Damas, Emmanuel Macron retrouve Ahmed al-Charaa pour évoquer la reconstruction de la Syrie",
-          "l": "https://www.france24.com/fr/moyen-orient/20260707-emmanuel-macron-retrouve-ahmed-al-chareh-pour-sa-visite-historique-en-syrie",
+          "t": "Marine Le Pen condamnée en appel : quels scénarios pour la présidentielle ?",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-marine-le-pen-condamn%C3%A9e-en-appel-quels-sc%C3%A9narios-pour-la-pr%C3%A9sidentielle",
           "d": "2026-07-07"
         },
         {
-          "t": "Mondial 2026: \"Kylian Mbappé nous rend fiers d'être Français\"",
-          "l": "https://www.france24.com/fr/%C3%A9missions/dans-la-presse/20260707-mondial-2026-kylian-mbapp%C3%A9-nous-rend-fiers-d-%C3%AAtre-fran%C3%A7ais",
+          "t": "Au Nigéria, le Sénat ouvre la voie à la création de polices d'État",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-au-nig%C3%A9ria-le-s%C3%A9nat-ouvre-la-voie-%C3%A0-la-cr%C3%A9ation-de-polices-d-%C3%A9tat",
           "d": "2026-07-07"
         },
         {
-          "t": "En direct : fin du suspense pour Marine Le Pen, bientôt fixée sur son avenir présidentiel",
+          "t": "Argentine - Égypte en direct : les Pharaons font trembler l'Albiceleste de Messi",
+          "l": "https://www.france24.com/fr/sports/20260707-argentine-%C3%A9gypte-en-direct-suivez-le-8e-de-finale-entre-l-albiceleste-et-les-pharaons",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "En Syrie, Emmanuel Macron réaffirme son soutien à Ahmed al-Charaa pour stabiliser le pays",
+          "l": "https://www.france24.com/fr/moyen-orient/20260707-syrie-emmanuel-macron-r%C3%A9affirme-soutien-ahmed-al-charaa-pour-stabiliser-pays",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "\"Délinquante\", \"privilégiée\" : les critiques fusent à gauche après la condamnation de Marine Le Pen",
+          "l": "https://www.france24.com/fr/france/20260707-d%C3%A9linquante-privil%C3%A9gi%C3%A9e-critiques-fusent-%C3%A0-gauche-apr%C3%A8s-condamnation-marine-le-pen",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Marine Le Pen : réunion en cours au siège du RN après sa condamnation en appel",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-marine-le-pen-r%C3%A9union-en-cours-au-si%C3%A8ge-du-rn-apr%C3%A8s-sa-condamnation-en-appel",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Marine Le Pen condamnée en appel : quelles réactions au sein de la classe politique ?",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-marine-le-pen-condamn%C3%A9e-en-appel-quelles-r%C3%A9actions-au-sein-de-la-classe-politique",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Disiz trace une route à part dans la musique française",
+          "l": "https://www.france24.com/fr/%C3%A9missions/%C3%A0-l-affiche/20260707-disiz-trace-une-route-%C3%A0-part-dans-la-musique-fran%C3%A7aise",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Macron en Syrie : ce qu’il faut retenir de la conférence de presse avec Al-Charaa",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-macron-en-syrie-ce-qu-il-faut-retenir-de-la-conf%C3%A9rence-de-presse-avec-al-charaa",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Présidentielle 2027 : Marine Le Pen fera-t-elle campagne avec un bracelet électronique ?",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-pr%C3%A9sidentielle-2027-marine-le-pen-fera-t-elle-campagne-avec-un-bracelet-%C3%A9lectronique",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "France : Marine Le Pen condamnée à 15 mois ferme d'inéligibilité",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-france-marine-le-pen-condamn%C3%A9e-%C3%A0-15-mois-ferme-d-in%C3%A9ligibilit%C3%A9",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Marine Le Pen condamnée, son avenir politique incertain",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-marine-le-pen-condamn%C3%A9e-son-avenir-politique-incertain",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Condamnation de Marine Le Pen : ce qu'il faut retenir",
+          "l": "https://www.france24.com/fr/france/20260707-condamnation-de-marine-le-pen-ce-qu-il-faut-retenir-appel-rn-bardella",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Mondial 2026 : des joueurs sénégalais encore bloqués aux USA attendent leur retour au pays",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-mondial-2026-des-joueurs-s%C3%A9n%C3%A9galais-encore-bloqu%C3%A9s-aux-usa-attendent-leur-retour-au-pays",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "🔴 Affaire des assistants parlementaires du FN : Marine Le Pen jugée coupable en appel, suivez notre direct",
           "l": "https://www.france24.com/fr/france/20260707-en-direct-fin-suspense-marine-le-pen-bientot-fixee-avenir-presidentielle-proces-appel-affaire-assistants-parlementaires",
           "d": "2026-07-07"
         },
         {
-          "t": "Trump, la Fifa et le carton rouge de Balogun : qu’en pensent les Américains ?",
-          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-trump-la-fifa-et-le-carton-rouge-de-balogun-qu-en-pensent-les-am%C3%A9ricains",
+          "t": "Délibéré du procès Le Pen : l’heure du dénouement pour son avenir politique",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-d%C3%A9lib%C3%A9r%C3%A9-du-proc%C3%A8s-le-pen-l-heure-du-d%C3%A9nouement-pour-son-avenir-politique",
           "d": "2026-07-07"
         },
         {
-          "t": "Ukraine en direct : plus de 430 drones ukrainiens lancés vers Moscou, avant le sommet de l'Otan",
-          "l": "https://www.france24.com/fr/europe/20260707-ukraine-en-direct-attaque-ukrainienne-un-mort-dans-region-belgorod-otan-volodymyr-zelensky-poutine-vladimir-ankara-donald-trump-frappes",
+          "t": "Burkina Faso : la France retire tous ses diplomates après la rupture des relations",
+          "l": "https://www.france24.com/fr/vid%C3%A9o/20260707-burkina-faso-la-france-retire-tous-ses-diplomates-apr%C3%A8s-la-rupture-des-relations",
           "d": "2026-07-07"
         },
         {
-          "t": "Un Français va arbitrer l'Argentine contre l'Égypte et ses supporters crient au scandale",
-          "l": "https://www.france24.com/fr/sports/20260707-francais-francois-letexier-arbitre-argentine-egypte-supporters-scandale",
+          "t": "Colis piégé à Monaco : l'Ukrainienne suspectée a été retrouvée morte près de Kiev",
+          "l": "https://www.france24.com/fr/europe/20260707-colis-pi%C3%A9g%C3%A9-monaco-ukrainienne-suspect%C3%A9e-retrouv%C3%A9e-morte-pr%C3%A8s-kiev-torture-anastasia-berezovska",
           "d": "2026-07-07"
-        },
-        {
-          "t": "Mondial 2026 : résultats, articles et temps forts de la nuit",
-          "l": "https://www.france24.com/fr/sports/20260707-mondial-2026-resultats-articles-temps-forts-de-la-nuit-espagne-portugal-balogun",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Donald Trump n'a pas suffi : les États-Unis humiliés par la Belgique et éliminés de leur Mondial",
-          "l": "https://www.france24.com/fr/sports/20260707-donald-trump-etats-unis-%C3%A9limines-coupe-monde-belgique",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Donald Trump n'a pas suffi : les États-Unis humiliés par la Belgique et éliminés de leur Mondial",
-          "l": "https://www.france24.com/fr/sports/20260707-donald-trump-etats-unis-%C3%A9limines-coupe-monde-belgique",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "États-Unis - Belgique : les Diables Rouges n'ont laissé aucune chance au Team USA",
-          "l": "https://www.france24.com/fr/sports/20260706-%C3%A9tats-unis-belgique-direct-live-scandale-balogun-8e-finale-tension",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "La Knesset adopte en première lecture la création d'une commission d'enquête sur le 7-Octobre",
-          "l": "https://www.france24.com/fr/moyen-orient/20260706-knesset-adopte-premiere-lecture-creation-commission-enquete-7-octobre-benjamin-netanyahu-parlement-defaillances-boycott-opposition-otages-hamas",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Mondial 2026 : l'Espagne élimine sur le fil le Portugal de Cristiano Ronaldo",
-          "l": "https://www.france24.com/fr/sports/20260706-mondial-2026-espagne-elimine-portugal-cristiano-ronaldo",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Mondial 2026 : l'Espagne met à la retraite Cristiano Ronaldo et rejoint les quarts",
-          "l": "https://www.france24.com/fr/sports/20260706-mondial-2026-espagne-elimine-portugal-cristiano-ronaldo",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "La canicule donne des sueurs froides aux compagnies d'assurance",
-          "l": "https://www.france24.com/fr/%C3%A9missions/info-%C3%A9co/20260706-canicule-pour-les-assurances-la-facture-climatique-est-sal%C3%A9e",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "La France retire ses diplomates du Burkina Faso",
-          "l": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260706-la-france-retire-ses-diplomates-du-burkina-faso",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Emmanuel Macron en Syrie : pourquoi cette visite ?",
-          "l": "https://www.france24.com/fr/%C3%A9missions/on-va-plus-loin/20260706-emmanuel-macron-en-syrie-pourquoi-cette-visite",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Certaines images des funérailles d'Ali Khamenei dopées par l'Intelligence Artificielle",
-          "l": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20260706-certaines-images-des-fun%C3%A9railles-d-ali-khamenei-dop%C3%A9es-par-l-intelligence-artificielle",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Mondial 2026 : dans la banlieue hispanique de Boston pour Mexique-Angleterre",
-          "l": "https://www.france24.com/fr/vid%C3%A9o/20260706-mondial-2026-dans-la-banlieue-hispanique-de-boston-pour-mexique-angleterre",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "\"Abject et indigne\" : Mbappé et la France répondent aux propos racistes d'une sénatrice paraguayenne",
-          "l": "https://www.france24.com/fr/sports/20260706-mondial-football-abject-abominable-mbappe-fff-racisme-senatrice-paraguay",
-          "d": "2026-07-06"
         }
       ]
     },
@@ -2417,153 +2412,153 @@
       "nom_site": "Franceinfo|Actualités générales",
       "articles": [
         {
-          "t": "Marine Le Pen pourra-t-elle se présenter à la présidentielle ? La décision cruciale de la cour d'appel sur son inéligibilité attendue cet après-midi",
+          "t": "Présidentielle, bracelet électronique, pourvoi en cassation… Les questions qui se posent après la condamnation réduite de Marine Le Pen en appel",
+          "l": "https://www.franceinfo.fr/politique/front-national/affaire-des-assistants-fn-au-parlement-europeen/presidentielle-bracelet-electronique-pourvoi-en-cassation-les-questions-qui-se-posent-apres-la-condamnation-reduite-de-marine-le-pen-en-appel_8097893.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "\"Une privilégiée\", \"elle est face à ses responsabilités\"... Les réactions politiques à la condamnation de Marine Le Pen en appel",
+          "l": "https://www.franceinfo.fr/politique/front-national/affaire-des-assistants-fn-au-parlement-europeen/une-privilegiee-elle-est-face-a-ses-responsabilites-les-reactions-politiques-a-la-condamnation-de-marine-le-pen-en-appel_8097776.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Marine Le Pen, Bruno Gollnisch, Louis Aliot… Voici les 11 condamnations à l'issue du procès en appel des assistants parlementaires du FN",
+          "l": "https://www.franceinfo.fr/politique/front-national/affaire-des-assistants-fn-au-parlement-europeen/marine-le-pen-bruno-gollnisch-louis-aliot-voici-les-11-condamnations-a-l-issue-du-proces-en-appel-des-assistants-parlementaires-du-fn_8089790.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Procès en appel de Marine le Pen : la cour dit avoir pris en compte \"la liberté de choix de l'électeur, condition d'expression du suffrage démocratique\"",
           "l": "https://www.franceinfo.fr/politique/front-national/affaire-des-assistants-fn-au-parlement-europeen/direct-marine-le-pen-pourra-t-elle-se-presenter-a-la-presidentielle-la-decision-cruciale-de-la-cour-d-appel-sur-son-ineligibilite-attendue-cet-apres-midi_8090117.html#xtor=RSS-3-[lestitres]",
           "d": "2026-07-07"
         },
         {
-          "t": "Après les aveux de Cédric Jubillar, quelles sont les possibles suites judiciaires de l'affaire ?",
-          "l": "https://www.franceinfo.fr/faits-divers/disparition-de-delphine-jubillar/apres-les-aveux-de-cedric-jubillar-quelles-sont-les-possibles-suites-judiciaires-de-l-affaire_8096249.html#xtor=RSS-3-[lestitres]",
+          "t": "Marine Le Pen, Louis Aliot, Nicolas Bay… Pourquoi les élus du RN qui ont été condamnés peuvent conserver leur mandat",
+          "l": "https://www.franceinfo.fr/politique/front-national/marine-le-pen-louis-aliot-nicolas-bay-pourquoi-les-elus-du-rn-qui-ont-ete-condamnes-peuvent-conserver-leur-mandat_8097851.html#xtor=RSS-3-[lestitres]",
           "d": "2026-07-07"
         },
         {
-          "t": "Bac 2026 : les résultats officiels sont tombés à La Réunion, les autres académies attendues dans la journée",
-          "l": "https://www.franceinfo.fr/bac/direct-bac-2026-les-resultats-officiels-vont-tomber-dans-la-journee-decouvrez-qui-sont-les-laureats-academie-par-academie_8079515.html#xtor=RSS-3-[lestitres]",
+          "t": "\"Le président de la République ne commente pas les décisions de justice\", réagit Emmanuel Macron après la condamnation en appel de Marine le Pen",
+          "l": "https://www.franceinfo.fr/politique/front-national/affaire-des-assistants-fn-au-parlement-europeen/video-emmanuel-macron-affirme-qu-un-president-ne-commente-pas-les-decisions-de-justice-apres-la-condamnation-en-appel-de-marine-le-pen_8097959.html#xtor=RSS-3-[lestitres]",
           "d": "2026-07-07"
         },
         {
-          "t": "\"Violence de genre pure et dure\" : la sénatrice paraguayenne Céleste Amarilla, auteure d'insultes à caractère raciste envers Kylian Mbappé, l’accuse de misogynie et \"exige\" des excuses",
-          "l": "https://www.franceinfo.fr/coupe-du-monde/retracte-toi-avec-moi-honore-ta-citoyennete-francaise-et-presente-tes-excuses-a-repondu-la-senatrice-paraguayenne-celeste-amarilla-a-kylian-mbappe_8097302.html#xtor=RSS-3-[lestitres]",
+          "t": "L'avocat de Marine Le Pen se dit \"partiellement\" satisfait de la décision de la cour d'appel de Paris",
+          "l": "https://www.franceinfo.fr/politique/front-national/affaire-des-assistants-fn-au-parlement-europeen/video-l-avocat-de-marine-le-pen-se-dit-partiellement-satisfait-de-la-decision-de-la-cour-d-appel-de-paris_8097890.html#xtor=RSS-3-[lestitres]",
           "d": "2026-07-07"
         },
         {
-          "t": "Canicule : une grande partie de la France confrontée à un nouvel épisode de chaleur",
-          "l": "https://www.franceinfo.fr/environnement/meteo/direct-canicule-une-grande-partie-de-la-france-confrontee-a-un-nouvel-episode-de-chaleur_8097194.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Pour quelles raisons le Hamas se dit-il prêt à céder le pouvoir… sans renoncer aux armes ?",
-          "l": "https://www.franceinfo.fr/replay-radio/d-un-monde-a-l-autre/pour-quelles-raisons-le-hamas-se-dit-il-pret-a-ceder-le-pouvoir-sans-renoncer-aux-armes_8061803.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Le gouvernement prépare un nouveau tour de vis pour redresser les comptes publics",
-          "l": "https://www.franceinfo.fr/replay-radio/le-decryptage-eco/le-gouvernement-prepare-un-nouveau-tour-de-vis-pour-redresser-les-comptes-publics_8063066.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "\"Ce n'est pas le foot qui me fait vibrer, c'est lui\" : pourquoi l'image de Lionel Messi est partout aux Etats-Unis pendant la Coupe du monde",
-          "l": "https://www.franceinfo.fr/coupe-du-monde/reportage-ce-n-est-pas-le-foot-qui-me-fait-vibrer-c-est-lui-pourquoi-l-image-de-lionel-messi-est-partout-aux-etats-unis-pendant-la-coupe-du-monde_8087141.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "La mortalité périnatale continue d'augmenter en France",
-          "l": "https://www.franceinfo.fr/sante/la-mortalite-perinatale-continue-d-augmenter-en-france_8097344.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "\"Nous devons vaincre le racisme ensemble\"... Gianni Infantino, le président de la Fifa, apporte son soutien à Kylian Mbappé",
-          "l": "https://www.franceinfo.fr/coupe-du-monde/nous-devons-vaincre-le-racisme-ensemble-gianni-infantino-le-president-de-la-fifa-apporte-son-soutien-a-kylian-mbappe_8097053.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "En marge du sommet de l'Otan, Vladimir Poutine cherche toujours à imposer son récit sur la guerre en Ukraine",
-          "l": "https://www.franceinfo.fr/monde/russie/vladimir-poutine/en-marge-du-sommet-de-l-otan-vladimir-poutine-cherche-toujours-a-imposer-son-recit-sur-la-guerre-en-ukraine_8096729.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Incendies : le feu dans les Pyrénées-Orientales \"n'est pas fixé\" et \"continue à progresser\" annonce Laurent Nuñez, 4 900 hectares déjà brûlés",
-          "l": "https://www.franceinfo.fr/faits-divers/incendie/incendie-dans-les-pyrenees-orientales-le-feu-a-deja-parcouru-environ-4-500-hectares-les-habitants-de-26-communes-doivent-evacuer_8095550.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Une Belgique remontée exclut avec autorité les Etats-Unis de leur Coupe du monde",
-          "l": "https://www.franceinfo.fr/coupe-du-monde/une-belgique-remontee-exclut-avec-autorite-les-etats-unis-de-leur-coupe-du-monde_8097245.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "\"Quand le président est impliqué dans la Coupe du monde, voilà ce qu'il se passe...\" : l'amertume des supporters américains après l'élimination des États-Unis par la Belgique",
-          "l": "https://www.franceinfo.fr/coupe-du-monde/quand-le-president-est-implique-dans-la-coupe-du-monde-voila-ce-qu-il-se-passe-ces-supporters-americains-confient-leur-amertume-apres-l-elimination-des-etats-unis-face-a-la-belgique-en-huitiemes-de-finale_8097239.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Plus de 430 drones ukrainiens lancés sur Moscou au lendemain de frappes russes qui ont fait 28 morts",
-          "l": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/russie-plus-de-430-drones-ukrainiens-lances-vers-moscou-avant-le-debut-d-un-sommet-de-l-otan-en-turquie_8097293.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Incendies : le feu de Trévillach, dans les Pyrénées-Orientales, n'est toujours pas fixé malgré les efforts des pompiers",
-          "l": "https://www.franceinfo.fr/faits-divers/incendie/direct-incendies-le-feu-de-trevillach-dans-les-pyrenees-orientales-n-est-toujours-pas-fixe-malgre-les-efforts-des-pompiers_8097272.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "\"Nous isolons la Crimée du soutien logistique militaire de la Russie\" : rencontre avec Dmytro Pletenchuk, porte-parole de la marine ukrainienne",
-          "l": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/nous-isolons-la-crimee-du-soutien-logistique-militaire-de-la-russie-rencontre-avec-dmytro-pletenchuk-porte-parole-de-la-marine-ukrainienne_8096480.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "\"Mais non, ce n'est pas moi !\" : quand l'outil de reconnaissance faciale des forces de l'ordre identifie... la mauvaise personne",
-          "l": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/enquete-francetv-mais-non-ce-n-est-pas-moi-quand-l-outil-de-reconnaissance-faciale-des-forces-de-l-ordre-identifie-la-mauvaise-personne_8092685.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "L'animateur du centre de loisirs de Tarnos dans les Landes, suspendu pour des soupçons de \"comportement inapproprié\", placé en garde à vue",
-          "l": "https://www.franceinfo.fr/societe/pedocriminalite/landes-l-animateur-du-centre-de-loisirs-de-tarnos-suspendu-pour-des-soupcons-de-comportement-inapproprie-place-en-garde-a-vue_8097218.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-07"
-        },
-        {
-          "t": "Coupe du monde 2026 : la Belgique écrase les Etats-Unis devant leur public avant les derniers huitièmes de finale aujourd'hui",
+          "t": "Coupe du monde 2026 : l'Argentine de Lionel Messi affronte l'Egypte de Mohamed Salah... Suivez le match avec nous",
           "l": "https://www.franceinfo.fr/coupe-du-monde/direct-coupe-du-monde-2026-la-belgique-ecrase-les-etats-unis-devant-leur-public-avant-les-derniers-8e-de-finale-aujourd-hui_8096333.html#xtor=RSS-3-[lestitres]",
           "d": "2026-07-07"
         },
         {
-          "t": "L'aéroport de Nantes fermé plusieurs heures après un \"incident technique\" sur un avion",
-          "l": "https://www.franceinfo.fr/economie/aeronautique/l-aeroport-de-nantes-ferme-plusieurs-heures-apres-un-incident-technique-sur-un-avion_8097209.html#xtor=RSS-3-[lestitres]",
+          "t": "\"Bombes artisanales\", 18 blessés, visite maintenue… Ce que l'on sait des explosions survenues près de l'hôtel d'Emmanuel Macron à Damas",
+          "l": "https://www.franceinfo.fr/monde/revolte-en-syrie/bombes-artisanales-18-blesses-visite-maintenue-ce-que-l-on-sait-des-explosions-survenues-pres-de-l-hotel-d-emmanuel-macron-a-damas_8097773.html#xtor=RSS-3-[lestitres]",
           "d": "2026-07-07"
         },
         {
-          "t": "\"C'est une décision qu'il peut prendre quand il veut\" : la famille du journaliste Christophe Gleizes réitère sa demande de grâce au président algérien",
-          "l": "https://www.franceinfo.fr/culture/livres/emprisonnement-du-journaliste-christophe-gleizes-en-algerie/video-c-est-une-decision-qu-il-peut-prendre-quand-il-veut-la-famille-du-journaliste-christophe-gleizes-reitere-sa-demande-de-grace-au-president-algerien_8096765.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Tour de France 2026 : le premier départ depuis l'Hexagone, les horaires, les reliefs ariégeois pour une échappée victorieuse ? La 4e étape en questions",
-          "l": "https://www.franceinfo.fr/tour-de-france/tour-de-france-2026-le-premier-depart-depuis-l-hexagone-les-horaires-les-reliefs-ariegeois-pour-une-echappee-victorieuse-la-4e-etape-en-questions_8067383.html#xtor=RSS-3-[lestitres]",
+          "t": "Bac 2026 : le taux de réussite provisoire s'élève à 85,5%, un chiffre stable par rapport à 2025",
+          "l": "https://www.franceinfo.fr/bac/bac-2026-le-taux-de-reussite-provisoire-s-eleve-a-85-5-un-chiffre-stable-par-rapport-a-2025_8097758.html#xtor=RSS-3-[lestitres]",
           "d": "2026-07-07"
         },
         {
-          "t": "La vigilance orange canicule étendue à 61 départements mardi, contre 16 lundi, annonce Météo-France",
-          "l": "https://www.franceinfo.fr/environnement/meteo/alertes-meteo-et-vigilances/la-vigilance-orange-canicule-etendue-a-61-departements-mardi-contre-16-lundi-annonce-meteo-france_8096354.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "\"Ça aurait pu partir dans le décor\" : avant la décision en appel sur l'inéligibilité de Marine Le Pen, cinq longs mois d'attente et de doutes au Rassemblement national",
-          "l": "https://www.franceinfo.fr/politique/marine-le-pen/recit-ca-aurait-pu-partir-dans-le-decor-avant-la-decision-en-appel-sur-l-ineligibilite-de-marine-le-pen-cinq-longs-mois-d-attente-et-de-doutes-au-rassemblement-national_8080595.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Marine Le Pen devant la justice : quels scénarios pour la présidentielle ?",
-          "l": "https://www.franceinfo.fr/politique/marine-le-pen/marine-le-pen-devant-la-justice-quels-scenarios-pour-la-presidentielle_8096681.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "La décision de la cour d'appel de Paris permettra-t-elle à Marine Le Pen de se présenter à la présidentielle ? On a listé les différents cas de figure",
-          "l": "https://www.franceinfo.fr/politique/front-national/affaire-des-assistants-fn-au-parlement-europeen/la-decision-de-la-cour-d-appel-de-paris-permettra-t-elle-a-marine-le-pen-de-se-presenter-a-la-presidentielle-on-a-liste-les-differents-cas-de-figure_8092121.html#xtor=RSS-3-[lestitres]",
+          "t": "Canicule : six nouveaux départements seront placés en vigilance orange mercredi, 67 concernés au total",
+          "l": "https://www.franceinfo.fr/environnement/meteo/direct-canicule-une-grande-partie-de-la-france-confrontee-a-un-nouvel-episode-de-chaleur_8097194.html#xtor=RSS-3-[lestitres]",
           "d": "2026-07-07"
         },
         {
-          "t": "\"C'est d'abord la méfiance, la prudence et surtout la stupéfaction\", dit l'avocate de la mère de Cédric Jubillar après la publication de sa lettre d'aveux",
-          "l": "https://www.franceinfo.fr/faits-divers/disparition-de-delphine-jubillar/c-est-d-abord-la-mefiance-la-prudence-et-surtout-la-stupefaction-dit-l-avocate-de-la-mere-de-cedric-jubillar-apres-la-publication-de-sa-lettre-d-aveux_8097320.html#xtor=RSS-3-[lestitres]",
+          "t": "Mads Pedersen s'impose au sprint à Foix sur la 4e étape du Tour de France au terme d'une échappée, le Norvégien Torstein Traeen prend le maillot jaune à Tadej Pogacar",
+          "l": "https://www.franceinfo.fr/tour-de-france/mads-pedersen-s-impose-au-sprint-a-foix-sur-la-4e-etape-du-tour-de-france-au-terme-d-une-echappee-le-norvegien-torstein-traeen-prend-le-maillot-jaune-a-tadej-pogacar_8098106.html#xtor=RSS-3-[lestitres]",
           "d": "2026-07-07"
         },
         {
-          "t": "Aveux de Cédric Jubillar : il \"n'a jamais eu l'intention de tuer son épouse\", affirme son avocat",
-          "l": "https://www.franceinfo.fr/faits-divers/disparition-de-delphine-jubillar/direct-l-avocat-de-cedric-jubillar-tient-une-conference-de-presse-a-la-mi-journee-apres-les-aveux-de-son-client_8095871.html#xtor=RSS-3-[lestitres]",
-          "d": "2026-07-06"
+          "t": "Un nouveau navire a été attaqué dans le détroit d'Ormuz, le troisième en 24 heures",
+          "l": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/un-nouveau-navire-a-ete-attaque-dans-le-detroit-d-ormuz-le-troisieme-en-24-heures_8098112.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
         },
         {
-          "t": "Qui a eu son bac cette année ? Découvrez les résultats officiels dans notre moteur de recherche",
-          "l": "https://www.franceinfo.fr/bac/qui-a-eu-son-bac-cette-annee-decouvrez-les-resultats-officiels-dans-notre-moteur-de-recherche_8079725.html#xtor=RSS-3-[lestitres]",
+          "t": "On vous résume l'affaire des propos racistes d'une sénatrice paraguayenne contre Kylian Mbappé, sur lesquels la justice française ouvre une enquête",
+          "l": "https://www.franceinfo.fr/sports/foot/kylian-mbappe/du-racisme-decomplexe-on-vous-resume-la-polemique-entre-kylian-mbappe-et-la-senatrice-paraguayenne-celeste-amarilla_8097443.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Après les aveux de Cédric Jubillar sur la mort de sa femme, \"la justice compte agir rapidement\", affirme la cour d'appel de Toulouse",
+          "l": "https://www.franceinfo.fr/faits-divers/disparition-de-delphine-jubillar/apres-les-revelations-de-cedric-jubillar-la-justice-compte-agir-rapidement-affirme-la-cour-d-appel-de-toulouse_8098031.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Le gouvernement français abaisse la prévision de croissance de la France pour 2026, de 0,9% à 0,7%",
+          "l": "https://www.franceinfo.fr/economie/le-gouvernement-francais-abaisse-la-prevision-de-croissance-de-la-france-pour-2026_8098076.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Le Comité international olympique réintègre \"à titre provisoire\" la Russie, mais temporise sur l'utilisation de l'hymne et du drapeau aux JO",
+          "l": "https://www.franceinfo.fr/les-jeux-olympiques/los-angeles-2028/le-comite-international-olympique-reintegre-a-titre-provisoire-la-russie-mais-temporise-sur-l-utilisation-de-l-hymne-et-du-drapeau-aux-jeux-olympiques_8098001.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "\"Drag Race France\" : les actrices Isabelle Adjani et Galia Salimo dans le jury de la quatrième saison",
+          "l": "https://www.franceinfo.fr/culture/spectacles/drag-race-france-les-actrices-isabelle-adjani-et-galia-salimo-dans-le-jury-de-la-quatrieme-saison_8097848.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Violences dans le périscolaire à Paris : un animateur de l'école maternelle Alphonse-Baudin, accusé d'agressions sexuelles sur mineurs, relaxé",
+          "l": "https://www.franceinfo.fr/societe/education/violences-dans-le-periscolaire/violences-dans-le-periscolaire-a-paris-l-animateur-de-l-ecole-maternelle-alphonse-baudin-accuse-d-agressions-sexuelles-sur-mineurs-relaxe-par-le-tribunal_8095931.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "La suspecte de la tentative d'assassinat à Monaco a été retrouvée morte en Ukraine",
+          "l": "https://www.franceinfo.fr/faits-divers/la-suspecte-de-la-tentative-d-assassinat-a-monaco-a-ete-retrouvee-morte-en-ukraine-annonce-la-police-ukrainienne_8097761.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Au Royaume-Uni, Nigel Farage annonce sa démission du Parlement et se présente à sa réélection",
+          "l": "https://www.franceinfo.fr/monde/royaume-uni/au-royaume-uni-nigel-farage-annonce-sa-demission-du-parlement-et-se-presente-a-sa-reelection_8097929.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "\"C'est un feu hors normes\" : à Ille-sur-Têt, la sidération des habitants et des pompiers après le passage de l'incendie",
+          "l": "https://www.franceinfo.fr/faits-divers/incendie/c-est-un-feu-hors-normes-a-ille-sur-tet-la-sideration-des-habitants-et-des-pompiers-apres-le-passage-de-l-incendie_8097323.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Canicule en prison : le barreau de Paris appelle à des \"mesures immédiates\" pour \"préserver la dignité des détenus\"",
+          "l": "https://www.franceinfo.fr/societe/prisons/canicule-en-prison-le-barreau-de-paris-appelle-a-des-mesures-immediates-pour-preserver-la-dignite-des-detenus_8098100.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Plus de 6 millions de personnes ont vu \"La Caverne\" du Pont-Neuf, à Paris, l'hommage monumental de JR à Christo",
+          "l": "https://www.franceinfo.fr/culture/arts-expos/plus-de-6-millions-de-personnes-ont-vu-la-caverne-du-pont-neuf-a-paris-l-hommage-monumental-de-jr-a-christo_8097506.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Le gouvernement annonce qu'il compte faire 3 milliards d'euros d'économies supplémentaires sur le budget de l'Etat et de la Sécurité sociale",
+          "l": "https://www.franceinfo.fr/economie/budget/le-gouvernement-annonce-3-milliards-d-euros-d-economies-supplementaires_8097836.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Quatre nouvelles personnes mises en examen dans l'enquête sur le meurtre de Mehdi Kessaci à Marseille",
+          "l": "https://www.franceinfo.fr/faits-divers/criminalite-a-marseille/quatre-nouvelles-personnes-mises-en-examen-dans-l-enquete-sur-le-meurtre-de-mehdi-kessaci-a-marseille_8097527.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Le freeride et le patinage synchronisé intégrés au programme olympique des Jeux olympiques des Alpes françaises en 2030, le combiné nordique exclu",
+          "l": "https://www.franceinfo.fr/les-jeux-olympiques/cio/le-freeride-et-le-patinage-synchronise-integres-au-programme-olympique-des-jeux-olympiques-des-alpes-francaises-2030-le-combine-nordique-exclu_8097701.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "La Cour des comptes alerte sur la situation \"critique\" d'Universcience, établissement chapeautant la Cité des sciences et le Palais de la découverte à Paris",
+          "l": "https://www.franceinfo.fr/culture/la-cour-des-comptes-alerte-sur-la-situation-critique-d-universcience-etablissement-chapeautant-la-cite-des-sciences-et-le-palais-de-la-decouverte-a-paris_8097923.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "\"Cagnac-les-Mines a besoin de se reposer\" : après les aveux de Cédric Jubillar, le village du Tarn espère \"enfin un dénouement\"",
+          "l": "https://www.franceinfo.fr/faits-divers/disparition-de-delphine-jubillar/reportage-cagnac-les-mines-a-besoin-de-se-reposer-apres-les-aveux-de-cedric-jubillar-le-village-du-tarn-ou-il-vivait-avec-son-epouse-espere-enfin-un-denouement-a-l-affaire_8097236.html#xtor=RSS-3-[lestitres]",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "\"Tout le monde est touché\" : à El Obeid dans le sud du Soudan, l'ONU craint \"l'escalade des violences\"",
+          "l": "https://www.franceinfo.fr/monde/afrique/soudan/temoignages-tout-le-monde-est-touche-a-el-obeid-dans-le-sud-du-soudan-l-onu-craint-l-escalade-des-violences_8096780.html#xtor=RSS-3-[lestitres]",
           "d": "2026-07-07"
         }
       ]
@@ -2572,104 +2567,104 @@
       "nom_site": "Le Monde|Géopolitique",
       "articles": [
         {
-          "t": "EN DIRECT, guerre en Ukraine : l’attaque menée par la Russie contre Kiev a fait 24 morts dans la région de la capitale",
-          "l": "https://www.lemonde.fr/international/live/2026/07/07/en-direct-guerre-en-ukraine-l-attaque-menee-par-la-russie-contre-kiev-a-fait-24-morts-dans-la-region-de-la-capitale_6720832_3210.html",
+          "t": "En 1988, l’assaut sanglant de la grotte d’Ouvéa et le double jeu de François Mitterrand",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/en-1988-l-assaut-sanglant-de-la-grotte-d-ouvea-et-le-double-jeu-de-francois-mitterrand_6721524_3224.html",
           "d": "2026-07-07"
         },
         {
-          "t": "L’Ukraine « arsenal du monde libre », un projet encore embryonnaire, bridé par les ambivalences des alliés",
-          "l": "https://www.lemonde.fr/international/article/2026/07/07/l-ukraine-arsenal-du-monde-libre-un-projet-encore-embryonnaire-bride-par-les-ambivalences-des-allies_6721417_3210.html",
+          "t": "Détroit d’Ormuz : trois attaques signalées en vingt-quatre heures, le Qatar accuse l’Iran pour l’une d’elles",
+          "l": "https://www.lemonde.fr/international/article/2026/07/07/detroit-d-ormuz-trois-attaques-signalees-en-vingt-quatre-heures-le-qatar-accuse-l-iran-pour-l-une-d-elles_6721515_3210.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Ahmet Insel, politiste : « Le régime d’Erdogan se dirige à grande vitesse vers un poutinisme aux couleurs de la Turquie »",
-          "l": "https://www.lemonde.fr/idees/article/2026/07/07/ahmet-insel-politiste-le-regime-d-erdogan-se-dirige-a-grande-vitesse-vers-un-poutinisme-aux-couleurs-de-la-turquie_6721411_3232.html",
+          "t": "Au premier jour du sommet de l’OTAN, à Ankara, Mark Rutte annonce une myriade de contrats de défense pour des milliards d’euros",
+          "l": "https://www.lemonde.fr/international/article/2026/07/07/au-premier-jour-du-sommet-de-l-otan-a-ankara-mark-rutte-annonce-une-myriade-de-contrats-de-defense-pour-des-milliards-d-euros_6721513_3210.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Au Mali, comment djihadistes et indépendantistes se sont alliés pour faire tomber la junte à Bamako",
-          "l": "https://www.lemonde.fr/afrique/article/2026/07/07/au-mali-comment-djihadistes-et-independantistes-se-sont-allies-pour-faire-tomber-la-junte-a-bamako_6721401_3212.html",
+          "t": "Le CIO réintègre les athlètes russes, sans leur rendre leur hymne et leur drapeau",
+          "l": "https://www.lemonde.fr/sport/article/2026/07/07/le-cio-reintegre-les-athletes-russes-sans-leur-rendre-leur-hymne-et-leur-drapeau_6721511_3242.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Sommet de l’OTAN : face au désengagement américain, les armées des pays européens gagnent en puissance mais de façon dispersée",
-          "l": "https://www.lemonde.fr/international/article/2026/07/07/face-au-desengagement-americain-de-l-otan-les-armees-des-pays-europeens-gagnent-en-puissance-de-facon-dispersee_6721403_3210.html",
+          "t": "En Hongrie, les télévision et radio publiques, pro-Orban, ont cessé d’émettre pour repartir sur de nouvelles bases",
+          "l": "https://www.lemonde.fr/international/article/2026/07/07/en-hongrie-les-television-et-radio-publiques-pro-orban-ont-cesse-d-emettre-annonce-le-premier-ministre-peter-magyar_6721510_3210.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Le Hamas annonce dissoudre ses instances dirigeantes à Gaza, le blocage persiste avec Israël",
-          "l": "https://www.lemonde.fr/international/article/2026/07/07/le-hamas-annonce-dissoudre-ses-instances-dirigeantes-a-gaza-le-blocage-persiste-avec-israel_6721404_3210.html",
+          "t": "Attentats à Damas : Emmanuel Macron appelle à « être intraitable en matière de sécurité » ; 18 blessés selon le ministère de l’intérieur syrien",
+          "l": "https://www.lemonde.fr/international/article/2026/07/07/attentats-a-damas-emmanuel-macron-appelle-a-etre-intraitable-en-matiere-de-securite-18-blesses-selon-le-ministere-de-l-interieur-syrien_6721432_3211.html",
           "d": "2026-07-07"
         },
         {
-          "t": "« Changement de régime », le livre retentissant qui raconte l’improvisation de Donald Trump et sa concentration du pouvoir",
-          "l": "https://www.lemonde.fr/international/article/2026/07/07/changement-de-regime-le-livre-retentissant-qui-raconte-l-improvisation-de-donald-trump-et-sa-concentration-du-pouvoir_6721394_3210.html",
+          "t": "La justice tchèque déboute Marla-Svenja Liebich, une néonazie allemande transgenre, et confirme son extradition",
+          "l": "https://www.lemonde.fr/international/article/2026/07/07/la-justice-tcheque-deboute-marla-svenja-liebich-une-neonazie-allemande-transgenre-et-confirme-son-extradition_6721506_3210.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Cuba, sous blocus pétrolier américain, s’efforce de rétablir son réseau électrique après une nouvelle panne générale",
-          "l": "https://www.lemonde.fr/international/article/2026/07/07/cuba-sous-blocus-petrolier-americain-s-efforce-de-retablir-son-reseau-electrique-apres-une-nouvelle-panne-generale_6721252_3211.html",
+          "t": "7-Octobre : l’opposition israélienne dénonce une commission d’enquête sous influence politique",
+          "l": "https://www.lemonde.fr/international/article/2026/07/07/7-octobre-l-opposition-israelienne-denonce-une-commission-d-enquete-sous-influence-politique_6721502_3210.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Au Québec, le « jour du déménagement » rattrapé par la crise du logement",
-          "l": "https://www.lemonde.fr/international/article/2026/07/07/au-quebec-le-jour-du-demenagement-rattrape-par-la-crise-du-logement_6721326_3210.html",
+          "t": "Le prince Harry et Elton John perdent leur procès pour atteinte à la vie privée contre le « Daily Mail »",
+          "l": "https://www.lemonde.fr/actualite-medias/article/2026/07/07/le-prince-harry-et-elton-john-perdent-leur-proces-pour-atteinte-a-la-vie-privee-contre-le-daily-mail_6721501_3236.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Le Parlement israélien adopte en première lecture la création d’une commission d’enquête sur le 7-Octobre",
-          "l": "https://www.lemonde.fr/international/article/2026/07/07/le-parlement-israelien-adopte-en-premiere-lecture-la-creation-d-une-commission-d-enquete-sur-le-7-octobre_6721292_3210.html",
-          "d": "2026-07-06"
+          "t": "Nigel Farage, fragilisé par des affaires de dons non déclarés, annonce qu’il démissionne du Parlement britannique et qu’il se battra pour se faire réélire",
+          "l": "https://www.lemonde.fr/international/article/2026/07/07/nigel-farage-fragilise-par-des-affaires-de-dons-non-declares-annonce-qu-il-demissionne-du-parlement-britannique-et-qu-il-se-battra-pour-se-faire-reelire_6721500_3210.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Le Canada choisit le groupe allemand TKMS pour construire sa nouvelle flotte de sous-marins militaires",
-          "l": "https://www.lemonde.fr/international/article/2026/07/07/le-canada-choisit-le-groupe-allemand-tkms-pour-construire-sa-nouvelle-flotte-de-sous-marins-militaires_6721291_3210.html",
-          "d": "2026-07-06"
+          "t": "Le président syrien, Ahmed Al-Charaa, appelle la France à jouer un rôle actif pour « arrêter l’escalade » d’Israël",
+          "l": "https://www.lemonde.fr/international/article/2026/07/07/le-president-syrien-ahmed-al-charaa-appelle-la-france-a-jouer-un-role-actif-pour-arreter-l-escalade-d-israel_6721493_3210.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Au Soudan, 15 mineurs meurent dans l’effondrement d’une mine d’or dans le nord du pays",
-          "l": "https://www.lemonde.fr/afrique/article/2026/07/06/au-soudan-15-mineurs-meurent-dans-l-effondrement-d-une-mine-d-or-dans-le-nord-du-pays_6721256_3212.html",
-          "d": "2026-07-06"
+          "t": "EN DIRECT, guerre en Ukraine : Donald Trump affirme que Vladimir Poutine et Volodymyr Zelensky « veulent tous les deux un accord » pour mettre fin au conflit",
+          "l": "https://www.lemonde.fr/international/live/2026/07/07/en-direct-guerre-en-ukraine-donald-trump-affirme-que-vladimir-poutine-et-volodymyr-zelensky-veulent-tous-les-deux-un-accord-pour-mettre-fin-au-conflit_6720832_3210.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Séismes au Venezuela : le bilan s’alourdit, passant à plus de 3 500 morts, annonce le gouvernement",
-          "l": "https://www.lemonde.fr/planete/article/2026/07/06/seismes-au-venezuela-le-bilan-s-alourdit-passant-a-plus-de-3-500-morts-annonce-le-gouvernement_6721254_3244.html",
-          "d": "2026-07-06"
+          "t": "La Turquie, un allié encombrant devenu partenaire indispensable au sein de l’OTAN",
+          "l": "https://www.lemonde.fr/international/article/2026/07/07/la-turquie-un-allie-encombrant-devenu-partenaire-indispensable-au-sein-de-l-otan_6721492_3210.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Thales trouve un accord avec Exail Technologies, l’expert français en drones chasseurs de mines et en systèmes de navigation",
-          "l": "https://www.lemonde.fr/economie/article/2026/07/06/thales-trouve-un-accord-avec-exail-technologies-l-expert-francais-en-drones-chasseurs-de-mines-et-en-systemes-de-navigation_6721253_3234.html",
-          "d": "2026-07-06"
+          "t": "« La chute de la gauche en Colombie marque la fin du laboratoire de “l’économie de la vie” »",
+          "l": "https://www.lemonde.fr/idees/article/2026/07/07/la-chute-de-la-gauche-en-colombie-marque-la-fin-du-laboratoire-de-l-economie-de-la-vie_6721486_3232.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "En Turquie, les plaidoiries dans le procès du maire d’Istanbul débutent dans l’ombre du sommet de l’OTAN",
-          "l": "https://www.lemonde.fr/international/article/2026/07/06/en-turquie-les-plaidoiries-dans-le-proces-du-maire-d-istanbul-debutent-dans-l-ombre-du-sommet-de-l-otan_6721249_3210.html",
-          "d": "2026-07-06"
+          "t": "A Damas, les images des explosions près de l’hôtel d’Emmanuel Macron",
+          "l": "https://www.lemonde.fr/international/video/2026/07/07/a-damas-les-images-des-explosions-pres-de-l-hotel-d-emmanuel-macron_6721482_3210.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Mort d’Alexeï Navalny : Londres sanctionne sept personnes et deux instituts de recherche russes",
-          "l": "https://www.lemonde.fr/international/article/2026/07/06/mort-d-alexei-navalny-londres-sanctionne-sept-personnes-et-deux-instituts-de-recherche-russes_6721240_3210.html",
-          "d": "2026-07-06"
+          "t": "La Guyane renforce son intégration régionale en adhérant à la Communauté des Caraïbes",
+          "l": "https://www.lemonde.fr/politique/article/2026/07/07/la-guyane-renforce-son-integration-regionale-en-adherant-a-la-communaute-des-caraibes_6721481_823448.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Ebola en RDC : le bilan dépasse désormais 500 morts, annonce l’OMS",
-          "l": "https://www.lemonde.fr/afrique/article/2026/07/06/ebola-en-rdc-le-bilan-depasse-desormais-500-morts-annonce-l-oms_6721238_3212.html",
-          "d": "2026-07-06"
+          "t": "Retards, indemnisations, remboursements… le Parlement européen renforce les droits des passagers aériens",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/retards-indemnisations-remboursements-le-parlement-europeen-renforce-les-droits-des-passagers-aeriens_6721478_3234.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "En Israël, le coup d’Etat juridique du gouvernement Nétanyahou : « Le dernier clou dans le cercueil de la démocratie »",
-          "l": "https://www.lemonde.fr/international/article/2026/07/06/en-israel-le-coup-d-etat-juridique-du-gouvernement-netanyahou-face-a-la-justice_6721237_3210.html",
-          "d": "2026-07-06"
+          "t": "Les circonstances aggravantes de l’instabilité politique au Royaume-Uni",
+          "l": "https://www.lemonde.fr/idees/article/2026/07/07/les-circonstances-aggravantes-de-l-instabilite-politique-au-royaume-uni_6721474_3232.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Tir de missile balistique par la Chine : une démonstration de force qui inquiète ses voisins du Pacifique",
-          "l": "https://www.lemonde.fr/international/article/2026/07/06/tir-de-missile-balistique-par-la-chine-une-demonstration-de-force-qui-inquiete-ses-voisins-du-pacifique_6721234_3210.html",
-          "d": "2026-07-06"
+          "t": "Les pénuries de carburant en Russie mettent à l’épreuve la sécurité énergétique de l’Asie centrale",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/les-penuries-de-carburant-en-russie-mettent-a-l-epreuve-la-securite-energetique-de-l-asie-centrale_6721473_3234.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "La revue « Politique étrangère » fête ses 90 ans avec un numéro spécial, mêlant théoriciens et écrivains",
-          "l": "https://www.lemonde.fr/livres/article/2026/07/06/la-revue-politique-etrangere-fete-ses-90-ans-avec-un-numero-special-melant-theoriciens-et-ecrivains_6721233_3260.html",
-          "d": "2026-07-06"
+          "t": "La suspecte de la tentative d’assassinat à Monaco retrouvée morte en Ukraine",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/la-suspecte-de-la-tentative-d-assassinat-a-monaco-retrouvee-morte-en-ukraine_6721469_3224.html",
+          "d": "2026-07-07"
         }
       ]
     },
@@ -2677,8 +2672,38 @@
       "nom_site": "Le Monde|Environnement",
       "articles": [
         {
-          "t": "EN DIRECT, incendies : 61 départements en vigilance orange canicule mardi ; l’incendie dans les Pyrénées-Orientales n’a pas progressé pendant la nuit",
-          "l": "https://www.lemonde.fr/planete/live/2026/07/07/en-direct-incendies-61-departements-en-vigilance-orange-canicule-mardi-l-incendie-dans-les-pyrenees-orientales-n-a-pas-progresse-pendant-la-nuit_6720911_3244.html",
+          "t": "La publicité pour les énergies fossiles sera bientôt interdite en France, cinq ans après la loi Climat et résilience",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/la-publicite-pour-les-energies-fossiles-sera-bientot-interdite-en-france-cinq-ans-apres-la-loi-climat-et-resilience_6721520_3234.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Comment les chercheurs scrutent les impacts des vagues de chaleur sur la faune et la flore de Méditerranée : « Nous sommes entrés dans un monde inconnu »",
+          "l": "https://www.lemonde.fr/planete/article/2026/07/07/comment-les-chercheurs-scrutent-les-impacts-des-vagues-de-chaleur-sur-la-faune-et-la-flore-de-mediterranee-nous-sommes-entres-dans-un-monde-inconnu_6721498_3244.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "« La chute de la gauche en Colombie marque la fin du laboratoire de “l’économie de la vie” »",
+          "l": "https://www.lemonde.fr/idees/article/2026/07/07/la-chute-de-la-gauche-en-colombie-marque-la-fin-du-laboratoire-de-l-economie-de-la-vie_6721486_3232.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "EN DIRECT, canicule : des mesures de prévention des incendies renforcées en France ; 61 départements en vigilance orange en raison des très fortes chaleurs",
+          "l": "https://www.lemonde.fr/planete/live/2026/07/07/en-direct-canicule-l-oms-alerte-sur-de-potentielles-semaines-meurtrieres-en-europe-en-raison-de-la-nouvelle-vague-de-chaleur-61-departements-de-la-france-en-vigilance-orange_6720911_3244.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Les pénuries de carburant en Russie mettent à l’épreuve la sécurité énergétique de l’Asie centrale",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/les-penuries-de-carburant-en-russie-mettent-a-l-epreuve-la-securite-energetique-de-l-asie-centrale_6721473_3234.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Chine : des orages et précipitations extrêmes font 15 morts, des centaines de blessés",
+          "l": "https://www.lemonde.fr/international/article/2026/07/07/chine-des-orages-et-precipitations-extremes-font-15-morts-des-centaines-de-blesses_6721444_3210.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Canicule : à Paris, le réseau électrique d’Enedis face à « des accumulations de chaleur inédites »",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/canicule-a-paris-le-reseau-electrique-d-enedis-face-a-des-accumulations-de-chaleur-inedites_6721435_3234.html",
           "d": "2026-07-07"
         },
         {
@@ -2745,36 +2770,6 @@
           "t": "La France bascule dans une nouvelle vague de chaleur caniculaire, avec des pics à 40 °C",
           "l": "https://www.lemonde.fr/planete/article/2026/07/06/la-france-bascule-dans-une-nouvelle-vague-de-chaleur-caniculaire-avec-des-pics-a-40-c_6721222_3244.html",
           "d": "2026-07-06"
-        },
-        {
-          "t": "Canicule : le gouvernement publie un décret qui vise à quadrupler le nombre de personnes fragiles inscrites sur les registres des communes",
-          "l": "https://www.lemonde.fr/societe/article/2026/07/06/canicule-le-gouvernement-publie-un-decret-qui-vise-a-quadrupler-le-nombre-de-personnes-fragiles-inscrites-sur-les-registres-des-communes_6721221_3224.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Qu’est-ce qu’un « consensus scientifique » ?",
-          "l": "https://www.lemonde.fr/videos/video/2026/07/06/qu-est-ce-qu-un-consensus-scientifique_6721218_1669088.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Canicule : 61 départements placés en vigilance orange mardi ; plus de 41 °C attendus localement",
-          "l": "https://www.lemonde.fr/planete/article/2026/07/06/canicule-61-departements-places-en-vigilance-orange-mardi-plus-de-41-c-attendus-localement_6721212_3244.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "« Face aux canicules toujours plus précoces, intenses et prolongées, l’isolation thermique est impuissante, voire contre-productive »",
-          "l": "https://www.lemonde.fr/idees/article/2026/07/06/face-aux-canicules-toujours-plus-precoces-intenses-et-prolongees-l-isolation-thermique-est-impuissante-voire-contre-productive_6721208_3232.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "En pleine vague de chaleur, le gouvernement met fin aux programmes de recherche sur l’adaptation des logements et des territoires",
-          "l": "https://www.lemonde.fr/economie/article/2026/07/06/en-pleine-vague-de-chaleur-le-gouvernement-met-fin-aux-programmes-de-recherche-sur-l-adaptation-des-logements-et-des-territoires_6721187_3234.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Canicule : à l’école, l’urgence climatique appelle une politique nationale",
-          "l": "https://www.lemonde.fr/idees/article/2026/07/06/canicule-a-l-ecole-l-urgence-climatique-appelle-une-politique-nationale_6721175_3232.html",
-          "d": "2026-07-06"
         }
       ]
     },
@@ -2782,110 +2777,115 @@
       "nom_site": "Le Monde|Politique nationale",
       "articles": [
         {
-          "t": "EN DIRECT, procès en appel de Marine Le Pen : suivez l’arrêt de la cour d’appel de Paris dans l’affaire des assistants parlementaires du FN",
-          "l": "https://www.lemonde.fr/politique/live/2026/07/07/en-direct-proces-en-appel-de-marine-le-pen-suivez-l-arret-de-la-cour-d-appel-de-paris-dans-l-affaire-des-assistants-parlementaires-du-fn_6721429_823448.html",
+          "t": "En 1988, l’assaut sanglant de la grotte d’Ouvéa et le double jeu de François Mitterrand",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/en-1988-l-assaut-sanglant-de-la-grotte-d-ouvea-et-le-double-jeu-de-francois-mitterrand_6721524_3224.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Canicule : Elisabeth Borne appelle « à sanctuariser les moyens pour la transition écologique »",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/07/canicule-elisabeth-borne-appelle-a-sanctuariser-les-moyens-pour-la-transition-ecologique_6721426_823448.html",
+          "t": "Finances publiques : la perspective d’une baisse du déficit s’éloigne, de nouvelles économies décidées",
+          "l": "https://www.lemonde.fr/politique/article/2026/07/07/finances-publiques-la-perspective-d-une-baisse-du-deficit-s-eloigne-de-nouvelles-economies-decidees_6721523_823448.html",
           "d": "2026-07-07"
         },
         {
-          "t": "A Nîmes, le nouveau maire communiste Vincent Bouget met la gauche en pratique",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/07/a-nimes-le-nouveau-maire-communiste-vincent-bouget-met-la-gauche-en-pratique_6721414_823448.html",
+          "t": "Justice criminelle : l’Assemblée nationale adopte en première lecture le projet de loi de Gérald Darmanin, sans le plaider-coupable",
+          "l": "https://www.lemonde.fr/politique/article/2026/07/07/justice-criminelle-l-assemblee-nationale-adopte-en-premiere-lecture-le-projet-de-loi-de-gerald-darmanin-sans-plaider-coupable_6721522_823448.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Emmanuel Grégoire, un maire de Paris omniprésent, à la gouvernance très centralisée",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/07/emmanuel-gregoire-un-maire-de-paris-omnipresent-a-la-gouvernance-tres-centralisee_6721405_823448.html",
+          "t": "Marine Le Pen condamnée en appel : retrouvez les réponses à vos questions sur la décision de la cour et ses conséquences",
+          "l": "https://www.lemonde.fr/politique/article/2026/07/07/marine-le-pen-condamnee-en-appel-retrouvez-les-reponses-a-vos-questions-sur-la-decision-de-la-cour-et-ses-consequences_6721519_823448.html",
           "d": "2026-07-07"
         },
         {
-          "t": "« Le dérèglement ne touche pas seulement le climat, il affecte aussi les esprits les plus faibles et les plus opportunistes »",
-          "l": "https://www.lemonde.fr/idees/article/2026/07/07/le-dereglement-ne-touche-pas-seulement-le-climat-il-affecte-aussi-les-esprits-les-plus-faibles-et-les-plus-opportunistes_6721402_3232.html",
+          "t": "Un élu RN démissionne après la diffusion d’une vidéo où il chante l’hymne pétainiste « Maréchal nous voilà »",
+          "l": "https://www.lemonde.fr/politique/article/2026/07/07/un-elu-rn-demissionne-apres-la-diffusion-d-une-video-ou-il-chante-l-hymne-petainiste-marechal-nous-voila_6721518_823448.html",
           "d": "2026-07-07"
         },
         {
-          "t": "A Carcassonne, la contestation contre le nouveau maire RN Christophe Barthès se greffe sur le Tour de France",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/07/a-carcassonne-la-contestation-contre-le-nouveau-maire-rn-christophe-barthes-se-greffe-sur-le-tour-de-france_6721400_823448.html",
+          "t": "Attentats à Damas : Emmanuel Macron appelle à « être intraitable en matière de sécurité » ; 18 blessés selon le ministère de l’intérieur syrien",
+          "l": "https://www.lemonde.fr/international/article/2026/07/07/attentats-a-damas-emmanuel-macron-appelle-a-etre-intraitable-en-matiere-de-securite-18-blesses-selon-le-ministere-de-l-interieur-syrien_6721432_3211.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Affaire des assistants parlementaires européens du FN : la justice en position de décider du sort politique de Marine Le Pen",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/07/affaire-des-assistants-parlementaires-europeens-du-fn-la-justice-en-position-de-decider-du-sort-politique-de-marine-le-pen_6721397_823448.html",
+          "t": "Marine Le Pen à nouveau condamnée, mais éligible à l’élection présidentielle",
+          "l": "https://www.lemonde.fr/politique/video/2026/07/07/marine-le-pen-a-nouveau-condamnee-mais-eligible-a-l-election-presidentielle_6721509_823448.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Au Rassemblement national, quinze ans d’affaires judiciaires sous l’ère Marine Le Pen",
-          "l": "https://www.lemonde.fr/les-decodeurs/article/2026/07/07/au-rassemblement-national-quinze-ans-d-affaires-judiciaires-sous-l-ere-marine-le-pen_6721393_4355770.html",
+          "t": "La Cour des comptes étrille Universcience, la structure qui chapeaute la Cité des sciences et de l’industrie et le Palais de la découverte",
+          "l": "https://www.lemonde.fr/culture/article/2026/07/07/la-cour-des-comptes-etrille-universcience-la-structure-qui-chapeaute-la-cite-des-sciences-et-de-l-industrie-et-le-palais-de-la-decouverte_6721504_3246.html",
           "d": "2026-07-07"
         },
         {
-          "t": "Budget 2027 : Sébastien Lecornu exclut le recours à la loi spéciale",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/06/budget-2027-sebastien-lecornu-exclut-le-recours-a-la-loi-speciale_6721250_823448.html",
-          "d": "2026-07-06"
+          "t": "Le président syrien, Ahmed Al-Charaa, appelle la France à jouer un rôle actif pour « arrêter l’escalade » d’Israël",
+          "l": "https://www.lemonde.fr/international/article/2026/07/07/le-president-syrien-ahmed-al-charaa-appelle-la-france-a-jouer-un-role-actif-pour-arreter-l-escalade-d-israel_6721493_3210.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Propreté à Paris : Emmanuel Grégoire présente sa méthode pour traiter 1 000 « points noirs »",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/06/proprete-a-paris-emmanuel-gregoire-presente-sa-methode-pour-traiter-1-000-points-noirs_6721246_823448.html",
-          "d": "2026-07-06"
+          "t": "Agressions sexuelles dans le périscolaire à Paris : un animateur relaxé « au bénéfice du doute »",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/agressions-sexuelles-dans-le-periscolaire-a-paris-un-animateur-relaxe-au-benefice-du-doute_6721485_3224.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Accidents du travail : le gouvernement demande 800 millions d’économies aux partenaires sociaux",
-          "l": "https://www.lemonde.fr/economie/article/2026/07/06/accidents-du-travail-le-gouvernement-demande-800-millions-d-economies-aux-partenaires-sociaux_6721241_3234.html",
-          "d": "2026-07-06"
+          "t": "Procès en appel de Marine Le Pen : retrouvez les peines prononcées contre tous les prévenus dans l’affaire des assistants parlementaires du FN",
+          "l": "https://www.lemonde.fr/les-decodeurs/article/2026/07/07/proces-en-appel-de-marine-le-pen-retrouvez-les-peines-prononcees-contre-tous-les-prevenus-dans-l-affaire-des-assistants-parlementaires-du-fn_6721484_4355770.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Affaire des assistants parlementaires européens du FN : un dispositif inédit de communication pour la cour d’appel de Paris",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/06/proces-le-pen-un-dispositif-inedit-de-communication-pour-la-cour-d-appel-de-paris_6721239_823448.html",
-          "d": "2026-07-06"
+          "t": "Le gouvernement annonce 3 milliards d’euros d’économies supplémentaires pour l’Etat et la Sécurité sociale",
+          "l": "https://www.lemonde.fr/politique/article/2026/07/07/le-gouvernement-annonce-trois-milliards-d-euros-d-economies-supplementaires-pour-l-etat-et-la-securite-sociale_6721483_823448.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Présidentielle 2027 : la candidature autonome de Marine Tondelier confortée par les militants écologistes en cas d’échec de la primaire",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/06/presidentielle-2027-la-candidature-autonome-de-marine-tondelier-confortee-par-les-militants-ecologistes-en-cas-d-echec-de-la-primaire_6721217_823448.html",
-          "d": "2026-07-06"
+          "t": "A Damas, les images des explosions près de l’hôtel d’Emmanuel Macron",
+          "l": "https://www.lemonde.fr/international/video/2026/07/07/a-damas-les-images-des-explosions-pres-de-l-hotel-d-emmanuel-macron_6721482_3210.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Au sein de LR, le cas du général Gomart, révélateur des ambiguïtés de Bruno Retailleau",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/06/au-sein-de-lr-le-cas-du-general-gomart-revelateur-des-ambiguites-de-bruno-retailleau_6721206_823448.html",
-          "d": "2026-07-06"
+          "t": "La Guyane renforce son intégration régionale en adhérant à la Communauté des Caraïbes",
+          "l": "https://www.lemonde.fr/politique/article/2026/07/07/la-guyane-renforce-son-integration-regionale-en-adherant-a-la-communaute-des-caraibes_6721481_823448.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "La motion de censure des écologistes contre l’« inaction climatique » du gouvernement Lecornu est rejetée par les députés",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/06/la-motion-de-censure-des-ecologistes-contre-l-inaction-climatique-du-gouvernement-lecornu-est-rejetee-par-les-deputes_6721167_823449.html",
-          "d": "2026-07-06"
+          "t": "EN DIRECT, procès en appel de Marine Le Pen : la gauche étrille la cheffe de file de l’extrême droite, Emmanuel Macron refuse de « commenter » une décision de justice",
+          "l": "https://www.lemonde.fr/politique/live/2026/07/07/en-direct-proces-en-appel-de-marine-le-pen-suivez-la-lecture-de-l-arret-sur-le-point-de-commencer-devant-la-cour-d-appel-de-paris_6721429_823448.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Les salaires des fonctionnaires, point de cristallisation des tensions depuis le début de la présidence d’Emmanuel Macron",
-          "l": "https://www.lemonde.fr/politique/article/2026/07/06/les-salaires-des-fonctionnaires-point-de-cristallisation-des-tensions-depuis-le-debut-de-la-presidence-d-emmanuel-macron_6721195_823448.html",
-          "d": "2026-07-06"
+          "t": "Le député Benjamin Lucas-Landy retire sa candidature à la primaire unitaire de la gauche",
+          "l": "https://www.lemonde.fr/politique/article/2026/07/07/le-depute-benjamin-lucas-landy-retire-sa-candidature-a-la-primaire-unitaire-de-la-gauche_6721467_823448.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Collectifs, associations, syndicats de magistrats et d’avocats vent debout contre la loi sur la présomption de légitime défense pour les forces de l’ordre",
-          "l": "https://www.lemonde.fr/societe/article/2026/07/06/collectifs-associations-syndicats-de-magistrats-et-d-avocats-vent-debout-contre-la-loi-sur-la-presomption-de-legitime-defense-pour-les-forces-de-l-ordre_6721197_3224.html",
-          "d": "2026-07-06"
+          "t": "A Paris, 2 000 élèves inscrits en moins cet été dans les centres de loisirs",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/a-paris-2-000-eleves-inscrits-en-moins-cet-ete-dans-les-centres-de-loisirs_6721462_3224.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "La politique et les politiques s’invitent au Festival d’Avignon",
-          "l": "https://www.lemonde.fr/culture/article/2026/07/06/la-politique-et-les-politiques-s-invitent-au-festival-d-avignon_6721188_3246.html",
-          "d": "2026-07-06"
+          "t": "Le départ du président de la commission des lois Florent Boudié amorce l’épilogue de la législature",
+          "l": "https://www.lemonde.fr/politique/article/2026/07/07/le-depart-du-president-de-la-commission-des-lois-florent-boudie-amorce-l-epilogue-de-la-legislature_6721455_823448.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "En pleine vague de chaleur, le gouvernement met fin aux programmes de recherche sur l’adaptation des logements et des territoires",
-          "l": "https://www.lemonde.fr/economie/article/2026/07/06/en-pleine-vague-de-chaleur-le-gouvernement-met-fin-aux-programmes-de-recherche-sur-l-adaptation-des-logements-et-des-territoires_6721187_3234.html",
-          "d": "2026-07-06"
+          "t": "Meurtre de Mehdi Kessaci : quatre nouveaux suspects mis en examen et écroués",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/meurtre-de-mehdi-kessaci-quatre-nouveaux-suspects-mis-en-examen-et-ecroues_6721453_3224.html",
+          "d": "2026-07-07"
         },
         {
-          "t": "Affaire des assistants parlementaires européens du FN : les différents scénarios judiciaires pour Marine Le Pen après la décision en appel",
-          "l": "https://www.lemonde.fr/societe/article/2026/07/06/affaire-des-assistants-parlementaires-europeens-du-fn-les-differents-scenarios-judiciaires-pour-marine-le-pen-apres-la-decision-en-appel_6721182_3224.html",
-          "d": "2026-07-06"
+          "t": "Le gouvernement nomme Olivier Tainturier « coordonnateur » des projets industriels dits « Notre-Dame »",
+          "l": "https://www.lemonde.fr/economie/article/2026/07/07/le-gouvernement-nomme-olivier-tainturier-coordonnateur-des-projets-industriels-dits-notre-dame_6721437_3234.html",
+          "d": "2026-07-07"
         }
       ]
     },
     {
       "nom_site": "Le Monde|Tech",
       "articles": [
+        {
+          "t": "Affaire Jean Pormanove : des peines de prison et un « bannissement numérique » requis contre les streameurs Naruto et Safine",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/affaire-jean-pormanove-des-peines-de-prison-et-un-bannissement-numerique-requis-contre-les-streameurs-naruto-et-safine_6721458_3224.html",
+          "d": "2026-07-07"
+        },
         {
           "t": "« Il ne s’agissait que de blagues » : au tribunal de Nice, les streameurs Safine et Naruto entre déni et regret",
           "l": "https://www.lemonde.fr/pixels/article/2026/07/07/il-ne-s-agissait-que-de-blagues-au-tribunal-de-nice-les-streameurs-safine-et-naruto-entre-deni-et-regret_6721293_4408996.html",
@@ -2980,17 +2980,67 @@
           "t": "« La neutralité apparente d’un grand modèle d’IA est sa forme de pouvoir la plus redoutable »",
           "l": "https://www.lemonde.fr/idees/article/2026/07/02/la-neutralite-apparente-d-un-grand-modele-d-ia-est-sa-forme-de-pouvoir-la-plus-redoutable_6717811_3232.html",
           "d": "2026-07-02"
-        },
-        {
-          "t": "Mark Corcoral, politiste : « Le blocage de certains modèles d’IA par Washington est un nouvel usage du droit à des fins de sécurité nationale »",
-          "l": "https://www.lemonde.fr/idees/article/2026/07/02/mark-corcoral-politiste-le-blocage-de-certains-modeles-d-ia-par-washington-est-un-nouvel-usage-du-droit-a-des-fins-de-securite-nationale_6717795_3232.html",
-          "d": "2026-07-02"
         }
       ]
     },
     {
       "nom_site": "Le Monde|Société et pouvoir d'achat",
       "articles": [
+        {
+          "t": "En 1988, l’assaut sanglant de la grotte d’Ouvéa et le double jeu de François Mitterrand",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/en-1988-l-assaut-sanglant-de-la-grotte-d-ouvea-et-le-double-jeu-de-francois-mitterrand_6721524_3224.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Justice criminelle : l’Assemblée nationale adopte en première lecture le projet de loi de Gérald Darmanin, sans le plaider-coupable",
+          "l": "https://www.lemonde.fr/politique/article/2026/07/07/justice-criminelle-l-assemblee-nationale-adopte-en-premiere-lecture-le-projet-de-loi-de-gerald-darmanin-sans-plaider-coupable_6721522_823448.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Périscolaire à Paris : pourquoi un ex-animateur de l’école maternelle Alphonse-Baudin, accusé d’agressions sexuelles sur plusieurs enfants, a été relaxé",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/periscolaire-a-paris-pourquoi-un-ex-animateur-de-l-ecole-maternelle-alphonse-baudin-accuse-d-agressions-sexuelles-sur-plusieurs-enfants-a-ete-relaxe_6721516_3224.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "« L’immigration est positive pour l’économie dans son ensemble. Pourquoi est-elle aussi impopulaire ? »",
+          "l": "https://www.lemonde.fr/idees/article/2026/07/07/l-immigration-est-positive-pour-l-economie-dans-son-ensemble-pourquoi-est-elle-aussi-impopulaire_6721507_3232.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Agressions sexuelles dans le périscolaire à Paris : un animateur relaxé « au bénéfice du doute »",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/agressions-sexuelles-dans-le-periscolaire-a-paris-un-animateur-relaxe-au-benefice-du-doute_6721485_3224.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Logements étudiants : l’association Que choisir ensemble alerte sur le non-respect du plafonnement des loyers",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/logements-etudiants-l-association-que-choisir-ensemble-alerte-sur-le-non-respect-du-plafonnement-des-loyers_6721480_3224.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "La suspecte de la tentative d’assassinat à Monaco retrouvée morte en Ukraine",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/la-suspecte-de-la-tentative-d-assassinat-a-monaco-retrouvee-morte-en-ukraine_6721469_3224.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "A Paris, 2 000 élèves inscrits en moins cet été dans les centres de loisirs",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/a-paris-2-000-eleves-inscrits-en-moins-cet-ete-dans-les-centres-de-loisirs_6721462_3224.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Affaire Jean Pormanove : des peines de prison et un « bannissement numérique » requis contre les streameurs Naruto et Safine",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/affaire-jean-pormanove-des-peines-de-prison-et-un-bannissement-numerique-requis-contre-les-streameurs-naruto-et-safine_6721458_3224.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Meurtre de Mehdi Kessaci : quatre nouveaux suspects mis en examen et écroués",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/meurtre-de-mehdi-kessaci-quatre-nouveaux-suspects-mis-en-examen-et-ecroues_6721453_3224.html",
+          "d": "2026-07-07"
+        },
+        {
+          "t": "Le plan contre le racisme, l’antisémitisme et les discriminations laisse les acteurs du secteur sur leur faim",
+          "l": "https://www.lemonde.fr/societe/article/2026/07/07/le-plan-contre-le-racisme-l-antisemitisme-et-les-discriminations-laisse-les-acteurs-du-secteur-sur-leur-faim_6721434_3224.html",
+          "d": "2026-07-07"
+        },
         {
           "t": "Au baccalauréat, des candidats désarçonnés par des sujets difficiles",
           "l": "https://www.lemonde.fr/campus/article/2026/07/07/au-baccalaureat-des-candidats-desarconnes-par-des-sujets-difficiles_6721421_4401467.html",
@@ -3007,7 +3057,7 @@
           "d": "2026-07-07"
         },
         {
-          "t": "Au Rassemblement national, quinze ans d’affaires judiciaires sous l’ère Marine Le Pen",
+          "t": "Au RN, quinze ans d’affaires judiciaires sous l’ère Marine Le Pen",
           "l": "https://www.lemonde.fr/les-decodeurs/article/2026/07/07/au-rassemblement-national-quinze-ans-d-affaires-judiciaires-sous-l-ere-marine-le-pen_6721393_4355770.html",
           "d": "2026-07-07"
         },
@@ -3034,61 +3084,6 @@
         {
           "t": "Pourquoi la cour d’appel de Versailles a décidé de relaxer Dominique Boutonnat, jugé pour agression sexuelle",
           "l": "https://www.lemonde.fr/societe/article/2026/07/06/pourquoi-la-cour-d-appel-de-versailles-a-decide-de-relaxer-dominique-boutonnat-juge-pour-agression-sexuelle_6721226_3224.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Canicule : le gouvernement publie un décret qui vise à quadrupler le nombre de personnes fragiles inscrites sur les registres des communes",
-          "l": "https://www.lemonde.fr/societe/article/2026/07/06/canicule-le-gouvernement-publie-un-decret-qui-vise-a-quadrupler-le-nombre-de-personnes-fragiles-inscrites-sur-les-registres-des-communes_6721221_3224.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Collectifs, associations, syndicats de magistrats et d’avocats vent debout contre la loi sur la présomption de légitime défense pour les forces de l’ordre",
-          "l": "https://www.lemonde.fr/societe/article/2026/07/06/collectifs-associations-syndicats-de-magistrats-et-d-avocats-vent-debout-contre-la-loi-sur-la-presomption-de-legitime-defense-pour-les-forces-de-l-ordre_6721197_3224.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "L’avocat de Cédric Jubillar détaille comment l’homme a avoué le meurtre de sa femme, Delphine Aussaguel",
-          "l": "https://www.lemonde.fr/societe/video/2026/07/06/l-avocat-de-cedric-jubillar-detaille-comment-l-homme-a-avoue-le-meurtre-de-sa-femme-delphine-aussaguel_6721191_3224.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Affaire des assistants parlementaires européens du FN : les différents scénarios judiciaires pour Marine Le Pen après la décision en appel",
-          "l": "https://www.lemonde.fr/societe/article/2026/07/06/affaire-des-assistants-parlementaires-europeens-du-fn-les-differents-scenarios-judiciaires-pour-marine-le-pen-apres-la-decision-en-appel_6721182_3224.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "« Si l’aveu de Cédric Jubillar ne garantit pas une réduction de peine, il est tout de même le signe d’une prise de conscience » : notre journaliste Pascale Robert-Diard a répondu à vos questions",
-          "l": "https://www.lemonde.fr/societe/live/2026/07/06/en-direct-cedric-jubillar-posez-vos-questions-a-pascale-robert-diard-apres-les-aveux-annonces-de-l-accuse-cinq-ans-apres-la-mort-de-delphine-aussaguel_6721176_3224.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Canicule : à l’école, l’urgence climatique appelle une politique nationale",
-          "l": "https://www.lemonde.fr/idees/article/2026/07/06/canicule-a-l-ecole-l-urgence-climatique-appelle-une-politique-nationale_6721175_3232.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "A Marseille, un dentiste condamné pour une vaste escroquerie à la « Sécu » : le préjudice estimé à 2,6 millions d’euros",
-          "l": "https://www.lemonde.fr/societe/article/2026/07/06/a-marseille-un-dentiste-condamne-pour-une-vaste-escroquerie-a-la-secu-le-prejudice-est-estime-a-2-6-millions-d-euros_6721174_3224.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Présomption de légitime défense des forces de l’ordre : « Celui qui détient le pouvoir de tirer avec une arme à feu doit, lorsqu’il l’exerce, en rendre compte devant la justice »",
-          "l": "https://www.lemonde.fr/idees/article/2026/07/06/presomption-de-legitime-defense-des-forces-de-l-ordre-celui-qui-detient-le-pouvoir-de-tirer-avec-une-arme-a-feu-doit-lorsqu-il-l-exerce-en-rendre-compte-devant-la-justice_6721169_3232.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Espace « no kids » : un rapport alerte sur l’invisibilisation des enfants dans l’espace public",
-          "l": "https://www.lemonde.fr/societe/article/2026/07/06/espace-no-kids-un-rapport-alerte-sur-l-invisibilisation-des-enfants-dans-l-espace-public_6721164_3224.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "« Dès le lendemain d’un cambriolage, les commerciaux viennent proposer des systèmes de télésurveillance aux voisins » : le florissant business de la sécurité à l’approche de l’été",
-          "l": "https://www.lemonde.fr/economie/article/2026/07/06/des-le-lendemain-d-un-cambriolage-les-commerciaux-viennent-proposer-des-systemes-de-telesurveillance-aux-voisins-le-florissant-business-de-la-securite-a-l-approche-de-l-ete_6721134_3234.html",
-          "d": "2026-07-06"
-        },
-        {
-          "t": "Chute de la natalité : le désir d’enfant est-il en berne ?",
-          "l": "https://www.lemonde.fr/podcasts/article/2026/07/06/chute-de-la-natalite-le-desir-d-enfant-est-il-en-berne_6720990_5463015.html",
           "d": "2026-07-06"
         }
       ]
@@ -3202,6 +3197,21 @@
       "nom_site": "Vie Publique|Actualités",
       "articles": [
         {
+          "t": "Bruit des avions : quels dispositifs contre les nuisances sonores aéroportuaires ?",
+          "l": "https://www.vie-publique.fr/questions-reponses/271392-quels-dispositifs-contre-les-nuisances-sonores-aeroportuaires?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "Feux de forêt : quelle stratégie de prévention et de lutte contre les incendies ?",
+          "l": "https://www.vie-publique.fr/questions-reponses/289696-feux-de-foret-quelle-strategie-contre-les-incendies?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-07-06"
+        },
+        {
+          "t": "Système éducatif : comment mieux intégrer l'IA dans l'enseignement primaire et secondaire ?",
+          "l": "https://www.vie-publique.fr/en-bref/303928-systeme-educatif-comment-mieux-integrer-lia-dans-lenseignement?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-07-06"
+        },
+        {
           "t": "Application des lois : le Sénat publie son rapport sur la session 2024-2025",
           "l": "https://www.vie-publique.fr/en-bref/303923-application-des-lois-rapport-du-senat-sur-la-session-2024-2025?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
           "d": "2026-07-05"
@@ -3234,21 +3244,6 @@
         {
           "t": "Défaut d'assurance routière : plus de 132 millions d'euros versés aux victimes d'accidents",
           "l": "https://www.vie-publique.fr/en-bref/303884-non-assurance-routiere-quelles-indemnites-versees-aux-victimes?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-06-30"
-        },
-        {
-          "t": "Le dérèglement climatique inquiète mais guide peu les pratiques du quotidien selon l'Insee",
-          "l": "https://www.vie-publique.fr/en-bref/303856-dereglement-climatique-peu-deffets-sur-les-pratiques-du-quotidien?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-06-30"
-        },
-        {
-          "t": "Billettique dans les transports collectifs : comment simplifier l'achat des titres de transport ?",
-          "l": "https://www.vie-publique.fr/en-bref/303885-billettique-ferroviaire-comment-simplifier-lachat-des-billets?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-06-30"
-        },
-        {
-          "t": "Calendrier électoral : les dates de l'élection présidentielle 2027 sont connues",
-          "l": "https://www.vie-publique.fr/en-bref/303896-election-presidentielle-2027-les-dates-sont-connues?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
           "d": "2026-06-30"
         }
       ]
