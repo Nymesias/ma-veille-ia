@@ -22,6 +22,7 @@ MISTRAL_DAILY_TOKEN_BUDGET = int(os.getenv("MISTRAL_DAILY_TOKEN_BUDGET", "50000"
 MISTRAL_MAX_INPUT_TOKENS = int(os.getenv("MISTRAL_MAX_INPUT_TOKENS", "6000"))
 MISTRAL_MAX_OUTPUT_TOKENS = int(os.getenv("MISTRAL_MAX_OUTPUT_TOKENS", "900"))
 MISTRAL_MAX_ARTICLES = int(os.getenv("MISTRAL_MAX_ARTICLES", "24"))
+MISTRAL_MAX_ARTICLES_PAR_SOURCE = int(os.getenv("MISTRAL_MAX_ARTICLES_PAR_SOURCE", "4"))
 MISTRAL_TOKEN_CHARS = int(os.getenv("MISTRAL_TOKEN_CHARS", "4"))
 
 DOSSIER_MD = "markdown"
@@ -94,7 +95,23 @@ def charger_sources():
     if not os.path.exists(FICHIER_SOURCES):
         return []
     with open(FICHIER_SOURCES, newline="", encoding="utf-8-sig") as fichier:
-        return list(csv.DictReader(fichier))
+        sources = []
+        urls_vues = {}
+        for numero, source in enumerate(csv.DictReader(fichier), start=2):
+            url = source.get("url", "").strip()
+            if not url:
+                continue
+            cle_url = url.lower()
+            if cle_url in urls_vues:
+                print(
+                    "Source ignoree car URL deja presente: "
+                    f"ligne {numero} ({source.get('source', 'Source inconnue')}) "
+                    f"duplique la ligne {urls_vues[cle_url]}."
+                )
+                continue
+            urls_vues[cle_url] = numero
+            sources.append(source)
+        return sources
 
 
 def date_entree(entry):
@@ -512,6 +529,39 @@ def donnees_prompt(articles):
     return "\n\n".join(blocs)
 
 
+def diversifier_articles(articles):
+    """Intercale les sources pour eviter qu'un seul flux occupe tout le prompt."""
+    groupes = []
+    positions = {}
+    plafond = max(1, MISTRAL_MAX_ARTICLES_PAR_SOURCE)
+    compteurs = {}
+
+    for article in articles:
+        source = article.get("source", "Source inconnue")
+        if compteurs.get(source, 0) >= plafond:
+            continue
+        compteurs[source] = compteurs.get(source, 0) + 1
+        if source not in positions:
+            positions[source] = len(groupes)
+            groupes.append([])
+        groupes[positions[source]].append(article)
+
+    selection = []
+    profondeur = 0
+    while len(selection) < MISTRAL_MAX_ARTICLES:
+        progression = False
+        for groupe in groupes:
+            if profondeur < len(groupe):
+                selection.append(groupe[profondeur])
+                progression = True
+                if len(selection) >= MISTRAL_MAX_ARTICLES:
+                    break
+        if not progression:
+            break
+        profondeur += 1
+    return selection
+
+
 def prompt_pour(cible, articles):
     titres = {
         "synthese": f"Synthèse de veille du {HIER}",
@@ -521,8 +571,10 @@ def prompt_pour(cible, articles):
     }
     specificites = {
         "synthese": (
-            "Organise le mail en trois rubriques lorsque les données le permettent : News, "
-            "Finance et Cour de cassation. Pour chaque sujet retenu, écris un petit bloc "
+            "Organise le mail en rubriques lorsque les donnees le permettent : News, "
+            "Regulation et textes officiels, Finance et Cour de cassation. Fais ressortir "
+            "les actualites RGPD, IA Act, cybersecurite et autorites de regulation lorsqu'elles "
+            "sont significatives. Pour chaque sujet retenu, ecris un petit bloc "
             "éditorial composé d'un intitulé de thème en gras, d'un résumé succinct de deux "
             "ou trois phrases, puis d'un lien sur une ligne séparée sous la forme "
             "[Lire l'article](URL). N'utilise ni numérotation, ni puces, ni libellés répétitifs "
@@ -563,6 +615,7 @@ Règles impératives :
 - N'ajoute aucun fait, chiffre, date, citation, décision ou contexte absent des données.
 - Si les données sont insuffisantes pour affirmer un point, omets-le.
 - Déduplique les sujets repris par plusieurs sources.
+- Varie les sources citees lorsque plusieurs sources pertinentes traitent de sujets differents.
 - Sois synthétique : 350 à 700 mots, phrases courtes, aucun remplissage.
 {regle_format}
 - Ne crée ni bibliographie séparée, ni note de méthode, ni prévision.
@@ -574,9 +627,10 @@ DONNÉES DU {HIER} :
 
 
 def limiter_articles_pour_mistral(cible, articles):
-    """Garde les premieres sources tant que le prompt reste sous le plafond."""
+    """Garde un panel diversifie tant que le prompt reste sous le plafond."""
     selection = []
-    for article in articles[:MISTRAL_MAX_ARTICLES]:
+    articles = diversifier_articles(articles)
+    for article in articles:
         candidate = selection + [article]
         tokens_estimes = estimer_tokens(prompt_pour(cible, candidate))
         if tokens_estimes > MISTRAL_MAX_INPUT_TOKENS:
