@@ -3,7 +3,9 @@ let rssData = null;
 // --- NOUVELLE FONCTION DE FORMATAGE ---
 function formaterDateEnFrancais(dateBrute) {
     if (!dateBrute) return "";
-    const d = new Date(dateBrute);
+    const d = /^\d{4}-\d{2}-\d{2}$/.test(dateBrute)
+        ? new Date(`${dateBrute}T12:00:00`)
+        : new Date(dateBrute);
     if (isNaN(d.getTime())) return dateBrute; // Retourne brute si format inconnu
 
     return d.toLocaleDateString('fr-FR', {
@@ -68,6 +70,11 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date') {
     }
 
     // --- AFFICHAGE FINAL ---
+    if (tousLesArticles.length === 0) {
+        container.innerHTML = `<p>Aucune publication récente pour "${nomCategorie}".</p>`;
+        return;
+    }
+
     let htmlContenu = "";
     tousLesArticles.forEach(art => {
         const dateAffichage = formaterDateEnFrancais(art.d);

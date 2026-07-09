@@ -22,11 +22,11 @@
 
     <main>
         <div class="tabs-bar">
-            <button class="tab-btn active" onclick="piloterOnglet(this, 'Textes Officiels')">Textes Officiels</button>
+            <button class="tab-btn active" onclick="piloterOnglet(this, 'Analyse')">Analyse</button>
+            <button class="tab-btn" onclick="piloterOnglet(this, 'Textes Officiels')">Textes Officiels</button>
             <button class="tab-btn" onclick="piloterOnglet(this, 'Revues')">Revues</button>
             <button class="tab-btn" onclick="piloterOnglet(this, 'Blogs')">Blogs</button>
             <button class="tab-btn" onclick="piloterOnglet(this, 'Juridictions')">Juridictions</button>
-            <button class="tab-btn" onclick="piloterOnglet(this, 'Analyse')">Analyse</button>
         </div>
 
         <div style="text-align: right; margin-bottom: 20px;">
@@ -44,7 +44,7 @@
 <script>
     // --- VARIABLES D'ÉTAT ---
     // On garde en mémoire l'onglet et le tri choisis par l'utilisateur
-    let ongletActif = 'Textes Officiels'; 
+    let ongletActif = 'Analyse';
     let triActuel = 'date';
 
     // --- FONCTION POUR LES ONGLETS (Textes, Revues, Blogs...) ---
@@ -124,8 +124,8 @@
     window.onload = async () => {
         // On initialise le projet (chargement du JSON)
         await initialiserProjet();
-        // On affiche le premier onglet par défaut (trié par date)
-        await chargerFluxRSS(ongletActif, 'juridique-content', 'date');
+        // On affiche le premier onglet par défaut
+        await chargerAnalyseJuridique();
     };
 </script>
 </body>

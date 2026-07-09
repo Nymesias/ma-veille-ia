@@ -2,6 +2,7 @@ categorie,source,url
 revues,Cridon NE,https://www.cridon-ne.org/feed/
 revues,Dalloz|Etudiant,https://www.dalloz-etudiant.fr/rss.xml
 revues,Dalloz|Actualité,https://www.dalloz-actualite.fr/rss.xml
+revues,Dalloz|Actualités flash,https://www.dalloz-actualite.fr/flash/rss.xml
 revues,Village Justice,https://www.village-justice.com/articles/spip.php?page=backend
 revues,Actu-Juridique,https://www.actu-juridique.fr/feed/
 revues,Legalis|Numérique,https://www.legalis.net/feed/
@@ -39,7 +40,6 @@ textes officiels,ARCOM,https://www.arcom.fr/rss.xml
 finance,AMF,https://www.amf-france.org/fr/flux-rss/display/21
 finance,AFT,https://www.aft.gouv.fr/fr/rss.xml
 finance,BCE|Politique monétaire,https://www.ecb.europa.eu/rss/press.html
-finance,Le Monde|Économie,https://www.lemonde.fr/economie/rss_full.xml
 finance,INSEE|Économie nationale,https://www.insee.fr/fr/flux/1
 finance,EBA|Supervision bancaire UE,https://www.eba.europa.eu/rss.xml
 finance,ESMA|Marchés financiers UE,https://www.esma.europa.eu/rss.xml
@@ -50,16 +50,8 @@ news,INSEE|Régional,https://www.insee.fr/fr/flux/10
 news,Santé publique France|Canicule,https://www.santepubliquefrance.fr/index.php/rss/1069
 news,Santé publique France|Respiratoire,https://www.santepubliquefrance.fr/index.php/rss/1024
 news,Santé publique France|Climat,https://www.santepubliquefrance.fr/index.php/rss/1068
-news,France 24|Géopolitique,https://www.france24.com/fr/rss
-news,Franceinfo|Actualités générales,https://www.franceinfo.fr/titres.rss
 news,AFP|Actualités,"https://www.afp.com/fr/actus/afp_actualite/792,31,9,7,33/feed"
 news,Courrier international,https://www.courrierinternational.com/feed/all/rss.xml
 news,Challenges,https://www.challenges.fr/rss.xml
 news,La Tribune,https://www.latribune.fr/feed.xml
 news,Le Figaro|Actualités,https://www.lefigaro.fr/rss/figaro_actualites.xml
-news,Le Monde|Géopolitique,https://www.lemonde.fr/international/rss_full.xml
-news,Le Monde|Environnement,https://www.lemonde.fr/planete/rss_full.xml
-news,Le Monde|Politique nationale,https://www.lemonde.fr/politique/rss_full.xml
-news,Le Monde|Tech,https://www.lemonde.fr/pixels/rss_full.xml
-news,Le Monde|Société et pouvoir d'achat,https://www.lemonde.fr/societe/rss_full.xml
-news,Le Monde|Santé,https://www.lemonde.fr/sante/rss_full.xml

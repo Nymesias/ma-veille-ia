@@ -27,6 +27,7 @@ MISTRAL_TOKEN_CHARS = int(os.getenv("MISTRAL_TOKEN_CHARS", "4"))
 MISTRAL_ANALYSE_JURIDIQUE_MAX_ARTICLES = int(
     os.getenv("MISTRAL_ANALYSE_JURIDIQUE_MAX_ARTICLES", str(MISTRAL_MAX_ARTICLES))
 )
+RSS_LOOKBACK_DAYS = int(os.getenv("RSS_LOOKBACK_DAYS", "45"))
 
 DOSSIER_MD = "markdown"
 FICHIER_SOURCES = "sources.csv"
@@ -130,6 +131,10 @@ def date_entree(entry):
     return datetime(*date_structuree[:3]).strftime("%Y-%m-%d")
 
 
+def date_dans_fenetre_rss(date_iso, date_reference):
+    return date_iso == HIER or (date_reference and date_iso == date_reference)
+
+
 def collecter_articles(sources):
     data_rss = {}
     articles_hier = []
@@ -147,6 +152,7 @@ def collecter_articles(sources):
             if getattr(flux, "bozo", False):
                 print(f"Avertissement flux {nom_source}: {flux.bozo_exception}")
 
+            articles_collectes = []
             for entry in flux.entries[:30]:
                 article = {
                     "categorie": categorie,
@@ -158,11 +164,30 @@ def collecter_articles(sources):
                         entry.get("summary") or entry.get("description") or ""
                     ),
                 }
-                articles_source.append(
-                    {"t": article["titre"], "l": article["lien"], "d": article["date"]}
-                )
+                articles_collectes.append(article)
                 if article["date"] == HIER:
                     articles_hier.append(article)
+
+            dates_connues = [
+                article["date"]
+                for article in articles_collectes
+                if re.match(r"\d{4}-\d{2}-\d{2}$", article.get("date", ""))
+            ]
+            date_reference = ""
+            if dates_connues:
+                seuil = MAINTENANT - timedelta(days=RSS_LOOKBACK_DAYS)
+                dates_recentes = [
+                    date
+                    for date in dates_connues
+                    if date <= HIER and datetime.strptime(date, "%Y-%m-%d") >= seuil
+                ]
+                date_reference = max(dates_recentes or dates_connues)
+
+            for article in articles_collectes:
+                if date_dans_fenetre_rss(article["date"], date_reference):
+                    articles_source.append(
+                        {"t": article["titre"], "l": article["lien"], "d": article["date"]}
+                    )
         except Exception as exc:
             print(f"Erreur flux {nom_source}: {exc}")
 
@@ -544,7 +569,11 @@ def selection_analyse_juridique(articles, sources_cassation, analyse_cassation=N
             {**source, "categorie": "cour de cassation"}
             for source in sources_cassation
         ]
-    candidats = articles_juridiques + cassation
+    candidats = [
+        article
+        for article in articles_juridiques + cassation
+        if article.get("date") == HIER
+    ]
 
     def priorite(article):
         texte = texte_article(article)
@@ -565,6 +594,7 @@ def selection_analyse_juridique(articles, sources_cassation, analyse_cassation=N
 
     selection = []
     liens_vus = set()
+    sources_vues = set()
 
     def ajouter(article):
         if len(selection) >= MISTRAL_ANALYSE_JURIDIQUE_MAX_ARTICLES:
@@ -576,27 +606,27 @@ def selection_analyse_juridique(articles, sources_cassation, analyse_cassation=N
         if cle in liens_vus:
             return
         liens_vus.add(cle)
+        sources_vues.add(article.get("source", ""))
         selection.append(article)
 
-    for article in candidats:
-        if priorite(article) == 0:
-            ajouter(article)
-        if len([item for item in selection if priorite(item) == 0]) >= 6:
-            break
-
-    for categorie in ("juridictions", "textes officiels", "revues", "blogs"):
+    for categorie in (
+        "textes officiels",
+        "revues",
+        "blogs",
+        "juridictions",
+        "cour de cassation",
+    ):
         for article in candidats:
             if article.get("categorie") == categorie:
                 ajouter(article)
                 break
 
     for article in candidats:
-        if priorite(article) == 1:
-            ajouter(article)
-        if len([item for item in selection if priorite(item) == 1]) >= 6:
-            break
-
-    for article in candidats:
+        if (
+            article.get("source", "") in sources_vues
+            and len(selection) < len(JURIDIQUE_ANALYSE_CATEGORIES)
+        ):
+            continue
         ajouter(article)
 
     return selection
@@ -612,12 +642,12 @@ def source_depuis_markdown(cible, contenu):
         "source": titres.get(cible, cible),
         "titre": titres.get(cible, cible),
         "lien": f"markdown/{AUJOURDHUI}-{cible}.md",
-        "date": AUJOURDHUI,
+        "date": HIER,
         "resume": nettoyer_texte(contenu, 1800),
     }
 
 
-def sources_synthese_generale(articles, analyse_juridique=None):
+def sources_synthese_generale(articles, analyse_juridique=None, analyse_cassation=None):
     """Utilise une synthese juridique compacte pour limiter le prompt global."""
     sources = [
         article
@@ -626,6 +656,8 @@ def sources_synthese_generale(articles, analyse_juridique=None):
     ]
     if analyse_juridique:
         sources.append(analyse_juridique)
+    if analyse_cassation:
+        sources.append(analyse_cassation)
     return sources
 
 
@@ -687,15 +719,16 @@ def prompt_pour(cible, articles):
     }
     specificites = {
         "synthese": (
-            "Organise le mail en rubriques lorsque les donnees le permettent : News, "
-            "Regulation et textes officiels, Finance et Cour de cassation. Fais ressortir "
-            "les actualites RGPD, IA Act, cybersecurite et autorites de regulation lorsqu'elles "
-            "sont significatives. Pour chaque sujet retenu, ecris un petit bloc "
-            "éditorial composé d'un intitulé de thème en gras, d'un résumé succinct de deux "
-            "ou trois phrases, puis d'un lien sur une ligne séparée sous la forme "
-            "[Lire l'article](URL). N'utilise ni numérotation, ni puces, ni libellés répétitifs "
-            "comme « Item », « Thème », « Résumé » ou « Source ». Retiens seulement 3 à 6 "
-            "sujets majeurs au total et relie les informations qui traitent du même thème."
+            "Organise obligatoirement le mail en quatre rubriques, dans cet ordre exact : "
+            "## News, ## Finance, ## Juridique, ## Cour de cassation. Ces rubriques correspondent "
+            "aux quatre pages du site. Dans chaque rubrique, retiens uniquement les sujets datés "
+            "de la veille et les plus pertinents pour cette page; si une rubrique n'a aucun fait "
+            "exploitable, indique en une phrase qu'aucune information significative datée de la "
+            "veille n'a été retenue. Pour chaque sujet retenu, écris un petit bloc éditorial "
+            "composé d'un intitulé de thème en gras, d'un résumé succinct de deux ou trois "
+            "phrases, puis d'un lien sur une ligne séparée sous la forme [Lire l'article](URL). "
+            "N'utilise ni numérotation, ni puces, ni libellés répétitifs comme « Item », "
+            "« Thème », « Résumé » ou « Source ». Diversifie les sources et les thèmes."
         ),
         "news": (
             "Construis un panorama équilibré des actualités significatives de la veille. "
@@ -717,19 +750,22 @@ def prompt_pour(cible, articles):
             "sobrement la portée juridique sans inventer de solution."
         ),
         "juridique-analyse": (
-            "Résume transversalement les onglets juridiques : revues, blogs, textes officiels, "
-            "juridictions et Cour de cassation. Structure en quatre à six items maximum, chacun "
-            "rattaché à une source. Mets un focus spécifique sur le Conseil d'État : si des données "
-            "le concernent, il doit avoir un item ou un paragraphe clairement identifiable; sinon, "
-            "signale sobrement qu'aucun fait exploitable du jour ne le concerne. Termine par un court "
-            "point de synthèse transversal en deux phrases maximum."
+            "Structure le résumé en un item par onglet juridique, avec les intitulés exacts : "
+            "Textes officiels, Revues, Blogs, Juridictions. Ajoute Cour de cassation seulement "
+            "si les données fournies contiennent une source exploitable datée de la veille. "
+            "Chaque item doit citer au moins une source distincte lorsque c'est possible, et "
+            "écarter les contenus anciens, redondants ou trop faibles. Mets un focus spécifique "
+            "sur le Conseil d'État dans Juridictions si des données le concernent; sinon, signale "
+            "sobrement qu'aucun fait exploitable daté de la veille ne le concerne. Termine par un "
+            "court point de synthèse transversal en deux phrases maximum."
         ),
     }
     regle_format = (
         "- Utilise des titres Markdown ##, puis des puces factuelles.\n"
-        "- Place le lien de la source au bout de chaque puce sous la forme [Source](URL)."
+        "- Place le lien de la source au bout de chaque puce sous la forme [Source](URL).\n"
+        "- N'ajoute jamais de section finale Sources, Bibliographie, Références ou Liens."
         if cible != "synthese"
-        else "- Adopte un ton éditorial fluide et respecte strictement le format de blocs demandé."
+        else "- Adopte un ton éditorial fluide et respecte strictement les quatre rubriques demandées."
     )
     return f"""Tu rédiges un briefing professionnel en français à partir des seules données ci-dessous.
 
@@ -743,6 +779,7 @@ Règles impératives :
 - Sois synthétique : 350 à 700 mots, phrases courtes, aucun remplissage.
 {regle_format}
 - Ne crée ni bibliographie séparée, ni note de méthode, ni prévision.
+- Ignore tout article dont la date fournie ne correspond pas au {HIER}.
 - {specificites[cible]}
 
 DONNÉES DU {HIER} :
@@ -824,11 +861,24 @@ def appeler_mistral(cible, articles, quota):
     return contenu
 
 
+def nettoyer_sortie_mistral(contenu):
+    """Supprime les bibliographies finales que le modele ajoute parfois."""
+    lignes = contenu.strip().splitlines()
+    titres_sources = re.compile(
+        r"^\s{0,3}#{1,6}\s*(sources?|r[ée]f[ée]rences?|bibliographie|liens)\s*:?\s*$",
+        re.I,
+    )
+    for index, ligne in enumerate(lignes):
+        if titres_sources.match(ligne.strip()):
+            return "\n".join(lignes[:index]).rstrip()
+    return contenu.strip()
+
+
 def ecrire_markdown(cible, contenu):
     nom = f"synthese-{AUJOURDHUI}.md" if cible == "synthese" else f"{AUJOURDHUI}-{cible}.md"
     chemin = os.path.join(DOSSIER_MD, nom)
     with open(chemin, "w", encoding="utf-8") as fichier:
-        fichier.write(contenu + "\n")
+        fichier.write(nettoyer_sortie_mistral(contenu) + "\n")
     print(f"Fichier généré: {chemin}")
 
 
@@ -961,6 +1011,9 @@ def main():
     lettres = collecter_lettres()
     decisions = collecter_decisions_judilibre()
     sources_cassation = sources_analyse_cassation(lettres, decisions)
+    sources_cassation_hier = [
+        source for source in sources_cassation if source.get("date") == HIER
+    ]
 
     # Les flux et les archives doivent rester à jour, même sans article ou sans clé API.
     synchroniser_listes(data_rss)
@@ -983,7 +1036,7 @@ def main():
     # ensuite l'analyse juridique compacte pour rester dans le budget d'entree Mistral.
     for cible in ("news", "finance", "cour-de-cassation", "juridique-analyse", "synthese"):
         if cible == "cour-de-cassation":
-            selection = sources_cassation
+            selection = sources_cassation_hier
         elif cible == "juridique-analyse":
             selection = selection_analyse_juridique(
                 articles,
@@ -991,7 +1044,11 @@ def main():
                 analyse_cassation,
             )
         elif cible == "synthese":
-            selection = sources_synthese_generale(articles, analyse_juridique)
+            selection = sources_synthese_generale(
+                articles,
+                analyse_juridique,
+                analyse_cassation,
+            )
         else:
             selection = articles_pour(cible, articles)
         if not selection:
@@ -1018,7 +1075,7 @@ def main():
             print(f"Erreur de génération {cible}: {exc}")
 
     sorties_attendues = {"news", "finance", "juridique-analyse", "synthese"}
-    if sources_cassation:
+    if sources_cassation_hier:
         sorties_attendues.add("cour-de-cassation")
     sorties_manquantes = sorties_attendues - sorties_generees
     if sorties_manquantes:
