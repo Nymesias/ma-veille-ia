@@ -76,6 +76,40 @@
             return Number.isNaN(date.getTime()) ? '' : date.toLocaleString('fr-FR');
         }
 
+        const moisLettres = {
+            janvier: 1, février: 2, mars: 3, avril: 4, mai: 5, juin: 6,
+            juillet: 7, août: 8, septembre: 9, octobre: 10, novembre: 11, décembre: 12
+        };
+
+        function informationsParution(lettre) {
+            const titre = lettre.titre || '';
+            const occurrences = [...titre.toLocaleLowerCase('fr-FR').matchAll(
+                /(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)\s+(\d{4})/g
+            )];
+            if (occurrences.length) {
+                const derniere = occurrences[occurrences.length - 1];
+                const mois = moisLettres[derniere[1]];
+                const annee = Number(derniere[2]);
+                return {
+                    cle: `${annee}-${String(mois).padStart(2, '0')}-01`,
+                    libelle: `${derniere[1].charAt(0).toUpperCase()}${derniere[1].slice(1)} ${annee}`
+                };
+            }
+            return { cle: lettre.date || '', libelle: lettre.date ? dateFrancaise(lettre.date) : '' };
+        }
+
+        function enteteLettre(collection) {
+            const entetes = {
+                'Première chambre civile': 'Lettre de la première chambre civile',
+                'Deuxième chambre civile': 'Lettre de la deuxième chambre civile',
+                'Troisième chambre civile': 'Lettre de la troisième chambre civile',
+                'Chambre commerciale': 'Lettre de la chambre commerciale, financière et économique',
+                'Chambre sociale': 'Lettre de la chambre sociale',
+                'Chambre criminelle': 'Lettre de la chambre criminelle'
+            };
+            return entetes[collection] || collection || 'Lettre de la Cour de cassation';
+        }
+
         async function chargerAnalyses() {
             const zone = document.getElementById('panel-analyses');
             try {
@@ -115,7 +149,11 @@
                 if (!res.ok) throw new Error('Cache des Lettres indisponible');
                 const data = await res.json();
                 const lettresTriees = Array.isArray(data.lettres)
-                    ? [...data.lettres].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+                    ? data.lettres.map(lettre => ({
+                        ...lettre,
+                        collection: enteteLettre(lettre.collection),
+                        parution: informationsParution(lettre)
+                    })).sort((a, b) => b.parution.cle.localeCompare(a.parution.cle))
                     : [];
                 // Protection egalement cote affichage pour les anciens caches JSON :
                 // une seule carte, la plus recente, par categorie de Lettre.
@@ -130,7 +168,7 @@
                         <article class="cassation-card">
                             <span class="cassation-badge">${echapper(lettre.collection)}</span>
                             <h2>${echapper(lettre.titre)}</h2>
-                            ${lettre.date ? `<p class="cassation-meta">Publiée le ${echapper(dateFrancaise(lettre.date))}</p>` : ''}
+                            ${lettre.parution.libelle ? `<p class="cassation-meta">Parution : ${echapper(lettre.parution.libelle)}</p>` : ''}
                             ${lettre.resume ? `<p>${echapper(lettre.resume)}</p>` : ''}
                             <a class="cassation-link" href="${echapper(lettre.url)}" target="_blank" rel="noopener noreferrer">Lire la Lettre →</a>
                         </article>`).join('')}</div>`;

@@ -47,12 +47,12 @@ JURIDIQUE_ANALYSE_CATEGORIES = {
 
 COLLECTIONS_LETTRES = {
     "Lettre de la Cour": 2666,
-    "Première chambre civile": 15,
-    "Deuxième chambre civile": 170,
-    "Troisième chambre civile": 171,
-    "Chambre commerciale": 172,
-    "Chambre sociale": 16,
-    "Chambre criminelle": 173,
+    "Lettre de la première chambre civile": 15,
+    "Lettre de la deuxième chambre civile": 170,
+    "Lettre de la troisième chambre civile": 171,
+    "Lettre de la chambre commerciale, financière et économique": 172,
+    "Lettre de la chambre sociale": 16,
+    "Lettre de la chambre criminelle": 173,
     "Lettre internationale": 3643,
 }
 
@@ -317,10 +317,14 @@ def date_lettre(article, titre):
             pass
 
     texte_titre = titre.lower()
+    mois_trouves = []
     for nom_mois, numero_mois in MOIS_FRANCAIS.items():
-        correspondance = re.search(rf"\b{nom_mois}\s+(\d{{4}})\b", texte_titre)
-        if correspondance:
-            return f"{correspondance.group(1)}-{numero_mois:02d}-01"
+        for correspondance in re.finditer(rf"\b{nom_mois}\s+(\d{{4}})\b", texte_titre):
+            mois_trouves.append((correspondance.start(), correspondance.group(1), numero_mois))
+    if mois_trouves:
+        # Pour "Janvier/Février 2026", la fin de période est la meilleure clé de tri.
+        _, annee, numero_mois = max(mois_trouves, key=lambda item: item[0])
+        return f"{annee}-{numero_mois:02d}-01"
     return ""
 
 
