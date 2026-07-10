@@ -37,14 +37,15 @@ function normaliserLien(lien) {
 }
 
 async function chargerLiensDesComptesRendus(categorie) {
-    if (categorie.trim().toLowerCase() !== 'finance') return new Set();
+    const categorieNormalisee = categorie.trim().toLowerCase();
+    if (!['finance', 'news'].includes(categorieNormalisee)) return new Set();
 
     try {
         const res = await fetch('liste_md.json');
         if (!res.ok) return new Set();
         const liste = await res.json();
         const fichiers = liste.filter(item =>
-            item.nom_fichier.toLowerCase().includes('finance/')
+            item.nom_fichier.toLowerCase().includes(categorieNormalisee + '/')
         );
         const contenus = await Promise.all(fichiers.map(async item => {
             const mdRes = await fetch('markdown/' + item.nom_fichier);
@@ -59,7 +60,7 @@ async function chargerLiensDesComptesRendus(categorie) {
         });
         return liens;
     } catch (e) {
-        console.warn("Impossible de dédoublonner les comptes-rendus finance :", e);
+        console.warn(`Impossible de dédoublonner les comptes-rendus ${categorieNormalisee} :`, e);
         return new Set();
     }
 }
