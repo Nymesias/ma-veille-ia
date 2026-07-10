@@ -106,6 +106,17 @@ def nettoyer_texte(valeur, limite=900):
     texte = html.unescape(valeur or "")
     texte = re.sub(r"<[^>]+>", " ", texte)
     texte = re.sub(r"\s+", " ", texte).strip()
+    # Certains serveurs annoncent un mauvais charset et produisent par exemple
+    # "FÃ©vrier" ou "NÂ°". Réparer uniquement lorsque ces marqueurs sont présents.
+    if any(marqueur in texte for marqueur in ("Ã", "Â", "â€")):
+        for _ in range(2):
+            try:
+                corrige = texte.encode("cp1252").decode("utf-8")
+            except (UnicodeEncodeError, UnicodeDecodeError):
+                break
+            if corrige == texte:
+                break
+            texte = corrige
     return texte[:limite]
 
 

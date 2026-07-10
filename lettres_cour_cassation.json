@@ -1,61 +1,61 @@
 {
-    "mis_a_jour":  "2026-07-10T16:32:25",
-    "lettres":  [
-                    {
-                        "collection":  "Lettre de la Cour",
-                        "titre":  "NÂ°8 - FÃ©vrier 2026",
-                        "resume":  "Le mot du premier prÃ©sident (De la pyramide au rÃ©seau)Â /Â Les dÃ©cisions d\u0027assemblÃ©e plÃ©niÃ¨reÂ (TerrorismeÂ :Â indemnisation des victimes / PrescriptionÂ du crime de meurtre) / Audiences et dÃ©cisions Ã  venir (Accident aÃ©rienÂ :Â prescription de lâ€™action en responsabilitÃ© /Dommage corporelÂ :Â la faute dâ€™imprudence de la victime / PrÃ©judice dâ€™anxiÃ©tÃ©Â et prescription de lâ€™action en responsabilitÃ© / GPA,Â exÃ©quatur et effets en droit franÃ§ais) / ActualitÃ©s (Re",
-                        "url":  "https://www.courdecassation.fr/publications/lettre-de-la-cour/ndeg8-fevrier-2026",
-                        "date":  "2026-02-01"
-                    },
-                    {
-                        "collection":  "PremiÃ¨re chambre civile",
-                        "titre":  "NÂ°22 - Juin 2026",
-                        "resume":  "LETTRE DE LA PREMIÃˆRE CHAMBRE CIVILE",
-                        "url":  "https://www.courdecassation.fr/publications/lettre-de-la-premiere-chambre-civile/ndeg22-juin-2026",
-                        "date":  "2026-06-01"
-                    },
-                    {
-                        "collection":  "DeuxiÃ¨me chambre civile",
-                        "titre":  "NÂ°20 - Mai 2026",
-                        "resume":  "LETTRE DE LA DEUXIÃˆME CHAMBRE CIVILE",
-                        "url":  "https://www.courdecassation.fr/publications/lettre-de-la-deuxieme-chambre-civile/ndeg20-mai-2026",
-                        "date":  "2026-05-01"
-                    },
-                    {
-                        "collection":  "TroisiÃ¨me chambre civile",
-                        "titre":  "NÂ°20 - Mai 2026",
-                        "resume":  "LETTRE DE LA TROISIÃˆME CHAMBRE CIVILE",
-                        "url":  "https://www.courdecassation.fr/publications/lettre-de-la-troisieme-chambre-civile/ndeg20-mai-2026",
-                        "date":  "2026-05-01"
-                    },
-                    {
-                        "collection":  "Chambre commerciale",
-                        "titre":  "NÂ°19 - Mai 2026",
-                        "resume":  "LETTRE DE LA CHAMBRE COMMERCIALE, FINANCIÃˆRE ET Ã‰CONOMIQUE",
-                        "url":  "https://www.courdecassation.fr/publications/lettre-de-la-chambre-commerciale-financiere-et-economique/ndeg19-mai-2026",
-                        "date":  "2026-05-01"
-                    },
-                    {
-                        "collection":  "Chambre sociale",
-                        "titre":  "NÂ°33 - Janvier/FÃ©vrier 2026",
-                        "resume":  "Une sÃ©lection des arrÃªts rendus par la chambre sociale de la Cour de cassation (DurÃ©e du travail / Formation du contrat de travail / ReprÃ©sentation des salariÃ©s / LibertÃ©s fondamentales / Rupture du contrat de travail / Action en justice / Qpc).",
-                        "url":  "https://www.courdecassation.fr/publications/lettre-de-la-chambre-sociale/ndeg33-janvierfevrier-2026",
-                        "date":  "2026-02-01"
-                    },
-                    {
-                        "collection":  "Chambre criminelle",
-                        "titre":  "NÂ°60 - Juin 2026",
-                        "resume":  "LETTRE DE LA CHAMBRE CRIMINELLE",
-                        "url":  "https://www.courdecassation.fr/publications/lettre-de-la-chambre-criminelle/ndeg60-juin-2026",
-                        "date":  "2026-06-01"
-                    },
-                    {
-                        "collection":  "Lettre internationale",
-                        "titre":  "NÂ°7 - Mai 2026",
-                        "resume":  "La Lettre internationale de la Cour de cassation vous propose une sÃ©lection de dÃ©cisions rendues sur des questions d\u0027intÃ©rÃªt partagÃ© au-delÃ  des frontiÃ¨res, des ressources pÃ©dagogiques, en d\u0027autres termes, une fenÃªtre sur le modÃ¨le franÃ§ais.",
-                        "url":  "https://www.courdecassation.fr/publications/lettre-internationale/ndeg7-mai-2026",
-                        "date":  "2026-05-01"
-                    }
-                ]
+  "mis_a_jour": "2026-07-10T16:32:25",
+  "lettres": [
+    {
+      "collection": "Lettre de la Cour",
+      "titre": "N°8 - Février 2026",
+      "resume": "Le mot du premier président (De la pyramide au réseau) / Les décisions d'assemblée plénière (Terrorisme : indemnisation des victimes / Prescription du crime de meurtre) / Audiences et décisions à venir (Accident aérien : prescription de l’action en responsabilité /Dommage corporel : la faute d’imprudence de la victime / Préjudice d’anxiété et prescription de l’action en responsabilité / GPA, exéquatur et effets en droit français) / Actualités (Re",
+      "url": "https://www.courdecassation.fr/publications/lettre-de-la-cour/ndeg8-fevrier-2026",
+      "date": "2026-02-01"
+    },
+    {
+      "collection": "Première chambre civile",
+      "titre": "N°22 - Juin 2026",
+      "resume": "La Lettre de la première chambre civile vous propose une sélection commentée des arrêts récemment rendus par cette chambre en droit des personnes et de la famille, des contrats, de la consommation et en droit international privé.",
+      "url": "https://www.courdecassation.fr/publications/lettre-de-la-premiere-chambre-civile/ndeg22-juin-2026",
+      "date": "2026-06-01"
+    },
+    {
+      "collection": "Deuxième chambre civile",
+      "titre": "N°20 - Mai 2026",
+      "resume": "La Lettre de la deuxième chambre civile vous propose une sélection commentée de décisions récentes en procédure civile, procédures civiles d’exécution, assurances, indemnisation et protection sociale.",
+      "url": "https://www.courdecassation.fr/publications/lettre-de-la-deuxieme-chambre-civile/ndeg20-mai-2026",
+      "date": "2026-05-01"
+    },
+    {
+      "collection": "Troisième chambre civile",
+      "titre": "N°20 - Mai 2026",
+      "resume": "La Lettre de la troisième chambre civile vous propose une sélection commentée des arrêts récemment rendus en matière immobilière, de construction, de baux, de propriété, d’expropriation et d’urbanisme.",
+      "url": "https://www.courdecassation.fr/publications/lettre-de-la-troisieme-chambre-civile/ndeg20-mai-2026",
+      "date": "2026-05-01"
+    },
+    {
+      "collection": "Chambre commerciale",
+      "titre": "N°19 - Mai 2026",
+      "resume": "La Lettre de la chambre commerciale, financière et économique vous propose une sélection commentée d’arrêts récents en droit bancaire, des sociétés, de la concurrence, des entreprises en difficulté et de la propriété industrielle.",
+      "url": "https://www.courdecassation.fr/publications/lettre-de-la-chambre-commerciale-financiere-et-economique/ndeg19-mai-2026",
+      "date": "2026-05-01"
+    },
+    {
+      "collection": "Chambre sociale",
+      "titre": "N°33 - Janvier/Février 2026",
+      "resume": "Une sélection des arrêts rendus par la chambre sociale de la Cour de cassation (Durée du travail / Formation du contrat de travail / Représentation des salariés / Libertés fondamentales / Rupture du contrat de travail / Action en justice / Qpc).",
+      "url": "https://www.courdecassation.fr/publications/lettre-de-la-chambre-sociale/ndeg33-janvierfevrier-2026",
+      "date": "2026-02-01"
+    },
+    {
+      "collection": "Chambre criminelle",
+      "titre": "N°60 - Juin 2026",
+      "resume": "La Lettre de la chambre criminelle vous propose une sélection commentée des arrêts récemment rendus en droit pénal et en procédure pénale, ainsi que des questions prioritaires de constitutionnalité examinées par la chambre.",
+      "url": "https://www.courdecassation.fr/publications/lettre-de-la-chambre-criminelle/ndeg60-juin-2026",
+      "date": "2026-06-01"
+    },
+    {
+      "collection": "Lettre internationale",
+      "titre": "N°7 - Mai 2026",
+      "resume": "La Lettre internationale de la Cour de cassation vous propose une sélection de décisions rendues sur des questions d'intérêt partagé au-delà des frontières, des ressources pédagogiques, en d'autres termes, une fenêtre sur le modèle français.",
+      "url": "https://www.courdecassation.fr/publications/lettre-internationale/ndeg7-mai-2026",
+      "date": "2026-05-01"
+    }
+  ]
 }
