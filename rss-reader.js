@@ -177,22 +177,23 @@ async function chargerMarkdown(motCle, idContainer) {
     try {
         const res = await fetch('liste_md.json', { cache: 'no-store' });
         const liste = await res.json();
-        let htmlContenu = "";
-        for (const item of liste) {
+        const fichiers = liste.filter(item => {
             const nomSeul = item.nom_fichier.split('/').pop();
-            if (item.nom_fichier.toLowerCase().includes(motCle.toLowerCase()) && !nomSeul.startsWith('synthese-')) {
-                const mdRes = await fetch('markdown/' + item.nom_fichier, { cache: 'no-store' });
-                const text = await mdRes.text();
-                if (!renduToujoursActif(container, versionRendu)) return;
-                htmlContenu += `
+            return item.nom_fichier.toLowerCase().includes(motCle.toLowerCase())
+                && !nomSeul.startsWith('synthese-');
+        });
+        const articles = await Promise.all(fichiers.map(async item => {
+            const mdRes = await fetch('markdown/' + item.nom_fichier, { cache: 'no-store' });
+            const text = await mdRes.text();
+            return `
                     <article class="post-md">
                         <small>Publiée le ${item.date_affichage}</small>
                         <div>${marked.parse(text)}</div>
                     </article>`;
-            }
-        }
+        }));
+        if (!renduToujoursActif(container, versionRendu)) return;
         if (renduToujoursActif(container, versionRendu)) {
-            container.innerHTML = htmlContenu;
+            container.innerHTML = articles.join('');
         }
     } catch (e) {
         if (renduToujoursActif(container, versionRendu)) {

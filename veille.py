@@ -4,9 +4,12 @@ import json
 import os
 import re
 import smtplib
+import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from email.header import Header
 from email.mime.text import MIMEText
+from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin
 
 import feedparser
@@ -143,28 +146,100 @@ def charger_sources():
         return sources
 
 
-def date_depuis_page(url, entetes=None):
+MOIS_FRANCAIS = {
+    "janvier": 1,
+    "fevrier": 2,
+    "février": 2,
+    "mars": 3,
+    "avril": 4,
+    "mai": 5,
+    "juin": 6,
+    "juillet": 7,
+    "aout": 8,
+    "août": 8,
+    "septembre": 9,
+    "octobre": 10,
+    "novembre": 11,
+    "decembre": 12,
+    "décembre": 12,
+}
+
+
+def normaliser_date_publication(valeur):
+    """Convertit une date ISO, RFC 2822 ou française en AAAA-MM-JJ."""
+    if not valeur:
+        return ""
+    texte = str(valeur).strip()
+    correspondance = re.search(r"(?<!\d)(20\d{2}-\d{2}-\d{2})(?!\d)", texte)
+    if correspondance:
+        return correspondance.group(1)
+    try:
+        return parsedate_to_datetime(texte).date().isoformat()
+    except (TypeError, ValueError, OverflowError):
+        pass
+    correspondance = re.search(
+        r"\b(\d{1,2}|1er)\s+([a-zéû]+)\s+(20\d{2})\b", texte.lower()
+    )
+    if not correspondance:
+        return ""
+    jour = 1 if correspondance.group(1) == "1er" else int(correspondance.group(1))
+    mois = MOIS_FRANCAIS.get(correspondance.group(2))
+    if not mois:
+        return ""
+    try:
+        return datetime(int(correspondance.group(3)), mois, jour).date().isoformat()
+    except ValueError:
+        return ""
+
+
+def requete_avec_reessais(url, entetes=None, timeout=30, tentatives=3):
+    """Télécharge une page en réessayant les erreurs réseau et limitations temporaires."""
+    derniere_erreur = None
+    for tentative in range(tentatives):
+        try:
+            reponse = requests.get(url, headers=entetes or {}, timeout=timeout)
+            reponse.raise_for_status()
+            return reponse
+        except requests.RequestException as exc:
+            derniere_erreur = exc
+            if tentative + 1 < tentatives:
+                time.sleep(1.5 * (tentative + 1))
+    raise derniere_erreur
+
+
+def date_depuis_page(url, entetes=None, stricte=False):
     """Lit la date de publication declaree par la page officielle liee au flux."""
     if not url:
         return ""
     try:
-        reponse = requests.get(url, headers=entetes or {}, timeout=20)
-        reponse.raise_for_status()
+        reponse = requete_avec_reessais(url, entetes, timeout=20)
         page = BeautifulSoup(reponse.text, "html.parser")
-        selecteurs = (
+        selecteurs_publication = (
             'meta[property="article:published_time"]',
-            'meta[name="date"]',
+            'meta[itemprop="datePublished"]',
             'meta[name="DC.date"]',
-            'time[datetime]',
+            'time[pubdate]',
         )
-        for selecteur in selecteurs:
+        selecteurs_generiques = (
+            'meta[name="date"]',
+            'time[datetime]',
+            'time[date]',
+            '.date-enregistrement',
+            '.datetime',
+        )
+        for selecteur in selecteurs_publication + (() if stricte else selecteurs_generiques):
             element = page.select_one(selecteur)
             if not element:
                 continue
-            valeur = element.get("content") or element.get("datetime") or ""
-            correspondance = re.search(r"\b(\d{4}-\d{2}-\d{2})\b", valeur)
-            if correspondance:
-                return correspondance.group(1)
+            valeur = (
+                element.get("content")
+                or element.get("datetime")
+                or element.get("date")
+                or element.get_text(" ", strip=True)
+            )
+            date = normaliser_date_publication(valeur)
+            if date:
+                return date
         # Les donnees structurees Schema.org sont frequentes sur les sites publics.
         correspondance = re.search(
             r'["\u2019]datePublished["\u2019]\s*:\s*["\u2019](\d{4}-\d{2}-\d{2})',
@@ -177,26 +252,28 @@ def date_depuis_page(url, entetes=None):
         return ""
 
 
-def date_entree(entry, flux=None, entetes=None):
-    """Retourne la date de l'entree, puis celle de sa page ou du flux.
+def date_entree(entry, flux=None, entetes=None, consulter_page=True):
+    """Retourne la date de publication de l'entrée ou celle de sa page.
 
     Ne jamais utiliser la date d'execution comme repli : cela ferait paraitre
     aujourd'hui des publications anciennes dont le flux omet la date par item.
+    La date globale de mise à jour du flux est également exclue : elle ne
+    représente pas la date de publication de chaque article.
     """
-    date_structuree = entry.get("published_parsed") or entry.get("updated_parsed")
+    date = normaliser_date_publication(entry.get("published"))
+    if date:
+        return date
+
+    date_structuree = entry.get("published_parsed")
     if date_structuree:
         return datetime(*date_structuree[:3]).strftime("%Y-%m-%d")
 
-    date_page = date_depuis_page(entry.get("link", ""), entetes)
-    if date_page:
-        return date_page
+    if consulter_page:
+        date_page = date_depuis_page(entry.get("link", ""), entetes)
+        if date_page:
+            return date_page
 
-    if flux is not None:
-        feed = getattr(flux, "feed", {})
-        date_structuree = feed.get("updated_parsed") or feed.get("published_parsed")
-    if not date_structuree:
-        return ""
-    return datetime(*date_structuree[:3]).strftime("%Y-%m-%d")
+    return ""
 
 
 def date_dans_fenetre_rss(date_iso, date_reference):
@@ -206,6 +283,7 @@ def date_dans_fenetre_rss(date_iso, date_reference):
 def collecter_articles(sources):
     data_rss = {}
     articles_hier = []
+    liens_vus_par_categorie = {}
 
     for source in sources:
         categorie = source.get("categorie", "general").strip().lower()
@@ -217,7 +295,8 @@ def collecter_articles(sources):
         articles_source = []
         try:
             entetes = {"User-Agent": "MaVeilleIA/1.0 (veille personnelle)"}
-            flux = feedparser.parse(url, request_headers=entetes)
+            reponse_flux = requete_avec_reessais(url, entetes, timeout=30)
+            flux = feedparser.parse(reponse_flux.content)
             if getattr(flux, "bozo", False):
                 print(f"Avertissement flux {nom_source}: {flux.bozo_exception}")
 
@@ -228,14 +307,29 @@ def collecter_articles(sources):
                     "source": nom_source,
                     "titre": nettoyer_texte(entry.get("title", "Sans titre"), 300),
                     "lien": entry.get("link", url),
-                    "date": date_entree(entry, flux, entetes),
+                    "date": date_entree(entry, flux, entetes, consulter_page=False),
                     "resume": nettoyer_texte(
                         entry.get("summary") or entry.get("description") or ""
                     ),
                 }
                 articles_collectes.append(article)
-                if article["date"] == HIER:
-                    articles_hier.append(article)
+
+            articles_a_verifier = [article for article in articles_collectes if article["lien"]]
+            if articles_a_verifier:
+                with ThreadPoolExecutor(max_workers=min(4, len(articles_a_verifier))) as pool:
+                    dates_pages = pool.map(
+                        lambda article: date_depuis_page(
+                            article["lien"], entetes, stricte=bool(article["date"])
+                        ),
+                        articles_a_verifier,
+                    )
+                    for article, date_page in zip(articles_a_verifier, dates_pages):
+                        if date_page:
+                            article["date"] = date_page
+
+            articles_hier.extend(
+                article for article in articles_collectes if article["date"] == HIER
+            )
 
             dates_connues = [
                 article["date"]
@@ -254,6 +348,11 @@ def collecter_articles(sources):
 
             for article in articles_collectes:
                 if date_dans_fenetre_rss(article["date"], date_reference):
+                    cle_lien = article["lien"].split("#", 1)[0].rstrip("/").lower()
+                    liens_vus = liens_vus_par_categorie.setdefault(categorie, set())
+                    if cle_lien in liens_vus:
+                        continue
+                    liens_vus.add(cle_lien)
                     articles_source.append(
                         {"t": article["titre"], "l": article["lien"], "d": article["date"]}
                     )
