@@ -1,4 +1,15 @@
 let rssData = null;
+const versionsRendu = new WeakMap();
+
+function commencerRendu(container) {
+    const version = (versionsRendu.get(container) || 0) + 1;
+    versionsRendu.set(container, version);
+    return version;
+}
+
+function renduToujoursActif(container, version) {
+    return versionsRendu.get(container) === version;
+}
 
 // --- NOUVELLE FONCTION DE FORMATAGE ---
 function formaterDateEnFrancais(dateBrute) {
@@ -17,7 +28,7 @@ function formaterDateEnFrancais(dateBrute) {
 
 async function initialiserProjet() {
     try {
-        const response = await fetch('liste_rss.json');
+        const response = await fetch('liste_rss.json', { cache: 'no-store' });
         if (!response.ok) throw new Error("Fichier liste_rss.json introuvable");
         rssData = await response.json();
         console.log("Données JSON chargées :", Object.keys(rssData));
@@ -41,14 +52,14 @@ async function chargerLiensDesComptesRendus(categorie) {
     if (!['finance', 'news'].includes(categorieNormalisee)) return new Set();
 
     try {
-        const res = await fetch('liste_md.json');
+        const res = await fetch('liste_md.json', { cache: 'no-store' });
         if (!res.ok) return new Set();
         const liste = await res.json();
         const fichiers = liste.filter(item =>
             item.nom_fichier.toLowerCase().includes(categorieNormalisee + '/')
         );
         const contenus = await Promise.all(fichiers.map(async item => {
-            const mdRes = await fetch('markdown/' + item.nom_fichier);
+            const mdRes = await fetch('markdown/' + item.nom_fichier, { cache: 'no-store' });
             return mdRes.ok ? mdRes.text() : '';
         }));
         const liens = new Set();
@@ -69,12 +80,14 @@ async function chargerLiensDesComptesRendus(categorie) {
 async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date') {
     const container = document.getElementById(idContainer);
     if (!container) return;
+    const versionRendu = commencerRendu(container);
 
     container.innerHTML = "<p style='text-align:center;'>Chargement des flux...</p>";
 
     if (!rssData) {
         await initialiserProjet();
     }
+    if (!renduToujoursActif(container, versionRendu)) return;
 
     // Recherche de la catégorie dans le JSON
     const cleReelle = Object.keys(rssData).find(
@@ -83,6 +96,7 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date') {
 
     const sources = cleReelle ? rssData[cleReelle] : [];
     const liensDejaRepris = await chargerLiensDesComptesRendus(nomCategorie);
+    if (!renduToujoursActif(container, versionRendu)) return;
 
     if (sources.length === 0) {
         container.innerHTML = `<p>Aucune donnée pour "${nomCategorie}".</p>`;
@@ -127,7 +141,9 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date') {
             </article>`;
     });
 
-    container.innerHTML = htmlContenu;
+    if (renduToujoursActif(container, versionRendu)) {
+        container.innerHTML = htmlContenu;
+    }
 }
 
 // --- Tes autres fonctions (chargerRecapDuJour, etc.) restent inchangées en dessous ---
@@ -157,23 +173,30 @@ async function chargerRecapDuJour(idContainer) {
 async function chargerMarkdown(motCle, idContainer) {
     const container = document.getElementById(idContainer);
     if (!container) return;
+    const versionRendu = commencerRendu(container);
     try {
-        const res = await fetch('liste_md.json');
+        const res = await fetch('liste_md.json', { cache: 'no-store' });
         const liste = await res.json();
-        container.innerHTML = "";
+        let htmlContenu = "";
         for (const item of liste) {
             const nomSeul = item.nom_fichier.split('/').pop();
             if (item.nom_fichier.toLowerCase().includes(motCle.toLowerCase()) && !nomSeul.startsWith('synthese-')) {
-                const mdRes = await fetch('markdown/' + item.nom_fichier);
+                const mdRes = await fetch('markdown/' + item.nom_fichier, { cache: 'no-store' });
                 const text = await mdRes.text();
-                container.innerHTML += `
+                if (!renduToujoursActif(container, versionRendu)) return;
+                htmlContenu += `
                     <article class="post-md">
                         <small>Publiée le ${item.date_affichage}</small>
                         <div>${marked.parse(text)}</div>
                     </article>`;
             }
         }
+        if (renduToujoursActif(container, versionRendu)) {
+            container.innerHTML = htmlContenu;
+        }
     } catch (e) {
-        container.innerHTML = "<p>Erreur analyses.</p>";
+        if (renduToujoursActif(container, versionRendu)) {
+            container.innerHTML = "<p>Erreur analyses.</p>";
+        }
     }
 }
