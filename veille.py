@@ -62,6 +62,14 @@ HIER = (MAINTENANT - timedelta(days=1)).strftime("%Y-%m-%d")
 
 os.makedirs(DOSSIER_MD, exist_ok=True)
 
+SOUS_DOSSIERS_MD = {
+    "synthese": "syntheses",
+    "news": "news",
+    "finance": "finance",
+    "juridique-analyse": "juridique",
+    "cour-de-cassation": "cour-cassation",
+}
+
 
 def estimer_tokens(texte):
     """Approximation prudente: un token vaut souvent 3 a 4 caracteres."""
@@ -124,10 +132,59 @@ def charger_sources():
         return sources
 
 
-def date_entree(entry):
+def date_depuis_page(url, entetes=None):
+    """Lit la date de publication declaree par la page officielle liee au flux."""
+    if not url:
+        return ""
+    try:
+        reponse = requests.get(url, headers=entetes or {}, timeout=20)
+        reponse.raise_for_status()
+        page = BeautifulSoup(reponse.text, "html.parser")
+        selecteurs = (
+            'meta[property="article:published_time"]',
+            'meta[name="date"]',
+            'meta[name="DC.date"]',
+            'time[datetime]',
+        )
+        for selecteur in selecteurs:
+            element = page.select_one(selecteur)
+            if not element:
+                continue
+            valeur = element.get("content") or element.get("datetime") or ""
+            correspondance = re.search(r"\b(\d{4}-\d{2}-\d{2})\b", valeur)
+            if correspondance:
+                return correspondance.group(1)
+        # Les donnees structurees Schema.org sont frequentes sur les sites publics.
+        correspondance = re.search(
+            r'["\u2019]datePublished["\u2019]\s*:\s*["\u2019](\d{4}-\d{2}-\d{2})',
+            reponse.text,
+            re.I,
+        )
+        return correspondance.group(1) if correspondance else ""
+    except Exception as exc:
+        print(f"Date de page indisponible pour {url}: {exc}")
+        return ""
+
+
+def date_entree(entry, flux=None, entetes=None):
+    """Retourne la date de l'entree, puis celle de sa page ou du flux.
+
+    Ne jamais utiliser la date d'execution comme repli : cela ferait paraitre
+    aujourd'hui des publications anciennes dont le flux omet la date par item.
+    """
     date_structuree = entry.get("published_parsed") or entry.get("updated_parsed")
+    if date_structuree:
+        return datetime(*date_structuree[:3]).strftime("%Y-%m-%d")
+
+    date_page = date_depuis_page(entry.get("link", ""), entetes)
+    if date_page:
+        return date_page
+
+    if flux is not None:
+        feed = getattr(flux, "feed", {})
+        date_structuree = feed.get("updated_parsed") or feed.get("published_parsed")
     if not date_structuree:
-        return AUJOURDHUI
+        return ""
     return datetime(*date_structuree[:3]).strftime("%Y-%m-%d")
 
 
@@ -148,7 +205,8 @@ def collecter_articles(sources):
 
         articles_source = []
         try:
-            flux = feedparser.parse(url)
+            entetes = {"User-Agent": "MaVeilleIA/1.0 (veille personnelle)"}
+            flux = feedparser.parse(url, request_headers=entetes)
             if getattr(flux, "bozo", False):
                 print(f"Avertissement flux {nom_source}: {flux.bozo_exception}")
 
@@ -159,7 +217,7 @@ def collecter_articles(sources):
                     "source": nom_source,
                     "titre": nettoyer_texte(entry.get("title", "Sans titre"), 300),
                     "lien": entry.get("link", url),
-                    "date": date_entree(entry),
+                    "date": date_entree(entry, flux, entetes),
                     "resume": nettoyer_texte(
                         entry.get("summary") or entry.get("description") or ""
                     ),
@@ -203,18 +261,21 @@ def synchroniser_listes(data_rss):
         json.dump(data_rss, fichier, indent=2, ensure_ascii=False)
 
     fichiers = []
-    for nom in os.listdir(DOSSIER_MD):
-        if not nom.endswith(".md"):
-            continue
-        correspondance = re.search(r"(\d{4}-\d{2}-\d{2})", nom)
-        date_fichier = correspondance.group(1) if correspondance else AUJOURDHUI
-        fichiers.append(
-            {
-                "date_affichage": date_fichier,
-                "date_tri": date_fichier,
-                "nom_fichier": nom,
-            }
-        )
+    for dossier, _, noms in os.walk(DOSSIER_MD):
+        for nom in noms:
+            if not nom.endswith(".md"):
+                continue
+            chemin = os.path.join(dossier, nom)
+            chemin_relatif = os.path.relpath(chemin, DOSSIER_MD).replace(os.sep, "/")
+            correspondance = re.search(r"(\d{4}-\d{2}-\d{2})", nom)
+            date_fichier = correspondance.group(1) if correspondance else AUJOURDHUI
+            fichiers.append(
+                {
+                    "date_affichage": date_fichier,
+                    "date_tri": date_fichier,
+                    "nom_fichier": chemin_relatif,
+                }
+            )
 
     fichiers.sort(key=lambda item: (item["date_tri"], item["nom_fichier"]), reverse=True)
     with open(FICHIER_LISTE_MD, "w", encoding="utf-8") as fichier:
@@ -263,6 +324,32 @@ def date_lettre(article, titre):
     return ""
 
 
+def resume_lettre(url, titre, collection, entetes):
+    """Extrait un vrai resume de la page de la Lettre, sans reprendre son titre."""
+    try:
+        reponse = requests.get(url, headers=entetes, timeout=30)
+        reponse.raise_for_status()
+        page = BeautifulSoup(reponse.text, "html.parser")
+    except Exception as exc:
+        print(f"Erreur resume Lettre {url}: {exc}")
+        return ""
+
+    interdits = {nettoyer_texte(titre).casefold(), nettoyer_texte(collection).casefold()}
+    candidats = []
+    description = page.select_one('meta[name="description"], meta[property="og:description"]')
+    if description:
+        candidats.append(nettoyer_texte(description.get("content", ""), 700))
+    candidats.extend(
+        nettoyer_texte(element.get_text(" ", strip=True), 700)
+        for element in page.select("main p, main .field--name-body li")
+    )
+    for candidat in candidats:
+        normalise = candidat.casefold().strip(" .:-")
+        if len(candidat) >= 80 and normalise not in interdits and normalise != titre.casefold():
+            return candidat
+    return ""
+
+
 def collecter_lettres():
     """Collecte les dernières parutions des huit collections officielles."""
     base = "https://www.courdecassation.fr"
@@ -286,7 +373,9 @@ def collecter_lettres():
             )
             reponse.raise_for_status()
             page = BeautifulSoup(reponse.text, "html.parser")
-            for article in page.select("main article")[:5]:
+            # La page est triee par creation decroissante : une seule parution,
+            # la plus recente, doit etre conservee pour chaque collection.
+            for article in page.select("main article"):
                 lien = article.select_one("h2 a[href], h3 a[href]")
                 if not lien:
                     continue
@@ -294,20 +383,17 @@ def collecter_lettres():
                 if url in vus:
                     continue
                 vus.add(url)
-                paragraphes = [
-                    nettoyer_texte(p.get_text(" ", strip=True), 500)
-                    for p in article.select("p")
-                ]
                 titre = nettoyer_texte(lien.get_text(" ", strip=True), 250)
                 lettres.append(
                     {
                         "collection": collection,
                         "titre": titre,
-                        "resume": next((p for p in paragraphes if p and p != collection), ""),
+                        "resume": resume_lettre(url, titre, collection, entetes),
                         "url": url,
                         "date": date_lettre(article, titre),
                     }
                 )
+                break
         except Exception as exc:
             print(f"Erreur collecte {collection}: {exc}")
 
@@ -634,14 +720,14 @@ def selection_analyse_juridique(articles, sources_cassation, analyse_cassation=N
 
 def source_depuis_markdown(cible, contenu):
     titres = {
-        "juridique-analyse": "Analyse juridique transversale",
+        "juridique-analyse": "Actualités Juridiques",
         "cour-de-cassation": "Analyse Cour de cassation",
     }
     return {
         "categorie": "analyse ia",
         "source": titres.get(cible, cible),
         "titre": titres.get(cible, cible),
-        "lien": f"markdown/{AUJOURDHUI}-{cible}.md",
+        "lien": f"markdown/{SOUS_DOSSIERS_MD[cible]}/{AUJOURDHUI}-{cible}.md",
         "date": HIER,
         "resume": nettoyer_texte(contenu, 1800),
     }
@@ -715,7 +801,7 @@ def prompt_pour(cible, articles):
         "news": f"Actualités générales — {HIER}",
         "finance": f"Finance et économie — {HIER}",
         "cour-de-cassation": f"Cour de cassation — {HIER}",
-        "juridique-analyse": f"Analyse juridique transversale — {HIER}",
+        "juridique-analyse": f"Actualités Juridiques — {HIER}",
     }
     specificites = {
         "synthese": (
@@ -876,7 +962,9 @@ def nettoyer_sortie_mistral(contenu):
 
 def ecrire_markdown(cible, contenu):
     nom = f"synthese-{AUJOURDHUI}.md" if cible == "synthese" else f"{AUJOURDHUI}-{cible}.md"
-    chemin = os.path.join(DOSSIER_MD, nom)
+    dossier = os.path.join(DOSSIER_MD, SOUS_DOSSIERS_MD[cible])
+    os.makedirs(dossier, exist_ok=True)
+    chemin = os.path.join(dossier, nom)
     with open(chemin, "w", encoding="utf-8") as fichier:
         fichier.write(nettoyer_sortie_mistral(contenu) + "\n")
     print(f"Fichier généré: {chemin}")
@@ -887,7 +975,7 @@ def compte_rendu_sans_donnees(cible):
     titres = {
         "news": f"Actualités générales — {HIER}",
         "finance": f"Finance et économie — {HIER}",
-        "juridique-analyse": f"Analyse juridique transversale — {HIER}",
+        "juridique-analyse": f"Actualités Juridiques — {HIER}",
         "synthese": f"Synthèse de veille du {HIER}",
     }
     return (

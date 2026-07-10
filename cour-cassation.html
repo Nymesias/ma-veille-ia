@@ -88,7 +88,8 @@
                     return;
                 }
                 const contenus = await Promise.all(filtres.map(async item => {
-                    const reponse = await fetch(`markdown/${encodeURIComponent(item.nom_fichier)}`);
+                    const chemin = item.nom_fichier.split('/').map(encodeURIComponent).join('/');
+                    const reponse = await fetch(`markdown/${chemin}`);
                     if (!reponse.ok) return '';
                     const texte = await reponse.text();
                     return `<article class="post-md" style="margin-bottom:40px">
@@ -113,9 +114,14 @@
                 });
                 if (!res.ok) throw new Error('Cache des Lettres indisponible');
                 const data = await res.json();
-                const lettres = Array.isArray(data.lettres)
+                const lettresTriees = Array.isArray(data.lettres)
                     ? [...data.lettres].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
                     : [];
+                // Protection egalement cote affichage pour les anciens caches JSON :
+                // une seule carte, la plus recente, par categorie de Lettre.
+                const lettres = [...new Map(
+                    lettresTriees.map(lettre => [lettre.collection || 'Autres Lettres', lettre])
+                ).values()];
                 if (!lettres.length) throw new Error('Aucune Lettre');
                 zone.innerHTML = `
                     <p class="cassation-updated">Mis à jour le ${echapper(dateMiseAJour(data.mis_a_jour))} —

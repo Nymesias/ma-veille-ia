@@ -1,4 +1,4 @@
-# Analyse juridique transversale — 2026-07-08
+# Actualités Juridiques — 2026-07-08
 
 ## Juridictions internationales
 - Une délégation de parlementaires de l’OSCE a visité la Cour internationale de Justice (CIJ) le 7 juillet 2026, dans le cadre de l’Assemblée parlementaire annuelle tenue à La Haye. [Source](https://www.icj-cij.org/node/206445)

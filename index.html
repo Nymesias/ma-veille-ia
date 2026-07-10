@@ -65,7 +65,7 @@ async function initialiserPage() {
         const data = await res.json();
         
         // On stocke globalement pour les filtres
-        toutesLesSyntheses = data.filter(a => a.nom_fichier.startsWith('synthese-'));
+        toutesLesSyntheses = data.filter(a => a.nom_fichier.split('/').pop().startsWith('synthese-'));
 
         // 1. GESTION DU JOUR
         const syntheseDuJour = toutesLesSyntheses.find(s => s.date_tri === aujourdhui);

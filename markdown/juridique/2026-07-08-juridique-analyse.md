@@ -1,4 +1,4 @@
-# Analyse juridique transversale — 2026-07-07
+# Actualités Juridiques — 2026-07-07
 
 ## **Textes officiels**
 - Proposition de loi visant à renforcer la lutte contre les cancers pédiatriques et à soutenir les familles concernées, déposée par Mme Alexandra Martin (Alpes-Maritimes). [Source](https://www.assemblee-nationale.fr/17/propositions/pion3035.asp)

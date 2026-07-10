@@ -96,7 +96,7 @@ async function chargerRecapDuJour(idContainer) {
     try {
         const res = await fetch('liste_md.json');
         const liste = await res.json();
-        const syntheseInfo = liste.find(f => f.nom_fichier.startsWith('synthese-'));
+        const syntheseInfo = liste.find(f => f.nom_fichier.split('/').pop().startsWith('synthese-'));
         if (syntheseInfo) {
             const mdRes = await fetch('markdown/' + syntheseInfo.nom_fichier);
             const text = await mdRes.text();
@@ -121,7 +121,8 @@ async function chargerMarkdown(motCle, idContainer) {
         const liste = await res.json();
         container.innerHTML = "";
         for (const item of liste) {
-            if (item.nom_fichier.toLowerCase().includes(motCle.toLowerCase()) && !item.nom_fichier.startsWith('synthese-')) {
+            const nomSeul = item.nom_fichier.split('/').pop();
+            if (item.nom_fichier.toLowerCase().includes(motCle.toLowerCase()) && !nomSeul.startsWith('synthese-')) {
                 const mdRes = await fetch('markdown/' + item.nom_fichier);
                 const text = await mdRes.text();
                 container.innerHTML += `
