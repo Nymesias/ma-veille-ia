@@ -182,7 +182,7 @@ async function chargerMarkdown(motCle, idContainer) {
             return item.nom_fichier.toLowerCase().includes(motCle.toLowerCase())
                 && !nomSeul.startsWith('synthese-');
         });
-        const articles = await Promise.all(fichiers.map(async item => {
+        const chargerArticle = async item => {
             const mdRes = await fetch('markdown/' + item.nom_fichier, { cache: 'no-store' });
             const text = await mdRes.text();
             return `
@@ -190,11 +190,18 @@ async function chargerMarkdown(motCle, idContainer) {
                         <small>Publiée le ${item.date_affichage}</small>
                         <div>${marked.parse(text)}</div>
                     </article>`;
-        }));
-        if (!renduToujoursActif(container, versionRendu)) return;
-        if (renduToujoursActif(container, versionRendu)) {
-            container.innerHTML = articles.join('');
+        };
+        if (fichiers.length === 0) {
+            if (renduToujoursActif(container, versionRendu)) container.innerHTML = "";
+            return;
         }
+        const articleRecent = await chargerArticle(fichiers[0]);
+        if (!renduToujoursActif(container, versionRendu)) return;
+        container.innerHTML = articleRecent;
+
+        const articlesArchives = await Promise.all(fichiers.slice(1).map(chargerArticle));
+        if (!renduToujoursActif(container, versionRendu)) return;
+        container.innerHTML = articleRecent + articlesArchives.join('');
     } catch (e) {
         if (renduToujoursActif(container, versionRendu)) {
             container.innerHTML = "<p>Erreur analyses.</p>";
