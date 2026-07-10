@@ -26,6 +26,44 @@ async function initialiserProjet() {
     }
 }
 
+function normaliserLien(lien) {
+    try {
+        const url = new URL(lien, window.location.href);
+        url.hash = "";
+        return url.href.replace(/\/$/, "");
+    } catch (_) {
+        return (lien || "").trim().replace(/#.*$/, "").replace(/\/$/, "");
+    }
+}
+
+async function chargerLiensDesComptesRendus(categorie) {
+    if (categorie.trim().toLowerCase() !== 'finance') return new Set();
+
+    try {
+        const res = await fetch('liste_md.json');
+        if (!res.ok) return new Set();
+        const liste = await res.json();
+        const fichiers = liste.filter(item =>
+            item.nom_fichier.toLowerCase().includes('finance/')
+        );
+        const contenus = await Promise.all(fichiers.map(async item => {
+            const mdRes = await fetch('markdown/' + item.nom_fichier);
+            return mdRes.ok ? mdRes.text() : '';
+        }));
+        const liens = new Set();
+        const motifLien = /https?:\/\/[^\s)\]>]+/g;
+        contenus.forEach(contenu => {
+            (contenu.match(motifLien) || []).forEach(lien =>
+                liens.add(normaliserLien(lien))
+            );
+        });
+        return liens;
+    } catch (e) {
+        console.warn("Impossible de dédoublonner les comptes-rendus finance :", e);
+        return new Set();
+    }
+}
+
 // On ajoute le paramètre "modeTri" avec une valeur par défaut
 async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date') {
     const container = document.getElementById(idContainer);
@@ -43,6 +81,7 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date') {
     );
 
     const sources = cleReelle ? rssData[cleReelle] : [];
+    const liensDejaRepris = await chargerLiensDesComptesRendus(nomCategorie);
 
     if (sources.length === 0) {
         container.innerHTML = `<p>Aucune donnée pour "${nomCategorie}".</p>`;
@@ -53,6 +92,7 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date') {
     let tousLesArticles = [];
     sources.forEach(source => {
         source.articles.forEach(art => {
+            if (liensDejaRepris.has(normaliserLien(art.l))) return;
             tousLesArticles.push({
                 ...art,
                 nom_site: source.nom_site // On attache le nom du site à l'article

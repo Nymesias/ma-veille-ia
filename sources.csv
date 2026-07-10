@@ -5,16 +5,20 @@ revues,Dalloz|Actualité,https://www.dalloz-actualite.fr/rss.xml
 revues,Dalloz|Actualités flash,https://www.dalloz-actualite.fr/flash/rss.xml
 revues,Village Justice,https://www.village-justice.com/articles/spip.php?page=backend
 revues,Actu-Juridique,https://www.actu-juridique.fr/feed/
-revues,Legalis|Numérique,https://www.legalis.net/feed/
-revues,Revue générale du droit,https://www.revuegeneraledudroit.eu/feed/
-revues,Droit & Technologies,https://www.droit-technologie.org/feed/
 revues,Jus Politicum,https://blog.juspoliticum.com/feed/
+revues,DAJ Bercy,https://www.economie.gouv.fr/daj/rss
+revues,Vie Publique|Lois,https://www.vie-publique.fr/lois-feeds.xml
 juridictions,Conseil d'Etat|LJA,https://www.conseil-etat.fr/rss/lja-rss
 juridictions,Conseil d'Etat|Séances,https://www.conseil-etat.fr/outils/flux-rss/seances-publiques-rss
 juridictions,Conseil Constitutionnel,https://www.conseil-constitutionnel.fr/flux/rss.xml
 juridictions,Cour de Cassation|Podcasts,https://radio.amicus-curiae.net/series/les-rendez-vous-civils/feed/
 juridictions,Cour de Cassation|Actualités,https://www.courdecassation.fr/rss.xml
 juridictions,CIJ|Communiqués,https://www.icj-cij.org/rss.xml
+juridictions,Commission européenne|Numérique IA,https://digital-strategy.ec.europa.eu/en/rss.xml
+juridictions,ANSSI|Actualités cyber,https://cyber.gouv.fr/actualites/rss/
+juridictions,Autorité de la concurrence,https://www.autoritedelaconcurrence.fr/fr/rss.xml
+juridictions,ARCOM,https://www.arcom.fr/rss.xml
+juridictions,CNIL|Actualités,https://www.cnil.fr/fr/rss.xml
 blogs,Me NEUJANICKI|Immobilier,https://www.neujanicki.com/feed/
 blogs,ONB|Notaires,https://www.onb-france.com/actualites/feed
 blogs,Me PICOVSCHI|Affaires,https://www.avocats-picovschi.com/rss/rss.xml
@@ -28,30 +32,16 @@ textes officiels,AN|Séances,http://www2.assemblee-nationale.fr/feeds/detail/crs
 textes officiels,AN|Documents,http://www2.assemblee-nationale.fr/feeds/detail/documents-parlementaires   
 textes officiels,Sénat|Textes,https://www.senat.fr/rss/textes.rss
 textes officiels,Sénat|Rapports,https://www.senat.fr/rss/rapports.rss
-textes officiels,DAJ Bercy,https://www.economie.gouv.fr/daj/rss
-textes officiels,Vie Publique|Actualités,https://www.vie-publique.fr/actualites-feeds.xml
-textes officiels,Vie Publique|Lois,https://www.vie-publique.fr/lois-feeds.xml
-textes officiels,CNIL|Actualités,https://www.cnil.fr/fr/rss.xml
-textes officiels,EDPB|Données personnelles,https://www.edpb.europa.eu/rss.xml
-textes officiels,Commission européenne|Numérique IA,https://digital-strategy.ec.europa.eu/en/rss.xml
-textes officiels,ANSSI|Actualités cyber,https://cyber.gouv.fr/actualites/rss/
-textes officiels,Autorité de la concurrence,https://www.autoritedelaconcurrence.fr/fr/rss.xml
-textes officiels,ARCOM,https://www.arcom.fr/rss.xml
 finance,AMF,https://www.amf-france.org/fr/flux-rss/display/21
 finance,AFT,https://www.aft.gouv.fr/fr/rss.xml
 finance,BCE|Politique monétaire,https://www.ecb.europa.eu/rss/press.html
-finance,INSEE|Économie nationale,https://www.insee.fr/fr/flux/1
-finance,EBA|Supervision bancaire UE,https://www.eba.europa.eu/rss.xml
-finance,ESMA|Marchés financiers UE,https://www.esma.europa.eu/rss.xml
-finance,EIOPA|Assurance pensions UE,https://www.eiopa.europa.eu/node/4816/rss_en
 finance,Cour des comptes|Arrêts et publications,https://www.ccomptes.fr/rss/publications
 finance,Cour des comptes|Institution,https://www.ccomptes.fr/rss/juridiction/98
-news,INSEE|Régional,https://www.insee.fr/fr/flux/10
-news,Santé publique France|Canicule,https://www.santepubliquefrance.fr/index.php/rss/1069
-news,Santé publique France|Respiratoire,https://www.santepubliquefrance.fr/index.php/rss/1024
-news,Santé publique France|Climat,https://www.santepubliquefrance.fr/index.php/rss/1068
 news,AFP|Actualités,"https://www.afp.com/fr/actus/afp_actualite/792,31,9,7,33/feed"
 news,Courrier international,https://www.courrierinternational.com/feed/all/rss.xml
 news,Challenges,https://www.challenges.fr/rss.xml
 news,La Tribune,https://www.latribune.fr/feed.xml
 news,Le Figaro|Actualités,https://www.lefigaro.fr/rss/figaro_actualites.xml
+news,Vie Publique|Actualités,https://www.vie-publique.fr/actualites-feeds.xml
+news,Santé publique France|Actualités,https://www.santepubliquefrance.fr/rss/news/1008
+news,INSEE|Actualités nationales,https://www.insee.fr/fr/flux/1
