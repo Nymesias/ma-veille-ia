@@ -11,6 +11,12 @@ function renduToujoursActif(container, version) {
     return versionsRendu.get(container) === version;
 }
 
+function echapperHtml(valeur) {
+    return String(valeur ?? '').replace(/[&<>'"]/g, caractere => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
+    })[caractere]);
+}
+
 // --- NOUVELLE FONCTION DE FORMATAGE ---
 function formaterDateEnFrancais(dateBrute) {
     if (!dateBrute) return "";
@@ -133,10 +139,15 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date') {
     let htmlContenu = "";
     tousLesArticles.forEach(art => {
         const dateAffichage = formaterDateEnFrancais(art.d);
+        const estNewsletter = art.type === 'newsletter';
+        const titre = art.l
+            ? `<a href="${echapperHtml(art.l)}" target="_blank" rel="noopener noreferrer">${echapperHtml(art.t)}</a>`
+            : echapperHtml(art.t);
         htmlContenu += `
-            <article class="post-veille">
-                <span class="badge-site">${art.nom_site}</span>
-                <h3><a href="${art.l}" target="_blank">${art.t}</a></h3>
+            <article class="post-veille${estNewsletter ? ' post-newsletter' : ''}">
+                <span class="badge-site">${echapperHtml(art.nom_site)}</span>
+                ${estNewsletter ? '<span class="badge-newsletter">Newsletter</span>' : ''}
+                <h3>${titre}</h3>
                 <p class="date-rss">📅 ${dateAffichage}</p> 
             </article>`;
     });

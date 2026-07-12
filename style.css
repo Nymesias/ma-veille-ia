@@ -262,3 +262,20 @@ mark {
     background-color: #3498db !important;
     color: white !important;
 }
+
+.post-veille.post-newsletter {
+    border-top-color: #e67e22;
+}
+
+.badge-newsletter {
+    align-self: flex-start;
+    margin-top: 8px;
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: #fff3e8;
+    color: #b65300;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}

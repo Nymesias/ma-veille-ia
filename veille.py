@@ -1,5 +1,7 @@
 import csv
+import fnmatch
 import html
+import imaplib
 import json
 import os
 import re
@@ -7,9 +9,10 @@ import smtplib
 import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
-from email.header import Header
+from email import message_from_bytes, policy
+from email.header import Header, decode_header, make_header
 from email.mime.text import MIMEText
-from email.utils import parsedate_to_datetime
+from email.utils import parseaddr, parsedate_to_datetime
 from urllib.parse import urljoin
 
 import feedparser
@@ -33,6 +36,7 @@ MISTRAL_ANALYSE_JURIDIQUE_MAX_ARTICLES = int(
 
 DOSSIER_MD = "markdown"
 FICHIER_SOURCES = "sources.csv"
+FICHIER_NEWSLETTERS = "newsletters.csv"
 FICHIER_LISTE_RSS = "liste_rss.json"
 FICHIER_LISTE_MD = "liste_md.json"
 FICHIER_LETTRES = "lettres_cour_cassation.json"
@@ -149,6 +153,155 @@ def charger_sources():
             urls_vues[cle_url] = numero
             sources.append(source)
         return sources
+
+
+def charger_newsletters():
+    """Charge les règles expéditeur/sujet utilisées pour classer les newsletters."""
+    if not os.path.exists(FICHIER_NEWSLETTERS):
+        return []
+    with open(FICHIER_NEWSLETTERS, newline="", encoding="utf-8-sig") as fichier:
+        regles = []
+        for numero, regle in enumerate(csv.DictReader(fichier), start=2):
+            if regle.get(None):
+                raise ValueError(f"Ligne {numero} invalide dans {FICHIER_NEWSLETTERS}.")
+            categorie = (regle.get("categorie") or "").strip().lower()
+            source = (regle.get("source") or "").strip()
+            expediteur = (regle.get("expediteur") or "").strip().lower()
+            sujet = (regle.get("sujet") or "*").strip().lower()
+            if categorie and source and expediteur:
+                regles.append({"categorie": categorie, "source": source,
+                               "expediteur": expediteur, "sujet": sujet or "*"})
+        return regles
+
+
+def decoder_entete(valeur):
+    try:
+        return str(make_header(decode_header(valeur or ""))).strip()
+    except (LookupError, UnicodeDecodeError):
+        return str(valeur or "").strip()
+
+
+def extraire_html_newsletter(message):
+    morceaux = []
+    parties = message.walk() if message.is_multipart() else (message,)
+    for partie in parties:
+        if partie.get_content_type() != "text/html":
+            continue
+        try:
+            morceaux.append(partie.get_content())
+        except (LookupError, UnicodeDecodeError):
+            contenu = partie.get_payload(decode=True) or b""
+            morceaux.append(contenu.decode(partie.get_content_charset() or "utf-8", "replace"))
+    return "\n".join(morceaux)
+
+
+MOTS_LIENS_TECHNIQUES = (
+    "désabonner", "desabonner", "unsubscribe", "préférences", "preferences",
+    "politique de confidentialité", "privacy", "voir dans le navigateur",
+    "view in browser", "facebook", "instagram", "linkedin", "twitter",
+)
+
+
+def lien_principal_newsletter(contenu_html):
+    """Choisit un lien éditorial et écarte les liens de gestion et réseaux sociaux."""
+    page = BeautifulSoup(contenu_html or "", "html.parser")
+    for lien in page.select("a[href]"):
+        url = html.unescape(lien.get("href", "")).strip()
+        libelle = nettoyer_texte(lien.get_text(" ", strip=True), 300).lower()
+        comparaison = f"{libelle} {url.lower()}"
+        if (url.startswith(("https://", "http://"))
+                and not any(mot in comparaison for mot in MOTS_LIENS_TECHNIQUES)):
+            return url
+    return ""
+
+
+def regle_pour_message(regles, adresse, sujet):
+    adresse, sujet = adresse.lower(), sujet.lower()
+    for regle in regles:
+        motif = regle["expediteur"]
+        correspond = adresse.endswith(motif) if motif.startswith("@") else fnmatch.fnmatch(adresse, motif)
+        if correspond and fnmatch.fnmatch(sujet, regle["sujet"]):
+            return regle
+    return None
+
+
+def collecter_newsletters(regles, cartes_precedentes):
+    """Lit les messages récents sans les modifier et les convertit en cartes."""
+    if not regles:
+        return {}, []
+    utilisateur = os.getenv("IMAP_USERNAME") or os.getenv("EMAIL_SENDER")
+    mot_de_passe = os.getenv("IMAP_PASSWORD") or os.getenv("EMAIL_PASSWORD")
+    if not utilisateur or not mot_de_passe:
+        print("Variables IMAP/EMAIL manquantes: newsletters ignorées.")
+        return {}, []
+    hote = os.getenv("IMAP_HOST", "imap.bookmyname.com")
+    port = int(os.getenv("IMAP_PORT", "993"))
+    dossier = os.getenv("IMAP_FOLDER", "INBOX")
+    jours = max(1, int(os.getenv("IMAP_LOOKBACK_DAYS", "30")))
+    depuis = (MAINTENANT - timedelta(days=jours)).strftime("%d-%b-%Y")
+    par_source, articles_hier = {}, []
+    try:
+        with imaplib.IMAP4_SSL(hote, port) as boite:
+            boite.login(utilisateur.strip(), mot_de_passe.strip())
+            statut, _ = boite.select(dossier, readonly=True)
+            if statut != "OK":
+                raise RuntimeError(f"dossier IMAP inaccessible: {dossier}")
+            statut, resultat = boite.uid("search", None, "SINCE", depuis)
+            if statut != "OK":
+                raise RuntimeError("recherche IMAP impossible")
+            for uid in reversed(resultat[0].split()):
+                statut, donnees = boite.uid("fetch", uid, "(BODY.PEEK[])")
+                if statut != "OK" or not donnees or not isinstance(donnees[0], tuple):
+                    continue
+                message = message_from_bytes(donnees[0][1], policy=policy.default)
+                sujet = decoder_entete(message.get("Subject")) or "Newsletter sans titre"
+                adresse = parseaddr(decoder_entete(message.get("From")))[1].lower()
+                regle = regle_pour_message(regles, adresse, sujet)
+                if not regle:
+                    continue
+                date = normaliser_date_publication(message.get("Date"))
+                if not date:
+                    continue
+                contenu_html = extraire_html_newsletter(message)
+                lien = lien_principal_newsletter(contenu_html)
+                cle = (regle["categorie"], regle["source"])
+                par_source.setdefault(cle, []).append(
+                    {"t": sujet, "l": lien, "d": date, "type": "newsletter"}
+                )
+                if date == HIER:
+                    articles_hier.append({
+                        "categorie": regle["categorie"], "source": regle["source"],
+                        "titre": sujet, "lien": lien, "date": date,
+                        "resume": nettoyer_texte(BeautifulSoup(contenu_html, "html.parser").get_text(" "), 900),
+                        "type": "newsletter",
+                    })
+    except Exception as exc:
+        print(f"Erreur de collecte IMAP: {exc}")
+
+    data = {}
+    for regle in regles:
+        cle = (regle["categorie"], regle["source"])
+        articles = par_source.get(cle, [])
+        if articles:
+            date_recente = max(article["d"] for article in articles)
+            articles = [article for article in articles if article["d"] == date_recente]
+        else:
+            articles = cartes_precedentes.get(cle, [])
+        sources = data.setdefault(regle["categorie"], [])
+        if not any(source["nom_site"] == regle["source"] for source in sources):
+            sources.append({"nom_site": regle["source"], "articles": articles})
+    return data, articles_hier
+
+
+def fusionner_newsletters(data_rss, data_newsletters):
+    for categorie, sources in data_newsletters.items():
+        existantes = data_rss.setdefault(categorie, [])
+        par_nom = {source["nom_site"]: source for source in existantes}
+        for source in sources:
+            if source["nom_site"] in par_nom:
+                par_nom[source["nom_site"]]["articles"].extend(source["articles"])
+            else:
+                existantes.append(source)
 
 
 MOIS_FRANCAIS = {
@@ -1328,6 +1481,11 @@ def envoyer_synthese_par_mail(texte_markdown):
 def main():
     print(f"Collecte des flux pour le {HIER}...")
     data_rss, articles = collecter_articles(charger_sources())
+    data_newsletters, articles_newsletters = collecter_newsletters(
+        charger_newsletters(), charger_cartes_precedentes()
+    )
+    fusionner_newsletters(data_rss, data_newsletters)
+    articles.extend(articles_newsletters)
 
     lettres = collecter_lettres()
     decisions = collecter_decisions_judilibre()
