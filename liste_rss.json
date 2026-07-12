@@ -36,69 +36,6 @@
       ]
     },
     {
-      "nom_site": "Dalloz|Actualité",
-      "articles": []
-    },
-    {
-      "nom_site": "Dalloz|Actualités flash",
-      "articles": []
-    },
-    {
-      "nom_site": "Village Justice",
-      "articles": [
-        {
-          "t": "Le profil LinkedIn de l'avocat : un outil de visibilité trop souvent négligé.",
-          "l": "https://www.village-justice.com/articles/profil-linkedin-avocat-outil-visibilite-trop-souvent-neglige,58166.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
-          "d": "2026-07-11"
-        }
-      ]
-    },
-    {
-      "nom_site": "Actu-Juridique",
-      "articles": [
-        {
-          "t": "Un malade imaginaire avait soutiré 235 330 € à 32 prêtres : il est relaxé !",
-          "l": "https://www.actu-juridique.fr/penal/un-malade-imaginaire-avait-soutire-235-330-e-a-32-pretres-il-est-relaxe/",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "FLASH : Un animateur du périscolaire condamné à 18 mois de prison pour agression sexuelle",
-          "l": "https://www.actu-juridique.fr/penal/flash-un-animateur-du-periscolaire-condamne-a-18-mois-de-prison-pour-agression-sexuelle/",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "Vingt-sept ans de réclusion criminelle requis contre Lakhdar Matoug, la défense plaide les « coups mortels »",
-          "l": "https://www.actu-juridique.fr/droit-penal/violences-familiales/vingt-sept-ans-de-reclusion-criminelle-requis-contre-lakhdar-matoug-la-defense-plaide-les-coups-mortels/",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "Situation judiciaire de Marine Le Pen : Beaucoup de questions et autant d’incertitudes",
-          "l": "https://www.actu-juridique.fr/procedure-penale/situation-judiciaire-de-marine-le-pen-beaucoup-de-questions-et-autant-dincertitudes/",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "Comportement, mobile, situation financière : le nouveau périmètre du fichier LRPPN de la police nationale",
-          "l": "https://www.actu-juridique.fr/justice/police-justice/comportement-mobile-situation-financiere-le-nouveau-perimetre-du-fichier-lrppn-de-la-police-nationale/",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "Droit à la poursuite des études : du slogan à la désillusion",
-          "l": "https://www.actu-juridique.fr/divers/universite/droit-a-la-poursuite-des-etudes-du-slogan-a-la-desillusion/",
-          "d": "2026-07-10"
-        }
-      ]
-    },
-    {
-      "nom_site": "Jus Politicum",
-      "articles": [
-        {
-          "t": "La protection des ressortissants russes par le recours à la force armée et le constitutionalisme autoritaire : la loi russe du 25 mai 2026 Par Gohar Galustian",
-          "l": "https://blog.juspoliticum.com/2026/07/11/la-protection-des-ressortissants-russes-par-le-recours-a-la-force-armee-et-le-constitutionalisme-autoritaire-la-loi-russe-du-25-mai-2026-par-gohar-galustian/",
-          "d": "2026-07-11"
-        }
-      ]
-    },
-    {
       "nom_site": "DAJ Bercy",
       "articles": [
         {
@@ -137,29 +74,19 @@
           "d": "2026-07-09"
         }
       ]
+    },
+    {
+      "nom_site": "France Assureurs",
+      "articles": [
+        {
+          "t": "Les assureurs alertent sur les dangers d’une conversation téléphonique via un dispositif intégré au véhicule",
+          "l": "https://www.franceassureurs.fr/actualites/assureurs-alertent-dangers-conversation-telephonique/",
+          "d": "2026-07-01"
+        }
+      ]
     }
   ],
   "juridictions": [
-    {
-      "nom_site": "Conseil d'Etat|LJA",
-      "articles": [
-        {
-          "t": "La lettre de la justice administrative n°94 est en ligne !",
-          "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-94-est-en-ligne",
-          "d": "2026-06-18"
-        }
-      ]
-    },
-    {
-      "nom_site": "Conseil d'Etat|Séances",
-      "articles": [
-        {
-          "t": "Audience publique du 9 juillet 2026 à 9 heures 30",
-          "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-9-juillet-2026-a-9-heures-30",
-          "d": "2026-07-02"
-        }
-      ]
-    },
     {
       "nom_site": "Conseil Constitutionnel",
       "articles": [
@@ -181,18 +108,24 @@
       ]
     },
     {
-      "nom_site": "Cour de Cassation|Podcasts",
+      "nom_site": "Conseil d'Etat|LJA",
       "articles": [
         {
-          "t": "Les Rendez-vous civils | N°4 – juin 2026 | La nationalité",
-          "l": "https://radio.amicus-curiae.net/podcast/les-rendez-vous-civils-n4-juin-2026-la-nationalite/",
-          "d": "2026-06-15"
+          "t": "La lettre de la justice administrative n°94 est en ligne !",
+          "l": "https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative/la-lettre-de-la-justice-administrative-n-94-est-en-ligne",
+          "d": "2026-06-18"
         }
       ]
     },
     {
-      "nom_site": "Cour de Cassation|Actualités",
-      "articles": []
+      "nom_site": "Conseil d'Etat|Séances",
+      "articles": [
+        {
+          "t": "Audience publique du 9 juillet 2026 à 9 heures 30",
+          "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-9-juillet-2026-a-9-heures-30",
+          "d": "2026-07-02"
+        }
+      ]
     },
     {
       "nom_site": "CIJ|Communiqués",
@@ -205,17 +138,57 @@
       ]
     },
     {
-      "nom_site": "Commission européenne|Numérique IA",
+      "nom_site": "CJUE",
       "articles": [
         {
-          "t": "Commission preliminarily finds the addictive design of Instagram and Facebook in breach of the Digital Services Act",
-          "l": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-addictive-design-instagram-and-facebook-breach-digital-services-act",
-          "d": "2026-07-10"
+          "t": "101/Thu Jul 09 00:00:00 CEST 2026 : null - Conclusions de l’avocat général dans les affaires jointes",
+          "l": "https://curia.europa.eu/site/jcms/p1_1000085017",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "100/Thu Jul 09 00:00:00 CEST 2026 : null - Arrêt de la Cour dans l’affaire C-199/24",
+          "l": "https://curia.europa.eu/site/jcms/p1_1000085009",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "99/Thu Jul 09 00:00:00 CEST 2026 : Thu Jul 09 10:23:51 CEST 2026 - Arrêt de la Cour dans l’affaire C-428/23",
+          "l": "https://curia.europa.eu/site/jcms/p1_1000084994",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "98/Thu Jul 09 00:00:00 CEST 2026 : Thu Jul 09 10:57:00 CEST 2026 - Arrêt de la Cour dans l’affaire C-788/24",
+          "l": "https://curia.europa.eu/site/jcms/p1_1000084995",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "97/Thu Jul 09 00:00:00 CEST 2026 : null - Arrêt de la Cour dans l’affaire C-234/25",
+          "l": "https://curia.europa.eu/site/jcms/p1_1000084979",
+          "d": "2026-07-09"
         }
       ]
     },
     {
-      "nom_site": "ANSSI|Actualités cyber",
+      "nom_site": "CEDH|Résumés",
+      "articles": [
+        {
+          "t": "Jesus Pinhal c. Portugal [GC]",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"002-14629\"]}",
+          "d": "2026-07-09"
+        }
+      ]
+    },
+    {
+      "nom_site": "CEDH|Grande Chambre",
+      "articles": []
+    },
+    {
+      "nom_site": "CEDH|Chambres",
+      "articles": []
+    }
+  ],
+  "régulation": [
+    {
+      "nom_site": "ANSSI|Cyber",
       "articles": [
         {
           "t": "L’ANSSI, l’ACPR et la Banque de France signe un accord de coopération",
@@ -244,6 +217,56 @@
         {
           "t": "Revoir le webinaire : Nouveau téléservice santé et recherche, ce qui change pour vos demandes d’autorisation",
           "l": "https://www.cnil.fr/fr/revoir-le-webinaire-nouveau-teleservice-sante-et-recherche-ce-qui-change-pour-vos-demandes",
+          "d": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "nom_site": "AMF",
+      "articles": [
+        {
+          "t": "Décision relative à des modifications des règles de fonctionnement de la chambre de compensation LCH SA pour le service RepoClear, visant à adapter le cadre applicable aux Membres Agents Garants d’une part et aux Adhérents Compensateurs Spéciaux d’autr...",
+          "l": "https://www.amf-france.org/fr/reglementation/regles-professionnelles-approuvees/decision-relative-des-modifications-des-regles-de-fonctionnement-de-la-chambre-de-compensation-lch-0#xts=607212&xtor=RSS-3&type=RSS",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "L'AMF publie sa réponse à la consultation publique européenne sur la revue de la directive sur les droits des actionnaires (SRD)",
+          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-sa-reponse-la-consultation-publique-europeenne-sur-la-revue-de-la-directive-sur-les#xts=607212&xtor=RSS-3&type=RSS",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Réponse de l'AMF à la consultation publique européenne sur la revue de la directive sur les droits des actionnaires (SRD) (en anglais uniquement)",
+          "l": "https://www.amf-france.org/fr/actualites-publications/positions-ue-de-lamf/reponse-de-lamf-la-consultation-publique-europeenne-sur-la-revue-de-la-directive-sur-les-droits-des#xts=607212&xtor=RSS-3&type=RSS",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "L'AMF accompagne les émetteurs dans la mise en œuvre du troisième volet des mesures du Listing Act",
+          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-accompagne-les-emetteurs-dans-la-mise-en-oeuvre-du-troisieme-volet-des-mesures-du-listing-act#xts=607212&xtor=RSS-3&type=RSS",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "L'AMF analyse la hausse des échanges observée à la clôture sur le marché actions français",
+          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-analyse-la-hausse-des-echanges-observee-la-cloture-sur-le-marche-actions-francais#xts=607212&xtor=RSS-3&type=RSS",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Evolution des échanges à la clôture sur le marché actions français",
+          "l": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-etudes-et-analyses/evolution-des-echanges-la-cloture-sur-le-marche-actions-francais#xts=607212&xtor=RSS-3&type=RSS",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Le Listing Act : favoriser l’accès des sociétés aux marchés de capitaux européens",
+          "l": "https://www.amf-france.org/fr/actualites-publications/dossiers-thematiques/listing-act#xts=607212&xtor=RSS-3&type=RSS",
+          "d": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "nom_site": "DGCCRF",
+      "articles": [
+        {
+          "t": "Manquements de la société VOLOTEA sur la pratique d’ajustement de prix après achat et l’adhésion à un abonnement payant non consentie expressément par le consommateur",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/manquements-de-la-societe-volotea-sur-la-pratique-dajustement-de-prix-apres-achat-et-ladhesion",
           "d": "2026-07-10"
         }
       ]
@@ -296,10 +319,6 @@
       ]
     },
     {
-      "nom_site": "ONB|Notaires",
-      "articles": []
-    },
-    {
       "nom_site": "Me PICOVSCHI|Affaires",
       "articles": [
         {
@@ -328,28 +347,9 @@
           "d": "2026-06-30"
         }
       ]
-    },
-    {
-      "nom_site": "Me DELOITTE|Fiscalité",
-      "articles": []
     }
   ],
-  "textes officiels": [
-    {
-      "nom_site": "AN|Séances",
-      "articles": [
-        {
-          "t": "Compte rendu intégral de la deuxième séance du vendredi 10 juillet 2026",
-          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026-extra/20261013.asp",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "Compte rendu intégral de la première séance du vendredi 10 juillet 2026",
-          "l": "https://www.assemblee-nationale.fr/17/cri/2025-2026-extra/20261012.asp",
-          "d": "2026-07-10"
-        }
-      ]
-    },
+  "institutions": [
     {
       "nom_site": "AN|Documents",
       "articles": [
@@ -391,127 +391,116 @@
       ]
     },
     {
-      "nom_site": "Sénat|Rapports",
+      "nom_site": "CESE",
       "articles": [
         {
-          "t": "Jeux vidéo : de la Game Boy aux filles dans le game, l'égalité en cours de chargement - Comptes rendus - rapport d'information n° 854 tome II",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-854-2-notice.html",
+          "t": "Assemblée plénière",
+          "l": "https://www.lecese.fr/travaux-du-cese/plenieres/assemblee-pleniere-10",
+          "d": "2026-12-09"
+        }
+      ]
+    },
+    {
+      "nom_site": "INPI|PIBD",
+      "articles": [
+        {
+          "t": "PIBD 1272",
+          "l": "https://pibd.inpi.fr/pibd/pibd-1272",
+          "d": "2026-07-01"
+        }
+      ]
+    },
+    {
+      "nom_site": "Parlement Européen|Communiqués",
+      "articles": [
+        {
+          "t": "Article - EU Inc.: en quoi consiste le 28e régime?",
+          "l": "http://www.europarl.europa.eu/topics/fr/article/20260506STO42807/",
+          "d": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "nom_site": "Conseil de l'UE|Procès-verbaux des actes législatifs",
+      "articles": []
+    },
+    {
+      "nom_site": "Conseil de l'Europe|Affaires",
+      "articles": [
+        {
+          "t": "CICCONE c. Italie",
+          "l": "http://hudoc.exec.coe.int/fre#{\"execidentifier\":[\"004-70762\"]}",
+          "d": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "nom_site": "Commission Européenne|Actualités",
+      "articles": [
+        {
+          "t": "European Commission’s Annual Tax Report (ART) provides latest insights into the revenue mix",
+          "l": "https://taxation-customs.ec.europa.eu/news/european-commissions-annual-tax-report-art-provides-latest-insights-revenue-mix-2026-07-10_en",
           "d": "2026-07-10"
         },
         {
-          "t": "Jeux vidéo : de la Game Boy aux filles dans le game, l'égalité en cours de chargement - Rapport - rapport d'information n° 854 tome I",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-854-1-notice.html",
+          "t": "Commission issues guidance to strengthen resilience of critical infrastructure",
+          "l": "https://home-affairs.ec.europa.eu/news/commission-issues-guidance-strengthen-resilience-critical-infrastructure-2026-07-10_en",
           "d": "2026-07-10"
         },
         {
-          "t": "De la recherche au patient : refonder le parcours de l'innovation thérapeutique - rapport d'information n° 882",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-882-notice.html",
+          "t": "Seveso - 50 years on: EU strengthens its commitment to industrial safety in a changing landscape of risk",
+          "l": "https://environment.ec.europa.eu/news/eu-maintains-commitment-strengthening-industrial-safety-2026-07-10_en",
           "d": "2026-07-10"
         },
         {
-          "t": "Le nouveau système de ressources propres de l'Union européenne - rapport d'information n° 888",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-888-notice.html",
+          "t": "Commission adopts certification methodologies for carbon farming under the CRCF Regulation",
+          "l": "https://climate.ec.europa.eu/news-other-reads/news/commission-adopts-certification-methodologies-carbon-farming-under-crcf-regulation-2026-07-10_en",
           "d": "2026-07-10"
         },
         {
-          "t": "La mission d'accompagnement des entreprises par les chambres de commerce et d'industrie et les chambres de métiers et de l'artisanat - rapport d'information n° 877",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-877-notice.html",
+          "t": "EU clarifies rules to allow continued waste recovery shipments to Switzerland",
+          "l": "https://environment.ec.europa.eu/news/eu-updates-rules-waste-recovery-shipments-switzerland-2026-07-10_en",
           "d": "2026-07-10"
         },
         {
-          "t": "Institut national du cancer - rapport d'information n° 857",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-857-notice.html",
+          "t": "Commissioner Zaharieva leads dialogue on how to attract and retain research talent in Europe",
+          "l": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/commissioner-zaharieva-leads-dialogue-how-attract-and-retain-research-talent-europe-2026-07-10_en",
           "d": "2026-07-10"
         },
         {
-          "t": "La rationalisation du réseau diplomatique - rapport d'information n° 867",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-867-notice.html",
+          "t": "New survey finds Europeans believe vocational education and training leads to good jobs and pay",
+          "l": "https://employment-social-affairs.ec.europa.eu/news/new-survey-finds-europeans-believe-vocational-education-and-training-leads-good-jobs-and-pay-2026-07-10_en",
           "d": "2026-07-10"
         },
         {
-          "t": "Le soutien public à la recherche et à l'innovation dans le domaine de l'énergie nucléaire - rapport d'information n° 856",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-856-notice.html",
+          "t": "Poland sees new research and changes to policies on migrant integration",
+          "l": "https://home-affairs.ec.europa.eu/news/poland-sees-new-research-and-changes-policies-migrant-integration-2026-07-10_en",
           "d": "2026-07-10"
         },
         {
-          "t": "Protection sociale des travailleurs indépendants en outre-mer : des progrès, peut mieux faire ? - rapport d'information n° 883",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-883-notice.html",
+          "t": "Public consultation on Joint Undertakings, Art. 185 initiatives, and thematic priorities for European Partnerships under Horizon Europe 28-34",
+          "l": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/public-consultation-joint-undertakings-art-185-initiatives-and-thematic-priorities-european-2026-07-10_en",
           "d": "2026-07-10"
         },
         {
-          "t": "Maisons France Services dans les quartiers prioritaires de la politique de la ville - rapport d'information n° 772",
-          "l": "http://www.senat.fr/notice-rapport/2025/r25-772-notice.html",
+          "t": "Joint statement by High Representative/Vice-President Kallas and Commissioner Kos on the 31st anniversary of the Srebrenica genocide",
+          "l": "https://enlargement.ec.europa.eu/news/joint-statement-high-representativevice-president-kallas-and-commissioner-kos-31st-anniversary-2026-07-10_en",
           "d": "2026-07-10"
         },
         {
-          "t": "Les politiques d'asile et d'accueil des réfugiés - Étude de législation comparée n° 362",
-          "l": "http://www.senat.fr/notice-rapport/2025/lc362-notice.html",
+          "t": "Female-led start-up creates seaweed-based hygiene products",
+          "l": "https://blue-economy-observatory.ec.europa.eu/news/female-led-start-creates-seaweed-based-hygiene-products-2026-07-10_en",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Commission approves Baker Hughes' acquisition of Chart Industries, subject to conditions",
+          "l": "https://competition-policy.ec.europa.eu/about/news/commission-approves-baker-hughes-acquisition-chart-industries-subject-conditions-2026-07-10_en",
           "d": "2026-07-10"
         }
       ]
     }
   ],
   "finance": [
-    {
-      "nom_site": "AMF",
-      "articles": [
-        {
-          "t": "Décision relative à des modifications des règles de fonctionnement de la chambre de compensation LCH SA pour le service RepoClear, visant à adapter le cadre applicable aux Membres Agents Garants d’une part et aux Adhérents Compensateurs Spéciaux d’autr...",
-          "l": "https://www.amf-france.org/fr/reglementation/regles-professionnelles-approuvees/decision-relative-des-modifications-des-regles-de-fonctionnement-de-la-chambre-de-compensation-lch-0#xts=607212&xtor=RSS-3&type=RSS",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "L'AMF publie sa réponse à la consultation publique européenne sur la revue de la directive sur les droits des actionnaires (SRD)",
-          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-sa-reponse-la-consultation-publique-europeenne-sur-la-revue-de-la-directive-sur-les#xts=607212&xtor=RSS-3&type=RSS",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "Réponse de l'AMF à la consultation publique européenne sur la revue de la directive sur les droits des actionnaires (SRD) (en anglais uniquement)",
-          "l": "https://www.amf-france.org/fr/actualites-publications/positions-ue-de-lamf/reponse-de-lamf-la-consultation-publique-europeenne-sur-la-revue-de-la-directive-sur-les-droits-des#xts=607212&xtor=RSS-3&type=RSS",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "L'AMF accompagne les émetteurs dans la mise en œuvre du troisième volet des mesures du Listing Act",
-          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-accompagne-les-emetteurs-dans-la-mise-en-oeuvre-du-troisieme-volet-des-mesures-du-listing-act#xts=607212&xtor=RSS-3&type=RSS",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "L'AMF analyse la hausse des échanges observée à la clôture sur le marché actions français",
-          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-analyse-la-hausse-des-echanges-observee-la-cloture-sur-le-marche-actions-francais#xts=607212&xtor=RSS-3&type=RSS",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "Evolution des échanges à la clôture sur le marché actions français",
-          "l": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-etudes-et-analyses/evolution-des-echanges-la-cloture-sur-le-marche-actions-francais#xts=607212&xtor=RSS-3&type=RSS",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "Le Listing Act : favoriser l’accès des sociétés aux marchés de capitaux européens",
-          "l": "https://www.amf-france.org/fr/actualites-publications/dossiers-thematiques/listing-act#xts=607212&xtor=RSS-3&type=RSS",
-          "d": "2026-07-10"
-        }
-      ]
-    },
-    {
-      "nom_site": "AFT",
-      "articles": [
-        {
-          "t": "10/07/2026 : Prochaine émission d’OAT indexées de l'AFT : jeudi 16 juillet 2026",
-          "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/10-juillet-2026-prochaine-emission-oat-indexees",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "10/07/2026 : Prochaine émission de BTF de l'AFT : lundi 13 juillet 2026",
-          "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/10-juillet-2026-prochaine-emission-btf",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "10/07/2026 : Prochaine émission d’OAT moyen terme de l'AFT : jeudi 16 juillet 2026",
-          "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/10-juillet-2026-prochaine-emission-oat",
-          "d": "2026-07-10"
-        }
-      ]
-    },
     {
       "nom_site": "BCE|Politique monétaire",
       "articles": [
@@ -523,12 +512,86 @@
       ]
     },
     {
-      "nom_site": "Cour des comptes|Arrêts et publications",
-      "articles": []
+      "nom_site": "AFT|Communiqués",
+      "articles": [
+        {
+          "t": "Prochaine émission d’OAT indexées de l'AFT : jeudi 16 juillet 2026",
+          "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcWJUVzVHMXBVbFJvX1VRS2dFSm5MT2pYZ3pkak83eEFXemFjSmd3RWM1Nk5nMF9WRTc5ajhOX1pTY2VGekg4ZUwzcUVMVlZ6Q0lDb2ZNVzE3al83TFdZUEp6cndLa3lzMmNTTFRBNERYLWlsOS12R0p2ZmZNY1NXbWRqaU8xdXdZdlZTa0FpRUl0M0VKVEd4QjBLVTBDTGtYNGZJa0F2R0lrUQ?oc=5",
+          "d": "2026-07-10"
+        }
+      ]
     },
     {
       "nom_site": "Cour des comptes|Institution",
       "articles": []
+    },
+    {
+      "nom_site": "Ministère de l'Economie",
+      "articles": [
+        {
+          "t": "Tour de France : à la rencontre des acteurs économiques avec le Bercy Tour",
+          "l": "https://www.economie.gouv.fr/actualites/tour-de-france-la-rencontre-des-acteurs-economiques-avec-le-bercy-tour",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "Tout savoir sur l’embauche d’un travailleur saisonnier",
+          "l": "https://www.economie.gouv.fr/entreprises/gerer-ses-ressources-humaines-et-ses-salaries/tout-savoir-sur-lembauche-dun-travailleur-saisonnier",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "Crise au Moyen-Orient : toutes les mesures de soutien économique",
+          "l": "https://www.economie.gouv.fr/actualites/crise-au-moyen-orient-toutes-les-mesures-de-soutien-economique",
+          "d": "2026-07-09"
+        }
+      ]
+    },
+    {
+      "nom_site": "Cour des comptes|Actualités",
+      "articles": []
+    },
+    {
+      "nom_site": "ACPR|Actualités",
+      "articles": []
+    },
+    {
+      "nom_site": "Le Revenu",
+      "articles": [
+        {
+          "t": "Prix immobilier à Nogent-sur-Marne : un marché toujours recherché en 2026>",
+          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/prix-immobilier-a-nogent-sur-marne-un-marche-toujo",
+          "d": "2026-07-11"
+        },
+        {
+          "t": "Immobilier : 10 métiers accessibles sans devenir agent immobilier>",
+          "l": "https://www.lerevenu.com/investir-immobilier/conseils-immobilier/immobilier-10-metiers-accessibles-sans-devenir-age",
+          "d": "2026-07-11"
+        },
+        {
+          "t": "Logement social : quelles sont les conditions pour obtenir un HLM en France ?>",
+          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/logement-social-quelles-sont-les-conditions-pour-o",
+          "d": "2026-07-11"
+        }
+      ]
+    },
+    {
+      "nom_site": "L'Agefi",
+      "articles": [
+        {
+          "t": "«Pour assister à un krach sur le crédit, il faudrait un recours bien plus important au levier»",
+          "l": "https://www.agefi.fr/news/economie-marches/pour-assister-a-un-krach-sur-le-credit-il-faudrait-un-recours-bien-plus-important-au-levier",
+          "d": "2026-07-11"
+        },
+        {
+          "t": "«La Fed pourrait être contrainte de remonter ses taux directeurs d’ici à la fin d’année»",
+          "l": "https://www.agefi.fr/news/economie-marches/la-fed-pourrait-etre-contrainte-de-remonter-ses-taux-directeurs-dici-a-la-fin-dannee",
+          "d": "2026-07-11"
+        },
+        {
+          "t": "«La crédibilité entamée des Etats-Unis plaide pour un dollar plus faible»",
+          "l": "https://www.agefi.fr/news/economie-marches/la-credibilite-entamee-des-etats-unis-plaide-pour-un-dollar-plus-faible",
+          "d": "2026-07-11"
+        }
+      ]
     }
   ],
   "news": [
@@ -578,21 +641,6 @@
         {
           "t": "Au Soudan, le soutien présumé des Émirats aux FSR passe par la Libye d’Haftar",
           "l": "https://www.courrierinternational.com/article/geopolitique-au-soudan-le-soutien-presume-des-emirats-aux-fsr-passe-par-la-libye-d-haftar_247734",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "Les Allemands qui vivent en Suisse déchantent vite",
-          "l": "https://www.courrierinternational.com/article/destination-les-allemands-qui-vivent-en-suisse-dechantent-vite_245217",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "La “chalance” sauvera-t-elle les amours de la Gen Z ?",
-          "l": "https://www.courrierinternational.com/stories/love-etc-la-chalance-sauvera-t-elle-les-amours-de-la-gen-z_247308",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "“Nous n’avons pas peur des Français” : l’Espagne peut-elle éliminer les Bleus en demi-finale ?",
-          "l": "https://www.courrierinternational.com/article/coupe-du-monde-2026-nous-n-avons-pas-peur-des-francais-l-espagne-peut-elle-eliminer-les-bleus-en-demi-finale_248493",
           "d": "2026-07-11"
         }
       ]
@@ -649,86 +697,6 @@
           "t": "SONDAGE PRÉSIDENTIELLE. Le Pen en tête, Mélenchon progresse",
           "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/45944749344411/sondage-presidentielle-le-pen-en-tete-melenchon-progresse",
           "d": "2026-07-11"
-        },
-        {
-          "t": "12 morts et 1500 personnes évacuées : la province d'Almería face à l'incendie du siècle",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/34999467662673/12-morts-et-1500-personnes-evacuees-la-province-dalmeria-face-a-lincendie-du-siecle",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "Iran - États-Unis : dans le Golfe, la trêve ne tient plus qu’à un fil",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/15354210240997/iran-etats-unis-dans-le-golfe-la-treve-ne-tient-plus-qu-a-un-fil",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "Raphaël Glucksmann coprésident de place publique : « Les militants socialistes ont choisi la bonne voie »",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/11642367546836/raphael-glucksmann-copresident-de-place-publique-les-militants-socialistes-ont-choisi-la-bonne-voie",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "Wall Street repart de l’avant, sans un regard sur le Moyen Orient",
-          "l": "https://www.latribune.fr/article/banques-finance/industrie-financiere/42751481626836/wall-street-repart-de-l-avant-sans-un-regard-sur-le-moyen-orient",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "Apple attaque OpenAI pour détournement d’informations confidentielles",
-          "l": "https://www.latribune.fr/article/tech/intelligence-artificielle/34575101491735/apple-attaque-openai-pour-detournement-d-informations-confidentielles",
-          "d": "2026-07-11"
-        }
-      ]
-    },
-    {
-      "nom_site": "Le Figaro|Actualités",
-      "articles": [
-        {
-          "t": "Tour de France : l’étape de dimanche raccourcie en raison de la canicule, une décision inédite",
-          "l": "https://www.lefigaro.fr/sports/cyclisme/tour-de-france/tour-de-france-l-etape-de-dimanche-raccourcie-en-raison-de-la-canicule-une-decision-inedite-20260711",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "Tour de France : Pogacar conserve la tête, Vingegaard n’a pas dit son dernier mot... Le classement général après la 8e étape",
-          "l": "https://www.lefigaro.fr/sports/cyclisme/tour-de-france/tour-de-france-pogacar-conserve-la-tete-vingegaard-n-a-pas-dit-son-dernier-mot-le-classement-general-apres-la-8e-etape-20260711",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "Présidentielle : un nouveau sondage donne Marine Le Pen gagnante au second tour dans tous les cas",
-          "l": "https://www.lefigaro.fr/politique/presidentielle-un-nouveau-sondage-donne-marine-le-pen-gagnante-au-second-tour-dans-tous-les-cas-20260711",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "«On ne peut pas parler d’une incertitude judiciaire» : Marine Le Pen juge «irréaliste» que la justice perturbe la suite de sa campagne",
-          "l": "https://www.lefigaro.fr/politique/on-ne-peut-pas-parler-d-une-incertitude-judiciaire-marine-le-pen-juge-irrealiste-que-la-justice-perturbe-la-suite-de-sa-campagne-20260711",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "Bracelet électronique de Marine Le Pen : logement, horaires, contrôles... Un juge de l’application des peines répond aux questions du Figaro",
-          "l": "https://www.lefigaro.fr/actualite-france/bracelet-electronique-de-marine-le-pen-la-premiere-question-a-se-poser-serait-celle-de-la-frequence-de-ses-deplacements-et-de-leur-amplitude-horaire-20260711",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "«Cette canicule a été celle de trop» : ces Français qui brûlent chez eux au point de vouloir déménager",
-          "l": "https://www.lefigaro.fr/actualite-france/cette-canicule-a-ete-celle-de-trop-ces-francais-qui-brulent-chez-eux-au-point-de-vouloir-demenager-20260711",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "«On aime quand même la France» : écrasés par la chaleur, les visiteurs étrangers indulgents malgré la fermeture anticipée de grands lieux touristiques",
-          "l": "https://www.lefigaro.fr/actualite-france/on-aime-quand-meme-la-france-ecrases-par-la-chaleur-les-visiteurs-etrangers-indulgents-malgre-la-fermeture-anticipee-de-grands-lieux-touristiques-20260711",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "Une Française figure parmi les personnes disparues dans les incendies en Espagne",
-          "l": "https://www.lefigaro.fr/actualite-france/une-francaise-figure-parmi-les-personnes-disparues-dans-les-incendies-en-espagne-20260711",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "Incendie en Espagne : Pedro Sanchez se rendra lundi sur place, les feux de forêt ont déjà fait 12 morts",
-          "l": "https://www.lefigaro.fr/flash-actu/incendie-en-espagne-pedro-sanchez-se-rendra-lundi-sur-place-les-feux-de-foret-ont-deja-fait-12-morts-20260711",
-          "d": "2026-07-11"
-        },
-        {
-          "t": "EN DIRECT - Coupe du monde 2026 : l’Argentine bat la Suisse et défiera l’Angleterre en demi-finales, des absents à l’entraînement des Bleus",
-          "l": "https://www.lefigaro.fr/sports/football/coupe-du-monde/en-direct-coupe-du-monde-2026-haaland-et-la-norvege-veulent-pieger-les-anglais-l-espagne-rejoint-les-bleus-en-demies-messi-veut-jouer-les-heros-20260711",
-          "d": "2026-07-11"
         }
       ]
     },
@@ -774,6 +742,180 @@
           "t": "Au deuxième trimestre 2026, l’indice de référence des loyers augmente de 1,15 % sur un an",
           "l": "https://www.insee.fr/fr/statistiques/9022797",
           "d": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "nom_site": "Eurostat|Actualités",
+      "articles": [
+        {
+          "t": "EU population continued to grow in 2025",
+          "l": "https://ec.europa.eu/eurostat/product?code=ddn-20260710-3",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "EU cultural sector in 2025: 8.9 million people employed",
+          "l": "https://ec.europa.eu/eurostat/product?code=ddn-20260710-2",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "4.38 million under temporary protection in May 2026",
+          "l": "https://ec.europa.eu/eurostat/product?code=ddn-20260710-1",
+          "d": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "nom_site": "Conseil de l'UE",
+      "articles": []
+    },
+    {
+      "nom_site": "CNRS|Le Journal",
+      "articles": [
+        {
+          "t": "Les Cyclopes étaient-ils des éléphants nains ?",
+          "l": "https://lejournal.cnrs.fr/articles/les-cyclopes-etaient-ils-des-elephants-nains",
+          "d": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "nom_site": "Pour la Science",
+      "articles": [
+        {
+          "t": "Machines, fleuves, tourbillons : l’obsession de Léonard de Vinci pour l’eau",
+          "l": "https://www.pourlascience.fr/sr/art-science/machines-fleuves-tourbillons-l-obsession-de-leonard-de-vinci-pour-l-eau-29400.php",
+          "d": "2026-07-11"
+        }
+      ]
+    },
+    {
+      "nom_site": "Actu-Environnement",
+      "articles": [
+        {
+          "t": "Projet de loi agricole : une coalition d'acteurs monte au créneau avant la CMP",
+          "l": "https://www.actu-environnement.com/ae/news/plateforme-acteurs-eau-projet-loi-protection-souverainete-agricole-parlementaire-appel-retrait-dispositions-eau-texte-48301.php4#xtor=RSS-6",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Pollution automobile : Airparif mesure les particules émises par le freinage",
+          "l": "https://www.actu-environnement.com/ae/news/airparif-particules-freinage-mesures-qualite-air-48300.php4#xtor=RSS-6",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Refonte REP textiles (1/5) : un décret pour réduire les exportations et tracer les flux",
+          "l": "https://www.actu-environnement.com/ae/news/decret-refonte-rep-textiles-exportation-tracabilite-contractualisation-refashion-48287.php4#xtor=RSS-6",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Trafic d'espèces protégées : trois ans après ses recommandations, l'UICN fait le bilan",
+          "l": "https://www.actu-environnement.com/ae/news/trafic-especes-uicn-bilan-recommandations-48298.php4#xtor=RSS-6",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Application du régime forestier : la cour administrative d'appel de Bordeaux apporte des précisions",
+          "l": "https://www.actu-environnement.com/ae/news/regime-forestier-communes-participation-public-bordeaux-48299.php4#xtor=RSS-6",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Usine de laine de roche Rockwool à Soissons : les recours des opposants rejetés en appel",
+          "l": "https://www.actu-environnement.com/ae/news/rockwool-soissons-recours-associations-appel-48295.php4#xtor=RSS-6",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "À Guérande, la culture industrielle au service de la rénovation de logements sociaux",
+          "l": "https://www.actu-environnement.com/ae/news/renovation-energiesprong-logements-sociaux-guerande-48289.php4#xtor=RSS-6",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "La diplomatie climatique française doit davantage intégrer l'outremer et la participation citoyenne",
+          "l": "https://www.actu-environnement.com/ae/news/diplomatie-climatique-senat-outre-mer-cop-48288.php4#xtor=RSS-6",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Nuisibles : vers la reconduction d'une liste de neuf espèces, dont la martre",
+          "l": "https://www.actu-environnement.com/ae/news/esod-martre-nuisibles-arrete-reconduction-48290.php4#xtor=RSS-6",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "DPE : une nouvelle révision du coefficient de conversion de l'électricité prévue en 2027",
+          "l": "https://www.actu-environnement.com/ae/news/dpe-coefficient-conversion-electricite-2027-revision-projet-arrete-48291.php4#xtor=RSS-6",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Parc éolien : la recherche d'une solution la moins impactante pour les espèces protégées n'avait pas été faite",
+          "l": "https://www.actu-environnement.com/ae/news/parc-eolien-derogation-especes-protegees-annulation-48292.php4#xtor=RSS-6",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Lire notre dossier d'actu \"Canicule : la France face au défi du confort d'été\"",
+          "l": "https://www.actu-environnement.com/dossier-actu/dossier-canicule-chaleur-adaptation-climat-batiment-ville-128#xtor=RSS-6",
+          "d": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "nom_site": "LeMagIT",
+      "articles": [
+        {
+          "t": "Au-delà des LLM, les « harnais IA » font grimper la facture du développement",
+          "l": "https://www.lemagit.fr/actualites/366645749/Au-dela-des-LLM-les-harnais-IA-font-grimper-la-facture-du-developpement",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Étude : l'écart entre risque connu et visibilité opérationnelle",
+          "l": "https://www.lemagit.fr/actualites/366645782/Etude-lecart-entre-risque-connu-et-visibilite-operationnelle",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "GPT-5.6 : OpenAI dégaine des modèles moins chers que ceux d’Anthropic",
+          "l": "https://www.lemagit.fr/actualites/366645722/GPT-56-OpenAI-degaine-des-modeles-moins-chers-que-ceux-dAnthropic",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "SAP assouplit ses règles pour le support on-prem",
+          "l": "https://www.lemagit.fr/actualites/366645627/SAP-assouplit-ses-regles-pour-le-support",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Cyberhebdo du 10 juillet 2026 : le centre hospitalier de Chaumont échappe au pire",
+          "l": "https://www.lemagit.fr/actualites/366645798/Cyberhebdo-du-10-juillet-2026-le-centre-hospitalier-de-Chaumont-echappe-au-pire",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Puces AI : Qualcomm détaille ses futurs CPU et GPU pour serveurs",
+          "l": "https://www.lemagit.fr/actualites/366645745/Puces-AI-Qualcomm-detaille-ses-futurs-CPU-et-GPU-pour-serveurs",
+          "d": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "nom_site": "Service public|Particuliers",
+      "articles": [
+        {
+          "t": "Étudiants en master : êtes-vous éligible à l’aide à la mobilité ?",
+          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A15756?xtor=RSS-111",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Le nouvel indice de référence des loyers vient de paraître",
+          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A17342?xtor=RSS-111",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Rentrée 2026 : un guide pratique pour entrer dans la vie étudiante",
+          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A17356?xtor=RSS-111",
+          "d": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "nom_site": "Service public|Entreprises",
+      "articles": [
+        {
+          "t": "La taxe française sur les petits colis remplacée par un droit de douane européen",
+          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A18985?xtor=RSS-112",
+          "d": "2026-07-01"
         }
       ]
     }
