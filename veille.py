@@ -30,7 +30,6 @@ MISTRAL_TOKEN_CHARS = int(os.getenv("MISTRAL_TOKEN_CHARS", "4"))
 MISTRAL_ANALYSE_JURIDIQUE_MAX_ARTICLES = int(
     os.getenv("MISTRAL_ANALYSE_JURIDIQUE_MAX_ARTICLES", str(MISTRAL_MAX_ARTICLES))
 )
-RSS_LOOKBACK_DAYS = int(os.getenv("RSS_LOOKBACK_DAYS", "45"))
 
 DOSSIER_MD = "markdown"
 FICHIER_SOURCES = "sources.csv"
@@ -210,19 +209,12 @@ def normaliser_date_publication(valeur):
         return ""
 
 
-def requete_avec_reessais(
-    url, entetes=None, timeout=30, tentatives=3, verifier_tls=True
-):
+def requete_avec_reessais(url, entetes=None, timeout=30, tentatives=3):
     """Télécharge une page en réessayant les erreurs réseau et limitations temporaires."""
     derniere_erreur = None
     for tentative in range(tentatives):
         try:
-            reponse = requests.get(
-                url,
-                headers=entetes or {},
-                timeout=timeout,
-                verify=verifier_tls,
-            )
+            reponse = requests.get(url, headers=entetes or {}, timeout=timeout)
             reponse.raise_for_status()
             return reponse
         except requests.RequestException as exc:
@@ -285,13 +277,15 @@ def date_entree(entry, flux=None, entetes=None, consulter_page=True):
     La date globale de mise à jour du flux est également exclue : elle ne
     représente pas la date de publication de chaque article.
     """
-    date = normaliser_date_publication(entry.get("published"))
-    if date:
-        return date
+    for champ in ("published", "updated"):
+        date = normaliser_date_publication(entry.get(champ))
+        if date:
+            return date
 
-    date_structuree = entry.get("published_parsed")
-    if date_structuree:
-        return datetime(*date_structuree[:3]).strftime("%Y-%m-%d")
+    for champ in ("published_parsed", "updated_parsed"):
+        date_structuree = entry.get(champ)
+        if date_structuree:
+            return datetime(*date_structuree[:3]).strftime("%Y-%m-%d")
 
     if consulter_page:
         date_page = date_depuis_page(entry.get("link", ""), entetes)
@@ -299,62 +293,6 @@ def date_entree(entry, flux=None, entetes=None, consulter_page=True):
             return date_page
 
     return ""
-
-
-def date_dans_fenetre_rss(date_iso, date_reference):
-    return date_iso == HIER or (date_reference and date_iso == date_reference)
-
-
-def extraire_actualites_acpr(contenu, url):
-    """Convertit la page officielle des actualités ACPR en entrées de flux."""
-    page = BeautifulSoup(contenu, "html.parser")
-    entrees = []
-    for carte in page.select("div.card.card-vertical"):
-        lien = carte.select_one('a[href*="/fr/actualites/"]')
-        if not lien:
-            continue
-        titre = nettoyer_texte(lien.get_text(" ", strip=True), 300)
-        date = ""
-        for element in reversed(carte.select("small")):
-            date = normaliser_date_publication(element.get_text(" ", strip=True))
-            if date:
-                break
-        entrees.append(
-            {
-                "title": titre or "Sans titre",
-                "link": urljoin(url, lien.get("href", "")),
-                "date_normalisee": date,
-                "summary": "",
-            }
-        )
-    return entrees[:30]
-
-
-def extraire_parutions_pibd(contenu, url):
-    """Convertit les dernières parutions PIBD en entrées de flux."""
-    page = BeautifulSoup(contenu, "html.parser")
-    entrees = []
-    for carte in page.select("article.pibd-teaser"):
-        lien = carte.select_one('a[href*="/pibd/"]')
-        if not lien:
-            continue
-        titre = nettoyer_texte(
-            carte.select_one(".pibd-teaser__title span").get_text(" ", strip=True),
-            300,
-        )
-        date_element = carte.select_one(".field--name-field-date-de-parution")
-        date = normaliser_date_publication(
-            date_element.get_text(" ", strip=True) if date_element else ""
-        )
-        entrees.append(
-            {
-                "title": titre or "Sans titre",
-                "link": urljoin(url, lien.get("href", "")),
-                "date_normalisee": date,
-                "summary": "",
-            }
-        )
-    return entrees[:30]
 
 
 def normaliser_entrees_google_aft(entrees):
@@ -381,10 +319,57 @@ def normaliser_entrees_google_aft(entrees):
     return communiques[:30]
 
 
+def normaliser_entrees_google_acpr(entrees):
+    """Nettoie le flux Google Actualités limité au domaine officiel de l'ACPR."""
+    actualites = []
+    for entree in entrees:
+        actualite = dict(entree)
+        actualite["title"] = re.sub(
+            r"\s+-\s+Banque de France$",
+            "",
+            nettoyer_texte(entree.get("title", ""), 500),
+        )
+        actualites.append(actualite)
+    return actualites[:30]
+
+
+def normaliser_entrees_google_officiel(entrees):
+    """Nettoie les flux Google limités à un domaine institutionnel officiel."""
+    actualites = []
+    for entree in entrees:
+        actualite = dict(entree)
+        titre = nettoyer_texte(entree.get("title", ""), 500)
+        if titre.lower().startswith(("toutes nos actualités", "toutes les actualités")):
+            continue
+        actualite["title"] = re.sub(
+            r"\s+-\s+(?:Arcom|Cour des comptes|INPI PIBD|Autorité des marchés financiers \(AMF\))$",
+            "",
+            titre,
+        )
+        actualites.append(actualite)
+    return actualites[:30]
+
+
+def charger_cartes_precedentes():
+    """Charge les dernières cartes publiées pour résister aux pannes temporaires."""
+    if not os.path.exists(FICHIER_LISTE_RSS):
+        return {}
+    try:
+        with open(FICHIER_LISTE_RSS, encoding="utf-8") as fichier:
+            data = json.load(fichier)
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return {
+        (categorie, source.get("nom_site", "")): source.get("articles", [])
+        for categorie, sources in data.items()
+        for source in sources
+    }
+
+
 def collecter_articles(sources):
     data_rss = {}
     articles_hier = []
-    liens_vus_par_categorie = {}
+    cartes_precedentes = charger_cartes_precedentes()
 
     for source in sources:
         categorie = source.get("categorie", "general").strip().lower()
@@ -397,35 +382,24 @@ def collecter_articles(sources):
         articles_source = []
         try:
             entetes = {"User-Agent": "MaVeilleIA/1.0 (veille personnelle)"}
-            verifier_tls = not type_source.endswith("tls-incomplet")
-            if not verifier_tls:
-                print(
-                    f"Avertissement TLS {nom_source}: validation du certificat désactivée "
-                    "uniquement pour ce flux public."
-                )
-            reponse_flux = requete_avec_reessais(
-                url, entetes, timeout=30, verifier_tls=verifier_tls
-            )
+            reponse_flux = requete_avec_reessais(url, entetes, timeout=30)
             contenu_source = reponse_flux.content
-            if type_source == "html-acpr":
-                flux = None
-                entrees = extraire_actualites_acpr(contenu_source, url)
-            elif type_source.startswith("html-pibd"):
-                flux = None
-                entrees = extraire_parutions_pibd(contenu_source, url)
-            else:
-                contenu_flux = contenu_source
-                # Certains flux Drupal ajoutent des commentaires de débogage avant
-                # la déclaration XML, ce que les parseurs stricts refusent.
-                debut_xml = contenu_flux.find(b"<?xml")
-                if debut_xml > 0:
-                    contenu_flux = contenu_flux[debut_xml:]
-                flux = feedparser.parse(contenu_flux)
-                if getattr(flux, "bozo", False):
-                    print(f"Avertissement flux {nom_source}: {flux.bozo_exception}")
-                entrees = flux.entries[:30]
-                if type_source == "rss-google-aft":
-                    entrees = normaliser_entrees_google_aft(entrees)
+            contenu_flux = contenu_source
+            # Certains flux Drupal ajoutent des commentaires de débogage avant
+            # la déclaration XML, ce que les parseurs stricts refusent.
+            debut_xml = contenu_flux.find(b"<?xml")
+            if debut_xml > 0:
+                contenu_flux = contenu_flux[debut_xml:]
+            flux = feedparser.parse(contenu_flux)
+            if getattr(flux, "bozo", False) and not flux.entries:
+                print(f"Avertissement flux {nom_source}: {flux.bozo_exception}")
+            entrees = flux.entries[:30]
+            if type_source == "rss-google-aft":
+                entrees = normaliser_entrees_google_aft(entrees)
+            elif type_source == "rss-google-acpr":
+                entrees = normaliser_entrees_google_acpr(entrees)
+            elif type_source == "rss-google-officiel":
+                entrees = normaliser_entrees_google_officiel(entrees)
             if not entrees:
                 print(f"Avertissement flux {nom_source}: aucune entrée exploitable.")
 
@@ -435,7 +409,7 @@ def collecter_articles(sources):
                     "categorie": categorie,
                     "source": nom_source,
                     "titre": nettoyer_texte(entry.get("title", "Sans titre"), 300),
-                    "lien": entry.get("link", url),
+                    "lien": urljoin(url, entry.get("link", url)),
                     "date": entry.get("date_normalisee")
                     or date_entree(entry, flux, entetes, consulter_page=False),
                     "resume": nettoyer_texte(
@@ -445,11 +419,16 @@ def collecter_articles(sources):
                 articles_collectes.append(article)
 
             articles_a_verifier = (
-                [article for article in articles_collectes if article["lien"]]
-                if not (
-                    type_source.startswith("html-")
-                    or type_source == "rss-google-aft"
-                )
+                [
+                    article
+                    for article in articles_collectes
+                    if article["lien"]
+                    and (
+                        not article["date"]
+                        or nom_source == "Me PICOVSCHI|Affaires"
+                    )
+                ]
+                if not type_source.startswith(("html-", "rss-google-"))
                 else []
             )
             if articles_a_verifier:
@@ -472,21 +451,14 @@ def collecter_articles(sources):
                 article["date"]
                 for article in articles_collectes
                 if re.match(r"\d{4}-\d{2}-\d{2}$", article.get("date", ""))
+                and article["date"] <= HIER
             ]
-            date_reference = ""
-            if dates_connues:
-                seuil = MAINTENANT - timedelta(days=RSS_LOOKBACK_DAYS)
-                dates_recentes = [
-                    date
-                    for date in dates_connues
-                    if date <= HIER and datetime.strptime(date, "%Y-%m-%d") >= seuil
-                ]
-                date_reference = max(dates_recentes or dates_connues)
+            date_reference = max(dates_connues) if dates_connues else ""
 
+            liens_vus = set()
             for article in articles_collectes:
-                if date_dans_fenetre_rss(article["date"], date_reference):
+                if article["date"] == date_reference:
                     cle_lien = article["lien"].split("#", 1)[0].rstrip("/").lower()
-                    liens_vus = liens_vus_par_categorie.setdefault(categorie, set())
                     if cle_lien in liens_vus:
                         continue
                     liens_vus.add(cle_lien)
@@ -495,6 +467,14 @@ def collecter_articles(sources):
                     )
         except Exception as exc:
             print(f"Erreur flux {nom_source}: {exc}")
+
+        if not articles_source:
+            articles_source = cartes_precedentes.get((categorie, nom_source), [])
+            if articles_source:
+                print(
+                    f"Dernières cartes conservées pour {nom_source}: "
+                    f"{len(articles_source)} article(s)."
+                )
 
         data_rss.setdefault(categorie, []).append(
             {"nom_site": nom_source, "articles": articles_source}

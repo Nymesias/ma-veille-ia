@@ -14,9 +14,9 @@ juridictions,CEDH|Grande Chambre,http://hudoc.echr.coe.int/app/transform/rss?lib
 juridictions,CEDH|Chambres,http://hudoc.echr.coe.int/app/transform/rss?library=echrfre&query=((((((((((((((((((((%20contentsitename:ECHR%20AND%20(NOT%20(doctype=PR%20OR%20doctype=HFCOMOLD%20OR%20doctype=HECOMOLD))%20AND%20((importance=%221%22)%20OR%20(importance=%222%22)%20OR%20(importance=%223%22))%20AND%20((documentcollectionid=%22GRANDCHAMBER%22)%20OR%20(documentcollectionid=%22CHAMBER%22)%20OR%20(documentcollectionid=%22DECGRANDCHAMBER%22)%20OR%20(documentcollectionid=%22ADMISSIBILITY%22)))%20XRANK(cb=14)%20doctypebranch:GRANDCHAMBER)%20XRANK(cb=13)%20doctypebranch:DECGRANDCHAMBER)%20XRANK(cb=12)%20doctypebranch:CHAMBER)%20XRANK(cb=11)%20doctypebranch:ADMISSIBILITY)%20XRANK(cb=10)%20doctypebranch:COMMITTEE)%20XRANK(cb=9)%20doctypebranch:ADMISSIBILITYCOM)%20XRANK(cb=8)%20doctypebranch:DECCOMMISSION)%20XRANK(cb=7)%20doctypebranch:COMMUNICATEDCASES)%20XRANK(cb=6)%20doctypebranch:CLIN)%20XRANK(cb=5)%20doctypebranch:ADVISORYOPINIONS)%20XRANK(cb=4)%20doctypebranch:REPORTS)%20XRANK(cb=3)%20doctypebranch:EXECUTION)%20XRANK(cb=2)%20doctypebranch:MERITS)%20XRANK(cb=1)%20doctypebranch:SCREENINGPANEL)%20XRANK(cb=4)%20importance:1)%20XRANK(cb=3)%20importance:2)%20XRANK(cb=2)%20importance:3)%20XRANK(cb=1)%20importance:4)%20XRANK(cb=2)%20languageisocode:FRE)%20XRANK(cb=1)%20languageisocode:ENG&sort=kpdate%20Descending&start=0&length=20&rankingModelId=4180000c-8692-45ca-ad63-74bc4163871b0000c-8692-45ca-ad63-74bc4163871b
 régulation,ANSSI|Cyber,https://cyber.gouv.fr/actualites/rss/
 régulation,Autorité de la concurrence,https://www.autoritedelaconcurrence.fr/fr/rss.xml
-régulation,ARCOM,https://www.arcom.fr/rss.xml
+régulation,ARCOM,https://news.google.com/rss/search?q=site%3Aarcom.fr%2Factualites&hl=fr&gl=FR&ceid=FR%3Afr,rss-google-officiel
 régulation,CNIL|Actualités,https://www.cnil.fr/fr/rss.xml
-régulation,AMF,https://www.amf-france.org/fr/flux-rss/display/21
+régulation,AMF,https://news.google.com/rss/search?q=site%3Aamf-france.org%2Ffr%2Factualites-publications&hl=fr&gl=FR&ceid=FR%3Afr,rss-google-officiel
 régulation,DGCCRF,https://www.economie.gouv.fr/dgccrf/rss
 blogs,Me NEUJANICKI|Immobilier,https://www.neujanicki.com/feed/
 blogs,Me PICOVSCHI|Affaires,https://www.avocats-picovschi.com/rss/rss.xml
@@ -25,17 +25,17 @@ blogs,Me VENIN|Assurances,https://www.mv-avocat.fr/categorie/actualites-juridiqu
 institutions,AN|Documents,http://www2.assemblee-nationale.fr/feeds/detail/documents-parlementaires
 institutions,Sénat|Textes,https://www.senat.fr/rss/textes.rss
 institutions,CESE,https://www.lecese.fr/rss/flux/pleniere
-institutions,INPI|PIBD,https://pibd.inpi.fr/,html-pibd-tls-incomplet
+institutions,INPI|PIBD,https://news.google.com/rss/search?q=site%3Apibd.inpi.fr%2Fpibd&hl=fr&gl=FR&ceid=FR%3Afr,rss-google-officiel
 institutions,Parlement Européen|Communiqués,https://www.europarl.europa.eu/rss/doc/articles/fr.xml
 institutions,Conseil de l'UE|Procès-verbaux des actes législatifs,https://www.consilium.europa.eu/fr/register/rss/MINLA.xml
 institutions,Conseil de l'Europe|Affaires,"https://hudoc.exec.coe.int/app/transform/rss?library=execfre&query=((contentsitename:EXEC)%20OR%20(contentsitename:ECHR%20AND%20(execdocumenttype:EXECUTION%20OR%20execdocumenttype:MERITS)))%20AND%20((execdocumenttypecollection=%22CEC%22))%20AND%20((execlanguage=%22FRE%22))&sort=execdocumenttypesorting%20ascending,execdocumentreferencesorting%20descending&start=0&rankingModelId=44444444-b0a6-44c9-bb6b-5886b928f985"
 institutions,Commission Européenne|Actualités,https://commission.europa.eu/node/33506/rss_en?prefLang=fr
 finance,BCE|Politique monétaire,https://www.ecb.europa.eu/rss/press.html
 finance,AFT|Communiqués,https://news.google.com/rss/search?q=site%3Aaft.gouv.fr%2Ffr%2Fpublications%2Fcommuniques-presse&hl=fr&gl=FR&ceid=FR%3Afr,rss-google-aft
-finance,Cour des comptes|Institution,https://www.ccomptes.fr/rss/juridiction/98
+finance,Cour des comptes|Institution,https://news.google.com/rss/search?q=site%3Accomptes.fr%2Ffr%2Fpublications&hl=fr&gl=FR&ceid=FR%3Afr,rss-google-officiel
 finance,Ministère de l'Economie,https://www.economie.gouv.fr/rss/toutesactualites
-finance,Cour des comptes|Actualités,https://www.ccomptes.fr/fr/rss/actualites
-finance,ACPR|Actualités,https://acpr.banque-france.fr/fr/actualites,html-acpr
+finance,Cour des comptes|Actualités,https://news.google.com/rss/search?q=site%3Accomptes.fr%2Ffr%2Factualites&hl=fr&gl=FR&ceid=FR%3Afr,rss-google-officiel
+finance,ACPR|Actualités,https://news.google.com/rss/search?q=site%3Aacpr.banque-france.fr%2Ffr%2Factualites&hl=fr&gl=FR&ceid=FR%3Afr,rss-google-acpr
 finance,Le Revenu,https://www.lerevenu.com/rss.xml
 finance,L'Agefi,https://www.agefi.fr/index.rss
 news,AFP|Actualités,"https://www.afp.com/fr/actus/afp_actualite/792,31,9,7,33/feed"
