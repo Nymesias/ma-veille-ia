@@ -429,13 +429,8 @@
           "d": "2026-07-01"
         },
         {
-          "t": "PIBD 1272",
-          "l": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wUm5HbTJwM3JhQVQ5V1gyQ0M5UjJlSV9CMGVMMGlDNlhUUlRpbmwzTFZfRURIM1ZCTHBsYy1pMVVBWEM2Rkl2dEtoOA?oc=5",
-          "d": "2026-07-01"
-        },
-        {
           "t": "Création de compte - Abonnement au PIBD",
-          "l": "",
+          "l": "https://pibd.inpi.fr/",
           "d": "2026-07-12",
           "type": "newsletter"
         }
@@ -674,7 +669,7 @@
       "articles": [
         {
           "t": "[AMF] Confirmation d'inscription à votre abonnement",
-          "l": "https://r.communication.amf-france.org/tr/cl/DwZQc-FzQJ22Fizp6cxbA9rJQa1iXruihXDQ5Sb-e3NeDSLlPB97_UA81JTHtPPIxqBgNEE_o9nope0rN8nrVQAGKTF-7_ovOOk_BBk0Y_K9A2wbKY9H9MryTckekQr2VH87Z2zKa2uWNV4oDHp2qJzCZdJzU4CnVF-WaPnXEP1-3Rkq9m0YNFySmD-cJ9J2uGyKbLMrtOsRwXsz_rikEyMQIs3QLgXeT-JfXfGNfolUUyWoGmgrbHacg0TpFq9YwJiSVU9KBgFBAL4GF0IseQ",
+          "l": "https://www.amf-france.org/fr/actualites-publications",
           "d": "2026-07-12",
           "type": "newsletter"
         }
