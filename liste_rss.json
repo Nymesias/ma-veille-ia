@@ -179,11 +179,23 @@
     },
     {
       "nom_site": "CEDH|Grande Chambre",
-      "articles": []
+      "articles": [
+        {
+          "t": "Notification au gouvernement français de l’affaire introduite par Nicolas Sarkozy",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"003-8589271-12219208\"]}",
+          "d": "2026-07-10"
+        }
+      ]
     },
     {
       "nom_site": "CEDH|Chambres",
-      "articles": []
+      "articles": [
+        {
+          "t": "Notification au gouvernement français de l’affaire introduite par Nicolas Sarkozy",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"003-8589271-12219208\"]}",
+          "d": "2026-07-10"
+        }
+      ]
     }
   ],
   "régulation": [
@@ -209,7 +221,13 @@
     },
     {
       "nom_site": "ARCOM",
-      "articles": []
+      "articles": [
+        {
+          "t": "Campagne \"enfants et écrans\" 2026 : les conseils de l'Arcom pour protéger les plus jeunes",
+          "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNc0RRaFB6OFlvQ2lab3RMdU91aUlYNzlRMHFvQk5qWk90bEtBb2pZVW5DQlFTdVlZd0o5YW5yZnVIWjVGOUplbGFCQWZ3OGU2bDhPMUFzd011T284MmV1bzZYUndVUGMxMzJ3QWFBb1hjTVRodjRGa0s3dGFYNWE5aGIyVHVrN2dCeG1QRlhFOFhaeVFtQzE4T2h2OVpLeWRndzR1Sm9hN3VMOHNESFFsa0FRUnNPMFk?oc=5",
+          "d": "2026-07-02"
+        }
+      ]
     },
     {
       "nom_site": "CNIL|Actualités",
@@ -225,38 +243,13 @@
       "nom_site": "AMF",
       "articles": [
         {
-          "t": "Décision relative à des modifications des règles de fonctionnement de la chambre de compensation LCH SA pour le service RepoClear, visant à adapter le cadre applicable aux Membres Agents Garants d’une part et aux Adhérents Compensateurs Spéciaux d’autr...",
-          "l": "https://www.amf-france.org/fr/reglementation/regles-professionnelles-approuvees/decision-relative-des-modifications-des-regles-de-fonctionnement-de-la-chambre-de-compensation-lch-0#xts=607212&xtor=RSS-3&type=RSS",
+          "t": "Réponse de l'AMF à la consultation publique européenne sur la revue de la directive sur les droits des actionnaires (SRD) (en anglais uniquement)",
+          "l": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPNGFQMmRsU2x4QldSb1hiS3VwR01YS1BvbzFsQmNScnJhUWFwRzAxM2ZrS25DamlrWnBiSFhVeDVvUjZycFhhNDRHQ3BIVkxaY0pZY1p4SUNhQVpKR3lhNWtibTU4blJwSkhlLWktX0NVamNTdWlzVV9xb0plU1J5bk5qZEw4Tlp0UGFYeFo0SW0tV0Y4N0pGTVM3d1MxWGstREZycTJSMjgwU0ZNN2F6dXNPbDFpUXI1TzYwdDU0M19kVVhiSDJkRVh6VVVLdklIYktlY0VyVlliLXNEUWRhRUN4TmpzdzlocnJHbGE1aElvQUJuOW9TMVFaQ1VTNkZqeWhuQw?oc=5",
           "d": "2026-07-10"
         },
         {
           "t": "L'AMF publie sa réponse à la consultation publique européenne sur la revue de la directive sur les droits des actionnaires (SRD)",
-          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-sa-reponse-la-consultation-publique-europeenne-sur-la-revue-de-la-directive-sur-les#xts=607212&xtor=RSS-3&type=RSS",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "Réponse de l'AMF à la consultation publique européenne sur la revue de la directive sur les droits des actionnaires (SRD) (en anglais uniquement)",
-          "l": "https://www.amf-france.org/fr/actualites-publications/positions-ue-de-lamf/reponse-de-lamf-la-consultation-publique-europeenne-sur-la-revue-de-la-directive-sur-les-droits-des#xts=607212&xtor=RSS-3&type=RSS",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "L'AMF accompagne les émetteurs dans la mise en œuvre du troisième volet des mesures du Listing Act",
-          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-accompagne-les-emetteurs-dans-la-mise-en-oeuvre-du-troisieme-volet-des-mesures-du-listing-act#xts=607212&xtor=RSS-3&type=RSS",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "L'AMF analyse la hausse des échanges observée à la clôture sur le marché actions français",
-          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-analyse-la-hausse-des-echanges-observee-la-cloture-sur-le-marche-actions-francais#xts=607212&xtor=RSS-3&type=RSS",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "Evolution des échanges à la clôture sur le marché actions français",
-          "l": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-etudes-et-analyses/evolution-des-echanges-la-cloture-sur-le-marche-actions-francais#xts=607212&xtor=RSS-3&type=RSS",
-          "d": "2026-07-10"
-        },
-        {
-          "t": "Le Listing Act : favoriser l’accès des sociétés aux marchés de capitaux européens",
-          "l": "https://www.amf-france.org/fr/actualites-publications/dossiers-thematiques/listing-act#xts=607212&xtor=RSS-3&type=RSS",
+          "l": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVE9ESHJKcm5DUE9PVkM4UzFxZWp5cEFJYkRvcE9HR1lqWUJZTWJ4eTBldFpSdFNENjJZenlMTFNobWkwYlg5X2xlQVVSeE5sSlZWUGdQeVB5dzN1NUtpTDYydTFYV0lpQ3NmMUdyOG1kSFF0UnVtTnBGV1JMVG9NekdCQnRlTlQ2RWZ3OUNDRG05WDhwXzlJUEFjeC1jS0NlMFJIQ3ZIVklESkRkVVQwLWNZZUFGek1yREZGQTlqSkZoa2ZzMFZsQTJNU052Y3BranZmclNnU1ZjNmlrR1RxXzVhQzRVekVJMjAwTm12dEl6QQ?oc=5",
           "d": "2026-07-10"
         }
       ]
@@ -394,9 +387,19 @@
       "nom_site": "CESE",
       "articles": [
         {
-          "t": "Assemblée plénière",
-          "l": "https://www.lecese.fr/travaux-du-cese/plenieres/assemblee-pleniere-10",
-          "d": "2026-12-09"
+          "t": "Assemblée plénière : \"Crises sanitaires : prévenir, anticiper, coordonner\"",
+          "l": "https://www.lecese.fr/travaux-du-cese/plenieres/assemblee-pleniere-crises-sanitaires-prevenir-anticiper-coordonner-0",
+          "d": "2026-04-14"
+        },
+        {
+          "t": "Assemblée plénière : \"L'intégration des limites planétaires dans les décisions publiques et privées\"",
+          "l": "https://www.lecese.fr/travaux-du-cese/plenieres/assemblee-pleniere-lintegration-des-limites-planetaires-dans-les-decisions-publiques-et-privees",
+          "d": "2026-04-14"
+        },
+        {
+          "t": "Assemblée plénière : \"A la recherche des origines : réguler les tests génétiques en accès libre\"",
+          "l": "https://www.lecese.fr/travaux-du-cese/plenieres/assemblee-pleniere-la-recherche-des-origines-reguler-les-tests-genetiques-en-acces-libre",
+          "d": "2026-04-14"
         }
       ]
     },
@@ -405,7 +408,7 @@
       "articles": [
         {
           "t": "PIBD 1272",
-          "l": "https://pibd.inpi.fr/pibd/pibd-1272",
+          "l": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wUm5HbTJwM3JhQVQ5V1gyQ0M5UjJlSV9CMGVMMGlDNlhUUlRpbmwzTFZfRURIM1ZCTHBsYy1pMVVBWEM2Rkl2dEtoOA?oc=5",
           "d": "2026-07-01"
         }
       ]
@@ -422,7 +425,13 @@
     },
     {
       "nom_site": "Conseil de l'UE|Procès-verbaux des actes législatifs",
-      "articles": []
+      "articles": [
+        {
+          "t": "ST 8946 2026 ADD 1",
+          "l": "https://data.consilium.europa.eu/doc/document/ST-8946-2026-ADD-1/fr/pdf",
+          "d": "2026-05-19"
+        }
+      ]
     },
     {
       "nom_site": "Conseil de l'Europe|Affaires",
@@ -496,6 +505,16 @@
           "t": "Commission approves Baker Hughes' acquisition of Chart Industries, subject to conditions",
           "l": "https://competition-policy.ec.europa.eu/about/news/commission-approves-baker-hughes-acquisition-chart-industries-subject-conditions-2026-07-10_en",
           "d": "2026-07-10"
+        },
+        {
+          "t": "Commission adopts Implementing Regulation to strengthen sustainable urban mobility through harmonised indicators",
+          "l": "https://transport.ec.europa.eu/news-events/news/commission-adopts-implementing-regulation-strengthen-sustainable-urban-mobility-through-harmonised-2026-07-09_en",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Commission accepts binding commitments by SAP to address competition concerns about services for its popular business management software*",
+          "l": "https://competition-policy.ec.europa.eu/about/news/commission-accepts-binding-commitments-sap-address-competition-concerns-about-services-its-popular-2026-07-09_en",
+          "d": "2026-07-10"
         }
       ]
     }
@@ -523,7 +542,13 @@
     },
     {
       "nom_site": "Cour des comptes|Institution",
-      "articles": []
+      "articles": [
+        {
+          "t": "Établissement public du Palais de la découverte et de la Cité des sciences et de l’industrie (Universcience)",
+          "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVk4yekFRZVBEZHdyU1hYR1VLaFg2dDFHb1B2cUQ4NGJoT3piWXE4LTZlemxhTWtTU1RhNTN4bUdUN1VaUlo0aWRaZnRMZkR5dWdHVHJuRGlZYkZHVldzVlJaVlFJN3cwbG1oRFZLQ3hLN2EyMUNrdFVVVTlqN1VYUi1UZlVOSVgtRmVwSi1UT0pBY0lEMmg4c1NCMmNOTTlWcVNGbV81UmlhMThRTUR0NE81Wk1uMHctMnlCbQ?oc=5",
+          "d": "2026-07-07"
+        }
+      ]
     },
     {
       "nom_site": "Ministère de l'Economie",
@@ -547,11 +572,23 @@
     },
     {
       "nom_site": "Cour des comptes|Actualités",
-      "articles": []
+      "articles": [
+        {
+          "t": "Première édition des \"Rencontres Mably\"",
+          "l": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS2tQelFRMVZuX0cwVlYxWVFrNWZvZnNSNlNZWVM3Q0p3UnZWaEgxM2JJdUFxcUplZEZnM0N6eDZHOW82b0lobjlrVWtSWTNUOEUwZ1ZuMWJvQm1LS1U5bTJFalhuX3NzQ1VSTlc5eERWbjIzNFhWTXVGMWV6Tk1ONA?oc=5",
+          "d": "2026-06-10"
+        }
+      ]
     },
     {
       "nom_site": "ACPR|Actualités",
-      "articles": []
+      "articles": [
+        {
+          "t": "L'Autorité bancaire européenne franchit une nouvelle étape dans l’amélioration de l'efficacité de la supervision avec la révision du SREP",
+          "l": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM25pS0hMeHV0V0pJMzR0Z2JZSm00MFljRjREVGk5aTRQejcwZWMtS0tvVmdPSVpROVg1R2ZtMW5DcDJtRW1LUEhfQkVQSnQ2QkdaUjFsRFoxb3VycngyN2J6TGhKVXpXbmFZdFgxRzdSbkFYZGNlbm9MUG5POC1fdm93elNldngxTThxYXRPRHlUUWdiZDhsVkt0RkZENGF1UkkzUkVlUHVVa1RhaTBkdV95UHY3UmtWb3M4TzYwZzVwS1M0azBqS1p0OUFEMXlVUmp4ODhSRDA?oc=5",
+          "d": "2026-07-07"
+        }
+      ]
     },
     {
       "nom_site": "Le Revenu",
@@ -767,7 +804,58 @@
     },
     {
       "nom_site": "Conseil de l'UE",
-      "articles": []
+      "articles": [
+        {
+          "t": "Sudan: Statement by the High Representative on behalf of the EU on the escalating violence in El Obeid",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/10/sudan-statement-by-the-high-representative-on-behalf-of-the-eu-on-the-escalating-violence-in-el-obeid/",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Media advisory - Foreign Affairs Council of 13 July 2026",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/10/media-advisory-foreign-affairs-council-of-13-july-2026/",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Calendrier à venir: 13 - 26 juillet 2026",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/10/forward-look-2026/",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Weekly schedule of President António Costa",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/10/weekly-schedule-of-president-antonio-costa/",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Court of Justice of the EU: Member states’ representatives appoint a judge and an advocate-general to the Court of Justice",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/10/court-of-justice-of-the-eu-member-states-representatives-appoint-a-judge-and-an-advocate-general-to-the-court-of-justice/",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Media advisory - Agriculture and Fisheries Council of 13 July 2026",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/10/media-advisory-agriculture-and-fisheries-council-of-13-july-2026/",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "European semester 2026: Council adopts country-specific recommendations",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/10/european-semester-2026-council-adopts-country-specific-recommendations/",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Stability and growth pact: Council opens excessive deficit procedure for Bulgaria",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/10/stability-and-growth-pact-council-opens-excessive-deficit-procedure-for-bulgaria/",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Facilité pour la reprise et la résilience: le Conseil donne son feu vert au nouveau plan pour la Hongrie",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/10/recovery-and-resilience-facility-council-greenlights-new-plan-for-hungary/",
+          "d": "2026-07-10"
+        },
+        {
+          "t": "Guinea: Council restricts visa provision over insufficient cooperation",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/10/guinea-council-restricts-visa-provision-over-insufficient-cooperation/",
+          "d": "2026-07-10"
+        }
+      ]
     },
     {
       "nom_site": "CNRS|Le Journal",
@@ -913,9 +1001,14 @@
       "nom_site": "Service public|Entreprises",
       "articles": [
         {
-          "t": "La taxe française sur les petits colis remplacée par un droit de douane européen",
-          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A18985?xtor=RSS-112",
-          "d": "2026-07-01"
+          "t": "Ce qui change en juillet 2026",
+          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A18377?xtor=RSS-112",
+          "d": "2026-07-08"
+        },
+        {
+          "t": "Hausse des prix du carburant : l’aide exceptionnelle pour les entreprises de transport est reconduite",
+          "l": "https://entreprendre.service-public.gouv.fr/actualites/A18882?xtor=RSS-112",
+          "d": "2026-07-08"
         }
       ]
     }
