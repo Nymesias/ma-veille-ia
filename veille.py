@@ -168,9 +168,15 @@ def charger_newsletters():
             source = (regle.get("source") or "").strip()
             expediteur = (regle.get("expediteur") or "").strip().lower()
             sujet = (regle.get("sujet") or "*").strip().lower()
+            url_publique = (regle.get("url_publique") or "").strip()
+            if url_publique and not url_publique.startswith(("https://", "http://")):
+                raise ValueError(
+                    f"Ligne {numero} invalide dans {FICHIER_NEWSLETTERS}: URL publique non sûre."
+                )
             if categorie and source and expediteur:
                 regles.append({"categorie": categorie, "source": source,
-                               "expediteur": expediteur, "sujet": sujet or "*"})
+                               "expediteur": expediteur, "sujet": sujet or "*",
+                               "url_publique": url_publique})
         return regles
 
 
@@ -225,6 +231,18 @@ def regle_pour_message(regles, adresse, sujet):
     return None
 
 
+SUJETS_MESSAGES_PERSONNELS = (
+    "confirmation", "confirmez", "confirm your", "activation", "activez",
+    "création de compte", "creation de compte", "vérifiez votre", "verifiez votre",
+    "verify your", "mot de passe", "password", "code de sécurité", "security code",
+)
+
+
+def est_message_personnel(sujet):
+    sujet = sujet.lower()
+    return any(motif in sujet for motif in SUJETS_MESSAGES_PERSONNELS)
+
+
 def collecter_newsletters(regles, cartes_precedentes):
     """Lit les messages récents sans les modifier et les convertit en cartes."""
     if not regles:
@@ -257,13 +275,15 @@ def collecter_newsletters(regles, cartes_precedentes):
                 sujet = decoder_entete(message.get("Subject")) or "Newsletter sans titre"
                 adresse = parseaddr(decoder_entete(message.get("From")))[1].lower()
                 regle = regle_pour_message(regles, adresse, sujet)
-                if not regle:
+                if not regle or est_message_personnel(sujet):
                     continue
                 date = normaliser_date_publication(message.get("Date"))
                 if not date:
                     continue
                 contenu_html = extraire_html_newsletter(message)
-                lien = lien_principal_newsletter(contenu_html)
+                # Ne jamais publier les redirections contenues dans le courriel : elles
+                # peuvent embarquer un identifiant de suivi ou ouvrir un espace personnel.
+                lien = regle["url_publique"]
                 cle = (regle["categorie"], regle["source"])
                 par_source.setdefault(cle, []).append(
                     {"t": sujet, "l": lien, "d": date, "type": "newsletter"}
