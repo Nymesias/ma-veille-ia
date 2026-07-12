@@ -31,6 +31,7 @@ institutions,Conseil de l'UE|Procès-verbaux des actes législatifs,https://www.
 institutions,Conseil de l'Europe|Affaires,"https://hudoc.exec.coe.int/app/transform/rss?library=execfre&query=((contentsitename:EXEC)%20OR%20(contentsitename:ECHR%20AND%20(execdocumenttype:EXECUTION%20OR%20execdocumenttype:MERITS)))%20AND%20((execdocumenttypecollection=%22CEC%22))%20AND%20((execlanguage=%22FRE%22))&sort=execdocumenttypesorting%20ascending,execdocumentreferencesorting%20descending&start=0&rankingModelId=44444444-b0a6-44c9-bb6b-5886b928f985"
 institutions,Commission Européenne|Actualités,https://commission.europa.eu/node/33506/rss_en?prefLang=fr
 finance,BCE|Politique monétaire,https://www.ecb.europa.eu/rss/press.html
+finance,AFT|Communiqués,https://news.google.com/rss/search?q=site%3Aaft.gouv.fr%2Ffr%2Fpublications%2Fcommuniques-presse&hl=fr&gl=FR&ceid=FR%3Afr,rss-google-aft
 finance,Cour des comptes|Institution,https://www.ccomptes.fr/rss/juridiction/98
 finance,Ministère de l'Economie,https://www.economie.gouv.fr/rss/toutesactualites
 finance,Cour des comptes|Actualités,https://www.ccomptes.fr/fr/rss/actualites
@@ -50,3 +51,5 @@ news,CNRS|Le Journal,https://lejournal.cnrs.fr/rss
 news,Pour la Science,https://www.pourlascience.fr/rss.xml
 news,Actu-Environnement,https://www.actu-environnement.com/ae/news/archives/rss.php4
 news,LeMagIT,https://www.lemagit.fr/rss/ContentSyndication.xml
+news,Service public|Particuliers,https://www.service-public.gouv.fr/abonnements/rss/actu-actualites-particuliers.rss
+news,Service public|Entreprises,https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss

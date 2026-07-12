@@ -179,6 +179,18 @@ def normaliser_date_publication(valeur):
     correspondance = re.search(r"(?<!\d)(20\d{2}-\d{2}-\d{2})(?!\d)", texte)
     if correspondance:
         return correspondance.group(1)
+    correspondance = re.search(
+        r"(?<!\d)(\d{1,2})/(\d{1,2})/(20\d{2})(?!\d)", texte
+    )
+    if correspondance:
+        try:
+            return datetime(
+                int(correspondance.group(3)),
+                int(correspondance.group(2)),
+                int(correspondance.group(1)),
+            ).date().isoformat()
+        except ValueError:
+            return ""
     try:
         return parsedate_to_datetime(texte).date().isoformat()
     except (TypeError, ValueError, OverflowError):
@@ -345,6 +357,30 @@ def extraire_parutions_pibd(contenu, url):
     return entrees[:30]
 
 
+def normaliser_entrees_google_aft(entrees):
+    """Nettoie le flux Google Actualités limité au domaine officiel de l'AFT."""
+    communiques = []
+    for entree in entrees:
+        titre = nettoyer_texte(entree.get("title", ""), 500)
+        correspondance = re.match(
+            r"(\d{1,2}/\d{1,2}/20\d{2})\s*:\s*(.+?)(?:\s+-\s+Agence France Trésor)?$",
+            titre,
+        )
+        if not correspondance:
+            continue
+        communiques.append(
+            {
+                "title": correspondance.group(2).strip(),
+                "link": entree.get("link", ""),
+                "date_normalisee": normaliser_date_publication(
+                    correspondance.group(1)
+                ),
+                "summary": entree.get("summary", ""),
+            }
+        )
+    return communiques[:30]
+
+
 def collecter_articles(sources):
     data_rss = {}
     articles_hier = []
@@ -370,14 +406,15 @@ def collecter_articles(sources):
             reponse_flux = requete_avec_reessais(
                 url, entetes, timeout=30, verifier_tls=verifier_tls
             )
+            contenu_source = reponse_flux.content
             if type_source == "html-acpr":
                 flux = None
-                entrees = extraire_actualites_acpr(reponse_flux.content, url)
+                entrees = extraire_actualites_acpr(contenu_source, url)
             elif type_source.startswith("html-pibd"):
                 flux = None
-                entrees = extraire_parutions_pibd(reponse_flux.content, url)
+                entrees = extraire_parutions_pibd(contenu_source, url)
             else:
-                contenu_flux = reponse_flux.content
+                contenu_flux = contenu_source
                 # Certains flux Drupal ajoutent des commentaires de débogage avant
                 # la déclaration XML, ce que les parseurs stricts refusent.
                 debut_xml = contenu_flux.find(b"<?xml")
@@ -387,6 +424,8 @@ def collecter_articles(sources):
                 if getattr(flux, "bozo", False):
                     print(f"Avertissement flux {nom_source}: {flux.bozo_exception}")
                 entrees = flux.entries[:30]
+                if type_source == "rss-google-aft":
+                    entrees = normaliser_entrees_google_aft(entrees)
             if not entrees:
                 print(f"Avertissement flux {nom_source}: aucune entrée exploitable.")
 
@@ -407,7 +446,10 @@ def collecter_articles(sources):
 
             articles_a_verifier = (
                 [article for article in articles_collectes if article["lien"]]
-                if not type_source.startswith("html-")
+                if not (
+                    type_source.startswith("html-")
+                    or type_source == "rss-google-aft"
+                )
                 else []
             )
             if articles_a_verifier:
