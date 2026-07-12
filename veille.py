@@ -307,6 +307,15 @@ def collecter_newsletters(regles, cartes_precedentes):
             articles = [article for article in articles if article["d"] == date_recente]
         else:
             articles = cartes_precedentes.get(cle, [])
+            articles = [
+                {
+                    **article,
+                    "l": regle["url_publique"],
+                    "type": "newsletter",
+                }
+                for article in articles
+                if article.get("type") == "newsletter"
+            ]
         sources = data.setdefault(regle["categorie"], [])
         if not any(source["nom_site"] == regle["source"] for source in sources):
             sources.append({"nom_site": regle["source"], "articles": articles})
