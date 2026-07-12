@@ -44,8 +44,9 @@ JUDILIBRE_PUBLIC_URL = "https://www.courdecassation.fr/recherche-judilibre"
 JURIDIQUE_ANALYSE_CATEGORIES = {
     "revues",
     "blogs",
-    "textes officiels",
+    "institutions",
     "juridictions",
+    "régulation",
 }
 
 COLLECTIONS_LETTRES = {
@@ -130,6 +131,11 @@ def charger_sources():
         sources = []
         urls_vues = {}
         for numero, source in enumerate(csv.DictReader(fichier), start=2):
+            if source.get(None):
+                raise ValueError(
+                    f"Ligne {numero} invalide dans {FICHIER_SOURCES}: "
+                    "une URL contenant une virgule doit être entourée de guillemets."
+                )
             url = source.get("url", "").strip()
             if not url:
                 continue
@@ -192,12 +198,19 @@ def normaliser_date_publication(valeur):
         return ""
 
 
-def requete_avec_reessais(url, entetes=None, timeout=30, tentatives=3):
+def requete_avec_reessais(
+    url, entetes=None, timeout=30, tentatives=3, verifier_tls=True
+):
     """Télécharge une page en réessayant les erreurs réseau et limitations temporaires."""
     derniere_erreur = None
     for tentative in range(tentatives):
         try:
-            reponse = requests.get(url, headers=entetes or {}, timeout=timeout)
+            reponse = requests.get(
+                url,
+                headers=entetes or {},
+                timeout=timeout,
+                verify=verifier_tls,
+            )
             reponse.raise_for_status()
             return reponse
         except requests.RequestException as exc:
@@ -280,6 +293,58 @@ def date_dans_fenetre_rss(date_iso, date_reference):
     return date_iso == HIER or (date_reference and date_iso == date_reference)
 
 
+def extraire_actualites_acpr(contenu, url):
+    """Convertit la page officielle des actualités ACPR en entrées de flux."""
+    page = BeautifulSoup(contenu, "html.parser")
+    entrees = []
+    for carte in page.select("div.card.card-vertical"):
+        lien = carte.select_one('a[href*="/fr/actualites/"]')
+        if not lien:
+            continue
+        titre = nettoyer_texte(lien.get_text(" ", strip=True), 300)
+        date = ""
+        for element in reversed(carte.select("small")):
+            date = normaliser_date_publication(element.get_text(" ", strip=True))
+            if date:
+                break
+        entrees.append(
+            {
+                "title": titre or "Sans titre",
+                "link": urljoin(url, lien.get("href", "")),
+                "date_normalisee": date,
+                "summary": "",
+            }
+        )
+    return entrees[:30]
+
+
+def extraire_parutions_pibd(contenu, url):
+    """Convertit les dernières parutions PIBD en entrées de flux."""
+    page = BeautifulSoup(contenu, "html.parser")
+    entrees = []
+    for carte in page.select("article.pibd-teaser"):
+        lien = carte.select_one('a[href*="/pibd/"]')
+        if not lien:
+            continue
+        titre = nettoyer_texte(
+            carte.select_one(".pibd-teaser__title span").get_text(" ", strip=True),
+            300,
+        )
+        date_element = carte.select_one(".field--name-field-date-de-parution")
+        date = normaliser_date_publication(
+            date_element.get_text(" ", strip=True) if date_element else ""
+        )
+        entrees.append(
+            {
+                "title": titre or "Sans titre",
+                "link": urljoin(url, lien.get("href", "")),
+                "date_normalisee": date,
+                "summary": "",
+            }
+        )
+    return entrees[:30]
+
+
 def collecter_articles(sources):
     data_rss = {}
     articles_hier = []
@@ -289,32 +354,62 @@ def collecter_articles(sources):
         categorie = source.get("categorie", "general").strip().lower()
         nom_source = source.get("source", "Source inconnue").strip()
         url = source.get("url", "").strip()
+        type_source = (source.get("type") or "rss").strip().lower()
         if not url:
             continue
 
         articles_source = []
         try:
             entetes = {"User-Agent": "MaVeilleIA/1.0 (veille personnelle)"}
-            reponse_flux = requete_avec_reessais(url, entetes, timeout=30)
-            flux = feedparser.parse(reponse_flux.content)
-            if getattr(flux, "bozo", False):
-                print(f"Avertissement flux {nom_source}: {flux.bozo_exception}")
+            verifier_tls = not type_source.endswith("tls-incomplet")
+            if not verifier_tls:
+                print(
+                    f"Avertissement TLS {nom_source}: validation du certificat désactivée "
+                    "uniquement pour ce flux public."
+                )
+            reponse_flux = requete_avec_reessais(
+                url, entetes, timeout=30, verifier_tls=verifier_tls
+            )
+            if type_source == "html-acpr":
+                flux = None
+                entrees = extraire_actualites_acpr(reponse_flux.content, url)
+            elif type_source.startswith("html-pibd"):
+                flux = None
+                entrees = extraire_parutions_pibd(reponse_flux.content, url)
+            else:
+                contenu_flux = reponse_flux.content
+                # Certains flux Drupal ajoutent des commentaires de débogage avant
+                # la déclaration XML, ce que les parseurs stricts refusent.
+                debut_xml = contenu_flux.find(b"<?xml")
+                if debut_xml > 0:
+                    contenu_flux = contenu_flux[debut_xml:]
+                flux = feedparser.parse(contenu_flux)
+                if getattr(flux, "bozo", False):
+                    print(f"Avertissement flux {nom_source}: {flux.bozo_exception}")
+                entrees = flux.entries[:30]
+            if not entrees:
+                print(f"Avertissement flux {nom_source}: aucune entrée exploitable.")
 
             articles_collectes = []
-            for entry in flux.entries[:30]:
+            for entry in entrees:
                 article = {
                     "categorie": categorie,
                     "source": nom_source,
                     "titre": nettoyer_texte(entry.get("title", "Sans titre"), 300),
                     "lien": entry.get("link", url),
-                    "date": date_entree(entry, flux, entetes, consulter_page=False),
+                    "date": entry.get("date_normalisee")
+                    or date_entree(entry, flux, entetes, consulter_page=False),
                     "resume": nettoyer_texte(
                         entry.get("summary") or entry.get("description") or ""
                     ),
                 }
                 articles_collectes.append(article)
 
-            articles_a_verifier = [article for article in articles_collectes if article["lien"]]
+            articles_a_verifier = (
+                [article for article in articles_collectes if article["lien"]]
+                if not type_source.startswith("html-")
+                else []
+            )
             if articles_a_verifier:
                 with ThreadPoolExecutor(max_workers=min(4, len(articles_a_verifier))) as pool:
                     dates_pages = pool.map(
@@ -783,9 +878,10 @@ def selection_analyse_juridique(articles, sources_cassation, analyse_cassation=N
             return 1
         ordre_categories = {
             "juridictions": 2,
-            "textes officiels": 3,
-            "revues": 4,
-            "blogs": 5,
+            "régulation": 3,
+            "institutions": 4,
+            "revues": 5,
+            "blogs": 6,
             "cour de cassation": 1,
         }
         return ordre_categories.get(article.get("categorie"), 9)
@@ -810,10 +906,11 @@ def selection_analyse_juridique(articles, sources_cassation, analyse_cassation=N
         selection.append(article)
 
     for categorie in (
-        "textes officiels",
+        "institutions",
         "revues",
         "blogs",
         "juridictions",
+        "régulation",
         "cour de cassation",
     ):
         for article in candidats:
@@ -951,7 +1048,7 @@ def prompt_pour(cible, articles):
         ),
         "juridique-analyse": (
             "Structure le résumé en un item par onglet juridique, avec les intitulés exacts : "
-            "Textes officiels, Revues, Blogs, Juridictions. Ajoute Cour de cassation seulement "
+            "Institutions, Revues, Blogs, Juridictions, Régulation. Ajoute Cour de cassation seulement "
             "si les données fournies contiennent une source exploitable datée de la veille. "
             "Chaque item doit citer au moins une source distincte lorsque c'est possible, et "
             "écarter les contenus anciens, redondants ou trop faibles. Mets un focus spécifique "

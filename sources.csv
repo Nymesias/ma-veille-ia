@@ -1,44 +1,52 @@
-categorie,source,url
+categorie,source,url,type
 revues,Cridon NE,https://www.cridon-ne.org/feed/
 revues,Dalloz|Etudiant,https://www.dalloz-etudiant.fr/rss.xml
-revues,Dalloz|Actualité,https://www.dalloz-actualite.fr/rss.xml
-revues,Dalloz|Actualités flash,https://www.dalloz-actualite.fr/flash/rss.xml
-revues,Village Justice,https://www.village-justice.com/articles/spip.php?page=backend
-revues,Actu-Juridique,https://www.actu-juridique.fr/feed/
-revues,Jus Politicum,https://blog.juspoliticum.com/feed/
 revues,DAJ Bercy,https://www.economie.gouv.fr/daj/rss
 revues,Vie Publique|Lois,https://www.vie-publique.fr/lois-feeds.xml
+revues,France Assureurs,https://www.franceassureurs.fr/actualites/feed/
+juridictions,Conseil Constitutionnel,https://www.conseil-constitutionnel.fr/flux/rss.xml
 juridictions,Conseil d'Etat|LJA,https://www.conseil-etat.fr/rss/lja-rss
 juridictions,Conseil d'Etat|Séances,https://www.conseil-etat.fr/outils/flux-rss/seances-publiques-rss
-juridictions,Conseil Constitutionnel,https://www.conseil-constitutionnel.fr/flux/rss.xml
-juridictions,Cour de Cassation|Podcasts,https://radio.amicus-curiae.net/series/les-rendez-vous-civils/feed/
-juridictions,Cour de Cassation|Actualités,https://www.courdecassation.fr/rss.xml
 juridictions,CIJ|Communiqués,https://www.icj-cij.org/rss.xml
-juridictions,Commission européenne|Numérique IA,https://digital-strategy.ec.europa.eu/en/rss.xml
-juridictions,ANSSI|Actualités cyber,https://cyber.gouv.fr/actualites/rss/
-juridictions,Autorité de la concurrence,https://www.autoritedelaconcurrence.fr/fr/rss.xml
-juridictions,ARCOM,https://www.arcom.fr/rss.xml
-juridictions,CNIL|Actualités,https://www.cnil.fr/fr/rss.xml
+juridictions,CJUE,https://curia.europa.eu/site/rss.jsp?lang=fr&secondLang=en
+juridictions,CEDH|Résumés,https://hudoc.echr.coe.int/app/transform/rss?library=echrfre&query=contentsitename:ECHR%20AND%20(NOT%20(doctype=PR%20OR%20doctype=HFCOMOLD%20OR%20doctype=HECOMOLD))%20AND%20((documentcollectionid=%22CLIN%22))&sort=kpdate%20Descending&start=0&length=20&rankingModelId=11111111-0000-0000-0000-000000000000
+juridictions,CEDH|Grande Chambre,http://hudoc.echr.coe.int/app/transform/rss?library=echrfre&query=((((((((((((((((((((%20contentsitename:ECHR%20AND%20(NOT%20(doctype=PR%20OR%20doctype=HFCOMOLD%20OR%20doctype=HECOMOLD))%20AND%20((documentcollectionid=%22GRANDCHAMBER%22)))%20XRANK(cb=14)%20doctypebranch:GRANDCHAMBER)%20XRANK(cb=13)%20doctypebranch:DECGRANDCHAMBER)%20XRANK(cb=12)%20doctypebranch:CHAMBER)%20XRANK(cb=11)%20doctypebranch:ADMISSIBILITY)%20XRANK(cb=10)%20doctypebranch:COMMITTEE)%20XRANK(cb=9)%20doctypebranch:ADMISSIBILITYCOM)%20XRANK(cb=8)%20doctypebranch:DECCOMMISSION)%20XRANK(cb=7)%20doctypebranch:COMMUNICATEDCASES)%20XRANK(cb=6)%20doctypebranch:CLIN)%20XRANK(cb=5)%20doctypebranch:ADVISORYOPINIONS)%20XRANK(cb=4)%20doctypebranch:REPORTS)%20XRANK(cb=3)%20doctypebranch:EXECUTION)%20XRANK(cb=2)%20doctypebranch:MERITS)%20XRANK(cb=1)%20doctypebranch:SCREENINGPANEL)%20XRANK(cb=4)%20importance:1)%20XRANK(cb=3)%20importance:2)%20XRANK(cb=2)%20importance:3)%20XRANK(cb=1)%20importance:4)%20XRANK(cb=2)%20languageisocode:FRE)%20XRANK(cb=1)%20languageisocode:ENG&sort=kpdate%20Descending&start=0&length=20&rankingModelId=4180000c-8692-45ca-ad63-74bc4163871b
+juridictions,CEDH|Chambres,http://hudoc.echr.coe.int/app/transform/rss?library=echrfre&query=((((((((((((((((((((%20contentsitename:ECHR%20AND%20(NOT%20(doctype=PR%20OR%20doctype=HFCOMOLD%20OR%20doctype=HECOMOLD))%20AND%20((importance=%221%22)%20OR%20(importance=%222%22)%20OR%20(importance=%223%22))%20AND%20((documentcollectionid=%22GRANDCHAMBER%22)%20OR%20(documentcollectionid=%22CHAMBER%22)%20OR%20(documentcollectionid=%22DECGRANDCHAMBER%22)%20OR%20(documentcollectionid=%22ADMISSIBILITY%22)))%20XRANK(cb=14)%20doctypebranch:GRANDCHAMBER)%20XRANK(cb=13)%20doctypebranch:DECGRANDCHAMBER)%20XRANK(cb=12)%20doctypebranch:CHAMBER)%20XRANK(cb=11)%20doctypebranch:ADMISSIBILITY)%20XRANK(cb=10)%20doctypebranch:COMMITTEE)%20XRANK(cb=9)%20doctypebranch:ADMISSIBILITYCOM)%20XRANK(cb=8)%20doctypebranch:DECCOMMISSION)%20XRANK(cb=7)%20doctypebranch:COMMUNICATEDCASES)%20XRANK(cb=6)%20doctypebranch:CLIN)%20XRANK(cb=5)%20doctypebranch:ADVISORYOPINIONS)%20XRANK(cb=4)%20doctypebranch:REPORTS)%20XRANK(cb=3)%20doctypebranch:EXECUTION)%20XRANK(cb=2)%20doctypebranch:MERITS)%20XRANK(cb=1)%20doctypebranch:SCREENINGPANEL)%20XRANK(cb=4)%20importance:1)%20XRANK(cb=3)%20importance:2)%20XRANK(cb=2)%20importance:3)%20XRANK(cb=1)%20importance:4)%20XRANK(cb=2)%20languageisocode:FRE)%20XRANK(cb=1)%20languageisocode:ENG&sort=kpdate%20Descending&start=0&length=20&rankingModelId=4180000c-8692-45ca-ad63-74bc4163871b0000c-8692-45ca-ad63-74bc4163871b
+régulation,ANSSI|Cyber,https://cyber.gouv.fr/actualites/rss/
+régulation,Autorité de la concurrence,https://www.autoritedelaconcurrence.fr/fr/rss.xml
+régulation,ARCOM,https://www.arcom.fr/rss.xml
+régulation,CNIL|Actualités,https://www.cnil.fr/fr/rss.xml
+régulation,AMF,https://www.amf-france.org/fr/flux-rss/display/21
+régulation,DGCCRF,https://www.economie.gouv.fr/dgccrf/rss
 blogs,Me NEUJANICKI|Immobilier,https://www.neujanicki.com/feed/
-blogs,ONB|Notaires,https://www.onb-france.com/actualites/feed
 blogs,Me PICOVSCHI|Affaires,https://www.avocats-picovschi.com/rss/rss.xml
 blogs,Me DUCOURAU|Urbanisme,https://blog-ducourau-avocats-urbanisme.com/feed/
 blogs,Me VENIN|Assurances,https://www.mv-avocat.fr/categorie/actualites-juridiques/feed/
-blogs,Me DELOITTE|Fiscalité,https://blog.avocats.deloitte.fr/feed/
-textes officiels,AN|Séances,http://www2.assemblee-nationale.fr/feeds/detail/crs
-textes officiels,AN|Documents,http://www2.assemblee-nationale.fr/feeds/detail/documents-parlementaires   
-textes officiels,Sénat|Textes,https://www.senat.fr/rss/textes.rss
-textes officiels,Sénat|Rapports,https://www.senat.fr/rss/rapports.rss
-finance,AMF,https://www.amf-france.org/fr/flux-rss/display/21
-finance,AFT,https://www.aft.gouv.fr/fr/rss.xml
+institutions,AN|Documents,http://www2.assemblee-nationale.fr/feeds/detail/documents-parlementaires
+institutions,Sénat|Textes,https://www.senat.fr/rss/textes.rss
+institutions,CESE,https://www.lecese.fr/rss/flux/pleniere
+institutions,INPI|PIBD,https://pibd.inpi.fr/,html-pibd-tls-incomplet
+institutions,Parlement Européen|Communiqués,https://www.europarl.europa.eu/rss/doc/articles/fr.xml
+institutions,Conseil de l'UE|Procès-verbaux des actes législatifs,https://www.consilium.europa.eu/fr/register/rss/MINLA.xml
+institutions,Conseil de l'Europe|Affaires,"https://hudoc.exec.coe.int/app/transform/rss?library=execfre&query=((contentsitename:EXEC)%20OR%20(contentsitename:ECHR%20AND%20(execdocumenttype:EXECUTION%20OR%20execdocumenttype:MERITS)))%20AND%20((execdocumenttypecollection=%22CEC%22))%20AND%20((execlanguage=%22FRE%22))&sort=execdocumenttypesorting%20ascending,execdocumentreferencesorting%20descending&start=0&rankingModelId=44444444-b0a6-44c9-bb6b-5886b928f985"
+institutions,Commission Européenne|Actualités,https://commission.europa.eu/node/33506/rss_en?prefLang=fr
 finance,BCE|Politique monétaire,https://www.ecb.europa.eu/rss/press.html
-finance,Cour des comptes|Arrêts et publications,https://www.ccomptes.fr/rss/publications
 finance,Cour des comptes|Institution,https://www.ccomptes.fr/rss/juridiction/98
+finance,Ministère de l'Economie,https://www.economie.gouv.fr/rss/toutesactualites
+finance,Cour des comptes|Actualités,https://www.ccomptes.fr/fr/rss/actualites
+finance,ACPR|Actualités,https://acpr.banque-france.fr/fr/actualites,html-acpr
+finance,Le Revenu,https://www.lerevenu.com/rss.xml
+finance,L'Agefi,https://www.agefi.fr/index.rss
 news,AFP|Actualités,"https://www.afp.com/fr/actus/afp_actualite/792,31,9,7,33/feed"
 news,Courrier international,https://www.courrierinternational.com/feed/all/rss.xml
 news,Challenges,https://www.challenges.fr/rss.xml
 news,La Tribune,https://www.latribune.fr/feed.xml
-news,Le Figaro|Actualités,https://www.lefigaro.fr/rss/figaro_actualites.xml
 news,Vie Publique|Actualités,https://www.vie-publique.fr/actualites-feeds.xml
 news,Santé publique France|Actualités,https://www.santepubliquefrance.fr/rss/news/1008
 news,INSEE|Actualités nationales,https://www.insee.fr/fr/flux/1
+news,Eurostat|Actualités,https://ec.europa.eu/eurostat/fr/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_EURNEW
+news,Conseil de l'UE,https://www.consilium.europa.eu/fr/rss/pressreleases.ashx
+news,CNRS|Le Journal,https://lejournal.cnrs.fr/rss
+news,Pour la Science,https://www.pourlascience.fr/rss.xml
+news,Actu-Environnement,https://www.actu-environnement.com/ae/news/archives/rss.php4
+news,LeMagIT,https://www.lemagit.fr/rss/ContentSyndication.xml
