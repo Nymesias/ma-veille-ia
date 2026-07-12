@@ -243,6 +243,24 @@ def est_message_personnel(sujet):
     return any(motif in sujet for motif in SUJETS_MESSAGES_PERSONNELS)
 
 
+def resume_public_newsletter(contenu_html):
+    """Extrait uniquement des libellés éditoriaux, sans corps de mail personnalisé."""
+    page = BeautifulSoup(contenu_html or "", "html.parser")
+    elements = []
+    for balise in page.select("h1, h2, h3, a[href]"):
+        texte = nettoyer_texte(balise.get_text(" ", strip=True), 300)
+        comparaison = texte.lower()
+        if len(texte) < 8 or "@" in texte:
+            continue
+        if any(mot in comparaison for mot in MOTS_LIENS_TECHNIQUES):
+            continue
+        if any(mot in comparaison for mot in SUJETS_MESSAGES_PERSONNELS):
+            continue
+        if texte not in elements:
+            elements.append(texte)
+    return nettoyer_texte(" — ".join(elements), 900)
+
+
 def collecter_newsletters(regles, cartes_precedentes):
     """Lit les messages récents sans les modifier et les convertit en cartes."""
     if not regles:
@@ -292,7 +310,7 @@ def collecter_newsletters(regles, cartes_precedentes):
                     articles_hier.append({
                         "categorie": regle["categorie"], "source": regle["source"],
                         "titre": sujet, "lien": lien, "date": date,
-                        "resume": nettoyer_texte(BeautifulSoup(contenu_html, "html.parser").get_text(" "), 900),
+                        "resume": resume_public_newsletter(contenu_html),
                         "type": "newsletter",
                     })
     except Exception as exc:
