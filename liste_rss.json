@@ -202,13 +202,13 @@
       "articles": [
         {
           "t": "Newsletter: Abonnement confirmé",
-          "l": "https://click.mailchimp.com/track/click/30010842/login.mailchimp.com?p=eyJzIjoicEFwTGN1bmZrWERvYUtBckpIU1VXM0FuYnNnIiwidiI6MiwicCI6IntcInVcIjozMDAxMDg0MixcInZcIjoyLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2xvZ2luLm1haWxjaGltcC5jb21cXFwvc2lnbnVwXFxcL2VtYWlsLXJlZmVycmFsXFxcLz9haWQ9YjVmMTJjMmI4OTZhOTBhYTBiNmQ1YzA3Y1wiLFwiaWRcIjpcIjNiZWQ3M2IyODA0NTRjMmFhNDgzMzE0Y2FjY2M2NGM2XCIsXCJ1cmxfaWRzXCI6W1wiMWZiYzEzN2ZiYzJmYWNlYWQwZGY4Yjk2Nzc0NWI1YTA4OTI3ZmNkZlwiXSxcIm1zZ190c1wiOjE3ODM4NzE2OTR9In0",
+          "l": "https://www.ccomptes.fr/fr/publications",
           "d": "2026-07-12",
           "type": "newsletter"
         },
         {
           "t": "Newsletter: Veuillez confirmer l'abonnement",
-          "l": "https://click.mailchimp.com/track/click/30010842/ccomptes.us16.list-manage.com?p=eyJzIjoiYWd4OVZxNDAwekhLU2V6enBNTjRRVWVDc0k0IiwidiI6MiwicCI6IntcInVcIjozMDAxMDg0MixcInZcIjoyLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2Njb21wdGVzLnVzMTYubGlzdC1tYW5hZ2UuY29tXFxcL3N1YnNjcmliZVxcXC9jb25maXJtP3U9YjVmMTJjMmI4OTZhOTBhYTBiNmQ1YzA3YyZpZD1jZTc5NjczODc4JmU9YjdmODgyYmZjYVwiLFwiaWRcIjpcImY4NTlkMDBhMGYzZjRlMGJiZGI3ZTdmZWZlNGFjY2U3XCIsXCJ1cmxfaWRzXCI6W1wiMTA1MDJhMzFjMmY0ZTM3MTQ0M2RjMGUyZDdlMmM5NTZkOTk0NGVjN1wiXSxcIm1zZ190c1wiOjE3ODM4NzE2NTl9In0",
+          "l": "https://www.ccomptes.fr/fr/publications",
           "d": "2026-07-12",
           "type": "newsletter"
         }
@@ -423,6 +423,11 @@
     {
       "nom_site": "INPI|PIBD",
       "articles": [
+        {
+          "t": "PIBD 1272",
+          "l": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wUm5HbTJwM3JhQVQ5V1gyQ0M5UjJlSV9CMGVMMGlDNlhUUlRpbmwzTFZfRURIM1ZCTHBsYy1pMVVBWEM2Rkl2dEtoOA?oc=5",
+          "d": "2026-07-01"
+        },
         {
           "t": "PIBD 1272",
           "l": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wUm5HbTJwM3JhQVQ5V1gyQ0M5UjJlSV9CMGVMMGlDNlhUUlRpbmwzTFZfRURIM1ZCTHBsYy1pMVVBWEM2Rkl2dEtoOA?oc=5",
@@ -658,7 +663,7 @@
       "articles": [
         {
           "t": "[Alertes] Lien unique pour accèder à vos abonnements",
-          "l": "https://acpr.banque-france.fr/fr/alertes/newsletter/gestion?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InBhdWxpbmUuaWFAZHV2ZXJ0Lm9yZyIsImdlbmVyYXRlZCI6MTc4Mzg3MDY1MSwiYWxlcnRfdHlwZSI6Im5ld3NsZXR0ZXIifQ.ut9kSmg3MJPGNs5QFDWlrlk6kSn6auqTADNONG9wjZk",
+          "l": "https://acpr.banque-france.fr/fr/actualites",
           "d": "2026-07-12",
           "type": "newsletter"
         }
