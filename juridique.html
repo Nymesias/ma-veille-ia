@@ -2,32 +2,31 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Ma Veille Personnalisée</title>
+    <title>Ma Veille Personnalisée - Ressources</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <header>
-        <h1>Veille spécialisée</h1> 
+        <h1>Veille juridique</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="news.html">News</a></li>
                 <li><a href="finance.html">Finance</a></li>
-                <li><a href="juridique.html">Juridique</a></li>
-                <li><a href="cour-cassation.html">Cour de Cassation</a></li>
+                <li><a href="juridique.html" class="active">Ressources</a></li>
+                <li><a href="jurisprudence.html">Juridictions</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <div class="tabs-bar">
-            <button class="tab-btn active" onclick="piloterOnglet(this, 'Analyse')">Analyse</button>
+            <button class="tab-btn active" onclick="piloterOnglet(this, 'Comptes-rendus')">Comptes-rendus</button>
             <button class="tab-btn" onclick="piloterOnglet(this, 'Institutions')">Institutions</button>
+            <button class="tab-btn" onclick="piloterOnglet(this, 'Régulation')">Régulation</button>
             <button class="tab-btn" onclick="piloterOnglet(this, 'Revues')">Revues</button>
             <button class="tab-btn" onclick="piloterOnglet(this, 'Blogs')">Blogs</button>
-            <button class="tab-btn" onclick="piloterOnglet(this, 'Juridictions')">Juridictions</button>
-            <button class="tab-btn" onclick="piloterOnglet(this, 'Régulation')">Régulation</button>
         </div>
 
         <div style="text-align: right; margin-bottom: 20px;">
@@ -41,11 +40,11 @@
         </div>
     </main>
 
-<script src="rss-reader.js?v=20260712-1"></script>
+<script src="rss-reader.js?v=20260714-3"></script>
 <script>
     // --- VARIABLES D'ÉTAT ---
     // On garde en mémoire l'onglet et le tri choisis par l'utilisateur
-    let ongletActif = 'Analyse';
+    let ongletActif = 'Comptes-rendus';
     let triActuel = 'date';
 
     // --- FONCTION POUR LES ONGLETS (Textes, Revues, Blogs...) ---
@@ -58,7 +57,7 @@
         ongletActif = categorie;
         
         // 3. Chargement des données de CET onglet avec le tri ACTUEL
-        if (ongletActif === 'Analyse') {
+        if (ongletActif === 'Comptes-rendus') {
             await chargerAnalyseJuridique();
             return;
         }
@@ -112,7 +111,7 @@
         btnDate.classList.remove('active');
     }
 
-    if (ongletActif === 'Analyse') {
+    if (ongletActif === 'Comptes-rendus') {
         await chargerAnalyseJuridique();
     } else {
         document.getElementById('juridique-content').classList.add('grille-veille');
@@ -125,6 +124,8 @@
     window.onload = async () => {
         // On initialise le projet (chargement du JSON)
         await initialiserProjet();
+        // Compatibilité avec les anciens caches : l'INPI appartient aux Revues.
+        reclasserSourcesRSS('revues', ['institutions'], ['INPI']);
         // On affiche le premier onglet par défaut
         await chargerAnalyseJuridique();
     };

@@ -69,6 +69,11 @@
           "d": "2026-07-01"
         }
       ]
+    },
+    {
+      "nom_site": "INPI|PIBD",
+      "type": "newsletter",
+      "articles": []
     }
   ],
   "juridictions": [
@@ -93,6 +98,188 @@
       ]
     },
     {
+      "nom_site": "CEDH",
+      "articles": [
+        {
+          "t": "AFFAIRE JESUS PINHAL c. PORTUGAL",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251320\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE BARSUK ET GYL c. UKRAINE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251354\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE ANDRONOVA ET AUTRES c. UKRAINE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251310\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE CHERTOK ET AUTRES c. RUSSIE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251289\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE CICCONE c. ITALIE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251010\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE CICCONE c. ITALIE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251009\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE DI NOCERA ET AUTRES c. ITALIE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251011\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE FEDERICO ET RADDI c. ITALIE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251311\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE GEORGANTZIAS ET AUTRES c. GRÈCE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251290\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE GRECO ET AUTRES c. ITALIE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251006\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE GRUIA ET AUTRES c. ROUMANIE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251309\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE KELEMEN EY AUTRES c. HONGRIE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251317\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE KHOPTYAR ET AUTRES c. UKRAINE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251294\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE LAZIĆ c. CROATIE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251297\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE PALMIERO ET AUTRES c. ITALIE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251012\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE PAVLIDIS ET AUTRES c. GRÈCE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251314\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE PENTARAKIS ET AUTRES c. GRÈCE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251321\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "AFFAIRE PEREZ ET AUTRES c. SUISSE",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"001-251000\"]}",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "Jesus Pinhal c. Portugal [GC]",
+          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"002-14629\"]}",
+          "d": "2026-07-09"
+        }
+      ]
+    },
+    {
+      "nom_site": "CJUE",
+      "articles": [
+        {
+          "t": "CELEX:62024CJ0771: Arrêt de la Cour (deuxième chambre) du 9 juillet 2026 — Fédération belge du stationnement ASBL et Interparking SA contre Région de Bruxelles-Capitale, représentée par son Gouvernement",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0771",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62024CJ0888: Arrêt de la Cour (troisième chambre) du 9 juillet 2026 — Adão da Fonseca-Engenheiros Consultores, Lda contre Metro do Porto, S.A. et Betar Consultores, Lda",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0888",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62025CJ0186: Arrêt de la Cour (septième chambre) du 9 juillet 2026 — Institut po ribni resursi Varna contre Rakovoditel na Natsionalnia organ po Savmestna operativna programa za transgranichno satrudnichestvo „Chernomorski baseyn 2014-2020“ i direktor na direktsia „Upravlenie na teritorialnoto",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0186",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62024CJ0856: Arrêt de la Cour (huitième chambre) du 9 juillet 2026 — Sad Trasporto Locale SpA contre Provincia autonoma di Bolzano",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0856",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62025CJ0166: Arrêt de la Cour (sixième chambre) du 9 juillet 2026 — Commission européenne contre République portugaise",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0166",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62024CJ0768: Arrêt de la Cour (septième chambre) du 9 juillet 2026 — Hortis GRC SA contre JA et France Travail Île-de-France, anciennement Pôle emploi Île-de-France",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0768",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62024CJ0199: Arrêt de la Cour (cinquième chambre) du 9 juillet 2026 — ND contre Legal Newsdesk Sweden AB, anciennement Garrapatica AB",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0199",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62025CJ0360: Arrêt de la Cour (première chambre) du 9 juillet 2026 — ***X*** contre Finanzamt für Großbetriebe",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0360",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62024CJ0242: Arrêt de la Cour (quatrième chambre) du 9 juillet 2026 — Commission européenne contre République fédérale d'Allemagne",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0242",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62025CJ0307: Arrêt de la Cour (septième chambre) du 9 juillet 2026 — KFZ Kolak e.U. contre GF",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0307",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62024CJ0224: Arrêt de la Cour (quatrième chambre) du 9 juillet 2026 — Società Eredi Raimondo Bufarini Srl – Servizi Ambientali contre Ministero dell'Interno e.a",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0224",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62025CJ0188: Arrêt de la Cour (première chambre) du 9 juillet 2026 — Štátny fond rozvoja bývania contre GL e.a",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0188",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62024CJ0788: Arrêt de la Cour (deuxième chambre) du 9 juillet 2026 — Anne Frank Fonds contre Anne Frank Stichting e.a",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0788",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62023CJ0428: Arrêt de la Cour (cinquième chambre) du 9 juillet 2026 — ROGON GmbH & Co. KG e.a. contre Deutscher Fußballbund eV (DFB)",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0428",
+          "d": "2026-07-09"
+        },
+        {
+          "t": "CELEX:62025CJ0234: Arrêt de la Cour (première chambre) du 9 juillet 2026 — Sky Österreich Fernsehen GmbH contre Verein für Konsumenteninformation",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0234",
+          "d": "2026-07-09"
+        }
+      ]
+    }
+  ],
+  "conseil-etat": [
+    {
       "nom_site": "Conseil d'Etat|LJA",
       "articles": [
         {
@@ -103,79 +290,27 @@
       ]
     },
     {
-      "nom_site": "Conseil d'Etat|Séances",
+      "nom_site": "Conseil d'Etat|Analyses",
       "articles": [
         {
-          "t": "Audience publique du 9 juillet 2026 à 9 heures 30",
-          "l": "https://www.conseil-etat.fr/decisions-de-justice/audiences-importantes/audience-publique-du-9-juillet-2026-a-9-heures-30",
-          "d": "2026-07-02"
+          "t": "Analyses du Conseil d’État du 1er au 15 juin 2026",
+          "l": "https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/analyses-de-jurisprudence/fiches-mensuelles-d-analyse-de-jurisprudence/analyses-du-conseil-d-etat-du-1er-au-15-juin-2026",
+          "d": "2026-06-29"
         }
       ]
     },
     {
-      "nom_site": "CIJ|Communiqués",
+      "nom_site": "Conseil d'Etat|Avis",
       "articles": [
         {
-          "t": "Senior Information Technology Assistant",
-          "l": "https://www.icj-cij.org/node/206446",
-          "d": "2026-07-09"
-        }
-      ]
-    },
-    {
-      "nom_site": "CJUE",
-      "articles": [
-        {
-          "t": "102/Mon Jul 13 00:00:00 CEST 2026 : Mon Jul 13 10:36:38 CEST 2026 - Audience de prestation de serment de la Cour de justice",
-          "l": "https://curia.europa.eu/site/jcms/p1_1000085102",
-          "d": "2026-07-13"
-        }
-      ]
-    },
-    {
-      "nom_site": "CEDH|Résumés",
-      "articles": [
-        {
-          "t": "Jesus Pinhal c. Portugal [GC]",
-          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"002-14629\"]}",
-          "d": "2026-07-09"
-        }
-      ]
-    },
-    {
-      "nom_site": "CEDH|Grande Chambre",
-      "articles": [
-        {
-          "t": "Weekly summary of interim measures (week of 29 June to 3 July 2026)",
-          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"003-8590395-12221679\"]}",
-          "d": "2026-07-13"
-        }
-      ]
-    },
-    {
-      "nom_site": "CEDH|Chambres",
-      "articles": [
-        {
-          "t": "Weekly summary of interim measures (week of 29 June to 3 July 2026)",
-          "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"003-8590395-12221679\"]}",
-          "d": "2026-07-13"
-        }
-      ]
-    },
-    {
-      "nom_site": "Cour des Comptes",
-      "articles": [
-        {
-          "t": "Newsletter: Abonnement confirmé",
-          "l": "https://www.ccomptes.fr/fr/publications",
-          "d": "2026-07-12",
-          "type": "newsletter"
+          "t": "Avis sur une lettre rectificative au projet de loi relatif à la protection des enfants",
+          "l": "https://www.conseil-etat.fr/avis-consultatifs/derniers-avis-rendus/au-gouvernement/avis-sur-une-lettre-rectificative-au-projet-de-loi-relatif-a-la-protection-des-enfants",
+          "d": "2026-06-25"
         },
         {
-          "t": "Newsletter: Veuillez confirmer l'abonnement",
-          "l": "https://www.ccomptes.fr/fr/publications",
-          "d": "2026-07-12",
-          "type": "newsletter"
+          "t": "Avis relatif à un projet de loi de cohésion républicaine de lutte contre le racisme et l’antisémitisme",
+          "l": "https://www.conseil-etat.fr/avis-consultatifs/derniers-avis-rendus/au-gouvernement/avis-relatif-a-un-projet-de-loi-de-cohesion-republicaine-de-lutte-contre-le-racisme-et-l-antisemitisme",
+          "d": "2026-06-25"
         }
       ]
     }
@@ -202,37 +337,12 @@
       ]
     },
     {
-      "nom_site": "ARCOM",
-      "articles": [
-        {
-          "t": "\"Nous sommes la France\" : les médias audiovisuels mobilisés pour une juste représentation de la diversité de la société française - arcom.fr",
-          "l": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNd3RLcDROX055dzZKdXhPSk8wTDQ0Q09LbjYtTUZZU0EybklFWVFOQldMbU1qY25zcUxFai1PTjZ6QXc4bmdsRnBpbzVNdGJIWnlPc1VTRXhwSVRrXzBDT0ZzRENSeWl6ZU80WEdnX0hWMzJqWVVXSXFSTGJodXZWeUJONUwyYUJOck9yOEQtajBXcXdkLWg0TlNIdVZYS3RldjR2Y0pxS0NfMDBEWXpNM1I5VDNGOXk5SHh3YlYzVjdKczFZMEFySFhLLWoxV3lvZlBUTUJKcEkyX0hjYzhxSEt2aVdsRVVJenVtLS1n?oc=5",
-          "d": "2026-07-13"
-        }
-      ]
-    },
-    {
       "nom_site": "CNIL|Actualités",
       "articles": [
         {
           "t": "Revoir le webinaire : Nouveau téléservice santé et recherche, ce qui change pour vos demandes d’autorisation",
           "l": "https://www.cnil.fr/fr/revoir-le-webinaire-nouveau-teleservice-sante-et-recherche-ce-qui-change-pour-vos-demandes",
           "d": "2026-07-10"
-        }
-      ]
-    },
-    {
-      "nom_site": "AMF",
-      "articles": [
-        {
-          "t": "L'AMF et l'ACPR mettent en garde le public contre plusieurs acteurs proposant en France des investissements sur le marché des devises non régulé (Forex) et sur des produits dérivés sur crypto-actifs, sans y être autorisés",
-          "l": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPbnZWeUxDNUFFcUFwZGhtNFY3QmE5MnNwMU5Ld0RoZTZodEZ3VDR0VGJqTjA0MXFoVXZMMXNFanN1aklEZmRGQzhTRHRXSHJEQTBhVjlMSXBOQ3R3SFZ3aVZ2MC0xWGlYY2p4RGRfdVpDTmd4VUxod0V0NXpNa2N4SFdLUkZZZDlvQk1BbkxVWkZTM1M4bzVHWkRJTDJTSFFJbFp6T3dQcktMeXctYnB1Skl2N2hvcjhBY2xYQjYwekw4ZmU4TFZ1UU01MThMY1ZodXFPbEN2OWdoVnZpT2NNRl9FVXVwQmYzMDhsQmtpUktYN18xbExrMXZSeHJhZDZaQVdoSy1CSzk?oc=5",
-          "d": "2026-07-08"
-        },
-        {
-          "t": "L'AMF met en garde le public contre plusieurs acteurs qui proposent d’investir dans des offres en biens divers sans y être autorisés",
-          "l": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNZTg3N0VjRG9uMldBQVp1d0NpRWxiWTRWSEdvQ2Z5ZFpHbVJlejYyT011Q2xVdjk1SVFhMTFHWmlBaEJaVlFWRGk3X3ZVWC16c0VOWlM0dGRoOFVPU3pyWUZNM1BQZnJzZkZoLS1XUHp0dkhoVXNxdHd6UUNseEpFZl8xNVdHUE1IVXFidElFUno0T1FMUFc2Wi1ycnIzNkgwX283aUMxbzN1TTV5SWNjcXpjaDFybVFLajZKdnMyZjdYOF9KUFBxeWpzQ0hTakxzbF94RHVqSmU4SG5JNlkwcjZyVVZoV2JZWG9RdWI0N1RPRWlVc2pOSVJYYXM2N2dHdG1wU1k5U1NYcUd1UlhUdQ?oc=5",
-          "d": "2026-07-08"
         }
       ]
     },
@@ -334,6 +444,11 @@
       "nom_site": "AN|Documents",
       "articles": [
         {
+          "t": "N° 3057 rapport - Rapport de M. Belkhir Belhaddad et M. Lionel Duparay de la commission mixte paritaire chargée de proposer un texte les dispositions restant en discussion de la proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel.",
+          "l": "https://www.assemblee-nationale.fr/17/rapports/r3057.asp",
+          "d": "2026-07-13"
+        },
+        {
           "t": "N° 3018 rapport - Rapport de Mme Nathalie Colin-Oesterlé et Mme Marianne Maximi sur le projet de loi, après engagement de la procédure accélérée, relatif à la protection des enfants, (n°2841 rectifié et lettre rectificative n°, 3000).",
           "l": "https://www.assemblee-nationale.fr/17/rapports/r3018.asp",
           "d": "2026-07-13"
@@ -376,22 +491,6 @@
       ]
     },
     {
-      "nom_site": "INPI|PIBD",
-      "articles": [
-        {
-          "t": "PIBD 1272",
-          "l": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wUm5HbTJwM3JhQVQ5V1gyQ0M5UjJlSV9CMGVMMGlDNlhUUlRpbmwzTFZfRURIM1ZCTHBsYy1pMVVBWEM2Rkl2dEtoOA?oc=5",
-          "d": "2026-07-01"
-        },
-        {
-          "t": "Création de compte - Abonnement au PIBD",
-          "l": "https://pibd.inpi.fr/",
-          "d": "2026-07-12",
-          "type": "newsletter"
-        }
-      ]
-    },
-    {
       "nom_site": "Parlement Européen|Communiqués",
       "articles": [
         {
@@ -425,16 +524,6 @@
       "nom_site": "Commission Européenne|Actualités",
       "articles": [
         {
-          "t": "NESBp: strengthening maritime spatial planning across the North Sea and Baltic Sea",
-          "l": "https://oceans-and-fisheries.ec.europa.eu/news/nesbp-strengthening-maritime-spatial-planning-across-north-sea-and-baltic-sea-2026-07-13_en",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Energy Union Task Force takes stock of oil and gas security of supply in the EU",
-          "l": "https://energy.ec.europa.eu/news/energy-union-task-force-takes-stock-oil-and-gas-security-supply-eu-2026-07-13_en",
-          "d": "2026-07-13"
-        },
-        {
           "t": "Flash Eurobarometer: Europeans call for stronger action on children's online safety, democratic resilience, defence, and the energy transition",
           "l": "https://energy.ec.europa.eu/news/flash-eurobarometer-europeans-call-stronger-action-childrens-online-safety-democratic-resilience-2026-07-13_en",
           "d": "2026-07-13"
@@ -460,13 +549,18 @@
           "d": "2026-07-13"
         },
         {
-          "t": "Commission approves €2 billion Hungarian capital injection into development bank Magyar Fejlesztési Bank",
-          "l": "https://competition-policy.ec.europa.eu/about/news/commission-approves-eur2-billion-hungarian-capital-injection-development-bank-magyar-fejlesztesi-2026-07-13_en",
+          "t": "NESBp: strengthening maritime spatial planning across the North Sea and Baltic Sea",
+          "l": "https://oceans-and-fisheries.ec.europa.eu/news/nesbp-strengthening-maritime-spatial-planning-across-north-sea-and-baltic-sea-2026-07-13_en",
           "d": "2026-07-13"
         },
         {
-          "t": "Commission approves French State aid to support offshore wind energy",
-          "l": "https://competition-policy.ec.europa.eu/about/news/commission-approves-french-state-aid-support-offshore-wind-energy-2026-07-13_en",
+          "t": "Energy Union Task Force takes stock of oil and gas security of supply in the EU",
+          "l": "https://energy.ec.europa.eu/news/energy-union-task-force-takes-stock-oil-and-gas-security-supply-eu-2026-07-13_en",
+          "d": "2026-07-13"
+        },
+        {
+          "t": "Commission approves €2 billion Hungarian capital injection into development bank Magyar Fejlesztési Bank",
+          "l": "https://competition-policy.ec.europa.eu/about/news/commission-approves-eur2-billion-hungarian-capital-injection-development-bank-magyar-fejlesztesi-2026-07-13_en",
           "d": "2026-07-13"
         },
         {
@@ -487,6 +581,11 @@
         {
           "t": "Europeans concerned about child safety online as new report publishes recommendations",
           "l": "https://commission.europa.eu/news-and-media/news/europeans-concerned-about-child-safety-online-new-report-publishes-recommendations-2026-07-13_en",
+          "d": "2026-07-13"
+        },
+        {
+          "t": "REPowerEU auction revenue target reached",
+          "l": "https://climate.ec.europa.eu/news-other-reads/news/repowereu-auction-revenue-target-reached-2026-07-13_en",
           "d": "2026-07-13"
         }
       ]
@@ -509,26 +608,6 @@
       ]
     },
     {
-      "nom_site": "AFT|Communiqués",
-      "articles": [
-        {
-          "t": "Émission de l'AFT : 7,394 milliards d’euros de BTF",
-          "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMmhKSVZKNkt3YlBJZGp5TFJ1YW5tSExYRm5SblNzdVFkc2dVQXJ0aUF6aTE0cEJqakRLNEMwUWlobmhETzB6OHlQOVBmbUM1NW9GVEtjR0JwVERYT1ZrVjBJWW9hZGtVejdUSmdsWUVpU19sWUxRX0QyODJOc0lfMXFZRXE2S3NrQ2hvb0w3aTI?oc=5",
-          "d": "2026-07-13"
-        }
-      ]
-    },
-    {
-      "nom_site": "Cour des comptes|Institution",
-      "articles": [
-        {
-          "t": "Établissement public du Palais de la découverte et de la Cité des sciences et de l’industrie (Universcience)",
-          "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVk4yekFRZVBEZHdyU1hYR1VLaFg2dDFHb1B2cUQ4NGJoT3piWXE4LTZlemxhTWtTU1RhNTN4bUdUN1VaUlo0aWRaZnRMZkR5dWdHVHJuRGlZYkZHVldzVlJaVlFJN3cwbG1oRFZLQ3hLN2EyMUNrdFVVVTlqN1VYUi1UZlVOSVgtRmVwSi1UT0pBY0lEMmg4c1NCMmNOTTlWcVNGbV81UmlhMThRTUR0NE81Wk1uMHctMnlCbQ?oc=5",
-          "d": "2026-07-07"
-        }
-      ]
-    },
-    {
       "nom_site": "Ministère de l'Economie",
       "articles": [
         {
@@ -545,26 +624,6 @@
           "t": "Crise au Moyen-Orient : toutes les mesures de soutien économique",
           "l": "https://www.economie.gouv.fr/actualites/crise-au-moyen-orient-toutes-les-mesures-de-soutien-economique",
           "d": "2026-07-09"
-        }
-      ]
-    },
-    {
-      "nom_site": "Cour des comptes|Actualités",
-      "articles": [
-        {
-          "t": "Première édition des \"Rencontres Mably\"",
-          "l": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS2tQelFRMVZuX0cwVlYxWVFrNWZvZnNSNlNZWVM3Q0p3UnZWaEgxM2JJdUFxcUplZEZnM0N6eDZHOW82b0lobjlrVWtSWTNUOEUwZ1ZuMWJvQm1LS1U5bTJFalhuX3NzQ1VSTlc5eERWbjIzNFhWTXVGMWV6Tk1ONA?oc=5",
-          "d": "2026-06-10"
-        }
-      ]
-    },
-    {
-      "nom_site": "ACPR|Actualités",
-      "articles": [
-        {
-          "t": "L'Autorité bancaire européenne franchit une nouvelle étape dans l’amélioration de l'efficacité de la supervision avec la révision du SREP",
-          "l": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM25pS0hMeHV0V0pJMzR0Z2JZSm00MFljRjREVGk5aTRQejcwZWMtS0tvVmdPSVpROVg1R2ZtMW5DcDJtRW1LUEhfQkVQSnQ2QkdaUjFsRFoxb3VycngyN2J6TGhKVXpXbmFZdFgxRzdSbkFYZGNlbm9MUG5POC1fdm93elNldngxTThxYXRPRHlUUWdiZDhsVkt0RkZENGF1UkkzUkVlUHVVa1RhaTBkdV95UHY3UmtWb3M4TzYwZzVwS1M0azBqS1p0OUFEMXlVUmp4ODhSRDA?oc=5",
-          "d": "2026-07-07"
         }
       ]
     },
@@ -639,76 +698,6 @@
         {
           "t": "TotalEnergies : le seuil des 70 euros freine encore le rebond de l'action>",
           "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/totalenergies-le-seuil-des-70-euros-freine-encore-",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Les ventes de bitcoins de Strategy fragilisent le modèle des entreprises spécialisées dans les cryptomonnaies>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/les-ventes-de-bitcoins-de-strategy-fragilisent-le-",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Fonctions addictives des réseaux sociaux : Bruxelles accuse Instagram et Facebook>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/fonctions-addictives-des-reseaux-sociaux-bruxelles",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Stellantis : des livraisons mondiales en hausse de 10 % au 2e trimestre 2026>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/stellantis-des-livraisons-mondiales-en-hausse-de-1",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Morrisons prépare un accord de 803 millions de dollars pour valoriser son patrimoine immobilier>",
-          "l": "https://www.lerevenu.com/diversifier-placements/gestion-patrimoine/morrisons-prepare-un-accord-de-803-millions-de-dol",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Meta investit plus de 50 milliards de dollars dans un méga data center dédié à l'intelligence artificielle>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/meta-investit-plus-de-50-milliards-de-dollars-dans",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Italie : la canicule menace le Parmesan>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/italie-la-canicule-menace-le-parmesan",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Cryptomonnaies : la folie SpaceX relance le débat sur les produits dérivés pré-IPO>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/cryptomonnaies-la-folie-spacex-relance-le-debat-su",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Pétrole : le Brent à 78,86 dollars le baril, proche du seuil symbolique des 80 dollars>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/petrole-le-brent-a-78-86-dollars-le-baril-proche-d",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Meta désactive le générateur d’images IA Muse d’Instagram>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/meta-desactive-le-generateur-d-images-ia-muse-d-in",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Washington intervient pour aider Nvidia à vendre ses puces IA aux Émirats arabes unis>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/washington-intervient-pour-aider-nvidia-a-vendre-s",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Défense / Helsing : une nouvelle levée de fonds de 1,8 milliard de dollars>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/defense-helsing-une-nouvelle-levee-de-fonds-de-1-8",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Volkswagen : une nouvelle vague de suppressions de postes pour rester compétitif>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/volkswagen-une-nouvelle-vague-de-suppressions-de-p",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Metavisio, la maison mère de Thomson mise sur l’Arabie saoudite>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/metavisio-la-maison-mere-de-thomson-mise-sur-l-ara",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "La nouvelle formule de Sanofi contre le myélome multiple approuvée aux États-Unis>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/la-nouvelle-formule-de-sanofi-contre-le-myelome-mu",
           "d": "2026-07-13"
         }
       ]
@@ -870,25 +859,18 @@
     },
     {
       "nom_site": "ACPR",
-      "articles": [
-        {
-          "t": "[Alertes] Lien unique pour accèder à vos abonnements",
-          "l": "https://acpr.banque-france.fr/fr/actualites",
-          "d": "2026-07-12",
-          "type": "newsletter"
-        }
-      ]
+      "type": "newsletter",
+      "articles": []
     },
     {
       "nom_site": "AMF",
-      "articles": [
-        {
-          "t": "[AMF] Confirmation d'inscription à votre abonnement",
-          "l": "https://www.amf-france.org/fr/actualites-publications",
-          "d": "2026-07-12",
-          "type": "newsletter"
-        }
-      ]
+      "type": "newsletter",
+      "articles": []
+    },
+    {
+      "nom_site": "AFT",
+      "type": "newsletter",
+      "articles": []
     }
   ],
   "news": [
@@ -938,26 +920,6 @@
         {
           "t": "Un “T. rex” pourrait devenir le fossile le plus cher de tous les temps",
           "l": "https://www.courrierinternational.com/article/paleontologie-un-t-rex-pourrait-devenir-le-fossile-le-plus-cher-de-tous-les-temps_249285",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "L’Europe a augmenté ses importations de gaz russe avant l’interdiction totale",
-          "l": "https://www.courrierinternational.com/article/energie-l-europe-a-augmente-ses-importations-de-gaz-russe-avant-l-interdiction-totale_248990",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Avant sa demi-finale contre la France, l’Espagne prie pour un nouvel “éclair de génie” de Lamine Yamal",
-          "l": "https://www.courrierinternational.com/article/coupe-du-monde-avant-sa-demi-finale-contre-la-france-l-espagne-prie-pour-un-nouvel-eclair-de-genie-de-lamine-yamal_248988",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Des militaires ukrainiens pour le défilé du 14 Juillet, un succès diplomatique pour Kiev",
-          "l": "https://www.courrierinternational.com/article/vu-d-ukraine-des-militaires-ukrainiens-pour-le-defile-du-14-juillet-un-succes-diplomatique-pour-kiev_249387",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Avec la mort du sénateur Lindsey Graham, l’Ukraine perd son “plus influent défenseur” à Washington",
-          "l": "https://www.courrierinternational.com/article/etats-unis-avec-la-mort-du-senateur-lindsey-graham-l-ukraine-perd-son-plus-influent-defenseur-a-washington_249022",
           "d": "2026-07-13"
         }
       ]
@@ -1109,31 +1071,6 @@
           "t": "La France manque d'eau : 98 départements sous surveillance, les restrictions se généralisent",
           "l": "https://www.latribune.fr/article/climat/16221994462136/la-france-manque-deau-98-departements-sous-surveillance-les-restrictions-se-generalisent",
           "d": "2026-07-13"
-        },
-        {
-          "t": "Coupe du monde : France-Espagne, ou les destins croisés d'Aymeric Laporte, Théo et Lucas Hernandez",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/sports/69557553079570/coupe-du-monde-france-espagne-ou-les-destins-croises-daymeric-laporte-theo-et-lucas-hernandez",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Coupe du monde : la dynastie bleue règne sur le football mondial depuis bientôt trente ans",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/sports/44736839330289/coupe-du-monde-la-dynastie-bleue-regne-sur-le-football-mondial-depuis-bientot-trente-ans",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Espionnage, furtivité, sabotage : comment Turla est devenu l'arme numérique de Moscou",
-          "l": "https://www.latribune.fr/article/tech/68280427627361/espionnage-furtivite-sabotage-comment-turla-est-devenu-larme-numerique-de-moscou",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Bruxelles donne son feu vert au méga-plan français de 63 milliards pour l'éolien offshore",
-          "l": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/33062144217435/bruxelles-donne-son-feu-vert-au-mega-plan-francais-de-63-milliards-pour-leolien-offshore",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Nouveau cap pour EHP",
-          "l": "https://air-cosmos.latribune.fr/article/espace/83010987111043/nouveau-cap-pour-ehp",
-          "d": "2026-07-13"
         }
       ]
     },
@@ -1241,7 +1178,7 @@
           "d": "2026-07-13"
         },
         {
-          "t": "Sudan: Council strengthens EU sanctions regime by targeting gold trade",
+          "t": "Soudan: le Conseil renforce le régime de sanctions de l'UE en ciblant le commerce de l'or",
           "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/sudan-council-strengthens-eu-sanctions-regime-by-targeting-gold-trade/",
           "d": "2026-07-13"
         },
@@ -1256,7 +1193,7 @@
           "d": "2026-07-13"
         },
         {
-          "t": "Council adopts targeted measures to support farmers facing high fertiliser costs",
+          "t": "Le Conseil adopte des mesures ciblées pour soutenir les agriculteurs confrontés aux coûts élevés des engrais",
           "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/council-adopts-targeted-measures-to-support-farmers-facing-high-fertiliser-costs/",
           "d": "2026-07-13"
         },
@@ -1266,7 +1203,7 @@
           "d": "2026-07-13"
         },
         {
-          "t": "Cyber / Russia: Statement by the High Representative on behalf of the European Union denouncing Russia’s malicious cyber ecosystem targeting the EU, its member states and international partners",
+          "t": "Cyberattaques/Russie: déclaration de la haute représentante, au nom de l'Union européenne, dénonçant le cyberécosystème malveillant de la Russie ciblant l'UE, ses États membres et des partenaires internationaux",
           "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/cyber-russia-statement-by-the-high-representative-on-behalf-of-the-european-union-denouncing-russia-s-malicious-cyber-ecosystem-targeting-the-eu-its-member-states-and-international-partners/",
           "d": "2026-07-13"
         }
@@ -1366,6 +1303,13 @@
           "d": "2026-07-09"
         }
       ]
+    }
+  ],
+  "cour-comptes": [
+    {
+      "nom_site": "Cour des Comptes",
+      "type": "newsletter",
+      "articles": []
     }
   ]
 }

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Veille Personnalisée - Conseil d'État</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        .ce-intro { color: #52606d; text-align: center; margin: -10px auto 24px; max-width: 760px; }
+        .ce-panel[hidden] { display: none; }
+        .ce-status { text-align: center; padding: 45px 20px; color: #607080; }
+        .ce-updated { color: #607080; font-size: .85rem; margin-bottom: 18px; }
+        .ce-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+        .ce-card { background: #fff; border: 1px solid #dce4ea; border-radius: 10px; padding: 20px; }
+        .ce-card h2 { margin: 10px 0; font-size: 1.15rem; }
+        .ce-card p { line-height: 1.55; }
+        .ce-meta { color: #607080; font-size: .88rem; }
+        .ce-badge { display: inline-block; color: #20618a; background: #eaf5fb; border-radius: 20px; padding: 4px 10px; font-size: .78rem; font-weight: 700; }
+        .ce-link { display: inline-block; margin-top: 8px; font-weight: 700; }
+        #rss-sort { text-align: right; margin-bottom: 20px; }
+        @media (max-width: 700px) { .tabs-bar { flex-wrap: wrap; } .tab-btn { flex: 1 1 45%; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Actualités du Conseil d'État</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="finance.html">Finance</a></li>
+                <li><a href="juridique.html">Ressources</a></li>
+                <li><a href="jurisprudence.html">Juridictions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p class="ce-intro">Analyses de veille administrative, flux RSS officiels et dernières décisions publiées sur l'open data officiel.</p>
+        <div class="tabs-bar" role="tablist" aria-label="Contenus du Conseil d'État">
+            <button class="tab-btn active" role="tab" aria-selected="true" data-tab="analyses">Analyses</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="rss">Flux RSS</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="decisions">Dernières décisions</button>
+        </div>
+
+        <section id="panel-analyses" class="ce-panel" role="tabpanel"><div class="ce-status">Chargement des analyses…</div></section>
+        <section id="panel-rss" class="ce-panel" role="tabpanel" hidden>
+            <div id="rss-sort">
+                <span style="font-size:.8em;color:#666">Trier par : </span>
+                <button class="btn-tri active" data-sort="date">Date</button>
+                <button class="btn-tri" data-sort="source">Source</button>
+            </div>
+            <div id="juradmin-content" class="grille-veille"><p>Chargement des flux…</p></div>
+        </section>
+        <section id="panel-decisions" class="ce-panel" role="tabpanel" hidden><div class="ce-status">Chargement des décisions…</div></section>
+    </main>
+
+    <script src="rss-reader.js?v=20260714-3"></script>
+    <script>
+        const etatCharge = { analyses: false, rss: false, decisions: false };
+        let triRSS = 'date';
+
+        function echapper(valeur) {
+            const element = document.createElement('div');
+            element.textContent = valeur == null ? '' : String(valeur);
+            return element.innerHTML;
+        }
+
+        function dateFrancaise(valeur) {
+            if (!valeur) return '';
+            const date = new Date(/^\d{4}-\d{2}-\d{2}$/.test(valeur) ? `${valeur}T12:00:00` : valeur);
+            return Number.isNaN(date.getTime()) ? valeur : date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+        }
+
+        async function chargerAnalyses() {
+            const zone = document.getElementById('panel-analyses');
+            try {
+                const res = await fetch('liste_md.json', { cache: 'no-store' });
+                if (!res.ok) throw new Error('Liste indisponible');
+                const fichiers = (await res.json()).filter(item => item.nom_fichier.toLowerCase().includes('conseil-etat'));
+                if (!fichiers.length) { zone.innerHTML = '<p class="ce-status">Aucune analyse du Conseil d\'État disponible.</p>'; return; }
+                const contenus = await Promise.all(fichiers.map(async item => {
+                    const chemin = item.nom_fichier.split('/').map(encodeURIComponent).join('/');
+                    const reponse = await fetch(`markdown/${chemin}`);
+                    if (!reponse.ok) return '';
+                    return `<article class="post-md" style="margin-bottom:40px"><small>Publié le ${echapper(item.date_affichage)}</small><div class="article-body">${marked.parse(await reponse.text())}</div></article>`;
+                }));
+                zone.innerHTML = contenus.join('');
+            } catch (erreur) {
+                console.error('Erreur analyses Conseil d’État :', erreur);
+                zone.innerHTML = '<p class="ce-status">Impossible de charger les analyses.</p>';
+            }
+        }
+
+        async function chargerDecisions() {
+            const zone = document.getElementById('panel-decisions');
+            try {
+                const res = await fetch(`decisions_conseil_etat.json?v=${Date.now()}`, { cache: 'no-store' });
+                if (!res.ok) throw new Error('Cache indisponible');
+                const data = await res.json();
+                const decisions = Array.isArray(data.decisions) ? data.decisions.filter(item => item.date === data.date_cible) : [];
+                if (!decisions.length) { zone.innerHTML = '<p class="ce-status">Aucune décision récente disponible.</p>'; return; }
+                zone.innerHTML = `<p class="ce-updated">Uniquement les décisions les plus récentes, rendues le ${echapper(dateFrancaise(data.date_cible))} — ${decisions.length} résultat(s). <a href="${echapper(data.source)}" target="_blank" rel="noopener noreferrer">Recherche open data officielle</a></p>
+                    <div class="ce-grid">${decisions.map(decision => `<article class="ce-card">
+                        <span class="ce-badge">${echapper(decision.type || 'Décision')}</span>
+                        <h2>Dossier n° ${echapper(decision.numero)}</h2>
+                        <p class="ce-meta">${echapper(decision.juridiction)}${decision.formation ? ` · ${echapper(decision.formation)}` : ''}</p>
+                        ${decision.publication ? `<p><strong>Publication :</strong> ${echapper(decision.publication)}</p>` : ''}
+                        ${decision.ecli ? `<p class="ce-meta">${echapper(decision.ecli)}</p>` : ''}
+                        <a class="ce-link" href="${echapper(decision.url)}" target="_blank" rel="noopener noreferrer">Consulter sur l'open data →</a>
+                    </article>`).join('')}</div>`;
+            } catch (erreur) {
+                console.error('Erreur décisions Conseil d’État :', erreur);
+                zone.innerHTML = '<p class="ce-status">Les dernières décisions ne sont pas encore synchronisées.</p>';
+            }
+        }
+
+        async function afficherOnglet(nom) {
+            document.querySelectorAll('.tab-btn[data-tab]').forEach(bouton => {
+                const actif = bouton.dataset.tab === nom;
+                bouton.classList.toggle('active', actif);
+                bouton.setAttribute('aria-selected', String(actif));
+            });
+            document.querySelectorAll('.ce-panel').forEach(panel => { panel.hidden = panel.id !== `panel-${nom}`; });
+            if (etatCharge[nom]) return;
+            etatCharge[nom] = true;
+            if (nom === 'analyses') await chargerAnalyses();
+            if (nom === 'rss') await chargerFluxRSS('conseil-etat', 'juradmin-content', triRSS);
+            if (nom === 'decisions') await chargerDecisions();
+        }
+
+        document.querySelectorAll('.tab-btn[data-tab]').forEach(bouton => bouton.addEventListener('click', () => afficherOnglet(bouton.dataset.tab)));
+        document.querySelectorAll('[data-sort]').forEach(bouton => bouton.addEventListener('click', async () => {
+            triRSS = bouton.dataset.sort;
+            document.querySelectorAll('[data-sort]').forEach(item => item.classList.toggle('active', item === bouton));
+            await chargerFluxRSS('conseil-etat', 'juradmin-content', triRSS);
+        }));
+        afficherOnglet('analyses');
+    </script>
+</body>
+</html>

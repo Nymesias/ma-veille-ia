@@ -1,5 +1,4 @@
 import csv
-import fnmatch
 import html
 import imaplib
 import json
@@ -13,7 +12,7 @@ from email import message_from_bytes, policy
 from email.header import Header, decode_header, make_header
 from email.mime.text import MIMEText
 from email.utils import parseaddr, parsedate_to_datetime
-from urllib.parse import urljoin
+from urllib.parse import quote, urljoin
 
 import feedparser
 import markdown
@@ -41,14 +40,18 @@ FICHIER_LISTE_RSS = "liste_rss.json"
 FICHIER_LISTE_MD = "liste_md.json"
 FICHIER_LETTRES = "lettres_cour_cassation.json"
 FICHIER_DECISIONS = "decisions_judilibre.json"
+FICHIER_DECISIONS_CONSEIL_ETAT = "decisions_conseil_etat.json"
 FICHIER_QUOTA_MISTRAL = ".mistral_quota.json"
 
 JUDILIBRE_PUBLIC_URL = "https://www.courdecassation.fr/recherche-judilibre"
+CONSEIL_ETAT_RECHERCHE_URL = "https://opendata.justice-administrative.fr/recherche"
+CONSEIL_ETAT_DECISIONS_URL = (
+    "https://opendata.justice-administrative.fr/recherche/api/elastic/decisions/CE"
+)
 JURIDIQUE_ANALYSE_CATEGORIES = {
     "revues",
     "blogs",
     "institutions",
-    "juridictions",
     "régulation",
 }
 
@@ -75,6 +78,8 @@ SOUS_DOSSIERS_MD = {
     "finance": "finance",
     "juridique-analyse": "juridique",
     "cour-de-cassation": "cour-cassation",
+    "conseil-etat": "conseil-etat",
+    "jurisprudence": "jurisprudence",
 }
 
 
@@ -156,7 +161,7 @@ def charger_sources():
 
 
 def charger_newsletters():
-    """Charge les règles expéditeur/sujet utilisées pour classer les newsletters."""
+    """Charge les règles de classement des newsletters par expéditeur."""
     if not os.path.exists(FICHIER_NEWSLETTERS):
         return []
     with open(FICHIER_NEWSLETTERS, newline="", encoding="utf-8-sig") as fichier:
@@ -167,16 +172,9 @@ def charger_newsletters():
             categorie = (regle.get("categorie") or "").strip().lower()
             source = (regle.get("source") or "").strip()
             expediteur = (regle.get("expediteur") or "").strip().lower()
-            sujet = (regle.get("sujet") or "*").strip().lower()
-            url_publique = (regle.get("url_publique") or "").strip()
-            if url_publique and not url_publique.startswith(("https://", "http://")):
-                raise ValueError(
-                    f"Ligne {numero} invalide dans {FICHIER_NEWSLETTERS}: URL publique non sûre."
-                )
             if categorie and source and expediteur:
                 regles.append({"categorie": categorie, "source": source,
-                               "expediteur": expediteur, "sujet": sujet or "*",
-                               "url_publique": url_publique})
+                               "expediteur": expediteur})
         return regles
 
 
@@ -221,12 +219,15 @@ def lien_principal_newsletter(contenu_html):
     return ""
 
 
-def regle_pour_message(regles, adresse, sujet):
-    adresse, sujet = adresse.lower(), sujet.lower()
+def regle_pour_message(regles, adresses):
+    """Classe un message à partir de toutes ses adresses d'expédition utiles."""
+    adresses = {adresse.lower() for adresse in adresses if adresse}
     for regle in regles:
         motif = regle["expediteur"]
-        correspond = adresse.endswith(motif) if motif.startswith("@") else fnmatch.fnmatch(adresse, motif)
-        if correspond and fnmatch.fnmatch(sujet, regle["sujet"]):
+        if any(
+            adresse.endswith(motif) if motif.startswith("@") else adresse == motif
+            for adresse in adresses
+        ):
             return regle
     return None
 
@@ -235,6 +236,7 @@ SUJETS_MESSAGES_PERSONNELS = (
     "confirmation", "confirmez", "confirm your", "activation", "activez",
     "création de compte", "creation de compte", "vérifiez votre", "verifiez votre",
     "verify your", "mot de passe", "password", "code de sécurité", "security code",
+    "accéder à vos abonnements", "accèder à vos abonnements",
 )
 
 
@@ -267,54 +269,55 @@ def collecter_newsletters(regles, cartes_precedentes):
         return {}, []
     utilisateur = os.getenv("IMAP_USERNAME") or os.getenv("EMAIL_SENDER")
     mot_de_passe = os.getenv("IMAP_PASSWORD") or os.getenv("EMAIL_PASSWORD")
-    if not utilisateur or not mot_de_passe:
-        print("Variables IMAP/EMAIL manquantes: newsletters ignorées.")
-        return {}, []
     hote = os.getenv("IMAP_HOST", "imap.bookmyname.com")
     port = int(os.getenv("IMAP_PORT", "993"))
     dossier = os.getenv("IMAP_FOLDER", "INBOX")
     jours = max(1, int(os.getenv("IMAP_LOOKBACK_DAYS", "30")))
     depuis = (MAINTENANT - timedelta(days=jours)).strftime("%d-%b-%Y")
     par_source, articles_hier = {}, []
-    try:
-        with imaplib.IMAP4_SSL(hote, port) as boite:
-            boite.login(utilisateur.strip(), mot_de_passe.strip())
-            statut, _ = boite.select(dossier, readonly=True)
-            if statut != "OK":
-                raise RuntimeError(f"dossier IMAP inaccessible: {dossier}")
-            statut, resultat = boite.uid("search", None, "SINCE", depuis)
-            if statut != "OK":
-                raise RuntimeError("recherche IMAP impossible")
-            for uid in reversed(resultat[0].split()):
-                statut, donnees = boite.uid("fetch", uid, "(BODY.PEEK[])")
-                if statut != "OK" or not donnees or not isinstance(donnees[0], tuple):
-                    continue
-                message = message_from_bytes(donnees[0][1], policy=policy.default)
-                sujet = decoder_entete(message.get("Subject")) or "Newsletter sans titre"
-                adresse = parseaddr(decoder_entete(message.get("From")))[1].lower()
-                regle = regle_pour_message(regles, adresse, sujet)
-                if not regle or est_message_personnel(sujet):
-                    continue
-                date = normaliser_date_publication(message.get("Date"))
-                if not date:
-                    continue
-                contenu_html = extraire_html_newsletter(message)
-                # Ne jamais publier les redirections contenues dans le courriel : elles
-                # peuvent embarquer un identifiant de suivi ou ouvrir un espace personnel.
-                lien = regle["url_publique"]
-                cle = (regle["categorie"], regle["source"])
-                par_source.setdefault(cle, []).append(
-                    {"t": sujet, "l": lien, "d": date, "type": "newsletter"}
-                )
-                if date == HIER:
-                    articles_hier.append({
-                        "categorie": regle["categorie"], "source": regle["source"],
-                        "titre": sujet, "lien": lien, "date": date,
-                        "resume": resume_public_newsletter(contenu_html),
-                        "type": "newsletter",
-                    })
-    except Exception as exc:
-        print(f"Erreur de collecte IMAP: {exc}")
+    if not utilisateur or not mot_de_passe:
+        print("Variables IMAP/EMAIL manquantes: dernières newsletters conservées.")
+    else:
+        try:
+            with imaplib.IMAP4_SSL(hote, port) as boite:
+                boite.login(utilisateur.strip(), mot_de_passe.strip())
+                statut, _ = boite.select(dossier, readonly=True)
+                if statut != "OK":
+                    raise RuntimeError(f"dossier IMAP inaccessible: {dossier}")
+                statut, resultat = boite.uid("search", None, "SINCE", depuis)
+                if statut != "OK":
+                    raise RuntimeError("recherche IMAP impossible")
+                for uid in reversed(resultat[0].split()):
+                    statut, donnees = boite.uid("fetch", uid, "(BODY.PEEK[])")
+                    if statut != "OK" or not donnees or not isinstance(donnees[0], tuple):
+                        continue
+                    message = message_from_bytes(donnees[0][1], policy=policy.default)
+                    sujet = decoder_entete(message.get("Subject")) or "Newsletter sans titre"
+                    adresses = {
+                        parseaddr(decoder_entete(message.get(entete)))[1].lower()
+                        for entete in ("From", "Sender", "Reply-To", "Return-Path")
+                    }
+                    regle = regle_pour_message(regles, adresses)
+                    if not regle or est_message_personnel(sujet):
+                        continue
+                    date = normaliser_date_publication(message.get("Date"))
+                    if not date:
+                        continue
+                    contenu_html = extraire_html_newsletter(message)
+                    lien = lien_principal_newsletter(contenu_html)
+                    cle = (regle["categorie"], regle["source"])
+                    par_source.setdefault(cle, []).append(
+                        {"t": sujet, "l": lien, "d": date, "type": "newsletter"}
+                    )
+                    if date == HIER:
+                        articles_hier.append({
+                            "categorie": regle["categorie"], "source": regle["source"],
+                            "titre": sujet, "lien": lien, "date": date,
+                            "resume": resume_public_newsletter(contenu_html),
+                            "type": "newsletter",
+                        })
+        except Exception as exc:
+            print(f"Erreur de collecte IMAP: {exc}; dernières newsletters conservées.")
 
     data = {}
     for regle in regles:
@@ -325,18 +328,34 @@ def collecter_newsletters(regles, cartes_precedentes):
             articles = [article for article in articles if article["d"] == date_recente]
         else:
             articles = cartes_precedentes.get(cle, [])
+            if not articles:
+                # Une source peut changer d'onglet sans que sa dernière carte disparaisse.
+                articles = next(
+                    (
+                        cartes
+                        for (ancienne_categorie, ancienne_source), cartes
+                        in cartes_precedentes.items()
+                        if ancienne_source.casefold() == regle["source"].casefold()
+                    ),
+                    [],
+                )
             articles = [
                 {
                     **article,
-                    "l": regle["url_publique"],
+                    "l": article.get("l", ""),
                     "type": "newsletter",
                 }
                 for article in articles
                 if article.get("type") == "newsletter"
+                and not est_message_personnel(article.get("t", ""))
             ]
         sources = data.setdefault(regle["categorie"], [])
         if not any(source["nom_site"] == regle["source"] for source in sources):
-            sources.append({"nom_site": regle["source"], "articles": articles})
+            sources.append({
+                "nom_site": regle["source"],
+                "type": "newsletter",
+                "articles": articles,
+            })
     return data, articles_hier
 
 
@@ -347,6 +366,8 @@ def fusionner_newsletters(data_rss, data_newsletters):
         for source in sources:
             if source["nom_site"] in par_nom:
                 par_nom[source["nom_site"]]["articles"].extend(source["articles"])
+                if source.get("type"):
+                    par_nom[source["nom_site"]]["type"] = source["type"]
             else:
                 existantes.append(source)
 
@@ -550,6 +571,22 @@ def normaliser_entrees_google_officiel(entrees):
     return actualites[:30]
 
 
+def normaliser_entrees_eurlex_cjue(entrees):
+    """Extrait la date placée dans le titre des flux personnalisés EUR-Lex."""
+    resultats = []
+    for entree in entrees:
+        titre_brut = nettoyer_texte(entree.get("title", ""), 3000)
+        parties = [partie.strip().rstrip(".") for partie in titre_brut.split("#") if partie.strip()]
+        titre = " — ".join(parties[:2]) if parties else "Sans titre"
+        resultats.append({
+            **dict(entree),
+            "title": titre,
+            "date_normalisee": normaliser_date_publication(titre_brut),
+            "summary": " — ".join(parties[2:]),
+        })
+    return resultats
+
+
 def charger_cartes_precedentes():
     """Charge les dernières cartes publiées pour résister aux pannes temporaires."""
     if not os.path.exists(FICHIER_LISTE_RSS):
@@ -564,6 +601,14 @@ def charger_cartes_precedentes():
         for categorie, sources in data.items()
         for source in sources
     }
+
+
+def cle_dedoublonnage_lien(lien):
+    """Conserve le fragment HUDOC, qui contient l'identifiant unique du document."""
+    lien = (lien or "").strip().rstrip("/")
+    if "hudoc.echr.coe.int/" in lien.lower():
+        return lien.lower()
+    return lien.split("#", 1)[0].rstrip("/").lower()
 
 
 def collecter_articles(sources):
@@ -600,6 +645,8 @@ def collecter_articles(sources):
                 entrees = normaliser_entrees_google_acpr(entrees)
             elif type_source == "rss-google-officiel":
                 entrees = normaliser_entrees_google_officiel(entrees)
+            elif type_source == "rss-eurlex-cjue":
+                entrees = normaliser_entrees_eurlex_cjue(entrees)
             if not entrees:
                 print(f"Avertissement flux {nom_source}: aucune entrée exploitable.")
 
@@ -658,7 +705,7 @@ def collecter_articles(sources):
             liens_vus = set()
             for article in articles_collectes:
                 if article["date"] == date_reference:
-                    cle_lien = article["lien"].split("#", 1)[0].rstrip("/").lower()
+                    cle_lien = cle_dedoublonnage_lien(article["lien"])
                     if cle_lien in liens_vus:
                         continue
                     liens_vus.add(cle_lien)
@@ -1037,24 +1084,95 @@ def collecter_decisions_judilibre():
     return decisions
 
 
+PUBLICATIONS_CONSEIL_ETAT = {
+    "A": "Publié au recueil Lebon",
+    "B": "Mentionné aux tables du recueil Lebon",
+    "C": "Inédit au recueil Lebon",
+    "D": "Non publié au recueil Lebon",
+    "Z": "Non renseigné",
+}
+
+
+def collecter_decisions_conseil_etat():
+    """Conserve uniquement les décisions CE de la date la plus récente de l'open data."""
+    entetes = {"User-Agent": "MaVeilleIA/1.0 (veille personnelle)"}
+    try:
+        reponse = requests.get(CONSEIL_ETAT_DECISIONS_URL, headers=entetes, timeout=60)
+        reponse.raise_for_status()
+        resultats = (
+            reponse.json().get("decisions", {}).get("body", {})
+            .get("hits", {}).get("hits", [])
+        )
+    except Exception as exc:
+        raise RuntimeError(f"Erreur open data Conseil d'État: {exc}") from exc
+
+    sources = [
+        resultat.get("_source", {})
+        for resultat in resultats
+        if resultat.get("_source", {}).get("Code_Juridiction") == "CE"
+    ]
+    date_cible = max(
+        (source.get("Date_Lecture", "") for source in sources),
+        default="",
+    )
+    decisions = []
+    for source in sources:
+        if source.get("Date_Lecture") != date_cible:
+            continue
+        numero = str(source.get("Numero_Dossier") or "").strip()
+        code_publication = str(source.get("Code_Publication") or "").strip()
+        decisions.append({
+            "id": source.get("Identification", ""),
+            "date": date_cible,
+            "numero": numero,
+            "juridiction": source.get("Nom_Juridiction") or "Conseil d'État",
+            "formation": source.get("Formation_Jugement", ""),
+            "type": source.get("Type_Decision") or "Décision",
+            "ecli": "" if source.get("Numero_ECLI") == "undefined" else source.get("Numero_ECLI", ""),
+            "publication": PUBLICATIONS_CONSEIL_ETAT.get(code_publication, code_publication),
+            "mis_en_ligne": source.get("lastModified", ""),
+            "url": f"{CONSEIL_ETAT_RECHERCHE_URL}/CE/{quote(numero)}" if numero else CONSEIL_ETAT_RECHERCHE_URL,
+        })
+    decisions.sort(key=lambda item: (item.get("type", ""), item.get("numero", "")))
+
+    with open(FICHIER_DECISIONS_CONSEIL_ETAT, "w", encoding="utf-8") as fichier:
+        json.dump({
+            "mis_a_jour": MAINTENANT.isoformat(timespec="seconds"),
+            "date_cible": date_cible,
+            "total": len(decisions),
+            "source": CONSEIL_ETAT_RECHERCHE_URL,
+            "juridiction": "CE",
+            "decisions": decisions,
+        }, fichier, indent=2, ensure_ascii=False)
+    print(f"{len(decisions)} décisions du Conseil d'État collectées pour le {date_cible}.")
+    return decisions
+
+
+def sources_analyse_conseil_etat(articles, decisions):
+    """Prépare les flux du Conseil d'État et ses dernières décisions pour l'analyse dédiée."""
+    sources = [article for article in articles if article.get("categorie") == "conseil-etat"]
+    for decision in decisions:
+        details = [valeur for valeur in (
+            decision.get("formation"), decision.get("type"),
+            decision.get("publication"), decision.get("ecli"),
+        ) if valeur]
+        sources.append({
+            "categorie": "décisions open data du Conseil d'État",
+            "source": decision.get("juridiction") or "Conseil d'État",
+            "titre": f"{decision.get('type', 'Décision')} n° {decision.get('numero', '')}".strip(),
+            "lien": decision.get("url", CONSEIL_ETAT_RECHERCHE_URL),
+            "date": decision.get("date", ""),
+            "resume": " · ".join(details),
+        })
+    return sources
+
+
 def articles_pour(cible, articles):
     if cible == "news":
         return [article for article in articles if article["categorie"] == "news"]
     if cible == "finance":
-        mots_cles = (
-            "marché", "bourse", "action", "obligation", "taux", "inflation",
-            "dette", "déficit", "budget", "finances publiques", "comptes publics",
-            "économie", "croissance", "récession", "emploi", "chômage", "pib",
-            "banque", "crédit", "monétaire", "amf", "acpr", "bce", "régulation",
-        )
-        selection = []
-        for article in articles:
-            texte = " ".join(
-                (article["source"], article["titre"], article["resume"])
-            ).lower()
-            if article["categorie"] == "finance" or any(mot in texte for mot in mots_cles):
-                selection.append(article)
-        return selection
+        return [article for article in articles
+                if article.get("categorie") in {"finance", "cour-comptes"}]
     if cible == "cour-de-cassation":
         return [
             article
@@ -1065,6 +1183,39 @@ def articles_pour(cible, articles):
     return articles
 
 
+def selection_jurisprudence(articles, sources_cassation, sources_conseil_etat):
+    """Réunit les données de chacun des onglets de la page Juridictions."""
+    sources = []
+    sources.extend({**source, "categorie": "Cour de cassation"} for source in sources_cassation)
+    sources.extend({**source, "categorie": "Conseil d'État"} for source in sources_conseil_etat)
+    for article in articles:
+        if article.get("categorie") != "juridictions":
+            continue
+        texte = texte_article(article)
+        if "constitutionnel" in texte:
+            categorie = "Conseil constitutionnel"
+        elif "cjue" in texte or "union européenne" in texte:
+            categorie = "CJUE"
+        elif "cedh" in texte or "droits de l'homme" in texte:
+            categorie = "CEDH"
+        else:
+            continue
+        sources.append({**article, "categorie": categorie})
+
+    sources = [source for source in sources if source.get("date") == HIER]
+    # Placer d'abord une donnée de chaque onglet garantit qu'elle survive au plafond
+    # d'entrée de Mistral; les autres données complètent ensuite le panorama.
+    selection, retenues = [], set()
+    for categorie in ("Cour de cassation", "Conseil d'État", "Conseil constitutionnel", "CJUE", "CEDH"):
+        for source in sources:
+            if source.get("categorie") == categorie:
+                selection.append(source)
+                retenues.add(id(source))
+                break
+    selection.extend(source for source in sources if id(source) not in retenues)
+    return selection
+
+
 def texte_article(article):
     return " ".join(
         str(article.get(champ, ""))
@@ -1072,23 +1223,16 @@ def texte_article(article):
     ).lower()
 
 
-def selection_analyse_juridique(articles, sources_cassation, analyse_cassation=None):
+def selection_analyse_juridique(articles, sources_cassation=None, analyse_cassation=None):
     """Prepare une selection juridique compacte et equilibree pour Mistral."""
     articles_juridiques = [
         article
         for article in articles
         if article.get("categorie") in JURIDIQUE_ANALYSE_CATEGORIES
     ]
-    if analyse_cassation:
-        cassation = [{**analyse_cassation, "categorie": "cour de cassation"}]
-    else:
-        cassation = [
-            {**source, "categorie": "cour de cassation"}
-            for source in sources_cassation
-        ]
     candidats = [
         article
-        for article in articles_juridiques + cassation
+        for article in articles_juridiques
         if article.get("date") == HIER
     ]
 
@@ -1099,12 +1243,10 @@ def selection_analyse_juridique(articles, sources_cassation, analyse_cassation=N
         if "cour de cassation" in texte:
             return 1
         ordre_categories = {
-            "juridictions": 2,
-            "régulation": 3,
-            "institutions": 4,
-            "revues": 5,
-            "blogs": 6,
-            "cour de cassation": 1,
+            "régulation": 2,
+            "institutions": 3,
+            "revues": 4,
+            "blogs": 5,
         }
         return ordre_categories.get(article.get("categorie"), 9)
 
@@ -1131,9 +1273,7 @@ def selection_analyse_juridique(articles, sources_cassation, analyse_cassation=N
         "institutions",
         "revues",
         "blogs",
-        "juridictions",
         "régulation",
-        "cour de cassation",
     ):
         for article in candidats:
             if article.get("categorie") == categorie:
@@ -1155,6 +1295,9 @@ def source_depuis_markdown(cible, contenu):
     titres = {
         "juridique-analyse": "Actualités Juridiques",
         "cour-de-cassation": "Analyse Cour de cassation",
+        "news": "Comptes-rendus News",
+        "finance": "Comptes-rendus Finance",
+        "jurisprudence": "Comptes-rendus Jurisprudence",
     }
     return {
         "categorie": "analyse ia",
@@ -1166,18 +1309,9 @@ def source_depuis_markdown(cible, contenu):
     }
 
 
-def sources_synthese_generale(articles, analyse_juridique=None, analyse_cassation=None):
-    """Utilise une synthese juridique compacte pour limiter le prompt global."""
-    sources = [
-        article
-        for article in articles
-        if article.get("categorie") not in JURIDIQUE_ANALYSE_CATEGORIES
-    ]
-    if analyse_juridique:
-        sources.append(analyse_juridique)
-    if analyse_cassation:
-        sources.append(analyse_cassation)
-    return sources
+def sources_synthese_generale(comptes_rendus):
+    """La synthèse globale utilise exclusivement les comptes-rendus des pages."""
+    return [compte_rendu for compte_rendu in comptes_rendus if compte_rendu]
 
 
 def donnees_prompt(articles):
@@ -1234,12 +1368,14 @@ def prompt_pour(cible, articles):
         "news": f"Actualités générales — {HIER}",
         "finance": f"Finance et économie — {HIER}",
         "cour-de-cassation": f"Cour de cassation — {HIER}",
-        "juridique-analyse": f"Actualités Juridiques — {HIER}",
+        "conseil-etat": f"Conseil d'État — {HIER}",
+        "juridique-analyse": f"Veille juridique — {HIER}",
+        "jurisprudence": f"Juridictions — {HIER}",
     }
     specificites = {
         "synthese": (
             "Organise obligatoirement le mail en quatre rubriques, dans cet ordre exact : "
-            "## News, ## Finance, ## Juridique, ## Cour de cassation. Ces rubriques correspondent "
+            "## News, ## Finance, ## Ressources, ## Juridictions. Ces rubriques correspondent "
             "aux quatre pages du site. Dans chaque rubrique, retiens uniquement les sujets datés "
             "de la veille et les plus pertinents pour cette page; si une rubrique n'a aucun fait "
             "exploitable, indique en une phrase qu'aucune information significative datée de la "
@@ -1268,15 +1404,26 @@ def prompt_pour(cible, articles):
             "chambre, la date et le numéro uniquement s'ils figurent dans les données. Explique "
             "sobrement la portée juridique sans inventer de solution."
         ),
+        "conseil-etat": (
+            "Analyse exclusivement les flux dédiés au Conseil d'État et les décisions publiées sur "
+            "l'open data du Conseil d'État. Distingue les actualités institutionnelles des décisions. "
+            "Pour chaque décision, indique sa date, son numéro, sa formation et son niveau de publication "
+            "uniquement lorsqu'ils figurent dans les données. N'attribue aucune portée juridique à une "
+            "décision lorsque son texte ou un résumé n'est pas fourni."
+        ),
         "juridique-analyse": (
             "Structure le résumé en un item par onglet juridique, avec les intitulés exacts : "
-            "Institutions, Revues, Blogs, Juridictions, Régulation. Ajoute Cour de cassation seulement "
-            "si les données fournies contiennent une source exploitable datée de la veille. "
+            "Institutions, Régulation, Revues, Blogs. Tous les onglets doivent être examinés; "
             "Chaque item doit citer au moins une source distincte lorsque c'est possible, et "
-            "écarter les contenus anciens, redondants ou trop faibles. Mets un focus spécifique "
-            "sur le Conseil d'État dans Juridictions si des données le concernent; sinon, signale "
-            "sobrement qu'aucun fait exploitable daté de la veille ne le concerne. Termine par un "
+            "écarter les contenus anciens, redondants ou trop faibles. Termine par un "
             "court point de synthèse transversal en deux phrases maximum."
+        ),
+        "jurisprudence": (
+            "Fais la synthèse de tous les onglets de la page Juridictions, avec les intitulés exacts : "
+            "Cour de cassation, Conseil d'État, Conseil constitutionnel, CJUE, CEDH. Pour la Cour de "
+            "cassation, couvre les dernières décisions et Les Lettres. Pour le Conseil d'État, couvre "
+            "les dernières décisions et tous les flux RSS dédiés. "
+            "Si un onglet ne contient aucune donnée exploitable de la veille, indique-le explicitement."
         ),
     }
     regle_format = (
@@ -1408,7 +1555,8 @@ def compte_rendu_sans_donnees(cible):
     titres = {
         "news": f"Actualités générales — {HIER}",
         "finance": f"Finance et économie — {HIER}",
-        "juridique-analyse": f"Actualités Juridiques — {HIER}",
+        "juridique-analyse": f"Veille juridique — {HIER}",
+        "jurisprudence": f"Juridictions — {HIER}",
         "synthese": f"Synthèse de veille du {HIER}",
     }
     return (
@@ -1536,9 +1684,14 @@ def main():
 
     lettres = collecter_lettres()
     decisions = collecter_decisions_judilibre()
+    decisions_conseil_etat = collecter_decisions_conseil_etat()
     sources_cassation = sources_analyse_cassation(lettres, decisions)
     sources_cassation_hier = [
         source for source in sources_cassation if source.get("date") == HIER
+    ]
+    sources_conseil_etat = sources_analyse_conseil_etat(articles, decisions_conseil_etat)
+    sources_conseil_etat_hier = [
+        source for source in sources_conseil_etat if source.get("date") == HIER
     ]
 
     # Les flux et les archives doivent rester à jour, même sans article ou sans clé API.
@@ -1556,34 +1709,36 @@ def main():
 
     synthese = None
     analyse_cassation = None
-    analyse_juridique = None
+    comptes_rendus_pages = {}
     sorties_generees = set()
-    # Les comptes rendus detailles sont produits en premier. La synthese mail reutilise
-    # ensuite l'analyse juridique compacte pour rester dans le budget d'entree Mistral.
-    for cible in ("news", "finance", "cour-de-cassation", "juridique-analyse", "synthese"):
+    # Les comptes-rendus de pages sont produits en premier. La synthèse globale
+    # réutilise exclusivement ces quatre sorties, jamais les flux bruts.
+    for cible in ("news", "finance", "cour-de-cassation", "conseil-etat", "juridique-analyse", "jurisprudence", "synthese"):
         if cible == "cour-de-cassation":
             selection = sources_cassation_hier
+        elif cible == "conseil-etat":
+            selection = sources_conseil_etat_hier
         elif cible == "juridique-analyse":
             selection = selection_analyse_juridique(
                 articles,
                 sources_cassation,
                 analyse_cassation,
             )
-        elif cible == "synthese":
-            selection = sources_synthese_generale(
-                articles,
-                analyse_juridique,
-                analyse_cassation,
+        elif cible == "jurisprudence":
+            selection = selection_jurisprudence(
+                articles, sources_cassation, sources_conseil_etat
             )
+        elif cible == "synthese":
+            selection = sources_synthese_generale(comptes_rendus_pages.values())
         else:
             selection = articles_pour(cible, articles)
         if not selection:
-            if cible in ("news", "finance", "juridique-analyse", "synthese"):
+            if cible in ("news", "finance", "juridique-analyse", "jurisprudence", "synthese"):
                 contenu = compte_rendu_sans_donnees(cible)
                 ecrire_markdown(cible, contenu)
                 sorties_generees.add(cible)
-                if cible == "juridique-analyse":
-                    analyse_juridique = source_depuis_markdown(cible, contenu)
+                if cible in ("news", "finance", "juridique-analyse", "jurisprudence"):
+                    comptes_rendus_pages[cible] = source_depuis_markdown(cible, contenu)
             else:
                 print(f"Aucune donnée pour {cible}: fichier non généré.")
             continue
@@ -1593,16 +1748,18 @@ def main():
             sorties_generees.add(cible)
             if cible == "cour-de-cassation":
                 analyse_cassation = source_depuis_markdown(cible, contenu)
-            if cible == "juridique-analyse":
-                analyse_juridique = source_depuis_markdown(cible, contenu)
+            if cible in ("news", "finance", "juridique-analyse", "jurisprudence"):
+                comptes_rendus_pages[cible] = source_depuis_markdown(cible, contenu)
             if cible == "synthese":
                 synthese = contenu
         except Exception as exc:
             print(f"Erreur de génération {cible}: {exc}")
 
-    sorties_attendues = {"news", "finance", "juridique-analyse", "synthese"}
+    sorties_attendues = {"news", "finance", "juridique-analyse", "jurisprudence", "synthese"}
     if sources_cassation_hier:
         sorties_attendues.add("cour-de-cassation")
+    if sources_conseil_etat_hier:
+        sorties_attendues.add("conseil-etat")
     sorties_manquantes = sorties_attendues - sorties_generees
     if sorties_manquantes:
         raise RuntimeError(

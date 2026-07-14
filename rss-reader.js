@@ -17,6 +17,10 @@ function echapperHtml(valeur) {
     })[caractere]);
 }
 
+function formaterNomSource(nom) {
+    return String(nom ?? '').replaceAll('|', ' — ');
+}
+
 // --- NOUVELLE FONCTION DE FORMATAGE ---
 function formaterDateEnFrancais(dateBrute) {
     if (!dateBrute) return "";
@@ -41,6 +45,30 @@ async function initialiserProjet() {
     } catch (e) {
         console.error("Erreur initialisation :", e);
     }
+}
+
+function reclasserSourcesRSS(categorieCible, categoriesOrigine, prefixesSources) {
+    if (!rssData) return;
+    const cible = rssData[categorieCible] ||= [];
+    const prefixes = prefixesSources.map(prefixe => prefixe.toLocaleLowerCase('fr-FR'));
+    categoriesOrigine.forEach(categorie => {
+        if (!Array.isArray(rssData[categorie])) return;
+        const aDeplacer = rssData[categorie].filter(source =>
+            prefixes.some(prefixe => source.nom_site.toLocaleLowerCase('fr-FR').startsWith(prefixe))
+        );
+        rssData[categorie] = rssData[categorie].filter(source => !aDeplacer.includes(source));
+        aDeplacer.forEach(source => {
+            const existante = cible.find(item => item.nom_site === source.nom_site);
+            if (!existante) {
+                cible.push(source);
+                return;
+            }
+            const articlesConnus = new Set(existante.articles.map(article => `${article.l}|${article.t}`));
+            source.articles.forEach(article => {
+                if (!articlesConnus.has(`${article.l}|${article.t}`)) existante.articles.push(article);
+            });
+        });
+    });
 }
 
 function normaliserLien(lien) {
@@ -83,7 +111,7 @@ async function chargerLiensDesComptesRendus(categorie) {
 }
 
 // On ajoute le paramètre "modeTri" avec une valeur par défaut
-async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date') {
+async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date', sourcesExclues = []) {
     const container = document.getElementById(idContainer);
     if (!container) return;
     const versionRendu = commencerRendu(container);
@@ -100,7 +128,11 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date') {
         k => k.trim().toLowerCase() === nomCategorie.trim().toLowerCase()
     );
 
-    const sources = cleReelle ? rssData[cleReelle] : [];
+    const exclusionsNormalisees = sourcesExclues.map(source => source.toLocaleLowerCase('fr-FR'));
+    const sources = cleReelle ? rssData[cleReelle].filter(source =>
+        !exclusionsNormalisees.some(exclusion => source.nom_site.toLocaleLowerCase('fr-FR').startsWith(exclusion))
+    ) : [];
+    const sourcesSansArticles = sources.filter(source => !source.articles?.length);
     const liensDejaRepris = await chargerLiensDesComptesRendus(nomCategorie);
     if (!renduToujoursActif(container, versionRendu)) return;
 
@@ -131,7 +163,7 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date') {
     }
 
     // --- AFFICHAGE FINAL ---
-    if (tousLesArticles.length === 0) {
+    if (tousLesArticles.length === 0 && sourcesSansArticles.length === 0) {
         container.innerHTML = `<p>Aucune publication récente pour "${nomCategorie}".</p>`;
         return;
     }
@@ -145,10 +177,19 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date') {
             : echapperHtml(art.t);
         htmlContenu += `
             <article class="post-veille${estNewsletter ? ' post-newsletter' : ''}">
-                <span class="badge-site">${echapperHtml(art.nom_site)}</span>
+                <span class="badge-site">${echapperHtml(formaterNomSource(art.nom_site))}</span>
                 ${estNewsletter ? '<span class="badge-newsletter">Newsletter</span>' : ''}
                 <h3>${titre}</h3>
                 <p class="date-rss">📅 ${dateAffichage}</p> 
+            </article>`;
+    });
+    sourcesSansArticles.forEach(source => {
+        const estNewsletter = source.type === 'newsletter';
+        htmlContenu += `
+            <article class="post-veille${estNewsletter ? ' post-newsletter' : ''}">
+                <span class="badge-site">${echapperHtml(formaterNomSource(source.nom_site))}</span>
+                ${estNewsletter ? '<span class="badge-newsletter">Newsletter</span>' : ''}
+                <h3>Aucune publication reçue récemment.</h3>
             </article>`;
     });
 

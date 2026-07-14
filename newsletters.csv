@@ -1,5 +1,6 @@
-categorie,source,expediteur,sujet,url_publique
-juridictions,Cour des Comptes,nepasrepondre@mailchimp.ccomptes.fr,*,https://www.ccomptes.fr/fr/publications
-finance,ACPR,webmestre@acpr.banque-france.fr,*,https://acpr.banque-france.fr/fr/actualites
-finance,AMF,noreply@communication.amf-france.org,*,https://www.amf-france.org/fr/actualites-publications
-institutions,INPI|PIBD,pibd@inpi.fr,*,https://pibd.inpi.fr/
+categorie,source,expediteur
+cour-comptes,Cour des Comptes,nepasrepondre@mailchimp.ccomptes.fr
+finance,ACPR,webmestre@acpr.banque-france.fr
+finance,AMF,noreply@communication.amf-france.org
+finance,AFT,@aft.gouv.fr
+revues,INPI|PIBD,pibd@inpi.fr

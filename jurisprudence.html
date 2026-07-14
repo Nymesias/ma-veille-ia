@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Veille Personnalisée - Jurisprudence</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        .juris-intro { color: #52606d; text-align: center; margin: -10px auto 24px; max-width: 760px; }
+        .institution-panel[hidden], .content-panel[hidden] { display: none; }
+        .subtabs { display: flex; gap: 8px; margin: -12px 0 24px; border-bottom: 1px solid #dce4ea; }
+        .subtab-btn { padding: 11px 16px; border: 0; border-bottom: 3px solid transparent; background: transparent; color: #607080; cursor: pointer; font-weight: 700; }
+        .subtab-btn:hover, .subtab-btn.active { color: #20618a; }
+        .subtab-btn.active { border-bottom-color: #3498db; }
+        .juris-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+        .juris-card { background: #fff; border: 1px solid #dce4ea; border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.04); }
+        .juris-card h2 { margin: 10px 0; font-size: 1.12rem; line-height: 1.35; }
+        .juris-card p { line-height: 1.55; }
+        .juris-meta, .juris-updated { color: #607080; font-size: .86rem; }
+        .juris-updated { margin-bottom: 18px; }
+        .juris-badge { display: inline-block; color: #20618a; background: #eaf5fb; border-radius: 20px; padding: 4px 10px; font-size: .76rem; font-weight: 700; }
+        .juris-link { display: inline-block; margin-top: 8px; font-weight: 700; }
+        .juris-status { text-align: center; padding: 45px 20px; color: #607080; }
+        @media (max-width: 700px) { .tabs-bar { flex-wrap: wrap; } .tab-btn { flex: 1 1 45%; } .subtabs { overflow-x: auto; } }
+    </style>
+</head>
+<body>
+    <header><h1>Jurisprudence</h1><nav><ul>
+        <li><a href="index.html">Accueil</a></li><li><a href="news.html">News</a></li><li><a href="finance.html">Finance</a></li><li><a href="juridique.html">Ressources</a></li><li><a href="jurisprudence.html" class="active">Juridictions</a></li>
+    </ul></nav></header>
+    <main>
+        <p class="juris-intro">Les dernières décisions et publications des principales juridictions françaises et européennes.</p>
+        <div class="tabs-bar" role="tablist" aria-label="Juridictions">
+            <button class="tab-btn" role="tab" aria-selected="false" data-institution="comptes-rendus">Comptes-rendus</button>
+            <button class="tab-btn active" role="tab" aria-selected="true" data-institution="cassation">Cour de cassation</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-institution="ce">Conseil d'État</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-institution="constitutionnel">Conseil constitutionnel</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-institution="cjue">CJUE</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-institution="cedh">CEDH</button>
+        </div>
+        <section id="institution-comptes-rendus" class="institution-panel post-md" role="tabpanel" hidden><div id="comptes-rendus-content"><p class="juris-status">Chargement du compte-rendu…</p></div></section>
+        <section id="institution-ce" class="institution-panel" role="tabpanel" hidden>
+            <div class="subtabs" role="tablist" aria-label="Conseil d'État"><button class="subtab-btn active" data-content="ce-decisions" aria-selected="true">Dernières décisions</button><button class="subtab-btn" data-content="ce-rss" aria-selected="false">Flux RSS</button></div>
+            <div id="ce-decisions" class="content-panel"><p class="juris-status">Chargement des décisions…</p></div><div id="ce-rss" class="content-panel" hidden><p class="juris-status">Chargement des flux RSS…</p></div>
+        </section>
+        <section id="institution-cassation" class="institution-panel" role="tabpanel">
+            <div class="subtabs" role="tablist" aria-label="Cour de cassation"><button class="subtab-btn active" data-content="cassation-decisions" aria-selected="true">Dernières décisions</button><button class="subtab-btn" data-content="cassation-lettres" aria-selected="false">Les Lettres</button></div>
+            <div id="cassation-decisions" class="content-panel"><p class="juris-status">Chargement des décisions…</p></div><div id="cassation-lettres" class="content-panel" hidden><p class="juris-status">Chargement des Lettres…</p></div>
+        </section>
+        <section id="institution-constitutionnel" class="institution-panel" role="tabpanel" hidden><div id="constitutionnel-content"><p class="juris-status">Chargement des décisions…</p></div></section>
+        <section id="institution-cjue" class="institution-panel" role="tabpanel" hidden><div id="cjue-content"><p class="juris-status">Chargement des décisions…</p></div></section>
+        <section id="institution-cedh" class="institution-panel" role="tabpanel" hidden><div id="cedh-content"><p class="juris-status">Chargement des décisions…</p></div></section>
+    </main>
+    <script>
+        const charge = new Set();
+        function echapper(v) { const e = document.createElement('div'); e.textContent = v == null ? '' : String(v); return e.innerHTML; }
+        function dateFrancaise(v) { if (!v) return ''; const d = new Date(/^\d{4}-\d{2}-\d{2}$/.test(v) ? `${v}T12:00:00` : v); return Number.isNaN(d.getTime()) ? v : d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }); }
+        function dateMiseAJour(v) { if (!v) return ''; const d = new Date(v); return Number.isNaN(d.getTime()) ? '' : d.toLocaleString('fr-FR'); }
+        function nomSource(source) { return String(source || '').replaceAll('|', ' — '); }
+        function carteFlux(a, source) { return `<article class="juris-card"><span class="juris-badge">${echapper(nomSource(source))}</span><h2>${echapper(a.t)}</h2><p class="juris-meta">${echapper(dateFrancaise(a.d))}</p><a class="juris-link" href="${echapper(a.l)}" target="_blank" rel="noopener noreferrer">Consulter →</a></article>`; }
+        async function json(f) { const r = await fetch(`${f}?v=${Date.now()}`, { cache: 'no-store' }); if (!r.ok) throw new Error(f); return r.json(); }
+        async function chargerCompteRendu() { const z = document.getElementById('comptes-rendus-content'); try { const d = await json('liste_md.json'); const info = d.find(x => x.nom_fichier.toLowerCase().includes('jurisprudence')); if (!info) throw 0; const r = await fetch(`markdown/${info.nom_fichier}?v=${Date.now()}`, { cache: 'no-store' }); if (!r.ok) throw 0; z.innerHTML = `<span class="date">Compte-rendu du ${echapper(info.date_affichage)}</span><div class="article-body">${marked.parse(await r.text())}</div>`; } catch { z.innerHTML = '<p class="juris-status">Aucun compte-rendu de jurisprudence disponible.</p>'; } }
+
+        async function chargerConseilDecisions() { const z = document.getElementById('ce-decisions'); try { const d = await json('decisions_conseil_etat.json'); const items = Array.isArray(d.decisions) ? d.decisions.filter(x => !d.date_cible || x.date === d.date_cible) : []; if (!items.length) throw 0; z.innerHTML = `<p class="juris-updated">Décisions les plus récentes, rendues le ${echapper(dateFrancaise(d.date_cible))} — ${items.length} résultat(s).</p><div class="juris-grid">${items.map(x => `<article class="juris-card"><span class="juris-badge">${echapper(x.type || 'Décision')}</span><h2>Dossier n° ${echapper(x.numero)}</h2><p class="juris-meta">${echapper(x.juridiction)}${x.formation ? ` · ${echapper(x.formation)}` : ''}</p>${x.publication ? `<p><strong>Publication :</strong> ${echapper(x.publication)}</p>` : ''}<a class="juris-link" href="${echapper(x.url)}" target="_blank" rel="noopener noreferrer">Consulter la décision →</a></article>`).join('')}</div>`; } catch { z.innerHTML = '<p class="juris-status">Les dernières décisions ne sont pas encore disponibles.</p>'; } }
+        async function chargerConseilRSS() { const z = document.getElementById('ce-rss'); try { const d = await json('liste_rss.json'); const sources = d['conseil-etat'] || []; const cartes = sources.flatMap(s => (s.articles || []).map(a => carteFlux(a, s.nom_site))).sort((a, b) => a.localeCompare(b)); if (!cartes.length) throw 0; z.innerHTML = `<p class="juris-updated">Dernières publications des flux RSS officiels du Conseil d’État.</p><div class="juris-grid">${cartes.join('')}</div>`; } catch { z.innerHTML = '<p class="juris-status">Les flux RSS du Conseil d’État ne sont pas encore disponibles.</p>'; } }
+        async function chargerCassationDecisions() { const z = document.getElementById('cassation-decisions'); try { const d = await json('decisions_judilibre.json'); const items = Array.isArray(d.decisions) ? [...d.decisions].sort((a,b) => (b.date || '').localeCompare(a.date || '')) : []; if (!items.length) throw 0; z.innerHTML = `<p class="juris-updated">Décisions publiées le ${echapper(dateFrancaise(d.date_cible))} — mise à jour le ${echapper(dateMiseAJour(d.mis_a_jour))}.</p><div class="juris-grid">${items.map(x => `<article class="juris-card"><span class="juris-badge">${echapper(x.chambre || 'Cour de cassation')}</span><h2>${echapper(x.numero ? `Pourvoi n° ${x.numero}` : 'Décision')}</h2><p class="juris-meta">${echapper(dateFrancaise(x.date))}${x.formation ? ` · ${echapper(x.formation)}` : ''}</p>${x.solution ? `<p><strong>Solution :</strong> ${echapper(x.solution)}</p>` : ''}${x.sommaire ? `<p>${echapper(x.sommaire)}</p>` : ''}<a class="juris-link" href="${echapper(x.url)}" target="_blank" rel="noopener noreferrer">Consulter la décision →</a></article>`).join('')}</div>`; } catch { z.innerHTML = '<p class="juris-status">Les décisions Judilibre ne sont pas encore disponibles.</p>'; } }
+        async function chargerCassationLettres() { const z = document.getElementById('cassation-lettres'); try { const d = await json('lettres_cour_cassation.json'); const triees = Array.isArray(d.lettres) ? [...d.lettres].sort((a,b) => (b.date || '').localeCompare(a.date || '')) : []; const items = [...new Map(triees.map(x => [x.collection || 'Cour de cassation', x])).values()]; if (!items.length) throw 0; z.innerHTML = `<p class="juris-updated">Mise à jour le ${echapper(dateMiseAJour(d.mis_a_jour))} — <a href="https://www.courdecassation.fr/kiosque/les-lettres" target="_blank" rel="noopener noreferrer">voir le kiosque officiel</a></p><div class="juris-grid">${items.map(x => `<article class="juris-card"><span class="juris-badge">${echapper(x.collection || 'Cour de cassation')}</span><h2>${echapper(x.titre)}</h2><p class="juris-meta">${echapper(dateFrancaise(x.date))}</p>${x.resume ? `<p>${echapper(x.resume)}</p>` : ''}<a class="juris-link" href="${echapper(x.url)}" target="_blank" rel="noopener noreferrer">Lire la Lettre →</a></article>`).join('')}</div>`; } catch { z.innerHTML = '<p class="juris-status">Les Lettres de la Cour de cassation ne sont pas encore disponibles.</p>'; } }
+        async function chargerFluxJuridiction(type) { const z = document.getElementById(`${type}-content`); try { const d = await json('liste_rss.json'); const motifs = { constitutionnel: /^Conseil Constitutionnel/i, cjue: /^CJUE/i, cedh: /^CEDH/i }; const items = (d.juridictions || []).filter(s => motifs[type].test(s.nom_site)).flatMap(s => (s.articles || []).map(a => ({ a, source: s.nom_site }))).sort((a,b) => (b.a.d || '').localeCompare(a.a.d || '')); if (!items.length) throw 0; z.innerHTML = `<p class="juris-updated">Dernières publications disponibles dans les flux officiels.</p><div class="juris-grid">${items.map(x => carteFlux(x.a, x.source)).join('')}</div>`; } catch { z.innerHTML = '<p class="juris-status">Aucune publication récente disponible.</p>'; } }
+        const chargeurs = { 'comptes-rendus': chargerCompteRendu, 'ce-decisions': chargerConseilDecisions, 'ce-rss': chargerConseilRSS, 'cassation-decisions': chargerCassationDecisions, 'cassation-lettres': chargerCassationLettres, constitutionnel: () => chargerFluxJuridiction('constitutionnel'), cjue: () => chargerFluxJuridiction('cjue'), cedh: () => chargerFluxJuridiction('cedh') };
+        async function charger(cle) { if (charge.has(cle)) return; charge.add(cle); await chargeurs[cle](); }
+        document.querySelectorAll('[data-institution]').forEach(b => b.addEventListener('click', async () => { const nom = b.dataset.institution; document.querySelectorAll('[data-institution]').forEach(x => { const actif = x === b; x.classList.toggle('active', actif); x.setAttribute('aria-selected', String(actif)); }); document.querySelectorAll('.institution-panel').forEach(p => { p.hidden = p.id !== `institution-${nom}`; }); await charger(nom === 'ce' ? 'ce-decisions' : nom === 'cassation' ? 'cassation-decisions' : nom); }));
+        document.querySelectorAll('[data-content]').forEach(b => b.addEventListener('click', async () => { const section = b.closest('.institution-panel'); section.querySelectorAll('[data-content]').forEach(x => { const actif = x === b; x.classList.toggle('active', actif); x.setAttribute('aria-selected', String(actif)); }); section.querySelectorAll('.content-panel').forEach(p => { p.hidden = p.id !== b.dataset.content; }); await charger(b.dataset.content); }));
+        charger('cassation-decisions');
+    </script>
+</body>
+</html>

@@ -32,8 +32,8 @@
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="news.html">News</a></li>
                 <li><a href="finance.html" class="active">Finance</a></li>
-                <li><a href="juridique.html">Juridique</a></li>
-                <li><a href="cour-cassation.html">Cour de Cassation</a></li>
+                <li><a href="juridique.html">Ressources</a></li>
+                <li><a href="jurisprudence.html">Juridictions</a></li>
             </ul>
         </nav>
     </header>
@@ -42,6 +42,7 @@
     <div class="tabs-bar" style="text-align: center; margin-bottom: 30px;">
         <button class="tab-btn active" onclick="basculerOnglet(this, 'MD', 'finance')">Comptes-rendus</button>
         <button class="tab-btn" onclick="basculerOnglet(this, 'RSS', 'finance')">Flux RSS</button>
+        <button class="tab-btn" onclick="basculerOnglet(this, 'RSS', 'cour-comptes')">Cour des comptes</button>
     </div>
 
     <div id="barre-tri-finance" style="text-align: right; margin-bottom: 20px; display: none;">
@@ -53,7 +54,7 @@
     <div id="zone-finance"></div>
 </main>
 
-<script src="rss-reader.js?v=20260712-1"></script>
+<script src="rss-reader.js?v=20260714-3"></script>
 <script>
     // Variables de contrôle pour la page Finance
     let modeTriFinance = 'date'; 
@@ -68,7 +69,7 @@
         const barreTri = document.getElementById('barre-tri-finance');
         
         zone.innerHTML = "<p style='text-align:center;'>Chargement...</p>";
-        ongletActuelFinance = param; // Sauvegarde 'finance'
+        ongletActuelFinance = param;
 
         if (type === 'MD') {
             if(barreTri) barreTri.style.display = 'none';
@@ -99,12 +100,13 @@
         }
 
         // 2. RECHARGEMENT FORCÉ
-        // On utilise explicitement 'finance' et 'zone-finance'
-        await chargerFluxRSS('finance', 'zone-finance', mode);
+        await chargerFluxRSS(ongletActuelFinance, 'zone-finance', mode);
     }
 
     window.onload = async () => {
         if (typeof initialiserProjet === "function") await initialiserProjet();
+        // Rassemble aussi les cartes des anciens caches avant le changement de catégorie.
+        reclasserSourcesRSS('cour-comptes', ['finance', 'juridictions'], ['Cour des comptes']);
         const btnDefaut = document.querySelector('.tab-btn.active');
         await basculerOnglet(btnDefaut, 'MD', 'finance');
     };
