@@ -98,6 +98,16 @@
       ]
     },
     {
+      "nom_site": "CJUE",
+      "articles": [
+        {
+          "t": "CELEX:62024CJ0474: Arrêt de la Cour (grande chambre) du 14 juillet 2026 — AR e.a. contre Österreichische Datenschutzbehörde e.a",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0474",
+          "d": "2026-07-14"
+        }
+      ]
+    },
+    {
       "nom_site": "CEDH",
       "articles": [
         {
@@ -193,86 +203,6 @@
         {
           "t": "Jesus Pinhal c. Portugal [GC]",
           "l": "http://hudoc.echr.coe.int/fre#{\"itemid\":[\"002-14629\"]}",
-          "d": "2026-07-09"
-        }
-      ]
-    },
-    {
-      "nom_site": "CJUE",
-      "articles": [
-        {
-          "t": "CELEX:62024CJ0771: Arrêt de la Cour (deuxième chambre) du 9 juillet 2026 — Fédération belge du stationnement ASBL et Interparking SA contre Région de Bruxelles-Capitale, représentée par son Gouvernement",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0771",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62024CJ0888: Arrêt de la Cour (troisième chambre) du 9 juillet 2026 — Adão da Fonseca-Engenheiros Consultores, Lda contre Metro do Porto, S.A. et Betar Consultores, Lda",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0888",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62025CJ0186: Arrêt de la Cour (septième chambre) du 9 juillet 2026 — Institut po ribni resursi Varna contre Rakovoditel na Natsionalnia organ po Savmestna operativna programa za transgranichno satrudnichestvo „Chernomorski baseyn 2014-2020“ i direktor na direktsia „Upravlenie na teritorialnoto",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0186",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62024CJ0856: Arrêt de la Cour (huitième chambre) du 9 juillet 2026 — Sad Trasporto Locale SpA contre Provincia autonoma di Bolzano",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0856",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62025CJ0166: Arrêt de la Cour (sixième chambre) du 9 juillet 2026 — Commission européenne contre République portugaise",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0166",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62024CJ0768: Arrêt de la Cour (septième chambre) du 9 juillet 2026 — Hortis GRC SA contre JA et France Travail Île-de-France, anciennement Pôle emploi Île-de-France",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0768",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62024CJ0199: Arrêt de la Cour (cinquième chambre) du 9 juillet 2026 — ND contre Legal Newsdesk Sweden AB, anciennement Garrapatica AB",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0199",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62025CJ0360: Arrêt de la Cour (première chambre) du 9 juillet 2026 — ***X*** contre Finanzamt für Großbetriebe",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0360",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62024CJ0242: Arrêt de la Cour (quatrième chambre) du 9 juillet 2026 — Commission européenne contre République fédérale d'Allemagne",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0242",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62025CJ0307: Arrêt de la Cour (septième chambre) du 9 juillet 2026 — KFZ Kolak e.U. contre GF",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0307",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62024CJ0224: Arrêt de la Cour (quatrième chambre) du 9 juillet 2026 — Società Eredi Raimondo Bufarini Srl – Servizi Ambientali contre Ministero dell'Interno e.a",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0224",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62025CJ0188: Arrêt de la Cour (première chambre) du 9 juillet 2026 — Štátny fond rozvoja bývania contre GL e.a",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0188",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62024CJ0788: Arrêt de la Cour (deuxième chambre) du 9 juillet 2026 — Anne Frank Fonds contre Anne Frank Stichting e.a",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0788",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62023CJ0428: Arrêt de la Cour (cinquième chambre) du 9 juillet 2026 — ROGON GmbH & Co. KG e.a. contre Deutscher Fußballbund eV (DFB)",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0428",
-          "d": "2026-07-09"
-        },
-        {
-          "t": "CELEX:62025CJ0234: Arrêt de la Cour (première chambre) du 9 juillet 2026 — Sky Österreich Fernsehen GmbH contre Verein für Konsumenteninformation",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0234",
           "d": "2026-07-09"
         }
       ]
@@ -524,69 +454,94 @@
       "nom_site": "Commission Européenne|Actualités",
       "articles": [
         {
-          "t": "Flash Eurobarometer: Europeans call for stronger action on children's online safety, democratic resilience, defence, and the energy transition",
-          "l": "https://energy.ec.europa.eu/news/flash-eurobarometer-europeans-call-stronger-action-childrens-online-safety-democratic-resilience-2026-07-13_en",
-          "d": "2026-07-13"
+          "t": "Enlargement: EU and Montenegro close accession negotiations on competition policy and customs union",
+          "l": "https://enlargement.ec.europa.eu/news/enlargement-eu-and-montenegro-close-accession-negotiations-competition-policy-and-customs-union-2026-07-14_en",
+          "d": "2026-07-14"
         },
         {
-          "t": "EU steps up international support for Palestinians with major initiative for Gaza's early recovery and stronger international coordination",
-          "l": "https://north-africa-middle-east-gulf.ec.europa.eu/news/eu-steps-international-support-palestinians-major-initiative-gazas-early-recovery-and-stronger-2026-07-13_en",
-          "d": "2026-07-13"
+          "t": "Have your say on the progress review of the Drone Strategy 2.0",
+          "l": "https://transport.ec.europa.eu/news-events/news/have-your-say-progress-review-drone-strategy-20-2026-07-14_en",
+          "d": "2026-07-14"
         },
         {
-          "t": "Commission approves French State aid to support offshore wind energy",
-          "l": "https://energy.ec.europa.eu/news/commission-approves-french-state-aid-support-offshore-wind-energy-2026-07-13_en",
-          "d": "2026-07-13"
+          "t": "Commission approves €659 million German State aid for four new semiconductor facilities",
+          "l": "https://competition-policy.ec.europa.eu/about/news/commission-approves-eur659-million-german-state-aid-four-new-semiconductor-facilities-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Commission adopts simpler rules for EU agri-food promotion policy",
+          "l": "https://agriculture.ec.europa.eu/media/news/commission-adopts-simpler-rules-eu-agri-food-promotion-policy-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Review finds Foreign Subsidies Regulation fit for purpose, Commission considers targeted changes",
+          "l": "https://single-market-economy.ec.europa.eu/news/review-finds-foreign-subsidies-regulation-fit-purpose-commission-considers-targeted-changes-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "EU submits three papers to advance WTO reform discussions",
+          "l": "https://policy.trade.ec.europa.eu/news/eu-submits-three-papers-advance-wto-reform-discussions-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Commission adds exemptions to rules on removability of portable batteries",
+          "l": "https://environment.ec.europa.eu/news/commission-adds-exemptions-portable-battery-removal-rules-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Natura 2000 Network offers opportunities for sustainable tourism across Europe",
+          "l": "https://environment.ec.europa.eu/news/natura-2000-network-offers-sustainable-tourism-opportunities-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Questions and answers on the findings of the first review of the Foreign Subsidies Regulation",
+          "l": "https://competition-policy.ec.europa.eu/about/news/questions-and-answers-findings-first-review-foreign-subsidies-regulation-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Natura 2000 Network offers opportunities for sustainable tourism across Europe",
+          "l": "https://oceans-and-fisheries.ec.europa.eu/news/natura-2000-network-offers-opportunities-sustainable-tourism-across-europe-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Eurostat: Energy efficiency upgrades at home for 24% of people",
+          "l": "https://energy.ec.europa.eu/news/eurostat-energy-efficiency-upgrades-home-24-people-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Enlargement: EU opens accession negotiations with Ukraine on external relations policies",
+          "l": "https://enlargement.ec.europa.eu/news/enlargement-eu-opens-accession-negotiations-ukraine-external-relations-policies-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "BuyCo and Searoutes: Decarbonising container shipping, one booking at a time",
+          "l": "https://oceans-and-fisheries.ec.europa.eu/news/buyco-and-searoutes-decarbonising-container-shipping-one-booking-time-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Viladecans celebrates a year of Green Leaf action",
+          "l": "https://environment.ec.europa.eu/news/viladecans-final-report-european-green-leaf-2025-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Enlargement: EU and Moldova start negotiations on external relations policies",
+          "l": "https://enlargement.ec.europa.eu/news/enlargement-eu-and-moldova-start-negotiations-external-relations-policies-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "National Building Renovation Plans - the Commission’s first assessment",
+          "l": "https://energy.ec.europa.eu/news/national-building-renovation-plans-commissions-first-assessment-2026-07-14_en",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Enlargement: Albania and EU provisionally close negotiations on science and research, education and culture, and external relations",
+          "l": "https://enlargement.ec.europa.eu/news/enlargement-albania-and-eu-provisionally-close-negotiations-science-and-research-education-and-2026-07-14_en",
+          "d": "2026-07-14"
         },
         {
           "t": "Commission updates product scope and digital tools to support implementation of EU Deforestation Regulation",
           "l": "https://environment.ec.europa.eu/news/commission-updates-product-scope-and-tools-support-eudr-2026-07-13_en",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "EU and Bahrain launch Strategic Partnership Agreement negotiations",
-          "l": "https://north-africa-middle-east-gulf.ec.europa.eu/news/eu-and-bahrain-launch-strategic-partnership-agreement-negotiations-2026-07-13_en",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "NESBp: strengthening maritime spatial planning across the North Sea and Baltic Sea",
-          "l": "https://oceans-and-fisheries.ec.europa.eu/news/nesbp-strengthening-maritime-spatial-planning-across-north-sea-and-baltic-sea-2026-07-13_en",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Energy Union Task Force takes stock of oil and gas security of supply in the EU",
-          "l": "https://energy.ec.europa.eu/news/energy-union-task-force-takes-stock-oil-and-gas-security-supply-eu-2026-07-13_en",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Commission approves €2 billion Hungarian capital injection into development bank Magyar Fejlesztési Bank",
-          "l": "https://competition-policy.ec.europa.eu/about/news/commission-approves-eur2-billion-hungarian-capital-injection-development-bank-magyar-fejlesztesi-2026-07-13_en",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "New report published: Building Food 2040: stakeholder input for the new EU Strategic Research & Innovation Agenda for Food Systems",
-          "l": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/new-report-published-building-food-2040-stakeholder-input-new-eu-strategic-research-innovation-2026-07-13_en",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Fishing cooperative revives Adriatic smoking traditions",
-          "l": "https://blue-economy-observatory.ec.europa.eu/news/fishing-cooperative-revives-adriatic-smoking-traditions-2026-07-13_en",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Greece is looking at introducing micro-credentials in CVET",
-          "l": "https://employment-social-affairs.ec.europa.eu/news/greece-looking-introducing-micro-credentials-cvet-2026-07-13_en",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Europeans concerned about child safety online as new report publishes recommendations",
-          "l": "https://commission.europa.eu/news-and-media/news/europeans-concerned-about-child-safety-online-new-report-publishes-recommendations-2026-07-13_en",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "REPowerEU auction revenue target reached",
-          "l": "https://climate.ec.europa.eu/news-other-reads/news/repowereu-auction-revenue-target-reached-2026-07-13_en",
-          "d": "2026-07-13"
+          "d": "2026-07-14"
         }
       ]
     }
@@ -596,14 +551,9 @@
       "nom_site": "BCE|Politique monétaire",
       "articles": [
         {
-          "t": "Piero Cipollone: Interview with Jornal de Negocios",
-          "l": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260713~d928475792.en.html",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Isabel Schnabel: How to foster growth and resilience in Europe",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260713~e78632b27a.en.pdf",
-          "d": "2026-07-13"
+          "t": "ECB selects 36 payment service providers to join digital euro pilot",
+          "l": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260714~8cd07d9d45.en.html",
+          "d": "2026-07-14"
         }
       ]
     },
@@ -631,74 +581,139 @@
       "nom_site": "Le Revenu",
       "articles": [
         {
-          "t": "Donald Trump, le douanier d’Ormuz>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/donald-trump-le-douanier-d-ormuz",
-          "d": "2026-07-13"
+          "t": "États-Unis : l’inflation surprend, dans le bon sens …>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/etats-unis-l-inflation-surprend-dans-le-bon-sens",
+          "d": "2026-07-14"
         },
         {
-          "t": "CONSEIL DU JOUR - BOA Concept : une croissance internationale qui ne se paie pas encore>",
-          "l": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/conseil-du-jour-boa-concept-une-croissance-interna",
-          "d": "2026-07-13"
+          "t": "Automobile : les constructeurs chinois gagnent du terrain à l’international>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/automobile-les-constructeurs-chinois-gagnent-du-te",
+          "d": "2026-07-14"
         },
         {
-          "t": "Action BOA Concept : l'épaule-tête-épaule inversée validée, cap sur 21 €>",
-          "l": "https://www.lerevenu.com/diversifier-placements/analyse-technique/action-boa-concept-l-epaule-tete-epaule-inversee-v",
-          "d": "2026-07-13"
+          "t": "Wall Street : IBM s’effondre>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/wall-street-ibm-s-effondre",
+          "d": "2026-07-14"
         },
         {
-          "t": "Intel investit 5,7 milliards de dollars dans son usine irlandaise pour accélérer sa production de puces>",
-          "l": "https://www.lerevenu.com/diversifier-placements/placements-divers/intel-investit-5-7-milliards-de-dollars-dans-son-u",
-          "d": "2026-07-13"
+          "t": "Les droits de douane invalidés de Donald Trump aggravent le déficit fédéral américain>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/les-droits-de-douane-invalides-de-donald-trump-agg",
+          "d": "2026-07-14"
         },
         {
-          "t": "Volkswagen envisage de nouvelles suppressions d'emplois pour accélérer sa restructuration>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/volkswagen-envisage-de-nouvelles-suppressions-d-em",
-          "d": "2026-07-13"
+          "t": "New York : suspension de la construction de nouveaux grands data centers pour un an>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/new-york-suspension-de-la-construction-de-nouveaux",
+          "d": "2026-07-14"
         },
         {
-          "t": "Conduite sans assurance : plus de 132 millions d'euros versés aux victimes en 2025>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/conduite-sans-assurance-plus-de-132-millions-d-eur",
-          "d": "2026-07-13"
+          "t": "Le Japon encadre l’utilisation de l’IA sur les réseaux pour lutter contre la désinformation électorale>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/le-japon-encadre-l-utilisation-de-l-ia-sur-les-res",
+          "d": "2026-07-14"
         },
         {
-          "t": "Agenus bondit en Bourse après une levée de fonds pouvant atteindre 340 millions de dollars>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/agenus-bondit-en-bourse-apres-une-levee-de-fonds-p",
-          "d": "2026-07-13"
+          "t": "Euro numérique : la BCE sélectionne 36 prestataires de services de paiement>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/euro-numerique-la-bce-selectionne-36-prestataires-",
+          "d": "2026-07-14"
         },
         {
-          "t": "Bitcoin : le seuil des 63 000 dollars remet à l'épreuve un support historique>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/bitcoin-le-seuil-des-63-000-dollars-remet-a-l-epre",
-          "d": "2026-07-13"
+          "t": "Les livraisons mondiales de smartphones en baisse de 11 % au 2e trimestre 2026>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/les-livraisons-mondiales-de-smartphones-en-baisse-",
+          "d": "2026-07-14"
         },
         {
-          "t": "Le taux du Livret A va enfin repartir à la hausse cet été>",
-          "l": "https://www.lerevenu.com/diversifier-placements/livrets-epargne-logement/le-taux-du-livret-a-va-enfin-repartir-a-la-hausse-",
-          "d": "2026-07-13"
+          "t": "Wall Street : l'action SpaceX se rapproche dangereusement de son prix d'introduction>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/wall-street-l-action-spacex-se-rapproche-dangereus",
+          "d": "2026-07-14"
         },
         {
-          "t": "Le Nikkei chute de près de 2 % en ouverture de semaine sous l'effet des tensions géopolitiques>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/le-nikkei-chute-de-pres-de-2-en-ouverture-de-semai",
-          "d": "2026-07-13"
+          "t": "Rachat de Warner Bros par Paramount : douze États américains veulent tout bloquer>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/rachat-de-warner-bros-par-paramount-douze-etats-am",
+          "d": "2026-07-14"
         },
         {
-          "t": "Thales modernisera les infrastructures de gestion du trafic aérien en Mongolie>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/thales-modernisera-les-infrastructures-de-gestion-",
-          "d": "2026-07-13"
+          "t": "Les produits électroniques et les composants informatiques catapultent les exportations chinoises>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/les-produits-electroniques-et-les-composants-infor",
+          "d": "2026-07-14"
         },
         {
-          "t": "Semi-conducteurs et IA : encore un record pour TSMC>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/semi-conducteurs-et-ia-encore-un-record-pour-tsmc",
-          "d": "2026-07-13"
+          "t": "Allocation de rentrée scolaire : ce qui change pour le versement de la CAF en août 2026>",
+          "l": "https://www.lerevenu.com/preparer-succession/protection-de-la-famille/allocation-de-rentree-scolaire-ce-qui-change-pour-",
+          "d": "2026-07-14"
         },
         {
-          "t": "Les valeurs pétrolières américaines profitent des tensions autour du détroit d'Ormuz>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/les-valeurs-petrolieres-americaines-profitent-des-",
-          "d": "2026-07-13"
+          "t": "Riyad Air étudie l’acquisition de 25 à 30 Boeing 787 Dreamliner>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/riyad-air-etudie-l-acquisition-de-25-a-30-boeing-7",
+          "d": "2026-07-14"
         },
         {
-          "t": "TotalEnergies : le seuil des 70 euros freine encore le rebond de l'action>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/totalenergies-le-seuil-des-70-euros-freine-encore-",
-          "d": "2026-07-13"
+          "t": "APL : de combien vont augmenter les aides au logement au 1er octobre 2026 ?>",
+          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/apl-de-combien-vont-augmenter-les-aides-au-logemen",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "EasyJet dit oui à Apollo>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/easyjet-dit-oui-a-apollo",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "L’Inde interdit les importations de produits issus du travail forcé>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/l-inde-interdit-les-importations-de-produits-issus",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Corée du Sud : un budget 2027 record grâce à l’IA et aux semi-conducteurs>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/coree-du-sud-un-budget-2027-record-grace-a-l-ia-et",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Suisse : les prix à la production et à l'importation reculent de 0,3 % en juin>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/suisse-les-prix-a-la-production-et-a-l-importation",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Chine : suspension des exportations d’hélium avec effet immédiat>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/chine-suspension-des-exportations-d-helium-avec-ef",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Pétrole : les attaques contre des navires émiratis ravivent les tensions sur le brut>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/petrole-les-attaques-contre-des-navires-emiratis-r",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Allemagne : les distributeurs alertent sur la dégradation de leur activité face à la hausse des coûts>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/allemagne-les-distributeurs-alertent-sur-la-degrad",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Chine : le commerce extérieur dépasse largement les prévisions en juin>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/chine-le-commerce-exterieur-depasse-largement-les-",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Une université offre jusqu'à 15 000 dollars de bourse aux étudiants qui réussissent des défis sur PlayStation>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/une-universite-offre-jusqu-a-15-000-dollars-de-bou",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Nvidia réduit de moitié ses clients asiatiques pour renforcer la lutte contre la fraude>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/nvidia-reduit-de-moitie-ses-clients-asiatiques-pou",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Les Bourses européennes ouvrent dans le rouge sous la pression des tensions au Moyen-Orient>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/les-bourses-europeennes-ouvrent-dans-le-rouge-sous",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Samsung envisage une cotation aux États-Unis via des ADR>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/samsung-envisage-une-cotation-aux-etats-unis-via-d",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "BMW rappelle plus de 29 000 véhicules aux États-Unis pour un risque d'incendie>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/bmw-rappelle-plus-de-29-000-vehicules-aux-etats-un",
+          "d": "2026-07-14"
         }
       ]
     },
@@ -706,154 +721,39 @@
       "nom_site": "L'Agefi",
       "articles": [
         {
-          "t": "Nippon Paint convoite les peintures décoratives d’Akzo Nobel",
-          "l": "https://www.agefi.fr/news/entreprises/nippon-paint-convoite-les-peintures-decoratives-dakzo-nobel",
-          "d": "2026-07-13"
+          "t": "Les grandes banques américaines surfent sur les opérations de marché",
+          "l": "https://www.agefi.fr/news/banque-assurance/les-grandes-banques-americaines-surfent-sur-les-operations-de-marche",
+          "d": "2026-07-14"
         },
         {
-          "t": "Les banques allemandes veulent récupérer les garanties perdues à cause des sanctions russes",
-          "l": "https://www.agefi.fr/news/banque-assurance/les-banques-allemandes-veulent-recuperer-les-garanties-perdues-a-cause-des-sanctions-russes",
-          "d": "2026-07-13"
+          "t": "L’AMF mise sur la directive SRD 3 pour faciliter l’exercice des droits des actionnaires",
+          "l": "https://www.agefi.fr/news/entreprises/lamf-mise-sur-la-directive-srd-3-pour-faciliter-lexercice-des-droits-des-actionnaires",
+          "d": "2026-07-14"
         },
         {
-          "t": "Mastercard sécurise son futur sur la blockchain",
-          "l": "https://www.agefi.fr/news/tech-finance/mastercard-securise-son-futur-sur-la-blockchain",
-          "d": "2026-07-13"
+          "t": "Les émissions d’obligations d’entreprises signent un premier semestre exceptionnel",
+          "l": "https://www.agefi.fr/news/economie-marches/les-emissions-dobligations-dentreprises-signent-un-premier-semestre-exceptionnel",
+          "d": "2026-07-14"
         },
         {
-          "t": "Lhyfe fait entrer l’allemand Messer au capital de ses sites de production",
-          "l": "https://www.agefi.fr/news/entreprises/lhyfe-fait-entrer-lallemand-messer-au-capital-de-ses-sites-de-production",
-          "d": "2026-07-13"
+          "t": "L'inflation aux États-Unis ralentit plus que prévu en juin",
+          "l": "https://www.agefi.fr/news/economie-marches/linflation-aux-etats-unis-ralentit-plus-que-prevu-en-juin",
+          "d": "2026-07-14"
         },
         {
-          "t": "Souveraineté : la compétitivité européenne passera par l’investissement dans ses entreprises technologiques",
-          "l": "https://www.agefi.fr/news/economie-marches/souverainete-la-competitivite-europeenne-passera-par-linvestissement-dans-ses-entreprises-technologiques",
-          "d": "2026-07-13"
+          "t": "Les banques françaises ont le sort de Casino entre leurs mains",
+          "l": "https://www.agefi.fr/news/entreprises/les-banques-francaises-ont-le-sort-de-casino-entre-leurs-mains",
+          "d": "2026-07-14"
         },
         {
-          "t": "Le second semestre 2026 se complexifie pour les allocataires",
-          "l": "https://www.agefi.fr/gestion-privee/actualites/le-second-semestre-2026-se-complexifie-pour-les-allocataires",
-          "d": "2026-07-13"
+          "t": "Le marché primaire des dettes financières résiste malgré les tensions géopolitiques",
+          "l": "https://www.agefi.fr/news/economie-marches/le-marche-primaire-des-dettes-financieres-a-boucle-un-bon-premier-semestre",
+          "d": "2026-07-14"
         },
         {
-          "t": "Swift lance enfin son infrastructure blockchain pour les dépôts tokenisés",
-          "l": "https://www.agefi.fr/cash-risk/tech/swift-lance-enfin-son-infrastructure-blockchain-pour-les-depots-tokenises",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "B&B Hotels verdit son financement",
-          "l": "https://www.agefi.fr/cash-risk/actualites/b-b-hotels-verdit-son-financement",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "L'Inspection générale des affaires sociales dénonce le statut des contrats collectifs en santé",
-          "l": "https://www.agefi.fr/news/banque-assurance/linspection-generale-des-affaires-sociales-denonce-le-statut-des-contrats-collectifs-en-sante",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "HarbourVest lève 4,75 milliards de dollars pour son septième fonds de co-investissement",
-          "l": "https://www.agefi.fr/private-equity/actualites/harbourvest-leve-4-75-milliards-de-dollars-pour-son-septieme-fonds-de-co-investissement",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Retraite des dirigeants : le CGP doit anticiper les transmissions d'entreprises",
-          "l": "https://www.agefi.fr/patrimoine/actualites/retraite-des-dirigeants-le-cgp-doit-anticiper-les-transmissions-dentreprises",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Acurio Ventures surfe sur la pénurie de liquidité dans le capital risque européen",
-          "l": "https://www.agefi.fr/private-equity/actualites/acurio-ventures-surfe-sur-la-penurie-de-liquidite-dans-le-capital-risque-europeen",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "La famille Seydoux relève de 90 à 100 euros par action son offre sur Gaumont",
-          "l": "https://www.agefi.fr/news/entreprises/la-famille-seydoux-releve-de-90-a-100-euros-par-action-son-offre-sur-gaumont",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "SK Hynix chute après des débuts flamboyants sur le Nasdaq",
-          "l": "https://www.agefi.fr/news/entreprises/sk-hynix-chute-apres-des-debuts-flamboyants-sur-le-nasdaq",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Mastercard pourrait se défaire du fournisseur d’infrastructure de paiement britannique VocaLink",
-          "l": "https://www.agefi.fr/news/tech-finance/mastercard-pourrait-se-defaire-de-vocalink-le-principal-fournisseur-dinfrastructure-de-paiement-britannique",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Rachel Baxter prend les rênes de la gestion des investissements de Vanguard en Europe",
-          "l": "https://www.agefi.fr/asset-management/people/rachel-baxter-prend-les-renes-de-la-gestion-des-investissements-de-vanguard-en-europe",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "La valorisation d’Helsing grimpe à 18 milliards de dollars",
-          "l": "https://www.agefi.fr/private-equity/actualites/la-valorisation-dhelsing-grimpe-a-18-milliards-de-dollars",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Bercy veut faire preuve de «bienveillance» dans la mise en place de la facturation électronique",
-          "l": "https://www.agefi.fr/cash-risk/actualites/bercy-veut-faire-preuve-de-bienveillance-dans-la-mise-en-place-de-la-facturation-electronique",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Le dollar poursuit sa remontada",
-          "l": "https://www.agefi.fr/cash-risk/actualites/le-dollar-poursuit-sa-remontada",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Le prix du pétrole repart à la hausse à cause des tensions au Moyen-Orient",
-          "l": "https://www.agefi.fr/news/economie-marches/le-prix-du-petrole-repart-a-la-hausse-a-cause-des-tensions-au-moyen-orient",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Facturation électronique : le retard français n’a rien d’un hasard",
-          "l": "https://www.agefi.fr/cash-risk/actualites/facturation-electronique-le-retard-francais-na-rien-dun-hasard",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "TSMC a enregistré une croissance de 36% au deuxième trimestre",
-          "l": "https://www.agefi.fr/news/entreprises/tsmc-a-enregistre-une-croissance-de-36-au-deuxieme-trimestre",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Les ventes de Stellantis poursuivent leur rebond",
-          "l": "https://www.agefi.fr/news/entreprises/les-ventes-de-stellantis-poursuivent-leur-rebond",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "La pré-cotation de SBI Funds Management attire les grands gestionnaires d’actifs",
-          "l": "https://www.agefi.fr/asset-management/actualites/la-pre-cotation-de-sbi-funds-management-attire-les-grands-gestionnaires-dactifs",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Natixis Investment Managers crée sa plateforme d’ETF actifs",
-          "l": "https://www.agefi.fr/asset-management/actualites/natixis-investments-managers-cree-sa-plateforme-detf-actifs",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "GIC renouvelle son équipe de direction des investissements",
-          "l": "https://www.agefi.fr/investisseurs-institutionnels/actualites/gic-renouvelle-son-equipe-de-direction-des-investissements",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Les encours d’Impax AM rebondissent à 23,3 milliards de livres sterling à fin juin",
-          "l": "https://www.agefi.fr/asset-management/actualites/les-encours-dimpax-am-rebondissent-a-23-3-milliards-de-livres-sterling-a-fin-juin",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Camelia Dumitrache nommée au sein de l'équipe marchés ETF de BlackRock",
-          "l": "https://www.agefi.fr/asset-management/actualites/camelia-dumitrache-nommee-au-sein-de-lequipe-marches-etf-de-blackrock",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "L&G dévoile un nouvel ETF Ucits sur les actions mondiales",
-          "l": "https://www.agefi.fr/etf/l-g-devoile-un-nouvel-etf-ucits-sur-les-actions-mondiales",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "L’Esma a lancé une action de surveillance des prestataires de services crypto",
-          "l": "https://www.agefi.fr/asset-management/actualites/lesma-a-lance-une-action-de-surveillance-des-prestataires-de-services-crypto",
-          "d": "2026-07-13"
+          "t": "JPMorgan publie un bénéfice net en hausse au deuxième trimestre",
+          "l": "https://www.agefi.fr/news/banque-assurance/jpmorgan-publie-un-benefice-net-en-hausse-au-deuxieme-trimestre",
+          "d": "2026-07-14"
         }
       ]
     },
@@ -870,7 +770,14 @@
     {
       "nom_site": "AFT",
       "type": "newsletter",
-      "articles": []
+      "articles": [
+        {
+          "t": "13/07/2026 : Émission de l'AFT : 7,394 milliards d’euros de BTF",
+          "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/13-juillet-2026-emission-btf",
+          "d": "2026-07-13",
+          "type": "newsletter"
+        }
+      ]
     }
   ],
   "news": [
@@ -888,39 +795,64 @@
       "nom_site": "Courrier international",
       "articles": [
         {
-          "t": "La VAR, “éteignoir” et “pire cauchemar de la Coupe du monde”",
-          "l": "https://www.courrierinternational.com/article/football-la-var-eteignoir-et-pire-cauchemar-de-la-coupe-du-monde_248992",
-          "d": "2026-07-13"
+          "t": "Quel est le secret des footballeurs pour réussir un pénalty ?",
+          "l": "https://www.courrierinternational.com/stories/video-quel-est-le-secret-des-footballeurs-pour-reussir-un-penalty_248329",
+          "d": "2026-07-14"
         },
         {
-          "t": "Comment le Japon est devenu un “nid” d’espions russes",
-          "l": "https://www.courrierinternational.com/article/geopolitique-comment-le-japon-est-devenu-un-nid-d-espions-russes_249252",
-          "d": "2026-07-13"
+          "t": "“Quinze jours en enfer” : une journaliste afghane réfugiée au Pakistan raconte l’arbitraire",
+          "l": "https://www.courrierinternational.com/article/temoignage-quinze-jours-en-enfer-une-journaliste-afghane-refugiee-au-pakistan-raconte-l-arbitraire_245315",
+          "d": "2026-07-14"
         },
         {
-          "t": "Le PKK en attente d’“un pas” du gouvernement Erdogan pour conclure la paix",
-          "l": "https://www.courrierinternational.com/article/turquie-le-pkk-en-attente-d-un-pas-du-gouvernement-erdogan-pour-conclure-la-paix_249386",
-          "d": "2026-07-13"
+          "t": "Pour “L’Odyssée”, quelle facette d’Ulysse choisira Christopher Nolan ?",
+          "l": "https://www.courrierinternational.com/article/cinema-pour-l-odyssee-quelle-facette-d-ulysse-choisira-christopher-nolan_248955",
+          "d": "2026-07-14"
         },
         {
-          "t": "Trois morts et onze blessés à Toronto, “devenue sourde au vacarme de la violence”",
-          "l": "https://www.courrierinternational.com/une/une-du-jour-trois-morts-et-onze-blesses-a-toronto-devenue-sourde-au-vacarme-de-la-violence_249418",
-          "d": "2026-07-13"
+          "t": "Comment Kylian Mbappé le mal-aimé a reconquis le cœur des Français",
+          "l": "https://www.courrierinternational.com/article/coupe-du-monde-2026-comment-kylian-mbappe-le-mal-aime-a-reconquis-le-c-ur-des-francais_249384",
+          "d": "2026-07-14"
         },
         {
-          "t": "En Espagne, la presse en appelle à un “pacte d’État” pour la prévention des incendies",
-          "l": "https://www.courrierinternational.com/article/societe-en-espagne-la-presse-en-appelle-a-un-pacte-d-etat-pour-la-prevention-des-incendies_249318",
-          "d": "2026-07-13"
+          "t": "Le mont Athos, cheval de troie de la Russie en Europe ?",
+          "l": "https://www.courrierinternational.com/article/grece-le-mont-athos-cheval-de-troie-de-la-russie-en-europe_249714",
+          "d": "2026-07-14"
         },
         {
-          "t": "Plus de 1 200 morts en un week-end : où était l’État belge pendant la canicule ?",
-          "l": "https://www.courrierinternational.com/article/sante-publique-plus-de-1-200-morts-en-un-week-end-ou-etait-l-etat-belge-pendant-la-canicule_249089",
-          "d": "2026-07-13"
+          "t": "Un incendie fait au moins deux morts dans le centre de Bruxelles",
+          "l": "https://www.courrierinternational.com/article/belgique-un-incendie-fait-au-moins-deux-morts-dans-le-centre-de-bruxelles_249780",
+          "d": "2026-07-14"
         },
         {
-          "t": "Un “T. rex” pourrait devenir le fossile le plus cher de tous les temps",
-          "l": "https://www.courrierinternational.com/article/paleontologie-un-t-rex-pourrait-devenir-le-fossile-le-plus-cher-de-tous-les-temps_249285",
-          "d": "2026-07-13"
+          "t": "Coupe du monde 2026 : l’étoffe des héros est en textile recyclé",
+          "l": "https://www.courrierinternational.com/article/mode-coupe-du-monde-2026-l-etoffe-des-heros-est-en-textile-recycle_247304",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "L’Afrique de l’Ouest et centrale, nouveaux foyers pour la production de drogue",
+          "l": "https://www.courrierinternational.com/article/carte-l-afrique-de-l-ouest-et-centrale-nouveaux-foyers-pour-la-production-de-drogue_247611",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "En juin, la vague de chaleur aurait causé la mort de 14 000 Européens",
+          "l": "https://www.courrierinternational.com/article/canicule-en-juin-la-vague-de-chaleur-aurait-cause-la-mort-de-14-000-europeens_249747",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "L’Afrique pourra-t-elle développer une IA africaine ?",
+          "l": "https://www.courrierinternational.com/article/tech-l-afrique-pourra-t-elle-developper-une-ia-africaine_247340",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "En Allemagne, les dons de sang sont en baisse",
+          "l": "https://www.courrierinternational.com/grand-format/infographie-en-allemagne-les-dons-de-sang-sont-en-baisse_245280",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "La relation franco-américaine mérite qu’on la chérisse, malgré les difficultés",
+          "l": "https://www.courrierinternational.com/article/vu-des-etats-unis-la-relation-franco-americaine-merite-qu-on-la-cherisse-malgre-les-difficultes_248295",
+          "d": "2026-07-14"
         }
       ]
     },
@@ -928,84 +860,44 @@
       "nom_site": "Challenges",
       "articles": [
         {
-          "t": "« Le détroit d’Ormuz est OUVERT et restera OUVERT » : Donald Trump relance les hostilités avec l’Iran alors que le prix du pétrole explose",
-          "l": "https://www.challenges.fr/monde/le-detroit-dormuz-est-ouvert-et-restera-ouvert-donald-trump-relance-les-hostilites-avec-liran-alors-que-le-prix-du-petrole-explose_644867",
-          "d": "2026-07-13"
+          "t": "Gibraltar rejoint Schengen : comment le Brexit a fini par rapprocher l’enclave britannique de l’Espagne",
+          "l": "https://www.challenges.fr/monde/gibraltar-rejoint-schengen-comment-le-brexit-a-fini-par-rapprocher-lenclave-britannique-de-lespagne_644831",
+          "d": "2026-07-14"
         },
         {
-          "t": "« Un jour noir pour l’automobile allemande » : jusqu’à 50 000 emplois menacés chez Volkswagen",
-          "l": "https://www.challenges.fr/automobile/un-jour-noir-pour-lautomobile-allemande-jusqua-50-000-emplois-menaces-chez-volkswagen_644866",
-          "d": "2026-07-13"
+          "t": "« Demain, on aimerait faire atterrir Volotea ou Easyjet » : à Aurillac, dixième étape du tour de France, les élus se battent pour leur petit aéroport",
+          "l": "https://www.challenges.fr/entreprise/transports/demain-on-aimerait-faire-atterrir-volotea-ou-easyjet-a-aurillac-dixieme-etape-du-tour-de-france-les-elus-se-battent-pour-leur-petit-aeroport_644872",
+          "d": "2026-07-14"
         },
         {
-          "t": "Plus riches, plus originaux : pourquoi les Edmond de Rothschild détonnent dans la dynastie",
-          "l": "https://www.challenges.fr/fortunes/plus-riches-plus-originaux-pourquoi-les-edmond-de-rothschild-detonnent-dans-la-dynastie_644829",
-          "d": "2026-07-13"
+          "t": "La fin d’une longue incertitude politique : l’UE et le Royaume-Uni trouvent un accord sur Gibraltar",
+          "l": "https://www.challenges.fr/monde/la-fin-dune-longue-incertitude-politique-lue-et-le-royaume-uni-trouvent-un-accord-sur-gibraltar_644871",
+          "d": "2026-07-14"
         },
         {
-          "t": "Visa et MasterCard face à la nouvelle donne mondiale : pourquoi Washington pourrait nuire à sa propre suprématie financière",
-          "l": "https://www.challenges.fr/entreprise/banque-et-assurance/visa-et-mastercard-face-a-la-nouvelle-donne-mondiale-pourquoi-washington-pourrait-nuire-a-sa-propre-suprematie-financiere_644865",
-          "d": "2026-07-13"
+          "t": "Fusions-acquisitions : le marché français signe son meilleur premier semestre depuis 2018",
+          "l": "https://www.challenges.fr/entreprise/banque-et-assurance/fusions-acquisitions-le-marche-francais-signe-son-meilleur-premier-semestre-depuis-2018_644830",
+          "d": "2026-07-14"
         },
         {
-          "t": "Comment la France s’impose sur le marché en or des grands événements sportifs : décryptage avec la ministre Marina Ferrari",
-          "l": "https://www.challenges.fr/entreprise/sports/comment-la-france-simpose-sur-le-marche-en-or-des-grands-evenements-sportifs-decryptage-avec-la-ministre-marina-ferrari_644860",
-          "d": "2026-07-13"
+          "t": "Des slips à 20 euros et une entrée en bourse prometteuse : les secrets du Slip français pour s’imposer sur le marché serré des sous-vêtements",
+          "l": "https://www.challenges.fr/entreprise/des-slips-a-20-euros-et-une-entree-en-bourse-prometteuse-les-secrets-du-slip-francais-pour-simposer-sur-le-marche-serre-des-sous-vetements_644870",
+          "d": "2026-07-14"
         },
         {
-          "t": "Du partenariat à la rupture ? Pourquoi Apple se retourne contre OpenAI et porte plainte contre le géant de l’IA",
-          "l": "https://www.challenges.fr/entreprise/tech-numerique/du-partenariat-a-la-rupture-pourquoi-apple-se-retourne-contre-openai-et-porte-plainte-contre-le-geant-de-lia_644858",
-          "d": "2026-07-13"
+          "t": "Il a réalisé la robe de Beyoncé et compte 10 millions d’abonnés sur Instagram : qui est Olivier Rousteing, le nouveau directeur artistique de Paco Rabanne",
+          "l": "https://www.challenges.fr/luxe/il-a-realise-la-robe-de-beyonce-et-compte-10-millions-dabonnes-sur-instagram-qui-est-olivier-rousteing-le-nouveau-directeur-artistique-de-paco-rabanne_644868",
+          "d": "2026-07-14"
         },
         {
-          "t": "Interdire les réseaux sociaux aux moins de 13 ans dans toute l’UE, la piste choc des experts mandatés par la Commission européenne",
-          "l": "https://www.challenges.fr/entreprise/tech-numerique/interdire-les-reseaux-sociaux-aux-moins-de-13-ans-dans-toute-lue-la-piste-choc-des-experts-mandates-par-la-commission-europeenne_644857",
-          "d": "2026-07-13"
+          "t": "Chef-d’œuvre millénaire à 1 milliard d’euros ou outil de « soft power » français, quelle est la véritable valeur de la tapisserie de Bayeux ?",
+          "l": "https://www.challenges.fr/entreprise/culture/chef-doeuvre-millenaire-a-1-milliard-deuros-ou-outil-de-soft-power-francais-quelle-est-la-veritable-valeur-de-la-tapisserie-de-bayeux_644861",
+          "d": "2026-07-14"
         },
         {
-          "t": "Premier test réussi : une pépite française de la défense et Dassault dégainent leur nouvelle arme de guerre électronique",
-          "l": "https://www.challenges.fr/entreprise/defense/premier-test-reussi-une-pepite-francaise-de-la-defense-et-dassault-degainent-leur-nouvelle-arme-de-guerre-electronique_644854",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "« Les deux camps jouent avec le feu » : pourquoi l’escalade entre les Etats-Unis de Trump et l’Iran risque de virer à la « guerre sans fin »",
-          "l": "https://www.challenges.fr/monde/les-deux-camps-jouent-avec-le-feu-pourquoi-lescalade-entre-les-etats-unis-de-trump-et-liran-risque-de-virer-a-la-guerre-sans-fin_644853",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "« L’entreprise retombe dans les mêmes travers » : la gouvernance au Japon, un insurmontable problème qui refroidit les investisseurs étrangers",
-          "l": "https://www.challenges.fr/entreprise/lentreprise-retombe-dans-les-memes-travers-la-gouvernance-au-japon-un-insurmontable-probleme-qui-refroidit-les-investisseurs-etrangers_644850",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "« Nous serons moins chers que tous nos concurrents » : BYD promet 3 000 stations de recharge en un an, un pari réaliste ?",
-          "l": "https://www.challenges.fr/automobile/nous-serons-moins-chers-que-tous-nos-concurrents-byd-promet-3-000-stations-de-recharge-en-un-an-un-pari-realiste_644813",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Des Canadair déployés pour la première fois en Île-de-France : face à la multiplication des incendies, de combien d’appareils dispose la France ?",
-          "l": "https://www.challenges.fr/entreprise/aeronautique/des-canadair-deployes-pour-la-premiere-fois-en-ile-de-france-face-a-la-multiplication-des-incendies-de-combien-dappareils-dispose-la-france_644852",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "500 Fortunes : ces personnalités devenues françaises après avoir fait leur richesse",
-          "l": "https://www.challenges.fr/economie/500-fortunes-ces-personnalites-devenues-francaises-apres-avoir-fait-leur-richesse_644849",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Changement d’actionnaire pour le groupe français de sécurité Barkene, qui espère conquérir le marché européen d’ici deux ans.",
-          "l": "https://www.challenges.fr/partenaires/changement-dactionnaire-pour-le-groupe-francais-de-securite-barkene-qui-espere-conquerir-le-marche-europeen-dici-deux-ans_644725",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Du krach de Wall Street à Donald Trump : un siècle de crises économiques qui ont changé l’Amérique",
-          "l": "https://www.challenges.fr/monde/du-krach-de-wall-street-a-donald-trump-un-siecle-de-crises-economiques-qui-ont-change-lamerique_644782",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Un quart de transactions en moins en 2026 : pourquoi il faut prendre au sérieux l’effondrement du nombre de ventes de logements à Paris",
-          "l": "https://www.challenges.fr/immobilier/un-quart-de-transactions-en-moins-en-2026-pourquoi-il-faut-prendre-au-serieux-leffondrement-du-nombre-de-ventes-de-logements-a-paris_644848",
-          "d": "2026-07-13"
+          "t": "Première fortune d’Ukraine, il investit des centaines de millions à Courchevel et sur la Côte d’Azur : la frénésie immobilière du milliardaire Akhmetov",
+          "l": "https://www.challenges.fr/fortunes/premiere-fortune-dukraine-il-investit-des-centaines-de-millions-a-courchevel-et-sur-la-cote-dazur-la-frenesie-immobiliere-du-milliardaire-akhmetov_644851",
+          "d": "2026-07-14"
         }
       ]
     },
@@ -1013,64 +905,69 @@
       "nom_site": "La Tribune",
       "articles": [
         {
-          "t": "La Fed n'exclut plus une hausse rapide des taux si l'inflation repart",
-          "l": "https://www.latribune.fr/article/banques-finance/industrie-financiere/85651949209231/la-fed-nexclut-plus-une-hausse-rapide-des-taux-si-linflation-repart",
-          "d": "2026-07-13"
+          "t": "Le Slip Français fait un peu monter la température sur les marchés",
+          "l": "https://www.latribune.fr/article/banques-finance/industrie-financiere/13409915146795/le-slip-francais-fait-monter-un-peu-la-temperature-sur-les-marches",
+          "d": "2026-07-14"
         },
         {
-          "t": "Canadair : la France engagée dans un contre-la-montre pour remplacer ses bombardiers d’eau vieillissants",
-          "l": "https://www.latribune.fr/article/defense-aerospatiale/aeronautique-defense/63364602991333/canadair-la-france-engagee-dans-un-contre-la-montre-pour-remplacer-ses-bombardiers-d-eau-vieillissants",
-          "d": "2026-07-13"
+          "t": "Airbus, Destinus, MBDA, Safran et Thales veulent développer ensemble un système de défense aérienne contre les missiles balistiques",
+          "l": "https://www.latribune.fr/article/defense-aerospatiale/defense/80866286038048/airbus-destinus-mbda-safran-et-thales-veulent-developper-ensemble-un-systeme-de-defense-aerienne-contre-les-missiles-balistiques",
+          "d": "2026-07-14"
         },
         {
-          "t": "Armement : Emmanuel Macron tance à nouveau les industriels",
-          "l": "https://www.latribune.fr/article/defense-aerospatiale/defense/84671401589951/armement-emmanuel-macron-tance-a-nouveau-les-industriels",
-          "d": "2026-07-13"
+          "t": "Du porte-avions aux drones, le BEA-É renforce la sécurité des vols",
+          "l": "https://air-cosmos.latribune.fr/article/defense/1590322260328514/du-porte-avions-aux-drones-le-bea-e-renforce-la-securite-des-vols",
+          "d": "2026-07-14"
         },
         {
-          "t": "Spatial : Sensing lève 12 millions d'euros pour doper la surveillance atmosphérique",
-          "l": "https://www.latribune.fr/article/defense-aerospatiale/spatial/32885946035584/spatial-sensing-leve-12-millions-deuros-pour-doper-la-surveillance-atmospherique",
-          "d": "2026-07-13"
+          "t": "Royaume-Uni : Andy Burnham désormais assuré de s'installer au 10 Downing Street",
+          "l": "https://www.latribune.fr/article/economie/international/1548141991625514/grande-bretagne-andy-burnham-desormais-assure-de-sinstaller-au-10-downing-street",
+          "d": "2026-07-14"
         },
         {
-          "t": "Pourquoi Volkswagen pourrait rayer de ses effectifs l’équivalent de la population de Nancy",
-          "l": "https://www.latribune.fr/article/transports/automobile/30742310421991/pourquoi-volkswagen-pourrait-rayer-de-ses-effectifs-l-equivalent-de-la-population-de-nancy",
-          "d": "2026-07-13"
+          "t": "Un défi majeur pour l'Union européenne : d'ici à 2050, près d'un habitant sur trois aura 65 ans ou plus",
+          "l": "https://www.latribune.fr/article/economie/19220516652209/une-defit-majeur-pour-lunion-europeenne-dici-a-2050-pres-dun-habitant-sur-trois-aura-65-ans-ou-plus",
+          "d": "2026-07-14"
         },
         {
-          "t": "Medhi Houas : « L’Europe doit être un marché de puissance technologique »",
-          "l": "https://www.latribune.fr/article/tech/29263168432161/medhi-houas-l-europe-doit-etre-un-marche-de-puissance-technologique",
-          "d": "2026-07-13"
+          "t": "Mer d'Azov : l'Ukraine aurait frappé 116 navires russes en neuf jours",
+          "l": "https://www.latribune.fr/article/economie/international/1458949837374514/mer-dazov-lukraine-aurait-frappe-116-navires-russes-en-neuf-jours",
+          "d": "2026-07-14"
         },
         {
-          "t": "Dassault Aviation et Harmattan AI : démonstration inédite avec un Rafale et un drone de guerre électronique",
-          "l": "https://air-cosmos.latribune.fr/article/innovation-technologies/81012727519967/dassault-aviation-et-harmattan-ai-demonstration-inedite-avec-un-rafale-et-un-drone-de-guerre-electronique",
-          "d": "2026-07-13"
+          "t": "Coupe du monde : Mikel Merino, le recours de dernière minute de l'Espagne",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/sports/16694433731060/coupe-du-monde-mikel-merino-le-recours-de-derniere-minute-de-lespagne",
+          "d": "2026-07-14"
         },
         {
-          "t": "À Béziers, le laboratoire où Suez prépare l’eau recyclée du futur",
-          "l": "https://www.latribune.fr/article/climat/transitions-ecologiques/14508491136357/a-beziers-le-laboratoire-ou-suez-prepare-l-eau-recyclee-du-futur",
-          "d": "2026-07-13"
+          "t": "Coupe du monde : la France est plus royale que l'Espagne",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/sports/1445860681315914/coupe-du-monde-la-france-est-plus-royale-que-lespagne",
+          "d": "2026-07-14"
         },
         {
-          "t": "OPINION. « Stratégie d'entreprise : l’IA est partout, mais ses profits restent introuvables »",
-          "l": "https://www.latribune.fr/article/idees/12912576629432/opinion-strategie-dentreprise-l-ia-est-partout-mais-ses-profits-restent-introuvables",
-          "d": "2026-07-13"
+          "t": "L'Allemagne a enregistré 32% de décès en plus durant la canicule de juin",
+          "l": "https://www.latribune.fr/article/climat/1435105694929714/lallemagne-a-enregistre-32-de-deces-en-plus-durant-la-canicule-de-juin",
+          "d": "2026-07-14"
         },
         {
-          "t": "OPINION. « Bataille mondiale des capitales pour maîtriser l’information. »",
-          "l": "https://www.latribune.fr/article/idees/38369498699292/opinion-bataille-mondiale-des-capitales-pour-maitriser-l-information",
-          "d": "2026-07-13"
+          "t": "Détroit d'Ormuz : des navires, dont deux tankers émiriens, touchés par des missiles iraniens",
+          "l": "https://www.latribune.fr/article/economie/international/1426169774648814/detroit-dormuz-des-navires-dont-deux-tankers-emiriens-touches-par-des-missiles-iraniens",
+          "d": "2026-07-14"
         },
         {
-          "t": "Data center : suspension du permis de construire du méga-projet de Sesterce à Valence",
-          "l": "https://www.latribune.fr/article/regions/auvergne-rhone-alpes/41314201475505/data-center-suspension-du-permis-de-construire-du-mega-projet-de-sesterce-a-valence",
-          "d": "2026-07-13"
+          "t": "L'avenir du détroit d'Ormuz au menu du Parlement iranien",
+          "l": "https://www.latribune.fr/article/economie/international/12856289425513/lavenir-du-detroit-dormuz-au-menu-du-parlement-iranien",
+          "d": "2026-07-14"
         },
         {
-          "t": "La France manque d'eau : 98 départements sous surveillance, les restrictions se généralisent",
-          "l": "https://www.latribune.fr/article/climat/16221994462136/la-france-manque-deau-98-departements-sous-surveillance-les-restrictions-se-generalisent",
-          "d": "2026-07-13"
+          "t": "Levée de 1,8 milliard de dollars : Helsing, une anomalie européenne par son ampleur",
+          "l": "https://www.latribune.fr/article/defense-aerospatiale/defense/99730457737480/levee-de-1-8-milliard-de-dollars-helsing-une-anomalie-europeenne-par-son-ampleur",
+          "d": "2026-07-14"
+        },
+        {
+          "t": "Lutte anti-drone : l'armée de l'air française bientôt dotée d'une capacité à bas coût mais performante",
+          "l": "https://www.latribune.fr/article/defense-aerospatiale/defense/55391527209915/lutte-anti-drone-larmee-de-lair-francaise-bientot-dotee-dune-capacite-a-bas-cout-mais-performante",
+          "d": "2026-07-14"
         }
       ]
     },
@@ -1104,7 +1001,7 @@
       "articles": [
         {
           "t": "Se baigner en toute sécurité en adoptant les bons gestes",
-          "l": "https://www.santepubliquefrance.fr/index.php/les-actualites/se-baigner-en-toute-securite-en-adoptant-les-bons-gestes",
+          "l": "https://www.santepubliquefrance.fr/les-actualites/se-baigner-en-toute-securite-en-adoptant-les-bons-gestes",
           "d": "2026-07-10"
         }
       ]
@@ -1133,9 +1030,9 @@
       "nom_site": "Eurostat|Actualités",
       "articles": [
         {
-          "t": "EU hospital bed count at 507 per 100 000 people",
-          "l": "https://ec.europa.eu/eurostat/product?code=ddn-20260713-1",
-          "d": "2026-07-13"
+          "t": "Energy efficiency upgrades at home for 24% of people",
+          "l": "https://ec.europa.eu/eurostat/product?code=ddn-20260714-1",
+          "d": "2026-07-14"
         }
       ]
     },
@@ -1143,69 +1040,34 @@
       "nom_site": "Conseil de l'UE",
       "articles": [
         {
-          "t": "Human rights violations against Ukrainian prisoners of war: Council lists 15 individuals and one entity",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/human-rights-violations-against-ukrainian-prisoners-of-war-council-lists-15-individuals-and-one-entity/",
-          "d": "2026-07-13"
+          "t": "Enlargement: Albania and EU provisionally close negotiations on science and research, education and culture, and external relations",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/14/enlargement-albania-and-eu-provisionally-close-negotiations-on-science-and-research-education-and-culture-and-external-relations/",
+          "d": "2026-07-14"
         },
         {
-          "t": "Russian cyber-attacks and destabilising activities: Council sanctions nine individuals and four entities",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/russian-cyber-attacks-and-destabilising-activities-council-sanctions-nine-individuals-and-four-entities/",
-          "d": "2026-07-13"
+          "t": "Enlargement: EU and Moldova start negotiations on external relations policies",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/14/enlargement-eu-and-moldova-start-negotiations-on-external-relations-policies/",
+          "d": "2026-07-14"
         },
         {
-          "t": "Media advisory - General Affairs Council and accession conferences with Ukraine, Montenegro, the Republic of Moldova and Albania of 14 July 2026",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/media-advisory-general-affairs-council-and-accession-conferences-with-ukraine-montenegro-the-republic-of-moldova-and-albania-of-14-july-2026/",
-          "d": "2026-07-13"
+          "t": "Enlargement: EU and Montenegro close accession negotiations on competition policy and customs union",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/14/enlargement-eu-and-montenegro-close-accession-negotiations-on-competition-policy-and-customs-union/",
+          "d": "2026-07-14"
         },
         {
-          "t": "European Peace Facility: Council adopts first-ever assistance measure for the Philippines' maritime security",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/european-peace-facility-council-adopts-first-ever-assistance-measure-for-the-philippine-s-maritime-security/",
-          "d": "2026-07-13"
+          "t": "Statement by the High Representative on behalf of the EU on the alignment of certain countries concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/14/statement-by-the-high-representative-on-behalf-of-the-eu-on-the-alignment-of-certain-countries-concerning-restrictive-measures-in-respect-of-actions-undermining-or-threatening-the-territorial-integrity-sovereignty-and-independence-of-ukrain/",
+          "d": "2026-07-14"
         },
         {
-          "t": "Human rights violations in Russia: Council lists four individuals and five entities over abusive surveillance",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/human-rights-violations-in-russia-council-lists-four-individuals-and-five-entities-over-abusive-surveillance/",
-          "d": "2026-07-13"
+          "t": "EU-Mexico: Council gives final approval to modernised trade agreement",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/14/eu-mexico-council-gives-final-approval-to-modernised-trade-agreement/",
+          "d": "2026-07-14"
         },
         {
-          "t": "Joint statement by the High Representative on behalf of the European Union and by Ukraine on civilian detainees and the humanitarian consequences of Russia’s war of aggression",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/joint-statement-by-the-high-representative-on-behalf-of-the-european-union-and-by-ukraine-on-civilian-detainees-and-the-humanitarian-consequences-of-russia-s-war-of-aggression/",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "European Peace Facility: Council adopts assistance measure to support the Republic of Moldova’s air defence capabilities",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/european-peace-facility-council-adopts-assistance-measure-to-support-the-republic-of-moldova-s-air-defence-capabilities/",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Soudan: le Conseil renforce le régime de sanctions de l'UE en ciblant le commerce de l'or",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/sudan-council-strengthens-eu-sanctions-regime-by-targeting-gold-trade/",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Council appoints a new EU Special Representative for Kosovo* and renews mandates for Bosnia and Herzegovina and the Horn of Africa",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/council-appoints-a-new-eu-special-representative-for-kosovostar-and-renews-mandates-for-bosnia-and-herzegovina-and-the-horn-of-africa/",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Armenia: EU launches partnership mission to support the country's resilience against evolving hybrid threats",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/armenia-eu-launches-partnership-mission-to-support-the-country-s-resilience-against-evolving-hybrid-threats/",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Le Conseil adopte des mesures ciblées pour soutenir les agriculteurs confrontés aux coûts élevés des engrais",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/council-adopts-targeted-measures-to-support-farmers-facing-high-fertiliser-costs/",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Feu vert définitif du Conseil au renforcement des droits des passagers aériens",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/council-gives-final-clearance-for-stronger-air-passenger-rights/",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Cyberattaques/Russie: déclaration de la haute représentante, au nom de l'Union européenne, dénonçant le cyberécosystème malveillant de la Russie ciblant l'UE, ses États membres et des partenaires internationaux",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/13/cyber-russia-statement-by-the-high-representative-on-behalf-of-the-european-union-denouncing-russia-s-malicious-cyber-ecosystem-targeting-the-eu-its-member-states-and-international-partners/",
-          "d": "2026-07-13"
+          "t": "Enlargement: EU opens accession negotiations with Ukraine on external relations policies",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/07/14/enlargement-eu-opens-accession-negotiations-with-ukraine-on-external-relations-policies/",
+          "d": "2026-07-14"
         }
       ]
     },
@@ -1215,7 +1077,7 @@
         {
           "t": "Pourquoi le football est-il si populaire ?",
           "l": "https://lejournal.cnrs.fr/videos/pourquoi-le-football-est-il-si-populaire",
-          "d": "2026-07-13"
+          "d": "2026-07-14"
         }
       ]
     },
@@ -1223,9 +1085,9 @@
       "nom_site": "Pour la Science",
       "articles": [
         {
-          "t": "Bio-inspiration : pour s’inspirer de la nature, il ne faut pas l’idéaliser",
-          "l": "https://www.pourlascience.fr/sd/evolution/bio-inspiration-pour-s-inspirer-de-la-nature-il-ne-faut-pas-l-idealiser-29416.php",
-          "d": "2026-07-13"
+          "t": "Le dilemme du restaurant de Feynman testé et approuvé",
+          "l": "https://www.pourlascience.fr/sd/psychologie/le-dilemme-du-restaurant-de-feynman-teste-et-approuve-29363.php",
+          "d": "2026-07-14"
         }
       ]
     },
@@ -1263,24 +1125,9 @@
       "nom_site": "LeMagIT",
       "articles": [
         {
-          "t": "MFA : les erreurs courantes et comment les corriger",
-          "l": "https://www.lemagit.fr/conseil/MFA-les-erreurs-courantes-et-comment-les-corriger",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Racheté 625 M$ par IREN, Mirantis veut faire passer K0rdent à la vitesse supérieure",
-          "l": "https://www.lemagit.fr/actualites/366645705/Rachete-625-M-par-IREN-Mirantis-veut-faire-passer-K0rdent-a-la-vitesse-superieure",
-          "d": "2026-07-13"
-        },
-        {
           "t": "Cyberattaques : l’Europe, le Royaume-Uni et les États-Unis accusent Moscou",
-          "l": "https://www.lemagit.fr/actualites/366645852/Cyberattaques-lEurope-le-Royaume-Uni-et-les-Etats-Unis-accusent-Moscou",
-          "d": "2026-07-13"
-        },
-        {
-          "t": "Fiabilité d’Internet : IO River propose la bascule automatique entre CDN",
-          "l": "https://www.lemagit.fr/actualites/366645725/Fiabilite-dInternet-IO-River-propose-la-bascule-automatique-entre-CDN",
-          "d": "2026-07-13"
+          "l": "https://www.lemagit.fr/dessin/Cyberattaques-lEurope-le-Royaume-Uni-et-les-Etats-Unis-accusent-Moscou",
+          "d": "2026-07-14"
         }
       ]
     },
@@ -1309,7 +1156,20 @@
     {
       "nom_site": "Cour des Comptes",
       "type": "newsletter",
-      "articles": []
+      "articles": [
+        {
+          "t": "Newsletter: Abonnement confirmé",
+          "l": "https://click.mailchimp.com/track/click/30010842/login.mailchimp.com?p=eyJzIjoicEFwTGN1bmZrWERvYUtBckpIU1VXM0FuYnNnIiwidiI6MiwicCI6IntcInVcIjozMDAxMDg0MixcInZcIjoyLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2xvZ2luLm1haWxjaGltcC5jb21cXFwvc2lnbnVwXFxcL2VtYWlsLXJlZmVycmFsXFxcLz9haWQ9YjVmMTJjMmI4OTZhOTBhYTBiNmQ1YzA3Y1wiLFwiaWRcIjpcIjNiZWQ3M2IyODA0NTRjMmFhNDgzMzE0Y2FjY2M2NGM2XCIsXCJ1cmxfaWRzXCI6W1wiMWZiYzEzN2ZiYzJmYWNlYWQwZGY4Yjk2Nzc0NWI1YTA4OTI3ZmNkZlwiXSxcIm1zZ190c1wiOjE3ODM4NzE2OTR9In0",
+          "d": "2026-07-12",
+          "type": "newsletter"
+        },
+        {
+          "t": "Newsletter: Veuillez confirmer l'abonnement",
+          "l": "https://click.mailchimp.com/track/click/30010842/ccomptes.us16.list-manage.com?p=eyJzIjoiYWd4OVZxNDAwekhLU2V6enBNTjRRVWVDc0k0IiwidiI6MiwicCI6IntcInVcIjozMDAxMDg0MixcInZcIjoyLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2Njb21wdGVzLnVzMTYubGlzdC1tYW5hZ2UuY29tXFxcL3N1YnNjcmliZVxcXC9jb25maXJtP3U9YjVmMTJjMmI4OTZhOTBhYTBiNmQ1YzA3YyZpZD1jZTc5NjczODc4JmU9YjdmODgyYmZjYVwiLFwiaWRcIjpcImY4NTlkMDBhMGYzZjRlMGJiZGI3ZTdmZWZlNGFjY2U3XCIsXCJ1cmxfaWRzXCI6W1wiMTA1MDJhMzFjMmY0ZTM3MTQ0M2RjMGUyZDdlMmM5NTZkOTk0NGVjN1wiXSxcIm1zZ190c1wiOjE3ODM4NzE2NTl9In0",
+          "d": "2026-07-12",
+          "type": "newsletter"
+        }
+      ]
     }
   ]
 }
