@@ -279,3 +279,39 @@ mark {
     text-transform: uppercase;
     letter-spacing: 0.04em;
 }
+
+.source-inventaire {
+    grid-column: 1 / -1;
+    padding: 14px 16px;
+    border: 1px solid #d8e3ec;
+    border-radius: 10px;
+    background: #f8fbfd;
+}
+
+.source-inventaire strong {
+    display: block;
+    margin-bottom: 10px;
+    color: #405464;
+}
+
+.source-inventaire > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.source-inventaire-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #e8f1f7;
+    color: #29485e;
+    font-size: 0.82rem;
+}
+
+.source-inventaire-newsletter {
+    background: #fff0d7;
+    color: #76521d;
+}

@@ -215,8 +215,46 @@ def lien_principal_newsletter(contenu_html):
         comparaison = f"{libelle} {url.lower()}"
         if (url.startswith(("https://", "http://"))
                 and not any(mot in comparaison for mot in MOTS_LIENS_TECHNIQUES)):
-            return url
+            return resoudre_lien_suivi_newsletter(url)
     return ""
+
+
+def resoudre_lien_suivi_newsletter(url):
+    """Remplace les liens de suivi connus par leur destination éditoriale publique."""
+    if not re.search(r"https?://[^/]+/(?:mk/cl|track|click)/", url, re.IGNORECASE):
+        return url
+    try:
+        reponse = requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (veille personnelle)"},
+            timeout=20,
+        )
+        reponse.raise_for_status()
+        if reponse.url != url:
+            return reponse.url
+        page = BeautifulSoup(reponse.text, "html.parser")
+        meta = page.select_one('meta[http-equiv="refresh" i][content]')
+        if meta:
+            cible = re.sub(
+                r"^\s*[\d.]+\s*;\s*(?:url\s*=\s*)?",
+                "",
+                meta["content"],
+                flags=re.I,
+            )
+            if cible.startswith(("https://", "http://")):
+                return html.unescape(cible)
+        correspondance = re.search(
+            r"(?:top|window)\.location(?:\.href)?\s*=\s*['\"]([^'\"]+)",
+            reponse.text,
+            re.IGNORECASE,
+        )
+        if correspondance:
+            cible = correspondance.group(1).replace(r"\/", "/")
+            if cible.startswith(("https://", "http://")):
+                return html.unescape(cible)
+    except Exception as exc:
+        print(f"Lien de newsletter non résolu ({url}): {exc}")
+    return url
 
 
 def regle_pour_message(regles, adresses):
@@ -1049,6 +1087,15 @@ def collecter_decisions_judilibre():
     entetes = {"User-Agent": "Mozilla/5.0 (veille-juridique; contact local)"}
     decisions = []
     date_retenue = HIER
+    decisions_precedentes = []
+    date_precedente = ""
+    try:
+        with open(FICHIER_DECISIONS, encoding="utf-8") as fichier:
+            cache_precedent = json.load(fichier)
+        decisions_precedentes = cache_precedent.get("decisions", [])
+        date_precedente = cache_precedent.get("date_cible", "")
+    except (OSError, json.JSONDecodeError, AttributeError):
+        pass
 
     try:
         for recul in range(8):
@@ -1059,6 +1106,14 @@ def collecter_decisions_judilibre():
                 break
     except Exception as exc:
         raise RuntimeError(f"Erreur page publique Judilibre: {exc}") from exc
+
+    if not decisions and decisions_precedentes:
+        decisions = decisions_precedentes
+        date_retenue = date_precedente
+        print(
+            f"Aucune décision Judilibre récente: conservation des "
+            f"{len(decisions)} décisions du {date_retenue}."
+        )
 
     with open(FICHIER_DECISIONS, "w", encoding="utf-8") as fichier:
         json.dump(

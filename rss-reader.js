@@ -21,6 +21,21 @@ function formaterNomSource(nom) {
     return String(nom ?? '').replaceAll('|', ' — ');
 }
 
+function inventaireSources(sources) {
+    const badges = sources.map(source => {
+        const estNewsletter = source.type === 'newsletter';
+        return `<span class="source-inventaire-badge${estNewsletter ? ' source-inventaire-newsletter' : ''}">
+            ${echapperHtml(formaterNomSource(source.nom_site))}
+            ${estNewsletter ? '<span aria-label="Newsletter">✉</span>' : ''}
+        </span>`;
+    }).join('');
+
+    return `<aside class="source-inventaire" aria-label="Sources suivies">
+        <strong>Sources suivies (${sources.length})</strong>
+        <div>${badges}</div>
+    </aside>`;
+}
+
 // --- NOUVELLE FONCTION DE FORMATAGE ---
 function formaterDateEnFrancais(dateBrute) {
     if (!dateBrute) return "";
@@ -71,45 +86,6 @@ function reclasserSourcesRSS(categorieCible, categoriesOrigine, prefixesSources)
     });
 }
 
-function normaliserLien(lien) {
-    try {
-        const url = new URL(lien, window.location.href);
-        url.hash = "";
-        return url.href.replace(/\/$/, "");
-    } catch (_) {
-        return (lien || "").trim().replace(/#.*$/, "").replace(/\/$/, "");
-    }
-}
-
-async function chargerLiensDesComptesRendus(categorie) {
-    const categorieNormalisee = categorie.trim().toLowerCase();
-    if (!['finance', 'news'].includes(categorieNormalisee)) return new Set();
-
-    try {
-        const res = await fetch('liste_md.json', { cache: 'no-store' });
-        if (!res.ok) return new Set();
-        const liste = await res.json();
-        const fichiers = liste.filter(item =>
-            item.nom_fichier.toLowerCase().includes(categorieNormalisee + '/')
-        );
-        const contenus = await Promise.all(fichiers.map(async item => {
-            const mdRes = await fetch('markdown/' + item.nom_fichier, { cache: 'no-store' });
-            return mdRes.ok ? mdRes.text() : '';
-        }));
-        const liens = new Set();
-        const motifLien = /https?:\/\/[^\s)\]>]+/g;
-        contenus.forEach(contenu => {
-            (contenu.match(motifLien) || []).forEach(lien =>
-                liens.add(normaliserLien(lien))
-            );
-        });
-        return liens;
-    } catch (e) {
-        console.warn(`Impossible de dédoublonner les comptes-rendus ${categorieNormalisee} :`, e);
-        return new Set();
-    }
-}
-
 // On ajoute le paramètre "modeTri" avec une valeur par défaut
 async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date', sourcesExclues = []) {
     const container = document.getElementById(idContainer);
@@ -132,10 +108,6 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date', sourc
     const sources = cleReelle ? rssData[cleReelle].filter(source =>
         !exclusionsNormalisees.some(exclusion => source.nom_site.toLocaleLowerCase('fr-FR').startsWith(exclusion))
     ) : [];
-    const sourcesSansArticles = sources.filter(source => !source.articles?.length);
-    const liensDejaRepris = await chargerLiensDesComptesRendus(nomCategorie);
-    if (!renduToujoursActif(container, versionRendu)) return;
-
     if (sources.length === 0) {
         container.innerHTML = `<p>Aucune donnée pour "${nomCategorie}".</p>`;
         return;
@@ -144,14 +116,17 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date', sourc
     // --- ÉTAPE CLÉ : ON REGROUPE TOUT POUR TRIER ---
     let tousLesArticles = [];
     sources.forEach(source => {
-        source.articles.forEach(art => {
-            if (liensDejaRepris.has(normaliserLien(art.l))) return;
+        (source.articles || []).forEach(art => {
             tousLesArticles.push({
                 ...art,
-                nom_site: source.nom_site // On attache le nom du site à l'article
+                nom_site: source.nom_site, // On attache le nom du site à l'article
+                type: art.type || source.type
             });
         });
     });
+
+    const sourcesAffichees = new Set(tousLesArticles.map(article => article.nom_site));
+    const sourcesSansArticles = sources.filter(source => !sourcesAffichees.has(source.nom_site));
 
     // --- LOGIQUE DE TRI ---
     if (modeTri === 'date') {
@@ -168,7 +143,7 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date', sourc
         return;
     }
 
-    let htmlContenu = "";
+    let htmlContenu = inventaireSources(sources);
     tousLesArticles.forEach(art => {
         const dateAffichage = formaterDateEnFrancais(art.d);
         const estNewsletter = art.type === 'newsletter';
