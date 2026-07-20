@@ -106,13 +106,13 @@
       "nom_site": "CJUE",
       "articles": [
         {
-          "t": "CELEX:62025CJ0158: Arrêt de la Cour (première chambre) du 16 juillet 2026 — QJ contre Administration de l'enregistrement, des domaines et de la TVA et État du Grand-duché de Luxembourg",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0158",
+          "t": "CELEX:62025CJ0026: Arrêt de la Cour (troisième chambre) du 16 juillet 2026 — PQ contre Országos Idegenrendészeti Főigazgatóság Dél-alföldi Regionális Igazgatóság et Alkotmányvédelmi Hivatal",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0026",
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62025CJ0027: Arrêt de la Cour (quatrième chambre) du 16 juillet 2026 — SU et Wild Ireland Defence CLG contre An Coimisiún Pleanála, anciennement An Bord Pleanála e.a",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0027",
+          "t": "CELEX:62025CJ0158: Arrêt de la Cour (première chambre) du 16 juillet 2026 — QJ contre Administration de l'enregistrement, des domaines et de la TVA et État du Grand-duché de Luxembourg",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0158",
           "d": "2026-07-16"
         },
         {
@@ -121,8 +121,18 @@
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62025CJ0026: Arrêt de la Cour (troisième chambre) du 16 juillet 2026 — PQ contre Országos Idegenrendészeti Főigazgatóság Dél-alföldi Regionális Igazgatóság et Alkotmányvédelmi Hivatal",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0026",
+          "t": "CELEX:62025CJ0027: Arrêt de la Cour (quatrième chambre) du 16 juillet 2026 — SU et Wild Ireland Defence CLG contre An Coimisiún Pleanála, anciennement An Bord Pleanála e.a",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0027",
+          "d": "2026-07-16"
+        },
+        {
+          "t": "CELEX:62023CJ0258: Arrêt de la Cour (grande chambre) du 16 juillet 2026 — IMI – Imagens Médicas Integradas S.A. e.a. contre Autoridade da Concorrência",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0258",
+          "d": "2026-07-16"
+        },
+        {
+          "t": "CELEX:62023CJ0748: Arrêt de la Cour (quatrième chambre) du 16 juillet 2026 — C. Limited contre M. S",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0748",
           "d": "2026-07-16"
         },
         {
@@ -136,18 +146,8 @@
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62023CJ0748: Arrêt de la Cour (quatrième chambre) du 16 juillet 2026 — C. Limited contre M. S",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0748",
-          "d": "2026-07-16"
-        },
-        {
           "t": "CELEX:62024CJ0196: Arrêt de la Cour (grande chambre) du 16 juillet 2026 — xx contre ww e.a",
           "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0196",
-          "d": "2026-07-16"
-        },
-        {
-          "t": "CELEX:62023CJ0258: Arrêt de la Cour (grande chambre) du 16 juillet 2026 — IMI – Imagens Médicas Integradas S.A. e.a. contre Autoridade da Concorrência",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0258",
           "d": "2026-07-16"
         },
         {
@@ -161,13 +161,13 @@
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62025CJ0280: Arrêt de la Cour (grande chambre) du 16 juillet 2026 — Parchetul de pe lângă Curtea de Apel Oradea contre M.G.D",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0280",
+          "t": "CELEX:62025CJ0051: Arrêt de la Cour (première chambre) du 16 juillet 2026 — Betaal Garant Nederland CV contre De Nederlandsche Bank NV",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0051",
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62025CJ0051: Arrêt de la Cour (première chambre) du 16 juillet 2026 — Betaal Garant Nederland CV contre De Nederlandsche Bank NV",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0051",
+          "t": "CELEX:62025CJ0280: Arrêt de la Cour (grande chambre) du 16 juillet 2026 — Parchetul de pe lângă Curtea de Apel Oradea contre M.G.D",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0280",
           "d": "2026-07-16"
         },
         {
@@ -191,11 +191,6 @@
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62025CJ0401: Arrêt de la Cour (troisième chambre) du 16 juillet 2026 — Elettronica Industriale SpA contre Ministero delle Imprese e del Made in Italy",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0401",
-          "d": "2026-07-16"
-        },
-        {
           "t": "CELEX:62025CJ0400: Arrêt de la Cour (troisième chambre) du 16 juillet 2026 — Gennady Nikolayevich Timchenko contre Conseil de l'Union européenne",
           "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0400",
           "d": "2026-07-16"
@@ -203,6 +198,11 @@
         {
           "t": "CELEX:62023CJ0209: Arrêt de la Cour (cinquième chambre) du 16 juillet 2026 — FT et RRC Sports GmbH contre Fédération internationale de football association (FIFA)",
           "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0209",
+          "d": "2026-07-16"
+        },
+        {
+          "t": "CELEX:62025CJ0401: Arrêt de la Cour (troisième chambre) du 16 juillet 2026 — Elettronica Industriale SpA contre Ministero delle Imprese e del Made in Italy",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0401",
           "d": "2026-07-16"
         },
         {
@@ -482,9 +482,14 @@
       "nom_site": "Me VENIN|Assurances",
       "articles": [
         {
-          "t": "Faute personnelle du promoteur",
-          "l": "https://www.mv-avocat.fr/actualites-juridiques/faute-personnelle-du-promoteur/",
-          "d": "2026-06-30"
+          "t": "Assurance dommages-ouvrage et sanctions",
+          "l": "https://www.mv-avocat.fr/actualites-juridiques/assurance-dommages-ouvrage-et-sanctions/",
+          "d": "2026-07-19"
+        },
+        {
+          "t": "Indemnité d’assurance et TVA",
+          "l": "https://www.mv-avocat.fr/actualites-juridiques/indemnite-dassurance-et-tva/",
+          "d": "2026-07-19"
         }
       ]
     }
@@ -686,19 +691,19 @@
       "nom_site": "Le Revenu",
       "articles": [
         {
-          "t": "Prêt immobilier : un apport important permet-il vraiment de négocier un meilleur taux ?>",
-          "l": "https://www.lerevenu.com/investir-immobilier/credits-immo/pret-immobilier-un-apport-important-permet-il-vrai",
-          "d": "2026-07-18"
+          "t": "Immobilier canadien : le marché semble atteindre un point d'équilibre>",
+          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-canadien-le-marche-semble-atteindre-un-",
+          "d": "2026-07-19"
         },
         {
-          "t": "Alpes-Maritimes : combien de mètres carrés peut-on acheter avec 250 000 euros ?>",
-          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/alpes-maritimes-combien-de-metres-carres-peut-on-a",
-          "d": "2026-07-18"
+          "t": "Immobilier autour de Lille : cinq villes attractives pour acheter>",
+          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-autour-de-lille-cinq-villes-attractives",
+          "d": "2026-07-19"
         },
         {
-          "t": "Immobilier : les 10 questions à se poser avant de s'installer au bord de la mer>",
-          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-les-10-questions-a-se-poser-avant-de-s-",
-          "d": "2026-07-18"
+          "t": "Immobilier : pourquoi les prix du neuf augmentent plus vite que ceux de l'ancien>",
+          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-pourquoi-les-prix-du-neuf-augmentent-pl",
+          "d": "2026-07-19"
         }
       ]
     },
@@ -706,154 +711,29 @@
       "nom_site": "L'Agefi",
       "articles": [
         {
-          "t": "La France a les atouts pour relancer sa compétitivité",
-          "l": "https://www.agefi.fr/news/entreprises/la-france-a-les-atouts-pour-relancer-sa-competitivite",
-          "d": "2026-07-17"
+          "t": "L’Italie progresse vers la création d’un groupe numérique souverain",
+          "l": "https://www.agefi.fr/news/entreprises/litalie-progresse-vers-la-creation-dun-groupe-numerique-souverain",
+          "d": "2026-07-19"
         },
         {
-          "t": "Réindustrialisation : reconstruire une souveraineté durable",
-          "l": "https://www.agefi.fr/news/entreprises/reindustrialisation-reconstruire-une-souverainete-durable",
-          "d": "2026-07-17"
+          "t": "Le secteur technologique suscite le doute en Bourse",
+          "l": "https://www.agefi.fr/news/economie-marches/le-secteur-technologique-suscite-le-doute-en-bourse",
+          "d": "2026-07-19"
         },
         {
-          "t": "Le rapport de la Commission sur la compétitivité bancaire peine à convaincre",
-          "l": "https://www.agefi.fr/news/banque-assurance/le-rapport-de-la-commission-sur-la-competitivite-bancaire-peine-a-convaincre",
-          "d": "2026-07-17"
+          "t": "L’Autorité de la concurrence alerte sur les risques de monopoles dans l’IA appliquée au e-commerce",
+          "l": "https://www.agefi.fr/news/entreprises/lautorite-de-la-concurrence-alerte-sur-les-risques-de-monopoles-dans-lia-appliquee-au-e-commerce",
+          "d": "2026-07-19"
         },
         {
-          "t": "Visa lance sa plateforme de stablecoins",
-          "l": "https://www.agefi.fr/news/tech-finance/visa-lance-sa-plateforme-de-stablecoins",
-          "d": "2026-07-17"
+          "t": "Les investisseurs scrutent le risque politique français",
+          "l": "https://www.agefi.fr/news/economie-marches/les-investisseurs-scrutent-le-risque-politique-francais",
+          "d": "2026-07-19"
         },
         {
-          "t": "La cote parisienne s'érode inexorablement",
-          "l": "https://www.agefi.fr/news/economie-marches/la-cote-parisienne-serode-inexorablement",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Les fonds suédois collectent près de 1,5 milliard d’euros en juin",
-          "l": "https://www.agefi.fr/asset-management/actualites/les-fonds-suedois-collectent-pres-de-1-5-milliard-deuros-en-juin",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "B. Durand Capital Partners muscle ses équipes",
-          "l": "https://www.agefi.fr/gestion-privee/actualites/b-durand-capital-partners-muscle-ses-equipes",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Guillaume Dard distingué dans la promotion du 14 juillet de l'Ordre national de la Légion d'honneur",
-          "l": "https://www.agefi.fr/asset-management/actualites/guillaume-dard-distingue-dans-la-promotion-du-14-juillet-de-lordre-national-de-la-legion-dhonneur",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Danske Bank est sanctionnée en Bourse malgré ses bons résultats",
-          "l": "https://www.agefi.fr/news/banque-assurance/danske-bank-est-sanctionnee-en-bourse-malgre-ses-bons-resultats",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Le fonds vert pour le climat débloque 4 milliards de dollars malgré le retrait américain",
-          "l": "https://www.agefi.fr/asset-management/actualites/le-fonds-vert-pour-le-climat-debloque-4-milliards-de-dollars-malgre-le-retrait-americain",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Charterhouse reprend le flambeau chez Batibig",
-          "l": "https://www.agefi.fr/private-equity/actualites/charterhouse-reprend-le-flambeau-chez-batibig",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Un groupe d’employés de Trea AM acquiert la majorité du capital de la société",
-          "l": "https://www.agefi.fr/asset-management/actualites/un-groupe-demployes-de-trea-am-acquiert-la-majorite-du-capital-de-la-societe",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Financement des PME : agir contre les retards de paiement",
-          "l": "https://www.agefi.fr/investisseurs-institutionnels/actualites/financement-des-pme-agir-contre-les-retards-de-paiement",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Une nouvelle levée de fonds valorise Databricks à 188 milliards de dollars",
-          "l": "https://www.agefi.fr/news/entreprises/une-nouvelle-levee-de-fonds-valorise-databricks-a-188-milliards-de-dollars",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Volvo Cars tire un trait sur son objectif de ventes pour 2026",
-          "l": "https://www.agefi.fr/news/entreprises/volvo-cars-tire-un-trait-sur-son-objectif-de-ventes-pour-2026",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Le secteur technologique donne des signes de craquements en Bourse",
-          "l": "https://www.agefi.fr/news/economie-marches/le-secteur-technologique-donne-des-signes-de-craquements-en-bourse",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Les fonds diversifiés internationaux à dominante taux à la loupe #175",
-          "l": "https://www.agefi.fr/patrimoine/fonds/les-fonds-diversifies-internationaux-a-dominante-taux-a-la-loupe-175",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Echiquier Gestion Privée mise sur l'architecture ouverte pour séduire de nouveaux clients",
-          "l": "https://www.agefi.fr/gestion-privee/actualites/echiquier-gestion-privee-mise-sur-larchitecture-ouverte-pour-seduire-de-nouveaux-clients",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "L'Agefi alpha - juillet 2026",
-          "l": "https://www.agefi.fr/asset-management/agefi-alpha/lagefi-alpha-juillet-2026",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Derrière la faible volatilité des actions : rotations et risques de la Tech",
-          "l": "https://www.agefi.fr/news/economie-marches/derriere-la-faible-volatilite-des-actions-rotations-et-risques-de-la-tech",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "La value profite des différentes rotations actions",
-          "l": "https://www.agefi.fr/news/economie-marches/la-value-profite-des-differentes-rotations-actions",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Craig Packer (Blue Owl) : « Le marché des BDC passe sa phase d'apprentissage »",
-          "l": "https://www.agefi.fr/private-equity/actualites/craig-packer-blue-owl-le-marche-des-bdc-passe-sa-phase-dapprentissage",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Nordic Capital est en passe de céder ArisGlobal à Dassault Systèmes",
-          "l": "https://www.agefi.fr/private-equity/actualites/nordic-capital-est-en-passe-de-ceder-arisglobal-a-dassault-systemes",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Dassault Systèmes voudrait racheter l'américain ArisGlobal pour 2 milliards de dollars",
-          "l": "https://www.agefi.fr/news/entreprises/dassault-systemes-voudrait-racheter-lamericain-arisglobal-pour-2-milliards-de-dollars",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Les trésoriers d’entreprise ne disent pas merci à la canicule",
-          "l": "https://www.agefi.fr/cash-risk/actualites/les-tresoriers-dentreprise-ne-disent-pas-merci-a-la-canicule",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Iliad poursuit l’optimisation de son financement",
-          "l": "https://www.agefi.fr/cash-risk/actualites/iliad-poursuit-loptimisation-de-son-financement",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Netflix déçoit les attentes et plonge en Bourse",
-          "l": "https://www.agefi.fr/news/entreprises/netflix-decoit-les-attentes-et-plonge-en-bourse",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "L’Association des fonds de pension irlandais soumet l’idée d’un fonds d'investissement national",
-          "l": "https://www.agefi.fr/investisseurs-institutionnels/actualites/lassociation-des-fonds-de-pension-irlandais-soumet-lidee-dun-fonds-dinvestissement-national",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "L'Eiopa boucle sa revue de Solvabilité II en vue d'une application début 2027",
-          "l": "https://www.agefi.fr/investisseurs-institutionnels/regulation/leiopa-boucle-sa-revue-de-solvabilite-ii-en-vue-dune-application-debut-2027",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Amundi va générer une plus-value de 300 millions d'euros avec l'IPO de SBI FM",
-          "l": "https://www.agefi.fr/asset-management/actualites/les-investisseurs-ont-sursouscrit-42-fois-lipo-de-sbi-funds-management",
-          "d": "2026-07-17"
+          "t": "Les économistes tentent d’évaluer le coût des canicules",
+          "l": "https://www.agefi.fr/news/economie-marches/les-economistes-tentent-devaluer-le-cout-des-canicules",
+          "d": "2026-07-19"
         }
       ]
     },
@@ -902,64 +782,64 @@
       "nom_site": "Courrier international",
       "articles": [
         {
-          "t": "“En Suède, tout est plus simple”",
-          "l": "https://www.courrierinternational.com/article/temoignage-en-suede-tout-est-plus-simple_242795_1",
-          "d": "2026-07-18"
+          "t": "Le capitaine de l’Espagne, Rodri, est un “don pour le football”",
+          "l": "https://www.courrierinternational.com/article/coupe-du-monde-le-capitaine-de-l-espagne-rodri-est-un-don-pour-le-football_250745",
+          "d": "2026-07-19"
         },
         {
-          "t": "Un système européen de collecte de données biométriques confond des sœurs jumelles",
-          "l": "https://www.courrierinternational.com/article/controle-vous-me-semblez-familiere-un-systeme-europeen-de-collecte-de-donnees-biometriques-confond-des-jumelles_251034",
-          "d": "2026-07-18"
+          "t": "À Gaza, enseigner la musique sous les tentes",
+          "l": "https://www.courrierinternational.com/article/reportage-a-gaza-enseigner-la-musique-sous-les-tentes_248133",
+          "d": "2026-07-19"
         },
         {
-          "t": "En Iran, Trump prend le risque d’une nouvelle “guerre sans fin” pour les États-Unis",
-          "l": "https://www.courrierinternational.com/article/analyse-en-iran-trump-prend-le-risque-d-une-nouvelle-guerre-sans-fin-pour-les-etats-unis_250342",
-          "d": "2026-07-18"
+          "t": "Les hommes bisexuels, nouvelles égéries d’Hollywood",
+          "l": "https://www.courrierinternational.com/stories/ecrans-les-hommes-bisexuels-nouvelles-egeries-d-hollywood_250356",
+          "d": "2026-07-19"
         },
         {
-          "t": "Des drones ukrainiens frappent des entrepôts de “l’Amazon russe”",
-          "l": "https://www.courrierinternational.com/article/guerre-des-drones-ukrainiens-frappent-des-entrepots-de-l-amazon-russe_251001",
-          "d": "2026-07-18"
+          "t": "Pedro Sánchez se rend à Alger : “Le gaz réchauffe les relations algéro-espagnoles”",
+          "l": "https://www.courrierinternational.com/article/diplomatie-pedro-sanchez-se-rend-a-alger-le-gaz-rechauffe-les-relations-algero-espagnoles_250770",
+          "d": "2026-07-19"
         },
         {
-          "t": "“Bienvenue. Vous êtes les témoins de la fin d’un monde” : l’assourdissant silence politique sur la chaleur en France",
-          "l": "https://www.courrierinternational.com/long-format/vu-d-allemagne-bienvenue-vous-etes-les-temoins-de-la-fin-d-un-monde-l-assourdissant-silence-politique-sur-la-chaleur-en-france_250360",
-          "d": "2026-07-18"
+          "t": "Au Sénégal, le lait de chamelle se vend à prix d’or",
+          "l": "https://www.courrierinternational.com/article/reportage-au-senegal-le-lait-de-chamelle-se-vend-a-prix-d-or_244866",
+          "d": "2026-07-19"
         },
         {
-          "t": "Ils rencontrent l’amour grâce à la Coupe du monde",
-          "l": "https://www.courrierinternational.com/stories/video-ils-rencontrent-l-amour-grace-a-la-coupe-du-monde_249945",
-          "d": "2026-07-18"
+          "t": "La Fifa a “ouvert la porte à la fraude”, accuse le Conseil de l’Europe",
+          "l": "https://www.courrierinternational.com/article/football-la-fifa-a-ouvert-la-porte-a-la-fraude-accuse-le-conseil-de-l-europe_251199",
+          "d": "2026-07-19"
         },
         {
-          "t": "Incendie en Espagne : le nord-est du pays “encerclé par les flammes”",
-          "l": "https://www.courrierinternational.com/article/societe-incendie-en-espagne-le-nord-est-du-pays-encercle-par-les-flammes_250968",
-          "d": "2026-07-18"
+          "t": "Dans le désert du Colorado, les amateurs d’ovnis n’en démordent pas",
+          "l": "https://www.courrierinternational.com/article/reportage-dans-le-desert-du-colorado-les-amateurs-d-ovnis-n-en-demordent-pas_246211",
+          "d": "2026-07-19"
         },
         {
-          "t": "Bienvenue dans le Splinternet, l’ère de la fragmentation du net",
-          "l": "https://www.courrierinternational.com/long-format/liberte-d-expression-bienvenue-dans-le-splinternet-l-ere-de-la-fragmentation-du-net_246487",
-          "d": "2026-07-18"
+          "t": "À Tunis, une guerre culturelle larvée autour du patrimoine architectural",
+          "l": "https://www.courrierinternational.com/long-format/patrimoine-a-tunis-une-guerre-culturelle-larvee-autour-du-patrimoine-architectural_243147",
+          "d": "2026-07-19"
         },
         {
-          "t": "“Une folle envie de danser” : la ville turque de Van, défouloir d’Iraniens qui veulent décompresser",
-          "l": "https://www.courrierinternational.com/article/reportage-une-folle-envie-de-danser-la-ville-turque-de-van-defouloir-d-iraniens-qui-veulent-decompresser_245947",
-          "d": "2026-07-18"
+          "t": "Comment les Grands Lacs ont failli perdre la bataille contre la lamproie de mer",
+          "l": "https://www.courrierinternational.com/article/environnement-comment-les-grands-lacs-ont-failli-perdre-la-bataille-contre-la-lamproie-de-mer_250352",
+          "d": "2026-07-19"
         },
         {
-          "t": "Finale de la Coupe du monde : à 12 kilomètres du stade, l’“enfer” de Delaney Hall",
-          "l": "https://www.courrierinternational.com/article/etats-unis-finale-de-la-coupe-du-monde-a-12-kilometres-du-stade-l-enfer-de-delaney-hall_249153",
-          "d": "2026-07-18"
+          "t": "Les Chinois changent de voiture électrique au même rythme que de téléphone portable",
+          "l": "https://www.courrierinternational.com/article/automobile-les-chinois-changent-de-voiture-electrique-au-meme-rythme-que-de-telephone-portable_250452",
+          "d": "2026-07-19"
         },
         {
-          "t": "L’Indonésie se transforme-t-elle en “république bananière” ?",
-          "l": "https://www.courrierinternational.com/une/une-du-jour-l-indonesie-se-transforme-t-elle-en-republique-bananiere_250176",
-          "d": "2026-07-18"
+          "t": "Authenticité et nostalgie punk : le grand come-back des fanzines chez la Gen Z britannique",
+          "l": "https://www.courrierinternational.com/article/musique-authenticite-et-nostalgie-punk-le-grand-come-back-des-fanzines-chez-la-gen-z-britannique_250361",
+          "d": "2026-07-19"
         },
         {
-          "t": "Partir dans une université incroyable à l’étranger ou aller dans une fac rassurante dans son pays ?",
-          "l": "https://www.courrierinternational.com/article/etudes-partir-dans-une-universite-incroyable-a-l-etranger-ou-aller-dans-une-fac-rassurante-dans-son-pays_245627",
-          "d": "2026-07-18"
+          "t": "Quelle ville d’Europe a la meilleure piscine ?",
+          "l": "https://www.courrierinternational.com/long-format/interview-quelle-ville-d-europe-a-la-meilleure-piscine_247302",
+          "d": "2026-07-19"
         }
       ]
     },
@@ -967,64 +847,44 @@
       "nom_site": "Challenges",
       "articles": [
         {
-          "t": "Mondial 2026 : des feux de forêt du Canada polluent l’air américain avant la finale, Donald Trump menace ses voisins de nouveaux droits de douane",
-          "l": "https://www.challenges.fr/monde/mondial-2026-des-feux-de-foret-du-canada-polluent-lair-americain-avant-la-finale-donald-trump-menace-ses-voisins-de-nouveaux-droits-de-douane_644933",
-          "d": "2026-07-18"
+          "t": "Messi face à Yamal : en finale du Mondial, le duel de deux stars ultra-bankables qui affolent les sponsors",
+          "l": "https://www.challenges.fr/entreprise/sports/messi-face-a-yamal-en-finale-du-mondial-le-duel-de-deux-stars-ultra-bankables-qui-affolent-les-sponsors_644939",
+          "d": "2026-07-19"
         },
         {
-          "t": "« Le consommateur dépense entre deux et quatre fois plus » : comment le boom des protéines fait les affaires de l’industrie agroalimentaire",
-          "l": "https://www.challenges.fr/entreprise/commerce-et-distribution/le-consommateur-depense-entre-deux-et-quatre-fois-plus-comment-le-boom-des-proteines-fait-les-affaires-de-lindustrie-agroalimentaire_644864",
-          "d": "2026-07-18"
+          "t": "Après l’euphorie, la course à l’IA se heurte déjà aux limites de son modèle économique",
+          "l": "https://www.challenges.fr/entreprise/tech-numerique/apres-leuphorie-la-course-a-lia-se-heurte-deja-aux-limites-de-son-modele-economique_644894",
+          "d": "2026-07-19"
         },
         {
-          "t": "Commerce en ligne : pourquoi l’Autorité de la concurrence s’inquiète de l’essor des agents d’IA",
-          "l": "https://www.challenges.fr/entreprise/tech-numerique/commerce-en-ligne-pourquoi-lautorite-de-la-concurrence-sinquiete-de-lessor-des-agents-dia_644932",
-          "d": "2026-07-18"
+          "t": "Boeing veut relancer la machine : à Farnborough, la production de 737 MAX passe avant la course aux commandes",
+          "l": "https://www.challenges.fr/entreprise/aeronautique/boeing-veut-relancer-la-machine-a-farnborough-la-production-de-737-max-passe-avant-la-course-aux-commandes_644940",
+          "d": "2026-07-19"
         },
         {
-          "t": "« Le système actuel des retraites n’est plus viable » : comment Bernard Cazeneuve veut reconstruire le modèle social français",
-          "l": "https://www.challenges.fr/economie/le-systeme-actuel-des-retraites-nest-plus-viable-comment-bernard-cazeneuve-veut-reconstruire-le-modele-social-francais_644930",
-          "d": "2026-07-18"
+          "t": "« La Chine écrase ce marché » : les États-Unis et l’Europe déjà distancés dans les robots humanoïdes",
+          "l": "https://www.challenges.fr/entreprise/tech-numerique/la-chine-ecrase-ce-marche-les-etats-unis-et-leurope-deja-distances-dans-les-robots-humanoides_644911",
+          "d": "2026-07-19"
         },
         {
-          "t": "Le Conseil de Paris vote le doublement de la taxe sur les logements vacants pour tenter d’en remettre 20 000 sur le marché",
-          "l": "https://www.challenges.fr/immobilier/le-conseil-de-paris-vote-le-doublement-de-la-taxe-sur-les-logements-vacants-pour-tenter-den-remettre-20-000-sur-le-marche_644931",
-          "d": "2026-07-18"
+          "t": "Mondial 2026 : absent des stades mais omniprésent en coulisses, comment Donald Trump a pesé sur la compétition",
+          "l": "https://www.challenges.fr/monde/mondial-2026-absent-des-stades-mais-omnipresent-en-coulisses-comment-donald-trump-a-pese-sur-la-competition_644938",
+          "d": "2026-07-19"
         },
         {
-          "t": "En 10 ans, Rakuten France a vu son nombre de clients chuter de 33% et fermera fin 2026 : comment la marketplace en est arrivée là",
-          "l": "https://www.challenges.fr/entreprise/rakuten-france-fermera-fin-2026-du-rachat-ambitieux-de-prieceminister-aux-dures-lois-de-la-concurrence-les-raisons-de-la-chute-de-la-marketplace_644929",
-          "d": "2026-07-18"
+          "t": "Après la nationalisation de British Steel, le groupe chinois Jingye réclame des comptes et menace le Royaume-Uni en justice",
+          "l": "https://www.challenges.fr/monde/apres-la-nationalisation-de-british-steel-le-groupe-chinois-jingye-reclame-des-comptes-et-menace-le-royaume-uni-en-justice_644936",
+          "d": "2026-07-19"
         },
         {
-          "t": "C’est le bastion historique de Peugeot : comment l’usine Stellantis de Mulhouse échappe aux coupes qui frappent les sites européens",
-          "l": "https://www.challenges.fr/automobile/cest-le-bastion-historique-de-peugeot-comment-lusine-stellantis-de-mulhouse-echappe-aux-coupes-qui-frappent-les-sites-europeens_644926",
-          "d": "2026-07-18"
+          "t": "20 fois moins de destinations long-courriers qu’Heathrow : pourquoi Berlin n’est jamais devenu un grand hub européen",
+          "l": "https://www.challenges.fr/entreprise/transports/20-fois-moins-de-destinations-long-courriers-quheathrow-pourquoi-berlin-nest-jamais-devenu-un-grand-hub-europeen_644934",
+          "d": "2026-07-19"
         },
         {
-          "t": "​​​​Etats-Unis : J.D. Vance, l’héritier contesté de Donald Trump, peut-il conquérir la Maison-Blanche ?",
-          "l": "https://www.challenges.fr/monde/etats-unis-jd-vance-lheritier-conteste-de-donald-trump-peut-il-conquerir-la-maison-blanche_644862",
-          "d": "2026-07-18"
-        },
-        {
-          "t": "Polymarket bloqué en France : pourquoi le site de paris sur l’actualité n’est désormais plus accessible",
-          "l": "https://www.challenges.fr/entreprise/polymarket-bloque-en-france-pourquoi-le-site-de-paris-sur-lactualite-nest-desormais-plus-accessible_644928",
-          "d": "2026-07-18"
-        },
-        {
-          "t": "En crise après le double séisme qui a fait plus de 5 000 morts, le Venezuela obtient le déblocage de 346 millions de dollars du FMI",
-          "l": "https://www.challenges.fr/monde/en-crise-apres-le-double-seisme-qui-a-fait-plus-de-5-000-morts-le-venezuela-obtient-le-deblocage-de-346-millions-de-dollars-du-fmi_644927",
-          "d": "2026-07-18"
-        },
-        {
-          "t": "Accident ou meurtre ? En Espagne, le soupçon de parricide qui ébranle la dynastie Mango",
-          "l": "https://www.challenges.fr/fortunes/accident-ou-meurtre-en-espagne-le-soupcon-de-parricide-qui-ebranle-la-dynastie-mango_644859",
-          "d": "2026-07-18"
-        },
-        {
-          "t": "1500 km en BMW iX3 jusqu’aux Pays-Bas : la promesse d’une rupture technologique à l'épreuve de la route",
-          "l": "https://www.challenges.fr/automobile/essais/1500-km-en-bmw-ix3-jusquaux-pays-bas-la-promesse-dune-rupture-technologique-a-lepreuve-de-la-route_644924",
-          "d": "2026-07-18"
+          "t": "« C’est un visionnaire » : qui est Denis Dumont, le milliardaire aussi discret que puissant derrière le succès de Grand Frais ?",
+          "l": "https://www.challenges.fr/fortunes/cest-un-visionnaire-qui-est-denis-dumont-le-milliardaire-aussi-discret-que-puissant-derriere-le-succes-de-grand-frais_644908",
+          "d": "2026-07-19"
         }
       ]
     },
@@ -1032,59 +892,74 @@
       "nom_site": "La Tribune",
       "articles": [
         {
-          "t": "Gouvernance de l’eau : moment de vérité à l’Assemblée. L'édito de Soazig Quéméner",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/16571390887465/gouvernance-de-l-eau-moment-de-verite-a-l-assemblee-ledito-de-soazig-quemener",
-          "d": "2026-07-18"
+          "t": "La Roumanie commande à la France 12 hélicoptères H225 (Airbus) et 12 radars GM200 (Thales) pour un milliard d'euros environ",
+          "l": "https://www.latribune.fr/article/defense-aerospatiale/defense/54278772108479/la-roumanie-commande-a-la-france-12-helicopteres-h225-airbus-et-12-radars-gm200-thales-pour-un-milliard-deuros-environ",
+          "d": "2026-07-19"
         },
         {
-          "t": "Moyen-Orient : la guerre du détroit aura bien lieu",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/88063905068706/moyen-orient-la-guerre-du-detroit-aura-bien-lieu",
-          "d": "2026-07-18"
+          "t": "OPINION. « Les yeux de nos adolescents ne devraient pas servir de laboratoire aux tendances TikTok »",
+          "l": "https://www.latribune.fr/article/idees/12484419741303/opinion-les-yeux-de-nos-adolescents-ne-devraient-pas-servir-de-laboratoire-aux-tendances-tiktok",
+          "d": "2026-07-19"
         },
         {
-          "t": "Cyclisme : du changement dans la direction de l'équipe de Paul Seixas",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/sports/62061969456238/cyclisme-du-changement-dans-la-direction-de-lequipe-de-paul-seixas",
-          "d": "2026-07-18"
+          "t": "OPINION. « Congé de naissance : le choc organisationnel que les entreprises n'ont pas vu venir »",
+          "l": "https://www.latribune.fr/article/idees/93721140122908/opinion-conge-de-naissance-le-choc-organisationnel-que-les-entreprises-nont-pas-vu-venir",
+          "d": "2026-07-19"
         },
         {
-          "t": "Dominique de Villepin, candidat à la présidentielle : « Pour éviter le pire, il faut s’entendre »",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/43755107673631/dominique-de-villepin-candidat-a-la-presidentielle-pour-eviter-le-pire-il-faut-s-entendre",
-          "d": "2026-07-18"
+          "t": "OPINION. « Loi Duplomb 2 : protéger le bio, c’est protéger la santé des Français »",
+          "l": "https://www.latribune.fr/article/idees/46646416588379/opinion-loi-duplomb-2-proteger-le-bio-c-est-proteger-la-sante-des-francais",
+          "d": "2026-07-19"
         },
         {
-          "t": "BAROMÈTRE. Après les canicules, l'environnement se hisse parmi les principales inquiétudes des Français",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/26391425587088/barometre-apres-les-canicules-lenvironnement-se-hisse-parmi-les-principales-inquietudes-des-francais",
-          "d": "2026-07-18"
+          "t": "OPINION. « Hausse du SMIC : le paradoxe qui fragilise les emplois de proximité »",
+          "l": "https://www.latribune.fr/article/idees/67495659094458/opinion-hausse-du-smic-le-paradoxe-qui-fragilise-les-emplois-de-proximite",
+          "d": "2026-07-19"
         },
         {
-          "t": "Monique Barbut, ministre de la Transition écologique : « Le fonds vert sera porté à un milliard d’euros »",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/planete/93632031684633/monique-barbut-ministre-de-la-transition-ecologique-le-fonds-vert-sera-porte-a-un-milliard-d-euros",
-          "d": "2026-07-18"
+          "t": "Tour de France : Jonas Vingegaard, l'un des favoris, abandonne après une lourde chute",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/sports/1630446407564414/tour-de-france-jonas-vingegaard-lun-des-favoris-abandonne-apres-une-lourde-chute",
+          "d": "2026-07-19"
         },
         {
-          "t": "OPINION. « La radio reste la première scène des artistes, à condition qu’on la laisse libre », par Jean-Éric Valli, président des Indés Radios",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/1653095880381814/opinion-la-radio-reste-la-premiere-scene-des-artistes-a-condition-qu-on-la-laisse-libre-par-jean-eric-valli-president-des-indes-radios",
-          "d": "2026-07-18"
+          "t": "Guerre au Moyen-Orient : ce qu'il faut retenir de ce dimanche",
+          "l": "https://www.latribune.fr/article/economie/international/15605519101767/guerre-au-moyen-orient-ce-quil-faut-retenir-de-ce-dimanche",
+          "d": "2026-07-19"
         },
         {
-          "t": "Crise du logement : le Conseil de Paris vote le doublement de la taxe sur les logements vacants",
-          "l": "https://www.latribune.fr/article/economie/biens-d-equipement-btp-immobilier/1603192060655414/crise-du-logement-le-conseil-de-paris-vote-le-doublement-de-la-taxe-sur-les-logements-vacants",
-          "d": "2026-07-18"
+          "t": "OPINION. « Transformer sous contrainte : comment les entreprises peuvent-elles encore se réinventer dans une économie d’austérité ? »",
+          "l": "https://www.latribune.fr/article/idees/11553260259995/opinion-transformer-sous-contrainte-comment-les-entreprises-peuvent-elles-encore-se-reinventer-dans-une-economie-d-austerite",
+          "d": "2026-07-19"
         },
         {
-          "t": "Énergie, bâtiment, agriculture, transports… La neutralité carbone en 2050 se prépare aujourd’hui",
-          "l": "https://www.latribune.fr/article/climat/12718318007590/energie-batiment-agriculture-transports-la-neutralite-carbone-en-2050-se-prepare-aujourd-hui",
-          "d": "2026-07-18"
+          "t": "Loi d'urgence agricole : les néonicotinoïdes divisent le camp gouvernemental",
+          "l": "https://www.latribune.fr/article/climat/agriculture-agroalimentaire/41782472891848/loi-d-urgence-agricole-la-majorite-se-dechire-sur-le-retour-des-neonicotinoides",
+          "d": "2026-07-19"
         },
         {
-          "t": "Pétrole : le Panama va prendre la main sur un oléoduc, « l'une des infrastructures stratégiques les plus importantes du pays »",
-          "l": "https://www.latribune.fr/article/economie/international/40228207382111/petrole-le-panama-va-prendre-la-main-sur-un-oleoduc-lune-des-infrastructures-strategiques-les-plus-importantes-du-pays",
-          "d": "2026-07-18"
+          "t": "Etats-Unis-Iran : les représailles s'intensifient, le Golfe replonge dans la guerre",
+          "l": "https://www.latribune.fr/article/economie/international/33263757495097/etats-unis-iran-les-represailles-sintensifient-le-golfe-replonge-dans-la-guerre",
+          "d": "2026-07-19"
         },
         {
-          "t": "Jour historique en Inde avec le vol inaugural du premier lanceur du New Space",
-          "l": "https://air-cosmos.latribune.fr/article/espace/1396794870807814/jour-historique-en-inde-avec-le-vol-inaugural-du-premier-lanceur-du-new-space",
-          "d": "2026-07-18"
+          "t": "Les smartphones à agents IA ouvrent un nouveau front dans la bataille des plateformes",
+          "l": "https://www.latribune.fr/article/tech/38493366002412/les-smartphones-a-agents-ia-ouvrent-un-nouveau-front-dans-la-bataille-des-plateformes",
+          "d": "2026-07-19"
+        },
+        {
+          "t": "British Steel : le groupe chinois Jingye réclame une indemnisation après la nationalisation",
+          "l": "https://www.latribune.fr/article/entreprises-finance/industrie/92381510579101/british-steel-le-groupe-chinois-jingye-reclame-une-indemnisation-apres-la-nationalisation",
+          "d": "2026-07-19"
+        },
+        {
+          "t": "Sport professionnel, Ryanair et Farnborough : l’agenda éco du lundi",
+          "l": "https://www.latribune.fr/article/economie/47891310506891/sport-professionnel-ryanair-et-farnborough-l-agenda-eco-du-lundi",
+          "d": "2026-07-19"
+        },
+        {
+          "t": "Mondial 2026 : Dix buts et une défaite pour finir",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/sports/1248832577461/mondial-2026-dix-buts-et-une-defaite-pour-finir",
+          "d": "2026-07-19"
         }
       ]
     },
@@ -1262,9 +1137,9 @@
       "nom_site": "Pour la Science",
       "articles": [
         {
-          "t": "L’épigénétique peut-elle sauver l’honneur de Paul Kammerer ?",
-          "l": "https://www.pourlascience.fr/sr/les-sciences-a-la-loupe/l-epigenetique-peut-elle-sauver-l-honneur-de-paul-kammerer-29403.php",
-          "d": "2026-07-18"
+          "t": "Comment Lamarck a changé notre façon de penser le vivant",
+          "l": "https://www.pourlascience.fr/sr/la-vie-dans-tous-ses-etats/comment-lamarck-a-change-notre-facon-de-penser-le-vivant-29404.php",
+          "d": "2026-07-19"
         }
       ]
     },
@@ -1317,39 +1192,9 @@
       "nom_site": "LeMagIT",
       "articles": [
         {
-          "t": "Jira Planner : Atlassian prend le train du Spec Driven Development",
-          "l": "https://www.lemagit.fr/actualites/366645924/Jira-Planner-Atlassian-prend-le-train-du-Spec-Driven-Development",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Ransomware : du webshell au chiffrement, le parcours de Spirals",
-          "l": "https://www.lemagit.fr/actualites/366645982/Ransomware-du-webshell-au-chiffrement-le-parcours-de-Spirals",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Kimi K3 : le Chinois Moonshot AI engage le bras de fer avec OpenAI et Anthropic",
-          "l": "https://www.lemagit.fr/actualites/366645999/Kimi-K3-le-Chinois-Moonshot-AI-engage-le-bras-de-fer-avec-OpenAI-et-Anthropic",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Green IT : comment Linux peut faire baisser la consommation des serveurs",
-          "l": "https://www.lemagit.fr/conseil/Green-IT-comment-Linux-peut-faire-baisser-la-consommation-des-serveurs",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Divalto promet ses premiers agents IA pour la rentrée",
-          "l": "https://www.lemagit.fr/actualites/366645981/Divalto-promet-ses-premiers-agents-IA-pour-la-rentree",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Cyberhebdo du 17 juillet 2026 : crise majeure au Japon pour l’alimentation surgelée",
-          "l": "https://www.lemagit.fr/actualites/366646036/Cyberhebdo-du-17-juillet-2026-crise-majeure-au-Japon-pour-lalimentation-surgelee",
-          "d": "2026-07-17"
-        },
-        {
-          "t": "Storage no 42 : L’innovation redevient le moteur du stockage de données",
-          "l": "https://www.lemagit.fr/actualites/366645922/Storage-No-42-Linnovation-redevient-le-moteur-du-stockage-de-donnees",
-          "d": "2026-07-17"
+          "t": "Coûts de l'IA : optimiser le cache, l’obsession de tout un secteur",
+          "l": "https://www.lemagit.fr/dessin/Couts-de-lIA-optimiser-le-cache-lobsession-de-tout-un-secteur",
+          "d": "2026-07-19"
         }
       ]
     },
