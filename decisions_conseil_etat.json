@@ -1,21 +1,21 @@
 {
-  "mis_a_jour": "2026-08-14T05:28:47",
-  "date_cible": "2026-08-11",
+  "mis_a_jour": "2026-08-15T04:25:48",
+  "date_cible": "2026-08-12",
   "total": 1,
   "source": "https://opendata.justice-administrative.fr/recherche",
   "juridiction": "CE",
   "decisions": [
     {
-      "id": "DCE_518614_20260811.xml",
-      "date": "2026-08-11",
-      "numero": "518614",
+      "id": "DCE_517646_20260812.xml",
+      "date": "2026-08-12",
+      "numero": "517646",
       "juridiction": "Section du Contentieux",
       "formation": "Juge des référés",
       "type": "Décision",
-      "ecli": "ECLI:FR:CEORD:2026:518614.20260811",
+      "ecli": "ECLI:FR:CEORD:2026:517646.20260812",
       "publication": "Inédit au recueil Lebon",
-      "mis_en_ligne": "2026-08-12",
-      "url": "https://opendata.justice-administrative.fr/recherche/CE/518614"
+      "mis_en_ligne": "2026-08-14",
+      "url": "https://opendata.justice-administrative.fr/recherche/CE/517646"
     }
   ]
 }
