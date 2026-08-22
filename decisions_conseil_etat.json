@@ -1,45 +1,45 @@
 {
-  "mis_a_jour": "2026-08-21T04:34:15",
-  "date_cible": "2026-08-14",
+  "mis_a_jour": "2026-08-22T04:31:08",
+  "date_cible": "2026-08-19",
   "total": 3,
   "source": "https://opendata.justice-administrative.fr/recherche",
   "juridiction": "CE",
   "decisions": [
     {
-      "id": "DCE_518703_20260814.xml",
-      "date": "2026-08-14",
-      "numero": "518703",
+      "id": "DCE_518639_20260819.xml",
+      "date": "2026-08-19",
+      "numero": "518639",
       "juridiction": "Section du Contentieux",
       "formation": "Juge des référés",
       "type": "Décision",
-      "ecli": "ECLI:FR:CEORD:2026:518703.20260814",
+      "ecli": "ECLI:FR:CEORD:2026:518639.20260819",
       "publication": "Inédit au recueil Lebon",
-      "mis_en_ligne": "2026-08-19",
-      "url": "https://opendata.justice-administrative.fr/recherche/CE/518703"
+      "mis_en_ligne": "2026-08-21",
+      "url": "https://opendata.justice-administrative.fr/recherche/CE/518639"
     },
     {
-      "id": "DCE_518711_20260814.xml",
-      "date": "2026-08-14",
-      "numero": "518711",
+      "id": "DCE_518683_20260819.xml",
+      "date": "2026-08-19",
+      "numero": "518683",
       "juridiction": "Section du Contentieux",
       "formation": "Juge des référés",
       "type": "Décision",
-      "ecli": "ECLI:FR:CEORD:2026:518711.20260814",
+      "ecli": "ECLI:FR:CEORD:2026:518683.20260819",
       "publication": "Inédit au recueil Lebon",
-      "mis_en_ligne": "2026-08-19",
-      "url": "https://opendata.justice-administrative.fr/recherche/CE/518711"
+      "mis_en_ligne": "2026-08-21",
+      "url": "https://opendata.justice-administrative.fr/recherche/CE/518683"
     },
     {
-      "id": "DCE_518779_20260814.xml",
-      "date": "2026-08-14",
-      "numero": "518779",
+      "id": "ORCE_514093_20260819.xml",
+      "date": "2026-08-19",
+      "numero": "514093",
       "juridiction": "Section du Contentieux",
       "formation": "Juge des référés",
-      "type": "Décision",
-      "ecli": "ECLI:FR:CEORD:2026:518779.20260814",
-      "publication": "Inédit au recueil Lebon",
-      "mis_en_ligne": "2026-08-19",
-      "url": "https://opendata.justice-administrative.fr/recherche/CE/518779"
+      "type": "Ordonnance",
+      "ecli": "",
+      "publication": "Non renseigné",
+      "mis_en_ligne": "2026-08-20",
+      "url": "https://opendata.justice-administrative.fr/recherche/CE/514093"
     }
   ]
 }
