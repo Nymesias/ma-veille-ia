@@ -49,29 +49,9 @@
       "nom_site": "Vie Publique|Lois",
       "articles": [
         {
-          "t": "Loi du 18 août 2026 visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens",
-          "l": "https://www.vie-publique.fr/loi/302565-loi-ripost-ordre-public-securite-et-tranquillite-18-aout-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-          "d": "2026-08-19"
-        },
-        {
-          "t": "Loi du 18 août 2026 d'urgence pour la protection et la souveraineté agricoles",
-          "l": "https://www.vie-publique.fr/loi/302739-urgence-pour-la-protection-et-la-souverainete-agricoles-loi-18-aout-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-          "d": "2026-08-19"
-        },
-        {
-          "t": "Loi du 18 août 2026 visant à moderniser la gestion du patrimoine immobilier de l'État",
-          "l": "https://www.vie-publique.fr/loi/301991-gestion-du-patrimoine-immobilier-de-letat-loi-du-18-aout-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-          "d": "2026-08-19"
-        },
-        {
-          "t": "Loi du 18 août 2026 pour une montagne vivante et souveraine",
-          "l": "https://www.vie-publique.fr/loi/304264-loi-acte-iii-montagne-vivante-et-souveraine-18-aout-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-          "d": "2026-08-19"
-        },
-        {
-          "t": "Loi du 18 août 2026 relative au droit à l'aide à mourir",
-          "l": "https://www.vie-publique.fr/loi/298544-loi-fin-de-vie-droit-laide-mourir-18-aout-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-          "d": "2026-08-19"
+          "t": "Loi du 24 août 2026 visant à protéger les mineurs des risques auxquels les expose l'utilisation des réseaux sociaux",
+          "l": "https://www.vie-publique.fr/loi/301799-proteger-les-mineurs-risques-des-reseaux-sociaux-loi-du-24-aout-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -306,19 +286,39 @@
       "nom_site": "CEDH",
       "articles": [
         {
-          "t": "AFFAIRE A.G. c. SUISSE",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-251250",
-          "d": "2026-07-23"
+          "t": "AFFAIRE KAVALA c. TÜRKİYE (N° 2)",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252215",
+          "d": "2026-08-25"
         },
         {
-          "t": "AFFAIRE DEREVYANKO ET TARASOVA c. UKRAINE",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-251505",
-          "d": "2026-07-23"
+          "t": "AFFAIRE ALEKSIEVA ET AUTRES c. BULGARIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252177",
+          "d": "2026-08-25"
         },
         {
-          "t": "AFFAIRE KOLESNYK ET SMELNYTSKYY c. UKRAINE",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-251501",
-          "d": "2026-07-23"
+          "t": "AFFAIRE ALISHOV ET AUTRES c. AZERBAÏDJAN",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-251864",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "AFFAIRE EKİCİKOL c. TÜRKİYE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-251863",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "AFFAIRE KHUDAYAROV ET AUTRES c. AZERBAÏDJAN",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252077",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "AFFAIRE PAPANDILE c. ALBANIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252102",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "Kavala c. Türkiye (n° 2) [GC]",
+          "l": "https://hudoc.echr.coe.int/fre?i=002-14652",
+          "d": "2026-08-25"
         }
       ]
     }
@@ -405,9 +405,9 @@
       "nom_site": "DGCCRF",
       "articles": [
         {
-          "t": "Enseignement, loisirs, logement, assurance… : soyez prêts pour la rentrée",
-          "l": "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/enseignement-loisirs-logement-assurance-soyez-prets-pour-la-rentree",
-          "d": "2026-08-24"
+          "t": "Annonces de réduction de prix : ce que vous devez savoir !",
+          "l": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/annonces-de-reduction-de-prix-ce-que-vous-devez-savoir",
+          "d": "2026-08-25"
         }
       ]
     }
@@ -482,9 +482,9 @@
       "nom_site": "Me VENIN|Assurances",
       "articles": [
         {
-          "t": "VEFA et vices apparents : délais",
-          "l": "https://www.mv-avocat.fr/actualites-juridiques/vefa-et-vices-apparents-delais/",
-          "d": "2026-08-18"
+          "t": "CCMI et report de la livraison",
+          "l": "https://www.mv-avocat.fr/actualites-juridiques/ccmi-et-report-de-la-livraison/",
+          "d": "2026-08-25"
         }
       ]
     }
@@ -494,24 +494,19 @@
       "nom_site": "AN|Documents",
       "articles": [
         {
-          "t": "Texte adopté n° 325 - Projet de loi, adopté, dans les conditions prévues à l'article 45, alinéa 3, de la Constitution, par l'Assemblée nationale, actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense",
-          "l": "https://www.assemblee-nationale.fr/17/ta/ta0325.asp",
-          "d": "2026-08-20"
+          "t": "N° 3109 - Proposition de loi de M. Lionel Tivoli renforçant la responsabilité des locataires et des bailleurs dans le logement social",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion3109.asp",
+          "d": "2026-08-25"
         },
         {
-          "t": "Texte adopté n° 340 - Projet de loi, adopté, dans les conditions prévues à l'article 45, alinéa 3, de la Constitution, par l'Assemblée nationale, visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité de nos concitoyens",
-          "l": "https://www.assemblee-nationale.fr/17/ta/ta0340.asp",
-          "d": "2026-08-20"
+          "t": "N° 3110 - Proposition de loi de M. Jean-Philippe Tanguy créant le délit de complicité et recel d'ingérence étrangère",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion3110.asp",
+          "d": "2026-08-25"
         },
         {
-          "t": "Texte adopté n° 337 - Projet de loi, adopté, dans les conditions prévues à l'article 45, alinéa 3, de la Constitution, par l'Assemblée nationale, d'urgence pour la protection et la souveraineté agricoles",
-          "l": "https://www.assemblee-nationale.fr/17/ta/ta0337.asp",
-          "d": "2026-08-20"
-        },
-        {
-          "t": "Texte adopté n° 336 - Proposition de loi, adoptée, dans les conditions prévues à l'article 45, alinéa 3, de la Constitution, par l'Assemblée nationale, pour une montagne vivante et souveraine",
-          "l": "https://www.assemblee-nationale.fr/17/ta/ta0336.asp",
-          "d": "2026-08-20"
+          "t": "N° 3108 - Proposition de loi de M. Sébastien Humbert visant à garantir un juste équilibre entre contrôle, sanctions et accompagnement dans l'assainissement non-collectif",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion3108.asp",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -569,14 +564,14 @@
       "nom_site": "Conseil de l'Europe|Affaires",
       "articles": [
         {
-          "t": "AMETOV ET AUTRES c. Russie",
-          "l": "http://hudoc.exec.coe.int/fre?i=004-70888",
-          "d": "2026-08-21"
+          "t": "KAVALA c. Türkiye (n° 2)",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70890",
+          "d": "2026-08-25"
         },
         {
-          "t": "ZAYETS c. Ukraine",
-          "l": "http://hudoc.exec.coe.int/fre?i=004-70820",
-          "d": "2026-08-21"
+          "t": "GRANDE ORIENTE D'ITALIA c. Italie",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70850",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -584,44 +579,19 @@
       "nom_site": "Commission Européenne|Actualités",
       "articles": [
         {
-          "t": "The European Commission publishes guidance for CBAM verifiers and accreditation bodies",
-          "l": "https://taxation-customs.ec.europa.eu/news/european-commission-publishes-guidance-cbam-verifiers-and-accreditation-bodies-2026-08-24_en",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "EU sends urgent support to Serbia as wildfires intensify",
-          "l": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/eu-sends-urgent-support-serbia-wildfires-intensify-2026-08-24_en",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Commissioner Lahbib visits wildfire-hit Belgium and Germany as European response continues across the continent",
-          "l": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/commissioner-lahbib-visits-wildfire-hit-belgium-and-germany-european-response-continues-across-2026-08-24_en",
-          "d": "2026-08-24"
+          "t": "France awards €260m to five ports for floating wind buildout",
+          "l": "https://blue-economy-observatory.ec.europa.eu/news/france-awards-eur260m-five-ports-floating-wind-buildout-2026-08-25_en",
+          "d": "2026-08-25"
         },
         {
           "t": "EU reaffirms solidarity with Ukraine on 35th anniversary of regained independence",
           "l": "https://commission.europa.eu/news-and-media/news/eu-reaffirms-solidarity-ukraine-35th-anniversary-regained-independence-2026-08-24_en",
-          "d": "2026-08-24"
+          "d": "2026-08-25"
         },
         {
-          "t": "Statement by the High Representative on Israel’s E1 West Bank settlement plan",
-          "l": "https://north-africa-middle-east-gulf.ec.europa.eu/news/statement-high-representative-israels-e1-west-bank-settlement-plan-2026-08-23_en",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Israel/Palestine: Statement by the Spokesperson",
-          "l": "https://north-africa-middle-east-gulf.ec.europa.eu/news/israelpalestine-statement-spokesperson-2026-08-21_en",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Conserving seagrass meadows is crucial for ‘blue carbon’ climate strategies",
-          "l": "https://environment.ec.europa.eu/news/conserving-seagrass-meadows-crucial-blue-carbon-climate-strategies-2026-08-19_en",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Researchers call for greater consideration of chemical mixtures to improve EU chemical safety legislation",
-          "l": "https://environment.ec.europa.eu/news/researchers-call-greater-consideration-chemical-mixtures-improve-eu-chemical-safety-legislation-2026-08-19_en",
-          "d": "2026-08-24"
+          "t": "Internal Audit in Motion: Keeping Pace with a Changing Europe",
+          "l": "https://commission.europa.eu/news-and-media/news/internal-audit-motion-keeping-pace-changing-europe-2026-08-21_en",
+          "d": "2026-08-25"
         }
       ]
     }
@@ -641,9 +611,9 @@
       "nom_site": "Ministère de l'Economie",
       "articles": [
         {
-          "t": "Accès illégitimes au système d'information de la Direction générale des Finances publiques : consulter la FAQ",
-          "l": "https://www.economie.gouv.fr/actualites/acces-illegitimes-au-systeme-dinformation-de-la-direction-generale-des-finances-publiques-consulter-la-faq",
-          "d": "2026-08-21"
+          "t": "Règlement européen sur l’IA : des mesures concrètes pour informer et protéger les internautes",
+          "l": "https://www.economie.gouv.fr/actualites/reglement-europeen-sur-lia-des-mesures-concretes-pour-informer-et-proteger-les-internautes",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -651,154 +621,74 @@
       "nom_site": "Le Revenu",
       "articles": [
         {
-          "t": "Eiffage : deux nouveaux marchés dans la valorisation des déchets à Limoges et Grenoble>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/eiffage-deux-nouveaux-marches-dans-la-valorisation",
-          "d": "2026-08-24"
+          "t": "France / Emploi : les intentions de recrutement de cadres toujours aussi faibles>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/france-emploi-les-intentions-de-recrutement-de-cad",
+          "d": "2026-08-25"
         },
         {
-          "t": "Alzheimer : le test sanguin d’Eli Lilly et Roche approuvé aux États-Unis>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/alzheimer-le-test-sanguin-d-eli-lilly-et-roche-app",
-          "d": "2026-08-24"
+          "t": "IA : le courtier allemand Scalable Capital lance son service « Agentic Investing »>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/ia-le-courtier-allemand-scalable-capital-lance-son",
+          "d": "2026-08-25"
         },
         {
-          "t": "Tensions commerciales Canada - USA : Stellantis, parmi les valeurs les plus pénalisées>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/tensions-commerciales-canada-usa-stellantis-parmi-",
-          "d": "2026-08-24"
+          "t": "Boeing : les ingénieurs et techniciens menacent de faire grève>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/boeing-les-ingenieurs-et-techniciens-menacent-de-f",
+          "d": "2026-08-25"
         },
         {
-          "t": "États-Unis : Scott Bessent est prêt à tout pour financer son programme de rachat d’obligations>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/etats-unis-scott-bessent-est-pret-a-tout-pour-fina",
-          "d": "2026-08-24"
+          "t": "Allemagne : l’économie progresse un peu plus rapidement qu’annoncé>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/allemagne-l-economie-progresse-un-peu-plus-rapidem",
+          "d": "2026-08-25"
         },
         {
-          "t": "Le cours de l’or poursuit son spectaculaire rebond>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/le-cours-de-l-or-poursuit-son-spectaculaire-rebond",
-          "d": "2026-08-24"
+          "t": "Détroit d’Ormuz : Le trafic maritime s’effondre une nouvelle fois>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/detroit-d-ormuz-le-trafic-maritime-s-effondre-une-",
+          "d": "2026-08-25"
         },
         {
-          "t": "Nvidia publiera ses résultats mercredi, objectif : 91 milliards de dollars de revenus>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/nvidia-publiera-ses-resultats-mercredi-objectif-91",
-          "d": "2026-08-24"
+          "t": "IPO de Shein : le carnet d’ordres est déjà entièrement couvert>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/ipo-de-shein-le-carnet-d-ordres-est-deja-entiereme",
+          "d": "2026-08-25"
         },
         {
-          "t": "IA : Meta débauche Luke Metz, un ancien d’OpenAI>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/ia-meta-debauche-luke-metz-un-ancien-d-openai",
-          "d": "2026-08-24"
+          "t": "Hyundai : un accord salarial provisoire après 111 jours de négociations>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/hyundai-un-accord-salarial-provisoire-apres-111-jo",
+          "d": "2026-08-25"
         },
         {
-          "t": "Bruxelles autorise Orange et le fonds néerlandais APG à racheter Nexera>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/bruxelles-autorise-orange-et-le-fonds-neerlandais-",
-          "d": "2026-08-24"
+          "t": "Un agent d’IA OpenAI a mené une attaque informatique de façon autonome lors d’un test>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/un-agent-d-ia-openai-a-mene-une-attaque-informatiq",
+          "d": "2026-08-25"
         },
         {
-          "t": "Hyundai : reprise des négociations entre le syndicat et la direction>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/hyundai-reprise-des-negociations-entre-le-syndicat",
-          "d": "2026-08-24"
+          "t": "Eiffage remporte plusieurs marchés dans le secteur de la santé, 132 millions €>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/eiffage-remporte-plusieurs-marches-dans-le-secteur",
+          "d": "2026-08-25"
         },
         {
-          "t": "L’échec des négociations commerciales entre Ottawa et Washington détruit le dollar canadien>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/l-echec-des-negociations-commerciales-entre-ottawa",
-          "d": "2026-08-24"
+          "t": "France : la confiance des ménages se stabilise en août>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/france-la-confiance-des-menages-se-stabilise-en-ao",
+          "d": "2026-08-25"
         },
         {
-          "t": "Assurance-vie verte et solidaire : investir | Le Revenu>",
-          "l": "https://www.lerevenu.com/diversifier-placements/assurance-vie/assurance-vie-verte-et-solidaire-investir-le-reven",
-          "d": "2026-08-24"
+          "t": "France : 6 milliards €, le coût des trois nouveaux parcs d'attractions financés par l’Arabie saoudite>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/france-6-milliards-le-cout-des-trois-nouveaux-parc",
+          "d": "2026-08-25"
         },
         {
-          "t": "Shein lance son IPO à Hong Kong, une valorisation proche de 27 milliards $ au prix maximal>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/shein-lance-son-ipo-a-hong-kong-une-valorisation-p",
-          "d": "2026-08-24"
+          "t": "CAC40 : L'indice vise les 8 500 points à l'ouverture>",
+          "l": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/cac40-8500-points-nvidia-pce-ormuz",
+          "d": "2026-08-25"
         },
         {
-          "t": "Gaz naturel : Téhéran annonce une découverte majeure dans la province de Fars>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/gaz-naturel-teheran-annonce-une-decouverte-majeure",
-          "d": "2026-08-24"
+          "t": "Wall Street : la cote hésite avant Nvidia et Jackson Hole>",
+          "l": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/wall-street-nvidia-jackson-hole-taux-fed",
+          "d": "2026-08-25"
         },
         {
-          "t": "Apple règle 40 % de ses impôts mondiaux en Irlande>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/apple-regle-40-de-ses-impots-mondiaux-en-irlande",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Volkswagen : les salariés de plus en plus inquiets, la direction tente d’apaiser les tensions>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/volkswagen-les-salaries-de-plus-en-plus-inquiets-l",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Shell cherche à se désengager de ses activités chimiques US>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/shell-cherche-a-se-desengager-de-ses-activites-chi",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Actions étrangères : l’IA et Wall Street mènent la danse>",
-          "l": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/actions-etrangeres-l-ia-et-wall-street-menent-la-d",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "CAC40 : début de semaine prudent, l'indice reste indécis>",
-          "l": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/cac40-debut-semaine-prudent-petrole-taux",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Assurance scolaire : jusqu’à 60 euros par enfant, le marché s’anime avant la rentrée>",
-          "l": "https://www.lerevenu.com/diversifier-placements/assurance-vie/assurance-scolaire-jusqu-a-60-euros-par-enfant-le-",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Bitcoin proche de 78 000 dollars après un bond de 23 % en une semaine>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/bitcoin-proche-de-78-000-dollars-apres-un-bond-de-",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Euronext franchit un nouveau record et dépasse 16,5 milliards d’euros en Bourse>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/euronext-franchit-un-nouveau-record-et-depasse-16-",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Facturation électronique : les entreprises redoutent les cyberattaques avant le 1er septembre>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/facturation-electronique-les-entreprises-redoutent",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Canicule : Action vend un climatiseur à 179 euros pour séduire les ménages>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/canicule-action-vend-un-climatiseur-a-179-euros-po",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Chine : Tesla et huit autres constructeurs rappellent environ 4,3 millions de véhicules>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/chine-tesla-et-huit-autres-constructeurs-rappellen",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Pétrole : le Brent cède environ 1,4% à 93,07 dollars le baril>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/petrole-le-brent-cede-environ-1-4-a-93-07-dollars-",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "France / Carburant : plusieurs dispositifs de soutien reconduits en 2027>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/france-carburant-plusieurs-dispositifs-de-soutien-",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Valerio Therapeutics : un accord définitif pour l’acquisition de 100 % d’Etherna Immunotherapies>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/valerio-therapeutics-un-accord-definitif-pour-l-ac",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Livret A à 1,7 %, assurance-vie à 2,7 % : où placer son épargne d’ici fin 2026 ?>",
-          "l": "https://www.lerevenu.com/diversifier-placements/epargne-retraite/livret-a-a-1-7-assurance-vie-a-2-7-ou-placer-son-e",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Bourse de Tokyo : le Nikkei perd 0,74 %, les valeurs liées à l’IA sous pression>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/bourse-de-tokyo-le-nikkei-perd-0-74-les-valeurs-li",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Uniper sécurise 15 ans de gaz norvégien avec Equinor pour approvisionner l’Allemagne>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/uniper-securise-15-ans-de-gaz-norvegien-avec-equin",
-          "d": "2026-08-24"
+          "t": "L'or au plus haut depuis 3 mois, Bitcoin à 74 500$ : le \"debasement trade\" est de retour>",
+          "l": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/or-bitcoin-debasement-trade-dette-americaine",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -806,149 +696,139 @@
       "nom_site": "L'Agefi",
       "articles": [
         {
-          "t": "Les bons du Trésor américains ne sont pas sortis d’affaire",
-          "l": "https://www.agefi.fr/news/economie-marches/les-bons-du-tresor-americains-ne-sont-pas-sortis-daffaire",
-          "d": "2026-08-24"
+          "t": "Qiddiya s'engage à investir 6 milliards d’euros en France pour développer des parcs à thèmes",
+          "l": "https://www.agefi.fr/investisseurs-institutionnels/actualites/qiddiya-sengage-a-investir-6-milliards-deuros-en-france-pour-developper-des-parcs-a-themes",
+          "d": "2026-08-25"
         },
         {
-          "t": "Les Etats-Unis annoncent un élargissement des sanctions contre l'Iran",
-          "l": "https://www.agefi.fr/news/economie-marches/les-etats-unis-annoncent-un-elargissement-des-sanctions-contre-liran",
-          "d": "2026-08-24"
+          "t": "Le tiers payant, un terrain de jeu pour les fintechs",
+          "l": "https://www.agefi.fr/news/banque-assurance/le-tiers-payant-un-terrain-de-jeu-pour-les-fintechs",
+          "d": "2026-08-25"
         },
         {
-          "t": "La Chine manœuvre pour calmer la fièvre sur le yuan",
-          "l": "https://www.agefi.fr/news/economie-marches/la-chine-manœuvre-pour-calmer-la-fievre-sur-le-yuan",
-          "d": "2026-08-24"
+          "t": "Le fonds de pension suédois AP3 voit ses encours grossir de plus de moitié",
+          "l": "https://www.agefi.fr/investisseurs-institutionnels/actualites/le-fonds-de-pension-suedois-ap3-voit-ses-encours-grossir-de-plus-de-moitie",
+          "d": "2026-08-25"
         },
         {
-          "t": "Les acteurs crypto s'écharpent sur la question de la fiscalité des stablecoins",
-          "l": "https://www.agefi.fr/news/tech-finance/les-acteurs-crypto-secharpent-sur-la-question-de-la-fiscalite-des-stablecoins",
-          "d": "2026-08-24"
+          "t": "Les fonds de private equity hexagonaux misent sur le « Made in France »",
+          "l": "https://www.agefi.fr/private-equity/actualites/les-fonds-de-private-equity-hexagonaux-misent-sur-le-made-in-france",
+          "d": "2026-08-25"
         },
         {
-          "t": "La Caisse des retraités de l’ONU affiche une croissance de ses investissements en 2025",
-          "l": "https://www.agefi.fr/investisseurs-institutionnels/actualites/la-caisse-des-retraites-de-lonu-affiche-une-croissance-de-ses-investissements-en-2025",
-          "d": "2026-08-24"
+          "t": "Volkswagen poursuit son poker menteur sur l’avenir de son outil industriel",
+          "l": "https://www.agefi.fr/news/entreprises/volkswagen-poursuit-son-poker-menteur-sur-lavenir-de-son-outil-industriel",
+          "d": "2026-08-25"
         },
         {
-          "t": "Météo et risques géopolitiques font grimper le prix des céréales",
-          "l": "https://www.agefi.fr/news/economie-marches/meteo-et-risques-geopolitiques-font-grimper-le-prix-des-cereales",
-          "d": "2026-08-24"
+          "t": "Les banques ont largement participé à la réouverture du marché du crédit en euros",
+          "l": "https://www.agefi.fr/news/economie-marches/les-banques-ont-largement-participe-a-la-reouverture-du-marche-du-credit-en-euros",
+          "d": "2026-08-25"
         },
         {
-          "t": "CVC s'associe à Standard Life sur le marché du transfert de risques de retraite au Royaume-Uni",
-          "l": "https://www.agefi.fr/private-equity/actualites/cvc-sassocie-a-standard-life-sur-le-marche-du-transfert-de-risques-de-retraite-au-royaume-uni",
-          "d": "2026-08-24"
+          "t": "Candriam repense sa stratégie obligataire total return",
+          "l": "https://www.agefi.fr/asset-management/actualites/candriam-repense-sa-strategie-obligataire-total-return",
+          "d": "2026-08-25"
         },
         {
-          "t": "Shein s’apprête à des débuts en Bourse plus modestes qu’attendu",
-          "l": "https://www.agefi.fr/news/entreprises/shein-sapprete-a-des-debuts-en-bourse-plus-modestes-quattendu",
-          "d": "2026-08-24"
+          "t": "Fin du feuilleton pour First Brands, l'entreprise est placée en liquidation judiciaire",
+          "l": "https://www.agefi.fr/news/banque-assurance/fin-du-feuilleton-pour-first-brands-lentreprise-est-placee-en-liquidation-judiciaire",
+          "d": "2026-08-25"
         },
         {
-          "t": "Le régime fiscal des Sofica menacé par l’incertitude budgétaire",
-          "l": "https://www.agefi.fr/patrimoine/juridique/le-regime-fiscal-des-sofica-menace-par-lincertitude-budgetaire",
-          "d": "2026-08-24"
+          "t": "EssilorLuxottica s’émancipe de la famille Del Vecchio",
+          "l": "https://www.agefi.fr/news/entreprises/essilorluxottica-semancipe-de-la-famille-del-vecchio",
+          "d": "2026-08-25"
         },
         {
-          "t": "Les ETF actifs engrangent plus de 89 milliards de dollars de collecte en juillet",
-          "l": "https://www.agefi.fr/etf/les-etf-actifs-engrangent-plus-de-89-milliards-de-dollars-de-collecte-en-juillet",
-          "d": "2026-08-24"
+          "t": "L'été a donné un coup de chaud aux entreprises",
+          "l": "https://www.agefi.fr/cash-risk/actualites/lete-a-donne-un-coup-de-chaud-aux-entreprises",
+          "d": "2026-08-25"
         },
         {
-          "t": "LGPS nomme une nouvelle responsable pour ses investissements obligataires",
-          "l": "https://www.agefi.fr/investisseurs-institutionnels/actualites/lgps-nomme-une-nouvelle-responsable-pour-ses-investissements-obligataires",
-          "d": "2026-08-24"
+          "t": "Un comparateur de produits structurés voit le jour",
+          "l": "https://www.agefi.fr/patrimoine/les-metiers/un-comparateur-de-produits-structures-voit-le-jour",
+          "d": "2026-08-25"
         },
         {
-          "t": "Le risque géopolitique redonne à l'Europe une place de choix sur le marché de la gestion de fortune",
-          "l": "https://www.agefi.fr/gestion-privee/actualites/le-risque-geopolitique-redonne-a-leurope-une-place-de-choix-sur-le-marche-de-la-gestion-de-fortune",
-          "d": "2026-08-24"
+          "t": "La décote des parts de SCPI ou le cadeau empoisonné qui aveugle tout un secteur",
+          "l": "https://www.agefi.fr/patrimoine/immobilier/la-decote-des-parts-de-scpi-ou-le-cadeau-empoisonne-qui-aveugle-tout-un-secteur",
+          "d": "2026-08-25"
         },
         {
-          "t": "Le spectre des entreprises «zombies» s’étend dans le private equity",
-          "l": "https://www.agefi.fr/private-equity/actualites/le-spectre-des-entreprises-zombies-setend-dans-le-private-equity",
-          "d": "2026-08-24"
+          "t": "Samsung AM lance le premier TDF ETF investi à 100 % en actifs coréens",
+          "l": "https://www.agefi.fr/etf/samsung-am-lance-le-premier-tdf-etf-investi-a-100-en-actifs-coreens",
+          "d": "2026-08-25"
         },
         {
-          "t": "GSK obtient la première autorisation pour son traitement de l’hépatite B chronique",
-          "l": "https://www.agefi.fr/news/entreprises/gsk-obtient-la-premiere-autorisation-pour-son-traitement-de-lhepatite-b-chronique",
-          "d": "2026-08-24"
+          "t": "Santander, Crédit Agricole et Cetelem déroulent le tapis rouge aux automobiles chinoises en Espagne",
+          "l": "https://www.agefi.fr/news/banque-assurance/santander-credit-agricole-et-cetelem-deroulent-le-tapis-rouge-aux-automobiles-chinoises-en-espagne",
+          "d": "2026-08-25"
         },
         {
-          "t": "Franklin Templeton boucle son premier CFO à 1,5 milliard de dollars",
-          "l": "https://www.agefi.fr/private-equity/actualites/franklin-templeton-boucle-son-premier-cfo-a-1-5-milliard-de-dollars",
-          "d": "2026-08-24"
+          "t": "Alstom renforce ses liens avec l'Arabie saoudite",
+          "l": "https://www.agefi.fr/news/entreprises/alstom-renforce-ses-liens-avec-larabie-saoudite",
+          "d": "2026-08-25"
         },
         {
-          "t": "Alibaba place 8,75 milliards d’euros pour financer sa course à l'IA",
-          "l": "https://www.agefi.fr/news/entreprises/alibaba-place-8-75-milliards-deuros-pour-financer-sa-course-a-lia",
-          "d": "2026-08-24"
+          "t": "La confiance des ménages français reste stable en août",
+          "l": "https://www.agefi.fr/news/economie-marches/la-confiance-des-menages-reste-stable-en-aout",
+          "d": "2026-08-25"
         },
         {
-          "t": "Les cours du pétrole reculent en amont d’un durcissement des sanctions contre l’Iran",
-          "l": "https://www.agefi.fr/news/economie-marches/les-cours-du-petrole-reculent-en-amont-dun-durcissement-des-sanctions-contre-liran",
-          "d": "2026-08-24"
+          "t": "KKR rachète le groupe de cosmétiques japonais Ci Flavors",
+          "l": "https://www.agefi.fr/private-equity/actualites/kkr-rachete-le-groupe-de-cosmetiques-japonais-ci-flavors",
+          "d": "2026-08-25"
         },
         {
-          "t": "Uber écope d’une amende record de 825 millions d’euros",
-          "l": "https://www.agefi.fr/news/entreprises/uber-ecope-dune-amende-record-de-825-millions-deuros",
-          "d": "2026-08-24"
+          "t": "La chute du titre Unitree à Shanghai alimente les craintes d'une bulle spéculative",
+          "l": "https://www.agefi.fr/news/entreprises/la-chute-du-titre-unitree-a-la-bourse-alimente-les-craintes-dune-bulle-speculative",
+          "d": "2026-08-25"
         },
         {
-          "t": "Les marges de Renault pourraient continuer à souffrir en 2027",
-          "l": "https://www.agefi.fr/news/entreprises/les-marges-de-renault-pourraient-continuer-a-souffrir-en-2027",
-          "d": "2026-08-24"
+          "t": "Charlie Finance développe des agents IA sur-mesure pour les cabinets de gestion de patrimoine",
+          "l": "https://www.agefi.fr/patrimoine/tech-et-ia/charlie-finance-developpe-des-agents-ia-sur-mesure-pour-les-cabinets-de-gestion-de-patrimoine",
+          "d": "2026-08-25"
         },
         {
-          "t": "DWS enrichit sa gamme d’ETF actifs",
-          "l": "https://www.agefi.fr/etf/dws-enrichit-sa-gamme-detf-actifs",
-          "d": "2026-08-24"
+          "t": "La croissance allemande dépasse les estimations initiales au deuxième trimestre",
+          "l": "https://www.agefi.fr/news/economie-marches/la-croissance-allemande-depasse-les-estimations-initiales-au-deuxieme-trimestre",
+          "d": "2026-08-25"
         },
         {
-          "t": "Nvidia met en lumière son pouvoir de prix",
-          "l": "https://www.agefi.fr/news/entreprises/nvidia-met-en-lumiere-son-pouvoir-de-prix",
-          "d": "2026-08-24"
+          "t": "L'Etat crée une nouvelle foncière publique",
+          "l": "https://www.agefi.fr/asset-management/actualites/letat-cree-une-nouvelle-fonciere-publique",
+          "d": "2026-08-25"
         },
         {
-          "t": "Le patron d’Azimut plaide pour un grand pôle italien de la gestion d'actifs",
-          "l": "https://www.agefi.fr/asset-management/actualites/le-patron-dazimut-plaide-pour-un-grand-pole-italien-de-la-gestion-dactifs",
-          "d": "2026-08-24"
+          "t": "Franklin Templeton va distribuer son fonds monétaire tokenisé en Asie",
+          "l": "https://www.agefi.fr/asset-management/actualites/franklin-templeton-va-distribuer-son-fonds-monetaire-tokenise-en-asie",
+          "d": "2026-08-25"
         },
         {
-          "t": "Dette AT1 : ce n’est pas la taille qui compte",
-          "l": "https://www.agefi.fr/investisseurs-institutionnels/actualites/dette-at1-ce-nest-pas-la-taille-qui-compte",
-          "d": "2026-08-24"
+          "t": "Alain Krief devient global CIO d’Edmond de Rothschild AM",
+          "l": "https://www.agefi.fr/asset-management/actualites/alain-krief-devient-global-cio-dedmond-de-rothschild-am",
+          "d": "2026-08-25"
         },
         {
-          "t": "BNP Paribas déplore les manquements de la justice américaine dans le litige sur son rôle au Soudan",
-          "l": "https://www.agefi.fr/news/banque-assurance/bnp-paribas-deplore-les-manquements-de-la-justice-americaine-dans-le-litige-sur-son-role-au-soudan",
-          "d": "2026-08-24"
+          "t": "Le marché des changes est en mode carry trade",
+          "l": "https://www.agefi.fr/cash-risk/actualites/le-marche-des-changes-est-en-mode-carry-trade",
+          "d": "2026-08-25"
         },
         {
-          "t": "Le PIF clôt son programme d’investissements quinquennal sur une note stable",
-          "l": "https://www.agefi.fr/investisseurs-institutionnels/actualites/le-pif-clot-son-programme-dinvestissements-quinquennal-sur-une-note-stable",
-          "d": "2026-08-24"
+          "t": "Ofi Invest prend le contrôle de Syncicap AM",
+          "l": "https://www.agefi.fr/asset-management/actualites/ofi-invest-prend-le-controle-de-syncicap-am",
+          "d": "2026-08-25"
         },
         {
-          "t": "Les acquisitions américaines s'intensifient dans la gestion d'actifs européenne",
-          "l": "https://www.agefi.fr/asset-management/actualites/les-acquisitions-americaines-sintensifient-dans-la-gestion-dactifs-europeenne",
-          "d": "2026-08-24"
+          "t": "Chaleur et pénurie d'eau, une menace croissante pour la valeur des actifs",
+          "l": "https://www.agefi.fr/asset-management/actualites/chaleur-et-penurie-deau-une-menace-croissante-pour-la-valeur-des-actifs",
+          "d": "2026-08-25"
         },
         {
-          "t": "UBS a envisagé une refonte de la gestion d'un gros fonds de finance durable",
-          "l": "https://www.agefi.fr/asset-management/actualites/ubs-a-envisage-une-refonte-de-la-gestion-dun-gros-fonds-de-finance-durable",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Citadel a revendu plus de 80% du portefeuille racheté à Situational Awareness",
-          "l": "https://www.agefi.fr/asset-management/actualites/citadel-a-revendu-plus-de-80-du-portefeuille-rachete-a-situational-awareness",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Aladdin, Goldman Sachs AM, CPRAM… Ce qu’ils ont confié à L’Agefi depuis le début de l'année",
-          "l": "https://www.agefi.fr/asset-management/people/aladdin-goldman-sachs-am-cpram-ce-quils-ont-confie-a-lagefi-depuis-le-debut-de-lannee",
-          "d": "2026-08-24"
+          "t": "Roundhill Investments recrute un directeur de la stratégie d’investissement",
+          "l": "https://www.agefi.fr/etf/roundhill-investments-recrute-un-directeur-de-la-strategie-dinvestissement",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -997,74 +877,74 @@
       "nom_site": "Courrier international",
       "articles": [
         {
-          "t": "Les États-Unis dévoilent leur “jour J économique” pour faire plier l’Iran",
-          "l": "https://www.courrierinternational.com/article/geopolitique-les-etats-unis-devoilent-leur-jour-j-economique-pour-faire-plier-l-iran_263080",
-          "d": "2026-08-24"
+          "t": "Pourquoi tout le monde aimait Dolly Parton, “sainte laïque” de la country",
+          "l": "https://www.courrierinternational.com/article/dans-nos-archives-pourquoi-tout-le-monde-aimait-dolly-parton-sainte-laique-de-la-country_183077_1",
+          "d": "2026-08-25"
         },
         {
-          "t": "Après Wildberries, l’Ukraine cible Ozon, autre géant russe du commerce en ligne",
-          "l": "https://www.courrierinternational.com/article/vu-de-moscou-apres-wildberries-l-ukraine-cible-ozon-autre-geant-russe-du-commerce-en-ligne_262824",
-          "d": "2026-08-24"
+          "t": "Le Canada riposte à la guerre commerciale de Trump",
+          "l": "https://www.courrierinternational.com/article/droits-de-douane-le-canada-riposte-a-la-guerre-commerciale-de-trump_263521",
+          "d": "2026-08-25"
         },
         {
-          "t": "En Italie, un escroc avait construit son propre “amphithéâtre antique” pour plumer les touristes",
-          "l": "https://www.courrierinternational.com/article/arnaque-en-italie-un-escroc-avait-construit-son-propre-amphitheatre-antique-pour-plumer-les-touristes_262881",
-          "d": "2026-08-24"
+          "t": "En Serbie, Vucic sort le carnet de chèques avant les élections législatives anticipées",
+          "l": "https://www.courrierinternational.com/article/politique-en-serbie-vucic-sort-le-carnet-de-cheques-avant-les-elections-legislatives-anticipees_263512",
+          "d": "2026-08-25"
         },
         {
-          "t": "Libye : le clan Haftar impliqué dans la libération de deux mercenaires de Wagner au Mali",
-          "l": "https://www.courrierinternational.com/article/geopolitique-libye-le-clan-haftar-implique-dans-la-liberation-de-deux-mercenaires-de-wagner-au-mali_263015",
-          "d": "2026-08-24"
+          "t": "Kazakhstan : le président Kassym-Jomart Tokaïev sort renforcé des élections parlementaires",
+          "l": "https://www.courrierinternational.com/article/politique-kazakhstan-le-president-kassym-jomart-tokaiev-sort-renforce-des-elections-parlementaires_263523",
+          "d": "2026-08-25"
         },
         {
-          "t": "La Russie sans ambassadeur au Royaume-Uni, un message envoyé à Londres ?",
-          "l": "https://www.courrierinternational.com/article/diplomatie-la-russie-sans-ambassadeur-au-royaume-uni-un-message-envoye-a-londres_262848",
-          "d": "2026-08-24"
+          "t": "“Blood Sacrifice”, un polar suédois qui braque la loupe sur la police",
+          "l": "https://www.courrierinternational.com/article/serie-blood-sacrifice-un-polar-suedois-qui-braque-la-loupe-sur-la-police_263079",
+          "d": "2026-08-25"
         },
         {
-          "t": "Washington veut “désamorcer les tensions” entre Israël et la Turquie",
-          "l": "https://www.courrierinternational.com/article/moyen-orient-escalade-entre-israel-et-la-turquie-washington-veut-desamorcer-les-tensions-en-syrie_262822",
-          "d": "2026-08-24"
+          "t": "L’Iran a les moyens de résister à la guerre économique lancée par Trump",
+          "l": "https://www.courrierinternational.com/article/analyse-l-iran-a-les-moyens-de-resister-a-la-guerre-economique-lancee-par-trump_263417",
+          "d": "2026-08-25"
         },
         {
-          "t": "Au marathon du Médoc, “du vin, du fromage et 42 kilomètres” : “cherchez l’intrus”",
-          "l": "https://www.courrierinternational.com/article/vu-des-etats-unis-au-marathon-du-medoc-du-vin-du-fromage-et-42-kilometres-cherchez-l-intrus_262837",
-          "d": "2026-08-24"
+          "t": "À Capri, des caprins trop nombreux menaceraient “l’âme” des lieux",
+          "l": "https://www.courrierinternational.com/article/italie-a-capri-des-caprins-trop-nombreux-menaceraient-l-ame-des-lieux_263421",
+          "d": "2026-08-25"
         },
         {
-          "t": "Le dilemme des pays africains face aux sanctions américaines contre la CPI",
-          "l": "https://www.courrierinternational.com/article/analyse-le-dilemme-des-pays-africains-face-aux-sanctions-americaines-contre-la-cpi_262825",
-          "d": "2026-08-24"
+          "t": "L’artiste chinois dissident Gao Zhen condamné au terme d’une parodie de justice",
+          "l": "https://www.courrierinternational.com/article/censure-l-artiste-chinois-dissident-gao-zhen-condamne-au-terme-d-une-parodie-de-justice_263520",
+          "d": "2026-08-25"
         },
         {
-          "t": "L’actrice Hayden Panettiere “n’a jamais caché avoir souffert de son statut d’ex-enfant star”",
-          "l": "https://www.courrierinternational.com/article/deces-l-actrice-hayden-panettiere-n-a-jamais-cache-avoir-souffert-de-son-statut-d-ex-enfant-star_262823",
-          "d": "2026-08-24"
+          "t": "La Chine met en garde les États-Unis contre leurs sanctions “illégales” pour étouffer l’Iran",
+          "l": "https://www.courrierinternational.com/article/diplomatie-la-chine-met-en-garde-les-etats-unis-contre-leurs-sanctions-illegales-pour-etouffer-l-iran_263516",
+          "d": "2026-08-25"
         },
         {
-          "t": "Voitures volées, excès de vitesse : le Royaume-Uni et l’Irlande aux prises avec le “joyriding”",
-          "l": "https://www.courrierinternational.com/article/fait-divers-voitures-volees-exces-de-vitesse-le-royaume-uni-et-l-irlande-aux-prises-avec-le-joyriding_262838",
-          "d": "2026-08-24"
+          "t": "Les contribuables britanniques doivent-ils payer pour la sécurité de Harry et Meghan ?",
+          "l": "https://www.courrierinternational.com/article/royaute-les-contribuables-britanniques-doivent-ils-payer-pour-la-securite-de-harry-et-meghan_263423",
+          "d": "2026-08-25"
         },
         {
-          "t": "La colère monte en Turquie contre les attaques ukrainiennes de navires en mer Noire",
-          "l": "https://www.courrierinternational.com/article/guerre-la-colere-monte-en-turquie-contre-les-attaques-ukrainiennes-de-navires-en-mer-noire_262841",
-          "d": "2026-08-24"
+          "t": "Les “relations étroites” entre Macron et MBS rapportent une pluie de contrats à la France",
+          "l": "https://www.courrierinternational.com/article/vu-de-l-etranger-les-relations-etroites-entre-macron-et-mbs-rapportent-une-pluie-de-contrats-a-la-france_263411",
+          "d": "2026-08-25"
         },
         {
-          "t": "Shein, le géant chinois de la fast-fashion, brade son introduction en Bourse",
-          "l": "https://www.courrierinternational.com/article/le-chiffre-du-jour-shein-le-geant-chinois-de-la-fast-fashion-brade-son-introduction-en-bourse_262828",
-          "d": "2026-08-24"
+          "t": "L’Autriche, ce “laboratoire politique” dont l’extrême droite allemande veut s’inspirer",
+          "l": "https://www.courrierinternational.com/article/analyse-l-autriche-ce-laboratoire-politique-dont-l-extreme-droite-allemande-veut-s-inspirer_263415",
+          "d": "2026-08-25"
         },
         {
-          "t": "“Trump demandait un droit de cuissage sur le Canada, Mark Carney a dit non”",
-          "l": "https://www.courrierinternational.com/article/opinion-trump-demandait-un-droit-de-cuissage-sur-le-canada-mark-carney-a-dit-non_262818",
-          "d": "2026-08-24"
+          "t": "Au moins 35 000 morts en excès en Europe pendant les canicules de 2026",
+          "l": "https://www.courrierinternational.com/article/climat-au-moins-35-000-morts-en-exces-en-europe-pendant-les-canicules-de-2026_263419",
+          "d": "2026-08-25"
         },
         {
-          "t": "Avec son phosphate, Alger espère séduire Washington et concurrencer Rabat",
-          "l": "https://www.courrierinternational.com/article/economie-avec-son-phosphate-alger-espere-seduire-washington-et-concurrencer-rabat_262005",
-          "d": "2026-08-24"
+          "t": "Haïti : “nuit de terreur” à Kenscoff, cible de l’extrême violence des gangs",
+          "l": "https://www.courrierinternational.com/article/reportage-haiti-nuit-de-terreur-a-kenscoff-cible-de-l-extreme-violence-des-gangs_263508",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -1072,64 +952,59 @@
       "nom_site": "Challenges",
       "articles": [
         {
-          "t": "« Du jamais vu depuis Disneyland Paris » : Macron et Ben Salmane officialisent leur projet de « Dragon Ball sur Seine » près de Paris",
-          "l": "https://www.challenges.fr/economie/du-jamais-vu-depuis-disneyland-paris-macron-et-ben-salmane-officialisent-leur-projet-de-dragon-ball-sur-seine-pres-de-paris_645316",
-          "d": "2026-08-24"
+          "t": "EssilorLuxottica : le fils de l’ancien président quitte le géant des lunettes sur fond de tensions autour de la gestion de la holding familiale",
+          "l": "https://www.challenges.fr/entreprise/essilorluxottica-le-fils-de-lancien-president-quitte-le-geant-des-lunettes-sur-fond-de-tensions-de-la-gestion-de-la-holding-familiale_645327",
+          "d": "2026-08-25"
         },
         {
-          "t": "Une hausse de 40 % attendue : le gouvernement devrait bien augmenter le plafond des franchises médicales",
-          "l": "https://www.challenges.fr/entreprise/sante/une-hausse-de-40-attendue-le-gouvernement-devrait-bien-augmenter-le-plafond-des-franchises-medicales_645314",
-          "d": "2026-08-24"
+          "t": "« L’enfant qui maîtrise mal le langage sera le jouet de l’IA » : l’avertissement du ministre de l’Education nationale sur les retards des tout-petits",
+          "l": "https://www.challenges.fr/education/lenfant-qui-maitrise-mal-le-langage-sera-le-jouet-de-lia-lavertissement-du-ministre-de-leducation-nationale-sur-les-retards-des-tout-petits_645324",
+          "d": "2026-08-25"
         },
         {
-          "t": "« La tâche est immense »: comment Babilou veut revoir en profondeur les pratiques éducatives dans ses crèches",
-          "l": "https://www.challenges.fr/entreprise/la-tache-est-immense-comment-babilou-veut-revoir-en-profondeur-les-pratiques-educatives-dans-ses-creches_645313",
-          "d": "2026-08-24"
+          "t": "Où est le Zucman pro-business ? A la REF, le patronat cherche son champion pour défendre l’entreprise avant la présidentielle",
+          "l": "https://www.challenges.fr/economie/ou-est-le-zucman-pro-business-a-la-ref-le-patronat-cherche-son-champion-pour-defendre-lentreprise-avant-la-presidentielle_645323",
+          "d": "2026-08-25"
         },
         {
-          "t": "« Eviter de tomber dans les tréfonds de l’algorithme » : pourquoi l’arrivée de la pub sur ChatGPT pourrait bouleverser le secteur",
-          "l": "https://www.challenges.fr/entreprise/tech-numerique/eviter-de-tomber-dans-les-trefonds-de-lalgorithme-pourquoi-larrivee-de-la-pub-sur-chatgpt-pourrait-bouleverser-le-secteur_645312",
-          "d": "2026-08-24"
+          "t": "Des success-stories familiales à foison : qui sont les milliardaires du Sud-Est dans le classement des 500 Fortunes ?",
+          "l": "https://www.challenges.fr/fortunes/des-success-stories-familiales-a-foison-qui-sont-les-milliardaires-du-sud-est-dans-le-classement-des-500-fortunes_645321",
+          "d": "2026-08-25"
         },
         {
-          "t": "DGFiP, ANTS... De janvier à août 2026, huit mois de piratage de l'Etat résumés en 1 minute",
-          "l": "https://www.challenges.fr/economie/dgfip-ants-france-travail-2026-une-annee-de-piratage-de-letat-resumee-en-1-minute_645311",
-          "d": "2026-08-24"
+          "t": "Luc Labarile, l’entrepreneur qui veut remettre l’apprentissage des langues à l’endroit",
+          "l": "https://www.challenges.fr/partenaires/portraits-dentreprises/luc-labarile-lentrepreneur-qui-veut-remettre-lapprentissage-des-langues-a-lendroit_645322",
+          "d": "2026-08-25"
         },
         {
-          "t": "Palantir face à l’ère de la souveraineté : au Royaume-Uni, le géant des logiciels est au cœur d’une bataille sur la dépendance à la tech américaine",
-          "l": "https://www.challenges.fr/entreprise/tech-numerique/palantir-face-a-lere-de-la-souverainete-au-royaume-uni-le-geant-des-logiciels-est-au-coeur-dune-bataille-sur-la-dependance-a-la-tech-americaine_645309",
-          "d": "2026-08-24"
+          "t": "66 000 patrons consultés, sept politiques sur le gril : comment le Medef veut mettre les candidats à la présidentielle sous pression",
+          "l": "https://www.challenges.fr/economie/66-000-patrons-consultes-sept-politiques-sur-le-gril-comment-le-medef-veut-mettre-les-candidats-a-la-presidentielle-sous-pression_645320",
+          "d": "2026-08-25"
         },
         {
-          "t": "« C’est le chantier d’infrastructure le plus critique » : climat, électrification… pourquoi la France doit repenser son système électrique",
-          "l": "https://www.challenges.fr/entreprise/energie/cest-le-chantier-dinfrastructure-le-plus-critique-climat-electrification-pourquoi-la-france-doit-repenser-son-systeme-electrique_645308",
-          "d": "2026-08-24"
+          "t": "Les enseignants français sont-ils vraiment mal payés par rapport à leurs voisins ? Pourquoi leurs salaires s’invitent dans la course à la présidentielle",
+          "l": "https://www.challenges.fr/education/les-enseignants-francais-sont-ils-vraiment-mal-payes-par-rapport-a-leurs-voisins-pourquoi-leurs-salaires-sinvitent-dans-la-course-a-la-presidentielle_645319",
+          "d": "2026-08-25"
         },
         {
-          "t": "Près d’un tiers des entreprises françaises veulent encore embaucher en CDI en 2026 : ces profils aux compétences rares qu’elles s’arrachent",
-          "l": "https://www.challenges.fr/vie-de-lentreprise/pres-dun-tiers-des-entreprises-francaises-veulent-encore-embaucher-en-cdi-en-2026-ces-profils-aux-competences-rares-quelles-sarrachent_645307",
-          "d": "2026-08-24"
+          "t": "« Que peut-il faire qu’il n’ait pas déjà fait ? » : pourquoi le projet de Trump d’asphyxier l’économie iranienne pourrait se retourner contre lui",
+          "l": "https://www.challenges.fr/monde/que-peut-il-faire-quil-nait-pas-deja-fait-pourquoi-le-projet-de-trump-dasphyxier-leconomie-iranienne-pourrait-se-retourner-contre-lui_645318",
+          "d": "2026-08-25"
         },
         {
-          "t": "Shein va entrer en Bourse le 1er septembre : le géant chinois de la fast-fashion au défi de relancer la croissance",
-          "l": "https://www.challenges.fr/entreprise/commerce-et-distribution/shein-va-entrer-en-bourse-le-1er-septembre-le-geant-chinois-de-la-fast-fashion-au-defi-de-relancer-la-croissance_645306",
-          "d": "2026-08-24"
+          "t": "Macronistes repentis, opposants à Olivier Faure, écologistes anti-Tondelier… Qui sont vraiment les soutiens de Glucksmann ?",
+          "l": "https://www.challenges.fr/politique/macronistes-repentis-opposants-a-olivier-faure-ecologistes-anti-tondelier-qui-sont-vraiment-les-soutiens-de-glucksmann_645317",
+          "d": "2026-08-25"
         },
         {
-          "t": "Alerte tendance : pourquoi les parfums salés détrônent les fragrances fruitées cette année !",
-          "l": "https://www.challenges.fr/luxe/alerte-tendance-pourquoi-les-parfums-sales-detronent-les-fragrances-fruitees-cette-annee_643679",
-          "d": "2026-08-24"
+          "t": "Eres, Undiz, Calarena, Maiô Paris, Anja : notre sélection de maillots une-pièce indispensables pour cette saison",
+          "l": "https://www.challenges.fr/luxe/eres-undiz-calarena-maio-paris-anja-notre-selection-de-maillots-une-piece-indispensables-pour-cette-saison_644395",
+          "d": "2026-08-25"
         },
         {
-          "t": "Arrivée à 33 ans à la tête du géant des cuisines, qui est l’héritière qui révolutionne le groupe Schmidt ?",
-          "l": "https://www.challenges.fr/fortunes/arrivee-a-33-ans-a-la-tete-du-geant-des-cuisines-qui-est-lheritiere-qui-revolutionne-le-groupe-schmidt_645045",
-          "d": "2026-08-24"
-        },
-        {
-          "t": "Pas de « réarmement démographique » sans logement : pourquoi l'« obsession budgétaire » de l’État va plomber notre économie",
-          "l": "https://www.challenges.fr/immobilier/pas-de-rearmement-demographique-sans-logement-pourquoi-l-obsession-budgetaire-de-letat-va-plomber-notre-economie_645304",
-          "d": "2026-08-24"
+          "t": "L’auteur du best-seller « Sapiens », Yuval Noah Harari craint que les humains accordent trop de confiance aux IA",
+          "l": "https://www.challenges.fr/entreprise/tech-numerique/lauteur-du-best-seller-sapiens-yuval-noah-harari-craint-que-les-humains-accordent-trop-de-confiance-aux-ia_645315",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -1137,54 +1012,94 @@
       "nom_site": "La Tribune",
       "articles": [
         {
-          "t": "Livret A : 80 millions d’euros déposés en juillet après six mois de décollecte",
-          "l": "https://www.latribune.fr/article/banques-finance/assurance/87029645105941/livret-a-80-millions-d-euros-deposes-en-juillet-apres-six-mois-de-decollecte",
-          "d": "2026-08-24"
+          "t": "Trump veut rebaptiser le lac Ontario : la guerre commerciale avec le Canada vire à la bataille des cartes",
+          "l": "https://www.latribune.fr/article/economie/international/50004489806969/trump-veut-rebaptiser-le-lac-ontario-la-guerre-commerciale-avec-le-canada-vire-a-la-bataille-des-cartes",
+          "d": "2026-08-25"
         },
         {
-          "t": "Fibre Excellence : une nouvelle offre de reprise du site de Saint-Gaudens par la région Occitanie et des industriels",
-          "l": "https://www.latribune.fr/article/entreprises-finance/industrie/52625629142529/fibre-excellence-une-nouvelle-offre-de-reprise-du-site-de-saint-gaudens-par-la-region-occitanie-et-des-industriels",
-          "d": "2026-08-24"
+          "t": "6 milliards d'euros : Riyad mise sur Dragon Ball en France pour sortir du tout-pétrole",
+          "l": "https://www.latribune.fr/article/economie/international/47564008883259/6-milliards-deuros-riyad-mise-sur-dragon-ball-en-france-pour-sortir-du-tout-petrole",
+          "d": "2026-08-25"
         },
         {
-          "t": "Budget 2027 : le gouvernement réfute tout projet d’année blanche, mais laisse la porte ouverte à un effort des retraités aisés",
-          "l": "https://www.latribune.fr/article/economie/finances-publiques/53005548219935/budget-2027-le-gouvernement-refute-tout-projet-dannee-blanche-mais-laisse-la-porte-ouverte-a-un-effort-des-retraites-aises",
-          "d": "2026-08-24"
+          "t": "Transparence salariale : la date de présentation du texte est enfin connue",
+          "l": "https://www.latribune.fr/article/economie/46634608984512/transparence-salariale-la-date-de-presentation-du-texte-est-enfin-connue",
+          "d": "2026-08-25"
         },
         {
-          "t": "Le crédit d'impôt industrie verte prolongé et focalisé sur quatre industries clés",
-          "l": "https://www.latribune.fr/article/entreprises-finance/industrie/40357250230107/le-credit-dimpot-industrie-verte-prolonge-et-focalise-sur-quatre-industries-cles",
-          "d": "2026-08-24"
+          "t": "Dragon Ball à Cergy : ces franchises asiatiques qui peuvent faire plus fort que Goku",
+          "l": "https://www.latribune.fr/article/economie/international/45344944743520/dragon-ball-a-cergy-ces-franchises-asiatiques-qui-peuvent-faire-plus-fort-que-goku",
+          "d": "2026-08-25"
         },
         {
-          "t": "Fragilisée, la filière de la Clairette de Die reçoit l'appui du syndicat à la suite de l'incendie de juillet",
-          "l": "https://www.latribune.fr/article/regions/auvergne-rhone-alpes/92287454260482/fragilisee-la-filiere-de-la-clairette-de-die-recoit-lappui-du-syndicat-suite-a-lincendie-de-juillet",
-          "d": "2026-08-24"
+          "t": "Amazon devra financer des aménagements pour s'implanter en Ardèche",
+          "l": "https://www.latribune.fr/article/economie/53209388288939/amazon-devra-financer-des-amenagements-pour-simplanter-en-ardeche",
+          "d": "2026-08-25"
         },
         {
-          "t": "Roland Lescure prolonge la surtaxe des grands groupes : l’exception devient une recette budgétaire",
-          "l": "https://www.latribune.fr/article/economie/fiscalite/45334275148593/roland-lescure-prolonge-la-surtaxe-des-grands-groupes-l-exception-devient-une-recette-budgetaire",
-          "d": "2026-08-24"
+          "t": "À un an de la présidentielle, près de 66 000 patrons réclament un choc de stabilité",
+          "l": "https://www.latribune.fr/article/economie/59672031038554/a-un-an-de-la-presidentielle-pres-de-66-000-patrons-reclament-un-choc-de-stabilite",
+          "d": "2026-08-25"
         },
         {
-          "t": "Face au carburant cher, le gouvernement veut prolonger les aides sans en dévoiler le coût",
-          "l": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/1811842693243714/face-au-carburant-cher-le-gouvernement-veut-prolonger-les-aides-sans-en-devoiler-le-cout",
-          "d": "2026-08-24"
+          "t": "Franchises médicales : le gouvernement porte la facture des patients à 140 euros",
+          "l": "https://www.latribune.fr/article/entreprises-finance/chimie-pharmacie/37455895614025/franchises-medicales-le-gouvernement-porte-la-facture-des-patients-a-140-euros",
+          "d": "2026-08-25"
         },
         {
-          "t": "Le journaliste et animateur radio Philippe Bouvard est mort à l'âge de 96 ans",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/culture-lifestyle/cinema-ecrans/37774662594608/le-journaliste-et-animateur-radio-philippe-bouvard-est-mort-a-lage-de-96-ans",
-          "d": "2026-08-24"
+          "t": "Vélos : les Cycles Lapierre gagnent six mois de sursis, Dijon attend encore son repreneur",
+          "l": "https://www.latribune.fr/article/entreprises-finance/industrie/24222180518422/velos-les-cycles-lapierre-gagnent-six-mois-de-sursis-dijon-attend-encore-son-repreneur",
+          "d": "2026-08-25"
         },
         {
-          "t": "OPINION. « L'écologie n'est pas une affaire de goût »",
-          "l": "https://www.latribune.fr/article/idees/32389436777857/opinion-lecologie-nest-pas-une-affaire-de-gout",
-          "d": "2026-08-24"
+          "t": "Introduction en Bourse de Shein : le livre d'ordres intégralement couvert par la demande des investisseurs",
+          "l": "https://www.latribune.fr/article/economie/16162818084542/introduction-en-bourse-de-shein-le-livre-dordres-integralement-couvert-par-la-demande-des-investisseurs",
+          "d": "2026-08-25"
         },
         {
-          "t": "Histoires de famille (7/7) : Obut, les boules de pétanque qui veulent rouler sur la concurrence",
-          "l": "https://www.latribune.fr/article/economie/1283838748179914/histoires-de-famille-7-7-obut-les-boules-de-petanque-qui-veulent-rouler-sur-la-concurrence",
-          "d": "2026-08-24"
+          "t": "Géothermie : l’Occitanie veut passer à la vitesse supérieure",
+          "l": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/28375703987653/geothermie-l-occitanie-veut-passer-a-la-vitesse-superieure",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "Dans le Var, Naval Group et son centre d’excellence dédié aux drones sous-marins réindustrialisent la friche des Bormettes",
+          "l": "https://www.latribune.fr/article/defense-aerospatiale/40695080737946/dans-le-var-naval-group-et-son-centre-d-excellence-dedie-aux-drones-sous-marins-reindustrialisent-la-friche-des-bormettes",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "Bénéteau, Jeanneau, Tricat... 5 options pour prendre le large avec style",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/culture-lifestyle/mode-luxe/25207819602486/beneteau-jeanneau-tricat-5-options-pour-prendre-le-large-avec-style",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "OPINION. « Cybersécurité : la résilience de nos PME se joue dans le \"dernier kilomètre \" »",
+          "l": "https://www.latribune.fr/article/idees/19137742154242/opinion-cybersecurite-la-resilience-de-nos-pme-se-joue-dans-le-dernier-kilometre",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "OPINION. « Retraités : l'État entrouvre enfin une porte fiscale, mais gare à ceux qui n'en possèdent pas la clé »",
+          "l": "https://www.latribune.fr/article/idees/18258329175859/opinion-retraites-letat-entrouvre-enfin-une-porte-fiscale-mais-gare-a-ceux-qui-nen-possedent-pas-la-cle",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "OPINION. « Faisons de l’Eau un grand projet national »",
+          "l": "https://www.latribune.fr/article/idees/79386650249236/opinion-faisons-de-l-eau-un-grand-projet-national",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "Le Canada prépare la riposte aux nouvelles surtaxes de Trump",
+          "l": "https://www.latribune.fr/article/economie/international/51566014169111/le-canada-prepare-la-riposte-aux-nouvelles-surtaxes-de-trump",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "ThrustMe, la PME française qui équipe 25 constellations de satellites dans le monde",
+          "l": "https://www.latribune.fr/article/defense-aerospatiale/spatial/12921779800595/thrustme-la-pme-francaise-qui-equipe-25-constellations-de-satellites-dans-le-monde",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "Microsoft obtient un avis favorable pour son futur data center de 35 hectares dans le Haut-Rhin",
+          "l": "https://www.latribune.fr/article/tech/13611976644856/microsoft-obtient-un-avis-favorable-pour-son-futur-data-center-de-15-hectares-dans-le-haut-rhin",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -1192,9 +1107,24 @@
       "nom_site": "Vie Publique|Actualités",
       "articles": [
         {
-          "t": "Loi de finances spéciale : quels sont les risques d'une application prolongée en 2027 ?",
-          "l": "https://www.vie-publique.fr/en-bref/304382-loi-de-finances-speciale-quels-sont-les-risques-dune-prolongation?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-08-24"
+          "t": "Vente d'armes : la France 2e pays exportateur mondial en 2025",
+          "l": "https://www.vie-publique.fr/en-bref/304398-exportations-darmement-en-2025-la-france-2e-pays-exportateur-mondial?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "Sénatoriales 2026 : 178 sièges à pourvoir",
+          "l": "https://www.vie-publique.fr/eclairage/268192-senatoriales-septembre-2026-178-sieges-pourvoir?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "Projet de colonie E1 en Cisjordanie : la réaction de l'Europe",
+          "l": "https://www.vie-publique.fr/en-bref/304397-projet-de-colonie-e1-en-cisjordanie-la-reaction-de-leurope?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "Fraude à l'assurance maladie : un rapport propose un meilleur ciblage des contrôles",
+          "l": "https://www.vie-publique.fr/en-bref/304384-fraude-lassurance-maladie-rapport-inspection-igas-igf?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -1212,39 +1142,14 @@
       "nom_site": "INSEE|Actualités nationales",
       "articles": [
         {
-          "t": "En août 2026, le climat des affaires dans l’industrie s’améliore de nouveau",
-          "l": "https://www.insee.fr/fr/statistiques/9037662",
-          "d": "2026-08-21"
+          "t": "En juillet 2026, le prix du pétrole est quasi stable mais celui du gaz bondit",
+          "l": "https://www.insee.fr/fr/statistiques/9038076",
+          "d": "2026-08-25"
         },
         {
-          "t": "En juin 2026, le volume des ventes dans le commerce rebondit (+0,3 %)",
-          "l": "https://www.insee.fr/fr/statistiques/9037218",
-          "d": "2026-08-21"
-        },
-        {
-          "t": "En juin 2026, la production dans les services rebondit légèrement (+0,2 %)",
-          "l": "https://www.insee.fr/fr/statistiques/9037216",
-          "d": "2026-08-21"
-        },
-        {
-          "t": "En août 2026, le climat des affaires dans le commerce de détail et d’automobiles s’éclaircit de nouveau",
-          "l": "https://www.insee.fr/fr/statistiques/9037587",
-          "d": "2026-08-21"
-        },
-        {
-          "t": "En août 2026, le climat des affaires dans le bâtiment est stable",
-          "l": "https://www.insee.fr/fr/statistiques/9037597",
-          "d": "2026-08-21"
-        },
-        {
-          "t": "En août 2026, le climat des affaires dans les services s’éclaircit de nouveau légèrement",
-          "l": "https://www.insee.fr/fr/statistiques/9037635",
-          "d": "2026-08-21"
-        },
-        {
-          "t": "En août 2026, le climat des affaires s’améliore de nouveau",
-          "l": "https://www.insee.fr/fr/statistiques/9037673",
-          "d": "2026-08-21"
+          "t": "En août 2026, la confiance des ménages est stable",
+          "l": "https://www.insee.fr/fr/statistiques/9038078",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -1252,9 +1157,9 @@
       "nom_site": "Eurostat|Actualités",
       "articles": [
         {
-          "t": "EU industrial production rebounds in 2025",
-          "l": "https://ec.europa.eu/eurostat/product?code=ddn-20260824-1",
-          "d": "2026-08-24"
+          "t": "EU imports of goods outpace exports in Q2 2026",
+          "l": "https://ec.europa.eu/eurostat/product?code=ddn-20260825-1",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -1262,19 +1167,19 @@
       "nom_site": "Conseil de l'UE",
       "articles": [
         {
-          "t": "Opening remarks by President António Costa at the meeting with President of Ukraine, Volodymyr Zelenskyy",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/08/24/opening-remarks-by-president-antonio-costa-at-the-meeting-with-president-of-ukraine-volodymyr-zelenskyy/",
-          "d": "2026-08-24"
+          "t": "Press statement by President Costa following the meeting with Prime Minister of Estonia, Kristen Michal",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/08/25/press-statement-by-president-costa-following-the-meeting-with-prime-minister-of-estonia-kristen-michal/",
+          "d": "2026-08-25"
         },
         {
-          "t": "Speech by President António Costa at the ceremony of the 35th anniversary of Ukraine’s Independence",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/08/24/speech-by-president-antonio-costa-at-the-ceremony-of-the-35-anniversary-of-ukraine-s-independence/",
-          "d": "2026-08-24"
+          "t": "Press statement by President Costa following the meeting with Prime Minister of Slovakia, Robert Fico",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/08/25/press-statement-by-president-costa-following-the-meeting-with-prime-minister-of-slovakia-robert-fico/",
+          "d": "2026-08-25"
         },
         {
-          "t": "Tournée annuelle du président Costa dans les capitales de l'UE",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/08/24/president-antonio-costa-to-go-on-annual-round-of-visits-to-eu-capitals/",
-          "d": "2026-08-24"
+          "t": "Écouter l'Europe, construire son avenir – tribune du président Costa",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/08/25/listening-to-europe-building-its-future-op-ed-article-by-president-costa/",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -1292,9 +1197,9 @@
       "nom_site": "Pour la Science",
       "articles": [
         {
-          "t": "L’altermagnétisme, une nouvelle forme de magnétisme surprenante",
-          "l": "https://www.pourlascience.fr/sd/physique/l-altermagnetisme-une-nouvelle-forme-de-magnetisme-surprenante-29428.php",
-          "d": "2026-08-24"
+          "t": "La peste faisait déjà des ravages chez les chasseurs-cueilleurs en Sibérie il y a 5 500 ans",
+          "l": "https://www.pourlascience.fr/sd/paleoanthropologie/la-peste-faisait-deja-des-ravages-chez-les-chasseurs-cueilleurs-en-siberie-il-y-a-5-500-ans-29477.php",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -1352,34 +1257,34 @@
       "nom_site": "LeMagIT",
       "articles": [
         {
-          "t": "Rançongiciel : l’accès métier, nouvelle cible de l’extorsion",
-          "l": "https://www.lemagit.fr/actualites/366649286/Rancongiciel-lacces-metier-nouvelle-cible-de-lextorsion",
-          "d": "2026-08-24"
+          "t": "Les menaces informatiques modernes exigent une résilience continue",
+          "l": "https://www.lemagit.fr/actualites/366649326/Les-menaces-informatiques-modernes-exigent-une-resilience-continue",
+          "d": "2026-08-25"
         },
         {
-          "t": "Anywhere Cloud : Cloudera revient à la charge avec une vision tactique des déploiements IA sur site",
-          "l": "https://www.lemagit.fr/actualites/366649635/Anywhere-Cloud-Cloudera-revient-a-la-charge-avec-une-vision-tactique-des-deploiements-IA-sur-site",
-          "d": "2026-08-24"
+          "t": "Vibe Coding et développement augmenté : différences et précautions d’adoption",
+          "l": "https://www.lemagit.fr/conseil/Vibe-Coding-et-developpement-augmente-differences-et-precautions-dadoption",
+          "d": "2026-08-25"
         },
         {
-          "t": "Infrastructures : l’IA va faire sortir l’IT du cloud public",
-          "l": "https://www.lemagit.fr/tribune/Infrastructures-lIA-va-faire-sortir-lIT-du-cloud-public",
-          "d": "2026-08-24"
+          "t": "Nvidia se rapproche de Rebellions, l’étoile montante coréenne",
+          "l": "https://www.lemagit.fr/dessin/Nvidia-se-rapproche-de-Rebellions-letoile-montante-coreenne",
+          "d": "2026-08-25"
         },
         {
-          "t": "La CJUE vient de redéfinir le pouvoir des plateformes, pour quelles implications ?",
-          "l": "https://www.lemagit.fr/tribune/La-CJUE-vient-de-redefinir-le-pouvoir-des-plateformes-pour-quelles-implications",
-          "d": "2026-08-24"
+          "t": "Nouveaux Mac Mini et Mac Studio taillés pour l’IA locale",
+          "l": "https://www.lemagit.fr/actualites/366648831/Nouveaux-Mac-Mini-et-Mac-Studio-tailles-pour-lIA-locale",
+          "d": "2026-08-25"
         },
         {
-          "t": "IA et IoT : comment Fraikin veut refondre son modèle d’entreprise",
-          "l": "https://www.lemagit.fr/etude/IA-et-IoT-comment-Fraikin-veut-refondre-son-modele-dentreprise",
-          "d": "2026-08-24"
+          "t": "Hot Chips 2026 : le processeur Z d’IBM compatible ARM se dévoile",
+          "l": "https://www.lemagit.fr/actualites/366649430/Hot-Chips-2026-le-processeur-Z-dIBM-compatible-ARM-se-devoile",
+          "d": "2026-08-25"
         },
         {
-          "t": "Puces IA : Nvidia se rapproche de Rebellions, l’étoile montante coréenne",
-          "l": "https://www.lemagit.fr/actualites/366649541/Puces-IA-Nvidia-se-rapproche-de-Rebellions-letoile-montante-coreenne",
-          "d": "2026-08-24"
+          "t": "IA spécialisée : Thomson Reuters lance ses propres LLM",
+          "l": "https://www.lemagit.fr/actualites/366649289/IA-specialisee-Thomson-Reuters-lance-ses-propres-LLM",
+          "d": "2026-08-25"
         }
       ]
     },
@@ -1387,14 +1292,19 @@
       "nom_site": "Service public|Particuliers",
       "articles": [
         {
-          "t": "Taxe foncière : quel niveau de revenus pour être exonéré ou bénéficié d’une réduction ?",
-          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A19047?xtor=RSS-111",
-          "d": "2026-08-24"
+          "t": "MaPrimeRénov’ : certains projets de travaux bientôt exclus du dispositif",
+          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A18332?xtor=RSS-111",
+          "d": "2026-08-25"
         },
         {
-          "t": "Rentrée scolaire 2026 : ce qu’il faut savoir pour bien se préparer",
-          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A19048?xtor=RSS-111",
-          "d": "2026-08-24"
+          "t": "Interdiction du téléphone portable au lycée : quelles sont les modalités ?",
+          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A19051?xtor=RSS-111",
+          "d": "2026-08-25"
+        },
+        {
+          "t": "Ce qui change en septembre 2026",
+          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A18397?xtor=RSS-111",
+          "d": "2026-08-25"
         }
       ]
     },
