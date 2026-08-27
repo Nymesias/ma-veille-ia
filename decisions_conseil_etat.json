@@ -1,81 +1,21 @@
 {
-  "mis_a_jour": "2026-08-26T04:35:50",
-  "date_cible": "2026-08-20",
-  "total": 6,
+  "mis_a_jour": "2026-08-27T14:57:56",
+  "date_cible": "2026-08-25",
+  "total": 1,
   "source": "https://opendata.justice-administrative.fr/recherche",
   "juridiction": "CE",
   "decisions": [
     {
-      "id": "DCE_518725_20260820.xml",
-      "date": "2026-08-20",
-      "numero": "518725",
+      "id": "DCE_518806_20260825.xml",
+      "date": "2026-08-25",
+      "numero": "518806",
       "juridiction": "Section du Contentieux",
       "formation": "Juge des référés",
       "type": "Décision",
-      "ecli": "ECLI:FR:CEORD:2026:518725.20260820",
+      "ecli": "ECLI:FR:CEORD:2026:518806.20260825",
       "publication": "Inédit au recueil Lebon",
-      "mis_en_ligne": "2026-08-22",
-      "url": "https://opendata.justice-administrative.fr/recherche/CE/518725"
-    },
-    {
-      "id": "DCE_518788_20260820.xml",
-      "date": "2026-08-20",
-      "numero": "518788",
-      "juridiction": "Section du Contentieux",
-      "formation": "Juge des référés",
-      "type": "Décision",
-      "ecli": "ECLI:FR:CEORD:2026:518788.20260820",
-      "publication": "Inédit au recueil Lebon",
-      "mis_en_ligne": "2026-08-22",
-      "url": "https://opendata.justice-administrative.fr/recherche/CE/518788"
-    },
-    {
-      "id": "ORCE_515054_20260820.xml",
-      "date": "2026-08-20",
-      "numero": "515054",
-      "juridiction": "Section du Contentieux",
-      "formation": "Juge des référés",
-      "type": "Ordonnance",
-      "ecli": "",
-      "publication": "Non renseigné",
-      "mis_en_ligne": "2026-08-21",
-      "url": "https://opendata.justice-administrative.fr/recherche/CE/515054"
-    },
-    {
-      "id": "ORCE_515391_20260820.xml",
-      "date": "2026-08-20",
-      "numero": "515391",
-      "juridiction": "Section du Contentieux",
-      "formation": "Juge des référés",
-      "type": "Ordonnance",
-      "ecli": "",
-      "publication": "Non renseigné",
-      "mis_en_ligne": "2026-08-21",
-      "url": "https://opendata.justice-administrative.fr/recherche/CE/515391"
-    },
-    {
-      "id": "ORCE_515441_20260820.xml",
-      "date": "2026-08-20",
-      "numero": "515441",
-      "juridiction": "Section du Contentieux",
-      "formation": "Juge des référés",
-      "type": "Ordonnance",
-      "ecli": "",
-      "publication": "Non renseigné",
-      "mis_en_ligne": "2026-08-21",
-      "url": "https://opendata.justice-administrative.fr/recherche/CE/515441"
-    },
-    {
-      "id": "ORCE_515602_20260820.xml",
-      "date": "2026-08-20",
-      "numero": "515602",
-      "juridiction": "Section du Contentieux",
-      "formation": "Juge des référés",
-      "type": "Ordonnance",
-      "ecli": "",
-      "publication": "Non renseigné",
-      "mis_en_ligne": "2026-08-21",
-      "url": "https://opendata.justice-administrative.fr/recherche/CE/515602"
+      "mis_en_ligne": "2026-08-26",
+      "url": "https://opendata.justice-administrative.fr/recherche/CE/518806"
     }
   ]
 }
