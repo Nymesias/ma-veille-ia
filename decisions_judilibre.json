@@ -1,42 +1,31 @@
 {
-  "mis_a_jour": "2026-08-27T14:57:56",
-  "date_cible": "2026-07-29",
-  "date_recherche_initiale": "2026-08-26",
-  "total": 3,
+  "mis_a_jour": "2026-08-28T15:53:01",
+  "date_cible": "2026-08-26",
+  "date_recherche_initiale": "2026-08-27",
+  "total": 2,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
     {
-      "id": "6a6c3846d6da041962934197",
-      "date": "2026-07-29",
+      "id": "6a904e97195da062e0191e4c",
+      "date": "2026-08-26",
       "chambre": "Chambre criminelle",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "26-83.088",
-      "solution": "Cassation",
+      "numero": "26-83.562",
+      "solution": "Rejet",
       "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
       "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6a6c3846d6da041962934197"
+      "url": "https://www.courdecassation.fr/decision/6a904e97195da062e0191e4c"
     },
     {
-      "id": "6a6c3843d6da04196293408b",
-      "date": "2026-07-29",
+      "id": "6a904fdb195da062e0192781",
+      "date": "2026-08-26",
       "chambre": "Chambre criminelle",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "26-84.072",
-      "solution": "Rejet",
+      "numero": "26-83.654",
+      "solution": "Cassation",
       "publication": "Publié au Bulletin",
       "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6a6c3843d6da04196293408b"
-    },
-    {
-      "id": "6a6c3849d6da041962934293",
-      "date": "2026-07-29",
-      "chambre": "Chambre criminelle",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "26-83.061",
-      "solution": "Rejet",
-      "publication": "Publié au Bulletin",
-      "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6a6c3849d6da041962934293"
+      "url": "https://www.courdecassation.fr/decision/6a904fdb195da062e0192781"
     }
   ]
 }

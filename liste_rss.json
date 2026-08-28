@@ -161,23 +161,23 @@
       "nom_site": "CJUE",
       "articles": [
         {
-          "t": "CELEX:62025CJ0158: Arrêt de la Cour (première chambre) du 16 juillet 2026 — QJ contre Administration de l'enregistrement, des domaines et de la TVA et État du Grand-duché de Luxembourg",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0158",
-          "d": "2026-07-16"
-        },
-        {
           "t": "CELEX:62023CJ0559: Arrêt de la Cour (cinquième chambre) du 16 juillet 2026 — International Management Group (IMG) contre Commission européenne",
           "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0559",
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62025CJ0027: Arrêt de la Cour (quatrième chambre) du 16 juillet 2026 — SU et Wild Ireland Defence CLG contre An Coimisiún Pleanála, anciennement An Bord Pleanála e.a",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0027",
+          "t": "CELEX:62025CJ0026: Arrêt de la Cour (troisième chambre) du 16 juillet 2026 — PQ contre Országos Idegenrendészeti Főigazgatóság Dél-alföldi Regionális Igazgatóság et Alkotmányvédelmi Hivatal",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0026",
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62025CJ0026: Arrêt de la Cour (troisième chambre) du 16 juillet 2026 — PQ contre Országos Idegenrendészeti Főigazgatóság Dél-alföldi Regionális Igazgatóság et Alkotmányvédelmi Hivatal",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0026",
+          "t": "CELEX:62025CJ0158: Arrêt de la Cour (première chambre) du 16 juillet 2026 — QJ contre Administration de l'enregistrement, des domaines et de la TVA et État du Grand-duché de Luxembourg",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0158",
+          "d": "2026-07-16"
+        },
+        {
+          "t": "CELEX:62025CJ0027: Arrêt de la Cour (quatrième chambre) du 16 juillet 2026 — SU et Wild Ireland Defence CLG contre An Coimisiún Pleanála, anciennement An Bord Pleanála e.a",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0027",
           "d": "2026-07-16"
         },
         {
@@ -211,11 +211,6 @@
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62025CJ0051: Arrêt de la Cour (première chambre) du 16 juillet 2026 — Betaal Garant Nederland CV contre De Nederlandsche Bank NV",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0051",
-          "d": "2026-07-16"
-        },
-        {
           "t": "CELEX:62025CJ0363: Arrêt de la Cour (cinquième chambre) du 16 juillet 2026 — Dana Astra IOOO contre Conseil de l'Union européenne",
           "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0363",
           "d": "2026-07-16"
@@ -226,8 +221,8 @@
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62024CJ0096: Arrêt de la Cour (quatrième chambre) du 16 juillet 2026 — X.Y. e.a. contre Prokuratura Krajowa e.a",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0096",
+          "t": "CELEX:62025CJ0051: Arrêt de la Cour (première chambre) du 16 juillet 2026 — Betaal Garant Nederland CV contre De Nederlandsche Bank NV",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0051",
           "d": "2026-07-16"
         },
         {
@@ -236,13 +231,8 @@
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62025CJ0400: Arrêt de la Cour (troisième chambre) du 16 juillet 2026 — Gennady Nikolayevich Timchenko contre Conseil de l'Union européenne",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0400",
-          "d": "2026-07-16"
-        },
-        {
-          "t": "CELEX:62025CJ0399: Arrêt de la Cour (troisième chambre) du 16 juillet 2026 — Elena Petrovna Timchenko contre Conseil de l'Union européenne",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0399",
+          "t": "CELEX:62024CJ0096: Arrêt de la Cour (quatrième chambre) du 16 juillet 2026 — X.Y. e.a. contre Prokuratura Krajowa e.a",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0096",
           "d": "2026-07-16"
         },
         {
@@ -261,6 +251,16 @@
           "d": "2026-07-16"
         },
         {
+          "t": "CELEX:62025CJ0400: Arrêt de la Cour (troisième chambre) du 16 juillet 2026 — Gennady Nikolayevich Timchenko contre Conseil de l'Union européenne",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0400",
+          "d": "2026-07-16"
+        },
+        {
+          "t": "CELEX:62025CJ0399: Arrêt de la Cour (troisième chambre) du 16 juillet 2026 — Elena Petrovna Timchenko contre Conseil de l'Union européenne",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0399",
+          "d": "2026-07-16"
+        },
+        {
           "t": "CELEX:62025CJ0169: Arrêt de la Cour (huitième chambre) du 16 juillet 2026 — PV contre Commission européenne",
           "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0169",
           "d": "2026-07-16"
@@ -271,13 +271,13 @@
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62024CJ0666: Arrêt de la Cour (grande chambre) du 16 juillet 2026 — Ministerio Fiscal e.a. contre EGB e.a",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0666",
+          "t": "CELEX:62024CJ0421: Arrêt de la Cour (deuxième chambre) du 16 juillet 2026 — Autorità per le Garanzie nelle Comunicazioni (AGCOM) contre Google Ireland Limited",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0421",
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62024CJ0421: Arrêt de la Cour (deuxième chambre) du 16 juillet 2026 — Autorità per le Garanzie nelle Comunicazioni (AGCOM) contre Google Ireland Limited",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0421",
+          "t": "CELEX:62024CJ0666: Arrêt de la Cour (grande chambre) du 16 juillet 2026 — Ministerio Fiscal e.a. contre EGB e.a",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0666",
           "d": "2026-07-16"
         }
       ]
@@ -286,39 +286,89 @@
       "nom_site": "CEDH",
       "articles": [
         {
-          "t": "AFFAIRE KAVALA c. TÜRKİYE (N° 2)",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-252215",
-          "d": "2026-08-25"
+          "t": "AFFAIRE AKIN ET AUTRES c. GRÈCE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252253",
+          "d": "2026-08-27"
         },
         {
-          "t": "AFFAIRE ALEKSIEVA ET AUTRES c. BULGARIE",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-252177",
-          "d": "2026-08-25"
+          "t": "AFFAIRE ANGYAL ET AUTRES c. SLOVAQUIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252200",
+          "d": "2026-08-27"
         },
         {
-          "t": "AFFAIRE ALISHOV ET AUTRES c. AZERBAÏDJAN",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-251864",
-          "d": "2026-08-25"
+          "t": "AFFAIRE ANTONOPOULOS ET AUTRES c. GRÈCE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252223",
+          "d": "2026-08-27"
         },
         {
-          "t": "AFFAIRE EKİCİKOL c. TÜRKİYE",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-251863",
-          "d": "2026-08-25"
+          "t": "AFFAIRE DEMİRCİ c. TÜRKİYE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252199",
+          "d": "2026-08-27"
         },
         {
-          "t": "AFFAIRE KHUDAYAROV ET AUTRES c. AZERBAÏDJAN",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-252077",
-          "d": "2026-08-25"
+          "t": "AFFAIRE FARINA ET AUTRES c. ITALIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-251832",
+          "d": "2026-08-27"
         },
         {
-          "t": "AFFAIRE PAPANDILE c. ALBANIE",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-252102",
-          "d": "2026-08-25"
+          "t": "AFFAIRE GHUKASYAN c. ARMÉNIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252210",
+          "d": "2026-08-27"
         },
         {
-          "t": "Kavala c. Türkiye (n° 2) [GC]",
-          "l": "https://hudoc.echr.coe.int/fre?i=002-14652",
-          "d": "2026-08-25"
+          "t": "AFFAIRE GOLOVANOV ET AUTRES c. UKRAINE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252276",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "AFFAIRE KUYUMJYAN c. ARMÉNIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252084",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "AFFAIRE MACİT ET AUTRES c. TÜRKİYE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252212",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "AFFAIRE MANGIACAPRE ET AUTRES c. ITALIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-251829",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "AFFAIRE NOLE' ET AUTRES c. ITALIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-251833",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "AFFAIRE PRONTO INTERVENTI SIDA DI BUTERA FRANCESCO c. ITALIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-251826",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "AFFAIRE SANTONASTASO ET MELORIO c. ITALIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-251828",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "AFFAIRE SARRACINO ET TRESCA c. ITALIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-251827",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "AFFAIRE SHYTIKOV ET AUTRES c. UKRAINE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252277",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "AFFAIRE VERRENGIA c. ITALIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-251830",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "AFFAIRE VRACHEVSKYY c. UKRAINE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-252154",
+          "d": "2026-08-27"
         }
       ]
     }
@@ -385,9 +435,9 @@
       "nom_site": "CNIL|Actualités",
       "articles": [
         {
-          "t": "IA : la CNIL met à jour son outil de traçabilité des modèles publiés en source ouverte",
-          "l": "https://www.cnil.fr/fr/ia-la-cnil-met-jour-son-outil-de-tracabilite-des-modeles-publies-en-source-ouverte",
-          "d": "2026-08-26"
+          "t": "Sensibiliser les élèves de CM2 à la protection des données",
+          "l": "https://www.cnil.fr/fr/sensibiliser-les-eleves-de-cm2-la-protection-des-donnees",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -395,24 +445,74 @@
       "nom_site": "DGCCRF",
       "articles": [
         {
-          "t": "Assurance de la location immobilière : lisez bien les contrats !",
-          "l": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/assurance-de-la-location-immobiliere-lisez-bien-les-contrats",
-          "d": "2026-08-26"
+          "t": "Amende de 55 000 € prononcée à l’encontre de la société PAUL HARTMANN SAS (numéro de SIRET : 77874000100111)",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-55-000-eur-prononcee-lencontre-de-la-societe-paul-hartmann-sas-numero-de-siret",
+          "d": "2026-08-27"
         },
         {
-          "t": "L'Intermarché SUPER de Ludres (54) sanctionné pour défaut de publicité des prix",
-          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/lintermarche-super-de-ludres-54-sanctionne-pour-defaut-de-publicite-des-prix",
-          "d": "2026-08-26"
+          "t": "Amende de 58 000 € prononcée à l’encontre de la société TAPE A L'ŒIL (numéro de SIRET : 38963263901139)",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-58-000-eur-prononcee-lencontre-de-la-societe-tape-loeil-numero-de-siret-38963263901139",
+          "d": "2026-08-27"
         },
         {
-          "t": "Amende de 4 000 € prononcée à l’encontre de la société POMPES FUNÈBRES FABER pour défaut d'information",
-          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-4-000-eur-prononcee-lencontre-de-la-societe-pompes-funebres-faber-pour-defaut",
-          "d": "2026-08-26"
+          "t": "Amende de 55 000 € prononcée à l’encontre de la société OUILAB ESPACEBIO (numéro de SIRET : 77999875600018)",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-55-000-eur-prononcee-lencontre-de-la-societe-ouilab-espacebio-numero-de-siret",
+          "d": "2026-08-27"
         },
         {
-          "t": "Amende de 4 000 € prononcée à l’encontre de la société POMPES FUNÈBRES MAGRET pour défaut d'information",
-          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-4-000-eur-prononcee-lencontre-de-la-societe-pompes-funebres-magret-pour-defaut",
-          "d": "2026-08-26"
+          "t": "Amende de 22 000 € prononcée à l’encontre de la société DATA-ONE (numéro de SIRET : 42216567000015)",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-22-000-eur-prononcee-lencontre-de-la-societe-data-one-numero-de-siret-42216567000015",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Amende de 53 000 € prononcée à l’encontre de la société AUTOLIV FRANCE (numéro de SIRET : 62200991800021)",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-53-000-eur-prononcee-lencontre-de-la-societe-autoliv-france-numero-de-siret",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Amende de 14 000 € prononcée à l’encontre de la Société Nouvelle NOREA, devenue NOURIENCE (numéro de SIRET : 49319511900018)",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-14-000-eur-prononcee-lencontre-de-la-societe-nouvelle-norea-devenue-nourience-numero",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Amende de 90 000 € prononcée à l’encontre de la société CORDIER, devenue VINADEIS (numéro de SIRET : 80339992200076)",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-90-000-eur-prononcee-lencontre-de-la-societe-cordier-devenue-vinadeis-numero-de-siret",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Amende de 15 000 € prononcée à l’encontre de la société SUMIKA POLYMER COMPOUNDS FRANCE (numéro de SIRET : 35019314000026)",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-15-000-eur-prononcee-lencontre-de-la-societe-sumika-polymer-compounds-france-numero-de",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Amende de 25 000 € prononcée à l’encontre de la société JOHN COCKERILL EE (numéro de SIRET : 39135884300053)",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-25-000-eur-prononcee-lencontre-de-la-societe-john-cockerill-ee-numero-de-siret",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Amende de 70 000 € prononcée à l’encontre de la société TRANSPORTS PORTMANN (numéro de SIRET : 94735237300056)",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-70-000-eur-prononcee-lencontre-de-la-societe-transports-portmann-numero-de-siret",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Amende de 39 000 € prononcée à l’encontre de la société SAFE (numéro de SIRET : 45072613800107)",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-39-000-eur-prononcee-lencontre-de-la-societe-safe-numero-de-siret-45072613800107",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Condamnation de la société EXPERCORSIMMO pour tromperie",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/condamnation-de-la-societe-expercorsimmo-pour-tromperie",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Le BRICOMARCHÉ D'HOMÉCOURT (54) sanctionné pour défaut de publicité des prix",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/le-bricomarche-dhomecourt-54-sanctionne-pour-defaut-de-publicite-des-prix",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "L'Intermarché hyper de Neuves-Maisons (54) sanctionné pour défaut de publicité des prix",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/lintermarche-hyper-de-neuves-maisons-54-sanctionne-pour-defaut-de-publicite-des-prix",
+          "d": "2026-08-27"
         }
       ]
     }
@@ -499,9 +599,9 @@
       "nom_site": "AN|Documents",
       "articles": [
         {
-          "t": "Texte adopté n° 344 - Résolution visant à lutter contre le vol de véhicules et les filières criminelles organisées en Europe",
-          "l": "https://www.assemblee-nationale.fr/17/ta/ta0344.asp",
-          "d": "2026-08-26"
+          "t": "N° 3111 - Proposition de résolution de Mme Christine Arrighi affirmant la solidarité de la France avec le peuple togolais et invitant à l'arrêt de tout soutien au régime de Faure Gnassingbé",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion3111.asp",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -509,9 +609,14 @@
       "nom_site": "Sénat|Textes",
       "articles": [
         {
-          "t": "Politique de résilience des bâtiments scolaires - texte N° 935",
-          "l": "http://www.senat.fr/leg/ppr25-935.html",
-          "d": "2026-08-22"
+          "t": "Renforcer la résilience des territoires forestiers face aux risques climatiques - texte N° 932",
+          "l": "http://www.senat.fr/leg/ppl25-932.html",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Renforcer le rôle des communes et des élus municipaux - texte N° 936",
+          "l": "http://www.senat.fr/leg/ppl25-936.html",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -559,9 +664,129 @@
       "nom_site": "Conseil de l'Europe|Affaires",
       "articles": [
         {
-          "t": "KAVALA c. Türkiye (n° 2)",
-          "l": "http://hudoc.exec.coe.int/fre?i=004-70890",
-          "d": "2026-08-25"
+          "t": "AKIN ET AUTRES c. Grèce",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70970",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "ANGYAL ET AUTRES c. Slovaquie",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70986",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "ANTONOPOULOS ET AUTRES c. Grèce",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70976",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "DEMIRCI c. Türkiye",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70980",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "FARINA ET AUTRES c. Italie",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70988",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "GHUKASYAN c. Arménie",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70982",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "GOLOVANOV ET AUTRES c. Ukraine",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70998",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "KUYUMJYAN c. Arménie",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70974",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "MACIT ET AUTRES c. Türkiye",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-71000",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "MANGIACAPRE ET AUTRES c. Italie",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70994",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "NOLE' ET AUTRES c. Italie",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70990",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "PRONTO INTERVENTI SIDA DI BUTERA FRANCESCO c. Italie",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70968",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "SANTONASTASO ET MELORIO c. Italie",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70992",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "SARRACINO ET TRESCA c. Italie",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70972",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "SHYTIKOV ET AUTRES c. Ukraine",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70996",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "VERRENGIA c. Italie",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70984",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "VRACHEVSKYY c. Ukraine",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70978",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "ALISHOV ET AUTRES c. Azerbaïdjan",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70944",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "EKICIKOL c. Türkiye",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70942",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "PAPANDILE c. Albanie",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70892",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "CULTE RELIGIEUX 'BISERICA UNIFICARII' ET AKHUNZYANOV c. République de Moldova",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70898",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "MATASARU c. République de Moldova",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70894",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "ORDULJ c. Croatie",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70902",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "PANIUSCHIN c. République de Moldova",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70896",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "POUROS c. Grèce",
+          "l": "http://hudoc.exec.coe.int/fre?i=004-70900",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -569,14 +794,34 @@
       "nom_site": "Commission Européenne|Actualités",
       "articles": [
         {
-          "t": "EU approves €20 million relief scheme for Italian region’s agriculture and fisheries companies",
-          "l": "https://blue-economy-observatory.ec.europa.eu/news/eu-approves-eur20-million-relief-scheme-italian-regions-agriculture-and-fisheries-companies-2026-08-26_en",
-          "d": "2026-08-26"
+          "t": "New episode – DGT podcast: Languages and Technology",
+          "l": "https://translation.ec.europa.eu/news-and-events/news/new-episode-dgt-podcast-languages-and-technology-2026-08-27_en",
+          "d": "2026-08-27"
         },
         {
-          "t": "Statement by the Spokesperson on the designation of the website and social media channels of EU-funded initiatives and programmes as ‘extremist information sources’",
-          "l": "https://enlargement.ec.europa.eu/news/statement-spokesperson-designation-website-and-social-media-channels-eu-funded-initiatives-and-2026-08-25_en",
-          "d": "2026-08-26"
+          "t": "Ten European startups reshaping the blue economy",
+          "l": "https://blue-economy-observatory.ec.europa.eu/news/ten-european-startups-reshaping-blue-economy-2026-08-27_en",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "PESPod #28: Empowering change from within: Lessons from Lithuania's ReStart initiative",
+          "l": "https://employment-social-affairs.ec.europa.eu/news/pespod-28-empowering-change-within-lessons-lithuanias-restart-initiative-2026-08-27_en",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Commission paves the way for Greece to implement its €4.77 billion Social Climate Plan to support vulnerable households and transport users in the clean transition",
+          "l": "https://employment-social-affairs.ec.europa.eu/news/commission-paves-way-greece-implement-its-eur477-billion-social-climate-plan-support-vulnerable-2026-08-27_en",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "European Commission launches public consultation on the Balanced Approach Regulation evaluation",
+          "l": "https://transport.ec.europa.eu/news-events/news/european-commission-launches-public-consultation-balanced-approach-regulation-evaluation-2026-08-27_en",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "New training paths available for Taxation and Customs officers from candidate and potential candidate countries",
+          "l": "https://taxation-customs.ec.europa.eu/news/new-training-paths-available-taxation-and-customs-officers-candidate-and-potential-candidate-2026-08-27_en",
+          "d": "2026-08-27"
         }
       ]
     }
@@ -586,9 +831,9 @@
       "nom_site": "BCE|Politique monétaire",
       "articles": [
         {
-          "t": "Piero Cipollone: From vision to delivery: building Europe’s tokenised financial market",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260826~3641116314.en.html",
-          "d": "2026-08-26"
+          "t": "Meeting of 22-23 July 2026",
+          "l": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260827~f06c21fd54.en.html",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -596,19 +841,19 @@
       "nom_site": "Ministère de l'Economie",
       "articles": [
         {
-          "t": "Loc’Avantages : louez abordable et bénéficiez d’une réduction d’impôt",
-          "l": "https://www.economie.gouv.fr/particuliers/gerer-mon-argent/investir-dans-limmobilier/locavantages-louez-abordable-et-beneficiez-dune-reduction-dimpot",
-          "d": "2026-08-26"
+          "t": "APL, ALS, ALF : quelles aides au logement pour quelle situation ?",
+          "l": "https://www.economie.gouv.fr/particuliers/gerer-mon-argent/beneficier-daides-et-de-reductions-dimpots/apl-als-alf-quelles-aides-au-logement-pour-quelle-situation",
+          "d": "2026-08-27"
         },
         {
-          "t": "Restauration : qu'est-ce que la mention « fait maison » ?",
-          "l": "https://www.economie.gouv.fr/entreprises/developper-son-entreprise/labels-qualite-et-valorisation-du-savoir-faire/restauration-quest-ce-que-la-mention-fait-maison",
-          "d": "2026-08-26"
+          "t": "MaPrimeRénov’ Copropriété : tout savoir sur l’aide à la rénovation des parties communes",
+          "l": "https://www.economie.gouv.fr/particuliers/faire-des-economies-denergie/maprimerenov-copropriete-tout-savoir-sur-laide-la-renovation-des-parties-communes",
+          "d": "2026-08-27"
         },
         {
-          "t": "Entreprises : vos principales échéances du mois",
-          "l": "https://www.economie.gouv.fr/entreprises/gerer-sa-fiscalite-et-ses-impots/limpot-sur-les-benefices-ir-et/entreprises-vos-principales-echeances-du-mois",
-          "d": "2026-08-26"
+          "t": "Pouvez -vous bénéficier de l’aide à l’achat ou la location d'un véhicule électrique d'occasion ?",
+          "l": "https://www.economie.gouv.fr/particuliers/voyager-et-se-deplacer/pouvez-vous-beneficier-de-laide-lachat-ou-la-location-dun-vehicule-electrique-doccasion",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -616,74 +861,19 @@
       "nom_site": "Le Revenu",
       "articles": [
         {
-          "t": "France / Emploi : les intentions de recrutement de cadres toujours aussi faibles>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/france-emploi-les-intentions-de-recrutement-de-cad",
-          "d": "2026-08-25"
+          "t": "Protection des mineurs : Bruxelles réclame à Meta les mêmes normes de sécurité qu’aux États-Unis>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/protection-des-mineurs-bruxelles-reclame-a-meta-le",
+          "d": "2026-08-27"
         },
         {
-          "t": "IA : le courtier allemand Scalable Capital lance son service « Agentic Investing »>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/ia-le-courtier-allemand-scalable-capital-lance-son",
-          "d": "2026-08-25"
+          "t": "États-Unis : le marché du travail résiste>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/etats-unis-le-marche-du-travail-resiste",
+          "d": "2026-08-27"
         },
         {
-          "t": "Boeing : les ingénieurs et techniciens menacent de faire grève>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/boeing-les-ingenieurs-et-techniciens-menacent-de-f",
-          "d": "2026-08-25"
-        },
-        {
-          "t": "Allemagne : l’économie progresse un peu plus rapidement qu’annoncé>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/allemagne-l-economie-progresse-un-peu-plus-rapidem",
-          "d": "2026-08-25"
-        },
-        {
-          "t": "Détroit d’Ormuz : Le trafic maritime s’effondre une nouvelle fois>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/detroit-d-ormuz-le-trafic-maritime-s-effondre-une-",
-          "d": "2026-08-25"
-        },
-        {
-          "t": "IPO de Shein : le carnet d’ordres est déjà entièrement couvert>",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/ipo-de-shein-le-carnet-d-ordres-est-deja-entiereme",
-          "d": "2026-08-25"
-        },
-        {
-          "t": "Hyundai : un accord salarial provisoire après 111 jours de négociations>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/hyundai-un-accord-salarial-provisoire-apres-111-jo",
-          "d": "2026-08-25"
-        },
-        {
-          "t": "Un agent d’IA OpenAI a mené une attaque informatique de façon autonome lors d’un test>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/un-agent-d-ia-openai-a-mene-une-attaque-informatiq",
-          "d": "2026-08-25"
-        },
-        {
-          "t": "Eiffage remporte plusieurs marchés dans le secteur de la santé, 132 millions €>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/eiffage-remporte-plusieurs-marches-dans-le-secteur",
-          "d": "2026-08-25"
-        },
-        {
-          "t": "France : la confiance des ménages se stabilise en août>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/france-la-confiance-des-menages-se-stabilise-en-ao",
-          "d": "2026-08-25"
-        },
-        {
-          "t": "France : 6 milliards €, le coût des trois nouveaux parcs d'attractions financés par l’Arabie saoudite>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/france-6-milliards-le-cout-des-trois-nouveaux-parc",
-          "d": "2026-08-25"
-        },
-        {
-          "t": "CAC40 : L'indice vise les 8 500 points à l'ouverture>",
-          "l": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/cac40-8500-points-nvidia-pce-ormuz",
-          "d": "2026-08-25"
-        },
-        {
-          "t": "Wall Street : la cote hésite avant Nvidia et Jackson Hole>",
-          "l": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/wall-street-nvidia-jackson-hole-taux-fed",
-          "d": "2026-08-25"
-        },
-        {
-          "t": "L'or au plus haut depuis 3 mois, Bitcoin à 74 500$ : le \"debasement trade\" est de retour>",
-          "l": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/or-bitcoin-debasement-trade-dette-americaine",
-          "d": "2026-08-25"
+          "t": "Budget de l’UE : six des principaux contributeurs nets réclament une forte baisse>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/budget-de-l-ue-six-des-principaux-contributeurs-ne",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -691,29 +881,29 @@
       "nom_site": "L'Agefi",
       "articles": [
         {
-          "t": "L’inflation américaine fait de la résistance",
-          "l": "https://www.agefi.fr/news/economie-marches/linflation-americaine-fait-de-la-resistance",
-          "d": "2026-08-26"
+          "t": "La trajectoire de la dette française finira par peser lourd",
+          "l": "https://www.agefi.fr/news/economie-marches/la-trajectoire-de-la-dette-francaise-finira-par-peser-lourd",
+          "d": "2026-08-27"
         },
         {
-          "t": "Les Ecologistes s'attaquent aux très hauts patrimoines par le biais des successions",
-          "l": "https://www.agefi.fr/gestion-privee/actualites/les-ecologistes-sattaquent-aux-tres-hauts-patrimoines-par-le-biais-des-successions",
-          "d": "2026-08-26"
+          "t": "Nvidia apaise Wall Street, mais la concurrence s’aiguise",
+          "l": "https://www.agefi.fr/news/a-la-une/nvidia-apaise-wall-street-quant-aux-craintes-liees-a-lia-mais-la-concurrence-saiguise",
+          "d": "2026-08-27"
         },
         {
-          "t": "Le private equity fait son entrée sur le marché boursier indien",
-          "l": "https://www.agefi.fr/private-equity/actualites/le-private-equity-fait-son-entree-sur-le-marche-boursier-indien",
-          "d": "2026-08-26"
+          "t": "Le Mexique mise sur la diplomatie pour maintenir sa croissance",
+          "l": "https://www.agefi.fr/news/economie-marches/le-mexique-mise-sur-la-diplomatie-pour-maintenir-sa-croissance",
+          "d": "2026-08-27"
         },
         {
-          "t": "Meta transige pour 16,68 milliards de dollars et s'évite un procès historique",
-          "l": "https://www.agefi.fr/news/entreprises/meta-transige-pour-16-68-milliards-de-dollars-et-sevite-un-proces-historique",
-          "d": "2026-08-26"
+          "t": "Moderna se tourne vers les convertibles pour conforter son bilan",
+          "l": "https://www.agefi.fr/news/entreprises/moderna-se-tourne-vers-les-convertibles-pour-conforter-son-bilan",
+          "d": "2026-08-27"
         },
         {
-          "t": "Le PDG d'Alecta part sur des résultats positifs au premier semestre 2026",
-          "l": "https://www.agefi.fr/investisseurs-institutionnels/actualites/le-pdg-dalecta-part-sur-des-resultats-positifs-au-premier-semestre-2026",
-          "d": "2026-08-26"
+          "t": "Klépierre réalise une émission obligataire verte de 500 millions d'euros",
+          "l": "https://www.agefi.fr/cash-risk/actualites/klepierre-realise-une-emission-obligataire-verte-de-500-millions-deuros",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -739,9 +929,15 @@
       "type": "newsletter",
       "articles": [
         {
-          "t": "24/08/2026 : Émission de l'AFT : 7,089 milliards d’euros de BTF",
-          "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/24-aout-2026-emission-btf",
-          "d": "2026-08-24",
+          "t": "28/08/2026 : Prochaine émission d’OAT long terme de l'AFT : jeudi 03 septembre 2026",
+          "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/28-aout-2026-prochaine-emission-oat",
+          "d": "2026-08-28",
+          "type": "newsletter"
+        },
+        {
+          "t": "28/08/2026 : Prochaine émission de BTF de l'AFT : lundi 31 août 2026",
+          "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/28-aout-2026-prochaine-emission-btf",
+          "d": "2026-08-28",
           "type": "newsletter"
         }
       ]
@@ -837,69 +1033,94 @@
       "nom_site": "Challenges",
       "articles": [
         {
-          "t": "« La solution n’est pas de fermer des usines », Stellantis rassure sur son avenir en France",
-          "l": "https://www.challenges.fr/entreprise/la-solution-nest-pas-de-fermer-des-usines-stellantis-rassure-sur-son-avenir-en-france_645342",
-          "d": "2026-08-26"
+          "t": "Glucksmann et Attal à l’offensive, Mélenchon ciblé… Les gagnants et les perdants du premier débat présidentiel",
+          "l": "https://www.challenges.fr/politique/glucksmann-et-attal-a-loffensive-melenchon-cible-les-gagnants-et-les-perdants-du-premier-debat-presidentiel_645360",
+          "d": "2026-08-27"
         },
         {
-          "t": "18 milliards d’indemnités, des fonctionnalités bloquées : Meta conclut le procès du siècle par un accord négocié",
-          "l": "https://www.challenges.fr/entreprise/tech-numerique/18-milliards-dindemnites-des-fonctionnalites-bloquees-meta-conclut-le-proces-du-siecle-par-un-accord-negocie_645340",
-          "d": "2026-08-26"
+          "t": "Cyberattaques : face à la menace grandissante de l’IA, les géants de la tech appellent à une « réponse mondiale »",
+          "l": "https://www.challenges.fr/entreprise/tech-numerique/cyberattaques-face-a-la-menace-grandissante-de-lia-les-geants-de-la-tech-appellent-a-une-reponse-mondiale_645358",
+          "d": "2026-08-27"
         },
         {
-          "t": "« Je n’ai jamais vu ça en 30 ans de jeux vidéo » : pourquoi GTA VI bat déjà des records avant même sa sortie",
-          "l": "https://www.challenges.fr/entreprise/tech-numerique/je-nai-jamais-vu-ca-en-30-ans-de-jeux-video-pourquoi-gta-vi-bat-deja-des-records-avant-meme-sa-sortie_645336",
-          "d": "2026-08-26"
+          "t": "Présidentielle : la France peut-elle enfin sortir de l’impasse étatiste ?",
+          "l": "https://www.challenges.fr/politique/limpasse-etatiste_645359",
+          "d": "2026-08-27"
         },
         {
-          "t": "Qiddiya, le fonds d’investissement saoudien que Macron remercie pour le parc Dragon Ball",
-          "l": "https://www.challenges.fr/economie/qiddiya-le-fonds-dinvestissement-saoudien-que-macron-remercie-pour-le-parc-dragon-ball_645338",
-          "d": "2026-08-26"
+          "t": "« Guerre en Europe » : le scénario glaçant de l'armée finlandaise en cas d'attaque de la Russie contre l'Otan",
+          "l": "https://www.challenges.fr/entreprise/defense/invasion-des-pays-baltes-occupation-du-corridor-de-suwalki-larmee-finlandaise-devoile-le-scenario-choc-dune-guerre-entre-la-russie-et-lotan_645355",
+          "d": "2026-08-27"
         },
         {
-          "t": "Le Canada face au risque d’une escalade mortifère : pourquoi Mark Carney risque gros en reprenant la guerre commerciale avec Donald Trump",
-          "l": "https://www.challenges.fr/economie/le-canada-face-au-risque-dune-escalade-mortifere-pourquoi-mark-carney-risque-gros-en-reprenant-la-guerre-commerciale-avec-donald-trump_645335",
-          "d": "2026-08-26"
+          "t": "Certains chantiers sont devenus « des villes fantômes » : comment le tour de vis migratoire de Trump grippe déjà l’économie américaine",
+          "l": "https://www.challenges.fr/economie/certains-chantiers-sont-devenus-des-villes-fantomes-comment-le-tour-de-vis-migratoire-de-trump-grippe-deja-leconomie-americaine_645354",
+          "d": "2026-08-27"
         },
         {
-          "t": "« Cette mobilisation entend démontrer qui est le patron dans le monde patronal » : pourquoi le Medef muscle son jeu avant la présidentielle",
-          "l": "https://www.challenges.fr/economie/cette-mobilisation-entend-demontrer-qui-est-le-patron-dans-le-monde-patronal-pourquoi-le-medef-muscle-son-jeu-avant-la-presidentielle_645334",
-          "d": "2026-08-26"
+          "t": "Le trésor gazier des Bouygues en Côte d’Ivoire : ce deal qui donne un aperçu du discret mais florissant business ivoirien de la famille",
+          "l": "https://www.challenges.fr/entreprise/energie/le-tresor-gazier-des-bouygues-en-cote-divoire-ce-deal-qui-donne-un-apercu-du-discret-mais-florissant-business-ivoirien-de-la-famille_645346",
+          "d": "2026-08-27"
         },
         {
-          "t": "« Nous gagnons 25 à 30 % de moins que dans les autres compagnies » : conditions de travail dégradées, droit d’alerte… les dessous de la grève French bee",
-          "l": "https://www.challenges.fr/entreprise/transports/nous-gagnons-25-a-30-de-moins-que-dans-les-autres-compagnies-conditions-de-travail-degradees-droit-dalerte-les-dessous-de-la-greve-french-bee_645332",
-          "d": "2026-08-26"
+          "t": "Les ZFE permettent-elles vraiment de verdir le parc automobile ? Ce que révèle une nouvelle étude",
+          "l": "https://www.challenges.fr/automobile/les-zfe-permettent-elles-vraiment-de-verdir-le-parc-automobile-ce-que-revele-une-nouvelle-etude_645352",
+          "d": "2026-08-27"
         },
         {
-          "t": "« La pression des actionnaires est insupportable pour un banquier » : les confidences du discret héritier de la banque suisse Pictet",
-          "l": "https://www.challenges.fr/entreprise/banque-et-assurance/la-pression-des-actionnaires-est-insupportable-pour-un-banquier-les-confidences-du-discret-heritier-de-la-banque-suisse-pictet_645330",
-          "d": "2026-08-26"
+          "t": "Une pelouse détruite par la canicule est-elle vraiment une « circonstance exceptionnelle » ? Pourquoi le PSG ne doit pas être à nouveau favorisé par la Ligue",
+          "l": "https://www.challenges.fr/entreprise/sports/une-pelouse-detruite-par-la-canicule-est-elle-vraiment-une-circonstance-exceptionnelle-pourquoi-le-psg-ne-doit-pas-etre-a-nouveau-favorise-par-la-ligue_645349",
+          "d": "2026-08-27"
         },
         {
-          "t": "Les terrasses parisiennes d’exception pour s’évader sans quitter la capitale cet été",
-          "l": "https://www.challenges.fr/luxe/les-terrasses-parisiennes-dexception-pour-sevader-sans-quitter-la-capitale_642936",
-          "d": "2026-08-26"
+          "t": "Indemnités sur les changements de planning, jours bloqués… Après la grève easyJet du 15 août, les détails de l’accord entre syndicats et direction",
+          "l": "https://www.challenges.fr/entreprise/transports/indemnites-sur-les-changements-de-planning-jours-bloques-apres-la-greve-easyjet-du-15-aout-les-details-de-laccord-entre-syndicats-et-direction_645351",
+          "d": "2026-08-27"
         },
         {
-          "t": "50 000 postes en plus sur la sellette chez Volkswagen, dont la moitié en Allemagne : la série noire se poursuit pour l’automobile outre-Rhin",
-          "l": "https://www.challenges.fr/automobile/50-000-postes-en-plus-sur-la-sellette-chez-volkswagen-dont-la-moitie-en-allemagne-la-serie-noire-se-poursuit-pour-lautomobile-outre-rhin_645329",
-          "d": "2026-08-26"
+          "t": "Cette célèbre école d'ingénieurs prend ses distances avec la Chine : les raisons d'un « choix stratégique » assumé",
+          "l": "https://www.challenges.fr/education/cest-un-choix-a-lheure-de-la-reindustrialisation-francaise-cette-celebre-ecole-dingenieurs-claque-la-porte-a-la-chine_645350",
+          "d": "2026-08-27"
         },
         {
-          "t": "Après l’été, des résidences secondaires restent désespérément vides : comment éviter cet « énorme gâchis » et les louer seulement quelques mois",
-          "l": "https://www.challenges.fr/immobilier/apres-lete-des-residences-secondaires-restent-desesperement-vides-comment-eviter-cet-enorme-gachis-et-les-louer-seulement-quelques-mois_645325",
-          "d": "2026-08-26"
+          "t": "La France n’a pas besoin d’une énième astuce fiscale pour 2027 : arrêtons de freiner les ambitions des talents tricolores",
+          "l": "https://www.challenges.fr/economie/la-france-na-pas-besoin-dune-enieme-astuce-fiscale-pour-2027-arretons-de-freiner-les-ambitions-des-talents-tricolores_645347",
+          "d": "2026-08-27"
         },
         {
-          "t": "« CDI jeunes », baisse des cotisations… le Medef durcit le ton et multiplie les propositions chocs pour 2027",
-          "l": "https://www.challenges.fr/economie/cdi-jeunes-baisse-des-cotisations-le-medef-durcit-le-ton-et-multiplie-les-propositions-chocs-pour-2027_645328",
-          "d": "2026-08-26"
+          "t": "« Les chefs vont continuer à cheffer » : guerre de pouvoir au Canard enchaîné où des journalistes contestent le verrouillage du capital",
+          "l": "https://www.challenges.fr/entreprise/medias/le-canard-enchaine-affiche-3-millions-de-pertes-dexploitation-alors-comment-parvient-il-encore-a-degager-des-benefices_645348",
+          "d": "2026-08-27"
         },
         {
-          "t": "« On me faisait un procès en illégitimité » : Thierry Marx ne veut pas d'un nouveau mandat à la tête de l'Umih",
-          "l": "https://www.challenges.fr/entreprise/on-me-faisait-un-proces-en-illegitimite-thierry-marx-renonce-a-la-presidence-de-lumih-apres-un-seul-mandat-sous-tension_645326",
-          "d": "2026-08-26"
+          "t": "« Le RN n’a pas réussi son opération de séduction auprès du patronat » : ce que révèle l’enquête inédite du Medef auprès de 60 000 chefs d’entreprise",
+          "l": "https://www.challenges.fr/economie/le-rn-na-pas-reussi-son-operation-de-seduction-aupres-du-patronat-ce-que-revele-lenquete-inedite-du-medef-aupres-de-60-000-chefs-dentreprise_645345",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Escapades d’été : Saint-Tropez, le guide des escales pour savourer l’art de vivre sous le soleil de la Riviera",
+          "l": "https://www.challenges.fr/luxe/escapades-dete-saint-tropez-le-guide-des-escales-pour-savourer-lart-de-vivre-sous-le-soleil-de-la-riviera_644913",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Pourquoi les chefs d’entreprise se doivent désormais d’être clairs politiquement… et économiquement",
+          "l": "https://www.challenges.fr/economie/pourquoi-les-chefs-dentreprise-se-doivent-desormais-detre-clairs-politiquement-et-economiquement_645337",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "12,9 milliards de dollars : pourquoi Nvidia compte dépenser une fortune pour s’offrir Hugging Face, la pépite créée par trois Français",
+          "l": "https://www.challenges.fr/entreprise/tech-numerique/129-milliards-de-dollars-pourquoi-nvidia-compte-depenser-une-fortune-pour-soffrir-hugging-face-la-pepite-creee-par-trois-francais_645344",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "« Nombreux sont ceux pour qui un licenciement serait une catastrophe » : l’Allemagne sous le choc des nouvelles coupes chez Volkswagen",
+          "l": "https://www.challenges.fr/monde/nombreux-sont-ceux-pour-qui-un-licenciement-serait-une-catastrophe-lallemagne-sous-le-choc-des-nouvelles-coupes-chez-volkswagen_645341",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "« Bercy est notre meilleur VRP » : comment Indy transforme les réglementations en moteur de croissance",
+          "l": "https://www.challenges.fr/entreprise/bercy-est-notre-meilleur-vrp-comment-indy-transforme-les-reglementations-en-moteur-de-croissance_645339",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -907,19 +1128,9 @@
       "nom_site": "La Tribune",
       "articles": [
         {
-          "t": "A la REF, Patrick Martin charge le modèle français et part à l’assaut de la présidentielle",
-          "l": "https://www.latribune.fr/article/economie/37388530383110/a-la-ref-patrick-martin-charge-le-modele-francais-et-part-a-l-assaut-de-la-presidentielle",
-          "d": "2026-08-26"
-        },
-        {
-          "t": "À la REF, les patrons alertent sur une industrie française « moribonde »",
-          "l": "https://www.latribune.fr/article/entreprises-finance/industrie/21905464802089/a-la-ref-les-patrons-alertent-sur-une-industrie-francaise-moribonde",
-          "d": "2026-08-26"
-        },
-        {
-          "t": "AI Overviews : Google répond déjà par IA à plus d’une recherche sur deux en France",
-          "l": "https://www.latribune.fr/article/tech/intelligence-artificielle/51458032168777/ai-overviews-google-repond-deja-par-ia-a-plus-d-une-recherche-sur-deux-en-france",
-          "d": "2026-08-26"
+          "t": "Retraites, salaires, dette : les candidats à la présidentielle face au Medef pour leur premier grand débat",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/1415968824801514/retraites-salaires-dette-les-candidats-a-la-presidentielle-face-au-medef-pour-leur-premier-grand-debat",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -927,29 +1138,24 @@
       "nom_site": "Vie Publique|Actualités",
       "articles": [
         {
-          "t": "La Commission européenne approuve une aide de 6,1 milliards d'euros pour la défense de l'Ukraine",
-          "l": "https://www.vie-publique.fr/en-bref/304424-ukraine-une-aide-de-61-milliards-deuros-approuvee-par-la-commission?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-08-26"
+          "t": "L'élection du président de la République",
+          "l": "https://www.vie-publique.fr/video/304383-video-lelection-du-president-de-la-republique?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-08-27"
         },
         {
-          "t": "Principales, complémentaires, automatiques... Que sont les peines en droit pénal ?",
-          "l": "https://www.vie-publique.fr/questions-reponses/296120-les-peines-en-droit-penal-le-point-en-cinq-questions?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-08-26"
+          "t": "Jeunes actifs : entre satisfaction professionnelle et quête de mobilité",
+          "l": "https://www.vie-publique.fr/en-bref/304430-jeunes-actifs-etude-cereq-satisfaction-professionnelle-quete-de-mobilite?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-08-27"
         },
         {
-          "t": "La majorité numérique en 6 questions",
-          "l": "https://www.vie-publique.fr/questions-reponses/301805-la-majorite-numerique-en-6-questions?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-08-26"
+          "t": "Politique familiale : un rapport interroge l'efficacité des dépenses",
+          "l": "https://www.vie-publique.fr/en-bref/304375-politiques-familiales-un-rapport-interroge-lefficacite-des-depenses?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-08-27"
         },
         {
-          "t": "Coût de la rentrée scolaire : comment les ménages anticipent leurs dépenses",
-          "l": "https://www.vie-publique.fr/en-bref/304421-cout-de-la-rentree-scolaire-comment-les-menages-anticipent-les-depenses?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-08-26"
-        },
-        {
-          "t": "Acquisition du langage, raisonnement scientifique, concours général du collège, classe prépa-seconde… l'essentiel de la rentrée scolaire 2026",
-          "l": "https://www.vie-publique.fr/eclairage/304317-rentree-scolaire-2026-priorites-pedagogiques-concours-general-college?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-08-26"
+          "t": "Les taux de la dette française au plus haut depuis près de 20 ans",
+          "l": "https://www.vie-publique.fr/en-bref/304370-les-taux-de-la-dette-francaise-au-plus-haut-depuis-pres-de-vingt-ans?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -958,7 +1164,7 @@
       "articles": [
         {
           "t": "Etienne Pot nommé directeur général par intérim de Santé publique France",
-          "l": "https://www.santepubliquefrance.fr/index.php/les-actualites/etienne-pot-nomme-directeur-general-par-interim-de-sante-publique-france",
+          "l": "https://www.santepubliquefrance.fr/les-actualites/etienne-pot-nomme-directeur-general-par-interim-de-sante-publique-france",
           "d": "2026-08-24"
         }
       ]
@@ -967,9 +1173,44 @@
       "nom_site": "INSEE|Actualités nationales",
       "articles": [
         {
-          "t": "En juillet 2026, la baisse des créations d’entreprises s’atténue",
-          "l": "https://www.insee.fr/fr/statistiques/9037671",
-          "d": "2026-08-26"
+          "t": "Les ZFE renforcent le verdissement du parc automobile et contribuent au recul de ses émissions polluantes",
+          "l": "https://www.insee.fr/fr/statistiques/9031856",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "L’impact des zones à faibles émissions sur le parc automobile en France",
+          "l": "https://www.insee.fr/fr/statistiques/9039123",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "En juillet 2026, les prix des produits agricoles à la production rebondissent légèrement sur un an",
+          "l": "https://www.insee.fr/fr/statistiques/9038663",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Au deuxième trimestre 2026, les prix de production des services augmentent de 1,9 % sur un trimestre et de 2,1 % sur un an",
+          "l": "https://www.insee.fr/fr/statistiques/9039150",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Au deuxième trimestre 2026, les prix des travaux d’entretien-amélioration des bâtiments augmentent de 0,8 % sur un trimestre et de 2,1 % sur un an",
+          "l": "https://www.insee.fr/fr/statistiques/9038574",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "En juin 2026, le chiffre d’affaires dans l’industrie manufacturière poursuit sa baisse (-0,7 % après -1,7 %)",
+          "l": "https://www.insee.fr/fr/statistiques/9039183",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Comparateur de territoires",
+          "l": "https://www.insee.fr/fr/statistiques/1405599",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Tourisme en 2026",
+          "l": "https://www.insee.fr/fr/statistiques/8735173",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -977,9 +1218,9 @@
       "nom_site": "Eurostat|Actualités",
       "articles": [
         {
-          "t": "Top trade in goods partners in Q2 2026: US and China",
-          "l": "https://ec.europa.eu/eurostat/product?code=ddn-20260826-1",
-          "d": "2026-08-26"
+          "t": "Films, series & sports: top choice for paid subscriptions",
+          "l": "https://ec.europa.eu/eurostat/product?code=ddn-20260827-1",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -987,14 +1228,9 @@
       "nom_site": "Conseil de l'UE",
       "articles": [
         {
-          "t": "Déclaration à la presse du président Costa à l'issue de sa rencontre avec le Premier ministre letton, Andris Kulbergs",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/08/26/press-statement-by-president-costa-following-the-meeting-with-prime-minister-of-latvia-andris-kulbergs/",
-          "d": "2026-08-26"
-        },
-        {
-          "t": "Déclaration à la presse du président António Costa à l'issue de sa rencontre avec le président lituanien, Gitanas Nausėda",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/08/26/press-statement-by-president-costa-following-the-meeting-with-president-of-lithuania-gitanas-nauseda/",
-          "d": "2026-08-26"
+          "t": "Déclaration à la presse du président Costa à l'issue de sa rencontre avec le Premier ministre tchèque, Andrej Babiš",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/08/27/press-statement-by-president-costa-following-the-meeting-with-prime-minister-of-czech-republic-andrej-babis/",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -1012,14 +1248,24 @@
       "nom_site": "Pour la Science",
       "articles": [
         {
-          "t": "Intelligence collective : décide-t-on mieux à plusieurs ?",
-          "l": "https://www.pourlascience.fr/sd/psychologie/intelligence-collective-decide-t-on-mieux-a-plusieurs-29493.php",
-          "d": "2026-08-26"
+          "t": "[La semaine en bref] Comment identifier un psychopathe ?",
+          "l": "https://www.pourlascience.fr/sr/revue-de-presse/la-semaine-en-bref-comment-identifier-un-psychopathe-29516.php",
+          "d": "2026-08-27"
         },
         {
-          "t": "Une foule d’experts",
-          "l": "https://www.pourlascience.fr/sr/edito/une-foule-d-experts-29508.php",
-          "d": "2026-08-26"
+          "t": "Pour la Science n°587",
+          "l": "https://www.pourlascience.fr/sd/psychologie/pour-la-science-n587-29436.php",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "La physique du parkour : comment sauter avec précision et mieux amortir les réceptions",
+          "l": "https://www.pourlascience.fr/sr/idees-physique/la-physique-du-parkour-comment-sauter-avec-precision-et-mieux-amortir-les-receptions-29501.php",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "3I/Atlas : cette comète venue d’ailleurs serait deux fois plus vieille que le Système solaire",
+          "l": "https://www.pourlascience.fr/sd/astrophysique/3iatlas-cette-comete-venue-d-ailleurs-serait-deux-fois-plus-vieille-que-le-systeme-solaire-29431.php",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -1027,34 +1273,39 @@
       "nom_site": "Actu-Environnement",
       "articles": [
         {
-          "t": "Loi biodiversité de 2016 : dix ans après, la reconquête reste un voeu pieux",
-          "l": "https://www.actu-environnement.com/ae/news/bilan-loi-biodiversite-2016-reconquete-48437.php4#xtor=RSS-6",
-          "d": "2026-08-26"
+          "t": "Pesticides interdits : l'UE évalue le coût d'une limitation des importations",
+          "l": "https://www.actu-environnement.com/ae/news/pesticides-interdits-ue-importations-evaluation-48442.php4#xtor=RSS-6",
+          "d": "2026-08-27"
         },
         {
-          "t": "CEE : recentrage sur la rénovation d'ampleur et des bonifications pour le solaire thermique",
-          "l": "https://www.actu-environnement.com/ae/news/cee-renovation-ampleur-passoires-bonifications-solaire-48436.php4#xtor=RSS-6",
-          "d": "2026-08-26"
+          "t": "La végétalisation des cours d'école devient une mesure d'aménagement plébiscitée par les collectivités",
+          "l": "https://www.actu-environnement.com/ae/news/vegetalisation-cours-ecole-collectivites-ilots-fraicheur-48441.php4#xtor=RSS-6",
+          "d": "2026-08-27"
         },
         {
-          "t": "Tri des déchets d'activités économiques : l'analyseur IA Greyparrot à l'épreuve du terrain",
-          "l": "https://www.actu-environnement.com/ae/news/la-reconnaissance-visuelle-de-greyparrot-au-service-du-tri-des-dechets-activites-economiques-48435.php4#xtor=RSS-6",
-          "d": "2026-08-26"
+          "t": "Un projet d'arrêté relatif au repeuplement de l'anguille européenne est soumis à la consultation du public",
+          "l": "https://www.actu-environnement.com/ae/news/arrete-repeuplement-anguille-europeenne-consultation-48440.php4#xtor=RSS-6",
+          "d": "2026-08-27"
         },
         {
-          "t": "La pollution sonore accroît les difficultés émotionnelles et relationnelles chez les enfants",
-          "l": "https://www.actu-environnement.com/ae/news/pollution-sonore-bruit-routier-sante-mentale-enfants-48434.php4#xtor=RSS-6",
-          "d": "2026-08-26"
+          "t": "Lire notre dossier d'actu \"MaPrimeRénov'\"",
+          "l": "https://www.actu-environnement.com/dossier-actu/maprimerenov-accompagnateur-renov-2024-107#xtor=RSS-6",
+          "d": "2026-08-27"
         },
         {
-          "t": "Les pouvoirs publics veulent pénaliser certains emballages en plastique pour en réduire l'usage",
-          "l": "https://www.actu-environnement.com/ae/news/rep-emballages-ecomodulations-plastiques-48433.php4#xtor=RSS-6",
-          "d": "2026-08-26"
+          "t": "Réemploi : déploiement national de la consigne et hausse des soutiens financiers au menu de la REP emballages",
+          "l": "https://www.actu-environnement.com/ae/news/reemploi-emballages-deploiment-consigne-soutien-financier-rep-48438.php4#xtor=RSS-6",
+          "d": "2026-08-27"
         },
         {
-          "t": "La phrase du jour : \"Les rivières ont un message important à nous donner : nous ne pouvons pas attendre la prochaine sécheresse pour agir\"",
-          "l": "https://www.actu-environnement.com/dit-aujourdhui/1825.html#xtor=RSS-6",
-          "d": "2026-08-26"
+          "t": "MaPrimeRénov' : plusieurs travaux monogestes ne seront plus éligibles dès septembre",
+          "l": "https://www.actu-environnement.com/ae/news/maprimerenov-monogestes-suppression-septembre-2026-48439.php4#xtor=RSS-6",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Synthèse biodiversité : retour sur l'année 2025-2026",
+          "l": "https://www.actu-environnement.com/ae/news/biodiversite-synthese-juridique-2025-2026-48389.php4#xtor=RSS-6",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -1062,39 +1313,34 @@
       "nom_site": "LeMagIT",
       "articles": [
         {
+          "t": "GLM-5.3 Flash, Qwen-3.8 Flash Next : zAI et Alibaba cherchent à casser les prix de l’inférence IA",
+          "l": "https://www.lemagit.fr/actualites/366649466/GLM-53-Flash-Qwen-38-Flash-Next-zAI-et-Alibaba-cherchent-a-casser-les-prix-de-linference-IA",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Le Data Mesh, plus que jamais d’actualité à l’ère de l’IA agentique",
+          "l": "https://www.lemagit.fr/dessin/Le-Data-Mesh-plus-que-jamais-dactualite-a-lere-de-lIA-agentique",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Comment les RSSI peuvent se défendre contre la menace ClickFix",
+          "l": "https://www.lemagit.fr/conseil/Comment-les-RSSI-peuvent-se-defendre-contre-la-menace-ClickFix",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Le Data Mesh, plus que jamais d’actualité à l’ère de l’IA agentique",
+          "l": "https://www.lemagit.fr/conseil/Le-Data-Mesh-plus-que-jamais-dactualite-a-lere-de-lIA-agentique",
+          "d": "2026-08-27"
+        },
+        {
+          "t": "Combien de PME mettent la clé sous la porte après une cyberattaque ?",
+          "l": "https://www.lemagit.fr/conseil/Combien-de-PME-mettent-la-cle-sous-la-porte-apres-une-cyberattaque",
+          "d": "2026-08-27"
+        },
+        {
           "t": "Hot Chips 2026 : la mémoire HBF prépare son arrivée",
           "l": "https://www.lemagit.fr/actualites/366649714/Hot-Chips-2026-la-memoire-HBF-prepare-son-arrivee",
-          "d": "2026-08-26"
-        },
-        {
-          "t": "Crise cyber : pour une meilleure mobilisation autour des véritables priorités",
-          "l": "https://www.lemagit.fr/tribune/Crise-cyber-pour-une-meilleure-mobilisation-autour-des-veritables-priorites",
-          "d": "2026-08-26"
-        },
-        {
-          "t": "Base de données : Amazon acquiert DuckLabs, la société derrière DuckDB",
-          "l": "https://www.lemagit.fr/actualites/366649777/Base-de-donnees-Amazon-acquiert-DuckLabs-la-societe-derriere-DuckDB",
-          "d": "2026-08-26"
-        },
-        {
-          "t": "Une vulnérabilité Exchange à patcher d’urgence",
-          "l": "https://www.lemagit.fr/actualites/366649756/Une-vulnerabilite-Exchange-a-patcher-durgence",
-          "d": "2026-08-26"
-        },
-        {
-          "t": "Stockage : SanDisk lance des SSD pour remplacer les disques des petits NAS",
-          "l": "https://www.lemagit.fr/actualites/366649331/Stockage-SanDisk-lance-des-SSD-pour-remplacer-les-disques-des-petits-NAS",
-          "d": "2026-08-26"
-        },
-        {
-          "t": "Hot Chips 2026 : OpenAI présente son GPU Jalapeño",
-          "l": "https://www.lemagit.fr/actualites/366649675/Hot-Chips-2026-OpenAI-presente-son-GPU-Jalapeno",
-          "d": "2026-08-26"
-        },
-        {
-          "t": "Google Cloud décline Gemini Enterprise pour les services financiers et légaux",
-          "l": "https://www.lemagit.fr/actualites/366649755/Google-Cloud-decline-Gemini-Enterprise-pour-les-services-financiers-et-legaux",
-          "d": "2026-08-26"
+          "d": "2026-08-27"
         }
       ]
     },
@@ -1102,9 +1348,9 @@
       "nom_site": "Service public|Particuliers",
       "articles": [
         {
-          "t": "Bronchiolite du nourrisson : des traitements préventifs davantage remboursés par l’Assurance maladie",
-          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A19050?xtor=RSS-111",
-          "d": "2026-08-26"
+          "t": "MaPrimeRénov’ : certains projets de travaux bientôt exclus du dispositif",
+          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A18332?xtor=RSS-111",
+          "d": "2026-08-27"
         }
       ]
     },
@@ -1126,8 +1372,8 @@
       "articles": [
         {
           "t": "La lettre d'information de la COUR DES COMPTES",
-          "l": "https://www.ccomptes.fr/fr/publications/les-partenariats-entre-la-recherche-publique-et-les-entreprises",
-          "d": "2026-07-30",
+          "l": "https://www.ccomptes.fr/fr/publications/la-communication-financiere-de-letat-0",
+          "d": "2026-08-27",
           "type": "newsletter"
         }
       ]
