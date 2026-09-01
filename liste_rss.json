@@ -59,9 +59,14 @@
       "nom_site": "France Assureurs",
       "articles": [
         {
-          "t": "L’assurance en cas d’incendie",
-          "l": "https://www.franceassureurs.fr/actualites/assurance-en-cas-incendie/",
-          "d": "2026-07-30"
+          "t": "Nouvel épisode d’Assurément Margaux – Vacances : et si rien ne se passait comme prévu ?",
+          "l": "https://www.franceassureurs.fr/actualites/assurement-margaux-podcast-vacances/",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "“Assurément Margaux” : le podcast pratique de France Assureurs",
+          "l": "https://www.franceassureurs.fr/actualites/assurement-margaux-le-podcast-pratique-de-france-assureurs/",
+          "d": "2026-08-31"
         }
       ]
     },
@@ -221,8 +226,8 @@
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62025CJ0051: Arrêt de la Cour (première chambre) du 16 juillet 2026 — Betaal Garant Nederland CV contre De Nederlandsche Bank NV",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0051",
+          "t": "CELEX:62024CJ0096: Arrêt de la Cour (quatrième chambre) du 16 juillet 2026 — X.Y. e.a. contre Prokuratura Krajowa e.a",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0096",
           "d": "2026-07-16"
         },
         {
@@ -231,8 +236,8 @@
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62024CJ0096: Arrêt de la Cour (quatrième chambre) du 16 juillet 2026 — X.Y. e.a. contre Prokuratura Krajowa e.a",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0096",
+          "t": "CELEX:62025CJ0051: Arrêt de la Cour (première chambre) du 16 juillet 2026 — Betaal Garant Nederland CV contre De Nederlandsche Bank NV",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0051",
           "d": "2026-07-16"
         },
         {
@@ -246,13 +251,13 @@
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62025CJ0400: Arrêt de la Cour (troisième chambre) du 16 juillet 2026 — Gennady Nikolayevich Timchenko contre Conseil de l'Union européenne",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0400",
+          "t": "CELEX:62023CJ0209: Arrêt de la Cour (cinquième chambre) du 16 juillet 2026 — FT et RRC Sports GmbH contre Fédération internationale de football association (FIFA)",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0209",
           "d": "2026-07-16"
         },
         {
-          "t": "CELEX:62023CJ0209: Arrêt de la Cour (cinquième chambre) du 16 juillet 2026 — FT et RRC Sports GmbH contre Fédération internationale de football association (FIFA)",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0209",
+          "t": "CELEX:62025CJ0400: Arrêt de la Cour (troisième chambre) du 16 juillet 2026 — Gennady Nikolayevich Timchenko contre Conseil de l'Union européenne",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0400",
           "d": "2026-07-16"
         },
         {
@@ -435,9 +440,9 @@
       "nom_site": "CNIL|Actualités",
       "articles": [
         {
-          "t": "Sensibiliser les élèves de CM2 à la protection des données",
-          "l": "https://www.cnil.fr/fr/sensibiliser-les-eleves-de-cm2-la-protection-des-donnees",
-          "d": "2026-08-27"
+          "t": "Participez aux Rencontres Informatique & Libertés le 29 septembre 2026",
+          "l": "https://www.cnil.fr/fr/ril-2026",
+          "d": "2026-08-31"
         }
       ]
     },
@@ -445,9 +450,9 @@
       "nom_site": "DGCCRF",
       "articles": [
         {
-          "t": "Amende de 1 220 000 € prononcée à l’encontre de la société GE MEDICAL SYSTEMS (numéro de SIRET : 31501335900155)",
-          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-1-220-000-eur-prononcee-lencontre-de-la-societe-ge-medical-systems-numero-de-siret",
-          "d": "2026-08-28"
+          "t": "Amende de 230 000 € prononcée à l’encontre de la société SPBI (numéro de SIRET : 49137270200135)",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-de-230-000-eur-prononcee-lencontre-de-la-societe-spbi-numero-de-siret-49137270200135",
+          "d": "2026-08-31"
         }
       ]
     }
@@ -534,13 +539,13 @@
       "nom_site": "AN|Documents",
       "articles": [
         {
-          "t": "N° 3112 - Proposition de résolution de M. Philippe Latombe tendant à la création d'une commission d'enquête sur les failles de cybersécurité ayant permis des accès, fuites et extractions illégitimes des données confiées par les Français à l'État et aux organismes publics, afin d'en identifier les ca",
-          "l": "https://www.assemblee-nationale.fr/17/propositions/pion3112.asp",
+          "t": "N° 3113 - Proposition de résolution de M. Éric Michoux visant à inciter le Gouvernement à renforcer la prévention, l'information et l'indemnisation des victimes du retrait-gonflement des argiles",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion3113.asp",
           "d": "2026-08-28"
         },
         {
-          "t": "N° 3113 - Proposition de résolution de M. Éric Michoux visant à inciter le Gouvernement à renforcer la prévention, l'information et l'indemnisation des victimes du retrait-gonflement des argiles",
-          "l": "https://www.assemblee-nationale.fr/17/propositions/pion3113.asp",
+          "t": "N° 3112 - Proposition de résolution de M. Philippe Latombe tendant à la création d'une commission d'enquête sur les failles de cybersécurité ayant permis des accès, fuites et extractions illégitimes des données confiées par les Français à l'État et aux organismes publics, afin d'en identifier les ca",
+          "l": "https://www.assemblee-nationale.fr/17/propositions/pion3112.asp",
           "d": "2026-08-28"
         }
       ]
@@ -729,39 +734,49 @@
       "nom_site": "Commission Européenne|Actualités",
       "articles": [
         {
-          "t": "NEAFC measures to curb unsustainable Russian mackerel fishing enter into force",
-          "l": "https://oceans-and-fisheries.ec.europa.eu/news/neafc-measures-curb-unsustainable-russian-mackerel-fishing-enter-force-2026-08-28_en",
-          "d": "2026-08-28"
+          "t": "EU network against corruption: Workshop on the upcoming EU anti-corruption strategy",
+          "l": "https://commission.europa.eu/news-and-media/news/eu-network-against-corruption-workshop-upcoming-eu-anti-corruption-strategy-2026-08-31_en",
+          "d": "2026-08-31"
         },
         {
-          "t": "The EU agri-food sector consolidates its position globally in the first half of 2026",
-          "l": "https://agriculture.ec.europa.eu/media/news/eu-agri-food-sector-consolidates-its-position-globally-first-half-2026-2026-08-28_en",
-          "d": "2026-08-28"
+          "t": "Registrations are now open for the 5th EUDIS Defence Hackathon",
+          "l": "https://defence-industry-space.ec.europa.eu/registrations-are-now-open-5th-eudis-defence-hackathon-2026-08-31_en",
+          "d": "2026-08-31"
         },
         {
-          "t": "The EU allocates €2 million in humanitarian aid to support victims of flash flood in Nepal",
-          "l": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/eu-allocates-eur2-million-humanitarian-aid-support-victims-flash-flood-nepal-2026-08-28_en",
-          "d": "2026-08-28"
+          "t": "Results of 31-08-2026 auction (EU-Bonds)",
+          "l": "https://commission.europa.eu/news-and-media/news/results-31-08-2026-auction-eu-bonds-2026-08-31_en",
+          "d": "2026-08-31"
         },
         {
-          "t": "EU further extends support to Serbia as wildfires intensify",
-          "l": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/eu-further-extends-support-serbia-wildfires-intensify-2026-08-28_en",
-          "d": "2026-08-28"
+          "t": "Commissioners Kadis and Micallef participate in Arctic youth dialogue",
+          "l": "https://oceans-and-fisheries.ec.europa.eu/news/commissioners-kadis-and-micallef-participate-arctic-youth-dialogue-2026-08-31_en",
+          "d": "2026-08-31"
         },
         {
-          "t": "Commission approves €285 million Italian State aid for agricultural, fishing and aquaculture companies facing increased fuel and fertiliser prices",
-          "l": "https://oceans-and-fisheries.ec.europa.eu/news/commission-approves-eur285-million-italian-state-aid-agricultural-fishing-and-aquaculture-companies-2026-08-28_en",
-          "d": "2026-08-28"
+          "t": "Study on competitiveness of EU sustainable blue economy sector: focus on ocean observation technologies",
+          "l": "https://blue-economy-observatory.ec.europa.eu/news/study-competitiveness-eu-sustainable-blue-economy-sector-focus-ocean-observation-technologies-2026-08-31_en",
+          "d": "2026-08-31"
         },
         {
-          "t": "Study on the Impact of Space Weather on the EU published",
-          "l": "https://defence-industry-space.ec.europa.eu/study-impact-space-weather-eu-published-2026-08-27_en",
-          "d": "2026-08-28"
+          "t": "Webinar invitation : Energy labelling requirements for dealers - an overview of key issues and rules",
+          "l": "https://energy-efficient-products.ec.europa.eu/news/webinar-invitation-energy-labelling-requirements-dealers-overview-key-issues-and-rules-2026-08-31_en",
+          "d": "2026-08-31"
         },
         {
-          "t": "Jobseekers know your rights in the age of AI hiring",
-          "l": "https://eures.europa.eu/jobseekers-know-your-rights-age-ai-hiring-2026-08-27_en",
-          "d": "2026-08-28"
+          "t": "Commission sets type of evidence to be provided by importers to prove country of ‘melt and pour’ of steel products subject to EU Steel Regulation",
+          "l": "https://policy.trade.ec.europa.eu/news/commission-sets-type-evidence-be-provided-importers-prove-country-melt-and-pour-steel-products-2026-08-31_en",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "EIB approves over €9 billion in financing to boost European businesses and energy autonomy",
+          "l": "https://energy.ec.europa.eu/news/eib-approves-over-eur9-billion-financing-boost-european-businesses-and-energy-autonomy-2026-08-27_en",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Commission paves the way for Greece to implement its €4.77 billion Social Climate Plan to support vulnerable households and transport users in the clean transition",
+          "l": "https://employment-social-affairs.ec.europa.eu/news/commission-paves-way-greece-implement-its-eur477-billion-social-climate-plan-support-vulnerable-2026-08-27_en",
+          "d": "2026-08-31"
         }
       ]
     }
@@ -781,19 +796,19 @@
       "nom_site": "Ministère de l'Economie",
       "articles": [
         {
-          "t": "MaPrimeRénov' parcours par geste : la prime pour la rénovation énergétique",
-          "l": "https://www.economie.gouv.fr/particuliers/faire-des-economies-denergie/maprimerenov-parcours-par-geste-la-prime-pour-la-renovation-energetique",
-          "d": "2026-08-28"
+          "t": "Sélection des organismes certificateurs habilités à conduire des audits de second niveau de sites de production de biocarburants",
+          "l": "https://www.economie.gouv.fr/actualites/selection-des-organismes-certificateurs-habilites-conduire-des-audits-de-second-niveau-de-sites-de-production-de-biocarburants-0",
+          "d": "2026-08-31"
         },
         {
-          "t": "MaPrimeRénov’ rénovation d'ampleur : tout savoir sur cette aide",
-          "l": "https://www.economie.gouv.fr/particuliers/faire-des-economies-denergie/maprimerenov-renovation-dampleur-tout-savoir-sur-cette-aide",
-          "d": "2026-08-28"
+          "t": "Succession : qu’est-ce que la donation-partage ?",
+          "l": "https://www.economie.gouv.fr/particuliers/preparer-ma-retraite-et-ma-succession/succession-quest-ce-que-la-donation-partage",
+          "d": "2026-08-31"
         },
         {
-          "t": "Impôt : vos échéances du mois",
-          "l": "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mon-impot-sur-le-revenu/impot-vos-echeances-du-mois",
-          "d": "2026-08-28"
+          "t": "Ce qui change en septembre 2026",
+          "l": "https://www.economie.gouv.fr/actualites/ce-qui-change-en-septembre-2026",
+          "d": "2026-08-31"
         }
       ]
     },
@@ -801,14 +816,69 @@
       "nom_site": "Le Revenu",
       "articles": [
         {
-          "t": "Immobilier : à L’Isle-d’Abeau, les appartements flambent de près de 10 % en un an>",
-          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-a-l-isle-d-abeau-les-appartements-flamb",
-          "d": "2026-08-30"
+          "t": "Édouard Balladur, ancien Premier ministre de François Mitterrand, est mort à 97 ans>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/edouard-balladur-ancien-premier-ministre-de-franco",
+          "d": "2026-08-31"
         },
         {
-          "t": "Automobile : BYD enregistre son premier rebond du bénéfice net depuis plus d’un an>",
-          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/automobile-byd-enregistre-son-premier-rebond-du-be",
-          "d": "2026-08-30"
+          "t": "L’ancienne ministre du Travail et de l’Emploi, Astrid Panosyan-Bouvet, nouvelle DRH du groupe AXA>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/l-ancienne-ministre-du-travail-et-de-l-emploi-astr",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "ChatGPT, Reddit et Roblox, de gros poissons pour la Commission européenne>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/chatgpt-reddit-et-roblox-de-gros-poissons-pour-la-",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Stellantis : une série de changements à la tête de plusieurs marques européennes>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/stellantis-une-serie-de-changements-a-la-tete-de-p",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Assurance-vie et succession : que retenir>",
+          "l": "https://www.lerevenu.com/diversifier-placements/assurance-vie/assurance-vie-et-succession-que-retenir",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Pas de croissance pour l’économie française au deuxième trimestre 2026>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/pas-de-croissance-pour-l-economie-francaise-au-deu",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Lake Ontario : Trump refait la géographie, Google le suit>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/lake-ontario-trump-refait-la-geographie-google-le-",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "SK Hynix explore la piste nippone pour usine de puces mémoire>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/sk-hynix-explore-la-piste-nippone-pour-usine-de-pu",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "États-Unis : Sony Music et Warner Chappell attaquent Anthropic en justice>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/etats-unis-sony-music-et-warner-chappell-attaquent",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "MEAG finalise la vente de sa participation dans deux parcs éoliens au Texas>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/meag-finalise-la-vente-de-sa-participation-dans-de",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "La start-up agri-tech Breedr boucle une levée de fonds de 27 millions $>",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/la-start-up-agri-tech-breedr-boucle-une-levee-de-f",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Airbus : vers la cession des activités spatiales US>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/airbus-vers-la-cession-des-activites-spatiales-us",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "États unis : l’accord financier entre des accusatrices d’Epstein et Bank of America validé par la justice>",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/etats-unis-l-accord-financier-entre-des-accusatric",
+          "d": "2026-08-31"
         }
       ]
     },
@@ -816,24 +886,94 @@
       "nom_site": "L'Agefi",
       "articles": [
         {
-          "t": "Generali France rejoint le club des assurbanques",
-          "l": "https://www.agefi.fr/news/banque-assurance/generali-france-rejoint-le-club-des-assurbanques",
-          "d": "2026-08-29"
+          "t": "Les recruteurs en pincent pour les consolideurs",
+          "l": "https://www.agefi.fr/cash-risk/actualites/les-recruteurs-en-pincent-pour-les-consolideurs",
+          "d": "2026-08-31"
         },
         {
-          "t": "L'euro résiste face au dollar",
-          "l": "https://www.agefi.fr/cash-risk/actualites/leuro-resiste-face-au-dollar",
-          "d": "2026-08-29"
+          "t": "Pétrole et gaz naturel recommencent à coûter cher",
+          "l": "https://www.agefi.fr/news/economie-marches/petrole-et-gaz-naturel-recommencent-a-couter-cher",
+          "d": "2026-08-31"
         },
         {
-          "t": "L’AMF participe activement à la progression de la gouvernance française",
-          "l": "https://www.agefi.fr/news/entreprises/lamf-participe-activement-a-la-progression-de-la-gouvernance-francaise",
-          "d": "2026-08-29"
+          "t": "Le marché primaire euro corporate est affûté pour la rentrée",
+          "l": "https://www.agefi.fr/news/economie-marches/le-marche-primaire-euro-corporate-est-affute-pour-la-rentree",
+          "d": "2026-08-31"
         },
         {
-          "t": "Le président de la Fed penche pour une hausse de taux dès septembre",
-          "l": "https://www.agefi.fr/news/economie-marches/le-president-de-la-fed-penche-pour-une-hausse-de-taux-des-septembre",
-          "d": "2026-08-29"
+          "t": "L’inflation allemande ressort à 2,9% en août, tirée par l'énergie",
+          "l": "https://www.agefi.fr/news/economie-marches/linflation-allemande-ressort-a-2-9-en-aout-tiree-par-lenergie",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Shein lève 1,5 milliard d'euros lors de sa cotation à Hong Kong",
+          "l": "https://www.agefi.fr/news/entreprises/shein-leve-1-5-milliard-deuros-lors-de-sa-cotation-a-hong-kong",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Aon s'offre USI Insurance Services auprès de KKR pour 17 milliards de dollars",
+          "l": "https://www.agefi.fr/news/banque-assurance/aon-soffre-usi-insurance-services-aupres-de-kkr-pour-17-milliards-de-dollars",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "John Ternus relève le défi de s’imposer à la tête d’Apple",
+          "l": "https://www.agefi.fr/news/entreprises/john-ternus-releve-le-defi-de-simposer-a-la-tete-dapple",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Le ministère du Logement est victime à son tour d’une cyberattaque",
+          "l": "https://www.agefi.fr/patrimoine/immobilier/le-ministere-du-logement-est-victime-a-son-tour-dune-cyberattaque",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "La collecte nette en assurance vie atteint 41,3 milliards d'euros à fin juillet en cumulé",
+          "l": "https://www.agefi.fr/patrimoine/epargne/la-collecte-nette-en-assurance-vie-atteint-41-3-milliards-deuros-a-fin-juillet-en-cumule",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Rothschild & Co AM recrute un gérant de La Française AM",
+          "l": "https://www.agefi.fr/asset-management/actualites/rothschild-co-am-recrute-un-gerant-de-la-francaise-am",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Le secteur privé s'organise pour financer la transition",
+          "l": "https://www.agefi.fr/asset-management/actualites/le-secteur-prive-sorganise-pour-financer-la-transition",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "CVC classé premier en Europe dans le LBO",
+          "l": "https://www.agefi.fr/private-equity/actualites/cvc-classe-premier-en-europe-dans-le-lbo",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Madrid place la durabilité au centre de son projet de loi sur les centres de données",
+          "l": "https://www.agefi.fr/news/entreprises/madrid-place-la-durabilite-au-centre-de-son-projet-de-loi-sur-les-centres-de-donnees",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Les ETF mondiaux continuent de faire le plein, l’or et le bitcoin accélèrent en août",
+          "l": "https://www.agefi.fr/etf/les-etf-mondiaux-continuent-de-faire-le-plein-lor-et-le-bitcoin-accelerent-en-aout",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Swift accorde un répit aux banques sur les adresses structurées",
+          "l": "https://www.agefi.fr/news/tech-finance/swift-accorde-un-repit-aux-banques-sur-les-adresses-structurees",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Les taux de crédit immobilier restent stables avant une probable hausse dès la mi-septembre",
+          "l": "https://www.agefi.fr/patrimoine/immobilier/les-taux-de-credit-immobilier-restent-stables-avant-une-probable-remontee-des-la-mi-septembre",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Le Comité de stabilité financière craint les cyber-risques liés à l’IA",
+          "l": "https://www.agefi.fr/news/economie-marches/le-comite-de-stabilite-financiere-craint-les-cyber-risques-lies-a-lia",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Astrid Panosyan-Bouvet devient DRH d’Axa",
+          "l": "https://www.agefi.fr/news/banque-assurance/astrid-panosyan-bouvet-devient-drh-daxa",
+          "d": "2026-08-31"
         }
       ]
     },
@@ -859,15 +999,15 @@
       "type": "newsletter",
       "articles": [
         {
-          "t": "28/08/2026 : Prochaine émission d’OAT long terme de l'AFT : jeudi 03 septembre 2026",
-          "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/28-aout-2026-prochaine-emission-oat",
-          "d": "2026-08-28",
+          "t": "31/08/2026 : Émission de l'AFT : 6,989 milliards d’euros de BTF",
+          "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/31-aout-2026-emission-btf",
+          "d": "2026-08-31",
           "type": "newsletter"
         },
         {
-          "t": "28/08/2026 : Prochaine émission de BTF de l'AFT : lundi 31 août 2026",
-          "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/28-aout-2026-prochaine-emission-btf",
-          "d": "2026-08-28",
+          "t": "31/08/2026 : Renouvellement de la réserve de titres",
+          "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/31082026-renouvellement-reserve-titres",
+          "d": "2026-08-31",
           "type": "newsletter"
         }
       ]
@@ -888,44 +1028,64 @@
       "nom_site": "Courrier international",
       "articles": [
         {
-          "t": "“Dogue” ou “Vogue” : les chiens sauveront-ils la mode ?",
-          "l": "https://www.courrierinternational.com/stories/video-dogue-ou-vogue-les-chiens-sauveront-ils-la-mode_264036",
-          "d": "2026-08-30"
+          "t": "Quels sont les mystères de l’Univers que le télescope Nancy-Grace-Roman promet de percer ?",
+          "l": "https://www.courrierinternational.com/explainer/quels-sont-les-mysteres-de-l-univers-que-le-telescope-nancy-grace-roman-promet-de-percer_265230",
+          "d": "2026-08-31"
         },
         {
-          "t": "“Nous n’avions pas imaginé les Pyrénées aussi sauvages”",
-          "l": "https://www.courrierinternational.com/article/vu-d-allemagne-nous-n-avions-pas-imagine-les-pyrenees-aussi-sauvages_251297",
-          "d": "2026-08-30"
+          "t": "Lionel Messi prend sa retraite internationale, la presse argentine lui offre un “merci éternel”",
+          "l": "https://www.courrierinternational.com/article/football-lionel-messi-prend-sa-retraite-internationale-la-presse-argentine-lui-offre-un-merci-eternel_265290",
+          "d": "2026-08-31"
         },
         {
-          "t": "Face à un puits de pétrole inexploitable, l’amertume des habitants d’un village japonais",
-          "l": "https://www.courrierinternational.com/article/reportage-face-a-un-puits-de-petrole-inexploitable-l-amertume-des-habitants-d-un-village-japonais_247048",
-          "d": "2026-08-30"
+          "t": "Un bilan très lourd redouté en Algérie après les incendies dans la province de Jijel",
+          "l": "https://www.courrierinternational.com/article/climat-un-bilan-tres-lourd-redoute-en-algerie-apres-les-incendies-dans-la-province-de-jijel_265276",
+          "d": "2026-08-31"
         },
         {
-          "t": "Le carnaval de Notting Hill, fête de rue engagée devenue machine à cash, célèbre ses 60 ans",
-          "l": "https://www.courrierinternational.com/article/royaume-uni-le-carnaval-de-notting-hill-fete-de-rue-engagee-devenue-machine-a-cash-celebre-ses-60-ans_264379",
-          "d": "2026-08-30"
+          "t": "Au Népal, parmi ceux qui ont tout perdu : “Dieu a repris ce qu’il nous avait donné”",
+          "l": "https://www.courrierinternational.com/article/reportage-au-nepal-parmi-ceux-qui-ont-tout-perdu-dieu-a-repris-ce-qu-il-nous-avait-donne_265248",
+          "d": "2026-08-31"
         },
         {
-          "t": "En cédant à l’extrême droite, Benyamin Nétanyahou s’est fourvoyé",
-          "l": "https://www.courrierinternational.com/article/opinion-en-cedant-a-l-extreme-droite-benyamin-netanyahou-s-est-fourvoye_261165",
-          "d": "2026-08-30"
+          "t": "Le Japon ouvre la voie à la suppression de l’encadrement des heures supplémentaires",
+          "l": "https://www.courrierinternational.com/article/travail-le-japon-ouvre-la-voie-a-la-suppression-de-l-encadrement-des-heures-supplementaires_265243",
+          "d": "2026-08-31"
         },
         {
-          "t": "En Afrique du Sud, la grâce d’un frère et une sœur unis par la danse",
-          "l": "https://www.courrierinternational.com/diaporama/portfolio-en-afrique-du-sud-la-grace-d-un-frere-et-une-s-ur-unis-par-la-danse_247293",
-          "d": "2026-08-30"
+          "t": "“The Whisper Man”, un thriller oppressant porté par Robert De Niro et Adam Scott",
+          "l": "https://www.courrierinternational.com/article/sur-netflix-the-whisper-man-un-thriller-oppressant-porte-par-robert-de-niro-et-adam-scott_265226",
+          "d": "2026-08-31"
         },
         {
-          "t": "Coulée de boue : le gouvernement du Népal “vit dans le cloud, mais échoue sur le terrain”",
-          "l": "https://www.courrierinternational.com/article/opinion-coulee-de-boue-le-gouvernement-du-nepal-vit-dans-le-cloud-mais-echoue-sur-le-terrain_265125",
-          "d": "2026-08-30"
+          "t": "Crue subite dans le Grand Canyon : “La rivière est devenue un torrent noir”",
+          "l": "https://www.courrierinternational.com/article/etats-unis-crue-subite-dans-le-grand-canyon-la-riviere-est-devenue-un-torrent-noir_265264",
+          "d": "2026-08-31"
         },
         {
-          "t": "“Le monde à vélo”, notre sélection de voyages aux quatre coins du globe",
-          "l": "https://www.courrierinternational.com/article/serie-d-ete-le-monde-a-velo-notre-selection-de-voyages-aux-quatre-coins-du-globe_252123",
-          "d": "2026-08-30"
+          "t": "Au Niger, l’intervention décisive de la force russe Africa Corps en soutien au régime",
+          "l": "https://www.courrierinternational.com/article/sahel-au-niger-l-intervention-decisive-de-la-force-russe-africa-corps-en-soutien-au-regime_265268",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Pourquoi le Hezbollah devrait s’inspirer des forces kurdes en Syrie",
+          "l": "https://www.courrierinternational.com/article/moyen-orient-pourquoi-le-hezbollah-devrait-s-inspirer-des-forces-kurdes-en-syrie_265266",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Le gouvernement néerlandais présente ses excuses aux enfants enfermés sans motif",
+          "l": "https://www.courrierinternational.com/article/droits-humains-le-gouvernement-neerlandais-presente-ses-excuses-aux-enfants-enfermes-sans-motif_265258",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Aux États-Unis, les arrestations et expulsions d’immigrés atteignent des niveaux record",
+          "l": "https://www.courrierinternational.com/article/ice-aux-etats-unis-les-arrestations-et-expulsions-d-immigres-atteignent-des-niveaux-record_265265",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Un Poutine affaibli et dans l’ombre de Xi au sommet de l’OCS au Kirghizistan",
+          "l": "https://www.courrierinternational.com/article/geopolitique-un-poutine-affaibli-et-dans-l-ombre-de-xi-au-sommet-de-l-ocs-au-kirghizistan_265231",
+          "d": "2026-08-31"
         }
       ]
     },
@@ -933,64 +1093,119 @@
       "nom_site": "Challenges",
       "articles": [
         {
-          "t": "Ce qu’il faut retenir du week-end : les infos marquantes en France et dans le monde",
-          "l": "https://www.challenges.fr/monde/ce-quil-faut-retenir-du-week-end-les-infos-marquantes-en-france-et-dans-le-monde_645403",
-          "d": "2026-08-30"
+          "t": "L’ancien Premier ministre Édouard Balladur est mort à l’âge de 97 ans",
+          "l": "https://www.challenges.fr/politique/lancien-premier-ministre-edouard-balladur-est-mort-a-lage-de-97-ans_645446",
+          "d": "2026-08-31"
         },
         {
-          "t": "Bulle IA, marchés au plus haut… comment diversifier ses placements avec des actifs alternatifs",
-          "l": "https://www.challenges.fr/argent-et-placements/bulle-ia-marches-au-plus-haut-comment-diversifier-ses-placements-avec-des-actifs-alternatifs_645388",
-          "d": "2026-08-30"
+          "t": "« Faire baisser les prix pour le peuple américain » : Trump se démène pour tenter de désamorcer l’explosion des coûts du pétrole",
+          "l": "https://www.challenges.fr/politique/faire-baisser-les-prix-pour-le-peuple-americain-trump-se-demene-pour-tenter-de-desamorcer-lexplosion-des-couts-du-petrole_645445",
+          "d": "2026-08-31"
         },
         {
-          "t": "« On entre dans un nouveau monde plus incertain, où cela va secouer » : pourquoi Jackson Hole marque cette année un tournant monétaire",
-          "l": "https://www.challenges.fr/economie/on-entre-dans-un-nouveau-monde-plus-incertain-ou-cela-va-secouer-pourquoi-jackson-hole-marque-cette-annee-un-tournant-monetaire_645402",
-          "d": "2026-08-30"
+          "t": "De Djibouti à la Thaïlande : le parcours singulier d’Isabelle Albertalli, devenue l’éclaireuse climat de l’économie française",
+          "l": "https://www.challenges.fr/entreprise/green-economie/de-djibouti-a-la-thailande-le-parcours-singulier-disabelle-albertalli-devenue-leclaireuse-climat-de-leconomie-francaise_645431",
+          "d": "2026-08-31"
         },
         {
-          "t": "« Le système communiste a produit une génération très forte en mathématiques » : comment les pays d’Europe de l’Est sont devenus les champions de la cybersécurité",
-          "l": "https://www.challenges.fr/entreprise/tech-numerique/le-systeme-communiste-a-produit-une-generation-tres-forte-en-mathematiques-comment-les-pays-deurope-de-lest-sont-devenus-les-champions-de-la-cybersecurite_645401",
-          "d": "2026-08-30"
+          "t": "Nouveau DPE : certains logements pourraient prendre de la valeur en janvier 2027, faut-il attendre pour vendre ?",
+          "l": "https://www.challenges.fr/immobilier/nouveau-dpe-certains-logements-pourraient-prendre-de-la-valeur-en-janvier-2027-faut-il-attendre-pour-vendre_645427",
+          "d": "2026-08-31"
         },
         {
-          "t": "Levée de boucliers, recours et accusations d’atteintes à la vie privée… À New York, Mamdani se casse les dents sur sa nouvelle taxe des ultra-riches",
-          "l": "https://www.challenges.fr/monde/levee-de-boucliers-recours-et-accusations-datteintes-a-la-vie-privee-a-new-york-mamdani-se-casse-les-dents-sur-sa-nouvelle-taxe-des-ultra-riches_645400",
-          "d": "2026-08-30"
+          "t": "Loewe : le duo new-yorkais Jack McCollough et Lazaro Hernandez prend les rênes et insuffle un cool radical à la marque",
+          "l": "https://www.challenges.fr/luxe/loewe-le-duo-new-yorkais-jack-mccollough-et-lazaro-hernandez-prend-les-renes-et-insuffle-un-cool-radical-a-la-marque_645414",
+          "d": "2026-08-31"
         },
         {
-          "t": "Prix des carburants : TotalEnergies maintiendra son plafonnement « tant que le conflit durera »",
-          "l": "https://www.challenges.fr/entreprise/energie/prix-des-carburants-totalenergies-maintiendra-son-plafonnement-tant-que-le-conflit-durera_645399",
-          "d": "2026-08-30"
+          "t": "Grand chassé-croisé chez Stellantis : Arnaud Belloni vient prendre la tête de Fiat tandis que d’autres mouvements en interne rebattent les cartes",
+          "l": "https://www.challenges.fr/automobile/grand-chasse-croise-chez-stellantis-arnaud-belloni-devient-le-nouveau-patron-de-fiat-et-dautres-mouvements-en-interne-rebattent-les-cartes_645428",
+          "d": "2026-08-31"
         },
         {
-          "t": "« Il faut des séances réservées à l'usage de l'IA » : les patrons voient l'IA comme un outil pour apprendre",
-          "l": "https://www.challenges.fr/vie-de-lentreprise/club-entrepreneurs/il-faut-des-seances-reservees-a-lusage-de-lia-les-patrons-voient-lia-comme-un-outil-pour-apprendre_645398",
-          "d": "2026-08-30"
+          "t": "La vague populiste déferle dans les urnes… mais son « internationale » reste encore un fantasme. Voici pourquoi",
+          "l": "https://www.challenges.fr/monde/la-vague-populiste-deferle-dans-les-urnes-mais-son-internationale-reste-encore-un-fantasme-voici-pourquoi_645426",
+          "d": "2026-08-31"
         },
         {
-          "t": "« Je suis prêt » : crédité de 3,5 % des voix, Olivier Faure se lance dans la bataille présidentielle",
-          "l": "https://www.challenges.fr/politique/je-suis-pret-credite-de-35-des-voix-olivier-faure-se-lance-dans-la-bataille-presidentielle_645397",
-          "d": "2026-08-30"
+          "t": "Stratégie patrimoniale 2026 : où placer l'immobilier locatif ?",
+          "l": "https://www.challenges.fr/argent-et-placements/strategie-patrimoniale-2026-ou-placer-limmobilier-locatif_645425",
+          "d": "2026-08-31"
         },
         {
-          "t": "« Une histoire de poisson… » : Grosse désillusion à Bruxelles, l’Islande ne rejoindra pas l’Europe",
-          "l": "https://www.challenges.fr/politique/une-histoire-de-poisson-grosse-desillusion-a-bruxelles-lislande-ne-rejoindra-pas-leurope_645396",
-          "d": "2026-08-30"
+          "t": "Shein entre en Bourse à Hong Kong : pourquoi sa valorisation s’est effondrée de 100 à 27 milliards de dollars",
+          "l": "https://www.challenges.fr/entreprise/commerce-et-distribution/shein-entre-en-bourse-a-hong-kong-pourquoi-sa-valorisation-sest-effondree-de-100-a-27-milliards-de-dollars_645424",
+          "d": "2026-08-31"
         },
         {
-          "t": "« Aucun distributeur n’a affiché une telle domination depuis vingt ans » : comment Mercadona bouscule Carrefour en Espagne",
-          "l": "https://www.challenges.fr/entreprise/commerce-et-distribution/aucun-distributeur-na-affiche-une-telle-domination-depuis-vingt-ans-comment-mercadona-bouscule-carrefour-en-espagne_645389",
-          "d": "2026-08-30"
+          "t": "Geely E2 : derrière le spectacle de la Tour Eiffel, le pari du constructeur chinois sur le « premium accessible »",
+          "l": "https://www.challenges.fr/automobile/geely-e2-derriere-le-spectacle-de-la-tour-eiffel-le-pari-du-constructeur-chinois-sur-le-premium-accessible_645422",
+          "d": "2026-08-31"
         },
         {
-          "t": "« Le principe est le même que dans le Far West » : les « hackers éthiques », ces gentils pirates qui traquent les failles de cybersécurité",
-          "l": "https://www.challenges.fr/la-verticale-cyber/le-principe-est-le-meme-que-dans-le-far-west-les-hackers-ethiques-ces-gentils-pirates-qui-traquent-les-failles-de-cybersecurite_645386",
-          "d": "2026-08-30"
+          "t": "Un contrat à 4,3 milliards d’euros : Macron attendu en Suède pour officialiser la vente de quatre frégates du français Naval Group",
+          "l": "https://www.challenges.fr/entreprise/defense/un-contrat-a-43-milliards-deuros-macron-attendu-en-suede-pour-officialiser-la-vente-de-quatre-fregates-du-francais-naval-group_645419",
+          "d": "2026-08-31"
         },
         {
-          "t": "Son expertise l’a conduit à la tête du CAE : Xavier Jaravel, cet économiste qui entend peser sur le débat public",
-          "l": "https://www.challenges.fr/economie/son-expertise-la-conduit-a-la-tete-du-cae-xavier-jaravel-cet-economiste-qui-entend-peser-sur-le-debat-public_645382",
-          "d": "2026-08-30"
+          "t": "À quelques mois de la présidentielle, chaque économie fera un mécontent : le casse-tête de Lecornu pour trouver des milliards d’économies dans le budget",
+          "l": "https://www.challenges.fr/economie/a-quelques-mois-de-la-presidentielle-chaque-economie-fera-un-mecontent-le-casse-tete-de-lecornu-pour-trouver-des-milliards-deconomies-dans-le-budget_645418",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Va-t-on manquer de gaz cet hiver ? Les réserves sont au plus bas mais les factures, elles, risquent de flamber",
+          "l": "https://www.challenges.fr/entreprise/energie/va-t-on-manquer-de-gaz-cet-hiver-les-reserves-sont-au-plus-bas-mais-les-factures-elles-risquent-de-flamber_645417",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "C’est la banque derrière La Bataille de Gaulle et Un p’tit truc en plus : pourquoi BNP Paribas finance un film sur deux au cinéma en France",
+          "l": "https://www.challenges.fr/entreprise/banque-et-assurance/cest-la-banque-derriere-la-bataille-de-gaulle-et-un-ptit-truc-en-plus-pourquoi-bnp-paribas-finance-un-film-sur-deux-au-cinema-en-france_645415",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Alerte style : le panier s’impose comme le it-bag incontournable de l’été urbain",
+          "l": "https://www.challenges.fr/luxe/alerte-style-le-panier-simpose-comme-le-it-bag-incontournable-de-lete-urbain_645413",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Elle rêvait de devenir astronaute avant de plonger dans l’entrepreneuriat : comment Eloa Guillotin s’est lancée dans le pari fou de décarboner l’aviation",
+          "l": "https://www.challenges.fr/entreprise/aeronautique/elle-revait-de-devenir-astronaute-avant-de-plonger-dans-lentrepreneuriat-comment-eloa-guillotin-sest-lancee-dans-le-pari-fou-de-decarboner-laviation_645412",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Une France de l’IA à deux vitesses se dessine : pourquoi son adoption réelle avance de façon inégale chez les salariés",
+          "l": "https://www.challenges.fr/economie/ia-vers-une-france-a-deux-vitesses_645411",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Moyen-Orient : les Etats-Unis et l’Iran reprennent les frappes après un mois d’accalmie, le pétrole grimpe",
+          "l": "https://www.challenges.fr/monde/moyen-orient-les-etats-unis-et-liran-reprennent-les-frappes-apres-un-mois-daccalmie-le-petrole-grimpe_645410",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Face à une concurrence féroce, la télé doit se réinventer : pourquoi RMC mise sur une « stratégie d’hyperdistribution » avec sa nouvelle plateforme",
+          "l": "https://www.challenges.fr/entreprise/medias/face-a-une-concurrence-feroce-la-tele-doit-se-reinventer-pourquoi-rmc-mise-sur-une-strategie-dhyperdistribution-avec-sa-nouvelle-plateforme_645368",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Vente immobilière : pourquoi c’est « le moment pour en retirer le meilleur prix », nos conseils avant la chute inévitable du marché",
+          "l": "https://www.challenges.fr/immobilier/vente-immobiliere-pourquoi-cest-le-moment-pour-en-retirer-le-meilleur-prix-nos-conseils-avant-la-chute-inevitable-du-marche_645409",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Jusqu'à 190 000 € par an : les 10 métiers les plus recherchés de la rentrée, ces « opportunités en or » pour changer de job",
+          "l": "https://www.challenges.fr/economie/jusqua-190-000-eu-par-an-les-10-metiers-les-plus-recherches-de-la-rentree-ces-opportunites-en-or-pour-changer-de-job_645383",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "« Si jamais nous sommes la cible d’un hacker, que va-t-il se passer ? » : après des fuites de données, les entreprises s’inquiètent des failles de l’État",
+          "l": "https://www.challenges.fr/la-verticale-cyber/si-jamais-nous-sommes-la-cible-dun-hacker-que-va-t-il-se-passer-apres-des-fuites-de-donnees-les-entreprises-sinquietent-des-failles-de-letat_645373",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Attention à ne pas tomber dans le piège du candidat modéré unique pour tenter d’éviter le duel Le Pen-Mélenchon en 2027",
+          "l": "https://www.challenges.fr/politique/attention-a-ne-pas-tomber-dans-le-piege-du-candidat-modere-unique-pour-tenter-deviter-le-duel-le-pen-melenchon-en-2027_645384",
+          "d": "2026-08-31"
         }
       ]
     },
@@ -998,79 +1213,54 @@
       "nom_site": "La Tribune",
       "articles": [
         {
-          "t": "Le retour du réel. La chronique de Philippe Vandel",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/culture-lifestyle/23715116585384/le-retour-du-reel-la-chronique-de-philippe-vandel",
-          "d": "2026-08-30"
+          "t": "Mort d'Edouard Balladur, le sultan de la droite française",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/33205040240371/mort-dedouard-balladur-le-sultan-de-la-droite-francaise",
+          "d": "2026-08-31"
         },
         {
-          "t": "La Nasa lance Roman, le télescope qui doit dresser un nouvel atlas de l’Univers",
-          "l": "https://www.latribune.fr/article/defense-aerospatiale/spatial/2531928723447514/la-nasa-lance-roman-le-telescope-qui-doit-dresser-un-nouvel-atlas-de-l-univers",
-          "d": "2026-08-30"
+          "t": "Aéronautique : Viraj Aero lève 4,5 millions d’euros pour décarboner l'aviation",
+          "l": "https://www.latribune.fr/article/defense-aerospatiale/aeronautique-defense/92361107679309/aeronautique-viraj-aero-leve-4-5-millions-d-euros-pour-decarboner-laviation",
+          "d": "2026-08-31"
         },
         {
-          "t": "Ligue 1 : Le Mans, l’étonnant revenant",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/sports/2472335915824714/ligue-1-le-mans-l-etonnant-revenant",
-          "d": "2026-08-30"
+          "t": "Bouclier d’Achille : Israël exporte en Grèce son système de défense antiaérienne",
+          "l": "https://air-cosmos.latribune.fr/article/defense/79664521485812/bouclier-d-achille-israel-exporte-en-grece-son-systeme-de-defense-antiaerienne",
+          "d": "2026-08-31"
         },
         {
-          "t": "Cyberattaque : les pirates du fisc revendiquent le vol de millions de données immobilières",
-          "l": "https://www.latribune.fr/article/tech/2441071005337614/cyberattaque-les-pirates-du-fisc-revendiquent-le-vol-de-millions-de-donnees-immobilieres",
-          "d": "2026-08-30"
+          "t": "Le premier train à batteries électriques est sur les rails en Occitanie",
+          "l": "https://www.latribune.fr/article/transports/transport-logistique/45812750298062/le-premier-train-a-batteries-electriques-est-sur-les-rails-en-occitanie",
+          "d": "2026-08-31"
         },
         {
-          "t": "Tennis : faut-il encore croire en Giovanni Mpetshi Perricard ?",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/sports/2386424448511514/tennis-faut-il-encore-croire-en-giovanni-mpetshi-perricard",
-          "d": "2026-08-30"
+          "t": "Supercalculateur : Bull remporte un contrat historique de 388 millions d’euros en Finlande",
+          "l": "https://www.latribune.fr/article/tech/45611231032783/supercalculateur-bull-remporte-un-contrat-historique-de-388-millions-d-euros-en-finlande",
+          "d": "2026-08-31"
         },
         {
-          "t": "La mer, le sable et une base militaire britannique : à Chypre, la vue d’un hôtel de luxe inquiète Londres",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/15054100558835/la-mer-le-sable-et-une-base-militaire-britannique-a-chypre-la-vue-d-un-hotel-de-luxe-inquiete-londres",
-          "d": "2026-08-30"
+          "t": "Washington veut enrôler le G20 dans sa guerre financière contre l’Iran",
+          "l": "https://www.latribune.fr/article/economie/international/94024621251228/washington-veut-enroler-le-g20-dans-sa-guerre-financiere-contre-l-iran",
+          "d": "2026-08-31"
         },
         {
-          "t": "Présidentielle 2027 : Olivier Faure candidat à la primaire de la gauche",
-          "l": "https://www.latribune.fr/article/economie/29410693142792/presidentielle-2027-olivier-faure-candidat-a-la-primaire-de-la-gauche",
-          "d": "2026-08-30"
+          "t": "Paris Air Forum 2026 : Montée en cadences, les fournisseurs en première ligne",
+          "l": "https://air-cosmos.latribune.fr/article/strategies/35226082198801/paris-air-forum-2026-montee-en-cadences-les-fournisseurs-en-premiere-ligne",
+          "d": "2026-08-31"
         },
         {
-          "t": "G20, industrie chinoise et inflation allemande : l’agenda éco de lundi",
-          "l": "https://www.latribune.fr/article/economie/2298469406050214/g20-industrie-chinoise-et-inflation-allemande-l-agenda-eco-de-lundi",
-          "d": "2026-08-30"
+          "t": "« Bouclier d'Achille » : Israël va fournir un dispositif complet de défense aérienne à la Grèce pour trois milliards d'euros",
+          "l": "https://www.latribune.fr/article/defense-aerospatiale/defense/5171562053786/bouclier-dachille-israel-va-fournir-un-dispositif-complet-de-defense-aerienne-a-la-grece-pour-trois-milliards-deuros",
+          "d": "2026-08-31"
         },
         {
-          "t": "L’Islande dit « non » à une reprise des négociations d’adhésion à l’UE",
-          "l": "https://www.latribune.fr/article/economie/international/10464944421804/l-islande-dit-non-a-une-reprise-des-negociations-d-adhesion-a-l-ue",
-          "d": "2026-08-30"
+          "t": "L’UE impose le DSA à ChatGPT : un précédent pour l’IA, un test pour les champions européens",
+          "l": "https://www.latribune.fr/article/tech/intelligence-artificielle/31120082188487/l-ue-impose-le-dsa-a-chatgpt-un-precedent-pour-l-ia-un-test-pour-les-champions-europeens",
+          "d": "2026-08-31"
         },
         {
-          "t": "Facturation électronique : la réforme débute mardi malgré le piratage du fisc",
-          "l": "https://www.latribune.fr/article/economie/32927290241725/facturation-electronique-la-reforme-debute-mardi-malgre-le-piratage-du-fisc",
-          "d": "2026-08-30"
-        },
-        {
-          "t": "Suisse : au moins un mort et 5 blessés après une fusillade en marge d'une rave party à Aarau",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/26263991285892/suisse-au-moins-un-mort-et-5-blesses-apres-une-fusillade-dans-une-rave-party-a-aarau",
-          "d": "2026-08-30"
-        },
-        {
-          "t": "OPINION. « L’heure du combat est revenue », par Guillaume Trichard, Grand Maître du Grand Orient de France",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/53878538823991/opinion-l-heure-du-combat-est-revenue-par-guillaume-trichard-grand-maitre-du-grand-orient-de-france",
-          "d": "2026-08-30"
-        },
-        {
-          "t": "OPINION. Michaël Delafosse, maire (PS) et président de Montpellier Méditerranée Métropole : « À la primaire de la gauche, je soutiens Raphaël Glucksmann »",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/5158938475706/opinion-michael-delafosse-maire-ps-et-president-de-montpellier-mediterranee-metropole-a-la-primaire-de-la-gauche-je-soutiens-raphael-glucksmann",
-          "d": "2026-08-30"
-        },
-        {
-          "t": "Léa situation. La chronique de Pauline Delassus",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/1914630759650614/lea-situation-la-chronique-de-pauline-delassus",
-          "d": "2026-08-30"
-        },
-        {
-          "t": "OPINION. « Un peuple libre ne désigne pas de nuisibles », par Thierry Breton, ancien commissaire européen",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/1910390130731614/opinion-un-peuple-libre-ne-designe-pas-de-nuisibles-par-thierry-breton-ancien-commissaire-europeen",
-          "d": "2026-08-30"
+          "t": "Apple choisit John Ternus pour faire entrer l’iPhone dans l'âge de l’IA",
+          "l": "https://www.latribune.fr/article/tech/informatique/26570741570938/apple-choisit-john-ternus-pour-faire-entrer-l-iphone-dans-lage-de-l-ia",
+          "d": "2026-08-31"
         }
       ]
     },
@@ -1078,9 +1268,9 @@
       "nom_site": "Vie Publique|Actualités",
       "articles": [
         {
-          "t": "Cour internationale de justice, Cour pénale internationale... comment fonctionne la justice internationale ?",
-          "l": "https://www.vie-publique.fr/questions-reponses/285794-la-justice-internationale-competences-et-fonctionnement?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-08-29"
+          "t": "L'Islande vote contre la reprise des négociations d'adhésion à l'UE",
+          "l": "https://www.vie-publique.fr/en-bref/304458-lislande-vote-contre-la-reprise-des-negociations-dadhesion-lue?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-08-31"
         }
       ]
     },
@@ -1098,114 +1288,9 @@
       "nom_site": "INSEE|Actualités nationales",
       "articles": [
         {
-          "t": "Finances publiques – tableau de bord de l’économie française",
-          "l": "https://www.insee.fr/fr/statistiques/5368054",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Environnement – tableau de bord de l’économie française",
-          "l": "https://www.insee.fr/fr/statistiques/5368201",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Dépenses et recettes publiques",
-          "l": "https://www.insee.fr/fr/statistiques/2381414",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Taux de prélèvements obligatoires rapportés au produit intérieur brut",
-          "l": "https://www.insee.fr/fr/statistiques/2381412",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Dette des administrations publiques au sens de Maastricht par sous-secteur",
-          "l": "https://www.insee.fr/fr/statistiques/2830192",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Capacité ou besoin de financement des administrations publiques au sens de Maastricht par sous-secteur",
-          "l": "https://www.insee.fr/fr/statistiques/2381402",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Impôts",
-          "l": "https://www.insee.fr/fr/statistiques/2381408",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Dépenses par administration publique",
-          "l": "https://www.insee.fr/fr/statistiques/2381404",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Évolution du produit intérieur brut et de ses composantes",
-          "l": "https://www.insee.fr/fr/statistiques/2830547",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Évolution du revenu disponible brut et du pouvoir d’achat",
-          "l": "https://www.insee.fr/fr/statistiques/2830166",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Dette des administrations publiques au sens de Maastricht",
-          "l": "https://www.insee.fr/fr/statistiques/2830301",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Exportations",
-          "l": "https://www.insee.fr/fr/statistiques/2830174",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Importations",
-          "l": "https://www.insee.fr/fr/statistiques/2830182",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Dépenses et recettes des administrations publiques en 2025",
-          "l": "https://www.insee.fr/fr/statistiques/8988845",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Dette et déficit publics au sens de Maastricht en 2025",
-          "l": "https://www.insee.fr/fr/statistiques/8988843",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Emploi – population active – tableau de bord de l’économie française",
-          "l": "https://www.insee.fr/fr/statistiques/5368153",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Emploi salarié par secteur",
-          "l": "https://www.insee.fr/fr/statistiques/2496914",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Comptes nationaux trimestriels au deuxième trimestre 2026",
-          "l": "https://www.insee.fr/fr/statistiques/9007859",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "En août 2026, les prix à la consommation augmenteraient de 2,4 % sur un an",
-          "l": "https://www.insee.fr/fr/statistiques/9039020",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "La consommation des ménages en biens augmente de nouveau en juillet 2026 (+0,5 % après +0,6 %)",
-          "l": "https://www.insee.fr/fr/statistiques/9039180",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Au deuxième trimestre 2026, l’emploi salarié est quasi stable (-0,1 %)",
-          "l": "https://www.insee.fr/fr/statistiques/9039152",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Au deuxième trimestre 2026, le PIB est stable (+0,0 % après -0,2 %) et le pouvoir d’achat des ménages recule nettement (-0,6 % par unité de consommation)",
-          "l": "https://www.insee.fr/fr/statistiques/9039499",
-          "d": "2026-08-28"
+          "t": "Diplôme des sortants d’études initiales selon le sexe et l’origine sociale",
+          "l": "https://www.insee.fr/fr/statistiques/2850737",
+          "d": "2026-08-31"
         }
       ]
     },
@@ -1213,9 +1298,9 @@
       "nom_site": "Eurostat|Actualités",
       "articles": [
         {
-          "t": "Commercial flights in the EU reach 6.9 million in 2025",
-          "l": "https://ec.europa.eu/eurostat/product?code=ddn-20260828-1",
-          "d": "2026-08-28"
+          "t": "EU produced 34.4 billion litres of beer in 2025",
+          "l": "https://ec.europa.eu/eurostat/product?code=ddn-20260831-1",
+          "d": "2026-08-31"
         }
       ]
     },
@@ -1228,7 +1313,7 @@
           "d": "2026-08-28"
         },
         {
-          "t": "Weekly schedule of President António Costa",
+          "t": "Programme hebdomadaire du président António Costa",
           "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/08/28/weekly-schedule-of-president-antonio-costa/",
           "d": "2026-08-28"
         },
@@ -1258,9 +1343,9 @@
       "nom_site": "Pour la Science",
       "articles": [
         {
-          "t": "« Je n’écris plus, je relis du code généré par l’IA » : le quotidien d’une dév en 2026",
-          "l": "https://www.pourlascience.fr/sr/redresseur-de-code/je-n-ecris-plus-je-relis-du-code-genere-par-l-ia-le-quotidien-d-une-dev-en-2026-29504.php",
-          "d": "2026-08-30"
+          "t": "Enseignement des mathématiques : pourquoi les élèves français décrochent alors que la France excelle au plus haut niveau",
+          "l": "https://www.pourlascience.fr/sd/education/enseignement-des-mathematiques-pourquoi-les-eleves-francais-decrochent-alors-que-la-france-excelle-au-plus-haut-niveau-29499.php",
+          "d": "2026-08-31"
         }
       ]
     },
@@ -1268,39 +1353,24 @@
       "nom_site": "Actu-Environnement",
       "articles": [
         {
-          "t": "PFAS, pesticides dans l'eau : la prévention doit intégrer la facture de la décontamination",
-          "l": "https://www.actu-environnement.com/ae/news/plan-actions-interministeriel-financement-depollution-eaux-recommandations-igedd-igas-igf-cgaaer-48448.php4#xtor=RSS-6",
-          "d": "2026-08-28"
+          "t": "Régime unique de la haie : le décret controversé est publié au Journal officiel",
+          "l": "https://www.actu-environnement.com/ae/news/decret-regime-unique-haie-publication-48450.php4#xtor=RSS-6",
+          "d": "2026-08-31"
         },
         {
-          "t": "Le Gouvernement promet d'accélérer la reconstruction de Mayotte",
-          "l": "https://www.actu-environnement.com/ae/news/reconstruction-mayotte-chido-eau-gouvernement-48447.php4#xtor=RSS-6",
-          "d": "2026-08-28"
+          "t": "Une COP qui remet la lutte contre la désertification à plus tard",
+          "l": "https://www.actu-environnement.com/ae/news/cop17-cnulcd-desertification-secheresse-oulan-bator-48451.php4#xtor=RSS-6",
+          "d": "2026-08-31"
         },
         {
-          "t": "REP emballages : retour des contrats de performance entre collectivités et éco-organismes",
-          "l": "https://www.actu-environnement.com/ae/news/rep-emballages-contrat-performance-collectivite-eco-organisme-48446.php4#xtor=RSS-6",
-          "d": "2026-08-28"
+          "t": "Retrait-gonflement des argiles : de nouvelles règles de qualification des experts d'assurance",
+          "l": "https://www.actu-environnement.com/ae/news/retrait-gonflement-argiles-qualification-experts-assurance-48449.php4#xtor=RSS-6",
+          "d": "2026-08-31"
         },
         {
-          "t": "Lire notre dossier d'actu \"Feux de forêt : la France entre dans l'ère des mégafeux\"",
-          "l": "https://www.actu-environnement.com/dossier-actu/feux-foret-changement-climatique-133#xtor=RSS-6",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Trafics d'espèces sauvages : le Gouvernement annonce un renforcement des actions de contrôle",
-          "l": "https://www.actu-environnement.com/ae/news/trafics-especes-sauvages-controles-cites-48445.php4#xtor=RSS-6",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "« C'est le cumul incendie/sécheresse qui est le plus problématique pour la faune sauvage »",
-          "l": "https://www.actu-environnement.com/ae/news/faune-sauvage-incendie-secheresse-impacts-48443.php4#xtor=RSS-6",
-          "d": "2026-08-28"
-        },
-        {
-          "t": "Restrictions des usages de l'eau&#8239;: le juge de l'urgence niçois rejette la demande de suspension",
-          "l": "https://www.actu-environnement.com/ae/news/secheresse-alpes-maritimes-juge-referes-restrictions-eau-48444.php4#xtor=RSS-6",
-          "d": "2026-08-28"
+          "t": "Le chiffre du jour : Près de 500 millions d’euros",
+          "l": "https://www.actu-environnement.com/dit-aujourdhui/1826.html#xtor=RSS-6",
+          "d": "2026-08-31"
         }
       ]
     },
@@ -1308,9 +1378,29 @@
       "nom_site": "LeMagIT",
       "articles": [
         {
-          "t": "Résultats financiers : comment Nvidia bat tous les records",
-          "l": "https://www.lemagit.fr/dessin/Resultats-financiers-comment-Nvidia-bat-tous-les-records",
-          "d": "2026-08-30"
+          "t": "Tous les grands modèles d’IA véhiculent des stéréotypes « préjudiciables » (étude)",
+          "l": "https://www.lemagit.fr/actualites/366649799/Tous-les-grands-modeles-dIA-vehiculent-des-stereotypes-prejudiciables-etude",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "L'intelligence collective des agents IA",
+          "l": "https://www.lemagit.fr/actualites/366649623/Lintelligence-collective-des-agents-IA",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Metabase : chronique d’une vulnérabilité aux multiples fuites de données",
+          "l": "https://www.lemagit.fr/actualites/366649933/Metabase-chronique-dune-vulnerabilite-aux-multiples-fuites-de-donnees",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "Souveraineté : posséder les infrastructures ne suffit pas, il faut savoir les gouverner",
+          "l": "https://www.lemagit.fr/tribune/Souverainete-posseder-les-infrastructures-ne-suffit-pas-il-faut-savoir-les-gouverner",
+          "d": "2026-08-31"
+        },
+        {
+          "t": "La menace d’un procès antitrust pèserait sur Nvidia",
+          "l": "https://www.lemagit.fr/actualites/366649300/La-menace-dun-proces-antitrust-peserait-sur-Nvidia",
+          "d": "2026-08-31"
         }
       ]
     },
