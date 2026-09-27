@@ -56,7 +56,7 @@
         <section id="panel-decisions" class="ce-panel" role="tabpanel" hidden><div class="ce-status">Chargement des décisions…</div></section>
     </main>
 
-    <script src="rss-reader.js?v=20260719-2"></script>
+    <script src="rss-reader.js?v=20260906-1"></script>
     <script>
         const etatCharge = { analyses: false, rss: false, decisions: false };
         let triRSS = 'date';
@@ -108,6 +108,7 @@
                         <p class="ce-meta">${echapper(decision.juridiction)}${decision.formation ? ` · ${echapper(decision.formation)}` : ''}</p>
                         ${decision.publication ? `<p><strong>Publication :</strong> ${echapper(decision.publication)}</p>` : ''}
                         ${decision.ecli ? `<p class="ce-meta">${echapper(decision.ecli)}</p>` : ''}
+                        ${decision.resume ? `<p>${echapper(decision.resume)}</p>` : ''}
                         <a class="ce-link" href="${echapper(decision.url)}" target="_blank" rel="noopener noreferrer">Consulter sur l'open data →</a>
                     </article>`).join('')}</div>`;
             } catch (erreur) {

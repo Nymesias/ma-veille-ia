@@ -156,6 +156,7 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date', sourc
                 ${estNewsletter ? '<span class="badge-newsletter">Newsletter</span>' : ''}
                 <h3>${titre}</h3>
                 <p class="date-rss">📅 ${dateAffichage}</p> 
+                ${art.r ? `<p>${echapperHtml(art.r)}</p>` : ''}
             </article>`;
     });
     sourcesSansArticles.forEach(source => {
@@ -186,7 +187,7 @@ async function chargerRecapDuJour(idContainer) {
             const text = await mdRes.text();
             container.innerHTML = `
                 <div class="post-md-index">
-                    <h2 style="color: #2c3e50;">Analyse IA du ${syntheseInfo.date_affichage}</h2>
+                    <h2 style="color: #2c3e50;">Sommaire du ${syntheseInfo.date_affichage}</h2>
                     <div class="markdown-body">${marked.parse(text)}</div>
                 </div>`;
         } else {

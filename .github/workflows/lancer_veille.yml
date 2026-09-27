@@ -37,8 +37,8 @@ jobs:
       # --- 3. LE SCRIPT (Génère MD + Envoie Mail) ---
       - name: Lancer la veille
         env:
-          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
-          MISTRAL_MODEL: ${{ vars.MISTRAL_MODEL || 'mistral-medium-3-5' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}

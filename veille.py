@@ -20,17 +20,19 @@ import requests
 from bs4 import BeautifulSoup
 
 
-MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
-MISTRAL_KEY = os.getenv("MISTRAL_API_KEY")
-MISTRAL_MODEL = os.getenv("MISTRAL_MODEL", "mistral-small-latest")
-MISTRAL_DAILY_TOKEN_BUDGET = int(os.getenv("MISTRAL_DAILY_TOKEN_BUDGET", "50000"))
-MISTRAL_MAX_INPUT_TOKENS = int(os.getenv("MISTRAL_MAX_INPUT_TOKENS", "6000"))
-MISTRAL_MAX_OUTPUT_TOKENS = int(os.getenv("MISTRAL_MAX_OUTPUT_TOKENS", "900"))
-MISTRAL_MAX_ARTICLES = int(os.getenv("MISTRAL_MAX_ARTICLES", "24"))
-MISTRAL_MAX_ARTICLES_PAR_SOURCE = int(os.getenv("MISTRAL_MAX_ARTICLES_PAR_SOURCE", "4"))
-MISTRAL_TOKEN_CHARS = int(os.getenv("MISTRAL_TOKEN_CHARS", "4"))
-MISTRAL_ANALYSE_JURIDIQUE_MAX_ARTICLES = int(
-    os.getenv("MISTRAL_ANALYSE_JURIDIQUE_MAX_ARTICLES", str(MISTRAL_MAX_ARTICLES))
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"
+GEMINI_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_DAILY_TOKEN_BUDGET = int(os.getenv("GEMINI_DAILY_TOKEN_BUDGET", "100000"))
+GEMINI_MAX_INPUT_TOKENS = int(os.getenv("GEMINI_MAX_INPUT_TOKENS", "12000"))
+GEMINI_MAX_OUTPUT_TOKENS = int(os.getenv("GEMINI_MAX_OUTPUT_TOKENS", "1200"))
+GEMINI_MAX_ARTICLES = int(os.getenv("GEMINI_MAX_ARTICLES", "24"))
+GEMINI_MAX_ARTICLES_PAR_SOURCE = int(os.getenv("GEMINI_MAX_ARTICLES_PAR_SOURCE", "4"))
+GEMINI_TOKEN_CHARS = int(os.getenv("GEMINI_TOKEN_CHARS", "4"))
+GEMINI_MAX_RETRIES = int(os.getenv("GEMINI_MAX_RETRIES", "4"))
+GEMINI_RETRY_BASE_SECONDS = float(os.getenv("GEMINI_RETRY_BASE_SECONDS", "5"))
+GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES = int(
+    os.getenv("GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES", str(GEMINI_MAX_ARTICLES))
 )
 
 DOSSIER_MD = "markdown"
@@ -41,7 +43,7 @@ FICHIER_LISTE_MD = "liste_md.json"
 FICHIER_LETTRES = "lettres_cour_cassation.json"
 FICHIER_DECISIONS = "decisions_judilibre.json"
 FICHIER_DECISIONS_CONSEIL_ETAT = "decisions_conseil_etat.json"
-FICHIER_QUOTA_MISTRAL = ".mistral_quota.json"
+FICHIER_QUOTA_GEMINI = ".gemini_quota.json"
 
 JUDILIBRE_PUBLIC_URL = "https://www.courdecassation.fr/recherche-judilibre"
 CONSEIL_ETAT_RECHERCHE_URL = "https://opendata.justice-administrative.fr/recherche"
@@ -87,14 +89,14 @@ def estimer_tokens(texte):
     """Approximation prudente: un token vaut souvent 3 a 4 caracteres."""
     if not texte:
         return 0
-    return max(1, (len(texte) + MISTRAL_TOKEN_CHARS - 1) // MISTRAL_TOKEN_CHARS)
+    return max(1, (len(texte) + GEMINI_TOKEN_CHARS - 1) // GEMINI_TOKEN_CHARS)
 
 
-def charger_quota_mistral():
-    if not os.path.exists(FICHIER_QUOTA_MISTRAL):
+def charger_quota_gemini():
+    if not os.path.exists(FICHIER_QUOTA_GEMINI):
         return {"date": AUJOURDHUI, "tokens": 0}
     try:
-        with open(FICHIER_QUOTA_MISTRAL, encoding="utf-8") as fichier:
+        with open(FICHIER_QUOTA_GEMINI, encoding="utf-8") as fichier:
             quota = json.load(fichier)
     except (json.JSONDecodeError, OSError):
         return {"date": AUJOURDHUI, "tokens": 0}
@@ -103,14 +105,14 @@ def charger_quota_mistral():
     return {"date": AUJOURDHUI, "tokens": int(quota.get("tokens", 0))}
 
 
-def enregistrer_quota_mistral(quota):
-    with open(FICHIER_QUOTA_MISTRAL, "w", encoding="utf-8") as fichier:
+def enregistrer_quota_gemini(quota):
+    with open(FICHIER_QUOTA_GEMINI, "w", encoding="utf-8") as fichier:
         json.dump(quota, fichier, indent=2, ensure_ascii=False)
 
 
-def consommer_quota_mistral(quota, tokens):
+def consommer_quota_gemini(quota, tokens):
     quota["tokens"] = int(quota.get("tokens", 0)) + max(0, int(tokens))
-    enregistrer_quota_mistral(quota)
+    enregistrer_quota_gemini(quota)
 
 
 def nettoyer_texte(valeur, limite=900):
@@ -130,6 +132,20 @@ def nettoyer_texte(valeur, limite=900):
                 break
             texte = corrige
     return texte[:limite]
+
+
+def premier_resume_disponible(donnees, limite=700):
+    """Retourne uniquement un résumé fourni par la source, sans en inventer un."""
+    for champ in (
+        "sommaire", "Sommaire", "resume", "Resume", "Résumé",
+        "summary", "description", "analyse", "Analyse",
+    ):
+        valeur = donnees.get(champ)
+        if isinstance(valeur, str) and valeur:
+            resume = nettoyer_texte(valeur, limite)
+            if resume:
+                return resume
+    return ""
 
 
 def charger_sources():
@@ -697,9 +713,7 @@ def collecter_articles(sources):
                     "lien": urljoin(url, entry.get("link", url)),
                     "date": entry.get("date_normalisee")
                     or date_entree(entry, flux, entetes, consulter_page=False),
-                    "resume": nettoyer_texte(
-                        entry.get("summary") or entry.get("description") or ""
-                    ),
+                    "resume": premier_resume_disponible(entry),
                 }
                 articles_collectes.append(article)
 
@@ -747,9 +761,14 @@ def collecter_articles(sources):
                     if cle_lien in liens_vus:
                         continue
                     liens_vus.add(cle_lien)
-                    articles_source.append(
-                        {"t": article["titre"], "l": article["lien"], "d": article["date"]}
-                    )
+                    carte = {
+                        "t": article["titre"],
+                        "l": article["lien"],
+                        "d": article["date"],
+                    }
+                    if article["resume"]:
+                        carte["r"] = article["resume"]
+                    articles_source.append(carte)
         except Exception as exc:
             print(f"Erreur flux {nom_source}: {exc}")
 
@@ -933,7 +952,7 @@ def valeur_liste(valeur):
 
 
 def sources_analyse_cassation(lettres, decisions):
-    """Convertit Lettres et décisions en sources factuelles pour Mistral."""
+    """Convertit Lettres et décisions en sources factuelles pour le modèle IA."""
     sources = []
     for lettre in lettres[:16]:
         sources.append(
@@ -1186,6 +1205,7 @@ def collecter_decisions_conseil_etat():
             "ecli": "" if source.get("Numero_ECLI") == "undefined" else source.get("Numero_ECLI", ""),
             "publication": PUBLICATIONS_CONSEIL_ETAT.get(code_publication, code_publication),
             "mis_en_ligne": source.get("lastModified", ""),
+            "resume": premier_resume_disponible(source),
             "url": f"{CONSEIL_ETAT_RECHERCHE_URL}/CE/{quote(numero)}" if numero else CONSEIL_ETAT_RECHERCHE_URL,
         })
     decisions.sort(key=lambda item: (item.get("type", ""), item.get("numero", "")))
@@ -1217,7 +1237,12 @@ def sources_analyse_conseil_etat(articles, decisions):
             "titre": f"{decision.get('type', 'Décision')} n° {decision.get('numero', '')}".strip(),
             "lien": decision.get("url", CONSEIL_ETAT_RECHERCHE_URL),
             "date": decision.get("date", ""),
-            "resume": " · ".join(details),
+            "resume": " ".join(
+                valeur for valeur in (
+                    decision.get("resume", ""),
+                    " · ".join(details),
+                ) if valeur
+            ),
         })
     return sources
 
@@ -1259,7 +1284,7 @@ def selection_jurisprudence(articles, sources_cassation, sources_conseil_etat):
 
     sources = [source for source in sources if source.get("date") == HIER]
     # Placer d'abord une donnée de chaque onglet garantit qu'elle survive au plafond
-    # d'entrée de Mistral; les autres données complètent ensuite le panorama.
+    # d'entrée du modèle; les autres données complètent ensuite le panorama.
     selection, retenues = [], set()
     for categorie in ("Cour de cassation", "Conseil d'État", "Conseil constitutionnel", "CJUE", "CEDH"):
         for source in sources:
@@ -1279,7 +1304,7 @@ def texte_article(article):
 
 
 def selection_analyse_juridique(articles, sources_cassation=None, analyse_cassation=None):
-    """Prepare une selection juridique compacte et equilibree pour Mistral."""
+    """Prépare une sélection juridique compacte et équilibrée pour Gemini."""
     articles_juridiques = [
         article
         for article in articles
@@ -1312,7 +1337,7 @@ def selection_analyse_juridique(articles, sources_cassation=None, analyse_cassat
     sources_vues = set()
 
     def ajouter(article):
-        if len(selection) >= MISTRAL_ANALYSE_JURIDIQUE_MAX_ARTICLES:
+        if len(selection) >= GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES:
             return
         cle = article.get("lien") or (
             article.get("source", ""),
@@ -1364,9 +1389,49 @@ def source_depuis_markdown(cible, contenu):
     }
 
 
-def sources_synthese_generale(comptes_rendus):
-    """La synthèse globale utilise exclusivement les comptes-rendus des pages."""
-    return [compte_rendu for compte_rendu in comptes_rendus if compte_rendu]
+SITE_URL = "https://nymesias.github.io/ma-veille-ia/"
+PAGES_SITE = {
+    "news": ("News", f"{SITE_URL}news.html"),
+    "finance": ("Finance", f"{SITE_URL}finance.html"),
+    "cour-de-cassation": ("Cour de cassation", f"{SITE_URL}cour-cassation.html"),
+    "conseil-etat": ("Conseil d'État", f"{SITE_URL}conseil-etat.html"),
+    "juridique-analyse": ("Ressources juridiques", f"{SITE_URL}juridique.html"),
+    "jurisprudence": ("Juridictions", f"{SITE_URL}jurisprudence.html"),
+}
+
+
+def extraire_titres_markdown(contenu):
+    """Extrait les titres éditoriaux d'un compte-rendu généré par l'IA."""
+    titres = []
+    titres_normalises = set()
+    for ligne in contenu.splitlines():
+        correspondance = re.match(r"^\s*-\s+\*\*(.+?)\*\*", ligne)
+        if not correspondance:
+            correspondance = re.match(r"^\s*#{2,6}\s+(.+?)\s*$", ligne)
+        if not correspondance:
+            continue
+        titre = nettoyer_texte(correspondance.group(1), 180)
+        cle = titre.lower()
+        if titre and cle not in titres_normalises:
+            titres.append(titre)
+            titres_normalises.add(cle)
+    return titres
+
+
+def construire_sommaire(comptes_rendus):
+    """Construit l'accueil et le mail sans nouvel appel au modèle."""
+    lignes = [f"# Sommaire de veille du {HIER}"]
+    for cible, (nom_page, url_page) in PAGES_SITE.items():
+        contenu = comptes_rendus.get(cible)
+        if contenu is None:
+            continue
+        lignes.extend(("", f"## {nom_page}"))
+        titres = extraire_titres_markdown(contenu)
+        if titres:
+            lignes.extend(f"- [{titre}]({url_page})" for titre in titres)
+        else:
+            lignes.append(f"- [Consulter le compte-rendu]({url_page})")
+    return "\n".join(lignes)
 
 
 def donnees_prompt(articles):
@@ -1388,7 +1453,7 @@ def diversifier_articles(articles):
     """Intercale les sources pour eviter qu'un seul flux occupe tout le prompt."""
     groupes = []
     positions = {}
-    plafond = max(1, MISTRAL_MAX_ARTICLES_PAR_SOURCE)
+    plafond = max(1, GEMINI_MAX_ARTICLES_PAR_SOURCE)
     compteurs = {}
 
     for article in articles:
@@ -1403,13 +1468,13 @@ def diversifier_articles(articles):
 
     selection = []
     profondeur = 0
-    while len(selection) < MISTRAL_MAX_ARTICLES:
+    while len(selection) < GEMINI_MAX_ARTICLES:
         progression = False
         for groupe in groupes:
             if profondeur < len(groupe):
                 selection.append(groupe[profondeur])
                 progression = True
-                if len(selection) >= MISTRAL_MAX_ARTICLES:
+                if len(selection) >= GEMINI_MAX_ARTICLES:
                     break
         if not progression:
             break
@@ -1419,7 +1484,6 @@ def diversifier_articles(articles):
 
 def prompt_pour(cible, articles):
     titres = {
-        "synthese": f"Synthèse de veille du {HIER}",
         "news": f"Actualités générales — {HIER}",
         "finance": f"Finance et économie — {HIER}",
         "cour-de-cassation": f"Cour de cassation — {HIER}",
@@ -1428,18 +1492,6 @@ def prompt_pour(cible, articles):
         "jurisprudence": f"Juridictions — {HIER}",
     }
     specificites = {
-        "synthese": (
-            "Organise obligatoirement le mail en quatre rubriques, dans cet ordre exact : "
-            "## News, ## Finance, ## Ressources, ## Juridictions. Ces rubriques correspondent "
-            "aux quatre pages du site. Dans chaque rubrique, retiens uniquement les sujets datés "
-            "de la veille et les plus pertinents pour cette page; si une rubrique n'a aucun fait "
-            "exploitable, indique en une phrase qu'aucune information significative datée de la "
-            "veille n'a été retenue. Pour chaque sujet retenu, écris un petit bloc éditorial "
-            "composé d'un intitulé de thème en gras, d'un résumé succinct de deux ou trois "
-            "phrases, puis d'un lien sur une ligne séparée sous la forme [Lire l'article](URL). "
-            "N'utilise ni numérotation, ni puces, ni libellés répétitifs comme « Item », "
-            "« Thème », « Résumé » ou « Source ». Diversifie les sources et les thèmes."
-        ),
         "news": (
             "Construis un panorama équilibré des actualités significatives de la veille. "
             "Couvre, lorsque les données le permettent, la géopolitique, l'environnement, "
@@ -1477,16 +1529,18 @@ def prompt_pour(cible, articles):
             "Fais la synthèse de tous les onglets de la page Juridictions, avec les intitulés exacts : "
             "Cour de cassation, Conseil d'État, Conseil constitutionnel, CJUE, CEDH. Pour la Cour de "
             "cassation, couvre les dernières décisions et Les Lettres. Pour le Conseil d'État, couvre "
-            "les dernières décisions et tous les flux RSS dédiés. "
+            "les dernières décisions et tous les flux RSS dédiés. Pour chaque décision, utilise "
+            "uniquement le sommaire ou l'extrait officiel fourni; en son absence, limite-toi aux "
+            "métadonnées et n'infère pas sa portée à partir du seul titre. "
             "Si un onglet ne contient aucune donnée exploitable de la veille, indique-le explicitement."
         ),
     }
     regle_format = (
         "- Utilise des titres Markdown ##, puis des puces factuelles.\n"
+        "- Commence chaque puce par un titre court en gras, sous la forme "
+        "`- **Titre** — résumé`.\n"
         "- Place le lien de la source au bout de chaque puce sous la forme [Source](URL).\n"
         "- N'ajoute jamais de section finale Sources, Bibliographie, Références ou Liens."
-        if cible != "synthese"
-        else "- Adopte un ton éditorial fluide et respecte strictement les quatre rubriques demandées."
     )
     return f"""Tu rédiges un briefing professionnel en français à partir des seules données ci-dessous.
 
@@ -1508,81 +1562,117 @@ DONNÉES DU {HIER} :
 """
 
 
-def limiter_articles_pour_mistral(cible, articles):
+def limiter_articles_pour_gemini(cible, articles):
     """Garde un panel diversifie tant que le prompt reste sous le plafond."""
     selection = []
     articles = diversifier_articles(articles)
     for article in articles:
         candidate = selection + [article]
         tokens_estimes = estimer_tokens(prompt_pour(cible, candidate))
-        if tokens_estimes > MISTRAL_MAX_INPUT_TOKENS:
+        if tokens_estimes > GEMINI_MAX_INPUT_TOKENS:
             if selection:
                 break
             article_court = dict(article)
             article_court["resume"] = nettoyer_texte(article_court.get("resume", ""), 350)
-            if estimer_tokens(prompt_pour(cible, [article_court])) <= MISTRAL_MAX_INPUT_TOKENS:
+            if estimer_tokens(prompt_pour(cible, [article_court])) <= GEMINI_MAX_INPUT_TOKENS:
                 selection.append(article_court)
             break
         selection = candidate
     if len(selection) < len(articles):
         print(
             f"{cible}: {len(selection)}/{len(articles)} sources retenues "
-            f"pour rester sous {MISTRAL_MAX_INPUT_TOKENS} tokens d'entree estimes."
+            f"pour rester sous {GEMINI_MAX_INPUT_TOKENS} tokens d'entree estimes."
         )
     return selection
 
 
-def appeler_mistral(cible, articles, quota):
-    articles = limiter_articles_pour_mistral(cible, articles)
+def appeler_gemini(cible, articles, quota):
+    articles = limiter_articles_pour_gemini(cible, articles)
     if not articles:
         raise RuntimeError("aucune source ne tient dans le budget de tokens configure")
     prompt = prompt_pour(cible, articles)
     tokens_entree_estimes = estimer_tokens(prompt)
-    tokens_appel_estimes = tokens_entree_estimes + MISTRAL_MAX_OUTPUT_TOKENS
+    tokens_appel_estimes = tokens_entree_estimes + GEMINI_MAX_OUTPUT_TOKENS
     tokens_utilises = int(quota.get("tokens", 0))
-    if tokens_utilises + tokens_appel_estimes > MISTRAL_DAILY_TOKEN_BUDGET:
+    if tokens_utilises + tokens_appel_estimes > GEMINI_DAILY_TOKEN_BUDGET:
         raise RuntimeError(
-            "quota Mistral quotidien preserve: "
+            "quota Gemini quotidien preserve: "
             f"{tokens_utilises} deja comptes, "
             f"{tokens_appel_estimes} requis, "
-            f"budget {MISTRAL_DAILY_TOKEN_BUDGET}. "
-            "Augmente MISTRAL_DAILY_TOKEN_BUDGET si ton tableau de bord Mistral "
+            f"budget {GEMINI_DAILY_TOKEN_BUDGET}. "
+            "Augmente GEMINI_DAILY_TOKEN_BUDGET si ton tableau de bord Google AI Studio "
             "autorise plus de tokens."
         )
-    reponse = requests.post(
-        MISTRAL_API_URL,
-        headers={"Authorization": f"Bearer {MISTRAL_KEY}", "Content-Type": "application/json"},
-        json={
-            "model": MISTRAL_MODEL,
-            "messages": [
-                {
-                    "role": "system",
-                    "content": (
-                        "Tu es un analyste de veille rigoureux. Tu préfères omettre une information "
-                        "plutôt que de la compléter par supposition."
-                    ),
-                },
-                {"role": "user", "content": prompt},
-            ],
-            "temperature": 0.1,
-            "max_tokens": MISTRAL_MAX_OUTPUT_TOKENS,
+    donnees_requete = {
+        "system_instruction": {
+            "parts": [{
+                "text": (
+                    "Tu es un analyste de veille rigoureux. Tu préfères omettre une information "
+                    "plutôt que de la compléter par supposition."
+                )
+            }]
         },
-        timeout=90,
-    )
-    reponse.raise_for_status()
+        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "temperature": 0.1,
+            "maxOutputTokens": GEMINI_MAX_OUTPUT_TOKENS,
+            "thinkingConfig": {"thinkingBudget": 0},
+        },
+    }
+    reponse = None
+    nombre_tentatives = max(1, GEMINI_MAX_RETRIES)
+    for tentative in range(nombre_tentatives):
+        reponse = requests.post(
+            f"{GEMINI_API_URL}/{quote(GEMINI_MODEL, safe='')}:generateContent",
+            headers={
+                "x-goog-api-key": GEMINI_KEY,
+                "Content-Type": "application/json",
+            },
+            json=donnees_requete,
+            timeout=90,
+        )
+        if reponse.status_code != 429:
+            reponse.raise_for_status()
+            break
+        if tentative + 1 >= nombre_tentatives:
+            break
+        retry_after = reponse.headers.get("Retry-After", "")
+        try:
+            attente = max(float(retry_after), GEMINI_RETRY_BASE_SECONDS)
+        except (TypeError, ValueError):
+            attente = GEMINI_RETRY_BASE_SECONDS * (2 ** tentative)
+        attente = min(attente, 60)
+        print(
+            f"Limite Gemini atteinte pour {cible}; nouvel essai dans "
+            f"{attente:g} s ({tentative + 2}/{nombre_tentatives})."
+        )
+        time.sleep(attente)
+    if reponse is None:
+        raise RuntimeError("aucune tentative Gemini effectuée")
+    if reponse.status_code == 429:
+        try:
+            detail = ((reponse.json() or {}).get("error") or {}).get("message", "")
+        except (ValueError, AttributeError):
+            detail = ""
+        suffixe = f" ({nettoyer_texte(detail, 300)})" if detail else ""
+        raise RuntimeError(f"limite Gemini persistante après les réessais{suffixe}")
     payload = reponse.json()
-    usage = payload.get("usage") or {}
-    tokens_reels = usage.get("total_tokens") or (
-        usage.get("prompt_tokens", 0) + usage.get("completion_tokens", 0)
+    usage = payload.get("usageMetadata") or {}
+    tokens_reels = usage.get("totalTokenCount") or (
+        usage.get("promptTokenCount", 0) + usage.get("candidatesTokenCount", 0)
     )
-    consommer_quota_mistral(quota, tokens_reels or tokens_appel_estimes)
-    contenu = payload["choices"][0]["message"]["content"].strip()
+    consommer_quota_gemini(quota, tokens_reels or tokens_appel_estimes)
+    candidats = payload.get("candidates") or []
+    parties = ((candidats[0].get("content") or {}).get("parts") or []) if candidats else []
+    contenu = "\n".join(partie.get("text", "") for partie in parties).strip()
     if not contenu:
-        raise ValueError("Mistral a renvoyé une réponse vide")
+        motif = (payload.get("promptFeedback") or {}).get("blockReason", "")
+        suffixe = f" (motif: {motif})" if motif else ""
+        raise ValueError(f"Gemini a renvoyé une réponse vide{suffixe}")
     return contenu
 
 
-def nettoyer_sortie_mistral(contenu):
+def nettoyer_sortie_ia(contenu):
     """Supprime les bibliographies finales que le modele ajoute parfois."""
     lignes = contenu.strip().splitlines()
     titres_sources = re.compile(
@@ -1601,7 +1691,7 @@ def ecrire_markdown(cible, contenu):
     os.makedirs(dossier, exist_ok=True)
     chemin = os.path.join(dossier, nom)
     with open(chemin, "w", encoding="utf-8") as fichier:
-        fichier.write(nettoyer_sortie_mistral(contenu) + "\n")
+        fichier.write(nettoyer_sortie_ia(contenu) + "\n")
     print(f"Fichier généré: {chemin}")
 
 
@@ -1663,7 +1753,7 @@ def generer_html_mail(texte_markdown):
             )
 
     contenu = str(soupe)
-    archives_url = "https://nymesias.github.io/ma-veille-ia/"
+    archives_url = SITE_URL
     return f"""<!doctype html>
 <html lang="fr">
 <head>
@@ -1672,7 +1762,7 @@ def generer_html_mail(texte_markdown):
   <title>Ma Veille Personnalisée — {HIER}</title>
 </head>
 <body style="margin:0;padding:0;background:#f4f7f6;font-family:'Segoe UI',Tahoma,Arial,sans-serif;color:#333333;">
-  <div style="display:none;max-height:0;overflow:hidden;opacity:0;">Votre synthèse de veille du {HIER}.</div>
+  <div style="display:none;max-height:0;overflow:hidden;opacity:0;">Votre sommaire de veille du {HIER}.</div>
   <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f4f7f6;">
     <tr>
       <td align="center" style="padding:24px 12px;">
@@ -1680,7 +1770,7 @@ def generer_html_mail(texte_markdown):
           <tr>
             <td style="background:#2c3e50;padding:28px 34px;text-align:center;border-radius:8px 8px 0 0;">
               <div style="color:#ffffff;font-size:25px;line-height:1.25;font-weight:700;">Ma Veille Personnalisée</div>
-              <div style="margin-top:8px;color:#b9d9ee;font-size:13px;line-height:1.4;text-transform:uppercase;letter-spacing:1px;">Synthèse du {HIER}</div>
+              <div style="margin-top:8px;color:#b9d9ee;font-size:13px;line-height:1.4;text-transform:uppercase;letter-spacing:1px;">Sommaire du {HIER}</div>
             </td>
           </tr>
           <tr>
@@ -1695,7 +1785,7 @@ def generer_html_mail(texte_markdown):
           </tr>
           <tr>
             <td style="padding:18px 20px 0;text-align:center;color:#7f8c8d;font-size:12px;line-height:1.5;">
-              Généré automatiquement par Mistral AI<br>
+              Titres issus des comptes-rendus de veille<br>
               Ma Veille Personnalisée
             </td>
           </tr>
@@ -1707,7 +1797,7 @@ def generer_html_mail(texte_markdown):
 </html>"""
 
 
-def envoyer_synthese_par_mail(texte_markdown):
+def envoyer_sommaire_par_mail(texte_markdown):
     expediteur = os.getenv("EMAIL_SENDER")
     mot_de_passe = os.getenv("EMAIL_PASSWORD")
     destinataire = os.getenv("EMAIL_RECEIVER")
@@ -1717,7 +1807,7 @@ def envoyer_synthese_par_mail(texte_markdown):
 
     html_final = generer_html_mail(texte_markdown)
     message = MIMEText(html_final, "html", "utf-8")
-    message["Subject"] = Header(f"Veille du {HIER}", "utf-8")
+    message["Subject"] = Header(f"Sommaire de veille du {HIER}", "utf-8")
     message["From"] = expediteur
     message["To"] = destinataire
 
@@ -1752,23 +1842,23 @@ def main():
     # Les flux et les archives doivent rester à jour, même sans article ou sans clé API.
     synchroniser_listes(data_rss)
 
-    if not MISTRAL_KEY:
-        raise RuntimeError("MISTRAL_API_KEY absente: génération IA impossible.")
+    if not GEMINI_KEY:
+        raise RuntimeError("GEMINI_API_KEY absente: génération IA impossible.")
 
-    quota_mistral = charger_quota_mistral()
+    quota_gemini = charger_quota_gemini()
     print(
-        "Budget Mistral local: "
-        f"{quota_mistral['tokens']}/{MISTRAL_DAILY_TOKEN_BUDGET} tokens "
-        f"(modele {MISTRAL_MODEL})."
+        "Budget Gemini local: "
+        f"{quota_gemini['tokens']}/{GEMINI_DAILY_TOKEN_BUDGET} tokens "
+        f"(modele {GEMINI_MODEL})."
     )
 
-    synthese = None
     analyse_cassation = None
     comptes_rendus_pages = {}
     sorties_generees = set()
-    # Les comptes-rendus de pages sont produits en premier. La synthèse globale
-    # réutilise exclusivement ces quatre sorties, jamais les flux bruts.
-    for cible in ("news", "finance", "cour-de-cassation", "conseil-etat", "juridique-analyse", "jurisprudence", "synthese"):
+    for cible in (
+        "news", "finance", "cour-de-cassation", "conseil-etat",
+        "juridique-analyse", "jurisprudence",
+    ):
         if cible == "cour-de-cassation":
             selection = sources_cassation_hier
         elif cible == "conseil-etat":
@@ -1783,34 +1873,28 @@ def main():
             selection = selection_jurisprudence(
                 articles, sources_cassation, sources_conseil_etat
             )
-        elif cible == "synthese":
-            selection = sources_synthese_generale(comptes_rendus_pages.values())
         else:
             selection = articles_pour(cible, articles)
         if not selection:
-            if cible in ("news", "finance", "juridique-analyse", "jurisprudence", "synthese"):
+            if cible in ("news", "finance", "juridique-analyse", "jurisprudence"):
                 contenu = compte_rendu_sans_donnees(cible)
                 ecrire_markdown(cible, contenu)
                 sorties_generees.add(cible)
-                if cible in ("news", "finance", "juridique-analyse", "jurisprudence"):
-                    comptes_rendus_pages[cible] = source_depuis_markdown(cible, contenu)
+                comptes_rendus_pages[cible] = contenu
             else:
                 print(f"Aucune donnée pour {cible}: fichier non généré.")
             continue
         try:
-            contenu = appeler_mistral(cible, selection, quota_mistral)
+            contenu = appeler_gemini(cible, selection, quota_gemini)
             ecrire_markdown(cible, contenu)
             sorties_generees.add(cible)
             if cible == "cour-de-cassation":
                 analyse_cassation = source_depuis_markdown(cible, contenu)
-            if cible in ("news", "finance", "juridique-analyse", "jurisprudence"):
-                comptes_rendus_pages[cible] = source_depuis_markdown(cible, contenu)
-            if cible == "synthese":
-                synthese = contenu
+            comptes_rendus_pages[cible] = contenu
         except Exception as exc:
             print(f"Erreur de génération {cible}: {exc}")
 
-    sorties_attendues = {"news", "finance", "juridique-analyse", "jurisprudence", "synthese"}
+    sorties_attendues = {"news", "finance", "juridique-analyse", "jurisprudence"}
     if sources_cassation_hier:
         sorties_attendues.add("cour-de-cassation")
     if sources_conseil_etat_hier:
@@ -1822,12 +1906,13 @@ def main():
             + ", ".join(sorted(sorties_manquantes))
         )
 
+    sommaire = construire_sommaire(comptes_rendus_pages)
+    ecrire_markdown("synthese", sommaire)
     synchroniser_listes(data_rss)
-    if synthese:
-        try:
-            envoyer_synthese_par_mail(synthese)
-        except Exception as exc:
-            print(f"Erreur d'envoi du mail: {exc}")
+    try:
+        envoyer_sommaire_par_mail(sommaire)
+    except Exception as exc:
+        print(f"Erreur d'envoi du mail: {exc}")
 
 
 if __name__ == "__main__":

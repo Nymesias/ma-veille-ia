@@ -1,4 +1,5 @@
 __pycache__/
 .env
 *.pyc
+.gemini_quota.json
 .mistral_quota.json
