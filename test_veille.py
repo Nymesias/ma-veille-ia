@@ -70,11 +70,11 @@ class VeilleTests(unittest.TestCase):
         sleep.assert_called_once_with(veille.GEMINI_RETRY_BASE_SECONDS)
         consommer.assert_called_once()
         requete = post.call_args_list[-1]
-        self.assertIn("gemini-2.5-flash:generateContent", requete.args[0])
+        self.assertIn("gemini-3.8-flash:generateContent", requete.args[0])
         self.assertIn("x-goog-api-key", requete.kwargs["headers"])
         self.assertEqual(
-            requete.kwargs["json"]["generationConfig"]["thinkingConfig"]["thinkingBudget"],
-            0,
+            requete.kwargs["json"]["generationConfig"]["thinkingConfig"]["thinkingLevel"],
+            "low",
         )
 
 

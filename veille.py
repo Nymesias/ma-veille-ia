@@ -22,7 +22,7 @@ from bs4 import BeautifulSoup
 
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 GEMINI_KEY = os.getenv("GEMINI_API_KEY")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 GEMINI_DAILY_TOKEN_BUDGET = int(os.getenv("GEMINI_DAILY_TOKEN_BUDGET", "100000"))
 GEMINI_MAX_INPUT_TOKENS = int(os.getenv("GEMINI_MAX_INPUT_TOKENS", "12000"))
 GEMINI_MAX_OUTPUT_TOKENS = int(os.getenv("GEMINI_MAX_OUTPUT_TOKENS", "1200"))
@@ -1614,9 +1614,8 @@ def appeler_gemini(cible, articles, quota):
         },
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         "generationConfig": {
-            "temperature": 0.1,
             "maxOutputTokens": GEMINI_MAX_OUTPUT_TOKENS,
-            "thinkingConfig": {"thinkingBudget": 0},
+            "thinkingConfig": {"thinkingLevel": "low"},
         },
     }
     reponse = None
