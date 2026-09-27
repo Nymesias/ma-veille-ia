@@ -12,7 +12,7 @@ from email import message_from_bytes, policy
 from email.header import Header, decode_header, make_header
 from email.mime.text import MIMEText
 from email.utils import parseaddr, parsedate_to_datetime
-from urllib.parse import quote, urljoin
+from urllib.parse import quote, urljoin, urlsplit
 
 import feedparser
 import markdown
@@ -221,18 +221,66 @@ MOTS_LIENS_TECHNIQUES = (
     "view in browser", "facebook", "instagram", "linkedin", "twitter",
 )
 
+MOTS_TITRES_NEWSLETTER_GENERIQUES = (
+    "cliquez ici", "en savoir plus", "lire la suite", "lire l'article",
+    "découvrir", "toutes les actualités", "toutes les publications",
+    "actualités et publications", "accéder au site", "voir l'article",
+    "lettre d'information", "newsletter",
+)
 
-def lien_principal_newsletter(contenu_html):
-    """Choisit un lien éditorial et écarte les liens de gestion et réseaux sociaux."""
+
+def _titre_lien_newsletter(lien):
+    """Extrait le titre éditorial associé à un lien de publication."""
+    candidats = [lien.get_text(" ", strip=True)]
+    candidats.extend(lien.get(attribut, "") for attribut in ("aria-label", "title"))
+    for image in lien.select("img"):
+        candidats.extend(image.get(attribut, "") for attribut in ("alt", "title"))
+
+    parent = lien
+    for _ in range(3):
+        parent = parent.parent
+        if not parent:
+            break
+        titre = parent.select_one("h1, h2, h3, h4")
+        if titre:
+            candidats.append(titre.get_text(" ", strip=True))
+
+    for candidat in candidats:
+        titre = nettoyer_texte(candidat, 300)
+        comparaison = titre.casefold()
+        if len(titre) < 8 or "@" in titre or "logo" in comparaison:
+            continue
+        if any(mot in comparaison for mot in MOTS_LIENS_TECHNIQUES):
+            continue
+        if any(mot in comparaison for mot in MOTS_TITRES_NEWSLETTER_GENERIQUES):
+            continue
+        return titre
+    return ""
+
+
+def publication_principale_newsletter(contenu_html, sujet=""):
+    """Retourne le titre et le lien de la première vraie publication du message."""
     page = BeautifulSoup(contenu_html or "", "html.parser")
+    premier_lien = ""
     for lien in page.select("a[href]"):
         url = html.unescape(lien.get("href", "")).strip()
         libelle = nettoyer_texte(lien.get_text(" ", strip=True), 300).lower()
         comparaison = f"{libelle} {url.lower()}"
-        if (url.startswith(("https://", "http://"))
-                and not any(mot in comparaison for mot in MOTS_LIENS_TECHNIQUES)):
-            return resoudre_lien_suivi_newsletter(url)
-    return ""
+        if (not url.startswith(("https://", "http://"))
+                or any(mot in comparaison for mot in MOTS_LIENS_TECHNIQUES)):
+            continue
+        premier_lien = premier_lien or url
+        titre = _titre_lien_newsletter(lien)
+        if not urlsplit(url).path.strip("/"):
+            continue
+        if titre:
+            return titre, resoudre_lien_suivi_newsletter(url)
+    return sujet, resoudre_lien_suivi_newsletter(premier_lien) if premier_lien else ""
+
+
+def lien_principal_newsletter(contenu_html):
+    """Choisit un lien éditorial et écarte les liens de gestion et réseaux sociaux."""
+    return publication_principale_newsletter(contenu_html)[1]
 
 
 def resoudre_lien_suivi_newsletter(url):
@@ -358,15 +406,15 @@ def collecter_newsletters(regles, cartes_precedentes):
                     if not date:
                         continue
                     contenu_html = extraire_html_newsletter(message)
-                    lien = lien_principal_newsletter(contenu_html)
+                    titre, lien = publication_principale_newsletter(contenu_html, sujet)
                     cle = (regle["categorie"], regle["source"])
                     par_source.setdefault(cle, []).append(
-                        {"t": sujet, "l": lien, "d": date, "type": "newsletter"}
+                        {"t": titre, "l": lien, "d": date, "type": "newsletter"}
                     )
                     if date == HIER:
                         articles_hier.append({
                             "categorie": regle["categorie"], "source": regle["source"],
-                            "titre": sujet, "lien": lien, "date": date,
+                            "titre": titre, "lien": lien, "date": date,
                             "resume": resume_public_newsletter(contenu_html),
                             "type": "newsletter",
                         })

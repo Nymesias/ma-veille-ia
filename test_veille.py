@@ -23,6 +23,55 @@ import veille
 
 
 class VeilleTests(unittest.TestCase):
+    def test_publication_newsletter_reprend_le_titre_editorial(self):
+        image = Mock()
+        image.get.side_effect = lambda attribut, repli="": {
+            "alt": "Rapport annuel sur les marchés financiers",
+        }.get(attribut, repli)
+        balise_lien = Mock()
+        balise_lien.get_text.return_value = ""
+        balise_lien.get.side_effect = lambda attribut, repli="": {
+            "href": "https://example.com/publications/rapport",
+        }.get(attribut, repli)
+        balise_lien.select.return_value = [image]
+        balise_lien.parent = None
+        lien_accueil = Mock()
+        lien_accueil.get_text.return_value = "Cour des comptes"
+        lien_accueil.get.side_effect = lambda attribut, repli="": {
+            "href": "https://example.com/",
+        }.get(attribut, repli)
+        lien_accueil.select.return_value = []
+        lien_accueil.parent = None
+
+        with patch("veille.BeautifulSoup") as analyseur:
+            analyseur.return_value.select.return_value = [lien_accueil, balise_lien]
+            titre, lien = veille.publication_principale_newsletter(
+                "<html>", "La lettre d'information"
+            )
+
+        self.assertEqual(titre, "Rapport annuel sur les marchés financiers")
+        self.assertEqual(lien, "https://example.com/publications/rapport")
+
+    def test_publication_newsletter_ignore_un_bouton_generique(self):
+        titre_section = Mock()
+        titre_section.get_text.return_value = "Sanctions et décisions du mois"
+        section = Mock()
+        section.select_one.return_value = titre_section
+        section.parent = None
+        balise_lien = Mock()
+        balise_lien.get_text.return_value = "Lire la suite"
+        balise_lien.get.side_effect = lambda attribut, repli="": {
+            "href": "https://example.com/publications/sanctions",
+        }.get(attribut, repli)
+        balise_lien.select.return_value = []
+        balise_lien.parent = section
+
+        with patch("veille.BeautifulSoup") as analyseur:
+            analyseur.return_value.select.return_value = [balise_lien]
+            titre, _ = veille.publication_principale_newsletter("<html>", "Newsletter")
+
+        self.assertEqual(titre, "Sanctions et décisions du mois")
+
     def test_premier_resume_disponible_utilise_seulement_la_source(self):
         donnees = {"title": "Un titre", "description": "<p>Résumé officiel.</p>"}
         self.assertEqual(

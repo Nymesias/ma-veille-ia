@@ -26,7 +26,7 @@ function inventaireSources(sources) {
         const estNewsletter = source.type === 'newsletter';
         return `<span class="source-inventaire-badge${estNewsletter ? ' source-inventaire-newsletter' : ''}">
             ${echapperHtml(formaterNomSource(source.nom_site))}
-            ${estNewsletter ? '<span aria-label="Newsletter">✉</span>' : ''}
+            ${estNewsletter ? '<span aria-label="Publications">✉</span>' : ''}
         </span>`;
     }).join('');
 
@@ -153,7 +153,7 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date', sourc
         htmlContenu += `
             <article class="post-veille${estNewsletter ? ' post-newsletter' : ''}">
                 <span class="badge-site">${echapperHtml(formaterNomSource(art.nom_site))}</span>
-                ${estNewsletter ? '<span class="badge-newsletter">Newsletter</span>' : ''}
+                ${estNewsletter ? '<span class="badge-newsletter">Publications</span>' : ''}
                 <h3>${titre}</h3>
                 <p class="date-rss">📅 ${dateAffichage}</p> 
                 ${art.r ? `<p>${echapperHtml(art.r)}</p>` : ''}
@@ -164,7 +164,7 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date', sourc
         htmlContenu += `
             <article class="post-veille${estNewsletter ? ' post-newsletter' : ''}">
                 <span class="badge-site">${echapperHtml(formaterNomSource(source.nom_site))}</span>
-                ${estNewsletter ? '<span class="badge-newsletter">Newsletter</span>' : ''}
+                ${estNewsletter ? '<span class="badge-newsletter">Publications</span>' : ''}
                 <h3>Aucune publication reçue récemment.</h3>
             </article>`;
     });

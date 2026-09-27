@@ -216,8 +216,8 @@ mark {
 }
 
 .post-veille h3 {
-    flex-grow: 0; /* Le titre ne prend que la place nécessaire */
-    margin-bottom: 15px;
+    margin: 12px 0 0;
+    line-height: 1.3;
 }
 
 .post-veille h3 a { 
@@ -233,7 +233,7 @@ mark {
 
 .date-rss {
     display: block;
-    margin-top: auto;   /* <--- C'est CA qui pousse la date tout en bas */
+    margin: 7px 0 0;
     text-align: right;  /* Aligne le texte à droite */
     font-size: 0.75rem;
     color: #95a5a6;
@@ -261,6 +261,11 @@ mark {
 .btn-tri.active {
     background-color: #3498db !important;
     color: white !important;
+}
+
+.post-veille > p:not(.date-rss) {
+    margin: 12px 0 0;
+    line-height: 1.45;
 }
 
 .post-veille.post-newsletter {
