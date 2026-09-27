@@ -1,31 +1,152 @@
 {
-  "mis_a_jour": "2026-09-03T08:30:40",
-  "date_cible": "2026-08-26",
-  "date_recherche_initiale": "2026-09-02",
-  "total": 2,
+  "mis_a_jour": "2026-09-27T10:07:46",
+  "date_cible": "2026-09-24",
+  "date_recherche_initiale": "2026-09-26",
+  "total": 13,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
     {
-      "id": "6a904e97195da062e0191e4c",
-      "date": "2026-08-26",
-      "chambre": "Chambre criminelle",
+      "id": "6ab4d734c27382d0992e90cb",
+      "date": "2026-09-24",
+      "chambre": "Deuxième chambre civile",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "26-83.562",
+      "numero": "23-18.422",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6ab4d734c27382d0992e90cb"
+    },
+    {
+      "id": "6ab4d717c27382d0992e8a09",
+      "date": "2026-09-24",
+      "chambre": "Troisième chambre civile",
+      "formation": "Formation de section",
+      "numero": "24-17.185",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "La règle selon laquelle la perte de la qualité d'associé ne peut, en cas de retrait, être antérieure au remboursement de la valeur des droits sociaux, n'est, s'agissant du retrait volontaire prévu à l'article 1869 du code civil, que supplétive de la volonté des associés. Elle peut donc faire l'objet d'une clause statutaire contraire",
+      "url": "https://www.courdecassation.fr/decision/6ab4d717c27382d0992e8a09"
+    },
+    {
+      "id": "6ab4d710c27382d0992e884f",
+      "date": "2026-09-24",
+      "chambre": "Troisième chambre civile",
+      "formation": "Formation de section",
+      "numero": "24-11.079",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "Le remboursement, prévu à l'article L. 514-16 du code de l'environnement, des frais engagés par les personnes morales de droit public pour atténuer ou limiter l'aggravation de dommages résultant d'un incident ou d'un accident causé par une installation classée relève du régime de responsabilité civile des installations classées. Le juge judiciaire est dès lors seul compétent pour apprécier le bien-fondé de la créance d'un service départemental d'incendie et de secours contre les personnes responsables",
+      "url": "https://www.courdecassation.fr/decision/6ab4d710c27382d0992e884f"
+    },
+    {
+      "id": "6ab4d71ac27382d0992e8ac1",
+      "date": "2026-09-24",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "24-12.226",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6ab4d71ac27382d0992e8ac1"
+    },
+    {
+      "id": "6ab4d71ec27382d0992e8b9d",
+      "date": "2026-09-24",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "23-22.420",
       "solution": "Rejet",
       "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
       "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6a904e97195da062e0191e4c"
+      "url": "https://www.courdecassation.fr/decision/6ab4d71ec27382d0992e8b9d"
     },
     {
-      "id": "6a904fdb195da062e0192781",
-      "date": "2026-08-26",
-      "chambre": "Chambre criminelle",
+      "id": "6ab4d725c27382d0992e8d32",
+      "date": "2026-09-24",
+      "chambre": "Deuxième chambre civile",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "26-83.654",
+      "numero": "23-19.562",
       "solution": "Cassation",
-      "publication": "Publié au Bulletin",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
       "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6a904fdb195da062e0192781"
+      "url": "https://www.courdecassation.fr/decision/6ab4d725c27382d0992e8d32"
+    },
+    {
+      "id": "6ab4d721c27382d0992e8c65",
+      "date": "2026-09-24",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "24-11.505",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6ab4d721c27382d0992e8c65"
+    },
+    {
+      "id": "6ab4d728c27382d0992e8dd9",
+      "date": "2026-09-24",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "24-15.536",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6ab4d728c27382d0992e8dd9"
+    },
+    {
+      "id": "6ab4d72bc27382d0992e8e8f",
+      "date": "2026-09-24",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "24-13.640",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6ab4d72bc27382d0992e8e8f"
+    },
+    {
+      "id": "6ab4d72ec27382d0992e8f50",
+      "date": "2026-09-24",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "24-14.061",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6ab4d72ec27382d0992e8f50"
+    },
+    {
+      "id": "6ab4d731c27382d0992e9015",
+      "date": "2026-09-24",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "24-13.124",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6ab4d731c27382d0992e9015"
+    },
+    {
+      "id": "6ab4d738c27382d0992e91a2",
+      "date": "2026-09-24",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation de section",
+      "numero": "23-18.932",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6ab4d738c27382d0992e91a2"
+    },
+    {
+      "id": "6ab4d713c27382d0992e8926",
+      "date": "2026-09-24",
+      "chambre": "Troisième chambre civile",
+      "formation": "Formation de section",
+      "numero": "24-16.732",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin",
+      "sommaire": "La condition suspensive ne peut être réputée accomplie, au sens de l'article 1304-3 de ce code, qu'à titre de sanction contre le débiteur qui, obligé sous cette condition, en a empêché l'accomplissement, sans préjudice d'une éventuelle action en réparation de ce dernier, lorsque c'est le créancier qui en a provoqué la défaillance. C'est dès lors à bon droit qu'une cour d'appel retient que n'est pas réputée accomplie la condition stipulée dans l'intérêt du vendeur et défaillie par la faute de l'acquéreur",
+      "url": "https://www.courdecassation.fr/decision/6ab4d713c27382d0992e8926"
     }
   ]
 }
