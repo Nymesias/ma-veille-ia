@@ -69,8 +69,14 @@
     },
     {
       "nom_site": "INPI|PIBD",
-      "type": "newsletter",
-      "articles": []
+      "type": "publication",
+      "articles": [
+        {
+          "t": "PIBD 1274",
+          "l": "https://pibd.inpi.fr/pibd/pibd-1274",
+          "d": "2026-09-15"
+        }
+      ]
     }
   ],
   "juridictions": [
@@ -583,36 +589,54 @@
     },
     {
       "nom_site": "ACPR",
-      "type": "newsletter",
-      "articles": []
+      "type": "publication",
+      "articles": [
+        {
+          "t": "Relier les empreintes biodiversité aux coûts de restauration : une approche méthodologique",
+          "l": "https://acpr.banque-france.fr/fr/publications-et-statistiques/publications/relier-les-empreintes-biodiversite-aux-couts-de-restauration-une-approche-methodologique",
+          "d": "2026-09-21"
+        }
+      ]
     },
     {
       "nom_site": "AMF",
-      "type": "newsletter",
+      "type": "publication",
       "articles": [
         {
           "t": "L’AMF met à jour sa doctrine applicable aux dépositaires d’OPCVM et de FIA",
-          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-met-jour-sa-doctrine-applicable-aux-depositaires-dopcvm-et-de-fia#xtor=EREC-4",
-          "d": "2026-09-25",
-          "type": "newsletter"
+          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-met-jour-sa-doctrine-applicable-aux-depositaires-dopcvm-et-de-fia",
+          "d": "2026-09-24"
+        },
+        {
+          "t": "Guide des dépositaires d'OPCVM et de FIA",
+          "l": "https://www.amf-france.org/fr/actualites-publications/publications/guides/guides-professionnels/guide-des-depositaires-dopcvm-et-de-fia",
+          "d": "2026-09-24"
+        },
+        {
+          "t": "L’AMF publie son rapport sur les incidents majeurs déclarés en 2025 au titre du règlement DORA",
+          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-son-rapport-sur-les-incidents-majeurs-declares-en-2025-au-titre-du-reglement-dora",
+          "d": "2026-09-24"
+        },
+        {
+          "t": "Rapport sur les incidents majeurs DORA déclarés à l'AMF en 2025",
+          "l": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-etudes-et-analyses/rapport-sur-les-incidents-majeurs-dora-declares-lamf-en-2025",
+          "d": "2026-09-24"
         }
       ]
     },
     {
       "nom_site": "AFT",
-      "type": "newsletter",
+      "type": "publication",
       "articles": [
         {
           "t": "25/09/2026 : Prochaine émission de BTF de l'AFT : lundi 28 septembre 2026",
           "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/25-septembre-2026-prochaine-emission-btf",
-          "d": "2026-09-25",
-          "type": "newsletter"
+          "d": "2026-09-25"
         },
         {
           "t": "25/09/2026 : Prochaine émission d’OAT long terme de l'AFT : jeudi 01 octobre 2026",
           "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/25-septembre-2026-prochaine-emission-oat",
-          "d": "2026-09-25",
-          "type": "newsletter"
+          "d": "2026-09-25"
         }
       ]
     }
@@ -1073,13 +1097,57 @@
   "cour-comptes": [
     {
       "nom_site": "Cour des Comptes",
-      "type": "newsletter",
+      "type": "publication",
       "articles": [
         {
-          "t": "Suivi des recommandations : quelles sont les suites des contrôles des juridictions financières ?",
-          "l": "https://www.ccomptes.fr/fr/publications/suivi-des-recommandations-quelles-sont-les-suites-des-controles-des-juridictions",
-          "d": "2026-09-24",
-          "type": "newsletter"
+          "t": "Collectivité territoriale de Martinique (CTM)",
+          "l": "https://www.ccomptes.fr/fr/publications/collectivite-territoriale-de-martinique-ctm",
+          "d": "2026-09-25"
+        },
+        {
+          "t": "Association \"Groupe montivillon de tennis-Fontenay\" (Seine-Maritime)",
+          "l": "https://www.ccomptes.fr/fr/publications/association-groupe-montivillon-de-tennis-fontenay-seine-maritime",
+          "d": "2026-09-25"
+        },
+        {
+          "t": "Établissement public territorial Grand-Orly Seine Bièvre (Val-de-Marne)",
+          "l": "https://www.ccomptes.fr/fr/publications/etablissement-public-territorial-grand-orly-seine-bievre-val-de-marne",
+          "d": "2026-09-25"
+        },
+        {
+          "t": "Commune de Villejuif (Val-de-Marne)",
+          "l": "https://www.ccomptes.fr/fr/publications/commune-de-villejuif-val-de-marne-5",
+          "d": "2026-09-25"
+        },
+        {
+          "t": "Les effectifs de la fonction publique territoriale en Occitanie",
+          "l": "https://www.ccomptes.fr/fr/publications/les-effectifs-de-la-fonction-publique-territoriale-en-occitanie",
+          "d": "2026-09-25"
+        },
+        {
+          "t": "Commune de Montluçon (Allier)",
+          "l": "https://www.ccomptes.fr/fr/publications/commune-de-montlucon-allier-3",
+          "d": "2026-09-25"
+        },
+        {
+          "t": "Communauté de communes du Haut Pays Bigouden (Finistère)",
+          "l": "https://www.ccomptes.fr/fr/publications/communaute-de-communes-du-haut-pays-bigouden-finistere",
+          "d": "2026-09-25"
+        },
+        {
+          "t": "Commune de Saint-Fons (Métropole de Lyon)",
+          "l": "https://www.ccomptes.fr/fr/publications/commune-de-saint-fons-metropole-de-lyon",
+          "d": "2026-09-25"
+        },
+        {
+          "t": "Oust à Brocéliande Communauté (Morbihan)",
+          "l": "https://www.ccomptes.fr/fr/publications/oust-broceliande-communaute-morbihan",
+          "d": "2026-09-25"
+        },
+        {
+          "t": "Département du Territoire de Belfort (90)",
+          "l": "https://www.ccomptes.fr/fr/publications/departement-du-territoire-de-belfort-90",
+          "d": "2026-09-25"
         }
       ]
     }

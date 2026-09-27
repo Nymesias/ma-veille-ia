@@ -673,6 +673,63 @@ def normaliser_entrees_google_officiel(entrees):
     return actualites[:30]
 
 
+SELECTEURS_PUBLICATIONS_HTML = {
+    "html-acpr": 'a[href*="/fr/publications-et-statistiques/publications/"]',
+    "html-aft": 'a[href*="/fr/publications/communiques-presse/"]',
+    "html-pibd": 'a[href*="/pibd/pibd-"]',
+}
+
+
+def contenu_page_officielle(url, entetes):
+    """Charge une page officielle, avec Chromium en repli contre les protections antibot."""
+    try:
+        return requete_avec_reessais(url, entetes, timeout=30).text
+    except Exception as erreur_requete:
+        try:
+            from playwright.sync_api import sync_playwright
+
+            with sync_playwright() as moteur:
+                navigateur = moteur.chromium.launch(headless=True)
+                page = navigateur.new_page(user_agent=entetes["User-Agent"])
+                page.goto(url, wait_until="domcontentloaded", timeout=90000)
+                contenu = page.content()
+                navigateur.close()
+                return contenu
+        except Exception as erreur_navigateur:
+            raise RuntimeError(
+                f"page officielle inaccessible ({erreur_requete}; {erreur_navigateur})"
+            ) from erreur_navigateur
+
+
+def entrees_page_officielle(contenu, url, type_source):
+    """Extrait titres, liens et dates des listes de publications institutionnelles."""
+    page = BeautifulSoup(contenu or "", "html.parser")
+    selecteur = SELECTEURS_PUBLICATIONS_HTML[type_source]
+    entrees, liens_vus = [], set()
+    for lien in page.select(selecteur):
+        href = urljoin(url, lien.get("href", ""))
+        titre = nettoyer_texte(lien.get_text(" ", strip=True), 300)
+        if not href or len(titre) < 8 or href in liens_vus:
+            continue
+
+        date = ""
+        parent = lien
+        for _ in range(7):
+            parent = parent.parent
+            if not parent:
+                break
+            date = normaliser_date_publication(
+                nettoyer_texte(parent.get_text(" ", strip=True), 1200)
+            )
+            if date:
+                break
+        if not date:
+            continue
+        liens_vus.add(href)
+        entrees.append({"title": titre, "link": href, "date_normalisee": date})
+    return entrees[:30]
+
+
 def normaliser_entrees_eurlex_cjue(entrees):
     """Extrait la date placée dans le titre des flux personnalisés EUR-Lex."""
     resultats = []
@@ -729,18 +786,24 @@ def collecter_articles(sources):
         articles_source = []
         try:
             entetes = {"User-Agent": "MaVeilleIA/1.0 (veille personnelle)"}
-            reponse_flux = requete_avec_reessais(url, entetes, timeout=30)
-            contenu_source = reponse_flux.content
-            contenu_flux = contenu_source
-            # Certains flux Drupal ajoutent des commentaires de débogage avant
-            # la déclaration XML, ce que les parseurs stricts refusent.
-            debut_xml = contenu_flux.find(b"<?xml")
-            if debut_xml > 0:
-                contenu_flux = contenu_flux[debut_xml:]
-            flux = feedparser.parse(contenu_flux)
-            if getattr(flux, "bozo", False) and not flux.entries:
-                print(f"Avertissement flux {nom_source}: {flux.bozo_exception}")
-            entrees = flux.entries[:30]
+            if type_source.startswith("html-"):
+                contenu_source = contenu_page_officielle(url, entetes)
+                entrees = entrees_page_officielle(
+                    contenu_source, url, type_source
+                )
+                flux = {}
+            else:
+                reponse_flux = requete_avec_reessais(url, entetes, timeout=30)
+                contenu_flux = reponse_flux.content
+                # Certains flux Drupal ajoutent des commentaires de débogage avant
+                # la déclaration XML, ce que les parseurs stricts refusent.
+                debut_xml = contenu_flux.find(b"<?xml")
+                if debut_xml > 0:
+                    contenu_flux = contenu_flux[debut_xml:]
+                flux = feedparser.parse(contenu_flux)
+                if getattr(flux, "bozo", False) and not flux.entries:
+                    print(f"Avertissement flux {nom_source}: {flux.bozo_exception}")
+                entrees = flux.entries[:30]
             if type_source == "rss-google-aft":
                 entrees = normaliser_entrees_google_aft(entrees)
             elif type_source == "rss-google-acpr":
@@ -828,9 +891,10 @@ def collecter_articles(sources):
                     f"{len(articles_source)} article(s)."
                 )
 
-        data_rss.setdefault(categorie, []).append(
-            {"nom_site": nom_source, "articles": articles_source}
-        )
+        source_rss = {"nom_site": nom_source, "articles": articles_source}
+        if source.get("affichage"):
+            source_rss["type"] = source["affichage"].strip().lower()
+        data_rss.setdefault(categorie, []).append(source_rss)
 
     return data_rss, articles_hier
 
@@ -1876,11 +1940,6 @@ def envoyer_sommaire_par_mail(texte_markdown):
 def main():
     print(f"Collecte des flux pour le {HIER}...")
     data_rss, articles = collecter_articles(charger_sources())
-    data_newsletters, articles_newsletters = collecter_newsletters(
-        charger_newsletters(), charger_cartes_precedentes()
-    )
-    fusionner_newsletters(data_rss, data_newsletters)
-    articles.extend(articles_newsletters)
 
     lettres = collecter_lettres()
     decisions = collecter_decisions_judilibre()

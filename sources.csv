@@ -1,9 +1,10 @@
-categorie,source,url,type
+categorie,source,url,type,affichage
 revues,Cridon NE,https://www.cridon-ne.org/feed/
 revues,Dalloz|Etudiant,https://www.dalloz-etudiant.fr/rss.xml
 revues,DAJ Bercy,https://www.economie.gouv.fr/daj/rss
 revues,Vie Publique|Lois,https://www.vie-publique.fr/lois-feeds.xml
 revues,France Assureurs,https://www.franceassureurs.fr/actualites/feed/
+revues,INPI|PIBD,https://pibd.inpi.fr/,html-pibd,publication
 juridictions,Conseil Constitutionnel,https://www.conseil-constitutionnel.fr/flux/rss.xml
 conseil-etat,Conseil d'Etat|LJA,https://www.conseil-etat.fr/rss/lja-rss
 conseil-etat,Conseil d'Etat|Analyses,https://www.conseil-etat.fr/rss/analyses-de-jurisprudence-rss
@@ -29,6 +30,9 @@ finance,BCE|Politique monétaire,https://www.ecb.europa.eu/rss/press.html
 finance,Ministère de l'Economie,https://www.economie.gouv.fr/rss/toutesactualites
 finance,Le Revenu,https://www.lerevenu.com/rss.xml
 finance,L'Agefi,https://www.agefi.fr/index.rss
+finance,ACPR,https://acpr.banque-france.fr/fr/publications-acpr,html-acpr,publication
+finance,AMF,https://www.amf-france.org/fr/flux-rss/display/21,rss,publication
+finance,AFT,https://www.aft.gouv.fr/fr/communiques-de-presse,html-aft,publication
 news,AFP|Actualités,"https://www.afp.com/fr/actus/afp_actualite/792,31,9,7,33/feed"
 news,Courrier international,https://www.courrierinternational.com/feed/all/rss.xml
 news,Challenges,https://www.challenges.fr/rss.xml
@@ -44,3 +48,4 @@ news,Actu-Environnement,https://www.actu-environnement.com/ae/news/archives/rss.
 news,LeMagIT,https://www.lemagit.fr/rss/ContentSyndication.xml
 news,Service public|Particuliers,https://www.service-public.gouv.fr/abonnements/rss/actu-actualites-particuliers.rss
 news,Service public|Entreprises,https://www.service-public.gouv.fr/abonnements/rss/actu-actu-pro.rss
+cour-comptes,Cour des Comptes,https://www.ccomptes.fr/rss/publications,rss,publication

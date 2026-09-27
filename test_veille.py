@@ -23,6 +23,32 @@ import veille
 
 
 class VeilleTests(unittest.TestCase):
+    def test_page_officielle_extrait_titre_lien_et_date(self):
+        bloc = Mock()
+        bloc.get_text.return_value = "Publication institutionnelle 25 septembre 2026"
+        bloc.parent = None
+        lien = Mock()
+        lien.get.side_effect = lambda attribut, repli="": {
+            "href": "/fr/publications/communiques-presse/publication-test",
+        }.get(attribut, repli)
+        lien.get_text.return_value = "Publication institutionnelle"
+        lien.parent = bloc
+
+        with patch("veille.BeautifulSoup") as analyseur:
+            analyseur.return_value.select.return_value = [lien]
+            entrees = veille.entrees_page_officielle(
+                "<html>", "https://www.aft.gouv.fr/fr/communiques-de-presse", "html-aft"
+            )
+
+        self.assertEqual(entrees, [{
+            "title": "Publication institutionnelle",
+            "link": (
+                "https://www.aft.gouv.fr/fr/publications/communiques-presse/"
+                "publication-test"
+            ),
+            "date_normalisee": "2026-09-25",
+        }])
+
     def test_publication_newsletter_reprend_le_titre_editorial(self):
         image = Mock()
         image.get.side_effect = lambda attribut, repli="": {

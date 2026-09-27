@@ -268,11 +268,11 @@ mark {
     line-height: 1.45;
 }
 
-.post-veille.post-newsletter {
+.post-veille.post-publication {
     border-top-color: #e67e22;
 }
 
-.badge-newsletter {
+.badge-publication {
     align-self: flex-start;
     margin-top: 8px;
     padding: 3px 8px;
@@ -316,7 +316,7 @@ mark {
     font-size: 0.82rem;
 }
 
-.source-inventaire-newsletter {
+.source-inventaire-publication {
     background: #fff0d7;
     color: #76521d;
 }

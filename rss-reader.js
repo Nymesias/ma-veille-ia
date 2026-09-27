@@ -23,10 +23,10 @@ function formaterNomSource(nom) {
 
 function inventaireSources(sources) {
     const badges = sources.map(source => {
-        const estNewsletter = source.type === 'newsletter';
-        return `<span class="source-inventaire-badge${estNewsletter ? ' source-inventaire-newsletter' : ''}">
+        const estPublication = source.type === 'publication';
+        return `<span class="source-inventaire-badge${estPublication ? ' source-inventaire-publication' : ''}">
             ${echapperHtml(formaterNomSource(source.nom_site))}
-            ${estNewsletter ? '<span aria-label="Publications">✉</span>' : ''}
+            ${estPublication ? '<span aria-label="Publications">▤</span>' : ''}
         </span>`;
     }).join('');
 
@@ -146,26 +146,26 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date', sourc
     let htmlContenu = inventaireSources(sources);
     tousLesArticles.forEach(art => {
         const dateAffichage = formaterDateEnFrancais(art.d);
-        const estNewsletter = art.type === 'newsletter';
+        const estPublication = art.type === 'publication';
         const titre = art.l
             ? `<a href="${echapperHtml(art.l)}" target="_blank" rel="noopener noreferrer">${echapperHtml(art.t)}</a>`
             : echapperHtml(art.t);
         htmlContenu += `
-            <article class="post-veille${estNewsletter ? ' post-newsletter' : ''}">
+            <article class="post-veille${estPublication ? ' post-publication' : ''}">
                 <span class="badge-site">${echapperHtml(formaterNomSource(art.nom_site))}</span>
-                ${estNewsletter ? '<span class="badge-newsletter">Publications</span>' : ''}
+                ${estPublication ? '<span class="badge-publication">Publications</span>' : ''}
                 <h3>${titre}</h3>
                 <p class="date-rss">📅 ${dateAffichage}</p> 
                 ${art.r ? `<p>${echapperHtml(art.r)}</p>` : ''}
             </article>`;
     });
     sourcesSansArticles.forEach(source => {
-        const estNewsletter = source.type === 'newsletter';
+        const estPublication = source.type === 'publication';
         htmlContenu += `
-            <article class="post-veille${estNewsletter ? ' post-newsletter' : ''}">
+            <article class="post-veille${estPublication ? ' post-publication' : ''}">
                 <span class="badge-site">${echapperHtml(formaterNomSource(source.nom_site))}</span>
-                ${estNewsletter ? '<span class="badge-newsletter">Publications</span>' : ''}
-                <h3>Aucune publication reçue récemment.</h3>
+                ${estPublication ? '<span class="badge-publication">Publications</span>' : ''}
+                <h3>Aucune publication récente trouvée sur le site officiel.</h3>
             </article>`;
     });
 
