@@ -1630,7 +1630,11 @@ def appeler_gemini(cible, articles, quota):
             json=donnees_requete,
             timeout=90,
         )
-        if reponse.status_code != 429:
+        erreur_transitoire = (
+            reponse.status_code in (408, 429)
+            or 500 <= reponse.status_code < 600
+        )
+        if not erreur_transitoire:
             reponse.raise_for_status()
             break
         if tentative + 1 >= nombre_tentatives:
@@ -1642,19 +1646,23 @@ def appeler_gemini(cible, articles, quota):
             attente = GEMINI_RETRY_BASE_SECONDS * (2 ** tentative)
         attente = min(attente, 60)
         print(
-            f"Limite Gemini atteinte pour {cible}; nouvel essai dans "
+            f"Erreur Gemini temporaire HTTP {reponse.status_code} pour {cible}; "
+            f"nouvel essai dans "
             f"{attente:g} s ({tentative + 2}/{nombre_tentatives})."
         )
         time.sleep(attente)
     if reponse is None:
         raise RuntimeError("aucune tentative Gemini effectuée")
-    if reponse.status_code == 429:
+    if reponse.status_code in (408, 429) or 500 <= reponse.status_code < 600:
         try:
             detail = ((reponse.json() or {}).get("error") or {}).get("message", "")
         except (ValueError, AttributeError):
             detail = ""
         suffixe = f" ({nettoyer_texte(detail, 300)})" if detail else ""
-        raise RuntimeError(f"limite Gemini persistante après les réessais{suffixe}")
+        raise RuntimeError(
+            f"erreur Gemini HTTP {reponse.status_code} persistante après les réessais"
+            f"{suffixe}"
+        )
     payload = reponse.json()
     usage = payload.get("usageMetadata") or {}
     tokens_reels = usage.get("totalTokenCount") or (

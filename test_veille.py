@@ -77,6 +77,32 @@ class VeilleTests(unittest.TestCase):
             "low",
         )
 
+    @patch("veille.consommer_quota_gemini")
+    @patch("veille.time.sleep")
+    @patch("veille.requests.post")
+    def test_appel_gemini_reessaie_apres_503(self, post, sleep, consommer):
+        indisponible = Mock(status_code=503, headers={})
+        succes = Mock(status_code=200, headers={})
+        succes.json.return_value = {
+            "usageMetadata": {"totalTokenCount": 20},
+            "candidates": [{"content": {"parts": [{"text": "# Résultat"}]}}],
+        }
+        post.side_effect = [indisponible, succes]
+
+        resultat = veille.appeler_gemini("news", [{
+            "categorie": "news",
+            "source": "Source",
+            "titre": "Titre",
+            "lien": "https://example.com",
+            "date": veille.HIER,
+            "resume": "Résumé officiel",
+        }], {"tokens": 0})
+
+        self.assertEqual(resultat, "# Résultat")
+        self.assertEqual(post.call_count, 2)
+        sleep.assert_called_once_with(veille.GEMINI_RETRY_BASE_SECONDS)
+        consommer.assert_called_once()
+
 
 if __name__ == "__main__":
     unittest.main()
