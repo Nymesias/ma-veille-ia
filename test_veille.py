@@ -178,6 +178,29 @@ class VeilleTests(unittest.TestCase):
         sleep.assert_called_once_with(veille.GEMINI_RETRY_BASE_SECONDS)
         consommer.assert_called_once()
 
+    @patch("veille.time.sleep")
+    @patch("veille.requests.post")
+    def test_appel_gemini_signale_une_indisponibilite_persistante(self, post, sleep):
+        post.return_value = Mock(
+            status_code=503,
+            headers={},
+            json=lambda: {"error": {"message": "Modèle temporairement surchargé"}},
+        )
+
+        with patch("veille.GEMINI_MAX_RETRIES", 2):
+            with self.assertRaises(veille.ErreurGeminiTemporaire):
+                veille.appeler_gemini("finance", [{
+                    "categorie": "finance",
+                    "source": "Source",
+                    "titre": "Titre",
+                    "lien": "https://example.com",
+                    "date": veille.HIER,
+                    "resume": "Résumé officiel",
+                }], {"tokens": 0})
+
+        self.assertEqual(post.call_count, 2)
+        sleep.assert_called_once_with(veille.GEMINI_RETRY_BASE_SECONDS)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -35,6 +35,11 @@ GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES = int(
     os.getenv("GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES", str(GEMINI_MAX_ARTICLES))
 )
 
+
+class ErreurGeminiTemporaire(RuntimeError):
+    """Indique qu'un appel Gemini peut réussir lors d'une tentative ultérieure."""
+
+
 DOSSIER_MD = "markdown"
 FICHIER_SOURCES = "sources.csv"
 FICHIER_NEWSLETTERS = "newsletters.csv"
@@ -1771,7 +1776,7 @@ def appeler_gemini(cible, articles, quota):
         except (ValueError, AttributeError):
             detail = ""
         suffixe = f" ({nettoyer_texte(detail, 300)})" if detail else ""
-        raise RuntimeError(
+        raise ErreurGeminiTemporaire(
             f"erreur Gemini HTTP {reponse.status_code} persistante après les réessais"
             f"{suffixe}"
         )
@@ -1969,6 +1974,7 @@ def main():
     analyse_cassation = None
     comptes_rendus_pages = {}
     sorties_generees = set()
+    generations_a_reessayer = []
     for cible in (
         "news", "finance", "cour-de-cassation", "conseil-etat",
         "juridique-analyse", "jurisprudence",
@@ -2005,8 +2011,26 @@ def main():
             if cible == "cour-de-cassation":
                 analyse_cassation = source_depuis_markdown(cible, contenu)
             comptes_rendus_pages[cible] = contenu
+        except ErreurGeminiTemporaire as exc:
+            print(f"Erreur temporaire de génération {cible}: {exc}")
+            generations_a_reessayer.append((cible, selection))
         except Exception as exc:
             print(f"Erreur de génération {cible}: {exc}")
+
+    # Une surcharge Gemini peut ne toucher qu'un appel pendant quelques dizaines
+    # de secondes. Une seconde passe, après les autres rubriques, évite de faire
+    # échouer toute la veille pour ce bref incident sans ignorer l'absence de sortie.
+    for cible, selection in generations_a_reessayer:
+        print(f"Nouvelle tentative différée de génération {cible}.")
+        try:
+            contenu = appeler_gemini(cible, selection, quota_gemini)
+            ecrire_markdown(cible, contenu)
+            sorties_generees.add(cible)
+            if cible == "cour-de-cassation":
+                analyse_cassation = source_depuis_markdown(cible, contenu)
+            comptes_rendus_pages[cible] = contenu
+        except Exception as exc:
+            print(f"Échec de la tentative différée {cible}: {exc}")
 
     sorties_attendues = {"news", "finance", "juridique-analyse", "jurisprudence"}
     if sources_cassation_hier:
