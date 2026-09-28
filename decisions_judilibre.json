@@ -1,7 +1,7 @@
 {
-  "mis_a_jour": "2026-09-27T10:07:46",
+  "mis_a_jour": "2026-09-28T18:56:33",
   "date_cible": "2026-09-24",
-  "date_recherche_initiale": "2026-09-26",
+  "date_recherche_initiale": "2026-09-27",
   "total": 13,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
@@ -26,17 +26,6 @@
       "publication": "Publié au Bulletin",
       "sommaire": "La règle selon laquelle la perte de la qualité d'associé ne peut, en cas de retrait, être antérieure au remboursement de la valeur des droits sociaux, n'est, s'agissant du retrait volontaire prévu à l'article 1869 du code civil, que supplétive de la volonté des associés. Elle peut donc faire l'objet d'une clause statutaire contraire",
       "url": "https://www.courdecassation.fr/decision/6ab4d717c27382d0992e8a09"
-    },
-    {
-      "id": "6ab4d710c27382d0992e884f",
-      "date": "2026-09-24",
-      "chambre": "Troisième chambre civile",
-      "formation": "Formation de section",
-      "numero": "24-11.079",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin",
-      "sommaire": "Le remboursement, prévu à l'article L. 514-16 du code de l'environnement, des frais engagés par les personnes morales de droit public pour atténuer ou limiter l'aggravation de dommages résultant d'un incident ou d'un accident causé par une installation classée relève du régime de responsabilité civile des installations classées. Le juge judiciaire est dès lors seul compétent pour apprécier le bien-fondé de la créance d'un service départemental d'incendie et de secours contre les personnes responsables",
-      "url": "https://www.courdecassation.fr/decision/6ab4d710c27382d0992e884f"
     },
     {
       "id": "6ab4d71ac27382d0992e8ac1",
@@ -70,6 +59,17 @@
       "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
       "sommaire": "",
       "url": "https://www.courdecassation.fr/decision/6ab4d725c27382d0992e8d32"
+    },
+    {
+      "id": "6ab4d710c27382d0992e884f",
+      "date": "2026-09-24",
+      "chambre": "Troisième chambre civile",
+      "formation": "Formation de section",
+      "numero": "24-11.079",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "Le remboursement, prévu à l'article L. 514-16 du code de l'environnement, des frais engagés par les personnes morales de droit public pour atténuer ou limiter l'aggravation de dommages résultant d'un incident ou d'un accident causé par une installation classée relève du régime de responsabilité civile des installations classées. Le juge judiciaire est dès lors seul compétent pour apprécier le bien-fondé de la créance d'un service départemental d'incendie et de secours contre les personnes responsables",
+      "url": "https://www.courdecassation.fr/decision/6ab4d710c27382d0992e884f"
     },
     {
       "id": "6ab4d721c27382d0992e8c65",

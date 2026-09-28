@@ -69,14 +69,14 @@
     },
     {
       "nom_site": "INPI|PIBD",
-      "type": "publication",
       "articles": [
         {
-          "t": "PIBD 1274",
+          "t": "PIBD 1274 15 septembre 2026",
           "l": "https://pibd.inpi.fr/pibd/pibd-1274",
           "d": "2026-09-15"
         }
-      ]
+      ],
+      "type": "publication"
     }
   ],
   "juridictions": [
@@ -118,55 +118,55 @@
           "t": "CELEX:62025CJ0151: Arrêt de la Cour (cinquième chambre) du 24 septembre 2026 — F.B. contre Région wallonne",
           "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0151",
           "d": "2026-09-24",
-          "r": "Demande de décision préjudicielle, introduite par Conseil d'État — Renvoi préjudiciel – Environnement – Convention d’Aarhus – Article 6 – Participation du public aux décisions relatives à des activités particulières – Prolongation de la durée de validité d’un permis d’exploitation d’un parc éolien – Obligation d’organiser une phase de participation du public préalablement à cette prolongation — Affaire C-151/25"
+          "r": "Demande de décision préjudicielle, introduite par le Conseil d'État (Belgique) — Renvoi préjudiciel – Environnement – Convention d’Aarhus – Article 6 – Participation du public aux décisions relatives à des activités particulières – Prolongation de la durée de validité d’un permis d’exploitation d’un parc éolien – Obligation d’organiser une phase de participation du public préalablement à cette prolongation — Affaire C-151/25"
         },
         {
           "t": "CELEX:62025CJ0381: Arrêt de la Cour (cinquième chambre) du 24 septembre 2026 — PL et GQ contre Gexx aeroSol GmbH",
           "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0381",
           "d": "2026-09-24",
-          "r": "Renvoi préjudiciel – Protection des consommateurs – Directive 2011/83/UE – Contrats conclus avec les consommateurs – Droit de rétractation en cas de contrats hors établissement – Article 2, point 8 – Notion de “contrat hors établissement” – Offre écrite du professionnel – Acceptation de cette offre par le consommateur en la présence du professionnel et en dehors de l’établissement commercial de ce dernier — Affaire C-381/25"
-        },
-        {
-          "t": "CELEX:62025CJ0503: Arrêt de la Cour (dixième chambre) du 24 septembre 2026 — Acciaierie d’Italia SpA, en administration temporaire contre Cassa per i servizi energetici e ambientali (CSEA)",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0503",
-          "d": "2026-09-24",
-          "r": "Demande de décision préjudicielle, introduite par Tribunale Amministrativo Regionale per la Lombardia — Renvoi préjudiciel – Aides d’État – Régimes d’aides en faveur des entreprises grandes consommatrices de gaz naturel ou d’électricité – Dispositions nationales excluant de ces régimes les entreprises en difficulté au sens des lignes directrices concernant les aides d’État au sauvetage et à la restructuration d’entreprises en difficulté autres que les établissements financiers – Notion d’“entreprise en difficulté” – Régime national de l’administration extraordinaire — Affaire C-503/25"
+          "r": "Demande de décision préjudicielle, introduite par le Landgericht Cottbus — Renvoi préjudiciel – Protection des consommateurs – Directive 2011/83/UE – Contrats conclus avec les consommateurs – Droit de rétractation en cas de contrats hors établissement – Article 2, point 8 – Notion de “contrat hors établissement” – Offre écrite du professionnel – Acceptation de cette offre par le consommateur en la présence du professionnel et en dehors de l’établissement commercial de ce dernier — Affaire C-381/25"
         },
         {
           "t": "CELEX:62025CJ0190: Arrêt de la Cour (troisième chambre) du 24 septembre 2026 — LS contre GT",
           "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0190",
           "d": "2026-09-24",
-          "r": "Demande de décision préjudicielle, introduite par Oberlandesgericht Stuttgart — Renvoi préjudiciel – Coopération judiciaire en matière civile – Compétence, reconnaissance et exécution des décisions en matière matrimoniale – Règlement (CE) no 2201/2003 – Article 19 – Notion de “demande en annulation du mariage” – Article 63 – Traité conclu entre le Saint-Siège et un État membre – Mariage célébré conformément au droit canonique – Juridiction civile d’un État membre saisie d’une demande en divorce – Juridiction civile d’un autre État membre saisie d’une demande tendant à la reconnaissance des effets civils d’une décision d’une juridiction ecclésiastique prononçant la nullité de ce mariage — Aff"
+          "r": "Demande de décision préjudicielle, introduite par l’Oberlandesgericht Stuttgart — Renvoi préjudiciel – Coopération judiciaire en matière civile – Compétence, reconnaissance et exécution des décisions en matière matrimoniale – Règlement (CE) no 2201/2003 – Article 19 – Notion de “demande en annulation du mariage” – Article 63 – Traité conclu entre le Saint-Siège et un État membre – Mariage célébré conformément au droit canonique – Juridiction civile d’un État membre saisie d’une demande en divorce – Juridiction civile d’un autre État membre saisie d’une demande tendant à la reconnaissance des effets civils d’une décision d’une juridiction ecclésiastique prononçant la nullité de ce mariage — A"
+        },
+        {
+          "t": "CELEX:62025CJ0503: Arrêt de la Cour (dixième chambre) du 24 septembre 2026 — Acciaierie d’Italia SpA contre Cassa per i servizi energetici e ambientali (CSEA)",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0503",
+          "d": "2026-09-24",
+          "r": "Demandes de décision préjudicielle, introduites par le Tribunale amministrativo regionale per la Lombardia — Renvoi préjudiciel – Aides d’État – Régimes d’aides en faveur des entreprises grandes consommatrices de gaz naturel ou d’électricité – Dispositions nationales excluant de ces régimes les entreprises en difficulté au sens des lignes directrices concernant les aides d’État au sauvetage et à la restructuration d’entreprises en difficulté autres que les établissements financiers – Notion d’“entreprise en difficulté” – Régime national de l’administration extraordinaire — Affaires C-503/25 et C-504/25"
         },
         {
           "t": "CELEX:62025CJ0511: Arrêt de la Cour (deuxième chambre) du 24 septembre 2026 — Ministerstvo vnitra contre E. K",
           "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0511",
           "d": "2026-09-24",
-          "r": "Demande de décision préjudicielle, introduite par Nejvyšší správní soud — Renvoi préjudiciel – Espace de liberté, de sécurité et de justice – Politique d’asile – Critères et mécanismes de détermination de l’État membre responsable de l’examen d’une demande de protection internationale – Règlement (UE) no 604/2013 – État membre responsable de l’examen d’une demande de protection internationale en vertu de l’article 3, paragraphe 2, premier alinéa, de ce règlement – Demande de protection internationale introduite dans un autre État membre – Article 17 – Clause discrétionnaire – Champ d’application — Affaire C-511/25"
-        },
-        {
-          "t": "CELEX:62025CJ0600: Arrêt de la Cour (septième chambre) du 24 septembre 2026 — M. P. M. contre Ministerstvo na zemedelieto i hranite e.a",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0600",
-          "d": "2026-09-24",
-          "r": "Demande de décision préjudicielle, introduite par Varhoven administrativen sad — Renvoi préjudiciel – Agriculture – Politique agricole commune (PAC) – Fonds européen agricole pour le développement rural (Feader) – Mesures de soutien au développement rural – Règlement (CE) no 1974/2006 – Article 47 – Contrat de bail ou d’affermage – Contrat de bail conclu entre une administration municipale et le bénéficiaire d’une aide – Engagements sur cinq ans – Résiliation de ce contrat de bail à la suite d’une réforme législative – Obligation de rembourser une partie ou la totalité de l’aide perçue – Impossibilité de l’adaptation des engagements à une nouvelle situation de l’exploitation concernée – Noti"
-        },
-        {
-          "t": "CELEX:62025CJ0300: Arrêt de la Cour (troisième chambre) du 24 septembre 2026 — SQ contre YR",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0300",
-          "d": "2026-09-24",
-          "r": "Demande de décision préjudicielle, introduite par Nejvyšší soud — Renvoi préjudiciel – Espace de liberté, de sécurité et de justice – Règlement (UE) 2016/1103 – Compétence, loi applicable, reconnaissance et exécution des décisions en matière de régimes matrimoniaux – Article 1, paragraphe 1 – Champ d’application – Article 3, paragraphe 1, sous a) – Notion de “régime matrimonial” – Immeuble acquis en indivision par des époux mariés sous le régime de séparation de biens – Action en liquidation et en partage de cette indivision introduite après la dissolution du mariage – Inclusion — Affaire C-300/25"
-        },
-        {
-          "t": "CELEX:62025CJ0176: Arrêt de la Cour (troisième chambre) du 24 septembre 2026 — IU contre BT",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0176",
-          "d": "2026-09-24",
-          "r": "Demande de décision préjudicielle, introduite par Oberlandesgericht Düsseldorf — Renvoi préjudiciel – Espace de liberté, de sécurité et de justice – Coopération judiciaire en matière civile – Loi applicable aux obligations contractuelles – Règlement (CE) no 593/2008 (Rome I) – Loi applicable aux obligations non contractuelles – Règlement (CE) no 864/2007 (Rome II) – Obligation non contractuelle résultant d’une atteinte, par un tiers, aux droits d’utilisation exclusifs prétendument détenus par une personne sur des œuvres protégées par le droit d’auteur – Contestation par le défendeur de la validité formelle du contrat de cession entre le cessionnaire de ces droits et l’auteur – Rattachement d"
+          "r": "Demande de décision préjudicielle, introduite par le Nejvyšší správní soud — Renvoi préjudiciel – Espace de liberté, de sécurité et de justice – Politique d’asile – Critères et mécanismes de détermination de l’État membre responsable de l’examen d’une demande de protection internationale – Règlement (UE) no 604/2013 – État membre responsable de l’examen d’une demande de protection internationale en vertu de l’article 3, paragraphe 2, premier alinéa, de ce règlement – Demande de protection internationale introduite dans un autre État membre – Article 17 – Clause discrétionnaire – Champ d’application — Affaire C-511/25"
         },
         {
           "t": "CELEX:62025CJ0369: Arrêt de la Cour (cinquième chambre) du 24 septembre 2026 — LW contre Trenitalia SpA et Istituto nazionale della previdenza sociale (INPS)",
           "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0369",
           "d": "2026-09-24",
-          "r": "Demande de décision préjudicielle, introduite par Tribunale di Napoli — Renvoi préjudiciel – Politique sociale – Obligation de l’employeur d’informer le travailleur des conditions applicables au contrat ou à la relation de travail – Directive 91/533/CEE – Article 8, paragraphe 1 – Défense des droits – Portée de cette disposition – Protection des droits découlant de cette directive – Article 3 – Droit pour le travailleur de recevoir un document contenant des informations sur les éléments essentiels du contrat ou de la relation de travail — Affaire C-369/25"
+          "r": "Demande de décision préjudicielle, introduite par le Tribunale di Napoli — Renvoi préjudiciel – Politique sociale – Obligation de l’employeur d’informer le travailleur des conditions applicables au contrat ou à la relation de travail – Directive 91/533/CEE – Article 8, paragraphe 1 – Défense des droits – Portée de cette disposition – Protection des droits découlant de cette directive – Article 3 – Droit pour le travailleur de recevoir un document contenant des informations sur les éléments essentiels du contrat ou de la relation de travail — Affaire C-369/25"
+        },
+        {
+          "t": "CELEX:62025CJ0300: Arrêt de la Cour (troisième chambre) du 24 septembre 2026 — SQ contre YR",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0300",
+          "d": "2026-09-24",
+          "r": "Demande de décision préjudicielle, introduite par le Nejvyšší soud — Renvoi préjudiciel – Espace de liberté, de sécurité et de justice – Règlement (UE) 2016/1103 – Compétence, loi applicable, reconnaissance et exécution des décisions en matière de régimes matrimoniaux – Article 1, paragraphe 1 – Champ d’application – Article 3, paragraphe 1, sous a) – Notion de “régime matrimonial” – Immeuble acquis en indivision par des époux mariés sous le régime de séparation de biens – Action en liquidation et en partage de cette indivision introduite après la dissolution du mariage – Inclusion — Affaire C-300/25"
+        },
+        {
+          "t": "CELEX:62025CJ0600: Arrêt de la Cour (septième chambre) du 24 septembre 2026 — M. P. M. contre Ministerstvo na zemedelieto i hranite e.a",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0600",
+          "d": "2026-09-24",
+          "r": "Demande de décision préjudicielle, introduite par le Varhoven administrativen sad — Renvoi préjudiciel – Agriculture – Politique agricole commune (PAC) – Fonds européen agricole pour le développement rural (Feader) – Mesures de soutien au développement rural – Règlement (CE) no 1974/2006 – Article 47 – Contrat de bail ou d’affermage – Contrat de bail conclu entre une administration municipale et le bénéficiaire d’une aide – Engagements sur cinq ans – Résiliation de ce contrat de bail à la suite d’une réforme législative – Obligation de rembourser une partie ou la totalité de l’aide perçue – Impossibilité de l’adaptation des engagements à une nouvelle situation de l’exploitation concernée – N"
+        },
+        {
+          "t": "CELEX:62025CJ0176: Arrêt de la Cour (troisième chambre) du 24 septembre 2026 — IU contre BT",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0176",
+          "d": "2026-09-24",
+          "r": "Demande de décision préjudicielle, introduite par l’Oberlandesgericht Düsseldorf — Renvoi préjudiciel – Espace de liberté, de sécurité et de justice – Coopération judiciaire en matière civile – Loi applicable aux obligations contractuelles – Règlement (CE) no 593/2008 (Rome I) – Loi applicable aux obligations non contractuelles – Règlement (CE) no 864/2007 (Rome II) – Obligation non contractuelle résultant d’une atteinte, par un tiers, aux droits d’utilisation exclusifs prétendument détenus par une personne sur des œuvres protégées par le droit d’auteur – Contestation par le défendeur de la validité formelle du contrat de cession entre le cessionnaire de ces droits et l’auteur – Rattachement"
         }
       ]
     },
@@ -442,9 +442,10 @@
       "nom_site": "AN|Documents",
       "articles": [
         {
-          "t": "N° 3113 - Proposition de résolution de M. Éric Michoux visant à inciter le Gouvernement à renforcer la prévention, l'information et l'indemnisation des victimes du retrait-gonflement des argiles",
-          "l": "https://www.assemblee-nationale.fr/17/propositions/pion3113.asp",
-          "d": "2026-08-28"
+          "t": "N° 3179 rapport d'information - Rapport d'information de Mme Claire Marais-Beuil et Mme Eva Sas déposé en application de l'article 145 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire, en conclusion des travaux d'une mission d'information relative au bil",
+          "l": "https://www.assemblee-nationale.fr/17/rap-info/i3179.asp",
+          "d": "2026-09-25",
+          "r": "N° 3179 rapport d'information - Rapport d'information de Mme Claire Marais-Beuil et Mme Eva Sas déposé en application de l'article 145 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire, en conclusion des travaux d'une mission d'information relative au bilan et conséquences des crédits carbone européens et aux impacts de la réforme du système d'échange de quotas d'émission de l'Union européenne"
         }
       ]
     },
@@ -518,10 +519,10 @@
       "nom_site": "Commission Européenne|Actualités",
       "articles": [
         {
-          "t": "Celebrating the power of languages",
-          "l": "https://commission.europa.eu/news-and-media/news/celebrating-power-languages-2026-09-26_en",
-          "d": "2026-09-26",
-          "r": "26 September is the European Day of Languages. Find out what this day is about and how you can join in the celebrations."
+          "t": "President von der Leyen announces €710 million to support displaced people in Africa and global crisis relief",
+          "l": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/president-von-der-leyen-announces-eur710-million-support-displaced-people-africa-and-global-crisis-2026-09-26_en",
+          "d": "2026-09-27",
+          "r": "The package announced includes €252 million from the Emergency Aid Reserve. This will provide much needed emergency support to people and communities struck by conflicts, displacement, epidemics and natural hazards."
         }
       ]
     }
@@ -589,44 +590,47 @@
     },
     {
       "nom_site": "ACPR",
-      "type": "publication",
       "articles": [
         {
           "t": "Relier les empreintes biodiversité aux coûts de restauration : une approche méthodologique",
           "l": "https://acpr.banque-france.fr/fr/publications-et-statistiques/publications/relier-les-empreintes-biodiversite-aux-couts-de-restauration-une-approche-methodologique",
           "d": "2026-09-21"
         }
-      ]
+      ],
+      "type": "publication"
     },
     {
       "nom_site": "AMF",
-      "type": "publication",
       "articles": [
         {
           "t": "L’AMF met à jour sa doctrine applicable aux dépositaires d’OPCVM et de FIA",
-          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-met-jour-sa-doctrine-applicable-aux-depositaires-dopcvm-et-de-fia",
-          "d": "2026-09-24"
+          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-met-jour-sa-doctrine-applicable-aux-depositaires-dopcvm-et-de-fia#xts=607212&xtor=RSS-3&type=RSS",
+          "d": "2026-09-24",
+          "r": "Actualité Gestion d'actifs L’AMF met à jour sa doctrine applicable aux dépositaires d’OPCVM et de FIA"
         },
         {
           "t": "Guide des dépositaires d'OPCVM et de FIA",
-          "l": "https://www.amf-france.org/fr/actualites-publications/publications/guides/guides-professionnels/guide-des-depositaires-dopcvm-et-de-fia",
-          "d": "2026-09-24"
+          "l": "https://www.amf-france.org/fr/actualites-publications/publications/guides/guides-professionnels/guide-des-depositaires-dopcvm-et-de-fia#xts=607212&xtor=RSS-3&type=RSS",
+          "d": "2026-09-24",
+          "r": "Guide professionnel Gestion d'actifs OPCVM Crypto-actifs Services d'investissement Guide des dépositaires d'OPCVM et de FIA"
         },
         {
           "t": "L’AMF publie son rapport sur les incidents majeurs déclarés en 2025 au titre du règlement DORA",
-          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-son-rapport-sur-les-incidents-majeurs-declares-en-2025-au-titre-du-reglement-dora",
-          "d": "2026-09-24"
+          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-son-rapport-sur-les-incidents-majeurs-declares-en-2025-au-titre-du-reglement-dora#xts=607212&xtor=RSS-3&type=RSS",
+          "d": "2026-09-24",
+          "r": "Actualité Gestion d'actifs L’AMF publie son rapport sur les incidents majeurs déclarés en 2025 au titre du règlement DORA"
         },
         {
           "t": "Rapport sur les incidents majeurs DORA déclarés à l'AMF en 2025",
-          "l": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-etudes-et-analyses/rapport-sur-les-incidents-majeurs-dora-declares-lamf-en-2025",
-          "d": "2026-09-24"
+          "l": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-etudes-et-analyses/rapport-sur-les-incidents-majeurs-dora-declares-lamf-en-2025#xts=607212&xtor=RSS-3&type=RSS",
+          "d": "2026-09-24",
+          "r": "Rapport / étude Gestion d'actifs Rapport sur les incidents majeurs DORA déclarés à l'AMF en 2025"
         }
-      ]
+      ],
+      "type": "publication"
     },
     {
       "nom_site": "AFT",
-      "type": "publication",
       "articles": [
         {
           "t": "25/09/2026 : Prochaine émission de BTF de l'AFT : lundi 28 septembre 2026",
@@ -638,7 +642,8 @@
           "l": "https://www.aft.gouv.fr/fr/publications/communiques-presse/25-septembre-2026-prochaine-emission-oat",
           "d": "2026-09-25"
         }
-      ]
+      ],
+      "type": "publication"
     }
   ],
   "news": [
@@ -704,76 +709,81 @@
       "nom_site": "Challenges",
       "articles": [
         {
-          "t": "Trump et Xi Jinping affichent leur puissance, mais passent à côté des crises majeures qui menacent le monde",
-          "l": "https://www.challenges.fr/monde/trump-et-xi-jinping-affichent-leur-puissance-mais-passent-a-cote-des-crises-majeures-qui-menacent-le-monde_646025",
-          "d": "2026-09-26",
-          "r": "Donald Trump a accueilli le président chinois Xi Jinping à la Maison Blanche. Les deux chefs d’Etats se sont livrés à des grandes démonstrations de fastes, laissant passer ainsi une occasion de s’attaquer aux sujets les plus importants."
+          "t": "Sénatoriales : le RN décroche son premier groupe au Sénat",
+          "l": "https://www.challenges.fr/politique/senatoriales-le-rn-decroche-son-premier-groupe-au-senat_646033",
+          "d": "2026-09-27",
+          "r": "Le renouvellement de la moitié du Sénat n’a pas bouleversé les grands équilibres de la Chambre haute, où la droite et le centre restent majoritaires. Mais le scrutin marque une percée du Rassemblement national : avec au moins dix élus et l’appui de l’UDR, le parti va pouvoir constituer pour la première fois un groupe au Palais du Luxembourg."
         },
         {
-          "t": "Nouvel incident pour OpenAI : l’intelligence artificielle a piraté plusieurs sites gouvernementaux aux Etats-Unis",
-          "l": "https://www.challenges.fr/entreprise/tech-numerique/nouvel-incident-pour-openai-lintelligence-artificielle-a-pirate-plusieurs-sites-gouvernementaux-aux-etats-unis_646024",
-          "d": "2026-09-26",
-          "r": "OpenAI n’a appris que récemment que sa technologie avait altéré les sites web du gouvernement américains. Plus précisément des ministères de l’Éducation et du Commerce, ainsi que de la Commission des opérations de bourse (SEC)."
+          "t": "Des lunettes connectées sans caméra ni IA : c’est le pari plus vertueux d’une start-up française, en contre-pied de Google et de Meta",
+          "l": "https://www.challenges.fr/entreprise/tech-numerique/des-lunettes-connectees-sans-camera-ni-ia-cest-le-pari-plus-vertueux-dune-start-up-francaise-en-contre-pied-de-google-et-de-meta_645994",
+          "d": "2026-09-27",
+          "r": "PODCAST – Eric Marcellin-Dibon, fondateur d’Engo, a pris le contre-pied de Google et de Meta : des lunettes connectées sans caméra ni intelligence artificielle embarquée, pensées pour afficher, dans le champ de vision du sportif, les données de sa montre connectée. Il est l’invité de DeepTechs, le podcast réalisé en partenariat avec Mascaret."
         },
         {
-          "t": "Taxer les milliardaires pour sauver le système de santé : en Californie, un référendum à 100 milliards de dollars fait craindre l’exode des grandes fortunes",
-          "l": "https://www.challenges.fr/monde/taxer-les-milliardaires-pour-sauver-le-systeme-de-sante-en-californie-un-referendum-a-100-milliards-de-dollars-fait-craindre-lexode-des-grandes-fortunes_646001",
-          "d": "2026-09-26",
-          "r": "Les Californiens doivent se prononcer sur la création d’un impôt sur les très grandes fortunes lors des midterms. La bataille fait rage entre risque de départ des milliardaires de la Silicon Valley et financement du système de santé."
+          "t": "Ce qu’il faut retenir du week-end : les infos marquantes en France et dans le monde",
+          "l": "https://www.challenges.fr/economie/ce-quil-faut-retenir-du-week-end-les-infos-marquantes-en-france-et-dans-le-monde_646032",
+          "d": "2026-09-27"
         },
         {
-          "t": "« Une machine à sous sophistiquée » : Tiktok sommé de verser au moins 100 millions de dollars à l’Alabama afin d’éviter un procès",
-          "l": "https://www.challenges.fr/entreprise/tech-numerique/une-machine-a-sous-sophistiquee-tiktok-somme-de-verser-au-moins-100-millions-de-dollars-a-lalabama-afin-deviter-un-proces_646023",
-          "d": "2026-09-26",
-          "r": "Tiktok devra limiter le temps d’écran des adolescents et verser au moins 100 millions de dollars à l’Alabama. C’est le prix à payer pour le réseau social afin d’éviter le premier procès intenté par un État américain."
+          "t": "L’industrie européenne résiste mieux qu’on ne le pense à la pression chinoise et à la flambée des coûts de l’énergie",
+          "l": "https://www.challenges.fr/monde/lindustrie-europeenne-resiste-mieux-quon-ne-le-pense-a-la-pression-chinoise-et-a-la-flambee-des-couts-de-lenergie_646031",
+          "d": "2026-09-27",
+          "r": "Confrontée à l’énergie chère et à la concurrence chinoise, l’industrie européenne traverse une période difficile. Mais certaines entreprises s’adaptent, innovent et certains secteurs se portent finalement plutôt bien."
         },
         {
-          "t": "Léon XIV en France : tout ce que vous devez savoir sur la papamobile, le véhicule emblématique du pape",
-          "l": "https://www.challenges.fr/monde/leon-xiv-en-france-tout-ce-que-vous-devez-savoir-sur-la-papamobile-le-vehicule-emblematique-du-pape_646022",
-          "d": "2026-09-26",
-          "r": "Carrosserie immaculée, allure modérée, toit ouvert, c’est à bord de la papamobile que le pontife Léon XIV salue la foule venue l’acclamer lors de sa visite en France. Ce n’est que depuis les années 1970 que le pape circule à bord de ce véhicule."
+          "t": "« Les prix ont quasiment triplé depuis 2020 ! » : jusqu’à 585 euros de plus sur la facture annuelle, ces solutions pour limiter la flambée des prix dès le 1er octobre",
+          "l": "https://www.challenges.fr/immobilier/les-prix-ont-quasiment-triple-depuis-2020-jusqua-585-euros-de-plus-sur-la-facture-annuelle-ces-solutions-pour-limiter-la-flambee-des-prix-des-le-1er-octobre_646009",
+          "d": "2026-09-27",
+          "r": "Contrat à prix fixe, pompe à chaleur, pilotage de sa consommation ou réglage du thermostat permettent de réduire sa facture avant même l’augmentation des tarifs à venir."
         },
         {
-          "t": "L’or accessible dès 1 euro : applications, pièces numériques, coffres-forts… ces nouvelles façons d’investir dans le métal jaune sans le stocker chez soi",
-          "l": "https://www.challenges.fr/argent-et-placements/lor-accessible-des-1-euro-applications-pieces-numeriques-coffres-forts-ces-nouvelles-facons-dinvestir-dans-le-metal-jaune-sans-le-stocker-chez-soi_646015",
-          "d": "2026-09-26",
-          "r": "Le métal jaune reste un produit qui fait rêver. Plusieurs entreprises veulent en simplifier l’achat pour les particuliers et surtout sa conservation."
+          "t": "Elections sénatoriales : les premiers résultats sont tombés, le RN en quête d’une percée au Palais du Luxembourg",
+          "l": "https://www.challenges.fr/economie/elections-senatoriales-les-premiers-resultats-sont-tombes-le-rn-en-quete-dune-percee-au-palais-du-luxembourg_646029",
+          "d": "2026-09-27",
+          "r": "Dimanche 27 septembre, plus de 93 000 votants, pour la plupart des conseillers municipaux, votent lors des élections sénatoriales. Quelques sénateurs ont déjà été élus pour les départements les plus petits."
         },
         {
-          "t": "97 % des auditeurs n’y voient que du feu, nous avons créé une chanson avec l’IA (en quelques clics)",
-          "l": "https://www.challenges.fr/economie/97-des-auditeurs-ny-voient-que-du-feu-nous-avons-cree-une-chanson-avec-lia-en-quelques-clics_646021",
-          "d": "2026-09-26",
-          "r": "Quel est le point commun de ces trois chansons ? Nous les avons générés en quelques clics et pour 97 % des auditeurs, impossible de voir la différence. Une utilisation de l'IA qui inquiète les plateformes et qui pourrait représenter un quart des revenus du secteur en 2028."
+          "t": "Inégalités scolaires : le Chili fait le pari calculé de subventionner les écoles des quartiers défavorisés, et ça fonctionne",
+          "l": "https://www.challenges.fr/education/inegalites-scolaires-le-chili-fait-le-pari-calcule-de-subventionner-les-ecoles-des-quartiers-defavorises-et-ca-fonctionne_645974",
+          "d": "2026-09-27",
+          "r": "Boîte à idées mondiale 9/9 – Challenges vous propose un tour d’horizon des solutions inspirantes pour l’emploi des jeunes. Pour ce dernier épisode, rendez-vous au Chili. Depuis 2008, le pays d’Amérique du Sud a mis en place un système de subvention complémentaire pour les établissements accueillants des élèves issus de milieux populaires. La SEP a permis de réduire significativement les inégalités scolaires."
         },
         {
-          "t": "Frère Paul-Adrien, Sœur Albertine… Entre audiences, financements et bataille idéologique, les coulisses du boom des influenceurs catholiques sur les réseaux sociaux",
-          "l": "https://www.challenges.fr/entreprise/tech-numerique/frere-paul-adrien-soeur-albertine-entre-audiences-financements-et-bataille-ideologique-les-coulisses-du-boom-des-influenceurs-catholiques-sur-les-reseaux-sociaux_646000",
-          "d": "2026-09-26",
-          "r": "Des créateurs de contenus font émerger un écosystème catholique, à l’audience grandissante. Conservateurs et progressistes y jouent une bataille idéologique."
+          "t": "Donald Trump rejette la proposition iranienne de cessez-le-feu et de réouverture du détroit d’Ormuz",
+          "l": "https://www.challenges.fr/monde/donald-trump-rejette-la-proposition-iranienne-de-cessez-le-feu-et-de-reouverture-du-detroit-dormuz_646028",
+          "d": "2026-09-27",
+          "r": "Le président américain a déclaré que cet accord n’était pas « acceptable » et est resté évasif quant à la question de savoir s’il reprendrait les frappes militaires après les élections de mi-mandat."
         },
         {
-          "t": "Sur 167 projets inspectés, seulement la moitié autorisée sans conditions : Bercy passe au peigne fin les investissements étrangers",
-          "l": "https://www.challenges.fr/entreprise/sur-167-projets-inspectes-seulement-la-moitie-autorisee-sans-conditions-bercy-passe-au-peigne-fin-les-investissements-etrangers_646020",
-          "d": "2026-09-26",
-          "r": "À l’occasion des Assises de la sécurité économique, la direction générale du Trésor a publié un rapport qui revient sur les projets d’investissements étrangers en France. La moitié d’entre eux n’a été acceptée qu’à certaines conditions."
+          "t": "Ladurée contre Pierre Hermé : dans les coulisses de la guerre des macarons que se livrent deux milliardaires français pour les meilleurs emplacements de Paris",
+          "l": "https://www.challenges.fr/entreprise/commerce-et-distribution/laduree-contre-pierre-herme-dans-les-coulisses-de-la-guerre-des-macarons-que-se-livrent-deux-milliardaires-francais-pour-les-meilleurs-emplacements-de-paris_645971",
+          "d": "2026-09-27",
+          "r": "Stéphane Courbit, propriétaire de Ladurée, et Walter Butler, actionnaire majoritaire de la maison Pierre Hermé, se disputent les meilleures adresses et le monopole de cette pâtisserie de luxe."
         },
         {
-          "t": "Les tableaux concernés sont signés Kandinsky, Pissarro, Modigliani… Qui est Mondex, cette entreprise controversée qui traque les œuvres spoliées par les nazis ?",
-          "l": "https://www.challenges.fr/entreprise/les-tableaux-concernes-sont-signes-kandinsky-pissarro-modigliani-qui-est-mondex-cette-entreprise-controversee-qui-traque-les-oeuvres-spoliees-par-les-nazis_645992",
-          "d": "2026-09-26",
-          "r": "La société canadienne monte des procédures judiciaires pour permettre aux descendants de familles juives victimes des nazis de se faire indemniser. Mais elle récupère, au passage, d’importantes commissions et alimente parfois des conflits familiaux."
+          "t": "Les nouvelles lunettes connectées de Meta, un « cheval de Troie pour entrer dans l’usage quotidien des utilisateurs »",
+          "l": "https://www.challenges.fr/entreprise/les-nouvelles-lunettes-connectees-de-meta-un-cheval-de-troie-pour-entrer-dans-lusage-quotidien-des-utilisateurs_646027",
+          "d": "2026-09-27",
+          "r": "Face à la multiplication de concurrents cherchant à contester son hégémonie sur le marché encore restreint des lunettes connectées, Meta a dévoilé mercredi un nouveau modèle sans caméra, mais bientôt doté de son IA Muse, avec l’ambition d’en faire un produit grand public."
         },
         {
-          "t": "Jusqu’à 1200 € par mois d’aides et de prêt : comment la Suède soutient ses étudiants depuis plus de 100 ans",
-          "l": "https://www.challenges.fr/monde/jusqua-1200-eu-par-mois-daides-et-de-pret-comment-la-suede-soutient-ses-etudiants-depuis-plus-de-100-ans_645970",
-          "d": "2026-09-26",
-          "r": "Boîte à idées mondiale 8/9 – Challenges vous propose un tour d’horizon des solutions inspirantes pour l’emploi des jeunes. Pour ce huitième épisode, nous avons pris la direction de la Suède. Depuis plus de 70 ans, le pays fournit à ses étudiants des aides combinant allocations et prêts à taux préférentiel pour favoriser l’égalité des chances."
+          "t": "Budget 2027 : pensions de retraite, arrêts-maladies, cotisations patronales… Les niches fiscales de nouveau ciblées par le gouvernement",
+          "l": "https://www.challenges.fr/economie/budget-2027-pensions-de-retraite-arrets-maladies-cotisations-patronales-les-niches-fiscales-de-nouveau-ciblees-par-le-gouvernement_646026",
+          "d": "2026-09-27",
+          "r": "S’attaquer à la fiscalité, mais sans augmenter les impôts pour tous : le gouvernement compte viser certaines niches fiscales pour le budget 2027, en prévoyant au final une hausse des prélèvements obligatoires."
         },
         {
-          "t": "3 000 € moins cher qu’un Dacia Bigster hybride : que vaut le SUV chinois qui promet de secouer le marché ?",
-          "l": "https://www.challenges.fr/automobile/essais/3-000-eu-moins-cher-quun-dacia-bigster-hybride-que-vaut-le-suv-chinois-qui-promet-de-secouer-le-marche_645984",
-          "d": "2026-09-26",
-          "r": "ESSAI – Après les marques Omoda et Jaecoo, le groupe Chery lance un troisième label en six mois. Les autos portant son nom ont pour but de chiper des clients à Dacia, grâce à un prix imbattable. Le Tiggo 7, un SUV familial hybride, est ainsi moins cher et mieux équipé que le Bigster."
+          "t": "« Nous ne pouvons pas concentrer 100 % de notre artisanat en France sans trouver d’autres revenus » : comment Baccarat se réinvente en jouant sur plusieurs facettes",
+          "l": "https://www.challenges.fr/entreprise/nous-ne-pouvons-pas-concentrer-100-de-notre-artisanat-en-france-sans-trouver-dautres-revenus-comment-baccarat-se-reinvente-en-jouant-sur-plusieurs-facettes_646003",
+          "d": "2026-09-27",
+          "r": "Symbole de l’excellence française, la manufacture lorraine affronte les défis industriels. Derrière le savoir-faire de ses maîtres-verriers, l’entreprise déploie sa marque à l’international dans l’hôtellerie, la gastronomie et la parfumerie."
+        },
+        {
+          "t": "Léon XIV à Lourdes : après avoir frôlé la faillite, la cité mariale a réinventé son modèle économique et fait de nouveau tourner la machine touristique",
+          "l": "https://www.challenges.fr/entreprise/tourisme/leon-xiv-a-lourdes-apres-avoir-frole-la-faillite-la-cite-mariale-a-reinvente-son-modele-economique-et-fait-de-nouveau-tourner-la-machine-touristique_645998",
+          "d": "2026-09-27",
+          "r": "Les visiteurs se presseront dans la cité mariale pour la visite de Léon XIV. Ces pèlerins friands de souvenirs seront aussi une aubaine pour le sanctuaire. Sauvé de la faillite, il se réinvente et attire une nouvelle génération de fidèles."
         }
       ]
     },
@@ -781,34 +791,10 @@
       "nom_site": "La Tribune",
       "articles": [
         {
-          "t": "Valérie Pécresse s'intercale, Marion Maréchal et Marine Le Pen s'enlacent... les politiques au premier rang de la messe du pape",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/3918394667772/valerie-pecresse-sintercale-marion-marechal-et-marine-le-pen-senlacent-les-politiques-au-premier-rang-de-la-messe-pape",
-          "d": "2026-09-26",
-          "r": "Célébrée ce samedi 26 septembre, place de la Concorde à Paris, la messe du pape a rassemblé plusieurs centaines de milliers de fidèles. Parmi eux, un important parterre de responsables politiques, dont plusieurs prétendants à la présidentielle."
-        },
-        {
-          "t": "À Paris, la grande concorde nationale autour de Léon XIV",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/societe/2091259689687614/a-paris-la-grande-concorde-nationale-autour-de-leon-xiv",
-          "d": "2026-09-26",
-          "r": "Pour sa première visite à Paris, le pape Léon XIV a attiré une foule considérable de fidèles et a choisi de rester consensuel, malgré son désaccord avec la loi sur la fin de vie."
-        },
-        {
-          "t": "4 ans après l'accord de Prétoria, l’Éthiopie replonge dans la violence",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/45809003966274/4-ans-apres-laccord-de-pretoria-l-ethiopie-replonge-dans-la-violence",
-          "d": "2026-09-26",
-          "r": "Après la fin d’un conflit dans le Nord en 2022, les affrontements entre armée fédérale et groupes rebelles ont repris cette semaine."
-        },
-        {
-          "t": "Olivier Faure, député et chef de file des socialistes : « Mélenchon n’a pas le monopole de la gauche »",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/15272016721751/olivier-faure-depute-et-chef-de-file-des-socialistes-melenchon-n-a-pas-le-monopole-de-la-gauche",
-          "d": "2026-09-26",
-          "r": "ENTRETIEN EXCLUSIF. Candidat à la primaire sociale-démocrate, le premier secrétaire du PS incite ses concurrents à ne plus « se définir » par rapport au chef des Insoumis, au risque de le « renforcer »."
-        },
-        {
-          "t": "Pékin et Washington refusent de ralentir sur l'IA",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/42773167938188/pekin-et-washington-refusent-de-ralentir-sur-lia",
-          "d": "2026-09-26",
-          "r": "Malgré les récents incidents et les multiples appels à une régulation, Xi Jinping et Donald Trump ont acté cette semaine la poursuite sans entrave du développement du secteur."
+          "t": "Valdunes : un nouveau prêt de l’État pour la dernière usine de roue ferroviaire",
+          "l": "https://www.latribune.fr/article/entreprises-finance/industrie/64235209457650/valdunes-un-nouveau-pret-de-l-etat-pour-payer-les-salaires-de-septembre",
+          "d": "2026-09-27",
+          "r": "Bercy a débloqué 1,5 million d’euros supplémentaires pour le dernier fabricant français de roues ferroviaires, selon Le Figaro. Deux ans et demi après sa reprise par Europlasma, Valdunes tourne au ralenti."
         }
       ]
     },
@@ -1022,40 +1008,10 @@
       "nom_site": "LeMagIT",
       "articles": [
         {
-          "t": "Microsoft unifie les capacités de Copilot et scinde son modèle tarifaire",
-          "l": "https://www.lemagit.fr/actualites/366651201/Microsoft-unifie-les-capacites-de-Copilotet-scinde-son-modele-tarifaire",
-          "d": "2026-09-25",
-          "r": "Copilot devient une «&nbsp;super app&nbsp;» selon Satya Nadella, CEO de Microsoft. L’assistant IA rassemble une grande partie des capacités génériques développées par l’entreprise depuis près de trois ans. Depuis son interface «&nbsp;Home&nbsp;», les usagers accéderont à Copilot Chat, Cowork – qui avait été introduit en mars 2026 – et, plus tard, à Code et à Autopilot. De surcroît, la suite Office vient à Copilot. Les usagers pourront retrouver Word, Excel et PowerPoint depuis l’interface très semblable à celle de l’assistant Claude d’Anthropic. Il s’agit là de simplifier la génération de documents&nbsp;: brief, budgets, présentation, modification de fichiers existants, etc. Home, Code, Auto"
-        },
-        {
-          "t": "KiteWorks exhorte ses clients à éteindre leurs serveurs",
-          "l": "https://www.lemagit.fr/actualites/366651199/KiteWorks-exhorte-ses-clients-a-eteindre-leurs-serveurs",
-          "d": "2026-09-25",
-          "r": "« Nous avons reçu des renseignements sur les menaces crédibles de la part des forces de l'ordre indiquant qu'une attaque contre les systèmes de Kiteworks pourrait être imminente ce week-end. Nous vous recommandons vivement d'éteindre votre système Kiteworks pendant six heures ». C'est l'alerte adressée par KiteWorks à ses clients par le truchement de son RSSI, Frank Balonis, rapportent nos confrères de Heise . En Europe, les systèmes Cloud de KiteWorks sont fermés samedi 26 septembre, de 4h à 10h. L'éditeur recommande à ses clients d'arrêter leurs instances avant même cette heure, même s'ils ne sont pas exposés sur Internet. Selon nos confrères, KiteWorks craint l'exploitation d'une vulnérab"
-        },
-        {
           "t": "Déconvenues d’Oracle : les signes avant-coureurs d’un éclatement de la bulle IA",
-          "l": "https://www.lemagit.fr/actualites/366651224/Deconvenues-dOracle-les-signes-avant-coureurs-dun-eclatement-de-la-bulle-IA",
-          "d": "2026-09-25",
-          "r": "Oracle subit encore davantage les écueils de sa marche forcée vers les hautes sphères de l’IA. Au point, cette fois-ci, d’être tenu pour responsable du possible éclatement de la bulle financière de l’IA. Selon Bloomberg et Reuters , le retard que le groupe vient de confirmer dans la livraison de son gigadatacenter Jupiter (2,45&nbsp;gigawatts sur près de 570&nbsp;hectares) au Nouveau-Mexique serait devenu, en quelques heures à peine, le symbole même d’une économie américaine partie trop loin dans ses investissements en IA. Les conséquences financières de ce retard d’au moins un an sont notamment qu’Oracle ne pourra pas rembourser à temps le prêt de 18&nbsp;milliards de dollars qu’il avait pr"
-        },
-        {
-          "t": "Cyberhebdo du 25 septembre 2026 : encore une semaine très violente",
-          "l": "https://www.lemagit.fr/actualites/366651314/Cyberhebdo-du-25-septembre-2026",
-          "d": "2026-09-25",
-          "r": "Bienvenue dans le&nbsp;Cyberhebdo, votre revue de presse hebdomadaire dédiée aux menaces numériques. Au cours de la semaine écoulée, notre veille a permis de compiler un total de&nbsp;15&nbsp;cyberattaques&nbsp;rapportées dans les médias internationaux. Ces incidents, variés en nature et en impact, ont touché une mosaïque de nations, incluant Singapour (SGP), le Népal (NPL), la Grèce (GRC), la Malaisie (MYS), la Hongrie (HUN), le Canada (CAN), la Corée du Sud (KOR), les États-Unis (USA), la France (FRA), l’Allemagne (DEU) et la Russie (RUS). L’analyse de ces données révèle une concentration notable des événements dans certains territoires. Nous soulignons en particulier la présence des&nbsp;"
-        },
-        {
-          "t": "Programmation agentique : avec Air, Jetbrains se pose en orchestrateur des agents IA",
-          "l": "https://www.lemagit.fr/actualites/366651374/Programmation-agentique-Avec-Air-Jetbrains-se-pose-en-orchestrateur-des-agents-IA",
-          "d": "2026-09-25",
-          "r": "Dépassé par les côtés par OpenAI, Anthropic, Google, Cursor et plusieurs startups, Jetbrains tente de prendre de la hauteur. L’éditeur connu pour ses IDE a présenté en mars plusieurs outils dédiés à la programmation agentique. Il avait dévoilé Air, un environnement de développement permettant de déléguer des tâches de programmation à plusieurs agents en parallèle. Il avait aussi lancé Junie&nbsp;CLI, un terminal agentique. Peu après, il avait présenté Jetbrains Central, un service consacré à la gouvernance des agents, de leurs coûts, de leurs identités, des accès, des sources de code et de données associées, des environnements d’exécution, des outils (IDE, CLI, plugins, services Jetbrains) e"
-        },
-        {
-          "t": "Comment bien structurer une démarche quantique ? L’exemple d’Allianz et de son Quantum Hub",
-          "l": "https://www.lemagit.fr/conseil/Comment-bien-structurer-une-demarche-quantique-Lexemple-dAllianz-et-de-son-Quantum-Hub",
-          "d": "2026-09-25",
-          "r": "«&nbsp;Nous savons tous que l’informatique quantique en est encore à un stade précoce&nbsp;», prévient d’emblée Olivier Salomon, responsable du Quantum Hub d’Allianz. «&nbsp;Mais ce n’est pas une raison pour ne pas s’y mettre, parce que le quantique est difficile et très différent de ce que permet l’informatique classique.&nbsp;» Reste à savoir comment s’y prendre concrètement, à l’échelle d’un groupe de cette taille, sans prendre de risques inconsidérés ni gaspiller de budget sur un sujet dont personne ne sait quand il deviendra mature . Construire une feuille de route par période «&nbsp;Je n’ai pas de boule de cristal, je ne peux pas donner de feuille de route précise pour l’avantage quant"
+          "l": "https://www.lemagit.fr/dessin/Deconvenues-dOracle-les-signes-avant-coureurs-dun-eclatement-de-la-bulle-IA",
+          "d": "2026-09-27",
+          "r": "Bloqué par l’opposition du public, Oracle ne parviendra pas à faire entrer en production son datacenter Jupiter excessivement énergivore à la date prévue. Pour retarder le remboursement de ses créanciers, il actionne le cas de force majeure. Une décision qui enflamme la finance. &gt; Lire l’article de Yann Serra"
         }
       ]
     },
@@ -1063,7 +1019,7 @@
       "nom_site": "Service public|Particuliers",
       "articles": [
         {
-          "t": "Consommateurs : un outil pour signaler les pratiques abusives",
+          "t": "SignalConso, le site pour signaler les pratiques abusives",
           "l": "https://www.service-public.gouv.fr/particuliers/actualites/A13880?xtor=RSS-111",
           "d": "2026-09-25",
           "r": "Prix non affiché, démarchage téléphonique, arnaque à la rénovation énergétique, faux courriers administratifs, publicité dissimulée par des influenceurs, arnaques après les incendies, produits dangereux, retard de livraison... Vous pouvez signaler ces litiges sur le site SignalConso. La plateforme enregistre aujourd'hui 1 million de signalements. Service Public vous rappelle le mode d'emploi de ce dispositif de protection des consommateurs."
@@ -1097,7 +1053,6 @@
   "cour-comptes": [
     {
       "nom_site": "Cour des Comptes",
-      "type": "publication",
       "articles": [
         {
           "t": "Collectivité territoriale de Martinique (CTM)",
@@ -1149,7 +1104,8 @@
           "l": "https://www.ccomptes.fr/fr/publications/departement-du-territoire-de-belfort-90",
           "d": "2026-09-25"
         }
-      ]
+      ],
+      "type": "publication"
     }
   ]
 }
