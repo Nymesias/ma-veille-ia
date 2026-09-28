@@ -188,9 +188,36 @@ class VeilleTests(unittest.TestCase):
         )
 
         with patch("veille.GEMINI_MAX_RETRIES", 2):
-            with self.assertRaises(veille.ErreurGeminiTemporaire):
-                veille.appeler_gemini("finance", [{
-                    "categorie": "finance",
+            with patch("veille.GEMINI_FALLBACK_MODELS", ()):
+                with self.assertRaises(veille.ErreurGeminiTemporaire):
+                    veille.appeler_gemini("finance", [{
+                        "categorie": "finance",
+                        "source": "Source",
+                        "titre": "Titre",
+                        "lien": "https://example.com",
+                        "date": veille.HIER,
+                        "resume": "Résumé officiel",
+                    }], {"tokens": 0})
+
+        self.assertEqual(post.call_count, 2)
+        sleep.assert_called_once_with(veille.GEMINI_RETRY_BASE_SECONDS)
+
+    @patch("veille.consommer_quota_gemini")
+    @patch("veille.time.sleep")
+    @patch("veille.requests.post")
+    def test_appel_gemini_bascule_sur_un_modele_de_secours(self, post, sleep, consommer):
+        indisponible = Mock(status_code=503, headers={})
+        succes = Mock(status_code=200, headers={})
+        succes.json.return_value = {
+            "usageMetadata": {"totalTokenCount": 20},
+            "candidates": [{"content": {"parts": [{"text": "# Secours"}]}}],
+        }
+        post.side_effect = [indisponible, succes]
+
+        with patch("veille.GEMINI_MAX_RETRIES", 1):
+            with patch("veille.GEMINI_FALLBACK_MODELS", ("gemini-3.7-flash",)):
+                resultat = veille.appeler_gemini("news", [{
+                    "categorie": "news",
                     "source": "Source",
                     "titre": "Titre",
                     "lien": "https://example.com",
@@ -198,8 +225,10 @@ class VeilleTests(unittest.TestCase):
                     "resume": "Résumé officiel",
                 }], {"tokens": 0})
 
-        self.assertEqual(post.call_count, 2)
-        sleep.assert_called_once_with(veille.GEMINI_RETRY_BASE_SECONDS)
+        self.assertEqual(resultat, "# Secours")
+        self.assertIn("gemini-3.7-flash:generateContent", post.call_args.args[0])
+        sleep.assert_not_called()
+        consommer.assert_called_once()
 
 
 if __name__ == "__main__":

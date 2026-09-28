@@ -23,6 +23,13 @@ from bs4 import BeautifulSoup
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
+GEMINI_FALLBACK_MODELS = tuple(
+    modele.strip()
+    for modele in os.getenv(
+        "GEMINI_FALLBACK_MODELS", "gemini-3.7-flash,gemini-3.6-flash"
+    ).split(",")
+    if modele.strip()
+)
 GEMINI_DAILY_TOKEN_BUDGET = int(os.getenv("GEMINI_DAILY_TOKEN_BUDGET", "100000"))
 GEMINI_MAX_INPUT_TOKENS = int(os.getenv("GEMINI_MAX_INPUT_TOKENS", "12000"))
 GEMINI_MAX_OUTPUT_TOKENS = int(os.getenv("GEMINI_MAX_OUTPUT_TOKENS", "1200"))
@@ -1735,50 +1742,67 @@ def appeler_gemini(cible, articles, quota):
             "thinkingConfig": {"thinkingLevel": "low"},
         },
     }
-    reponse = None
     nombre_tentatives = max(1, GEMINI_MAX_RETRIES)
-    for tentative in range(nombre_tentatives):
-        reponse = requests.post(
-            f"{GEMINI_API_URL}/{quote(GEMINI_MODEL, safe='')}:generateContent",
-            headers={
-                "x-goog-api-key": GEMINI_KEY,
-                "Content-Type": "application/json",
-            },
-            json=donnees_requete,
-            timeout=90,
-        )
-        erreur_transitoire = (
-            reponse.status_code in (408, 429)
-            or 500 <= reponse.status_code < 600
-        )
-        if not erreur_transitoire:
-            reponse.raise_for_status()
+    modeles = tuple(dict.fromkeys((GEMINI_MODEL,) + GEMINI_FALLBACK_MODELS))
+    for index_modele, modele in enumerate(modeles):
+        reponse = None
+        for tentative in range(nombre_tentatives):
+            reponse = requests.post(
+                f"{GEMINI_API_URL}/{quote(modele, safe='')}:generateContent",
+                headers={
+                    "x-goog-api-key": GEMINI_KEY,
+                    "Content-Type": "application/json",
+                },
+                json=donnees_requete,
+                timeout=90,
+            )
+            erreur_transitoire = (
+                reponse.status_code in (408, 429)
+                or 500 <= reponse.status_code < 600
+            )
+            if not erreur_transitoire:
+                reponse.raise_for_status()
+                break
+            if tentative + 1 >= nombre_tentatives:
+                break
+            retry_after = reponse.headers.get("Retry-After", "")
+            try:
+                attente = max(float(retry_after), GEMINI_RETRY_BASE_SECONDS)
+            except (TypeError, ValueError):
+                attente = GEMINI_RETRY_BASE_SECONDS * (2 ** tentative)
+            attente = min(attente, 60)
+            print(
+                f"Erreur Gemini temporaire HTTP {reponse.status_code} pour {cible} "
+                f"avec {modele}; nouvel essai dans "
+                f"{attente:g} s ({tentative + 2}/{nombre_tentatives})."
+            )
+            time.sleep(attente)
+        if reponse is None:
+            raise RuntimeError("aucune tentative Gemini effectuée")
+        if not (reponse.status_code in (408, 429) or 500 <= reponse.status_code < 600):
             break
-        if tentative + 1 >= nombre_tentatives:
-            break
-        retry_after = reponse.headers.get("Retry-After", "")
-        try:
-            attente = max(float(retry_after), GEMINI_RETRY_BASE_SECONDS)
-        except (TypeError, ValueError):
-            attente = GEMINI_RETRY_BASE_SECONDS * (2 ** tentative)
-        attente = min(attente, 60)
-        print(
-            f"Erreur Gemini temporaire HTTP {reponse.status_code} pour {cible}; "
-            f"nouvel essai dans "
-            f"{attente:g} s ({tentative + 2}/{nombre_tentatives})."
-        )
-        time.sleep(attente)
-    if reponse is None:
-        raise RuntimeError("aucune tentative Gemini effectuée")
-    if reponse.status_code in (408, 429) or 500 <= reponse.status_code < 600:
         try:
             detail = ((reponse.json() or {}).get("error") or {}).get("message", "")
         except (ValueError, AttributeError):
             detail = ""
+        if index_modele + 1 < len(modeles):
+            prochain_modele = modeles[index_modele + 1]
+            print(
+                f"{modele} reste indisponible pour {cible}; "
+                f"basculement vers {prochain_modele}."
+            )
+            continue
         suffixe = f" ({nettoyer_texte(detail, 300)})" if detail else ""
         raise ErreurGeminiTemporaire(
-            f"erreur Gemini HTTP {reponse.status_code} persistante après les réessais"
-            f"{suffixe}"
+            f"erreur Gemini HTTP {reponse.status_code} persistante sur "
+            f"{', '.join(modeles)} après les réessais{suffixe}"
+        )
+    else:
+        raise ErreurGeminiTemporaire("tous les modèles Gemini sont indisponibles")
+
+    if modele != GEMINI_MODEL:
+        print(
+            f"Génération {cible} effectuée avec le modèle de secours {modele}."
         )
     payload = reponse.json()
     usage = payload.get("usageMetadata") or {}
