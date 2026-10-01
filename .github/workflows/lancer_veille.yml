@@ -2,7 +2,9 @@ name: Ma Veille IA Quotidienne
 
 on:
   schedule:
-    - cron: '0 4 * * *' # 06:00 à Paris en été, 05:00 en hiver
+    # 02:23 UTC évite les heures pleines et les créneaux européens les plus chargés
+    # (04:23 à Paris en été, 03:23 en hiver).
+    - cron: '23 2 * * *'
   workflow_dispatch:      # Permet de lancer le script manuellement
 
 permissions:
@@ -15,6 +17,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     steps:
       # --- 1. RÉCUPÉRATION DU DÉPÔT ---
       - name: Checkout du dépôt
@@ -42,7 +45,27 @@ jobs:
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
-        run: python veille.py
+        run: |
+          # Trois tentatives au total. Les pauses longues laissent passer les
+          # pointes temporaires de charge Gemini (HTTP 503 / timeouts).
+          tentative=1
+          for attente in 0 300 900; do
+            if [ "$attente" -gt 0 ]; then
+              echo "Nouvelle tentative dans $((attente / 60)) minute(s)..."
+              sleep "$attente"
+            fi
+
+            echo "Tentative ${tentative}/3"
+            if python veille.py; then
+              exit 0
+            fi
+
+            if [ "$tentative" -eq 3 ]; then
+              echo "La veille a échoué après 3 tentatives."
+              exit 1
+            fi
+            tentative=$((tentative + 1))
+          done
 
       # --- 4. LE PUSH (Sauvegarde les nouveaux fichiers) ---
       - name: Sauvegarder sur le serveur
