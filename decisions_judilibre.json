@@ -1,31 +1,75 @@
 {
-  "mis_a_jour": "2026-09-30T10:15:37",
-  "date_cible": "2026-09-29",
-  "date_recherche_initiale": "2026-09-29",
-  "total": 2,
+  "mis_a_jour": "2026-10-02T08:38:05",
+  "date_cible": "2026-09-30",
+  "date_recherche_initiale": "2026-10-01",
+  "total": 6,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
     {
-      "id": "6abb6dfcc27382d099e54f97",
-      "date": "2026-09-29",
+      "id": "6abcc040c27382d0990844b4",
+      "date": "2026-09-30",
       "chambre": "Chambre criminelle",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-86.702",
+      "numero": "25-81.866",
       "solution": "Cassation",
       "publication": "Publié au Bulletin",
-      "sommaire": "Méconnaît les articles L. 4161-1, L. 4161-5, L. 4221-1 et L. 4223-1 du code de la santé publique, dont il résulte que les infractions d'exercice illégal des professions de médecin ou de pharmacien font encourir la peine complémentaire d'interdiction d'exercer toute activité professionnelle ou sociale à l'occasion de l'exercice de laquelle elles ont été commises, la cour d'appel qui étend une telle interdiction aux activités en lien avec le sport alors que le prévenu, relaxé du délit d'aide ou incitation à l'usage de produits dopants, a été déclaré coupable des délits susmentionnés sans que ces derniers aient un quelconque lien avec le domaine sportif",
-      "url": "https://www.courdecassation.fr/decision/6abb6dfcc27382d099e54f97"
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6abcc040c27382d0990844b4"
     },
     {
-      "id": "6abb6dffc27382d099e54fcb",
-      "date": "2026-09-29",
-      "chambre": "Chambre criminelle",
+      "id": "6abcc206c27382d09908d3ad",
+      "date": "2026-09-30",
+      "chambre": "Chambre commerciale financière et économique",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-82.579",
+      "numero": "25-17.038",
       "solution": "Cassation",
       "publication": "Publié au Bulletin",
-      "sommaire": "L'existence d'une fraude à la loi permet au juge de prononcer une sanction pénale à l'encontre de la société absorbante lorsque l'opération de fusion-absorption, intervenue avant le revirement de jurisprudence du 25 novembre 2020 (Crim., 25 novembre 2020, pourvoi n°18-86.955, publié), a eu pour objectif de faire échapper la société absorbée à sa responsabilité pénale. Encourt la cassation la décision qui qualifie de fraude à la loi une fusion-absorption, au seul motif que cette opération, intervenue après la mise en examen de la société absorbée, n'a eu pour objectif que de faire échapper cette dernière à sa responsabilité pénale, sans décrire précisément le faisceau d'indices, tels que la n",
-      "url": "https://www.courdecassation.fr/decision/6abb6dffc27382d099e54fcb"
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6abcc206c27382d09908d3ad"
+    },
+    {
+      "id": "6abcc20ac27382d09908d4f3",
+      "date": "2026-09-30",
+      "chambre": "Première chambre civile",
+      "formation": "Formation de section",
+      "numero": "25-15.397",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Après avoir estimé, dans le contrôle de la régularité internationale auquel elle s'est livrée conformément à son office, que l'exequatur du jugement étranger se heurtait notamment à l'existence d'une fraude, la cour d'appel, qui a mis en balance les différents intérêts publics et privés en présence, tout particulièrement l'intérêt de l'enfant apprécié concrètement, a pu déduire de l'ensemble des circonstances de la cause que le refus d'accorder l'exequatur au jugement d'adoption prononcé par les juridictions étrangères ne portait pas une atteinte disproportionnée au droit au respect de la vie privée et familiale des demandeurs et de l'enfant",
+      "url": "https://www.courdecassation.fr/decision/6abcc20ac27382d09908d4f3"
+    },
+    {
+      "id": "6abcc203c27382d09908d2ae",
+      "date": "2026-09-30",
+      "chambre": "Chambre commerciale financière et économique",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-18.559",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "Il résulte des articles L. 511-21 et L. 512-4 du code de commerce que l'aval d'un billet à ordre, exprimé par les mots « bon pour aval » ou par toute autre formule équivalente, résulte de la seule signature du donneur d'aval apposée au recto de l'effet",
+      "url": "https://www.courdecassation.fr/decision/6abcc203c27382d09908d2ae"
+    },
+    {
+      "id": "6abcc20dc27382d09908d627",
+      "date": "2026-09-30",
+      "chambre": "Première chambre civile",
+      "formation": "Formation de section",
+      "numero": "25-14.299",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Lorsqu'une décision de divorce a été prononcée à l'étranger en application d'une loi qui n'accorde pas à l'un des époux, en raison de son appartenance à l'un ou l'autre sexe, une égalité d'accès au divorce, sa reconnaissance peut cependant être obtenue en France dès lors que cette décision a été sollicitée par celui des époux à l'égard duquel sont prévues les règles les moins favorables, que ce dernier a pu faire valoir ses droits et que n'est pas établie l'existence d'un autre motif de contrariété à l'ordre public de fond ou de procédure",
+      "url": "https://www.courdecassation.fr/decision/6abcc20dc27382d09908d627"
+    },
+    {
+      "id": "6abe4635c27382d0995dfc0d",
+      "date": "2026-09-30",
+      "chambre": "Chambre criminelle",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "26-84.377",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6abe4635c27382d0995dfc0d"
     }
   ]
 }
