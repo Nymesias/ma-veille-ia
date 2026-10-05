@@ -1,32 +1,10 @@
 {
-  "mis_a_jour": "2026-10-04T08:32:04",
+  "mis_a_jour": "2026-10-05T09:12:34",
   "date_cible": "2026-10-01",
-  "date_recherche_initiale": "2026-10-03",
+  "date_recherche_initiale": "2026-10-04",
   "total": 16,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
-    {
-      "id": "6abe4b14c27382d0995fc6d3",
-      "date": "2026-10-01",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation de section",
-      "numero": "24-12.329",
-      "solution": "Rejet",
-      "publication": "Publié au Bulletin - Publié au Rapport - Publié aux Lettres de chambre",
-      "sommaire": "1. Un clan est un citoyen de statut civil particulier au sens de l'article L. 562-19 du code de l'organisation judiciaire de sorte qu'il a qualité et intérêt à agir dans un litige l'opposant à d'autres citoyens relevant de ce statut et portant sur l'occupation de terres coutumières qu'il revendique. Il s'ensuit qu'est recevable un pourvoi en cassation en ce qu'il est dirigé contre un clan, ainsi pourvu de la personnalité juridique, par d'autres citoyens de statut civil particulier dans un litige afférent à l'occupation de terres régies par ce statut » (sommaire sur la recevabilité du pourvoi). 2. D'une part, il n'existe aucune disposition de procédure imposant un préliminaire de médiation co",
-      "url": "https://www.courdecassation.fr/decision/6abe4b14c27382d0995fc6d3"
-    },
-    {
-      "id": "6abe4b0cc27382d0995fc355",
-      "date": "2026-10-01",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "23-21.044",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "1. Les erreurs et omissions matérielles affectant un jugement rendu par une formation collégiale ne peuvent être rectifiées que par une juridiction statuant en formation collégiale. 2. Méconnaît les exigences des articles 14 et 462, alinéa 3, du code de procédure civile le jugement qui fait droit à la requête en rectification d'un jugement, alors qu'il ne résulte pas de ses mentions et des productions, notamment de notes d'audience, que la requête ait été portée à la connaissance du défendeur ni que celui-ci ait été entendu ou appelé",
-      "url": "https://www.courdecassation.fr/decision/6abe4b0cc27382d0995fc355"
-    },
     {
       "id": "6abe4b08c27382d0995fc198",
       "date": "2026-10-01",
@@ -103,6 +81,28 @@
       "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
       "sommaire": "La demande qui tend au remplacement d'un administrateur provisoire désigné sur le fondement de l'article 29-1 de la loi n° 65-557 du 10 juillet 1965 n'est pas soumise à obligation de communication au procureur de la République",
       "url": "https://www.courdecassation.fr/decision/6abe4ae5c27382d0995fb2a2"
+    },
+    {
+      "id": "6abe4b14c27382d0995fc6d3",
+      "date": "2026-10-01",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation de section",
+      "numero": "24-12.329",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié au Rapport - Publié aux Lettres de chambre",
+      "sommaire": "1. Un clan est un citoyen de statut civil particulier au sens de l'article L. 562-19 du code de l'organisation judiciaire de sorte qu'il a qualité et intérêt à agir dans un litige l'opposant à d'autres citoyens relevant de ce statut et portant sur l'occupation de terres coutumières qu'il revendique. Il s'ensuit qu'est recevable un pourvoi en cassation en ce qu'il est dirigé contre un clan, ainsi pourvu de la personnalité juridique, par d'autres citoyens de statut civil particulier dans un litige afférent à l'occupation de terres régies par ce statut » (sommaire sur la recevabilité du pourvoi). 2. D'une part, il n'existe aucune disposition de procédure imposant un préliminaire de médiation co",
+      "url": "https://www.courdecassation.fr/decision/6abe4b14c27382d0995fc6d3"
+    },
+    {
+      "id": "6abe4b0cc27382d0995fc355",
+      "date": "2026-10-01",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "23-21.044",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "1. Les erreurs et omissions matérielles affectant un jugement rendu par une formation collégiale ne peuvent être rectifiées que par une juridiction statuant en formation collégiale. 2. Méconnaît les exigences des articles 14 et 462, alinéa 3, du code de procédure civile le jugement qui fait droit à la requête en rectification d'un jugement, alors qu'il ne résulte pas de ses mentions et des productions, notamment de notes d'audience, que la requête ait été portée à la connaissance du défendeur ni que celui-ci ait été entendu ou appelé",
+      "url": "https://www.courdecassation.fr/decision/6abe4b0cc27382d0995fc355"
     },
     {
       "id": "6abe4af0c27382d0995fb768",
