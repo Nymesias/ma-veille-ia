@@ -29,16 +29,16 @@
             <button class="tab-btn" onclick="piloterOnglet(this, 'Blogs')">Blogs</button>
         </div>
 
-        <div id="institution-tabs" class="subtabs" hidden role="tablist" aria-label="Institutions parlementaires">
-            <button class="subtab-btn active" role="tab" aria-selected="true" data-filtre-institution="senat">Sénat</button>
-            <button class="subtab-btn" role="tab" aria-selected="false" data-filtre-institution="assemblee">Assemblée nationale</button>
-            <button class="subtab-btn" role="tab" aria-selected="false" data-filtre-institution="autres">Autres institutions</button>
-        </div>
-
         <div style="text-align: right; margin-bottom: 20px;">
             <span style="font-size: 0.8em; color: #666;">Trier par : </span>
             <button onclick="changerTriJuridique('date')" id="btn-date" class="btn-tri active">🕒 Date</button>
             <button onclick="changerTriJuridique('source')" id="btn-source" class="btn-tri">🏢 Source</button>
+        </div>
+
+        <div id="institution-tabs" class="subtabs" hidden role="tablist" aria-label="Institutions parlementaires">
+            <button class="subtab-btn active" role="tab" aria-selected="true" data-filtre-institution="senat">Sénat</button>
+            <button class="subtab-btn" role="tab" aria-selected="false" data-filtre-institution="assemblee">Assemblée nationale</button>
+            <button class="subtab-btn" role="tab" aria-selected="false" data-filtre-institution="autres">Autres institutions</button>
         </div>
 
         <div id="juridique-content" class="grille-veille">
@@ -75,7 +75,7 @@
             triActuel,
             options.exclusions,
             options.inclusions,
-            ongletActif !== 'Institutions' || filtreInstitutionActif === 'autres'
+            false
         );
     }
 
