@@ -755,7 +755,15 @@ def entrees_page_conseil_etat(contenu, url):
 def contenu_page_officielle(url, entetes):
     """Charge une page officielle, avec Chromium en repli contre les protections antibot."""
     try:
-        return requete_avec_reessais(url, entetes, timeout=30).text
+        reponse = requete_avec_reessais(url, entetes, timeout=30)
+        # Le Sénat sert certaines pages UTF-8 sans déclarer leur encodage.
+        # Requests choisit alors ISO-8859-1 et corrompt les accents.
+        if (
+            (reponse.encoding or "").lower() in {"iso-8859-1", "latin-1"}
+            and (reponse.apparent_encoding or "").lower().replace("_", "-") == "utf-8"
+        ):
+            reponse.encoding = "utf-8"
+        return reponse.text
     except Exception as erreur_requete:
         try:
             from playwright.sync_api import sync_playwright
@@ -799,6 +807,112 @@ def entrees_page_officielle(contenu, url, type_source):
             continue
         liens_vus.add(href)
         entrees.append({"title": titre, "link": href, "date_normalisee": date})
+    return entrees[:30]
+
+
+def entrees_questions_senat(contenu, url):
+    """Extrait les dernières questions et réponses publiées au JO par le Sénat."""
+    page = BeautifulSoup(contenu or "", "html.parser")
+    entrees = []
+    compteurs = {"Question": 0, "Réponse": 0}
+    for bloc in page.select(".accordion-item"):
+        entete = bloc.select_one("h2")
+        libelle = nettoyer_texte(entete.get_text(" ", strip=True) if entete else "", 500)
+        date = normaliser_date_publication(libelle)
+        if not date:
+            continue
+        if libelle.casefold().startswith("questions publiées"):
+            nature = "Question"
+        elif libelle.casefold().startswith("réponses publiées"):
+            nature = "Réponse"
+        else:
+            continue
+
+        for ligne in bloc.select(".accordion-body li"):
+            # La page contient souvent plusieurs dizaines de questions avant
+            # les réponses : un plafond distinct garantit la présence des deux.
+            if compteurs[nature] >= 15:
+                break
+            lien = ligne.select_one('a[href*="/questions/base/"]')
+            if not lien:
+                continue
+            numero = nettoyer_texte(lien.get_text(" ", strip=True), 40)
+            texte = nettoyer_texte(ligne.get_text(" ", strip=True), 700)
+            titre = texte.split(":", 1)[1].strip() if ":" in texte else texte
+            auteur = texte.split(":", 1)[0].strip()
+            rubrique_element = ligne.find_previous("h3")
+            rubrique = nettoyer_texte(
+                rubrique_element.get_text(" ", strip=True)
+                if rubrique_element else "",
+                160,
+            )
+            tags = [{"term": nature}]
+            if rubrique:
+                tags.append({"term": rubrique})
+            entrees.append({
+                "title": f"{nature} n° {numero} — {titre}",
+                "link": urljoin(url, lien.get("href", "")),
+                "date_normalisee": date,
+                "summary": auteur,
+                "tags": tags,
+            })
+            compteurs[nature] += 1
+    return entrees
+
+
+def entrees_questions_assemblee(contenu, url, type_source):
+    """Extrait les résultats du moteur des questions de l'Assemblée nationale."""
+    page = BeautifulSoup(contenu or "", "html.parser")
+    est_reponse = type_source == "html-an-reponses"
+    entrees = []
+    for carte in page.select(".bloc-content"):
+        lien = carte.select_one('a.h5[href*="/questions/QANR"]')
+        if not lien:
+            continue
+        texte = nettoyer_texte(carte.get_text(" ", strip=True), 1600)
+        if est_reponse:
+            correspondance_date = re.search(
+                r"Réponse publiée le\s+(\d{1,2}\s+[a-zéû]+\s+20\d{2})",
+                texte,
+                re.I,
+            )
+            nature = "Réponse"
+        else:
+            correspondance_date = re.search(
+                r"\b(\d{1,2}\s+[a-zéû]+\s+20\d{2})\b",
+                texte,
+                re.I,
+            )
+            nature = "Question"
+        date = normaliser_date_publication(
+            correspondance_date.group(1) if correspondance_date else ""
+        )
+        if not date:
+            continue
+
+        intitule = nettoyer_texte(lien.get_text(" ", strip=True), 300)
+        correspondance_titre = re.search(
+            r"Titre\s*:\s*(.+?)(?=\s+(?:Question sans réponse|Réponse publiée le)\b|$)",
+            texte,
+            re.I,
+        )
+        sujet = correspondance_titre.group(1).strip() if correspondance_titre else ""
+        correspondance_rubrique = re.search(
+            r"Rubrique\s*:\s*(.+?)(?=\s+Titre\s*:)", texte, re.I
+        )
+        rubrique = (
+            correspondance_rubrique.group(1).strip()
+            if correspondance_rubrique else ""
+        )
+        tags = [{"term": nature}]
+        if rubrique:
+            tags.append({"term": rubrique})
+        entrees.append({
+            "title": f"{intitule} — {sujet}" if sujet else intitule,
+            "link": urljoin(url, lien.get("href", "")),
+            "date_normalisee": date,
+            "tags": tags,
+        })
     return entrees[:30]
 
 
@@ -897,6 +1011,12 @@ def collecter_articles(sources):
                 contenu_source = contenu_page_officielle(url, entetes)
                 if type_source == "html-conseil-etat":
                     entrees = entrees_page_conseil_etat(contenu_source, url)
+                elif type_source == "html-senat-questions":
+                    entrees = entrees_questions_senat(contenu_source, url)
+                elif type_source in {"html-an-questions", "html-an-reponses"}:
+                    entrees = entrees_questions_assemblee(
+                        contenu_source, url, type_source
+                    )
                 else:
                     entrees = entrees_page_officielle(
                         contenu_source, url, type_source

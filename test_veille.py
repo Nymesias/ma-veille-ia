@@ -23,6 +23,81 @@ import veille
 
 
 class VeilleTests(unittest.TestCase):
+    def test_questions_senat_extraient_questions_et_reponses_du_dernier_jo(self):
+        def bloc_senat(libelle, nature, numero, sujet, rubrique):
+            entete = Mock()
+            entete.get_text.return_value = libelle
+            titre_rubrique = Mock()
+            titre_rubrique.get_text.return_value = rubrique
+            lien = Mock()
+            lien.get.side_effect = lambda attribut, repli="": {
+                "href": f"/questions/base/2026/q{numero}.html",
+            }.get(attribut, repli)
+            lien.get_text.return_value = numero
+            ligne = Mock()
+            ligne.select_one.return_value = lien
+            ligne.get_text.return_value = f"{numero} de Mme Exemple : {sujet}"
+            ligne.find_previous.return_value = titre_rubrique
+            bloc = Mock()
+            bloc.select_one.return_value = entete
+            bloc.select.return_value = [ligne]
+            return bloc
+
+        blocs = [
+            bloc_senat(
+                "Questions publiées dans le JO du 8 octobre 2026",
+                "Question", "10249", "Déploiement de la fibre", "Numérique",
+            ),
+            bloc_senat(
+                "Réponses publiées dans le JO du 8 octobre 2026",
+                "Réponse", "09370", "Retards de paiement", "Économie",
+            ),
+        ]
+        with patch("veille.BeautifulSoup") as analyseur:
+            analyseur.return_value.select.return_value = blocs
+            entrees = veille.entrees_questions_senat(
+                "<html>", "https://www.senat.fr/questions/base/index.html"
+            )
+
+        self.assertEqual([item["date_normalisee"] for item in entrees], [
+            "2026-10-08", "2026-10-08",
+        ])
+        self.assertEqual([item["tags"][0]["term"] for item in entrees], [
+            "Question", "Réponse",
+        ])
+        self.assertIn("Déploiement de la fibre", entrees[0]["title"])
+
+    def test_questions_assemblee_distinguent_date_question_et_date_reponse(self):
+        lien = Mock()
+        lien.get.side_effect = lambda attribut, repli="": {
+            "href": "/dyn/17/questions/QANR5L17QE17128",
+        }.get(attribut, repli)
+        lien.get_text.return_value = "Question écrite n° 17128 de M. Xavier Albertini"
+        carte = Mock()
+        carte.select_one.return_value = lien
+        carte.get_text.return_value = (
+            "21 juillet 2026 Voir la question Question écrite n° 17128 "
+            "Rubrique : fonctionnaires et agents publics "
+            "Titre : Rupture conventionnelle dans la fonction publique "
+            "Réponse publiée le 6 octobre 2026"
+        )
+
+        with patch("veille.BeautifulSoup") as analyseur:
+            analyseur.return_value.select.return_value = [carte]
+            questions = veille.entrees_questions_assemblee(
+                "<html>", "https://www.assemblee-nationale.fr/dyn/questions/recherche",
+                "html-an-questions",
+            )
+            reponses = veille.entrees_questions_assemblee(
+                "<html>", "https://www.assemblee-nationale.fr/dyn/questions/recherche",
+                "html-an-reponses",
+            )
+
+        self.assertEqual(questions[0]["date_normalisee"], "2026-07-21")
+        self.assertEqual(reponses[0]["date_normalisee"], "2026-10-06")
+        self.assertEqual(reponses[0]["tags"][0]["term"], "Réponse")
+        self.assertIn("Rupture conventionnelle", reponses[0]["title"])
+
     def test_page_officielle_extrait_titre_lien_et_date(self):
         bloc = Mock()
         bloc.get_text.return_value = "Publication institutionnelle 25 septembre 2026"

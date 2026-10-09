@@ -21,7 +21,10 @@ blogs,Me PICOVSCHI|Affaires,https://www.avocats-picovschi.com/rss/rss.xml
 blogs,Me DUCOURAU|Urbanisme,https://blog-ducourau-avocats-urbanisme.com/feed/
 blogs,Me VENIN|Assurances,https://www.mv-avocat.fr/categorie/actualites-juridiques/feed/
 institutions,AN|Documents,http://www2.assemblee-nationale.fr/feeds/detail/documents-parlementaires
+institutions,AN|Questions,https://www.assemblee-nationale.fr/dyn/questions/recherche?order=dateDepot&sort=desc&limit=100,html-an-questions
+institutions,AN|Réponses,https://www.assemblee-nationale.fr/dyn/questions/recherche?order=dateJOReponse&sort=desc&limit=100&qeEtatReponse=avec,html-an-reponses
 institutions,Sénat|Textes,https://www.senat.fr/rss/textes.rss
+institutions,Sénat|Questions et réponses,https://www.senat.fr/questions/base/index.html,html-senat-questions
 institutions,CESE,https://www.lecese.fr/rss/flux/pleniere
 institutions,Parlement Européen|Communiqués,https://www.europarl.europa.eu/rss/doc/articles/fr.xml
 institutions,Conseil de l'UE|Procès-verbaux des actes législatifs,https://www.consilium.europa.eu/fr/register/rss/MINLA.xml

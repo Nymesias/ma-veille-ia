@@ -105,7 +105,13 @@ function reclasserSourcesRSS(categorieCible, categoriesOrigine, prefixesSources)
 }
 
 // On ajoute le paramètre "modeTri" avec une valeur par défaut
-async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date', sourcesExclues = []) {
+async function chargerFluxRSS(
+    nomCategorie,
+    idContainer,
+    modeTri = 'date',
+    sourcesExclues = [],
+    sourcesIncluses = []
+) {
     const container = document.getElementById(idContainer);
     if (!container) return;
     const versionRendu = commencerRendu(container);
@@ -123,7 +129,11 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date', sourc
     );
 
     const exclusionsNormalisees = sourcesExclues.map(source => source.toLocaleLowerCase('fr-FR'));
+    const inclusionsNormalisees = sourcesIncluses.map(source => source.toLocaleLowerCase('fr-FR'));
     const sources = cleReelle ? rssData[cleReelle].filter(source =>
+        (inclusionsNormalisees.length === 0 || inclusionsNormalisees.some(
+            inclusion => source.nom_site.toLocaleLowerCase('fr-FR').startsWith(inclusion)
+        )) &&
         !exclusionsNormalisees.some(exclusion => source.nom_site.toLocaleLowerCase('fr-FR').startsWith(exclusion))
     ) : [];
     if (sources.length === 0) {

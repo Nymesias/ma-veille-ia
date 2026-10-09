@@ -74,6 +74,34 @@ main {
     border-color: #2c3e50; 
 }
 
+.institution-tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: -18px 0 24px;
+}
+
+.institution-tabs[hidden] { display: none; }
+
+.institution-tab-btn {
+    padding: 7px 14px;
+    border: 1px solid #b9c7d3;
+    border-radius: 999px;
+    background: #fff;
+    color: #405464;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.institution-tab-btn:hover { background: #f1f6f9; }
+
+.institution-tab-btn.active {
+    border-color: #3498db;
+    background: #3498db;
+    color: #fff;
+}
+
 /* --- MODE LECTURE MARKDOWN (SYNTHÈSE DU JOUR) --- */
 .post-md { 
     background: white; 
