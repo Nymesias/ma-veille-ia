@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ma Veille Personnalisée - Ressources</title>
-    <link rel="stylesheet" href="style.css?v=20261009-3">
+    <link rel="stylesheet" href="style.css?v=20261009-4">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
@@ -29,20 +29,10 @@
             <button class="tab-btn" onclick="piloterOnglet(this, 'Blogs')">Blogs</button>
         </div>
 
-        <div id="institution-tabs" class="tabs-bar institution-tabs" hidden role="tablist" aria-label="Institutions parlementaires">
-            <button class="tab-btn active" role="tab" aria-selected="true" data-filtre-institution="assemblee">Assemblée nationale</button>
-            <button class="tab-btn" role="tab" aria-selected="false" data-filtre-institution="senat">Sénat</button>
-            <button class="tab-btn" role="tab" aria-selected="false" data-filtre-institution="autres">Autres institutions</button>
-        </div>
-
-        <div id="assemblee-subtabs" class="subtabs institution-content-tabs" hidden role="tablist" aria-label="Assemblée nationale">
-            <button class="subtab-btn active" role="tab" aria-selected="true" data-contenu-institution="questions">Questions et réponses</button>
-            <button class="subtab-btn" role="tab" aria-selected="false" data-contenu-institution="documents">Documents</button>
-        </div>
-
-        <div id="senat-subtabs" class="subtabs institution-content-tabs" hidden role="tablist" aria-label="Sénat">
-            <button class="subtab-btn active" role="tab" aria-selected="true" data-contenu-institution="questions">Questions et réponses</button>
-            <button class="subtab-btn" role="tab" aria-selected="false" data-contenu-institution="textes">Textes</button>
+        <div id="institution-tabs" class="subtabs" hidden role="tablist" aria-label="Institutions parlementaires">
+            <button class="subtab-btn active" role="tab" aria-selected="true" data-filtre-institution="senat">Sénat</button>
+            <button class="subtab-btn" role="tab" aria-selected="false" data-filtre-institution="assemblee">Assemblée nationale</button>
+            <button class="subtab-btn" role="tab" aria-selected="false" data-filtre-institution="autres">Autres institutions</button>
         </div>
 
         <div style="text-align: right; margin-bottom: 20px;">
@@ -62,37 +52,17 @@
     // On garde en mémoire l'onglet et le tri choisis par l'utilisateur
     let ongletActif = 'Comptes-rendus';
     let triActuel = 'date';
-    let filtreInstitutionActif = 'assemblee';
-    const contenuInstitutionActif = { assemblee: 'questions', senat: 'questions' };
+    let filtreInstitutionActif = 'senat';
 
     function optionsFiltreInstitutions() {
-        if (filtreInstitutionActif === 'assemblee') {
-            const contenu = contenuInstitutionActif.assemblee;
-            return {
-                inclusions: contenu === 'documents'
-                    ? ['AN|Documents', 'Assemblée nationale|Documents']
-                    : ['AN|Questions', 'AN|Réponses', 'Assemblée nationale|Questions', 'Assemblée nationale|Réponses'],
-                exclusions: []
-            };
-        }
-        if (filtreInstitutionActif === 'senat') {
-            const contenu = contenuInstitutionActif.senat;
-            return {
-                inclusions: contenu === 'textes' ? ['Sénat|Textes'] : ['Sénat|Questions'],
-                exclusions: []
-            };
-        }
+        if (filtreInstitutionActif === 'senat') return { inclusions: ['Sénat|'], exclusions: [] };
+        if (filtreInstitutionActif === 'assemblee') return { inclusions: ['AN|', 'Assemblée nationale|'], exclusions: [] };
         if (filtreInstitutionActif === 'autres') return { inclusions: [], exclusions: ['Sénat|', 'AN|', 'Assemblée nationale|'] };
         return { inclusions: [], exclusions: [] };
     }
 
     function afficherNavigationInstitutions() {
-        const institutionsVisibles = ongletActif === 'Institutions';
-        document.getElementById('institution-tabs').hidden = !institutionsVisibles;
-        document.getElementById('assemblee-subtabs').hidden =
-            !institutionsVisibles || filtreInstitutionActif !== 'assemblee';
-        document.getElementById('senat-subtabs').hidden =
-            !institutionsVisibles || filtreInstitutionActif !== 'senat';
+        document.getElementById('institution-tabs').hidden = ongletActif !== 'Institutions';
     }
 
     async function chargerOngletRSSActif() {
@@ -200,18 +170,6 @@
                     }
                 );
                 afficherNavigationInstitutions();
-                await chargerOngletRSSActif();
-            });
-        });
-        document.querySelectorAll('[data-contenu-institution]').forEach(btn => {
-            btn.addEventListener('click', async () => {
-                contenuInstitutionActif[filtreInstitutionActif] = btn.dataset.contenuInstitution;
-                const barre = btn.closest('.subtabs');
-                barre.querySelectorAll('[data-contenu-institution]').forEach(item => {
-                    const actif = item === btn;
-                    item.classList.toggle('active', actif);
-                    item.setAttribute('aria-selected', String(actif));
-                });
                 await chargerOngletRSSActif();
             });
         });

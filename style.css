@@ -84,8 +84,6 @@ main {
 
 .subtabs[hidden] { display: none; }
 
-.institution-tabs[hidden] { display: none; }
-
 .subtab-btn {
     padding: 11px 16px;
     border: 0;
