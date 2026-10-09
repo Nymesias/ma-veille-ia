@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ma Veille Personnalisée - Ressources</title>
-    <link rel="stylesheet" href="style.css?v=20261009-1">
+    <link rel="stylesheet" href="style.css?v=20261009-2">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
@@ -29,11 +29,10 @@
             <button class="tab-btn" onclick="piloterOnglet(this, 'Blogs')">Blogs</button>
         </div>
 
-        <div id="institution-tabs" class="institution-tabs" hidden aria-label="Institutions parlementaires">
-            <button class="institution-tab-btn active" data-filtre-institution="toutes">Toutes</button>
-            <button class="institution-tab-btn" data-filtre-institution="senat">Sénat</button>
-            <button class="institution-tab-btn" data-filtre-institution="assemblee">Assemblée nationale</button>
-            <button class="institution-tab-btn" data-filtre-institution="autres">Autres institutions</button>
+        <div id="institution-tabs" class="subtabs" hidden role="tablist" aria-label="Institutions parlementaires">
+            <button class="subtab-btn active" role="tab" aria-selected="true" data-filtre-institution="assemblee">Assemblée nationale</button>
+            <button class="subtab-btn" role="tab" aria-selected="false" data-filtre-institution="senat">Sénat</button>
+            <button class="subtab-btn" role="tab" aria-selected="false" data-filtre-institution="autres">Autres institutions</button>
         </div>
 
         <div style="text-align: right; margin-bottom: 20px;">
@@ -47,19 +46,19 @@
         </div>
     </main>
 
-<script src="rss-reader.js?v=20261009-1"></script>
+<script src="rss-reader.js?v=20261009-2"></script>
 <script>
     // --- VARIABLES D'ÉTAT ---
     // On garde en mémoire l'onglet et le tri choisis par l'utilisateur
     let ongletActif = 'Comptes-rendus';
     let triActuel = 'date';
-    let filtreInstitutionActif = 'toutes';
+    let filtreInstitutionActif = 'assemblee';
 
     function optionsFiltreInstitutions() {
         if (filtreInstitutionActif === 'senat') return { inclusions: ['Sénat|'], exclusions: [] };
         if (filtreInstitutionActif === 'assemblee') return { inclusions: ['AN|', 'Assemblée nationale|'], exclusions: [] };
         if (filtreInstitutionActif === 'autres') return { inclusions: [], exclusions: ['Sénat|', 'AN|', 'Assemblée nationale|'] };
-        return { inclusions: [], exclusions: [] };
+        return { inclusions: ['AN|', 'Assemblée nationale|'], exclusions: [] };
     }
 
     async function chargerOngletRSSActif() {
@@ -71,7 +70,8 @@
             'juridique-content',
             triActuel,
             options.exclusions,
-            options.inclusions
+            options.inclusions,
+            ongletActif !== 'Institutions' || filtreInstitutionActif === 'autres'
         );
     }
 
@@ -159,7 +159,11 @@
             btn.addEventListener('click', async () => {
                 filtreInstitutionActif = btn.dataset.filtreInstitution;
                 document.querySelectorAll('[data-filtre-institution]').forEach(item =>
-                    item.classList.toggle('active', item === btn)
+                    {
+                        const actif = item === btn;
+                        item.classList.toggle('active', actif);
+                        item.setAttribute('aria-selected', String(actif));
+                    }
                 );
                 await chargerOngletRSSActif();
             });

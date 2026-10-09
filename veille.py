@@ -840,21 +840,11 @@ def entrees_questions_senat(contenu, url):
             texte = nettoyer_texte(ligne.get_text(" ", strip=True), 700)
             titre = texte.split(":", 1)[1].strip() if ":" in texte else texte
             auteur = texte.split(":", 1)[0].strip()
-            rubrique_element = ligne.find_previous("h3")
-            rubrique = nettoyer_texte(
-                rubrique_element.get_text(" ", strip=True)
-                if rubrique_element else "",
-                160,
-            )
-            tags = [{"term": nature}]
-            if rubrique:
-                tags.append({"term": rubrique})
             entrees.append({
                 "title": f"{nature} n° {numero} — {titre}",
                 "link": urljoin(url, lien.get("href", "")),
                 "date_normalisee": date,
                 "summary": auteur,
-                "tags": tags,
             })
             compteurs[nature] += 1
     return entrees
@@ -876,14 +866,12 @@ def entrees_questions_assemblee(contenu, url, type_source):
                 texte,
                 re.I,
             )
-            nature = "Réponse"
         else:
             correspondance_date = re.search(
                 r"\b(\d{1,2}\s+[a-zéû]+\s+20\d{2})\b",
                 texte,
                 re.I,
             )
-            nature = "Question"
         date = normaliser_date_publication(
             correspondance_date.group(1) if correspondance_date else ""
         )
@@ -897,21 +885,10 @@ def entrees_questions_assemblee(contenu, url, type_source):
             re.I,
         )
         sujet = correspondance_titre.group(1).strip() if correspondance_titre else ""
-        correspondance_rubrique = re.search(
-            r"Rubrique\s*:\s*(.+?)(?=\s+Titre\s*:)", texte, re.I
-        )
-        rubrique = (
-            correspondance_rubrique.group(1).strip()
-            if correspondance_rubrique else ""
-        )
-        tags = [{"term": nature}]
-        if rubrique:
-            tags.append({"term": rubrique})
         entrees.append({
             "title": f"{intitule} — {sujet}" if sujet else intitule,
             "link": urljoin(url, lien.get("href", "")),
             "date_normalisee": date,
-            "tags": tags,
         })
     return entrees[:30]
 

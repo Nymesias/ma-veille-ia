@@ -110,7 +110,8 @@ async function chargerFluxRSS(
     idContainer,
     modeTri = 'date',
     sourcesExclues = [],
-    sourcesIncluses = []
+    sourcesIncluses = [],
+    afficherThematiques = true
 ) {
     const container = document.getElementById(idContainer);
     if (!container) return;
@@ -184,7 +185,7 @@ async function chargerFluxRSS(
                 ${estPublication ? '<span class="badge-publication">Publications</span>' : ''}
                 <h3>${titre}</h3>
                 <p class="date-rss">📅 ${dateAffichage}</p> 
-                ${afficherCategories(art.c)}
+                ${afficherThematiques ? afficherCategories(art.c) : ''}
                 ${art.r ? `<p>${echapperHtml(art.r)}</p>` : ''}
             </article>`;
     });
