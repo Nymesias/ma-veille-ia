@@ -60,8 +60,10 @@ FICHIER_QUOTA_GEMINI = ".gemini_quota.json"
 JUDILIBRE_PUBLIC_URL = "https://www.courdecassation.fr/recherche-judilibre"
 CONSEIL_ETAT_RECHERCHE_URL = "https://opendata.justice-administrative.fr/recherche"
 CONSEIL_ETAT_DECISIONS_URL = (
-    "https://opendata.justice-administrative.fr/recherche/api/elastic/decisions/CE"
+    "https://opendata.justice-administrative.fr/recherche/api/"
+    "model_noTyped/openData/null/D%C3%A9cision/10000"
 )
+PUBLICATIONS_CONSEIL_ETAT_AUTORISEES = {"A", "B", "R", "C+"}
 JURIDIQUE_ANALYSE_CATEGORIES = {
     "revues",
     "blogs",
@@ -129,8 +131,18 @@ def consommer_quota_gemini(quota, tokens):
 
 def nettoyer_texte(valeur, limite=900):
     """Transforme le HTML d'un flux en texte court exploitable par le modèle."""
-    texte = html.unescape(valeur or "")
-    texte = re.sub(r"<[^>]+>", " ", texte)
+    texte = str(valeur or "")
+    # Certains flux encodent deux fois les entités (par exemple
+    # ``&amp;#8239;`` ou ``&amp;lt;``). Deux passages suffisent à retrouver le
+    # caractère attendu sans interpréter le résultat comme du HTML.
+    for _ in range(2):
+        decode = html.unescape(texte)
+        if decode == texte:
+            break
+        texte = decode
+    # Ne retirer que de vraies balises : un titre peut légitimement contenir
+    # les signes « < » ou « > ».
+    texte = re.sub(r"</?[A-Za-z][^>]*>", " ", texte)
     texte = re.sub(r"\s+", " ", texte).strip()
     # Certains serveurs annoncent un mauvais charset et produisent par exemple
     # "FÃ©vrier" ou "NÂ°". Réparer uniquement lorsque ces marqueurs sont présents.
@@ -158,6 +170,19 @@ def premier_resume_disponible(donnees, limite=700):
             if resume:
                 return resume
     return ""
+
+
+def libelles_categories(donnees, limite=12):
+    """Retourne les catégories éditoriales fournies par un flux, sans doublon."""
+    categories = []
+    for element in donnees.get("tags", []) or []:
+        valeur = element.get("term", "") if isinstance(element, dict) else str(element)
+        libelle = nettoyer_texte(valeur, 160)
+        if libelle and libelle.casefold() not in {item.casefold() for item in categories}:
+            categories.append(libelle)
+        if len(categories) >= limite:
+            break
+    return categories
 
 
 def charger_sources():
@@ -692,6 +717,41 @@ SELECTEURS_PUBLICATIONS_HTML = {
 }
 
 
+def entrees_page_conseil_etat(contenu, url):
+    """Extrait les cartes des pages éditoriales du Conseil d'État."""
+    page = BeautifulSoup(contenu or "", "html.parser")
+    entrees, liens_vus = [], set()
+    for carte in page.select("li.list__item"):
+        titre_element = carte.select_one(
+            ".list__item__title a, a.list__item__body .list__item__title"
+        )
+        lien_element = (
+            titre_element
+            if titre_element and titre_element.name == "a"
+            else carte.select_one("a.list__item__body")
+        )
+        if not titre_element or not lien_element:
+            continue
+        href = urljoin(url, lien_element.get("href", ""))
+        titre = nettoyer_texte(titre_element.get_text(" ", strip=True), 500)
+        if not href or len(titre) < 8 or href in liens_vus:
+            continue
+        date_element = carte.select_one("time[datetime]")
+        date = normaliser_date_publication(
+            date_element.get("datetime", "") if date_element else ""
+        )
+        resume_element = carte.select_one(".list__item__teasing")
+        resume = nettoyer_texte(
+            resume_element.get_text(" ", strip=True) if resume_element else "", 700
+        )
+        liens_vus.add(href)
+        entree = {"title": titre, "link": href, "date_normalisee": date}
+        if resume:
+            entree["summary"] = resume
+        entrees.append(entree)
+    return entrees[:12]
+
+
 def contenu_page_officielle(url, entetes):
     """Charge une page officielle, avec Chromium en repli contre les protections antibot."""
     try:
@@ -740,6 +800,41 @@ def entrees_page_officielle(contenu, url, type_source):
         liens_vus.add(href)
         entrees.append({"title": titre, "link": href, "date_normalisee": date})
     return entrees[:30]
+
+
+def themes_pibd_depuis_page(url, entetes=None):
+    """Lit les libellés du sommaire d'un numéro du PIBD."""
+    try:
+        contenu = contenu_page_officielle(url, entetes or {"User-Agent": "MaVeilleIA/1.0"})
+        page = BeautifulSoup(contenu or "", "html.parser")
+        sommaire = page.select_one(".accordion-sommaire")
+        if not sommaire:
+            return []
+        themes = []
+        for titre in sommaire.select("h2, h3"):
+            libelle = nettoyer_texte(titre.get_text(" ", strip=True), 160)
+            libelle = re.sub(r"^[IVX]+\.\s*", "", libelle, flags=re.I)
+            if libelle and libelle.casefold() not in {item.casefold() for item in themes}:
+                themes.append(libelle)
+        return themes[:20]
+    except Exception as exc:
+        print(f"Thématiques PIBD indisponibles pour {url}: {exc}")
+        return []
+
+
+def categorie_cedh_depuis_resume(resume):
+    """Traduit la nature de document présente dans le descriptif RSS HUDOC."""
+    texte = (resume or "").casefold()
+    correspondances = (
+        ("grand chamber judgment", "Arrêt de Grande Chambre"),
+        ("chamber judgment", "Arrêt de chambre"),
+        ("committee judgment", "Arrêt de comité"),
+        ("grand chamber decision", "Décision de Grande Chambre"),
+        ("chamber decision", "Décision de chambre"),
+        ("committee decision", "Décision de comité"),
+        ("advisory opinion", "Avis consultatif"),
+    )
+    return next((libelle for terme, libelle in correspondances if terme in texte), "")
 
 
 def normaliser_entrees_eurlex_cjue(entrees):
@@ -800,9 +895,12 @@ def collecter_articles(sources):
             entetes = {"User-Agent": "MaVeilleIA/1.0 (veille personnelle)"}
             if type_source.startswith("html-"):
                 contenu_source = contenu_page_officielle(url, entetes)
-                entrees = entrees_page_officielle(
-                    contenu_source, url, type_source
-                )
+                if type_source == "html-conseil-etat":
+                    entrees = entrees_page_conseil_etat(contenu_source, url)
+                else:
+                    entrees = entrees_page_officielle(
+                        contenu_source, url, type_source
+                    )
                 flux = {}
             else:
                 reponse_flux = requete_avec_reessais(url, entetes, timeout=30)
@@ -829,6 +927,7 @@ def collecter_articles(sources):
 
             articles_collectes = []
             for entry in entrees:
+                categories = libelles_categories(entry)
                 article = {
                     "categorie": categorie,
                     "source": nom_source,
@@ -837,7 +936,14 @@ def collecter_articles(sources):
                     "date": entry.get("date_normalisee")
                     or date_entree(entry, flux, entetes, consulter_page=False),
                     "resume": premier_resume_disponible(entry),
+                    "categories": categories,
                 }
+                if categorie == "conseil-etat" and "|" in nom_source:
+                    article["categories"] = [nom_source.split("|", 1)[1], *categories]
+                if nom_source.casefold() == "cedh":
+                    nature = categorie_cedh_depuis_resume(article["resume"])
+                    if nature:
+                        article["categories"] = [nature, *categories]
                 articles_collectes.append(article)
 
             articles_a_verifier = (
@@ -850,7 +956,10 @@ def collecter_articles(sources):
                         or nom_source == "Me PICOVSCHI|Affaires"
                     )
                 ]
-                if not type_source.startswith(("html-", "rss-google-"))
+                if (
+                    type_source == "html-conseil-etat"
+                    or not type_source.startswith(("html-", "rss-google-"))
+                )
                 else []
             )
             if articles_a_verifier:
@@ -865,10 +974,6 @@ def collecter_articles(sources):
                         if date_page:
                             article["date"] = date_page
 
-            articles_hier.extend(
-                article for article in articles_collectes if article["date"] == HIER
-            )
-
             dates_connues = [
                 article["date"]
                 for article in articles_collectes
@@ -877,21 +982,49 @@ def collecter_articles(sources):
             ]
             date_reference = max(dates_connues) if dates_connues else ""
 
+            if type_source == "html-pibd":
+                for article in articles_collectes:
+                    if article["date"] == date_reference:
+                        article["categories"] = themes_pibd_depuis_page(
+                            article["lien"], entetes
+                        )
+
+            articles_hier.extend(
+                article for article in articles_collectes if article["date"] == HIER
+            )
+
             liens_vus = set()
-            for article in articles_collectes:
-                if article["date"] == date_reference:
-                    cle_lien = cle_dedoublonnage_lien(article["lien"])
-                    if cle_lien in liens_vus:
-                        continue
-                    liens_vus.add(cle_lien)
-                    carte = {
-                        "t": article["titre"],
-                        "l": article["lien"],
-                        "d": article["date"],
-                    }
-                    if article["resume"]:
-                        carte["r"] = article["resume"]
-                    articles_source.append(carte)
+            articles_a_afficher = (
+                sorted(
+                    (
+                        article for article in articles_collectes
+                        if re.match(r"\d{4}-\d{2}-\d{2}$", article.get("date", ""))
+                        and article["date"] <= HIER
+                    ),
+                    key=lambda article: article["date"],
+                    reverse=True,
+                )[:12]
+                if type_source == "html-conseil-etat"
+                else [
+                    article for article in articles_collectes
+                    if article["date"] == date_reference
+                ]
+            )
+            for article in articles_a_afficher:
+                cle_lien = cle_dedoublonnage_lien(article["lien"])
+                if cle_lien in liens_vus:
+                    continue
+                liens_vus.add(cle_lien)
+                carte = {
+                    "t": article["titre"],
+                    "l": article["lien"],
+                    "d": article["date"],
+                }
+                if article["resume"]:
+                    carte["r"] = article["resume"]
+                if article["categories"]:
+                    carte["c"] = article["categories"]
+                articles_source.append(carte)
         except Exception as exc:
             print(f"Erreur flux {nom_source}: {exc}")
 
@@ -1285,14 +1418,13 @@ def collecter_decisions_judilibre():
 PUBLICATIONS_CONSEIL_ETAT = {
     "A": "Publié au recueil Lebon",
     "B": "Mentionné aux tables du recueil Lebon",
-    "C": "Inédit au recueil Lebon",
-    "D": "Non publié au recueil Lebon",
-    "Z": "Non renseigné",
+    "R": "Code R",
+    "C+": "Code C+",
 }
 
 
 def collecter_decisions_conseil_etat():
-    """Conserve uniquement les décisions CE de la date la plus récente de l'open data."""
+    """Collecte les décisions A, B, R ou C+ de toutes les juridictions."""
     entetes = {"User-Agent": "MaVeilleIA/1.0 (veille personnelle)"}
     try:
         reponse = requests.get(CONSEIL_ETAT_DECISIONS_URL, headers=entetes, timeout=60)
@@ -1304,35 +1436,46 @@ def collecter_decisions_conseil_etat():
     except Exception as exc:
         raise RuntimeError(f"Erreur open data Conseil d'État: {exc}") from exc
 
-    sources = [
-        resultat.get("_source", {})
-        for resultat in resultats
-        if resultat.get("_source", {}).get("Code_Juridiction") == "CE"
-    ]
+    sources = []
+    for resultat in resultats:
+        source = resultat.get("_source", {})
+        code_publication = str(source.get("Code_Publication") or "").strip()
+        if (
+            source.get("Type_Decision") == "Décision"
+            and code_publication in PUBLICATIONS_CONSEIL_ETAT_AUTORISEES
+        ):
+            sources.append(source)
     date_cible = max(
         (source.get("Date_Lecture", "") for source in sources),
         default="",
     )
     decisions = []
     for source in sources:
-        if source.get("Date_Lecture") != date_cible:
-            continue
         numero = str(source.get("Numero_Dossier") or "").strip()
         code_publication = str(source.get("Code_Publication") or "").strip()
+        code_juridiction = str(source.get("Code_Juridiction") or "").strip()
         decisions.append({
             "id": source.get("Identification", ""),
-            "date": date_cible,
+            "date": source.get("Date_Lecture", ""),
             "numero": numero,
             "juridiction": source.get("Nom_Juridiction") or "Conseil d'État",
             "formation": source.get("Formation_Jugement", ""),
             "type": source.get("Type_Decision") or "Décision",
             "ecli": "" if source.get("Numero_ECLI") == "undefined" else source.get("Numero_ECLI", ""),
             "publication": PUBLICATIONS_CONSEIL_ETAT.get(code_publication, code_publication),
+            "code_publication": code_publication,
+            "code_juridiction": code_juridiction,
             "mis_en_ligne": source.get("lastModified", ""),
             "resume": premier_resume_disponible(source),
-            "url": f"{CONSEIL_ETAT_RECHERCHE_URL}/CE/{quote(numero)}" if numero else CONSEIL_ETAT_RECHERCHE_URL,
+            "url": (
+                f"{CONSEIL_ETAT_RECHERCHE_URL}/{quote(code_juridiction)}/{quote(numero)}"
+                if code_juridiction and numero else CONSEIL_ETAT_RECHERCHE_URL
+            ),
         })
-    decisions.sort(key=lambda item: (item.get("type", ""), item.get("numero", "")))
+    decisions.sort(
+        key=lambda item: (item.get("date", ""), item.get("juridiction", ""), item.get("numero", "")),
+        reverse=True,
+    )
 
     with open(FICHIER_DECISIONS_CONSEIL_ETAT, "w", encoding="utf-8") as fichier:
         json.dump({
@@ -1340,10 +1483,17 @@ def collecter_decisions_conseil_etat():
             "date_cible": date_cible,
             "total": len(decisions),
             "source": CONSEIL_ETAT_RECHERCHE_URL,
-            "juridiction": "CE",
+            "juridiction": "toutes",
+            "filtres": {
+                "type": "Décision",
+                "codes_publication": sorted(PUBLICATIONS_CONSEIL_ETAT_AUTORISEES),
+            },
             "decisions": decisions,
         }, fichier, indent=2, ensure_ascii=False)
-    print(f"{len(decisions)} décisions du Conseil d'État collectées pour le {date_cible}.")
+    print(
+        f"{len(decisions)} décisions A/B/R/C+ de toutes les juridictions collectées "
+        f"(date la plus récente : {date_cible})."
+    )
     return decisions
 
 

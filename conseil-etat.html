@@ -37,10 +37,10 @@
     </header>
 
     <main>
-        <p class="ce-intro">Analyses de veille administrative, flux RSS officiels et dernières décisions publiées sur l'open data officiel.</p>
+        <p class="ce-intro">Analyses de veille administrative, publications officielles et décisions remarquables de toutes les juridictions administratives.</p>
         <div class="tabs-bar" role="tablist" aria-label="Contenus du Conseil d'État">
             <button class="tab-btn active" role="tab" aria-selected="true" data-tab="analyses">Analyses</button>
-            <button class="tab-btn" role="tab" aria-selected="false" data-tab="rss">Flux RSS</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="rss">Publications officielles</button>
             <button class="tab-btn" role="tab" aria-selected="false" data-tab="decisions">Dernières décisions</button>
         </div>
 
@@ -51,7 +51,7 @@
                 <button class="btn-tri active" data-sort="date">Date</button>
                 <button class="btn-tri" data-sort="source">Source</button>
             </div>
-            <div id="juradmin-content" class="grille-veille"><p>Chargement des flux…</p></div>
+            <div id="juradmin-content" class="grille-veille"><p>Chargement des publications…</p></div>
         </section>
         <section id="panel-decisions" class="ce-panel" role="tabpanel" hidden><div class="ce-status">Chargement des décisions…</div></section>
     </main>
@@ -99,14 +99,15 @@
                 const res = await fetch(`decisions_conseil_etat.json?v=${Date.now()}`, { cache: 'no-store' });
                 if (!res.ok) throw new Error('Cache indisponible');
                 const data = await res.json();
-                const decisions = Array.isArray(data.decisions) ? data.decisions.filter(item => item.date === data.date_cible) : [];
+                const decisions = Array.isArray(data.decisions) ? data.decisions : [];
                 if (!decisions.length) { zone.innerHTML = '<p class="ce-status">Aucune décision récente disponible.</p>'; return; }
-                zone.innerHTML = `<p class="ce-updated">Uniquement les décisions les plus récentes, rendues le ${echapper(dateFrancaise(data.date_cible))} — ${decisions.length} résultat(s). <a href="${echapper(data.source)}" target="_blank" rel="noopener noreferrer">Recherche open data officielle</a></p>
+                zone.innerHTML = `<p class="ce-updated">Décisions récentes de toutes les juridictions administratives, limitées aux codes A, B, R et C+ — ${decisions.length} résultat(s), jusqu'au ${echapper(dateFrancaise(data.date_cible))}. <a href="${echapper(data.source)}" target="_blank" rel="noopener noreferrer">Recherche open data officielle</a></p>
                     <div class="ce-grid">${decisions.map(decision => `<article class="ce-card">
                         <span class="ce-badge">${echapper(decision.type || 'Décision')}</span>
                         <h2>Dossier n° ${echapper(decision.numero)}</h2>
+                        <p class="ce-meta"><strong>Catégorie :</strong> ${echapper(decision.type || 'Décision')}</p>
                         <p class="ce-meta">${echapper(decision.juridiction)}${decision.formation ? ` · ${echapper(decision.formation)}` : ''}</p>
-                        ${decision.publication ? `<p><strong>Publication :</strong> ${echapper(decision.publication)}</p>` : ''}
+                        ${decision.publication ? `<p><strong>Publication :</strong> ${echapper(decision.publication)}${decision.code_publication ? ` (${echapper(decision.code_publication)})` : ''}</p>` : ''}
                         ${decision.ecli ? `<p class="ce-meta">${echapper(decision.ecli)}</p>` : ''}
                         ${decision.resume ? `<p>${echapper(decision.resume)}</p>` : ''}
                         <a class="ce-link" href="${echapper(decision.url)}" target="_blank" rel="noopener noreferrer">Consulter sur l'open data →</a>

@@ -12,7 +12,17 @@ function renduToujoursActif(container, version) {
 }
 
 function echapperHtml(valeur) {
-    return String(valeur ?? '').replace(/[&<>'"]/g, caractere => ({
+    let texte = String(valeur ?? '');
+    // Défense supplémentaire pour les anciens caches ou les flux qui ont
+    // encodé deux fois leurs entités HTML.
+    for (let passage = 0; passage < 2 && /&(?:#\d+|#x[\da-f]+|[a-z]+);/i.test(texte); passage += 1) {
+        const decodeur = document.createElement('textarea');
+        decodeur.innerHTML = texte;
+        const decode = decodeur.value;
+        if (decode === texte) break;
+        texte = decode;
+    }
+    return texte.replace(/[&<>'"]/g, caractere => ({
         '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
     })[caractere]);
 }
@@ -34,6 +44,14 @@ function inventaireSources(sources) {
         <strong>Sources suivies (${sources.length})</strong>
         <div>${badges}</div>
     </aside>`;
+}
+
+function afficherCategories(categories) {
+    if (!Array.isArray(categories) || categories.length === 0) return '';
+    const libelle = categories.length === 1 ? 'Catégorie' : 'Thématiques';
+    return `<div class="article-categories"><strong>${libelle} :</strong> ${categories.map(categorie =>
+        `<span class="article-categorie">${echapperHtml(categorie)}</span>`
+    ).join('')}</div>`;
 }
 
 // --- NOUVELLE FONCTION DE FORMATAGE ---
@@ -156,6 +174,7 @@ async function chargerFluxRSS(nomCategorie, idContainer, modeTri = 'date', sourc
                 ${estPublication ? '<span class="badge-publication">Publications</span>' : ''}
                 <h3>${titre}</h3>
                 <p class="date-rss">📅 ${dateAffichage}</p> 
+                ${afficherCategories(art.c)}
                 ${art.r ? `<p>${echapperHtml(art.r)}</p>` : ''}
             </article>`;
     });

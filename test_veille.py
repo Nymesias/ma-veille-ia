@@ -1,7 +1,7 @@
 import sys
 import types
 import unittest
-from unittest.mock import Mock, patch
+from unittest.mock import Mock, mock_open, patch
 
 
 def dependance_absente(*args, **kwargs):
@@ -48,6 +48,78 @@ class VeilleTests(unittest.TestCase):
             ),
             "date_normalisee": "2026-09-25",
         }])
+
+    def test_page_conseil_etat_extrait_les_cartes_editoriales(self):
+        titre = Mock(name="titre")
+        titre.name = "a"
+        titre.get.return_value = "/actualites/decision-remarquable"
+        titre.get_text.return_value = "Une décision remarquable"
+        date = Mock()
+        date.get.return_value = "2026-10-06"
+        resume = Mock()
+        resume.get_text.return_value = "Le résumé officiel."
+        carte = Mock()
+        carte.select_one.side_effect = lambda selecteur: {
+            ".list__item__title a, a.list__item__body .list__item__title": titre,
+            "time[datetime]": date,
+            ".list__item__teasing": resume,
+        }.get(selecteur)
+
+        with patch("veille.BeautifulSoup") as analyseur:
+            analyseur.return_value.select.return_value = [carte]
+            entrees = veille.entrees_page_conseil_etat(
+                "<html>", "https://www.conseil-etat.fr/decisions-de-justice/dernieres-decisions"
+            )
+
+        self.assertEqual(entrees, [{
+            "title": "Une décision remarquable",
+            "link": "https://www.conseil-etat.fr/actualites/decision-remarquable",
+            "date_normalisee": "2026-10-06",
+            "summary": "Le résumé officiel.",
+        }])
+
+    @patch("veille.requests.get")
+    def test_decisions_administratives_filtrent_les_codes_sans_filtrer_la_juridiction(self, get):
+        reponse = Mock()
+        reponse.raise_for_status.return_value = None
+        reponse.json.return_value = {"decisions": {"body": {"hits": {"hits": [
+            {"_source": {
+                "Identification": "DCE_1.xml", "Code_Juridiction": "CE",
+                "Nom_Juridiction": "Conseil d'État", "Numero_Dossier": "1",
+                "Type_Decision": "Décision", "Code_Publication": "A",
+                "Date_Lecture": "2026-10-06",
+            }},
+            {"_source": {
+                "Identification": "DCAA75_2.xml", "Code_Juridiction": "CAA75",
+                "Nom_Juridiction": "Cour administrative d'appel de Paris",
+                "Numero_Dossier": "2", "Type_Decision": "Décision",
+                "Code_Publication": "C+", "Date_Lecture": "2026-10-05",
+            }},
+            {"_source": {
+                "Identification": "DTA75_3.xml", "Code_Juridiction": "TA75",
+                "Nom_Juridiction": "Tribunal administratif de Paris",
+                "Numero_Dossier": "3", "Type_Decision": "Décision",
+                "Code_Publication": "C", "Date_Lecture": "2026-10-06",
+            }},
+            {"_source": {
+                "Identification": "DTA75_4.xml", "Code_Juridiction": "TA75",
+                "Nom_Juridiction": "Tribunal administratif de Paris",
+                "Numero_Dossier": "4", "Type_Decision": "Ordonnance",
+                "Code_Publication": "B", "Date_Lecture": "2026-10-06",
+            }},
+        ]}}}}
+        get.return_value = reponse
+
+        with patch("builtins.open", mock_open()), patch("veille.json.dump"):
+            decisions = veille.collecter_decisions_conseil_etat()
+
+        self.assertEqual([item["numero"] for item in decisions], ["1", "2"])
+        self.assertEqual(
+            {item["code_juridiction"] for item in decisions}, {"CE", "CAA75"}
+        )
+        self.assertTrue(
+            all(item["code_publication"] in {"A", "B", "R", "C+"} for item in decisions)
+        )
 
     def test_publication_newsletter_reprend_le_titre_editorial(self):
         image = Mock()
@@ -105,6 +177,49 @@ class VeilleTests(unittest.TestCase):
             "Résumé officiel.",
         )
         self.assertEqual(veille.premier_resume_disponible({"title": "Un titre"}), "")
+
+    def test_nettoyer_texte_decode_les_entites_html_doublement_encodees(self):
+        self.assertEqual(
+            veille.nettoyer_texte(
+                "Audience &amp;lt; 14&amp;nbsp;h &amp;#8239;: &amp;gt; suite"
+            ),
+            "Audience < 14 h : > suite",
+        )
+
+    def test_libelles_categories_conserve_les_categories_du_flux(self):
+        donnees = {"tags": [
+            {"term": "News article"},
+            {"term": "carbon neutrality"},
+            {"term": "News article"},
+        ]}
+        self.assertEqual(
+            veille.libelles_categories(donnees),
+            ["News article", "carbon neutrality"],
+        )
+
+    def test_categorie_cedh_traduit_la_nature_du_document(self):
+        self.assertEqual(
+            veille.categorie_cedh_depuis_resume("12345/20 - Committee Judgment"),
+            "Arrêt de comité",
+        )
+
+    @patch("veille.BeautifulSoup")
+    @patch("veille.contenu_page_officielle")
+    def test_themes_pibd_lit_les_rubriques_du_sommaire(self, contenu, analyseur):
+        contenu.return_value = "<html>Sommaire</html>"
+        titres = []
+        for libelle in ("III. Jurisprudence", "Brevets", "Marques"):
+            titre = Mock()
+            titre.get_text.return_value = libelle
+            titres.append(titre)
+        sommaire = Mock()
+        sommaire.select.return_value = titres
+        analyseur.return_value.select_one.return_value = sommaire
+
+        self.assertEqual(
+            veille.themes_pibd_depuis_page("https://example.com/pibd"),
+            ["Jurisprudence", "Brevets", "Marques"],
+        )
 
     def test_sommaire_reprend_les_titres_des_comptes_rendus(self):
         sommaire = veille.construire_sommaire({
