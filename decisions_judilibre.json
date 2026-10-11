@@ -1,21 +1,10 @@
 {
-  "mis_a_jour": "2026-10-10T08:36:09",
+  "mis_a_jour": "2026-10-11T09:11:47",
   "date_cible": "2026-10-08",
-  "date_recherche_initiale": "2026-10-09",
+  "date_recherche_initiale": "2026-10-10",
   "total": 8,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
-    {
-      "id": "6ac78b82c27382d09952525a",
-      "date": "2026-10-08",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-60.204",
-      "solution": "Annulation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6ac78b82c27382d09952525a"
-    },
     {
       "id": "6ac78b7fc27382d0995250fd",
       "date": "2026-10-08",
@@ -26,6 +15,17 @@
       "publication": "Publié au Bulletin",
       "sommaire": "La consignation par l'acquéreur du solde du prix de vente, en application de l'article R. 261-14 du code de la construction et de l'habitation, ne vaut paiement qu'à son égard. Si elle libère l'acquéreur de son obligation de payer ce solde et empêche le vendeur tant de poursuivre contre lui ce paiement que de faire sanctionner, de ce chef, une inexécution contractuelle, elle n'a pas pour effet d'éteindre la créance du vendeur. Dès lors, à défaut d'extinction de la créance garantie, la consignation du solde du prix de vente n'entraîne pas l'extinction du privilège du vendeur",
       "url": "https://www.courdecassation.fr/decision/6ac78b7fc27382d0995250fd"
+    },
+    {
+      "id": "6ac78b82c27382d09952525a",
+      "date": "2026-10-08",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-60.204",
+      "solution": "Annulation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6ac78b82c27382d09952525a"
     },
     {
       "id": "6ac78b88c27382d099525504",
