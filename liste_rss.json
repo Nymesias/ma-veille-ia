@@ -123,15 +123,72 @@
   ],
   "juridictions": [
     {
-      "nom_site": "Conseil Constitutionnel",
+      "nom_site": "Conseil Constitutionnel|Décisions",
       "articles": [
         {
-          "t": "16e édition du Salon du Livre juridique le samedi 10 octobre 2026",
-          "l": "https://www.conseil-constitutionnel.fr/actualites/16e-edition-du-salon-du-livre-juridique-le-samedi-10-octobre-2026",
-          "d": "2026-10-10",
-          "r": "Rendez-vous au Conseil constitutionnel le samedi 10 octobre 2026 de 10h à 18h pour la 16e édition du Salon du livre juridique. Entrée libre et gratuite."
+          "t": "Décision n° 2026-339 L du 8 octobre 2026",
+          "l": "https://www.conseil-constitutionnel.fr/decision/2026/2026339L.htm",
+          "d": "2026-10-08"
+        },
+        {
+          "t": "Décision n° 2026-333 L du 8 octobre 2026",
+          "l": "https://www.conseil-constitutionnel.fr/decision/2026/2026333L.htm",
+          "d": "2026-10-08"
+        },
+        {
+          "t": "Décision n° 2026-336 L du 8 octobre 2026",
+          "l": "https://www.conseil-constitutionnel.fr/decision/2026/2026336L.htm",
+          "d": "2026-10-08"
+        },
+        {
+          "t": "Décision n° 2026-337 L du 8 octobre 2026",
+          "l": "https://www.conseil-constitutionnel.fr/decision/2026/2026337L.htm",
+          "d": "2026-10-08"
+        },
+        {
+          "t": "Décision n° 2026-16 LOM du 8 octobre 2026",
+          "l": "https://www.conseil-constitutionnel.fr/decision/2026/202616LOM.htm",
+          "d": "2026-10-08"
+        },
+        {
+          "t": "Décision n° 2026-334 L du 8 octobre 2026",
+          "l": "https://www.conseil-constitutionnel.fr/decision/2026/2026334L.htm",
+          "d": "2026-10-08"
+        },
+        {
+          "t": "Décision n° 2019-169 ORGA du 8 octobre 2026",
+          "l": "https://www.conseil-constitutionnel.fr/decision/2026/2026169ORGA.htm",
+          "d": "2026-10-08"
+        },
+        {
+          "t": "Décision n° 2026-1224 QPC du 8 octobre 2026",
+          "l": "https://www.conseil-constitutionnel.fr/decision/2026/20261224QPC.htm",
+          "d": "2026-10-08"
+        },
+        {
+          "t": "Décision n° 2026-338 L du 8 octobre 2026",
+          "l": "https://www.conseil-constitutionnel.fr/decision/2026/2026338L.htm",
+          "d": "2026-10-08"
+        },
+        {
+          "t": "Décision n° 2026-335 L du 8 octobre 2026",
+          "l": "https://www.conseil-constitutionnel.fr/decision/2026/2026335L.htm",
+          "d": "2026-10-08"
         }
-      ]
+      ],
+      "type": "publication"
+    },
+    {
+      "nom_site": "Conseil Constitutionnel|Actualités",
+      "articles": [
+        {
+          "t": "Colloque «  Les 80 ans du Préambule de la Constitution de 1946 »",
+          "l": "https://www.conseil-constitutionnel.fr/actualites/colloque-les-80-ans-du-preambule-de-la-constitution-de-1946",
+          "d": "2026-10-14",
+          "r": "Le 14 octobre 2026, le Conseil constitutionnel accueille le colloque « Les 80 ans du Préambule de la Constitution de 1946 : que sont devenus les 'principes particulièrement nécessaires à notre temps' ? »  organisé par  l'université Paris 1 Panthéon-Sorbonne."
+        }
+      ],
+      "type": "publication"
     },
     {
       "nom_site": "CJUE",

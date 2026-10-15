@@ -101,11 +101,10 @@
                 const data = await res.json();
                 const decisions = Array.isArray(data.decisions) ? data.decisions : [];
                 if (!decisions.length) { zone.innerHTML = '<p class="ce-status">Aucune décision récente disponible.</p>'; return; }
-                zone.innerHTML = `<p class="ce-updated">Décisions récentes de toutes les juridictions administratives, limitées aux codes A, B, R et C+ — ${decisions.length} résultat(s), jusqu'au ${echapper(dateFrancaise(data.date_cible))}. <a href="${echapper(data.source)}" target="_blank" rel="noopener noreferrer">Recherche open data officielle</a></p>
+                zone.innerHTML = `<p class="ce-updated">Décisions récentes de toutes les juridictions administratives, limitées aux codes A, B, R et C+ — ${decisions.length} résultat(s) du ${echapper(dateFrancaise(data.date_cible))}. <a href="${echapper(data.source)}" target="_blank" rel="noopener noreferrer">Recherche open data officielle</a></p>
                     <div class="ce-grid">${decisions.map(decision => `<article class="ce-card">
                         <span class="ce-badge">${echapper(decision.type || 'Décision')}</span>
                         <h2>Dossier n° ${echapper(decision.numero)}</h2>
-                        <p class="ce-meta"><strong>Catégorie :</strong> ${echapper(decision.type || 'Décision')}</p>
                         <p class="ce-meta">${echapper(decision.juridiction)}${decision.formation ? ` · ${echapper(decision.formation)}` : ''}</p>
                         ${decision.publication ? `<p><strong>Publication :</strong> ${echapper(decision.publication)}${decision.code_publication ? ` (${echapper(decision.code_publication)})` : ''}</p>` : ''}
                         ${decision.ecli ? `<p class="ce-meta">${echapper(decision.ecli)}</p>` : ''}

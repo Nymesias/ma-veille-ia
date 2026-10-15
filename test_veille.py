@@ -148,8 +148,59 @@ class VeilleTests(unittest.TestCase):
             "summary": "Le résumé officiel.",
         }])
 
+    def test_page_conseil_constitutionnel_extrait_decisions_et_actualites(self):
+        def carte(titre, href, date, resume=""):
+            lien = Mock()
+            lien.get.side_effect = lambda attribut, repli="": {
+                "href": href, "title": titre,
+            }.get(attribut, repli)
+            titre_element = Mock()
+            titre_element.get_text.return_value = titre
+            date_element = Mock()
+            date_element.get.return_value = date
+            resume_element = Mock()
+            resume_element.get_text.return_value = resume
+            bloc = Mock()
+            bloc.select_one.side_effect = lambda selecteur: {
+                'a[href*="/decision/"]': lien,
+                "a[rel='bookmark']": lien,
+                "h3.title, .right .title, .title": titre_element,
+                "time[datetime]": date_element,
+                ".field--name-field-titre-complet, .field--name-field-chapo": (
+                    resume_element if resume else None
+                ),
+            }.get(selecteur)
+            return bloc
+
+        decision = carte(
+            "Décision n° 2026-1224 QPC du 8 octobre 2026",
+            "/decision/2026/20261224QPC.htm", "2026-10-08T14:45:27+02:00",
+            "Absence d'audience en cas de contestation.",
+        )
+        actualite = carte(
+            "Colloque sur le Préambule de 1946",
+            "/actualites/colloque-preambule-1946", "2026-10-14T17:15:54+02:00",
+        )
+        with patch("veille.BeautifulSoup") as analyseur:
+            analyseur.return_value.select.side_effect = lambda selecteur: (
+                [decision] if selecteur == "article.node--type-decision" else [actualite]
+            )
+            decisions = veille.entrees_page_conseil_constitutionnel(
+                "<html>", "https://www.conseil-constitutionnel.fr/decisions",
+                "html-conseil-constitutionnel-decisions",
+            )
+            actualites = veille.entrees_page_conseil_constitutionnel(
+                "<html>", "https://www.conseil-constitutionnel.fr/actualites",
+                "html-conseil-constitutionnel-actualites",
+            )
+
+        self.assertEqual(decisions[0]["date_normalisee"], "2026-10-08")
+        self.assertIn("20261224QPC", decisions[0]["link"])
+        self.assertEqual(actualites[0]["date_normalisee"], "2026-10-14")
+        self.assertIn("Colloque", actualites[0]["title"])
+
     @patch("veille.requests.get")
-    def test_decisions_administratives_filtrent_les_codes_sans_filtrer_la_juridiction(self, get):
+    def test_decisions_administratives_gardent_seulement_le_dernier_jour(self, get):
         reponse = Mock()
         reponse.raise_for_status.return_value = None
         reponse.json.return_value = {"decisions": {"body": {"hits": {"hits": [
@@ -183,10 +234,9 @@ class VeilleTests(unittest.TestCase):
         with patch("builtins.open", mock_open()), patch("veille.json.dump"):
             decisions = veille.collecter_decisions_conseil_etat()
 
-        self.assertEqual([item["numero"] for item in decisions], ["1", "2"])
-        self.assertEqual(
-            {item["code_juridiction"] for item in decisions}, {"CE", "CAA75"}
-        )
+        self.assertEqual([item["numero"] for item in decisions], ["1"])
+        self.assertEqual({item["date"] for item in decisions}, {"2026-10-06"})
+        self.assertEqual({item["code_juridiction"] for item in decisions}, {"CE"})
         self.assertTrue(
             all(item["code_publication"] in {"A", "B", "R", "C+"} for item in decisions)
         )

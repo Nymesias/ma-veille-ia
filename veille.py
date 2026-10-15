@@ -752,6 +752,50 @@ def entrees_page_conseil_etat(contenu, url):
     return entrees[:12]
 
 
+def entrees_page_conseil_constitutionnel(contenu, url, type_source):
+    """Extrait séparément les décisions et les actualités du Conseil constitutionnel."""
+    page = BeautifulSoup(contenu or "", "html.parser")
+    est_decision = type_source == "html-conseil-constitutionnel-decisions"
+    selecteur = (
+        "article.node--type-decision"
+        if est_decision
+        else "article.node--type-article"
+    )
+    entrees, liens_vus = [], set()
+    for carte in page.select(selecteur):
+        lien = carte.select_one(
+            'a[href*="/decision/"]' if est_decision else "a[rel='bookmark']"
+        )
+        if not lien:
+            continue
+        href = urljoin(url, lien.get("href", ""))
+        titre_element = carte.select_one("h3.title, .right .title, .title")
+        titre = nettoyer_texte(
+            (titre_element.get_text(" ", strip=True) if titre_element else "")
+            or lien.get("title", ""),
+            500,
+        )
+        date_element = carte.select_one("time[datetime]")
+        date = normaliser_date_publication(
+            date_element.get("datetime", "") if date_element else titre
+        )
+        if not href or len(titre) < 8 or not date or href in liens_vus:
+            continue
+
+        resume_element = carte.select_one(
+            ".field--name-field-titre-complet, .field--name-field-chapo"
+        )
+        resume = nettoyer_texte(
+            resume_element.get_text(" ", strip=True) if resume_element else "", 700
+        )
+        liens_vus.add(href)
+        entree = {"title": titre, "link": href, "date_normalisee": date}
+        if resume:
+            entree["summary"] = resume
+        entrees.append(entree)
+    return entrees[:30]
+
+
 def contenu_page_officielle(url, entetes):
     """Charge une page officielle, avec Chromium en repli contre les protections antibot."""
     try:
@@ -988,6 +1032,10 @@ def collecter_articles(sources):
                 contenu_source = contenu_page_officielle(url, entetes)
                 if type_source == "html-conseil-etat":
                     entrees = entrees_page_conseil_etat(contenu_source, url)
+                elif type_source.startswith("html-conseil-constitutionnel-"):
+                    entrees = entrees_page_conseil_constitutionnel(
+                        contenu_source, url, type_source
+                    )
                 elif type_source == "html-senat-questions":
                     entrees = entrees_questions_senat(contenu_source, url)
                 elif type_source in {"html-an-questions", "html-an-reponses"}:
@@ -1542,10 +1590,19 @@ def collecter_decisions_conseil_etat():
             and code_publication in PUBLICATIONS_CONSEIL_ETAT_AUTORISEES
         ):
             sources.append(source)
-    date_cible = max(
-        (source.get("Date_Lecture", "") for source in sources),
-        default="",
-    )
+    dates_disponibles = [
+        str(source.get("Date_Lecture") or "").strip()
+        for source in sources
+        if re.match(
+            r"\d{4}-\d{2}-\d{2}$",
+            str(source.get("Date_Lecture") or "").strip(),
+        )
+        and str(source.get("Date_Lecture") or "").strip() <= AUJOURDHUI
+    ]
+    date_cible = max(dates_disponibles, default="")
+    sources = [
+        source for source in sources if source.get("Date_Lecture", "") == date_cible
+    ]
     decisions = []
     for source in sources:
         numero = str(source.get("Numero_Dossier") or "").strip()

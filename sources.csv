@@ -5,7 +5,8 @@ revues,DAJ Bercy,https://www.economie.gouv.fr/daj/rss
 revues,Vie Publique|Lois,https://www.vie-publique.fr/lois-feeds.xml
 revues,France Assureurs,https://www.franceassureurs.fr/actualites/feed/
 revues,INPI|PIBD,https://pibd.inpi.fr/,html-pibd,publication
-juridictions,Conseil Constitutionnel,https://www.conseil-constitutionnel.fr/flux/rss.xml
+juridictions,Conseil Constitutionnel|Décisions,https://www.conseil-constitutionnel.fr/decisions,html-conseil-constitutionnel-decisions,publication
+juridictions,Conseil Constitutionnel|Actualités,https://www.conseil-constitutionnel.fr/actualites/type/actualite-1,html-conseil-constitutionnel-actualites,publication
 conseil-etat,Conseil d'Etat|LJA,https://www.conseil-etat.fr/publications-colloques/lettre-de-la-justice-administrative/lettre-de-la-justice-administrative,html-conseil-etat,publication
 conseil-etat,Conseil d'Etat|Décisions récentes,https://www.conseil-etat.fr/decisions-de-justice/dernieres-decisions,html-conseil-etat,publication
 conseil-etat,Conseil d'Etat|Analyses de jurisprudence,https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/analyses-de-jurisprudence/fiches-mensuelles-d-analyse-de-jurisprudence,html-conseil-etat,publication
