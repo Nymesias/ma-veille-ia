@@ -1,97 +1,130 @@
 {
-  "mis_a_jour": "2026-10-11T09:11:47",
-  "date_cible": "2026-10-08",
-  "date_recherche_initiale": "2026-10-10",
-  "total": 8,
+  "mis_a_jour": "2026-10-16T07:17:27",
+  "date_cible": "2026-10-15",
+  "date_recherche_initiale": "2026-10-15",
+  "total": 11,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
     {
-      "id": "6ac78b7fc27382d0995250fd",
-      "date": "2026-10-08",
-      "chambre": "Troisième chambre civile",
-      "formation": "Formation de section",
-      "numero": "24-13.478",
-      "solution": "Rejet",
-      "publication": "Publié au Bulletin",
-      "sommaire": "La consignation par l'acquéreur du solde du prix de vente, en application de l'article R. 261-14 du code de la construction et de l'habitation, ne vaut paiement qu'à son égard. Si elle libère l'acquéreur de son obligation de payer ce solde et empêche le vendeur tant de poursuivre contre lui ce paiement que de faire sanctionner, de ce chef, une inexécution contractuelle, elle n'a pas pour effet d'éteindre la créance du vendeur. Dès lors, à défaut d'extinction de la créance garantie, la consignation du solde du prix de vente n'entraîne pas l'extinction du privilège du vendeur",
-      "url": "https://www.courdecassation.fr/decision/6ac78b7fc27382d0995250fd"
-    },
-    {
-      "id": "6ac78b82c27382d09952525a",
-      "date": "2026-10-08",
+      "id": "6ad099917a102021375f48bc",
+      "date": "2026-10-15",
       "chambre": "Deuxième chambre civile",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-60.204",
-      "solution": "Annulation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6ac78b82c27382d09952525a"
-    },
-    {
-      "id": "6ac78b88c27382d099525504",
-      "date": "2026-10-08",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-11.833",
+      "numero": "24-10.659",
       "solution": "Rejet",
       "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
       "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6ac78b88c27382d099525504"
+      "url": "https://www.courdecassation.fr/decision/6ad099917a102021375f48bc"
     },
     {
-      "id": "6ac78b75c27382d099524c51",
-      "date": "2026-10-08",
-      "chambre": "Troisième chambre civile",
-      "formation": "Formation de section",
-      "numero": "24-18.350",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin",
-      "sommaire": "Il résulte de la combinaison des articles L. 311-5, L. 231-1, R. 231-1 et R. 311-23 du code de l'expropriation pour cause d'utilité publique que la demande de l'expropriant aux fins de condamnation de l'exproprié à lui payer une indemnité d'occupation, en raison de son maintien dans les lieux, doit être présentée devant le juge de l'expropriation dans une instance tendant à l'expulsion des occupants ou à la résolution d'une difficulté d'exécution, et ne relève pas, même en appel, de l'office juridictionnel du juge de l'expropriation statuant sur les indemnités de dépossession",
-      "url": "https://www.courdecassation.fr/decision/6ac78b75c27382d099524c51"
-    },
-    {
-      "id": "6ac78b8cc27382d09952565d",
-      "date": "2026-10-08",
+      "id": "6ad099897a102021375f481d",
+      "date": "2026-10-15",
       "chambre": "Deuxième chambre civile",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "24-22.158",
+      "numero": "24-15.050",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Selon l'article L. 256-4 du code de la sécurité sociale, à l'exception des cotisations et majorations de retard, les créances des caisses nées de l'application de la législation de sécurité sociale peuvent être réduites en cas de précarité de la situation du débiteur par décision motivée de la caisse, sauf en cas de manoeuvre frauduleuse ou de fausses déclarations. L'existence d'une manoeuvre frauduleuse doit s'entendre, au sens de ce texte, d'une volonté de dissimulation en vue d'obtenir les prestations indues. Il en résulte que ne caractérise pas une telle manoeuvre frauduleuse le seul fait pour un assuré d'avoir exercé, sans autorisation médicale, une activité ayant donné lieu à rémunérat",
+      "url": "https://www.courdecassation.fr/decision/6ad099897a102021375f481d"
+    },
+    {
+      "id": "6ad0997e7a102021375f47a4",
+      "date": "2026-10-15",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "24-10.070",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Pour l'application des articles L. 461-1, R. 461-8 et D. 461-30 du code de la sécurité sociale, le taux d'incapacité permanente à retenir pour l'instruction d'une demande de prise en charge d'une maladie non désignée dans un tableau des maladies professionnelles est celui évalué par le service du contrôle médical dans le dossier constitué pour la saisine du comité régional de reconnaissance des maladies professionnelles, dit « taux prévisible ». L'employeur a la faculté, au soutien de son action aux fins d'inopposabilité de la décision de prise en charge, de contester le taux d'incapacité permanente prévisible fixé par le service du contrôle médical au cours de l'instruction de la déclaratio",
+      "url": "https://www.courdecassation.fr/decision/6ad0997e7a102021375f47a4"
+    },
+    {
+      "id": "6ad0996c7a102021375f4695",
+      "date": "2026-10-15",
+      "chambre": "Troisième chambre civile",
+      "formation": "Formation de section",
+      "numero": "25-11.964",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "Le délai de deux mois imparti au bailleur pour s'opposer à la cession déspécialisation prévue par l'article L. 145-51 du code de commerce ne peut, lorsque le bail commercial a été consenti par des propriétaires indivis, courir à l'égard des indivisaires bailleurs que par la signification à chacun d'entre eux du projet de cession, sauf mandat spécial donné par les indivisaires à l'un d'entre eux pour recevoir cette signification",
+      "url": "https://www.courdecassation.fr/decision/6ad0996c7a102021375f4695"
+    },
+    {
+      "id": "6ad0997a7a102021375f4783",
+      "date": "2026-10-15",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation de section",
+      "numero": "25-15.730",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6ad0997a7a102021375f4783"
+    },
+    {
+      "id": "6ad0998c7a102021375f484e",
+      "date": "2026-10-15",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "24-14.941",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "Pour l'application de l'article L. 243-13 du code de la sécurité sociale, dans sa rédaction issue de la loi n°2014-1554 du 22 décembre 2014, le seuil des dix salariés rémunérés par l'entreprise est apprécié, sur la moyenne des douze mois de l'exercice, au 31 décembre de l'année précédant celle de l'envoi de l'avis de contrôle prévu par l'article R. 243-59, I, du code de la sécurité sociale",
+      "url": "https://www.courdecassation.fr/decision/6ad0998c7a102021375f484e"
+    },
+    {
+      "id": "6ad099827a102021375f47d0",
+      "date": "2026-10-15",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-15.843",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Le déficit fonctionnel permanent à la réparation duquel peut prétendre la victime d'une faute inexcusable de l'employeur inclut, pour la période postérieure à la date de consolidation, les atteintes aux fonctions physiologiques et à l'intégrité psychique, les souffrances physiques et morales endurées, la perte de la qualité de vie et les troubles ressentis par la victime dans ses conditions d'existence personnelles, familiales et sociales",
+      "url": "https://www.courdecassation.fr/decision/6ad099827a102021375f47d0"
+    },
+    {
+      "id": "6ad099747a102021375f4711",
+      "date": "2026-10-15",
+      "chambre": "Troisième chambre civile",
+      "formation": "Formation de section",
+      "numero": "24-14.807",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "Le bail de carrière prive le preneur de son droit au renouvellement à son terme, sans que le bailleur soit tenu de délivrer congé, peu important que ce bail ait été cédé à un descendant",
+      "url": "https://www.courdecassation.fr/decision/6ad099747a102021375f4711"
+    },
+    {
+      "id": "6ad099707a102021375f46dd",
+      "date": "2026-10-15",
+      "chambre": "Troisième chambre civile",
+      "formation": "Formation de section",
+      "numero": "25-10.387",
       "solution": "Rejet",
       "publication": "Publié au Bulletin",
-      "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6ac78b8cc27382d09952565d"
+      "sommaire": "Le délai de prescription de l'action en nullité d'un procès-verbal de bornage d'une parcelle relevant de la communauté matrimoniale, engagée par un époux sur le fondement de l'article 1427 du code civil, court à compter du jour où il a connaissance de l'existence de l'acte signé par l'autre époux",
+      "url": "https://www.courdecassation.fr/decision/6ad099707a102021375f46dd"
     },
     {
-      "id": "6ac78b72c27382d099524ab1",
-      "date": "2026-10-08",
-      "chambre": "Chambre commerciale financière et économique",
+      "id": "6ad099777a102021375f4763",
+      "date": "2026-10-15",
+      "chambre": "Deuxième chambre civile",
       "formation": "Formation de section",
-      "numero": "25-17.510",
+      "numero": "24-15.159",
       "solution": "Cassation",
-      "publication": "Publié au Bulletin",
-      "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6ac78b72c27382d099524ab1"
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Au soutien de son action aux fins d'inopposabilité de la décision de prise en charge, au titre de la législation professionnelle, d'une maladie non désignée dans l'un des tableaux de maladies professionnelles, l'employeur a la faculté de contester le taux d'incapacité permanente prévisible fixé, en application de l'article L. 461-1 du code de la sécurité sociale, par le service du contrôle médical au cours de l'instruction de la déclaration de maladie professionnelle",
+      "url": "https://www.courdecassation.fr/decision/6ad099777a102021375f4763"
     },
     {
-      "id": "6ac78b85c27382d0995253af",
-      "date": "2026-10-08",
+      "id": "6ad099857a102021375f47f3",
+      "date": "2026-10-15",
       "chambre": "Deuxième chambre civile",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "26-00.006",
-      "solution": "Annulation",
-      "publication": "Publié au Bulletin",
-      "sommaire": "Selon l'article 16 du décret n° 2004-1463 du 23 décembre 2004, un expert peut solliciter sa réinscription, pour une durée de cinq ans, sur la liste d'une cour d'appel autre que celle auprès de laquelle il est inscrit, sans être soumis à l'inscription à titre probatoire. Il en résulte que l'expert peut solliciter sa réinscription sur la liste d'une autre cour d'appel lorsque cette réinscription prend effet à une date où la période probatoire est achevée",
-      "url": "https://www.courdecassation.fr/decision/6ac78b85c27382d0995253af"
-    },
-    {
-      "id": "6ac78b7cc27382d099524f5b",
-      "date": "2026-10-08",
-      "chambre": "Troisième chambre civile",
-      "formation": "Formation de section",
-      "numero": "24-16.523",
+      "numero": "24-11.073",
       "solution": "Cassation",
-      "publication": "Publié au Bulletin",
-      "sommaire": "Le caractère apparent du désordre s'apprécie au jour de la réception et exclusivement en la personne du maître de l'ouvrage. S'il est tenu compte, pour cette appréciation, des compétences personnelles du maître de l'ouvrage, celles-ci, lorsqu'il s'agit d'une personne morale, se déterminent au regard de son objet ou des activités qu'elle exerce et non au regard des compétences de son représentant légal, que celui-ci soit une personne physique ou une personne morale",
-      "url": "https://www.courdecassation.fr/decision/6ac78b7cc27382d099524f5b"
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Il résulte des articles 23 et 24 de la Convention générale du 26 juin 2003 sur la sécurité sociale entre le Gouvernement de la République française et le Gouvernement de la République tunisienne, modifiée par avenant du 4 décembre 2003, entrée en vigueur le 1er avril 2007, et de l'article 22 de l'arrangement administratif général relatif aux modalités d'application de cette Convention, qui instaurent des règles impératives de coordination de sécurité sociale entre la France et la Tunisie, que l'institution compétente, qui a reçu la demande de pension de vieillesse, ne peut pas se substituer à l'institution compétente de l'autre Etat, qui seule vérifie si l'assuré, réunit, d'après sa législat",
+      "url": "https://www.courdecassation.fr/decision/6ad099857a102021375f47f3"
     }
   ]
 }
