@@ -1,7 +1,7 @@
 {
-  "mis_a_jour": "2026-10-16T07:17:27",
+  "mis_a_jour": "2026-10-17T07:01:42",
   "date_cible": "2026-10-15",
-  "date_recherche_initiale": "2026-10-15",
+  "date_recherche_initiale": "2026-10-16",
   "total": 11,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
@@ -15,28 +15,6 @@
       "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
       "sommaire": "",
       "url": "https://www.courdecassation.fr/decision/6ad099917a102021375f48bc"
-    },
-    {
-      "id": "6ad099897a102021375f481d",
-      "date": "2026-10-15",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "24-15.050",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "Selon l'article L. 256-4 du code de la sécurité sociale, à l'exception des cotisations et majorations de retard, les créances des caisses nées de l'application de la législation de sécurité sociale peuvent être réduites en cas de précarité de la situation du débiteur par décision motivée de la caisse, sauf en cas de manoeuvre frauduleuse ou de fausses déclarations. L'existence d'une manoeuvre frauduleuse doit s'entendre, au sens de ce texte, d'une volonté de dissimulation en vue d'obtenir les prestations indues. Il en résulte que ne caractérise pas une telle manoeuvre frauduleuse le seul fait pour un assuré d'avoir exercé, sans autorisation médicale, une activité ayant donné lieu à rémunérat",
-      "url": "https://www.courdecassation.fr/decision/6ad099897a102021375f481d"
-    },
-    {
-      "id": "6ad0997e7a102021375f47a4",
-      "date": "2026-10-15",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "24-10.070",
-      "solution": "Rejet",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "Pour l'application des articles L. 461-1, R. 461-8 et D. 461-30 du code de la sécurité sociale, le taux d'incapacité permanente à retenir pour l'instruction d'une demande de prise en charge d'une maladie non désignée dans un tableau des maladies professionnelles est celui évalué par le service du contrôle médical dans le dossier constitué pour la saisine du comité régional de reconnaissance des maladies professionnelles, dit « taux prévisible ». L'employeur a la faculté, au soutien de son action aux fins d'inopposabilité de la décision de prise en charge, de contester le taux d'incapacité permanente prévisible fixé par le service du contrôle médical au cours de l'instruction de la déclaratio",
-      "url": "https://www.courdecassation.fr/decision/6ad0997e7a102021375f47a4"
     },
     {
       "id": "6ad0996c7a102021375f4695",
@@ -61,15 +39,26 @@
       "url": "https://www.courdecassation.fr/decision/6ad0997a7a102021375f4783"
     },
     {
-      "id": "6ad0998c7a102021375f484e",
+      "id": "6ad0997e7a102021375f47a4",
       "date": "2026-10-15",
       "chambre": "Deuxième chambre civile",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "24-14.941",
+      "numero": "24-10.070",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Pour l'application des articles L. 461-1, R. 461-8 et D. 461-30 du code de la sécurité sociale, le taux d'incapacité permanente à retenir pour l'instruction d'une demande de prise en charge d'une maladie non désignée dans un tableau des maladies professionnelles est celui évalué par le service du contrôle médical dans le dossier constitué pour la saisine du comité régional de reconnaissance des maladies professionnelles, dit « taux prévisible ». L'employeur a la faculté, au soutien de son action aux fins d'inopposabilité de la décision de prise en charge, de contester le taux d'incapacité permanente prévisible fixé par le service du contrôle médical au cours de l'instruction de la déclaratio",
+      "url": "https://www.courdecassation.fr/decision/6ad0997e7a102021375f47a4"
+    },
+    {
+      "id": "6ad099897a102021375f481d",
+      "date": "2026-10-15",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "24-15.050",
       "solution": "Cassation",
-      "publication": "Publié au Bulletin",
-      "sommaire": "Pour l'application de l'article L. 243-13 du code de la sécurité sociale, dans sa rédaction issue de la loi n°2014-1554 du 22 décembre 2014, le seuil des dix salariés rémunérés par l'entreprise est apprécié, sur la moyenne des douze mois de l'exercice, au 31 décembre de l'année précédant celle de l'envoi de l'avis de contrôle prévu par l'article R. 243-59, I, du code de la sécurité sociale",
-      "url": "https://www.courdecassation.fr/decision/6ad0998c7a102021375f484e"
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Selon l'article L. 256-4 du code de la sécurité sociale, à l'exception des cotisations et majorations de retard, les créances des caisses nées de l'application de la législation de sécurité sociale peuvent être réduites en cas de précarité de la situation du débiteur par décision motivée de la caisse, sauf en cas de manoeuvre frauduleuse ou de fausses déclarations. L'existence d'une manoeuvre frauduleuse doit s'entendre, au sens de ce texte, d'une volonté de dissimulation en vue d'obtenir les prestations indues. Il en résulte que ne caractérise pas une telle manoeuvre frauduleuse le seul fait pour un assuré d'avoir exercé, sans autorisation médicale, une activité ayant donné lieu à rémunérat",
+      "url": "https://www.courdecassation.fr/decision/6ad099897a102021375f481d"
     },
     {
       "id": "6ad099827a102021375f47d0",
@@ -103,6 +92,17 @@
       "publication": "Publié au Bulletin",
       "sommaire": "Le délai de prescription de l'action en nullité d'un procès-verbal de bornage d'une parcelle relevant de la communauté matrimoniale, engagée par un époux sur le fondement de l'article 1427 du code civil, court à compter du jour où il a connaissance de l'existence de l'acte signé par l'autre époux",
       "url": "https://www.courdecassation.fr/decision/6ad099707a102021375f46dd"
+    },
+    {
+      "id": "6ad0998c7a102021375f484e",
+      "date": "2026-10-15",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "24-14.941",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "Pour l'application de l'article L. 243-13 du code de la sécurité sociale, dans sa rédaction issue de la loi n° 2014-1554 du 22 décembre 2014, le seuil des dix salariés rémunérés par l'entreprise est apprécié, sur la moyenne des douze mois de l'exercice, au 31 décembre de l'année précédant celle de l'envoi de l'avis de contrôle prévu par l'article R. 243-59, I, du code de la sécurité sociale",
+      "url": "https://www.courdecassation.fr/decision/6ad0998c7a102021375f484e"
     },
     {
       "id": "6ad099777a102021375f4763",
