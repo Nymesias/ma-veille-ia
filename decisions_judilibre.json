@@ -1,10 +1,21 @@
 {
-  "mis_a_jour": "2026-10-24T07:55:40",
+  "mis_a_jour": "2026-10-25T07:39:47",
   "date_cible": "2026-10-22",
-  "date_recherche_initiale": "2026-10-23",
+  "date_recherche_initiale": "2026-10-24",
   "total": 9,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
+    {
+      "id": "6ad9d8187a10202137362c06",
+      "date": "2026-10-22",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "23-21.606",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6ad9d8187a10202137362c06"
+    },
     {
       "id": "6ad9d8107a10202137362298",
       "date": "2026-10-22",
@@ -26,17 +37,6 @@
       "publication": "Publié au Bulletin",
       "sommaire": "Compte tenu du contrôle judiciaire effectif dont peuvent faire l'objet, d'une part, l'exécution de bonne foi du contrat d'association, d'autre part, le respect des garanties applicables en droit disciplinaire associatif, enfin, l'existence d'un motif légitime justifiant la sanction prononcée, l'application du principe non bis in idem aux sanctions prises par une association contre l'un de ses membres, en cas de manquement de ce dernier aux obligations contractuelles résultant du pacte associatif auquel il a librement adhéré, porterait une atteinte ni nécessaire ni proportionnée au principe d'autonomie et de liberté statutaires des associations",
       "url": "https://www.courdecassation.fr/decision/6ad9d80d7a10202137361eef"
-    },
-    {
-      "id": "6ad9d8187a10202137362c06",
-      "date": "2026-10-22",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "23-21.606",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6ad9d8187a10202137362c06"
     },
     {
       "id": "6ad9d8227a1020213736374d",
@@ -72,17 +72,6 @@
       "url": "https://www.courdecassation.fr/decision/6ad9d8257a10202137363baa"
     },
     {
-      "id": "6ad9d8137a102021373626fe",
-      "date": "2026-10-22",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-16.951",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "Selon l'article L. 112-2, 5°, du code des procédures civiles d'exécution, les biens mobiliers nécessaires à la vie et au travail du saisi et de sa famille sont, sauf exception, insaisissables. Cependant, ils deviennent saisissables s'ils se trouvent dans un lieu autre que celui où le saisi demeure ou travaille habituellement, s'ils sont des biens de valeur, en raison notamment de leur importance, de leur matière, de leur rareté, de leur ancienneté ou de leur caractère luxueux, s'ils perdent leur caractère de nécessité en raison de leur quantité ou s'ils constituent des éléments corporels d'un fonds de commerce. L'appréciation du lieu où le débiteur saisi travaille habituellement relève du po",
-      "url": "https://www.courdecassation.fr/decision/6ad9d8137a102021373626fe"
-    },
-    {
       "id": "6ad9d81e7a10202137363314",
       "date": "2026-10-22",
       "chambre": "Deuxième chambre civile",
@@ -103,6 +92,17 @@
       "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
       "sommaire": "Constitue, au sens de l'article 910-3 du code de procédure civile, dans sa rédaction issue du décret n° 2017-891 du 6 mai 2017, un cas de force majeure la circonstance non imputable au fait de la partie qui l'invoque et qui revêt pour elle un caractère insurmontable. Par conséquent, doit être censuré l'arrêt d'une cour d'appel qui, pour déclarer caduque une déclaration d'appel, retient que l'appelant, qui se prévaut d'une indisponibilité le dernier jour du délai imparti pour conclure, ne justifie pas d'un cas de force majeure en ce qu'il avait eu le temps suffisant pour conclure avant cette date, alors qu'en statuant ainsi, par des motifs inopérants, la cour d'appel l'a ainsi privé de son dr",
       "url": "https://www.courdecassation.fr/decision/6ad9d81b7a10202137362fae"
+    },
+    {
+      "id": "6ad9d8137a102021373626fe",
+      "date": "2026-10-22",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-16.951",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Selon l'article L. 112-2, 5°, du code des procédures civiles d'exécution, les biens mobiliers nécessaires à la vie et au travail du saisi et de sa famille sont, sauf exception, insaisissables. Cependant, ils deviennent saisissables s'ils se trouvent dans un lieu autre que celui où le saisi demeure ou travaille habituellement, s'ils sont des biens de valeur, en raison notamment de leur importance, de leur matière, de leur rareté, de leur ancienneté ou de leur caractère luxueux, s'ils perdent leur caractère de nécessité en raison de leur quantité ou s'ils constituent des éléments corporels d'un fonds de commerce. L'appréciation du lieu où le débiteur saisi travaille habituellement relève du po",
+      "url": "https://www.courdecassation.fr/decision/6ad9d8137a102021373626fe"
     }
   ]
 }
