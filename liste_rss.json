@@ -55,12 +55,21 @@
       "nom_site": "Vie Publique|Lois",
       "articles": [
         {
-          "t": "Loi du 29 octobre 2026 portant reconnaissance de la Nation envers les rapatriés d'Indochine et réparation des préjudices subis par ceux-ci et leurs familles du fait de l'indignité de leurs conditions d'accueil et de vie dans certaines structures sur le t",
-          "l": "https://www.vie-publique.fr/loi/298899-rapatries-dindochine-reconnaissance-nation-loi-faure-29-octobre-2026?egn-publisher=dila_vp&egn-name=informer_rss_lois",
-          "d": "2026-10-30",
-          "r": "La loi accorde la reconnaissance de la France envers les rapatriés d'Indochine. Elle prévoit de leur étendre la journée nationale d'hommage aux \"morts pour la France\" en Indochine (le 8 juin) et institue une procédure de réparation financière pour les personnes placées dans des camps, dans des conditions indignes.",
+          "t": "Projet de loi relatif à la protection des enfants",
+          "l": "https://www.vie-publique.fr/loi/303379-protection-des-enfants-projet-de-loi-2026-ase-controle-periscolaire?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+          "d": "2026-11-03",
+          "r": "Peine de prison à perpétuité pour les auteurs de viols en série sur mineurs, renforcement du contrôle des antécédents judiciaires des adultes intervenant auprès d'enfants, parcours des enfants confiés à l'aide sociale à l'enfance sécurisé, nouvelle ordonnance de sûreté de l'enfant... Que contient le projet de loi sur la protection des enfants ?",
           "c": [
-            "Guerre, Histoire, Armée"
+            "Enfant, Mineur"
+          ]
+        },
+        {
+          "t": "Loi du 2 novembre 2026 portant abrogation du \"code noir\"",
+          "l": "https://www.vie-publique.fr/loi/303397-abrogation-du-code-noir-loi-du-2-novembre-2026-mathiasin?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+          "d": "2026-11-03",
+          "r": "La loi abroge le Code noir, à savoir l'ordonnance de 1685 sur les esclaves des îles de l'Amérique, et tous les textes qui en ont permis l'application, l'adaptation et l'extension à d'autres territoires. Elle rappelle que ces textes sont indissociables du crime contre l'humanité que constituent la traite et l'esclavage.",
+          "c": [
+            "Droits de l'homme, Crime contre l'humanité, Outre-mer"
           ]
         }
       ]
@@ -85,11 +94,13 @@
       "nom_site": "INPI|PIBD",
       "articles": [
         {
-          "t": "PIBD 1276 15 octobre 2026",
-          "l": "https://pibd.inpi.fr/pibd/pibd-1276",
-          "d": "2026-10-15",
+          "t": "PIBD 1277 1er novembre 2026",
+          "l": "https://pibd.inpi.fr/pibd/pibd-1277",
+          "d": "2026-11-01",
           "c": [
             "Textes officiels",
+            "Décisions du directeur général de l'INPI",
+            "Union européenne",
             "Notifications relatives aux traités",
             "Doctrine et analyses",
             "Compte rendu",
@@ -99,11 +110,11 @@
             "Marques",
             "Brèves de jurisprudence",
             "Actualités et informations",
-            "Pratique des offices",
-            "Échos du réseau international",
             "Chronique de l'étranger",
-            "Études statistiques",
-            "EUIPO"
+            "Publications de l'INPI",
+            "EUIPO",
+            "OEB",
+            "Formations, colloques"
           ]
         }
       ],
@@ -133,16 +144,14 @@
       "nom_site": "Conseil Constitutionnel|Actualités",
       "articles": [
         {
-          "t": "La décision en bref : décision n° 2026-1229 QPC du 23 octobre 2026",
-          "l": "https://www.conseil-constitutionnel.fr/actualites/la-decision-en-bref-decision-n-2026-1229-qpc-du-23-octobre-2026",
-          "d": "2026-10-23",
-          "r": "Commune de Saint-Maur-des-Fossés [Montant du prélèvement ou du reversement au titre du fonds national de garantie individuelle des ressources communales et intercommunales]"
+          "t": "Le Conseil constitutionnel à Bobigny pour une nouvelle audience délocalisée de question prioritaire de constitutionnalité",
+          "l": "https://www.conseil-constitutionnel.fr/actualites/le-conseil-constitutionnel-a-bobigny-pour-une-nouvelle-audience-delocalisee-de-question-prioritaire",
+          "d": "2026-11-03"
         },
         {
-          "t": "La décision en bref : décision n° 2026-1230/1231 QPC du 23 octobre 2026",
-          "l": "https://www.conseil-constitutionnel.fr/actualites/la-decision-en-bref-decision-n-2026-12301231-qpc-du-23-octobre-2026",
-          "d": "2026-10-23",
-          "r": "Association des représentants des employeurs des métiers de l’alimentation et autres [Gel temporaire du montant des cotisations d’assurance maladie complémentaire]"
+          "t": "Retrouvez toute l’actualité du Conseil constitutionnel sur notre site internet",
+          "l": "https://www.conseil-constitutionnel.fr/actualites/retrouvez-toute-l-actualite-du-conseil-constitutionnel-sur-notre-site-internet",
+          "d": "2026-11-03"
         }
       ],
       "type": "publication"
@@ -151,145 +160,10 @@
       "nom_site": "CJUE",
       "articles": [
         {
-          "t": "CELEX:62024CJ0420: Arrêt de la Cour (sixième chambre) du 22 octobre 2026 — Sindicatul Drumarilor „Elie Radu” contre Compania Naţională de Administrare a Infrastructurii Rutiere SA - Direcţia Regională de Drumuri şi Poduri Iaşi",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0420",
-          "d": "2026-10-22",
-          "r": "Demande de décision préjudicielle, introduite par Curtea de Apel Iaşi — Renvoi préjudiciel – Politique sociale – Protection de la sécurité et de la santé des travailleurs – Directive 2003/88/CE – Aménagement du temps de travail – Article 2, point 1 – Notion de “temps de travail” – Article 6, sous b) – Durée maximale hebdomadaire de travail – Lieu de travail effectif autre que le lieu de travail fixe prévu par un contrat de travail – Temps de déplacement vers ce lieu de travail effectif – Article 31, paragraphe 2, de la charte des droits fondamentaux de l’Union européenne — Affaire C-420/24",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62025CJ0187: Arrêt de la Cour (neuvième chambre) du 22 octobre 2026 — „EVN Bulgaria Renewables“ EOOD contre Direktor na Teritorialna direktsia Plovdiv na Natsionalnata agentsia za prihodite",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0187",
-          "d": "2026-10-22",
-          "r": "Demande de décision préjudicielle, introduite par l’Administrativen sad Plovdiv — Renvoi préjudiciel – Marché intérieur de l’électricité – Règlement (UE) 2022/1854 – Intervention d’urgence pour faire face aux prix élevés de l’énergie – Article 6, paragraphe 1 – Article 8, paragraphe 1, sous a), et paragraphe 2 – Plafond sur les recettes issues du marché obtenues par les producteurs d’électricité utilisant certaines sources d’énergie – Plafond national inférieur à 180 euros par mégawattheure (MWh) d’électricité produite – Admissibilité – Plafond différencié en fonction de l’existence ou non, au 8 octobre 2022, d’un contrat de compensation avec des primes liant le producteur concerné – Proport",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62025CJ0033: Arrêt de la Cour (troisième chambre) du 22 octobre 2026 — T V.O.F. contre Stichting Bloembollenkeuringsdienst",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0033",
-          "d": "2026-10-22",
-          "r": "Demande de décision préjudicielle, introduite par le College van Beroep voor het bedrijfsleven — Renvoi préjudiciel – Agriculture – Plantes vivantes et produits de floriculture – Directive 98/56/CE – Commercialisation de matériels de multiplication des plantes ornementales – Article 2, point 3 – Notions de “commercialisation” et de “maintien à disposition ou en stock” – Exclusion de la plantation et de la culture – Article 3, paragraphe 1 – Interdiction de commercialiser des matériels de multiplication ne satisfaisant pas aux exigences de cette directive – Article 3, paragraphe 2, sous c) – Dérogation aux fins de la conservation de la diversité génétique – Portée – Article 3, paragraphe 3 – ",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62025CJ0367: Arrêt de la Cour (sixième chambre) du 22 octobre 2026 — République hellénique contre Commission européenne",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0367",
-          "d": "2026-10-22",
-          "r": "Pourvoi – Fonds européen agricole de garantie (FEAGA) et Fonds européen agricole pour le développement rural (Feader) – Dépenses exclues du financement de l’Union européenne – Dépenses effectuées par la République hellénique – Conditionnalité – Contrôles clés – Correction financière forfaitaire — Affaire C-367/25 P",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62024CJ0840: Arrêt de la Cour (cinquième chambre) du 22 octobre 2026 — Verwertungsgesellschaft Wort (VG Wort) contre TL",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0840",
-          "d": "2026-10-22",
-          "r": "Demande de décision préjudicielle, introduite par le Bundesgerichtshof — Renvoi préjudiciel – Droit d’auteur et droits voisins – Directive 2014/26/UE – Société de gestion collective – Article 3, sous h) – Revenus provenant des droits, y compris la compensation pour copie privée et la rémunération pour le prêt public – Article 11, paragraphe 4 – Utilisation de ces revenus à des fins autres que leur distribution aux titulaires de droits – Financement de services sociaux, culturels ou éducatifs – Article 12, paragraphe 4 – Déductions effectuées par la société de gestion collective – Article 13, paragraphes 4 et 6 – Sommes réput�es non distribuables – Réglementation nationale prévoyant la promot",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62025CJ0348: Arrêt de la Cour (neuvième chambre) du 22 octobre 2026 — PGI Spain, SL e.a. contre Commission européenne",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0348",
-          "d": "2026-10-22",
-          "r": "Pourvoi – Aides d’État – Crise énergétique – Mesures nationales visant à réduire les prix de gros de l’électricité sur le marché ibérique – Décision de ne pas soulever d’objections – Absence de difficultés sérieuses – Principe de non-discrimination – Éléments de preuve postérieurs à l’adoption de la décision – Pertinence – Demande de production de documents – Niveau de preuve requis – Demande de production de l’enregistrement sonore de l’audience de plaidoiries devant le Tribunal de l’Union européenne — Affaire C-348/25 P",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62025CJ0548: Arrêt de la Cour (quatrième chambre) du 22 octobre 2026 — Dryade vzw contre Stad Peer",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0548",
-          "d": "2026-10-22",
-          "r": "Demande de décision préjudicielle, introduite par le Raad voor Vergunningsbetwistingen — Renvoi préjudiciel – Environnement – Directive 92/43/CEE – Conservation des habitats naturels ainsi que de la faune et de la flore sauvages – Zones de protection spéciale – Article 6, paragraphe 3 – Évaluation appropriée des incidences d’un plan ou d’un projet susceptible d’affecter un site protégé eu égard aux objectifs de conservation de ce site – Exclusion de certaines catégories d’activités, de plans ou de projets de l’obligation de procéder à une évaluation appropriée — Affaire C-548/25",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62025CJ0431: Arrêt de la Cour (huitième chambre) du 22 octobre 2026 — Agrárminiszter contre UZ",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0431",
-          "d": "2026-10-22",
-          "r": "Demande de décision préjudicielle, introduite par la Kúria — Renvoi préjudiciel – Politique agricole commune – Régimes de soutien direct – Règlement délégué (UE) no 639/2014 – Article 53, paragraphes 1 et 4 – Demande de soutien couplé lié à la production pour détention de vaches allaitantes – Conditions d’octroi du soutien – Système intégré de gestion et de contrôle – Règlement délégué (UE) no 640/2014 – Article 2, paragraphe 1, deuxième alinéa, point 2 – Notion de “non-conformité” – Notification des événements de reproduction après le 31 décembre de l’année concernée – Article 13, paragraphe 1 – Dépôt tardif – Article 30, paragraphe 3 – Réduction du soutien couplé en cas d’animaux non déter",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62025CJ0117: Arrêt de la Cour (première chambre) du 22 octobre 2026 — Canal Sea Services SRL e.a. contre Ministerul Transporturilor, Infrastructurii și Comunicațiilor et Compania Națională « Administrația Porturilor Maritime » SA",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0117",
-          "d": "2026-10-22",
-          "r": "Demande de décision préjudicielle, introduite par l’Înalta Curte de Casaţie şi Justiţie — Renvoi préjudiciel – Aides d’État – Règlement (UE) 2017/352 – Service de pilotage portuaire obligatoire des navires – Réglementation nationale octroyant à des entités publiques le droit exclusif de fournir ce service – Notion d’“aide” – Activité économique – Prérogative de puissance publique – Sécurité maritime — Affaire C-117/25",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62024CJ0660: Arrêt de la Cour (quatrième chambre) du 22 octobre 2026 — Commission européenne contre Hongrie",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0660",
-          "d": "2026-10-22",
-          "r": "Manquement d’État – Article 258 TFUE – Espace de liberté, de sécurité et de justice – Coopération judiciaire en matière pénale – Directive 2013/48/UE – Droit d’accès à un avocat dans le cadre des procédures pénales – Article 3, paragraphe 3, sous b) – Droit des suspects et des personnes poursuivies à la présence de leur avocat et à la participation effective de celui-ci à leur interrogatoire – Notions de “présence” et de “participation effective” – Article 3, paragraphe 6, sous b) – Dérogation temporaire au droit d’accès à un avocat – Législation nationale permettant l’interrogatoire des suspects et des personnes raisonnablement soupçonnées d’avoir commis une infraction pénale sans leur avoc",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62024CJ0873: Arrêt de la Cour (quatrième chambre) du 22 octobre 2026 — GK e.a",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0873",
-          "d": "2026-10-22",
-          "r": "Demande de décision préjudicielle, introduite par le Bundesgerichtshof — Renvoi préjudiciel – Coopération judiciaire en matière civile – Certificat successoral européen – Règlement (UE) no 650/2012 – Article 68, sous l) – Contenu du certificat successoral européen – Succession comprenant un bien immobilier situé dans un État membre autre que celui de délivrance du certificat – Certificat demandé aux fins de l’inscription du droit de propriété relatif à ce bien au registre foncier de ce premier État membre – Obligation de l’autorité émettrice d’identifier ledit bien dans le certificat successoral européen – Réglementation nationale refusant une inscription au registre foncier sur le seul fond",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62024CJ0681: Arrêt de la Cour (quatrième chambre) du 22 octobre 2026 — Commission européenne contre République tchèque",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0681",
-          "d": "2026-10-22",
-          "r": "Manquement d’État – Article 258 TFUE – Espace de liberté, de sécurité et de justice – Coopération judiciaire en matière pénale – Directive 2013/48/UE – Droit d’accès à un avocat dans le cadre des procédures pénales – Article 3, paragraphe 3 – Droit des suspects et des personnes poursuivies à la présence de leur avocat et à la participation effective de celui-ci à leur interrogatoire – Notions de “présence” et de “participation effective” – Article 3, paragraphe 6 – Dérogation temporaire au droit d’accès à un avocat – Législation nationale permettant l’interrogatoire des suspects et des personnes poursuivies sans leur avocat si celui-ci est injoignable — Affaire C-681/24",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62025CJ0295: Arrêt de la Cour (première chambre) du 22 octobre 2026 — Lima BV contre Vlaams Gewest",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0295",
-          "d": "2026-10-22",
-          "r": "Demande de décision préjudicielle, introduite par le Raad van State — Renvoi préjudiciel – Agriculture et pêche – Production biologique et étiquetage des produits biologiques – Règlement (UE) 2018/848 – Article 5, sous d) et e) – Article 7, sous a) à c) – Annexe II, partie IV, point 2.2.2, sous f), i) – Utilisation de certains produits et substances dans la transformation des denrées alimentaires biologiques – Poudre certifiée biologique obtenue à partir de sédiments nettoyés, broyés et séchés de l’algue Lithothamnium calcareum, naturellement riche en carbonate de calcium – Qualification – Minéral – Ingrédient agricole biologique – Utilisation dans les denrées alimentaires biologiques de con",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62025CJ0359: Arrêt de la Cour (dixième chambre) du 22 octobre 2026 — IS contre Ypourgos Exoterikon",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0359",
-          "d": "2026-10-22",
-          "r": "Demande de décision préjudicielle, introduite par le Symvoulio tis Epikrateias — Renvoi préjudiciel – Politique sociale – Égalité de traitement en matière d’emploi et de travail – Directive 2000/78/CE – Article 1er – Interdiction de discrimination en fonction de l’âge – Mise à la retraite d’office de fonctionnaires relevant d’un service diplomatique ayant atteint l’âge de 65 ans et ayant accompli 35 ans de service public effectif ouvrant droit à pension – Article 6 – Objectifs légitimes justifiant une différence de traitement fondée sur l’âge — Affaire C-359/25",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62025CJ0327: Arrêt de la Cour (neuvième chambre) du 22 octobre 2026 — „VETS Svoge“ EOOD contre Predsedatel na Upravitelnia savet na Fond „Sigurnost na elektroenergiynata sistema“",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0327",
-          "d": "2026-10-22",
-          "r": "Demande de décision préjudicielle, introduite par le Varhoven administrativen sad — Renvoi préjudiciel – Marché intérieur de l’électricité – Règlement (UE) 2022/1854 – Intervention d’urgence pour faire face aux prix élevés de l’énergie – Article 6, paragraphe 1 – Plafond sur les recettes issues du marché obtenues par les producteurs d’électricité utilisant certaines sources d’énergie – Article 8 – Mesure nationale antérieure – Contribution nationale calculée sur la totalité des recettes des producteurs d’électricité, prélevée en vue de financer une entité publique chargée de garantir la stabilité financière et la sécurité du marché de l’énergie – Mesure ne relevant pas du champ d’application",
-          "c": [
-            "6"
-          ]
-        },
-        {
-          "t": "CELEX:62024CJ0813: Arrêt de la Cour (deuxième chambre) du 22 octobre 2026 — Smartflats SA contre Région de Bruxelles-Capitale",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0813",
-          "d": "2026-10-22",
-          "r": "Demande de décision préjudicielle, introduite par la cour d'appel de Bruxelles — Renvoi préjudiciel – Libre prestation des services – Directive 2006/123/CE – Services dans le marché intérieur – Exploitation d’un hébergement touristique – Régime d’autorisation – Conditions d’octroi de l’autorisation – Exploitation soumise à une déclaration préalable et à un enregistrement – Intervention d’autorités régionales et communales dans la procédure – Nécessité d’un permis d’urbanisme – Obligation de présenter une attestation de conformité urbanistique – Délai pour se prononcer sur la demande – Recours contre la décision de refus de délivrer une attestation de conformité urbanistique — Affaire C-813/2",
+          "t": "CELEX:62024CJ0583: Arrêt de la Cour (grande chambre) du 3 novembre 2026 — Openbaar Ministerie contre DZ",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0583",
+          "d": "2026-11-03",
+          "r": "Renvoi préjudiciel – Coopération judiciaire en matière pénale – Mandat d’arrêt européen et procédures de remise ente États membres – Décision-cadre 2002/584/JAI – Article 1er, paragraphe 3 – Obligation de respect des droits fondamentaux – Article 49, paragraphe 3, de la charte des droits fondamentaux de l’Union européenne – Principe de proportionnalité des délits et des peines – Proportionnalité de la peine privative de liberté par rapport à l’infraction visée par le mandat d’arrêt européen – Possibilité de refuser l’exécution du mandat d’arrêt européen pour violation de ce principe – Violation manifeste et grave – Absence — Affaire C-583/24",
           "c": [
             "6"
           ]
@@ -300,73 +174,76 @@
       "nom_site": "CEDH",
       "articles": [
         {
-          "t": "AFFAIRE ANDREANI ET AUTRES c. ITALIE",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-253478",
-          "d": "2026-10-29",
-          "r": "44596/18;13410/23;36375/24 - Chamber Judgment",
+          "t": "AFFAIRE A.H. c. SERBIE ET MACÉDOINE DU NORD",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-253570",
+          "d": "2026-11-03",
+          "r": "60417/16;79749/16 - Chamber Judgment",
           "c": [
             "Arrêt de chambre"
           ]
         },
         {
-          "t": "AFFAIRE FIŠIĆ c. CROATIE",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-253439",
-          "d": "2026-10-29",
-          "r": "18788/22 - Chamber Judgment",
+          "t": "AFFAIRE B.G. c. MACÉDOINE DU NORD",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-253577",
+          "d": "2026-11-03",
+          "r": "7870/25 - Chamber Judgment",
           "c": [
             "Arrêt de chambre"
           ]
         },
         {
-          "t": "AFFAIRE LO SICCO c. ITALIE",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-253542",
-          "d": "2026-10-29",
-          "r": "14417/09 - Chamber Judgment",
+          "t": "AFFAIRE GÖKÇE ET AUTRES c. TÜRKİYE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-253586",
+          "d": "2026-11-03",
+          "r": "51110/19;34526/20;48100/20;34616/21 - Chamber Judgment",
           "c": [
             "Arrêt de chambre"
           ]
         },
         {
-          "t": "AFFAIRE AGRIMEC S.R.L. c. RÉPUBLIQUE DE MOLDOVA",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-253475",
-          "d": "2026-10-29",
-          "r": "21038/11 - Committee Judgment",
+          "t": "AFFAIRE HÁTTÉR TÁRSASÁG ET AMNESTY INTERNATIONAL MAGYARORSZÁG c. HONGRIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-253574",
+          "d": "2026-11-03",
+          "r": "43901/22 - Chamber Judgment",
+          "c": [
+            "Arrêt de chambre"
+          ]
+        },
+        {
+          "t": "AFFAIRE CHERKEZI c. MACÉDOINE DU NORD",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-253588",
+          "d": "2026-11-03",
+          "r": "624/25 - Committee Judgment",
           "c": [
             "Arrêt de comité"
           ]
         },
         {
-          "t": "AFFAIRE GAICIUC c. RÉPUBLIQUE DE MOLDOVA",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-253527",
-          "d": "2026-10-29",
-          "r": "23926/18 - Committee Judgment",
+          "t": "AFFAIRE KARDOS-VILLÁNYI c. HONGRIE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-253576",
+          "d": "2026-11-03",
+          "r": "37836/23 - Committee Judgment",
           "c": [
             "Arrêt de comité"
           ]
         },
         {
-          "t": "AFFAIRE GENDERDOC-M c. RÉPUBLIQUE DE MOLDOVA",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-253477",
-          "d": "2026-10-29",
-          "r": "23907/15 - Committee Judgment",
+          "t": "AFFAIRE SALAMOVA ET AUTRES c. AZERBAÏDJAN",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-253575",
+          "d": "2026-11-03",
+          "r": "66345/12;52066/13 - Committee Judgment",
           "c": [
             "Arrêt de comité"
           ]
         },
         {
-          "t": "AFFAIRE MENDICINO ET AUTRES c. ITALIE",
-          "l": "https://hudoc.echr.coe.int/fre?i=001-253235",
-          "d": "2026-10-29",
-          "r": "78000/16;72022/17;18213/18;46960/18 - Committee Judgment",
+          "t": "AFFAIRE TAŞ c. TÜRKİYE",
+          "l": "https://hudoc.echr.coe.int/fre?i=001-253587",
+          "d": "2026-11-03",
+          "r": "40838/23 - Committee Judgment",
           "c": [
             "Arrêt de comité"
           ]
-        },
-        {
-          "t": "Andreani et autres c. Italie",
-          "l": "https://hudoc.echr.coe.int/fre?i=002-14721",
-          "d": "2026-10-29",
-          "r": "44596/18;13410/23;36375/24 - Legal Summary"
         }
       ]
     }
@@ -580,6 +457,15 @@
       "nom_site": "Conseil d'Etat|Analyses de jurisprudence",
       "articles": [
         {
+          "t": "Analyses du Conseil d’État du 1er au 15 octobre 2026",
+          "l": "https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/analyses-de-jurisprudence/fiches-mensuelles-d-analyse-de-jurisprudence/analyses-du-conseil-d-etat-du-1er-au-15-octobre-2026",
+          "d": "2026-11-02",
+          "r": "L’Essentiel La décision à publier au RecueilTravail. Un accord portant plan de sauvegarde de l’emploi (PSE) peut êtr...",
+          "c": [
+            "Analyses de jurisprudence"
+          ]
+        },
+        {
           "t": "Analyses du Conseil d’État du 1er au 30 septembre 2026",
           "l": "https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/analyses-de-jurisprudence/fiches-mensuelles-d-analyse-de-jurisprudence/analyses-du-conseil-d-etat-du-1er-au-30-septembre-2026",
           "d": "2026-10-06",
@@ -677,15 +563,6 @@
           "c": [
             "Analyses de jurisprudence"
           ]
-        },
-        {
-          "t": "Analyses du Conseil d'État du 16 au 30 avril 2026",
-          "l": "https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/analyses-de-jurisprudence/fiches-mensuelles-d-analyse-de-jurisprudence/analyses-du-conseil-d-etat-du-16-au-30-avril-2026",
-          "d": "2026-05-07",
-          "r": "L’Essentiel La décision à publier au RecueilPrescription. Toute action du débiteur contestant le bien-fondé d&rsqu...",
-          "c": [
-            "Analyses de jurisprudence"
-          ]
         }
       ],
       "type": "publication"
@@ -742,14 +619,9 @@
       "nom_site": "DGCCRF",
       "articles": [
         {
-          "t": "La SAS AUCHAN HYPERMARCHÉ (54 LAXOU SAPINIÈRE) sanctionnée pour défaut de publicité des prix",
-          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/la-sas-auchan-hypermarche-54-laxou-sapiniere-sanctionnee-pour-defaut-de-publicite-des-prix",
-          "d": "2026-10-30"
-        },
-        {
-          "t": "10 000€ d’amende pour WAM PARK (73) pour défaut de mise en conformité des process de vérification des équipements de protection individuelle",
-          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/10-000eur-damende-pour-wam-park-73-pour-defaut-de-mise-en-conformite-des-process-de-verification",
-          "d": "2026-10-30"
+          "t": "AMENDE TRANSACTIONNELLE de 50 191€ à l'encontre de la société MA BOUTIQUE AU NATUREL exploitant le site internet www.onatera.com",
+          "l": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-transactionnelle-de-50-191eur-lencontre-de-la-societe-ma-boutique-au-naturel-exploitant",
+          "d": "2026-11-03"
         }
       ]
     }
@@ -906,154 +778,154 @@
       "nom_site": "AN|Questions",
       "articles": [
         {
-          "t": "Question écrite n° 19362 de M. Matthieu Marchio — Décarbonation du transport routier",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19362",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19477 de Mme Constance de Pélichy — Transparence et maîtrise de la consommation d'eau et d'électricité",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19477",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19291 de Mme Sandrine Runel — Manifestation d'extrême droite à Lyon",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19291",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19445 de M. Olivier Fayssat — Organisation de sessions d'examen du permis de chasser le samedi",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19445",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19336 de M. Philippe Juvin — Différences de modalités de sortie en capital des plans d'épargne retraite",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19336",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19460 de M. Emmanuel Maurel — Disparition d'entreprises condamnées après un litige",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19460",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19276 de M. Nicolas Bonnet — Reprises des travaux de réforme constitutionnelle initiée en 2019",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19276",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19461 de M. Antoine Valentin — PMC dans le cadre des enquêtes judiciaires relatives aux violences urbaines",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19461",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19279 de M. Jean-Luc Warsmann — Allègement des normes pour la restauration scolaire des communes rurales",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19279",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19410 de M. Christophe Bex — Revalorisation de l'APA dans un contexte de vieillissement de la population",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19410",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19227 de Mme Véronique Ludmann — Prise en compte du temps d'accueil dans le service des professeurs des écoles",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19227",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19478 de M. Vincent Ledoux — Conséquences des mesures de blocage DNS sur la cybersécurité",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19478",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19188 de M. Christophe Blanchet — Lutte contre les arnaques à l'investissement financier",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19188",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19448 de Mme Christine Pirès Beaune — Effectifs unité de renseignement fiscal",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19448",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19234 de M. Thomas Gassilloud — Conditions d'application du régime de faveur des fusions transfrontalières",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19234",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19427 de Mme Constance de Pélichy — Difficultés persistantes de remplacement des enseignants",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19427",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19306 de Mme Sylvie Bonnet — Renforcement des droits sociaux des travailleurs en ESAT",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19306",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19400 de M. Jean-Michel Jacques — Clarification et modernisation du régime juridique des communs de village",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19400",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19300 de M. Yannick Favennec-Bécot — Valorisation du patrimoine documentaire franco-canadien",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19300",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19515 de M. Abdelkader Lahmar — Cité-jardin de la Butte-Rouge : non à la casse du logement social !",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19515",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19339 de M. Aurélien Saintoul — Conséquences sanitaires de l'usage des gaz lacrymogènes",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19339",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19464 de M. Karim Benbrahim — Charges pour consommation d'énergie et d'eau dans les annonces locatives",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19464",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19338 de M. Emmanuel Taché — Plasma : renforcer l'autosuffisance française et la souveraineté sanitaire",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19338",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19466 de M. Vincent Ledoux — Logement - sécurité des biens et des personnes",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19466",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19352 de M. Hubert Brigand — Réforme du BNSSA et recrutement des surveillants saisonniers",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19352",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19431 de M. Maxime Laisney — Insuffisance d'accompagnement des élèves en situation de handicap",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19431",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19218 de M. Sylvain Berrios — Soutenir les auto-écoles face à la hausse des prix des carburants",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19218",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19366 de M. Paul Molac — Impact de la sécheresse 2026 sur la filière cidricole",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19366",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19193 de M. Guillaume Garot — Conséquences de la signature du COP 2026-2030",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19193",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19455 de Mme Laetitia Saint-Paul — Déliaison des taux TFPB-THRS",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19455",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19177 de M. Jean-Luc Warsmann — Publication des textes d'application de la loi n° 2025-106",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19177",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19485 de M. Christian Baptiste — Notification et affectation des crédits du logement social outre-mer",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19485",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19167 de M. David Taupiac — Assouplissements normes transport pour les producteurs fermiers",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19167",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19395 de M. Nicolas Dragon — Conséquences des manifestations et des violences sur le commerce de proximité",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19395",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19257 de M. Vincent Rolland — Imposition locale des chalets d'alpage",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19257",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19489 de M. Pierre Cordier — Conséquences de la fin du cumul de l'AAH et de l'ASS au 1er janvier 2027",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19489",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19330 de Mme Danielle Brulebois — Retard de paiement des mémoires de frais de justice des experts de justice",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19330",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19514 de M. Manuel Bompard — Suppression d'arrêts TGV à la gare des Arcs-Draguignan",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19514",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19277 de M. Jean-Luc Warsmann — Utilisation de la procédure de déclassement",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19277",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19425 de Mme Anne Sicard — Appels syndicaux au boycott des hommages aux Morts pour la France à l'école",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19425",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19198 de M. François Piquemal — Indemnisation des commerçants victimes de dégradations",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19198",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19408 de M. Lionel Tivoli — Mutualisation de l'APA dans les habitats partagés",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19408",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19264 de M. Vincent Ledoux — Protection des mineurs face à la banalisation de violence dans les jeux en ligne",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19264",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19376 de M. Philippe Fait — Situation préoccupante de la filière canine française et des éleveurs",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19376",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19252 de M. Dominique Potier — Soutien de l'État à l'apprentissage et à la formation professionnelle",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19252",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19434 de M. Fabrice Brun — Scolarité des lycéens dans les territoires ruraux.",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19434",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19305 de M. Pierre-Henri Carbonnel — Pertinence du maintien de la contribution OETH pour les exploitants agricoles",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19305",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19420 de M. Antoine Valentin — Négociations avec la Commission européenne sur le financement du programme EPR2",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19420",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19245 de M. Sacha Houlié — Protection sociale complémentaire : financement et calendrier dans les hôpitaux",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19245",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19399 de Mme Christine Engrand — Avenir des SIVEP dans le Pas-de-Calais",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19399",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19326 de M. Sylvain Carrière — Des réponses nécessaires aux difficultés croissantes des aides à domicile",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19326",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19500 de Mme Marie-France Lorho — Mesures mises en œuvre pour lutter contre l'infertilité",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19500",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19348 de M. Jean-Luc Warsmann — Attractivité des sapeurs-pompiers volontaires",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19348",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19424 de Mme Félicie Gérard — Accompagnement des élèves en situation de handicap",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19424",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19324 de Mme Sylvie Bonnet — Rémunération des manipulateurs en électroradiologie médicale (MERM)",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19324",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19499 de Mme Clémentine Autain — Effets des gaz lacrymogènes sur les femmes",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19499",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19242 de M. Romain Daubié — Cadre juridique et fiscal relatif à l'exercice de l'autorité parentale",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19242",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19390 de M. Bertrand Sorre — Toitures végétalisées dans le projet de loi DDADUE",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19390",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 19191 de Mme Sylvie Ferrer — Impact sur la forêt des projets E-CHO et NACRE",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19191",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 19392 de Mme Danièle Carteron — Nouvelles pratiques de PC SOFT",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE19392",
+          "d": "2026-11-03"
         }
       ]
     },
@@ -1061,154 +933,154 @@
       "nom_site": "AN|Réponses",
       "articles": [
         {
-          "t": "Question écrite n° 17512 de M. Gérard Leseul — Offre de repérage et de remobilisation",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17512",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 15298 de Mme Sophie Mette — Facturation numérique et photovoltaïques en 9kWc en BIC",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE15298",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 17518 de M. Éric Michoux — Avenir du dispositif Pacte Enseignement pour les établissements agricoles",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17518",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 14702 de M. Éric Michoux — Conséquences de la taxe d'apprentissage sur le secteur privé non lucratif",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14702",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 16909 de Mme Danielle Simonnet — Fermeture de centres de finances publiques à Paris",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE16909",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 18358 de Mme Laure Miller — Calcul des pensions de retraite des fonctionnaires territoriaux",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE18358",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 10554 de Mme Marie-France Lorho — Élargissement du CPF pour le permis des enfants",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE10554",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 13313 de M. François Ruffin — Lysine : se protéger du dumping chinois",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE13313",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 17504 de Mme Sandrine Rousseau — Soutien au testing probatoire",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17504",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 18203 de M. Alexandre Allegret-Pilot — Sécurisation des règles de pesée dans les sports de combat",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE18203",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 16432 de M. Jean-René Cazeneuve — Reconnaissance des secrétaires généraux de mairie",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE16432",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 14214 de Mme Véronique Besse — Suppression de l'exonération de taxe d'apprentissage",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14214",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 17445 de M. Thomas Lam — Convention fiscale avec le Cambodge",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17445",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 14403 de Mme Marianne Maximi — Taxe d'apprentissage : compenser une mesure qui met en danger les associations",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14403",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 17987 de M. Alexandre Allegret-Pilot — Transparence et fiabilité du fonctionnement de l'application Agora",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17987",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 16957 de M. Antoine Valentin — Stratégie nationale pour l'intelligence artificielle",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE16957",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 17451 de M. Éric Bothorel — Exonération de TVA des navires affectés à la navigation en haute mer",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17451",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 15415 de M. Pierre Marle — Actualisation du plafond du régime micro-foncier",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE15415",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 17109 de Mme Véronique Besse — Gratuité promise dans le déploiement de la facturation électronique",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17109",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 17089 de Mme Valérie Rossi — Suppression de l'exonération de taxe d'apprentissage pour l'ESS",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17089",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 16889 de Mme Nathalie Oziol — Situation et droits des AVS dans l'enseignement agricole privé et les MFR",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE16889",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 12729 de Mme Laure Lavalette — Renouvellement des statistiques sur la résidence des enfants de parents séparés",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE12729",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 17828 de Mme Mathilde Hignet — Sur la baisse des budgets de VIVEA",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17828",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 15720 de Mme Christine Pirès Beaune — Transfert des mammifères marins",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE15720",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 17939 de Mme Julie Lechanteux — Quelles mesures pour lutter contre la cochenille tortue du pin ?",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17939",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 15818 de Mme Danielle Simonnet — Avenir de l'industrie du jeu vidéo en France",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE15818",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 12987 de M. Vincent Thiébaut — Harmonisation nationale de la durée d'attribution de la carte d'invalidité",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE12987",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 17788 de Mme Laurence Robert-Dehault — Adaptations aux fortes chaleurs : horaires de nuit des agents territoriaux",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17788",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 15954 de M. Iñaki Echaniz — Statut des AESH des établissements agricoles privés et les MFR",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE15954",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 18773 de Mme Claudia Rouaux — Rémunération de son cabinet",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE18773",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 18006 de M. Michel Barnier — Piratage massif des données - été 2026",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE18006",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 14292 de Mme Géraldine Grangier — Assujettissement du secteur privé non lucratif à la taxe d'apprentissage",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14292",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 17757 de M. Guillaume Bigot — Vol de données à Bercy : opacité gouvernementale et failles de sécurité",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17757",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 13153 de Mme Marine Hamelet — Durée moyenne des peines d'emprisonnement pour violence sexuelle sur mineur",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE13153",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 17926 de M. Christian Girard — Conséquences néfastes sur le pastoralisme liées au décret du 24 août 2026",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17926",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 12037 de M. Corentin Le Fur — Taxe sur la valeur ajoutée applicable aux droits d'entrée des réunions hippiques",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE12037",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 15384 de M. Fabrice Barusseau — Situation des AVS dans l'enseignement agricole",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE15384",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 8886 de Mme Sylvie Bonnet — Impact des pensions alimentaires familiales versées aux enfants sur le RSA.",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE8886",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 13036 de M. Damien Girard — Droits sociaux des salariés embarqués de la Brittany Ferries",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE13036",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 15329 de Mme Cyrielle Chatelain — Suppression exonération taxe d'apprentissage",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE15329",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 14391 de M. Nicolas Dragon — Situation des betteraviers touchés par la jaunisse virale des betteraves",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14391",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 15222 de M. Karim Benbrahim — Impacts de la taxe d'apprentissage pour les acteurs privés non lucratifs",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE15222",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 16350 de Mme Christine Engrand — Zones à faibles émissions (ZFE)",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE16350",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 14402 de M. Paul Molac — Conséquences de la suppression de l'exonération de la taxe d'apprentissage",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14402",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 13208 de M. Didier Le Gac — Campagne nationale de vaccination contre le papillomavirus dans les collèges",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE13208",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 15573 de M. Jocelyn Dessigny — Violences sexuelles sur enfants dans le périscolaire - défaillances structurelle",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE15573",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 16655 de M. Sylvain Carrière — Statut des auxiliaires de vie scolaire dans les lycées agricoles privés",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE16655",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 17961 de Mme Hanane Mansouri — Contrôle de l'honorabilité des personnels au contact des mineurs",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17961",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 16891 de Mme Marie-France Lorho — Discriminations subies par les élèves issus des établissements hors contrat",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE16891",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 15409 de Mme Nicole Dubré-Chirat — Suppression de l'exonération de taxe d'apprentissage",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE15409",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 16762 de M. Michel Castellani — Départ anticipé à la retraite pour les infirmiers contractuels avant 2024",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE16762",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 11293 de M. Sébastien Saint-Pasteur — Persistance des intoxications liées aux cannabinoïdes de synthèse consommés",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE11293",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 16099 de Mme Caroline Colombier — Dérives graves de la RATP dans les amendes dressées à l'encontre des usagers",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE16099",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 14294 de Mme Virginie Duby-Muller — Impact de la taxe d'apprentissage sur les secteurs social et médico-social",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14294",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 17675 de M. Marc Chavent — Facturation dématérialisée pour les professionnels en zone blanche",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17675",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 16587 de M. Franck Allisio — Évaluation du taux d'invalidité des militaires blessés en OPEX",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE16587",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 17810 de M. Thierry Benoit — Cumul emploi-retraite pour les gendarmes et les militaires",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17810",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 14878 de Mme Sandrine Le Feur — Conséquences de la suppression de l'exonération de la taxe d'apprentissage",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14878",
+          "d": "2026-11-03"
         },
         {
-          "t": "Question écrite n° 18077 de M. Jean-Luc Bourgeaux — Apiculture - Difficultés d'application de la facturation électronique",
-          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE18077",
-          "d": "2026-10-27"
+          "t": "Question écrite n° 12299 de M. Paul Christophle — Situation de l'entreprise Polytechnyl - Valence",
+          "l": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE12299",
+          "d": "2026-11-03"
         }
       ]
     },
@@ -1216,19 +1088,28 @@
       "nom_site": "Sénat|Textes",
       "articles": [
         {
-          "t": "Transparence, l'équité et l'information dans l'accès à l'enseignement supérieur - texte N° 109",
-          "l": "http://www.senat.fr/leg/ppl26-109.html",
-          "d": "2026-10-31",
-          "r": "Proposition de loi visant à renforcer la transparence, l'équité et l'information dans l'accès à l'enseignementsupérieur : texte N° 109 de M. Ahmed LAOUEDJ, déposé au Sénat le 27 octobre 2026",
+          "t": "Financement de la sécurité sociale pour 2027 - texte N° 138",
+          "l": "http://www.senat.fr/leg/pjl26-138.html",
+          "d": "2026-11-03",
+          "r": "Projet de loi de financement de la sécurité sociale pour 2027 : texte N° 138 transmis au Sénat le 2 novembre 2026",
+          "c": [
+            "projet de loi de financement de la sécurité sociale"
+          ]
+        },
+        {
+          "t": "Reconnaître et sécuriser le métier de médiateur en santé - texte N° 122",
+          "l": "http://www.senat.fr/leg/ppl26-122.html",
+          "d": "2026-11-03",
+          "r": "Proposition de loi visant à reconnaître et sécuriser le métier de médiateur en santé : texte N° 122 de Mme Anne SOUYRIS et plusieurs de ses collègues, déposé au Sénat le 28 octobre 2026",
           "c": [
             "proposition de loi"
           ]
         },
         {
-          "t": "Parcours de soins pour toutes les victimes de violences sexuelles - texte N° 128",
-          "l": "http://www.senat.fr/leg/ppl26-128.html",
-          "d": "2026-10-31",
-          "r": "Proposition de loi visant à créer un parcours de soins intégralement pris en charge par la sécurité sociale pour toutes les victimes de violences sexuelles : texte N° 128 transmis au Sénat le 29 octobre 2026",
+          "t": "Peines planchers pour les crimes et délits - texte N° 124",
+          "l": "http://www.senat.fr/leg/ppl26-124.html",
+          "d": "2026-11-03",
+          "r": "Proposition de loi visant à instaurer des peines planchers pour les crimes et délits commis contre les membres de la force publique et les pompiers : texte N° 124 de M. Laurent CASTILLO et plusieurs de ses collègues, déposé au Sénat le 28 octobre 2026",
           "c": [
             "proposition de loi"
           ]
@@ -1317,16 +1198,16 @@
           "r": "10501 de M. Max Brisson"
         },
         {
-          "t": "Question n° 10505 — Gestion des risques incendie des panneaux photovoltaïques",
-          "l": "https://www.senat.fr/questions/base/2026/qSEQ261010505.html",
+          "t": "Question n° 10512 — Assouplissement des quotas de promotion interne des secrétaires généraux de mairie de catégorie B vers la catégorie A dans les petites communes rurales",
+          "l": "https://www.senat.fr/questions/base/2026/qSEQ261010512.html",
           "d": "2026-10-29",
-          "r": "10505 de M. Guillaume Gontard"
+          "r": "10512 de M. Sébastien Fagnen"
         },
         {
-          "t": "Question n° 10507 — Avenir des bureaux de poste dans les communes rurales et péri-urbaines du département du Nord",
-          "l": "https://www.senat.fr/questions/base/2026/qSEQ261010507.html",
+          "t": "Question n° 10536 — Exclusion de la baisse du taux du fonds de compensation pour la taxe sur la valeur ajoutée des dépenses réalisées avant le 1er janvier 2027",
+          "l": "https://www.senat.fr/questions/base/2026/qSEQ261010536.html",
           "d": "2026-10-29",
-          "r": "10507 de M. Joshua Hochart"
+          "r": "10536 de M. Samir Rhimini"
         },
         {
           "t": "Réponse n° 08926 — Dysfonctionnement du logiciel utilisé par la direction générale des finances publiques",
@@ -1665,19 +1546,9 @@
       "nom_site": "BCE|Politique monétaire",
       "articles": [
         {
-          "t": "Philip R. Lane: AI adoption in Europe",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
-          "d": "2026-10-30"
-        },
-        {
-          "t": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-          "l": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
-          "d": "2026-10-30"
-        },
-        {
-          "t": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
-          "l": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
-          "d": "2026-10-30"
+          "t": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
+          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
+          "d": "2026-11-02"
         }
       ]
     },
@@ -1685,10 +1556,16 @@
       "nom_site": "Ministère de l'Economie",
       "articles": [
         {
-          "t": "ESS : lancement d’un AMI pour soutenir la structuration de filières au sein de la communauté des Pôles Territoriaux de Coopération économique (PTCE)",
-          "l": "https://www.economie.gouv.fr/actualites/ess-lancement-dun-ami-pour-soutenir-la-structuration-de-filieres-au-sein-de-la-communaute-des-poles-territoriaux-de-cooperation-economique",
-          "d": "2026-10-29",
-          "r": "Afin de poursuivre et d’encourager le développement des pôles territoriaux de coopération économique (PTCE), le ministère de l’Économie, des Finances et de la Souveraineté industrielle et numérique annonce le lancement d’un nouvel appel à manifestation d’intérêt (AMI) destiné à soutenir la mise en place d’une communauté apprenante dédiée à la structuration de filières."
+          "t": "Baisse du prix du gazole dès le 1er novembre dans les stations-services",
+          "l": "https://www.economie.gouv.fr/actualites/baisse-du-prix-du-gazole-des-le-1er-novembre-dans-les-stations-services",
+          "d": "2026-11-03",
+          "r": "Afin de réduire le prix à la pompe pour le consommateur, le Gouvernement a organisé la libération de 10 millions de barils de gazole issus des stocks stratégiques. La répercussion sur les prix à la pompe est visible depuis le 1er novembre."
+        },
+        {
+          "t": "Salon Paris pour l'emploi : découvrez les opportunités professionnelles des ministères économiques et financiers",
+          "l": "https://www.economie.gouv.fr/actualites/salon-paris-pour-lemploi-decouvrez-les-opportunites-professionnelles-des-ministeres-economiques-et-financiers",
+          "d": "2026-11-03",
+          "r": "Pour sa 24e édition, le salon Paris pour l’emploi se tiendra place de la Concorde à Paris les jeudi 5 et vendredi 6 novembre 2026. Plusieurs directions des ministères économiques et financiers seront présentes pour présenter leurs métiers ainsi que leurs opportunités professionnelles. Venez nous rencontrer !"
         }
       ]
     },
@@ -1696,43 +1573,152 @@
       "nom_site": "Le Revenu",
       "articles": [
         {
-          "t": "Encadrement des loyers : jusqu’à 1 700 € économisés par an, mais une menace dès novembre 2026>",
-          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/encadrement-des-loyers-jusqu-a-1-700-economises-pa",
-          "d": "2026-11-01",
-          "r": "L’encadrement des loyers permettrait aux locataires concernés d’économiser plus de 500 euros par an en moyenne, selon une analyse de Que Choisir Ensemble. À Paris, le gain approche même 1 700 euros annuels, con…",
+          "t": "Madrid : un campement pour le droit au logement démantelé avant les élections",
+          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/madrid-un-campement-pour-le-droit-au-logement-dema",
+          "d": "2026-11-03",
+          "r": "Le campement installé depuis plus de cinq semaines sur la Puerta del Sol, au centre de Madrid, a été démantelé dans la nuit du 2 au 3 novembre 2026. Les autorités espagnoles annoncent l'évacuation de 334 person…",
           "c": [
             "Investir dans l'immobilier",
             "Prix et tendances"
           ]
         },
         {
-          "t": "Immobilier : 59 % des Français préfèrent être propriétaires plutôt que gagner deux fois plus>",
-          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-59-des-francais-preferent-etre-propriet",
-          "d": "2026-11-01",
-          "r": "Devenir propriétaire reste une priorité pour de nombreux Français, même lorsque cela implique de gagner moins d’argent. Selon une enquête Immonot publiée en octobre 2026, 59 % des répondants préfèrent percevoir…",
+          "t": "Wall Street : le Nasdaq rebondit avant les midterms, Apple et Palantir sous pression",
+          "l": "https://www.lerevenu.com/reussir-bourse/points-marches/wall-street-rebond-nasdaq-elections-midterms-apple",
+          "d": "2026-11-03",
+          "r": "Les marchés américains tentent de se redresser après plusieurs séances difficiles pour les valeurs technologiques. Les investisseurs attendent les résultats des élections de mi-mandat, tandis que les publicatio…",
           "c": [
-            "Investir dans l'immobilier",
-            "Prix et tendances"
+            "Réussir en Bourse",
+            "Points Marchés"
           ]
         },
         {
-          "t": "Immobilier à Poisy : les prix grimpent, voici combien coûte un logement en 2026>",
-          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-a-poisy-les-prix-grimpent-voici-combien",
-          "d": "2026-11-01",
-          "r": "Le marché immobilier de Poisy, en Haute-Savoie, affiche des prix élevés en octobre 2026. Située à proximité d'Annecy, la commune présente un prix moyen de 5 516 euros par mètre carré, tous logements confondus.…",
+          "t": "Clôture Paris : le CAC 40 recule légèrement à 8.020 points",
+          "l": "https://www.lerevenu.com/reussir-bourse/points-marches/cac40-cloture-paris-elections-midterms-stif-2crsi",
+          "d": "2026-11-03",
+          "r": "La Bourse de Paris termine en léger repli après une séance marquée par la prudence. LVMH, Rubis et Delfingen progressent, tandis que STIF et 2CRSI signent de forts rebonds grâce à leurs annonces commerciales.",
           "c": [
-            "Investir dans l'immobilier",
-            "Prix et tendances"
+            "Réussir en Bourse",
+            "Points Marchés"
           ]
         },
         {
-          "t": "L’assurance vie : pourquoi la clause bénéficiaire « démembrée » est astucieuse>",
-          "l": "https://www.lerevenu.com/diversifier-placements/assurance-vie/clause-beneficiaire-demembree-assurance-vie-succes",
-          "d": "2026-11-01",
-          "r": "En dissociant usufruit et nue-propriété, la clause bénéficiaire démembrée offre au conjoint survivant une grande liberté d’utilisation des capitaux d’assurance vie, tout en préservant les droits des enfants. El…",
+          "t": "Actions étrangères : Wall Street fait le tri dans la tech",
+          "l": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/actions-etrangeres-wall-street-fait-le-tri-dans-la",
+          "d": "2026-11-03",
+          "r": "Notre portefeuille résiste au tri opéré par Wall Street sur l’IA. Ferrovial s’envole de 13,3 % et Technip Energies de 9,6 %, tandis que Netflix et Booking Holdings touchent leurs plus bas annuels.",
+          "c": [
+            "Réussir en Bourse",
+            "Nos conseils Bourse"
+          ]
+        },
+        {
+          "t": "Wall Street : pourquoi Morgan Stanley pense que la correction touche à sa fin",
+          "l": "https://www.lerevenu.com/reussir-bourse/avis-des-pros/wall-street-pourquoi-morgan-stanley-pense-que-la-c",
+          "d": "2026-11-03",
+          "r": "Pour Morgan Stanley, la correction de Wall Street entamée en juin touche à sa fin. La banque mise sur les élections de mi-mandat, sans exclure un dernier repli du S&P 500 avant le rebond qu’elle anticipe.",
+          "c": [
+            "Réussir en Bourse",
+            "Avis des professionnels"
+          ]
+        },
+        {
+          "t": "Livret A : à partir de février, les Français pourront épargner davantage",
+          "l": "https://www.lerevenu.com/diversifier-placements/livrets-epargne-logement/livret-a-a-partir-de-fevrier-les-francais-pourront",
+          "d": "2026-11-03",
+          "r": "Après près de quatorze ans sans changement, le plafond du Livret A va être relevé en février 2027. Une mesure qui permettra à certains épargnants de placer davantage sur ce produit garanti, mais qui ne concerne…",
           "c": [
             "Diversifier vos placements",
-            "Assurance vie"
+            "Livrets et épargne logement"
+          ]
+        },
+        {
+          "t": "Cumul emploi-retraite : le « deux poids, deux pensions » se concrétise",
+          "l": "https://www.lerevenu.com/dossiers/retraite/cumul-emploi-retraite-le-deux-poids-deux-pensions-",
+          "d": "2026-11-03",
+          "r": "Les règles du cumul emploi-retraite se précisent. Deux décrets publiés au Journal officiel le 3 novembre confirment le seuil de 7 000 euros annuels et détaillent les professions bénéficiant de dérogations. Le n…",
+          "c": [
+            "Les dossiers",
+            "Retraite"
+          ]
+        },
+        {
+          "t": "L’or : les Français redécouvrent sa fonction première",
+          "l": "https://www.lerevenu.com/diversifier-placements/nos-conseils-placements/or-francais-epargne-patrimoine-valeur-refuge",
+          "d": "2026-11-03",
+          "r": "L'or retrouve une place dans les stratégies patrimoniales des Français. Le sondage souligne les inquiétudes liées à la dette publique et révèle un intérêt marqué des moins de 35 ans pour le métal précieux.",
+          "c": [
+            "Diversifier vos placements",
+            "Nos conseils placements"
+          ]
+        },
+        {
+          "t": "Binance Hack : Pyongyang rejette les accusations de Washington",
+          "l": "https://www.lerevenu.com/reussir-bourse/actualite-societe/binance-hack-pyongyang-rejette-les-accusations-de-",
+          "d": "2026-11-03",
+          "r": "La Corée du Nord rejette toute responsabilité dans le piratage de Binance, qui aurait entraîné le vol de 6,3 milliards de dollars en cryptomonnaies. En désignant un groupe de hackers lié à Pyongyang, le FBI a r…",
+          "c": [
+            "Réussir en Bourse",
+            "Actualité Société"
+          ]
+        },
+        {
+          "t": "Disney envisage de supprimer plusieurs milliers de postes",
+          "l": "https://www.lerevenu.com/reussir-bourse/actualite-societe/disney-envisage-de-supprimer-plusieurs-milliers-de",
+          "d": "2026-11-03",
+          "r": "Le géant américain du divertissement envisage une nouvelle vague de réductions d’effectifs, alors que sa direction demande à certains responsables de réaliser 20 % d’économies annuelles. Une restructuration qui…",
+          "c": [
+            "Réussir en Bourse",
+            "Actualité Société"
+          ]
+        },
+        {
+          "t": "Factures d'énergie : 34 % des Français peinent à payer leur électricité et leur gaz",
+          "l": "https://www.lerevenu.com/vie-pratique/factures-d-energie-34-des-francais-peinent-a-payer",
+          "d": "2026-11-03",
+          "r": "En France, 34 % des ménages déclarent rencontrer des difficultés pour payer leurs factures d'électricité ou de gaz en 2026, contre 18 % en 2020. Selon le dernier baromètre du médiateur national de l'énergie, le…",
+          "c": [
+            "Vie pratique"
+          ]
+        },
+        {
+          "t": "Fraude bancaire : le médiateur de la FBF donne rarement entièrement raison aux clients",
+          "l": "https://www.lerevenu.com/vie-pratique/banque/fraude-bancaire-le-mediateur-de-la-fbf-donne-rarem",
+          "d": "2026-11-03",
+          "r": "En 2024, le médiateur de la FBF n’a donné entièrement raison au client que dans 3,6 % de ses propositions. Un rapport d’avocats publié le 3 novembre 2026 oppose ce chiffre au droit au remboursement.",
+          "c": [
+            "Vie pratique",
+            "Banque"
+          ]
+        },
+        {
+          "t": "Bourse américaine : Yum Brands et DuPont progressent, Oracle sous pression",
+          "l": "https://www.lerevenu.com/reussir-bourse/points-marches/bourse-americaine-yum-brands-et-dupont-progressent",
+          "d": "2026-11-03",
+          "r": "Les marchés boursiers américains évoluent de manière contrastée ce mardi 3 novembre 2026. Yum Brands et DuPont profitent de résultats et de perspectives favorables, tandis qu'Oracle subit la méfiance des invest…",
+          "c": [
+            "Réussir en Bourse",
+            "Points Marchés"
+          ]
+        },
+        {
+          "t": "Protection des mineurs / Snapchat : un accord amiable avec deux jeunes utilisatrices",
+          "l": "https://www.lerevenu.com/reussir-bourse/actualite-societe/protection-des-mineurs-snapchat-un-accord-amiable-",
+          "d": "2026-11-03",
+          "r": "La maison mère de Snapchat a conclu un accord amiable avec deux jeunes utilisatrices qui l’accusaient d’avoir conçu une plateforme favorisant les comportements compulsifs. Ce règlement intervient au moment où s…",
+          "c": [
+            "Réussir en Bourse",
+            "Actualité Société"
+          ]
+        },
+        {
+          "t": "IPO d’Anthropic : une offre destinée au public australien",
+          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/ipo-d-anthropic-une-offre-destinee-au-public-austr",
+          "d": "2026-11-03",
+          "r": "La start-up derrière Claude prévoit une offre d’actions destinée aux particuliers australiens dans le cadre de son entrée en Bourse aux États-Unis. CommSec pilotera la distribution locale, alors que le groupe p…",
+          "c": [
+            "Réussir en Bourse",
+            "Au cœur des opérations"
           ]
         }
       ]
@@ -1741,57 +1727,84 @@
       "nom_site": "L'Agefi",
       "articles": [
         {
-          "t": "La Bourse sanctionne le gouffre financier de l'IA",
-          "l": "https://www.agefi.fr/news/economie-marches/la-bourse-sanctionne-le-gouffre-financier-de-lia",
-          "d": "2026-11-01",
-          "r": "Les déceptions du troisième trimestre parmi les hyperscalers et l’avertissement d’Intel ont ponctué un nouveau mois difficile pour le secteur tech. Une rotation est à l’œuvre tandis que les investisseurs cherchent refuge auprès des emprunts d’Etat.",
+          "t": "L’Europe a rattrapé son retard de croissance sur Wall Street",
+          "l": "https://www.agefi.fr/news/economie-marches/leurope-a-rattrape-son-retard-de-croissance-sur-wall-street",
+          "d": "2026-11-03",
+          "r": "Alors que l’attention des investisseurs se focalisait sur le résultat des élections de mi-mandat aux Etats-Unis, les entreprises européennes affichent, pour l’heure, une croissance bénéficiaire proche de 30% sur un an au troisième trimestre, équivalente à celle de leurs homologues américaines. Cela n’était pas arrivé depuis trois ans mais doit encore se concrétiser dans les cours.",
           "c": [
             "Economie & Marchés"
           ]
         },
         {
-          "t": "Les gérants confirment leur confiance dans les marchés actions américains",
-          "l": "https://www.agefi.fr/news/economie-marches/les-gerants-confirment-leur-confiance-dans-les-marches-actions-americains",
-          "d": "2026-11-01",
-          "r": "Le S&P 500 pourrait encore gagner 9% sur un an, comme la Bourse japonaise et l’indice paneuropéen. En revanche, le CAC 40, seul de ces indices en recul depuis le début de l’année, ne dispose que d’un potentiel de 6%.",
+          "t": "Les gestionnaires d'actifs affrontent le défi de la réversibilité technologique",
+          "l": "https://www.agefi.fr/asset-management/actualites/les-gestionnaires-dactifs-affrontent-le-defi-de-la-reversibilite-technologique",
+          "d": "2026-11-03",
+          "r": "Face à leur dépendance croissante aux prestataires externes, les sociétés de gestion cherchent à préserver leur autonomie de gouvernance. Lors de l'AM Tech Day organisé par L'Agefi, elles ont montré que maîtrise des compétences, réversibilité et anticipation des risques sont devenues des enjeux de résilience opérationnelle.",
+          "c": [
+            "Actualités"
+          ]
+        },
+        {
+          "t": "Tokyo compte bien séduire les investisseurs avec ses obligations résilience",
+          "l": "https://www.agefi.fr/news/economie-marches/tokyo-compte-bien-seduire-les-investisseurs-avec-ses-obligations-resilience",
+          "d": "2026-11-03",
+          "r": "Après le succès de sa première émission réalisée en 2025, le gouvernement de Tokyo souhaite développer le concept et créer un marché de la résilience afin de financer d’importantes infrastructures capables de protéger la population et l’économie du pays.",
           "c": [
             "Economie & Marchés"
           ]
         },
         {
-          "t": "Les panels parient sur au moins deux hausses des taux Fed",
-          "l": "https://www.agefi.fr/news/economie-marches/les-panels-parient-sur-au-moins-deux-hausses-des-taux-fed",
-          "d": "2026-11-01",
-          "r": "Les panélistes interrogés par L’Agefi n’ont pas modifié leurs attentes de taux pour les quatre grandes géographies par rapport à fin septembre. Ils renforcent légèrement le dollar.",
-          "c": [
-            "Economie & Marchés"
-          ]
-        },
-        {
-          "t": "L’aval pétrolier et gazier tient sa revanche outre-Atlantique",
-          "l": "https://www.agefi.fr/news/entreprises/laval-petrolier-et-gazier-tient-sa-revanche-outre-atlantique",
-          "d": "2026-11-01",
-          "r": "Les résultats trimestriels record publiés par Exxon Mobil et Chevron ont surtout été tirés par le dynamisme du raffinage.",
+          "t": "Schaeffler accélère le rythme de ses restructurations en Europe",
+          "l": "https://www.agefi.fr/news/entreprises/schaeffler-accelere-le-rythme-de-ses-restructurations-en-europe",
+          "d": "2026-11-03",
+          "r": "La suppression de 3.460 postes supplémentaires dans la zone entraînera la fermeture de quatre sites de production en Allemagne et d’une autre usine en Belgique.",
           "c": [
             "Entreprises"
           ]
         },
         {
-          "t": "Les gérants crédit retrouvent un intérêt aux spreads",
-          "l": "https://www.agefi.fr/news/economie-marches/les-gerants-credit-retrouvent-un-interet-aux-spreads",
-          "d": "2026-11-01",
-          "r": "Le Panel Crédit de L’Agefi reste prudent mais entrevoit, dans certains cas, une opportunité après le récent écartement des spreads de crédit.",
+          "t": "BPCE poursuit sa conquête du Portugal en achetant Gamalife à Apax Partners",
+          "l": "https://www.agefi.fr/news/banque-assurance/bpce-poursuit-sa-conquete-du-portugal-en-achetant-gamalife-a-apax-partners",
+          "d": "2026-11-03",
+          "r": "Le groupe mutualiste, qui publie ses résultats trimestriels, confirme qu’il veut reprendre le bancassureur de Novobanco, cédé par la banque portugaise en 2019.",
+          "c": [
+            "Banque & Assurance"
+          ]
+        },
+        {
+          "t": "Les émissions de dettes subordonnées bancaires européennes pourraient diminuer en 2027",
+          "l": "https://www.agefi.fr/news/economie-marches/les-emissions-de-dettes-subordonnees-bancaires-europeennes-pourraient-diminuer-en-2027",
+          "d": "2026-11-03",
+          "r": "L’offre d’obligations subordonnées perpétuelles Additional Tier 1 (AT1) nette des remboursements devrait baisser d’environ deux tiers par rapport à cette année, selon les stratégistes de Barclays.",
           "c": [
             "Economie & Marchés"
           ]
         },
         {
-          "t": "L’obligataire renoue avec un plus haut de deux ans dans le Panel Allocation",
-          "l": "https://www.agefi.fr/news/economie-marches/lobligataire-renoue-avec-un-plus-haut-de-deux-ans-dans-le-panel-allocation",
-          "d": "2026-11-01",
-          "r": "Cette classe d’actifs pèse de nouveau 45% dans les portefeuilles, tandis que les actions reculent à 49% et les actifs alternatifs à 4%.",
+          "t": "Les banques devront développer des alternatives aux SMS pour authentifier leurs clients expatriés",
+          "l": "https://www.agefi.fr/gestion-privee/actualites/les-banques-devront-developper-des-alternatives-aux-sms-pour-authentifier-leurs-clients-expatries",
+          "d": "2026-11-03",
+          "r": "La place financière veut rendre plus effectif le droit au compte des Français résidant à l'étranger et simplifier leurs démarches bancaires à distance",
           "c": [
-            "Economie & Marchés"
+            "Actualités"
+          ]
+        },
+        {
+          "t": "BNP Paribas met sa banque d’investissement en ordre de marche pour 2030",
+          "l": "https://www.agefi.fr/news/banque-assurance/bnp-paribas-met-sa-banque-dinvestissement-en-ordre-de-marche-pour-2030",
+          "d": "2026-11-03",
+          "r": "Le groupe bancaire modifie l’organisation de certains pans de sa BFI en amont du plan stratégique qu’il présentera début février. L’Europe, la couverture clients et les développements dans les infrastructures digitales ainsi que la souveraineté sont au cœur des priorités de la banque d’investissement de BNP Paribas.",
+          "c": [
+            "Banque & Assurance"
+          ]
+        },
+        {
+          "t": "Intesa Sanpaolo affiche sa pleine confiance dans le rachat de Monte dei Paschi",
+          "l": "https://www.agefi.fr/news/banque-assurance/intesa-sanpaolo-affiche-sa-pleine-confiance-dans-le-rachat-de-monte-dei-paschi",
+          "d": "2026-11-03",
+          "r": "La principale banque italienne a ajusté les conditions de son offre sur la banque toscane et annoncé un renforcement de sa présence à Sienne.",
+          "c": [
+            "Banque & Assurance"
           ]
         }
       ]
@@ -1811,10 +1824,10 @@
       "nom_site": "AMF",
       "articles": [
         {
-          "t": "L'AMF publie ses recommandations sur la liquidité des fonds monétaires",
-          "l": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-ses-recommandations-sur-la-liquidite-des-fonds-monetaires#xts=607212&at_medium=RSS feeds&at_campaign=Toutes les actualités et publications&type=RSS",
-          "d": "2026-10-30",
-          "r": "Actualité Fonds monétaires Gestion d'actifs Coopération L'AMF publie ses recommandations sur la liquidité des fonds monétaires"
+          "t": "Accord de composition administrative conclu le 15 juin 2026 avec M. Thierry Marie",
+          "l": "https://www.amf-france.org/fr/sanctions-transactions/transactions/transactions-homologuees/tra-2026-05#xts=607212&at_medium=RSS feeds&at_campaign=Toutes les actualités et publications&type=RSS",
+          "d": "2026-11-03",
+          "r": "Transaction TRA-2026-05 - Accord de composition administrative conclu le 15 juin 2026 avec M. Thierry Marie"
         }
       ],
       "type": "publication"
@@ -1847,93 +1860,102 @@
       "nom_site": "Courrier international",
       "articles": [
         {
-          "t": "En Indonésie, la Gen Z poursuit la contestation malgré les pressions de l’État",
-          "l": "https://www.courrierinternational.com/article/societe-en-indonesie-la-gen-z-poursuit-la-contestation-malgre-les-pressions-de-l-etat_283480",
-          "d": "2026-11-01",
-          "r": "Depuis début 2025, les mobilisations étudiantes se succèdent en Indonésie, sur fond de crise sociale, environnementale et démocratique. Une colère qui fait écho aux manifestations de la jeunesse française, mais qui se heurte à une “criminalisation arbitraire”.",
+          "t": "“Club Kid”, de Jordan Firstman, une comédie queer et “mordante” sur les familles qu’on se choisit",
+          "l": "https://www.courrierinternational.com/article/en-salle-club-kid-de-jordan-firstman-une-comedie-queer-et-mordante-sur-les-familles-qu-on-se-choisit_280863",
+          "d": "2026-11-03",
+          "r": "Pour son premier long-métrage, l’humoriste et influenceur américain Jordan Firstman se met en scène en fêtard défoncé qui se retrouve avec un fils sur les bras. “Club Kid”, qui sort en France ce 4 novembre, a reçu des échos étonnamment positifs dans la presse américaine.",
           "c": [
-            "Société"
+            "En salle"
           ]
         },
         {
-          "t": "Au Sénégal, le ras-le-bol des épouses : “Après le bureau, mon deuxième boulot m’attend”",
-          "l": "https://www.courrierinternational.com/article/societe-au-senegal-le-ras-le-bol-des-epouses-apres-le-bureau-mon-deuxieme-boulot-m-attend_279021",
-          "d": "2026-11-01",
-          "r": "La double journée de travail reste le quotidien invisible de certaines femmes actives au Sénégal. Elles continuent de porter, seules, le poids des tâches domestiques et familiales. À force d’épuisement physique, de charge mentale et de sacrifices professionnels, plusieurs d’entre elles brisent le silence, sur le site féministe sénégalais “Mousso.sn”, pour réclamer une répartition équitable et un changement des mentalités.",
+          "t": "Melissa Bell, correspondante de CNN à Paris : “L’ingérence américaine en Europe sape nos démocraties”",
+          "l": "https://www.courrierinternational.com/video/video-melissa-bell-correspondante-de-cnn-a-paris-l-ingerence-americaine-en-europe-sape-nos-democraties_284863",
+          "d": "2026-11-03",
+          "r": "Correspondante en France pour la chaîne américaine CNN, Melissa Bell a publié en septembre “Sous influence américaine”, une enquête qui décrypte les différentes méthodes de Washington pour s’immiscer dans le débat politique européen et favoriser la montée des partis d’extrême droite. À l’approche des élections de mi-mandat aux États-Unis, “Courrier international” l’a rencontrée.",
           "c": [
-            "Société"
+            "Vidéo"
           ]
         },
         {
-          "t": "“Ils ont redonné confiance” : comment les étudiants serbes ont gagné face à l’apathie et au désespoir",
-          "l": "https://www.courrierinternational.com/article/decryptage-ils-ont-redonne-confiance-comment-les-etudiants-serbes-ont-gagne-face-a-l-apathie-et-au-desespoir_282483",
-          "d": "2026-11-01",
-          "r": "Avant même d’infliger une défaite cuisante au populiste Aleksandar Vucic lors des élections du 25 octobre, les étudiants serbes avaient réussi à chambouler la culture politique de leur pays, saluait ce quotidien de Belgrade juste avant le scrutin.",
-          "c": [
-            "Décryptage"
-          ]
-        },
-        {
-          "t": "David Barton, l’activiste texan qui veut rayer de l’histoire la séparation de l’Église et de l’État",
-          "l": "https://www.courrierinternational.com/article/portrait-david-barton-l-activiste-texan-qui-veut-rayer-de-l-histoire-la-separation-de-l-eglise-et-de-l-etat_270882",
-          "d": "2026-11-01",
-          "r": "Cet apprenti historien exerce une influence considérable sur le mouvement conservateur américain, relate “The Wall Street Journal”. Fier de sa collection d’objets anciens, il prétend prouver que les États-Unis étaient à l’origine une république chrétienne. Une manière de justifier le retour de la religion dans la sphère publique, à commencer par les écoles.",
-          "c": [
-            "Portrait"
-          ]
-        },
-        {
-          "t": "“Une nouvelle merveille du monde ?” : le Bhoutan érige 108 stupas bouddhistes en neuf heures",
-          "l": "https://www.courrierinternational.com/article/spiritualite-une-nouvelle-merveille-du-monde-le-bhoutan-erige-108-stupas-bouddhistes-en-neuf-heures_283968",
-          "d": "2026-11-01",
-          "r": "L’opération visait à marquer le fondement spirituel de Gelephu, “Cité de la pleine conscience” conçue aussi comme un pôle économique. Quelque 40 000 bénévoles ont contribué à l’exploit d’ériger 108 monuments bouddhistes de 15 mètres de hauteur en quelques heures. Empilés les uns sur les autres, cela équivaut à “cinq Tours Eiffel”, s’enthousiasme la presse bhoutanaise.",
-          "c": [
-            "Spiritualité"
-          ]
-        },
-        {
-          "t": "En RDC, les sceptiques face à Ebola convertis aux soins par l’Église",
-          "l": "https://www.courrierinternational.com/long-format/reportage-en-rdc-les-sceptiques-face-a-ebola-convertis-aux-soins-par-l-eglise_281569",
-          "d": "2026-11-01",
-          "r": "En République démocratique du Congo, frappée par une épidémie d’Ebola fulgurante, l’Église catholique s’impose comme un rempart contre la désinformation. Catéchistes et prêtres mobilisent leur influence et la parole biblique pour inciter les malades à se faire soigner et freiner la propagation du virus.",
-          "c": [
-            "Reportage"
-          ]
-        },
-        {
-          "t": "Quel impact les “midterms” peuvent-ils avoir sur la science ?",
-          "l": "https://www.courrierinternational.com/article/etats-unis-quel-impact-les-midterms-peuvent-ils-avoir-sur-la-science_283474",
-          "d": "2026-11-01",
-          "r": "Beaucoup espèrent qu’une victoire des démocrates à la Chambre des représentants et au Sénat freinera les coupes budgétaires et les affronts à la science du président Donald Trump.",
+          "t": "Trump annonce la fin de l’aide militaire à Israël, le jour des élections",
+          "l": "https://www.courrierinternational.com/article/etats-unis-trump-annonce-la-fin-de-l-aide-militaire-a-israel-le-jour-des-elections_284871",
+          "d": "2026-11-03",
+          "r": "Le président des États-Unis a fait une déclaration matinale inattendue alors que se tiennent des élections de mi-mandat cruciales. Il compte mettre un terme dès la fin de l’année à l’aide américaine annuelle, d’un montant de 4 milliards de dollars, versée pour la sécurité d’Israël, en vertu selon lui d’un accord passé avec Benyamin Nétanyahou.",
           "c": [
             "États-Unis"
           ]
         },
         {
-          "t": "Brésil : “Il est donc possible de réveiller l’instinct de survie d’un peuple !”",
-          "l": "https://www.courrierinternational.com/article/opinion-bresil-il-est-donc-possible-de-reveiller-l-instinct-de-survie-d-un-peuple_282747",
-          "d": "2026-11-01",
-          "r": "Soulagée, euphorique, la journaliste brésilienne Eliane Brum se laisse aller à des envolées lyriques après la remontée spectaculaire de Lula dans l’entre-deux-tours de l’élection présidentielle qui a permis au dirigeant de gauche de s’imposer face à Flávio Bolsonaro le 25 octobre. Mais si la menace du fascisme s’éloigne, elle appelle à rester mobilisés pour préserver la démocratie.",
+          "t": "En Afrique du Sud, l’ANC en mauvaise posture à la veille des élections municipales",
+          "l": "https://www.courrierinternational.com/article/politique-en-afrique-du-sud-l-anc-en-mauvaise-posture-a-la-veille-des-elections-municipales_284869",
+          "d": "2026-11-03",
+          "r": "Pénuries d’eau, routes couvertes de déchets ou de nids-de-poule, coupures d’électricité, insécurité… Lors des élections municipales du mercredi 4 novembre en Afrique du Sud, la colère menace le Congrès national africain. Le parti qui gouverne le pays depuis la fin de l’apartheid devrait réaliser, une nouvelle fois, un score historiquement bas.",
           "c": [
-            "Opinion"
+            "Politique"
           ]
         },
         {
-          "t": "Hidetaka Miyazaki, un créateur de jeux vidéo en quête des plus infimes lueurs d’espoir",
-          "l": "https://www.courrierinternational.com/long-format/rencontre-hidetaka-miyazaki-un-createur-de-jeux-video-en-quete-des-plus-infimes-lueurs-d-espoir_276912",
-          "d": "2026-11-01",
-          "r": "“The Duskbloods”, nouvelle création de cette référence japonaise du jeu vidéo, doit sortir d’ici à la fin de 2026. “The Guardian” a eu le privilège de rencontrer le dirigeant du studio FromSoftware, pourtant rare dans les médias. Il commente la vision du monde qui se déploie dans ses œuvres, pessimiste sans être désespérée.",
+          "t": "Serbie, Brésil, Hongrie : en 2026, la démocratie signe-t-elle un retour en force inespéré ?",
+          "l": "https://www.courrierinternational.com/article/analyse-serbie-bresil-hongrie-en-2026-la-democratie-signe-t-elle-un-retour-en-force-inespere_283479",
+          "d": "2026-11-03",
+          "r": "Dans un contexte politique mondial morose, les départs de Viktor Orban et Aleksandar Vucic, couplés à la défaite de Flávio Bolsonaro, semblent pointer vers un reflux du camp postdémocrate. C’est du moins ce que veut croire l’auteur et philosophe belge David Van Reybrouck.",
           "c": [
-            "Rencontre"
+            "Analyse"
           ]
         },
         {
-          "t": "Trois règles pour “bitcher” avec éthique",
-          "l": "https://www.courrierinternational.com/stories/philo-trois-regles-pour-bitcher-avec-ethique_282058",
-          "d": "2026-11-01",
-          "r": "S’il arrive de culpabiliser après une soirée passée à échanger des potins, est-ce à dire que cette activité est ontologiquement malveillante ? Y a-t-il de bons et de mauvais “gossips” ? Et à quel moment exactement devient-il préférable de garder le silence ? Le site d’information américain “Vox” a établi un petit guide nourri de références philosophiques pour des commérages éthiques.",
+          "t": "L’Espagne choquée par la mort du joueur Jesús de Miguel, heurté par un gardien",
+          "l": "https://www.courrierinternational.com/article/football-l-espagne-choquee-par-la-mort-du-joueur-jesus-de-miguel-heurte-par-un-gardien_284859",
+          "d": "2026-11-03",
+          "r": "Un choc d’une grande violence, dans un match de seconde division espagnole, a entraîné le décès, mardi 3 novembre, de Jesús de Miguel, attaquant de Tenerife. Une enquête a été ouverte, même si des poursuites judiciaires semblent improbables, selon la presse espagnole.",
           "c": [
-            "Philo"
+            "Football"
+          ]
+        },
+        {
+          "t": "Le Japon s’attaque au “kasu-hara”, le harcèlement d’employés par des clients",
+          "l": "https://www.courrierinternational.com/article/le-mot-du-jour-le-japon-s-attaque-au-kasu-hara-le-harcelement-d-employes-par-des-clients_284853",
+          "d": "2026-11-03",
+          "r": "Au Japon, où les clients sont souvent rois, certains d’entre eux se comportent de manière abusive, se livrant même à des agressions physiques contre les employés. Face à ce fléau, le gouvernement a fait voter une loi pour mieux protéger ces derniers contre les auteurs de “kasu-hara”.",
+          "c": [
+            "Le mot du jour"
+          ]
+        },
+        {
+          "t": "Serbie : la banque Alta Banka, “cœur” du régime Vucic, s’effondre",
+          "l": "https://www.courrierinternational.com/article/faillite-serbie-la-banque-alta-banka-c-ur-du-regime-vucic-s-effondre_284860",
+          "d": "2026-11-03",
+          "r": "Une semaine après les élections législatives et la victoire de la Liste étudiante, les scandales se multiplient autour de l’ancien président Aleksandar Vucic. Dernière affaire en date : l’arrestation du propriétaire d’Alta Banka, soupçonné d’avoir détourné plus de 380 millions d’euros. Une affaire aux ramifications politiques et internationales, souligne la presse serbe.",
+          "c": [
+            "Faillite"
+          ]
+        },
+        {
+          "t": "Édouard Philippe, un modéré inaudible dans “une cacophonie de voix en colère”",
+          "l": "https://www.courrierinternational.com/article/vu-de-l-etranger-edouard-philippe-un-modere-inaudible-dans-une-cacophonie-de-voix-en-colere_284842",
+          "d": "2026-11-03",
+          "r": "Jadis favori pour accéder au second tour de l’élection présidentielle de 2027, l’ancien Premier ministre perd du terrain dans les sondages depuis plusieurs mois. Et les événements récents en France semblent avoir accéléré sa chute. La presse internationale s’interroge sur les problèmes inhérents à sa candidature, et sur la faiblesse globale du “bloc central”.",
+          "c": [
+            "Vu de l’étranger"
+          ]
+        },
+        {
+          "t": "Palantir portée par la vague de surveillance généralisée",
+          "l": "https://www.courrierinternational.com/article/tech-palantir-portee-par-la-vague-de-surveillance-generalisee_284857",
+          "d": "2026-11-03",
+          "r": "L’entreprise américaine de logiciels de renseignements prisée des gouvernements comme des entreprises annonce des résultats trimestriels meilleurs que prévu. Au dernier trimestre, son chiffre d’affaires a bondi de 96 %, pour s’établir à 2,31 milliards de dollars.",
+          "c": [
+            "Tech"
+          ]
+        },
+        {
+          "t": "Le Danemark veut interdire l’élevage des “turbo-poulets”",
+          "l": "https://www.courrierinternational.com/article/ethique-le-danemark-veut-interdire-l-elevage-des-turbo-poulets_284851",
+          "d": "2026-11-03",
+          "r": "Un documentaire diffusé à la télévision danoise a mis au jour, fin octobre, les conditions déplorables dans lesquelles sont élevés les turbo-poulets de l’un des plus gros producteurs du Danemark. Depuis, le gouvernement veut interdire cette catégorie de gallinacés, qui passent en moyenne de 50 grammes à 2 kilos en 33 jours.",
+          "c": [
+            "Éthique"
           ]
         }
       ]
@@ -1942,93 +1964,174 @@
       "nom_site": "Challenges",
       "articles": [
         {
-          "t": "« Je pense que c’est une primaire de la division et de la confusion » : Edouard Philippe redit son opposition à l’idée d’une primaire",
-          "l": "https://www.challenges.fr/politique/je-pense-que-cest-une-primaire-de-la-division-et-de-la-confusion-edouard-philippe-redit-son-opposition-a-lidee-dune-primaire_646729",
-          "d": "2026-11-01",
-          "r": "Gabriel Attal avait relancé cette semaine l’idée d’organiser une « primaire des démocrates ». Ce dimanche sur TF1, Edouard Philippe a à nouveau refusé d’y participer.",
-          "c": [
-            "Politique"
-          ]
-        },
-        {
-          "t": "Vous appelez depuis l'étranger grâce à lui : ce groupe français discret veut devenir le maître aiguilleur des télécoms mondiales",
-          "l": "https://www.challenges.fr/entreprise/telecoms/vous-appelez-depuis-letranger-grace-a-lui-ce-groupe-francais-discret-veut-devenir-le-maitre-aiguilleur-des-telecoms-mondiales_646669",
-          "d": "2026-11-01",
-          "r": "PODCAST – Dans l’ombre des réseaux, Tofane iBASIS, fondé par Alexandre Pébereau, consolide le marché des télécommunications internationales à coups d’acquisitions. Un pari industriel qui mise sur les économies d’échelle, la sécurité des communications et l’essor de la connectivité mondiale. Il est l'invité de DeepTech, le podcast de Challenges réalisé en partenariat avec Mascaret.",
-          "c": [
-            "Télécoms"
-          ]
-        },
-        {
-          "t": "« Les acheteurs se demandent si leur logement est habitable par 35 degrés » : comment les vagues de chaleur à répétition ont bouleversé les critères d’achat immobilier",
-          "l": "https://www.challenges.fr/immobilier/les-acheteurs-se-demandent-si-leur-logement-est-habitable-par-35-degres-comment-les-vagues-de-chaleur-a-repetition-ont-bouleverse-les-criteres-dachat-immobilier_646713",
-          "d": "2026-11-01",
-          "r": "Après les canicules de 2026, les acheteurs cherchent les pièces orientées au nord et les logements climatisés. Les professionnels s’adaptent.",
-          "c": [
-            "Immobilier"
-          ]
-        },
-        {
-          "t": "Un plan d'économies face à un taux d'endettement de 95 % : Ouest-France cherche sa nouvelle boussole",
-          "l": "https://www.challenges.fr/entreprise/medias/un-plan-deconomies-face-a-un-taux-dendettement-de-95-ouest-france-cherche-sa-nouvelle-boussole_646726",
-          "d": "2026-11-01",
-          "r": "Rattrapé par un marché de la presse en crise et confronté à une dette en nette hausse, le premier quotidien régional de France est contraint d’accélérer sa transformation et de faire des économies pour conserver son leadership.",
-          "c": [
-            "Médias"
-          ]
-        },
-        {
-          "t": "Après les petits colis, l’Union européenne généralise ses taxes contre le flot d’importations chinoises",
-          "l": "https://www.challenges.fr/economie/apres-les-petits-colis-lunion-europeenne-generalise-ses-taxes-contre-le-flot-dimportations-chinoises_646725",
-          "d": "2026-11-01",
-          "r": "À partir de ce dimanche 1er novembre, l’Union européenne impose une taxe de deux euros sur les colis importés, en plus de celle déjà appliquée aux petits paquets depuis juillet, qui montre de premiers signes d’efficacité pour endiguer le déferlement de produits chinois.",
+          "t": "Élections américaines des midterms : la proposition 40, la Taxe Zucman made in California",
+          "l": "https://www.challenges.fr/economie/elections-americaines-des-midterms-la-proposition-40-la-taxe-zucman-made-in-california_646796",
+          "d": "2026-11-03",
+          "r": "En Californie, on vote aujourd'hui pour les députés et sénateurs, lors des élections de mi-mandat. Mais on vote également pour ou contre la proposition 40, une loi unique au monde imposant aux milliardaires californiens une taxe de 5% de leur fortune.",
           "c": [
             "Économie"
           ]
         },
         {
-          "t": "11 % des Français détiennent des cryptomonnaies : comment investir dans le bitcoin et les autres actifs numériques sans mettre son épargne en danger",
-          "l": "https://www.challenges.fr/argent-et-placements/11-des-francais-detiennent-des-cryptomonnaies-comment-investir-dans-le-bitcoin-et-les-autres-actifs-numeriques-sans-mettre-son-epargne-en-danger_646553",
-          "d": "2026-11-01",
-          "r": "Encadrés par un règlement européen, les produits numériques gagnent en maturité. Une clientèle plus jeune en fait une brique de diversification.",
+          "t": "Livreurs et chauffeurs VTC : ce rapport d’experts indépendant veut changer les règles du jeu face aux plateformes",
+          "l": "https://www.challenges.fr/entreprise/livreurs-et-chauffeurs-vtc-ce-rapport-dexperts-independant-veut-changer-les-regles-du-jeu-face-aux-plateformes_646788",
+          "d": "2026-11-03",
+          "r": "À un mois de l’échéance fixée pour transposer la directive européenne sur les travailleurs des plateformes, un rapport indépendant appelle à davantage de transparence sur leurs décisions algorithmiques.",
+          "c": [
+            "Entreprise"
+          ]
+        },
+        {
+          "t": "Près de 900 milliards de dollars engagés : Anthropic poursuit sa quête insatiable de puissance de calcul, avant son entrée en Bourse",
+          "l": "https://www.challenges.fr/entreprise/tech-numerique/pres-de-900-milliards-de-dollars-engages-anthropic-poursuit-sa-quete-insatiable-de-puissance-de-calcul-avant-son-entree-en-bourse_646772",
+          "d": "2026-11-03",
+          "r": "Sur la route de son entrée en Bourse, Anthropic a engagé près de 900 milliards de dollars dans des contrats tous azimuts afin d’acquérir la puissance de calcul et les puces qui lui font défaut pour soutenir ses modèles d’IA.",
+          "c": [
+            "Tech - Numérique"
+          ]
+        },
+        {
+          "t": "Le Plan Epargne Retraite (PER), nouveau réflexe des Français pour préparer leur retraite.",
+          "l": "https://www.challenges.fr/argent-et-placements/le-plan-epargne-retraite-per-nouveau-reflexe-des-francais-pour-preparer-leur-retraite_646791",
+          "d": "2026-11-03",
+          "r": "À l’heure où l’avenir du système de retraite suscite de plus en plus d’interrogations, les Français affichent une inquiétude persistante. Selon le sondage « La retraite vue des Français et des Entreprises », réalisé en mai 2025 par Crédit Agricole Assurances avec l’Ifop, 72 % d’entre eux ne font pas confiance au système actuel pour leur garantir une pension suffisante. Une défiance alimentée par les incertitudes sur le financement des retraites, mais aussi par un contexte économique, climatique et géopolitique toujours plus instable.",
           "c": [
             "Argent et Placements"
           ]
         },
         {
-          "t": "« Une année avec Gaston est forcément une bonne année » : Lagaffe, Astérix, Lucky Luke… pourquoi la BD mise sur ses valeurs sûres",
-          "l": "https://www.challenges.fr/entreprise/culture/une-annee-avec-gaston-est-forcement-une-bonne-annee-lagaffe-asterix-lucky-luke-pourquoi-la-bd-mise-sur-ses-valeurs-sures_646712",
-          "d": "2026-11-01",
-          "r": "La sortie d’un album de Gaston Lagaffe illustre la stratégie de son propriétaire en période de crise : valoriser ses héros historiques sur des supports variés.",
+          "t": "Bien plus qu’un chèque symbolique de 10 € : combien le prix Goncourt peut-il rapporter à Philippe Jaenada, lauréat 2026 ?",
+          "l": "https://www.challenges.fr/entreprise/culture/bien-plus-quun-cheque-symbolique-de-10-eur-combien-le-prix-goncourt-peut-il-rapporter-a-philippe-jaenada-laureat-2026_646787",
+          "d": "2026-11-03",
+          "r": "Philippe Jaenada a remporté le prix Goncourt 2026 pour L’inconnue du quai de Javel. Au-delà du prestige, la récompense est un booster de ventes incomparable dans le milieu de l’édition : avec 577 000 exemplaires vendus en moyenne, un lauréat peut espérer toucher plus d’un million d’euros de droits d’auteur.",
           "c": [
             "Culture"
           ]
         },
         {
-          "t": "Jouer les « populistes des prairies » : En Iowa, bastion trumpiste, les démocrates croient à la victoire",
-          "l": "https://www.challenges.fr/monde/jouer-les-populistes-des-prairies-en-iowa-bastion-trumpiste-les-democrates-croient-a-la-victoire_646724",
-          "d": "2026-11-01",
-          "r": "Les politiques du président américain font souffrir ce petit État rural et conservateur qui l’a pourtant soutenu généreusement depuis 2016. Les démocrates voient une ouverture.",
+          "t": "Parlez-vous le BCBG ? Ou comment survivre au XXIe siècle avec les codes de sociabilité du XIXe",
+          "l": "https://www.challenges.fr/entreprise/culture/parlez-vous-le-bcbg-ou-comment-survivre-au-xxie-siecle-avec-les-codes-de-sociabilite-du-xixe_646763",
+          "d": "2026-11-03",
+          "r": "CHRONIQUE - Un nouveau guide du Bon Chic Bon Genre sort en librairies le 5 novembre. Zoom sur le chapitre consacré au monde du travail selon les membres qui s’en réclament.",
           "c": [
-            "Monde"
+            "Culture"
           ]
         },
         {
-          "t": "« La Russie reste la menace principale pour l’Europe » : Marie Baléo décrypte la guerre invisible qui menace les câbles sous-marins et nos économies",
-          "l": "https://www.challenges.fr/monde/la-russie-reste-la-menace-principale-pour-leurope-marie-baleo-decrypte-la-guerre-invisible-qui-menace-les-cables-sous-marins-et-nos-economies_646574",
-          "d": "2026-11-01",
-          "r": "MENACE RUSSE - Près de 600 câbles sous-marins transportent plus de 90 % des données mondiales. Des infrastructures vitales, mais difficiles à protéger, devenues des cibles potentielles de la guerre hybride. Dans La guerre silencieuse (Grasset), la journaliste Marie Baléo décrypte les stratégies de Moscou et Pékin et pointe les failles de la sécurité européenne.",
+          "t": "Philippe Model Paris : la maison fondée à Paris et fabriquée en Italie signe des baskets en daim, cuir argenté et vert bouteille pour l’automne-hiver 2026",
+          "l": "https://www.challenges.fr/luxe/philippe-model-paris-la-maison-fondee-a-paris-et-fabriquee-en-italie-signe-des-baskets-en-daim-cuir-argente-et-vert-bouteille-pour-lautomne-hiver-2026_646762",
+          "d": "2026-11-03",
+          "r": "Rachetée en décembre 2025 par le groupe italien Swinger International, Philippe Model Paris dévoile sa collection automne-hiver, des baskets pour femme et pour homme. Daim, cuir laminé, teintes terreuses : la marque remet la paire du quotidien au centre du vestiaire.",
           "c": [
-            "Monde"
+            "Luxe"
           ]
         },
         {
-          "t": "« Il ne faut pas jurer que par les marchés tendus » : ces villes où dégager plus de 10 % de rendement locatif brut est encore possible",
-          "l": "https://www.challenges.fr/immobilier/il-ne-faut-pas-jurer-que-par-les-marches-tendus-ces-villes-ou-degager-plus-de-10-de-rendement-locatif-brut-est-encore-possible_646601",
-          "d": "2026-11-01",
-          "r": "Alors que la chute des prix immobiliers se poursuit dans une partie de l’Hexagone, certaines villes affichent un rendement locatif brut théorique supérieur à 10 %. Sont-elles pour autant un bon investissement ? En face, les stations touristiques saisonnières sont, elles, de plus en plus tendues.",
+          "t": "Piloter la trésorerie d'une entreprise au quotidien",
+          "l": "https://www.challenges.fr/partenaires/piloter-la-tresorerie-dune-entreprise-au-quotidien_646786",
+          "d": "2026-11-03",
+          "r": "La trésorerie reste l'un des baromètres les plus fiables pour juger de la santé d'une entreprise. On peut afficher un résultat comptable flatteur et se retrouver malgré tout dans une situation financière délicate, simplement parce que les encaissements tardent à arriver alors que les factures, elles, n'attendent pas. Bien comprendre les flux financiers, savoir anticiper les moments critiques et s'appuyer sur quelques repères concrets aide à prendre de meilleures décisions, jour après jour. Cette approche pragmatique s'adresse avant tout aux dirigeants, entrepreneurs et responsables qui n'ont pas forcément une formation poussée en finance.",
+          "c": [
+            "Partenaires"
+          ]
+        },
+        {
+          "t": "Achat immobilier : comment repérer une bonne annonce et éviter les mauvaises surprises ?",
+          "l": "https://www.challenges.fr/immobilier/achat-immobilier-comment-reperer-une-bonne-annonce-et-eviter-les-mauvaises-surprises_646785",
+          "d": "2026-11-03",
+          "r": "Le prix et les photos donnent souvent envie de visiter un logement. Mais le descriptif omet parfois le montant des charges ou la nature des travaux à prévoir. Avec une cuisine à repeindre et une installation électrique à remplacer, le budget peut sensiblement changer. Avant d’acheter un bien immobilier, certaines questions se posent dès votre premier appel au professionnel.",
           "c": [
             "Immobilier"
+          ]
+        },
+        {
+          "t": "Marchés en baisse : faut-il vraiment vendre ?",
+          "l": "https://www.challenges.fr/argent-et-placements/marches-en-baisse-faut-il-vraiment-vendre_646780",
+          "d": "2026-11-03",
+          "r": "Tout va bien tant que le risque reste théorique. Au moment d’investir, chacun sait que les marchés peuvent monter comme baisser et qu’une perte en capital est possible. Mais lorsque son portefeuille affiche soudain -5 %, -10 % ou davantage, la théorie laisse rapidement place à une question beaucoup plus concrète : faut-il vendre avant que cela ne baisse encore ?",
+          "c": [
+            "Argent et Placements"
+          ]
+        },
+        {
+          "t": "6 600 médecins syriens, 50 milliards de chiffre d’affaires par an, des start-up : comment l’immigration booste depuis des décennies le miracle économique allemand",
+          "l": "https://www.challenges.fr/economie/6-600-medecins-syriens-50-milliards-de-chiffre-daffaires-par-an-des-start-up-comment-limmigration-booste-depuis-des-decennies-le-miracle-economique-allemand_646765",
+          "d": "2026-11-03",
+          "r": "Le 30 octobre, Berlin a célébré les 65 ans de l’accord passé avec la Turquie pour faire venir des travailleurs nécessaires pour booster son miracle économique. Beaucoup d’enfants et de petits enfants de ces ouvriers occupent aujourd’hui des postes à responsabilité outre-Rhin, alors que, pour faire face à son déficit démographique, l’Allemagne continue de recourir à des bras et des cerveaux recrutés à l’étranger.",
+          "c": [
+            "Économie"
+          ]
+        },
+        {
+          "t": "Avec EDF, Grasse conjugue sobriété énergétique et mobilité électrique",
+          "l": "https://www.challenges.fr/partenaires/avec-edf-grasse-conjugue-sobriete-energetique-et-mobilite-electrique_646777",
+          "d": "2026-11-03",
+          "r": "De la rénovation énergétique des bâtiments municipaux au développement des bus électriques, Grasse mobilise plusieurs savoir-faire du groupe EDF pour réduire durablement ses consommations et ses émissions de CO2.",
+          "c": [
+            "Partenaires"
+          ]
+        },
+        {
+          "t": "Assurance emprunteur, un marché sous tension depuis 2022",
+          "l": "https://www.challenges.fr/entreprise/banque-et-assurance/assurance-emprunteur-un-marche-sous-tension-depuis-2022_646776",
+          "d": "2026-11-03",
+          "r": "La loi Lemoine (loi n° 2022-270 du 28 février 2022) a parachevé l'ouverture à la concurrence de l'assurance emprunteur, le contrat qui garantit le remboursement d'un crédit immobilier en cas de décès, d'invalidité ou d'incapacité. Elle permet de résilier ce contrat à tout moment et sans frais, depuis le 1er juin 2022 pour les nouveaux prêts et le 1er septembre 2022 pour les contrats en cours. Elle supprime aussi le questionnaire de santé sous conditions et ramène le droit à l'oubli à cinq ans pour les anciens malades d'un cancer ou d'une hépatite virale C.",
+          "c": [
+            "Banque et Assurance"
+          ]
+        },
+        {
+          "t": "Livret A jusqu’à 30 000 € : le relèvement du plafond a été acté pour 2027, mais pour quoi faire ?",
+          "l": "https://www.challenges.fr/argent-et-placements/livret-a-jusqua-30-000-eur-le-relevement-du-plafond-a-ete-acte-pour-2027-mais-pour-quoi-faire_646773",
+          "d": "2026-11-03",
+          "r": "Le Premier ministre l’a indiqué ce mardi 3 novembre : le plafond du livret A va être relevé. Les besoins de l’État sont tels qu’il est passé outre l’avis négatif des députés. Mais aussi ceux de Bercy et des banques farouchement opposés à favoriser un tel placement. Qui en sera bénéficiaire ? Les lycées, les bâtiments publics en mal de rénovation énergétique ? La défense ?",
+          "c": [
+            "Argent et Placements"
+          ]
+        },
+        {
+          "t": "500 milliards de capitalisation envolés : la plongée du cours de Google est-elle un accident de parcours ou la fin de l’euphorie sur l’IA ?",
+          "l": "https://www.challenges.fr/entreprise/tech-numerique/500-milliards-de-capitalisation-envoles-la-plongee-du-cours-de-google-est-elle-un-accident-de-parcours-ou-la-fin-de-leuphorie-sur-lia_646764",
+          "d": "2026-11-03",
+          "r": "Pire séance en Bourse depuis son introduction il y a 22 ans, Alphabet a vu près de 480 milliards de dollars de capitalisation s’évaporer jeudi 29 octobre. Le groupe venait de publier des résultats décevants au 3e trimestre. Olivier Sautel, chef économiste de Deloitte, analyse cette débâcle dans un contexte de crainte de l’éclatement d’une bulle de l’IA.",
+          "c": [
+            "Tech - Numérique"
+          ]
+        },
+        {
+          "t": "Votre abonnement d’eau va-t-il augmenter ? C’est l’une des propositions choc de la filière de l’eau pour répondre à l’urgence des investissements",
+          "l": "https://www.challenges.fr/entreprise/green-economie/votre-facture-deau-va-t-elle-augmenter-cest-lune-des-propositions-choc-de-la-filiere-de-leau-pour-repondre-a-lurgence-des-investissements_646771",
+          "d": "2026-11-03",
+          "r": "Sous l’égide de leur fédération, la FP2E, les entreprises de l’eau ont présenté ce mardi 3 novembre des propositions en vue de l’élection présidentielle. Elles appellent notamment à revoir le modèle de financement des services de l’eau pour faire face au mur d’investissements dans la rénovation des infrastructures et leur adaptation au changement climatique.",
+          "c": [
+            "Green Economie"
+          ]
+        },
+        {
+          "t": "Origami, asymétrie, endroit et envers : ce que 25 ans de création ont fait d’Okada Paris, et pourquoi François Ier en est la plus belle preuve",
+          "l": "https://www.challenges.fr/luxe/origami-asymetrie-endroit-et-envers-ce-que-25-ans-de-creation-ont-fait-dokada-paris-et-pourquoi-francois-ier-en-est-la-plus-belle-preuve_646761",
+          "d": "2026-11-03",
+          "r": "Vingt-cinq ans après sa création, Okada Paris fête son anniversaire avec « François I – The Mononoke Spirit ». Pour cette collection Printemps/Été 2027, la marque réinterprète l’univers de François Ier, entre héritage français et esprit japonais.",
+          "c": [
+            "Luxe"
+          ]
+        },
+        {
+          "t": "\"Vous n'êtes jamais allé sur CNews ? Jamais\" : un ministre pris en flagrant délit de mensonge",
+          "l": "https://www.challenges.fr/politique/vous-netes-jamais-alle-sur-cnews-jamais-un-ministre-pris-en-flagrant-delit-de-mensonge_646760",
+          "d": "2026-11-03",
+          "r": "Interrogé dans l'émission « Lundi, c'est politique », diffusée sur LCP en partenariat avec Challenges et Radio Classique, au sujet de la pétition contre CNews, le ministre de l'Enseignement supérieur, Philippe Baptiste, a affirmé ne jamais y avoir mis les pieds. Pourtant, il y a bien été reçu en mai 2025.",
+          "c": [
+            "Politique"
+          ]
+        },
+        {
+          "t": "Une hausse de 60 centimes sur des chaussettes qui fait trembler Uniqlo : de quoi ce tollé au Japon est-il le révélateur ?",
+          "l": "https://www.challenges.fr/entreprise/commerce-et-distribution/une-hausse-de-60-centimes-sur-des-chaussettes-qui-fait-trembler-uniqlo-de-quoi-ce-tolle-au-japon-est-il-le-revelateur_646747",
+          "d": "2026-11-03",
+          "r": "Le géant du textile Uniqlo voulait augmenter de 34 % le prix des chaussettes. Une hausse qui n’est pas passée auprès des Japonais, rendus fébriles par l’inflation.",
+          "c": [
+            "Commerce et Distribution"
           ]
         }
       ]
@@ -2037,111 +2140,129 @@
       "nom_site": "La Tribune",
       "articles": [
         {
-          "t": "Carburants : Leclerc et Coopérative U baissent le prix du gazole, des prix toujours inégaux selon les stations",
-          "l": "https://www.latribune.fr/article/transports/automobile/3220240288322/carburants-apres-totalenergies-leclerc-et-cooperative-u-baissent-egalement-le-prix-du-gazole",
-          "d": "2026-11-01",
-          "r": "Le distributeur E. Leclerc annonce une baisse de 21 centimes par litre du prix du gazole dans ses stations-service dès dimanche, suite aux mesures gouvernementales sur les stocks stratégiques. Certains professionnels du secteurs, interrogés par l'AFP, soulignent des prix disparates à la pompe, ce dimanche 1er novembre.",
+          "t": "Budget 2027 : « Il y a un garrot à poser d’urgence », alerte Bruno Le Maire",
+          "l": "https://www.latribune.fr/article/economie/53006198665941/budget-2027-il-y-a-un-garrot-a-poser-d-urgence-alerte-bruno-le-maire",
+          "d": "2026-11-03",
+          "r": "L’ancien ministre de l’Économie s’est dit « consterné », mardi 3 novembre, par la tournure prise par la discussion budgétaire à l’Assemblée nationale, accusant les députés de « creuser la tombe de la France ».",
           "c": [
-            "Transports"
+            "Économie Premium"
           ]
         },
         {
-          "t": "Temu, Shein, AliExpress... une nouvelle taxe de deux euros appliquée aux produits importés dans l'Union européenne",
-          "l": "https://www.latribune.fr/article/economie/54696279961081/temu-shein-aliexpress-une-nouvelle-taxe-de-deux-euros-appliquee-aux-produits-importes-dans-lunion-europeenne",
-          "d": "2026-11-01",
-          "r": "Pour faire face à l'afflux de produits achetés sur internet, notamment via des plateformes chinoises, l'Union européenne instaure, depuis ce dimanche, des frais de traitement de deux euros, qui viendront s'ajouter à la taxe de trois euros déjà prévue sur les petits colis.",
+          "t": "Cancers : la start-up Superbranche veut révolutionner les traitements grâce aux nanoparticules",
+          "l": "https://www.latribune.fr/article/entreprises-finance/industrie/13405915007296/cancers-la-start-up-superbranche-veut-revolutionner-les-traitements-grace-aux-nanoparticules",
+          "d": "2026-11-03",
+          "r": "Fruit d'un investissement de plus de six millions d'euros, la nouvelle usine pilote alsacienne de la deeptech Superbranche doit permettre d'accélérer le traitement de certains cancers complexes, comme celui du pancréas. Une nouvelle levée de fonds est déjà en préparation pour financer les études cliniques qui devraient se dérouler à Paris.",
           "c": [
-            "Économie"
+            "Energie et Industrie Premium"
           ]
         },
         {
-          "t": "Portrait : Aline Decadi, ingénieure système de lancement",
-          "l": "https://air-cosmos.latribune.fr/article/espace/72065960366024/portrait-aline-decadi-ingenieure-systeme-de-lancement",
-          "d": "2026-11-01",
-          "r": "Une défenseuse de la science partagée et accessible à tous",
+          "t": "Centrales inertielles : Safran équipe la dissuasion nucléaire française",
+          "l": "https://air-cosmos.latribune.fr/article/defense/51233587918269/centrales-inertielles-safran-equipe-la-dissuasion-nucleaire-francaise",
+          "d": "2026-11-03",
+          "r": "Safran Electronics & Defense a annoncé le 2 novembre sa sélection dans l’équipement des trois principaux vecteurs de la dissuasion nucléaire française : SNLE, Rafale et missile M51.",
           "c": [
             "Air & Cosmos Premium"
           ]
         },
         {
-          "t": "Piratage de Binance : le FBI accuse la Corée du Nord du « casse du siècle »",
-          "l": "https://www.latribune.fr/article/economie/international/22800979304859/piratage-de-binance-le-fbi-accuse-la-coree-du-nord-du-casse-du-siecle",
-          "d": "2026-11-01",
-          "r": "La police fédérale américaine a affirmé que le groupe de pirates informatiques nord-coréens TraiderTraitor est à l'origine du vol record de 6,3 millions de dollars. Binance, de son côté, a annoncé la reprise des retraits ce dimanche.",
+          "t": "OPINION. « Midterms : l’Amérique du combien ça me coûte », par Laure Pallez, directrice associée Mascaret",
+          "l": "https://www.latribune.fr/article/idees/17906600489625/opinion-midterms-l-amerique-du-combien-ca-me-coute-par-laure-pallez-directrice-associee-mascaret",
+          "d": "2026-11-03",
+          "r": "Alors que les Américains votent pour les élections de mi-mandat, le pouvoir d’achat est au cœur des motivations des électeurs. Au risque de faire voler en éclat équilibres politiques.",
+          "c": [
+            "Idées & Débats"
+          ]
+        },
+        {
+          "t": "17-octobre : entre inflation et recul de la croissance, la difficile reconquête des centres-villes",
+          "l": "https://www.latribune.fr/article/economie/94754026565882/17-octobre-entre-inflation-et-recul-de-la-croissance-la-difficile-reconquete-des-centres-villes",
+          "d": "2026-11-03",
+          "r": "Déjà fragilisés par une mutation de la consommation, les centres-villes ont subi de plein fouet les saccages des commerces le 17 octobre dernier. Désormais se pose la question de la relance de l’activité économique mais aussi, à plus long terme, de la stratégie à adopter pour répondre aux mutations sociologiques et faire revenir le consommateur. Un défi multifacette qui interroge bien au-delà des commerces eux-mêmes.",
+          "c": [
+            "Économie Premium"
+          ]
+        },
+        {
+          "t": "Alstom : les vraies raisons du nouveau couac industriel qui a fait dérailler le constructeur ferroviaire",
+          "l": "https://www.latribune.fr/article/transports/3265408285058/alstom-les-vraies-raisons-du-nouveau-couac-industriel-qui-a-fait-derailler-le-constructeur-ferroviaire",
+          "d": "2026-11-03",
+          "r": "Alstom met de nouveau ses ambitions industrielles et financières en cause, cette fois en raison de problèmes liés à des trains régionaux destinés au marché allemand. En cause, une mauvaise concertation entre les équipes. Le nouveau directeur général, Martin Sion, esquisse un plan de redressement industriel.",
+          "c": [
+            "Transports Premium"
+          ]
+        },
+        {
+          "t": "Drones : la DGA qualifie l’U010 Aliaca d’Airbus dans sa version VTOL",
+          "l": "https://air-cosmos.latribune.fr/article/defense/24697579808446/drones-la-dga-qualifie-l-u010-aliaca-d-airbus-dans-sa-version-vtol",
+          "d": "2026-11-03",
+          "r": "La Direction générale de l’armement a qualifié la version VTOL (décollage et atterrissage vertical) du drone U010 Aliaca développé par Airbus Helicopters. Il servira d’appui aux opérations de la Marine nationale.",
+          "c": [
+            "Air & Cosmos"
+          ]
+        },
+        {
+          "t": "Renault se lance aussi en partenariat avec John Cockerill dans les drones terrestres",
+          "l": "https://www.latribune.fr/article/defense-aerospatiale/defense/16282974511412/tres-attractif-renault-se-lance-aussi-en-partenariat-avec-john-cockerill-dans-les-drones-terrestres",
+          "d": "2026-11-03",
+          "r": "Le constructeur automobile s'est lancé dans un nouveau partenariat avec le groupe belge John Cockerill avec qui il développe un drone terrestre téléopéré et très polyvalent, Forefront Concept,",
+          "c": [
+            "Défense et Aérospatiale Premium"
+          ]
+        },
+        {
+          "t": "Thales repense le combat naval face aux nouvelles menaces",
+          "l": "https://air-cosmos.latribune.fr/article/strategies/21102947574780/thales-repense-le-combat-naval-face-aux-nouvelles-menaces",
+          "d": "2026-11-03",
+          "r": "Face à la diversification des menaces aériennes, navales et sous-marines, Thales mise notamment sur l’IA et les drones pour renforcer la rapidité et l’efficacité d’engagement pour les marines.",
+          "c": [
+            "Air & Cosmos Premium"
+          ]
+        },
+        {
+          "t": "Concurrence ferroviaire : duel en vue pour les trains Paris-Clermont et Paris-Toulouse",
+          "l": "https://www.latribune.fr/article/transports/78144738575449/concurrence-ferroviaire-duel-en-vue-pour-les-trains-paris-clermont-et-paris-toulouse",
+          "d": "2026-11-03",
+          "r": "Pour l’heure, seules la SNCF et la compagnie Le Train ont répondu à l’appel d’offres pour l’exploitation de ces deux lignes ferroviaires traversant le centre de la France à partir de 2029.",
+          "c": [
+            "Transports Premium"
+          ]
+        },
+        {
+          "t": "Les Lauréates – Les Visionnaires, ces pionnières qui ouvrent la voie",
+          "l": "https://www.latribune.fr/article/economie/15459249811593/les-laureates-les-visionnaires-ces-pionnieres-qui-ouvrent-la-voie",
+          "d": "2026-11-03",
+          "r": "Elles se situent souvent en dehors des sentiers battus et portent une vision du monde qui disrupte ce qui est connu. Elles sont entrepreneures, astronautes, astrophysicienne, médecin… Pour la troisième année consécutive, La Tribune et le magazine Elle mettent en lumière « Les Visionnaires », des femmes audacieuses et novatrices.",
           "c": [
             "Économie"
           ]
         },
         {
-          "t": "Louis Letoublon, Nathanaël Combary Louise Montangon… Qui sont les visages de la contestation lycéenne ?",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/societe/78537441159510/louis-letoublon-nathanael-combary-louise-montangon-qui-sont-les-visages-de-la-contestation-lyceenne",
-          "d": "2026-11-01",
-          "r": "À moins de 20 ans pour la plupart, les représentants du mouvement lycéen mènent la bataille politique en même temps qu’ils découvrent l’exposition médiatique.",
+          "t": "Géolocalisation : Wheere rejoint le programme européen Celeste IOD",
+          "l": "https://air-cosmos.latribune.fr/article/espace/23634610844709/geolocalisation-wheere-rejoint-le-programme-europeen-celeste-iod",
+          "d": "2026-11-03",
+          "r": "Capable d’étendre la géolocalisation en intérieur, la start-up française Wheere a annoncé ce mardi 3 novembre s’associer au programme Celeste IOD de l’Agence spatiale européenne, en rejoignant le consortium industriel mené par Thales Alenia Space.",
           "c": [
-            "La Tribune Dimanche Premium"
+            "Air & Cosmos Premium"
           ]
         },
         {
-          "t": "Flavie Flament ou le courage de la parole. La chronique de Pauline Delassus",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/20193184548604/flavie-flament-ou-le-courage-de-la-parole-la-chronique-de-pauline-delassus",
-          "d": "2026-11-01",
-          "r": "Dans son nouveau livre, « La Parole », Flavie Flament règle ses comptes et se mue en tant que porte-voix des femmes victimes de violences sexistes et sexuelles.",
+          "t": "Fibre Excellence : liquidation en vue le 12 novembre pour l'usine de Saint-Gaudens, 229 salariés dans l'attente",
+          "l": "https://www.latribune.fr/article/entreprises-finance/industrie/11004308462844/fibre-excellence-liquidation-en-vue-le-12-novembre-pour-lusine-de-saint-gaudens-229-salaries-dans-lattente",
+          "d": "2026-11-03",
+          "r": "Le tribunal de commerce de Toulouse a examiné ce mardi l'arrêt de la poursuite d'activité de la dernière usine française de pâte à papier marchande. Malgré leur licenciement, les salariés pourraient rebondir avec la reprise envisagée par le groupe portugais Ghost avec à la clé de nouveaux emplois et une usine supplémentaire.",
           "c": [
-            "La Tribune Dimanche"
+            "Energie et Industrie Premium"
           ]
         },
         {
-          "t": "Donald Trump, sur le boulevard du crépuscule. L’édito de Bruno Jeudy",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/37084037590351/donald-trump-sur-le-boulevard-du-crepuscule-l-edito-de-bruno-jeudy",
-          "d": "2026-11-01",
-          "r": "Donald Trump va sans doute perdre gros lors des élections de mi-mandat. Alors que sa personnalité jette le discrédit sur sa fonction, ses ingérences favorisent les partis d'extrême droite en Europe.",
+          "t": "Saab prépare le combat aérien à l’ère de l’IA",
+          "l": "https://air-cosmos.latribune.fr/article/strategies/6540760916873/saab-prepare-le-combat-aerien-a-l-ere-de-l-ia",
+          "d": "2026-11-03",
+          "r": "Entre agents autonomes, entraînement à grande échelle et supercalculateur, Saab accélère le développement de ses IA pour préparer le combat aérien du futur.",
           "c": [
-            "La Tribune Dimanche"
-          ]
-        },
-        {
-          "t": "« Sur le fond, je suis contente que notre président ne puisse pas se représenter » : Le déclin de Trump dans l’Amérique rurale",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/13319789839408/sur-le-fond-je-suis-contente-que-notre-president-ne-puisse-pas-se-representer-le-declin-de-trump-dans-l-amerique-rurale",
-          "d": "2026-11-01",
-          "r": "REPORTAGE — Pennsylvanie, comté de Clearfield : si l’électorat reste en grande partie fidèle au Parti républicain, l’image de Donald Trump est ternie par le coût de la vie et ses dernières velléités interventionnistes.",
-          "c": [
-            "La Tribune Dimanche Premium"
-          ]
-        },
-        {
-          "t": "François-Xavier Selleret, directeur général de l’Agirc-Arrco : « L’évolution des retraites ne doit jamais être supérieure à celle des salaires »",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dimanche-eco/78999690776579/francois-xavier-selleret-directeur-general-de-l-agirc-arrco-l-evolution-des-retraites-ne-doit-jamais-etre-superieure-a-celle-des-salaires",
-          "d": "2026-11-01",
-          "r": "Le dirigeant de la fédération décrypte les coulisses de la revalorisation des retraites du secteur privé, dans un contexte de chute démographique.",
-          "c": [
-            "La Tribune Dimanche Premium"
-          ]
-        },
-        {
-          "t": "La pression militaire israélienne ravive les tensions en Syrie",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/33368020423656/la-pression-militaire-israelienne-ravive-les-tensions-en-syrie",
-          "d": "2026-11-01",
-          "r": "Depuis la chute de Bachar El-Assad, la région frontalière de Qunaytra est le théâtre d’incursions régulières de Tsahal. Après la population, c’est le gouvernement de Damas qui s’insurge.",
-          "c": [
-            "La Tribune Dimanche Premium"
-          ]
-        },
-        {
-          "t": "Lauréates 2026 : Sophie Adenot, Camille Étienne, Héloïse Luzzati... Ces 6 femmes qui changent le monde",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/societe/27708673079917/laureates-2026-sophie-adenot-camille-etienne-heloise-luzzati-ces-6-femmes-qui-changent-le-monde",
-          "d": "2026-11-01",
-          "r": "Pour cette troisième édition, « La Tribune Dimanche » et le magazine « Elle » mettent à nouveau en lumière ce mardi trente « lauréates » qui bousculent la société.",
-          "c": [
-            "La Tribune Dimanche Premium"
-          ]
-        },
-        {
-          "t": "Mathilde Panot, présidente du groupe LFI à l’Assemblée nationale : « Si la jeunesse vote massivement, nous gagnerons »",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/presidentielle/17401594010129/mathilde-panot-presidente-du-groupe-lfi-a-l-assemblee-nationale-si-la-jeunesse-vote-massivement-nous-gagnerons",
-          "d": "2026-11-01",
-          "r": "ENTRETIEN – L’insoumise estime que le « débouché politique » des mobilisations doit être l’élection présidentielle avec une victoire de Jean-Luc Mélenchon.",
-          "c": [
-            "La Tribune Dimanche Premium"
+            "Air & Cosmos Premium"
           ]
         }
       ]
@@ -2150,12 +2271,48 @@
       "nom_site": "Vie Publique|Actualités",
       "articles": [
         {
-          "t": "Qu'est-ce que le Pacte européen sur la migration et l'asile entré en vigueur le 12 juin 2026 ?",
-          "l": "https://www.vie-publique.fr/questions-reponses/302670-pacte-de-lunion-europeenne-sur-la-migration-et-lasile-en-7-questions?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
-          "d": "2026-10-30",
-          "r": "Le pacte de l'Union européenne (UE) sur la migration et l'asile, adopté en mai 2024, est entré en vigueur pour l'essentiel le 12 juin 2026. Composé de 10 textes (une directive et 9 règlements), le pacte modifie le régime dit \"Dublin\" et met en place une nouvelle politique commune en matière d'asile. Le point en 7 questions.",
+          "t": "École primaire : un cadre scolaire apprécié par les élèves malgré des violences",
+          "l": "https://www.vie-publique.fr/en-bref/305174-ecole-primaire-un-environnement-scolaire-apprecie-malgre-des-violences?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-11-03",
+          "r": "Selon une enquête réalisée par le ministère de l'éducation nationale, 88% des élèves du CE2 au CM2 déclarent se sentir bien dans le cadre scolaire en 2024-2025. Toutefois, 33% des filles et 22% des garçons ont déjà eu peur à l'école ou en y allant et huit élèves sur dix déclarent avoir été victimes d'au moins une atteinte durant l'année scolaire.",
           "c": [
-            "Politique de l'immigration, Droit d'asile, Étranger, Droit européen"
+            "Enseignement primaire, Élève, Enfant, Violence"
+          ]
+        },
+        {
+          "t": "Stages de découverte en troisième et en seconde : un accompagnement familial déterminant",
+          "l": "https://www.vie-publique.fr/en-bref/305112-deux-tiers-des-stages-en-3e-et-2de-trouves-grace-des-proches?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-11-03",
+          "r": "Au collège en classe de troisième et au lycée en seconde, les élèves doivent réaliser un stage de découverte en milieu professionnel. Une étude statistique de l'éducation nationale a analysé la façon dont les facteurs sociologiques et familiaux peuvent jouer un rôle dans la facilité d'accès au stage et le ressenti de l'expérience pour l'élève.",
+          "c": [
+            "Enseignement secondaire, Insertion professionnelle, Insertion sociale"
+          ]
+        },
+        {
+          "t": "COP17 biodiversité en Arménie : quelles avancées ?",
+          "l": "https://www.vie-publique.fr/en-bref/305044-cop17-biodiversite-quelles-avancees?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-11-03",
+          "r": "Du 19 au 30 octobre 2026, la COP17 biodiversité a eu lieu à Erevan, en Arménie. La mise en œuvre des engagements pris lors de la COP15 et le financement des actions constituaient les principaux enjeux de ce sommet.",
+          "c": [
+            "Biodiversité, Sommet international"
+          ]
+        },
+        {
+          "t": "Réindustrialisation : des secteurs stratégiques à cibler",
+          "l": "https://www.vie-publique.fr/en-bref/305151-reindustrialisation-des-secteurs-strategiques-cibler?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-11-03",
+          "r": "L'industrie française a reculé entre 2000 et 2010 et stagne depuis souligne une étude publiée par la Direction générale du Trésor. Selon l'étude, réindustrialiser suppose de soutenir des secteurs compétitifs essentiels pour l'innovation, la transition écologique ou la souveraineté nationale mais aussi de définir des conditions-cadres favorables.",
+          "c": [
+            "Politique industrielle, Secteur industriel, Compétitivité, Innovation, Transition écologique"
+          ]
+        },
+        {
+          "t": "Frontières de l'UE : vers un renforcement de l'agence Frontex ?",
+          "l": "https://www.vie-publique.fr/en-bref/305176-frontieres-de-lue-vers-un-renforcement-de-lagence-frontex?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+          "d": "2026-11-03",
+          "r": "Nouvelle réserve européenne, contingent permanent de 30 000 agents, centre de coordination des retours... La Commission européenne a présenté, le 27 octobre 2026, une réforme renforçant les pouvoirs de Frontex, l'agence chargée du contrôle des frontières de l'Union européenne et du renvoi de ressortissants étrangers en situation irrégulière.",
+          "c": [
+            "Institutions européennes, Politique de l'immigration, Étranger, Droit d'asile"
           ]
         }
       ]
@@ -2165,7 +2322,7 @@
       "articles": [
         {
           "t": "Appel a candidature pour compléter la composition du Comité des Centres Nationaux de Référence (CNR)",
-          "l": "https://www.santepubliquefrance.fr/les-actualites/appel-a-candidature-pour-completer-la-composition-du-comite-des-centres-nationaux-de-reference-cnr",
+          "l": "https://www.santepubliquefrance.fr/index.php/les-actualites/appel-a-candidature-pour-completer-la-composition-du-comite-des-centres-nationaux-de-reference-cnr",
           "d": "2026-10-29",
           "r": "Santé publique France lance un appel à candidatures pour compléter la composition du Comité des Centres nationaux de référence . Date limite de candidature : 15 décembre 2026."
         }
@@ -2175,69 +2332,9 @@
       "nom_site": "INSEE|Actualités nationales",
       "articles": [
         {
-          "t": "En septembre 2026, les prix des produits agricoles à la production accélèrent de nouveau sur un an",
-          "l": "https://www.insee.fr/fr/statistiques/9109616",
-          "d": "2026-10-30",
-          "r": "En septembre 2026, sur un mois, les prix à la production des produits agricoles non saisonniers accélèrent (+1,5 % après +1,0 % en août). En rythme annuel, les prix agricoles à la production continuent d’accélérer (+4,9 % après +2,8 % en août et +0,9 % en juillet).Les prix d’achat des moyens de production agricole accélèrent sur un mois (+1,9 % en septembre après +1,4 % en août) comme sur un an (+10,5 % après +8,2 % en août)."
-        },
-        {
-          "t": "Évolution du produit intérieur brut et de ses composantes",
-          "l": "https://www.insee.fr/fr/statistiques/2830547",
-          "d": "2026-10-30"
-        },
-        {
-          "t": "Évolution du revenu disponible brut et du pouvoir d’achat",
-          "l": "https://www.insee.fr/fr/statistiques/2830166",
-          "d": "2026-10-30"
-        },
-        {
-          "t": "Dette des administrations publiques au sens de Maastricht",
-          "l": "https://www.insee.fr/fr/statistiques/2830301",
-          "d": "2026-10-30"
-        },
-        {
-          "t": "Exportations",
-          "l": "https://www.insee.fr/fr/statistiques/2830174",
-          "d": "2026-10-30"
-        },
-        {
-          "t": "Importations",
-          "l": "https://www.insee.fr/fr/statistiques/2830182",
-          "d": "2026-10-30"
-        },
-        {
-          "t": "En septembre 2026, les prix de production de l’industrie française augmentent de 1,7 % sur un mois et de 8,2 % sur un an",
-          "l": "https://www.insee.fr/fr/statistiques/9111678",
-          "d": "2026-10-30",
-          "r": "En septembre 2026, sur un mois, les prix de production de l’industrie française accélèrent (+1,7 % après +1,2 % en août). Les prix accélèrent pour les produits destinés au marché français (+1,7 % après +1,0 % en août) et ils augmentent au même rythme qu’au mois précédent pour ceux destinés aux marchés extérieurs (+1,9 % comme en août). Sur un an, les prix de production de l’industrie française accélèrent également (+8,2 % en septembre après +6,1 % en août).Hors énergie au sens large (hydrocarbures, produits de la cokéfaction et du raffinage, électricité, etc.), les prix de production de l’industrie française augmentent un peu sur un mois (+0,3 % après une stabilité en août) et accélèrent sur"
-        },
-        {
-          "t": "Au troisième trimestre 2026, l’emploi salarié du secteur privé est quasi stable sur le trimestre (-0,1 %) et en recul sur un an (-0,3 %)",
-          "l": "https://www.insee.fr/fr/statistiques/9109624",
-          "d": "2026-10-30",
-          "r": "Entre juin et septembre 2026, l’emploi salarié du secteur privé est quasi stable (-0,1 %, soit -25 800 emplois), comme au trimestre précédent (-0,1 %, soit -24 300 emplois). Il se situe 0,3 % sous son niveau de septembre 2025 (soit -69 800 emplois), baissant sur un an pour le septième trimestre consécutif. Par rapport au premier trimestre 2024, où l'emploi salarié privé a atteint son sommet, il a baissé de 0,7 % (soit -148 400 emplois). Il excède toutefois encore largement son niveau d’avant-crise sanitaire, fin 2019 (+4,9 %, soit +982 100 emplois).Sur le trimestre, les contrats en alternance, très majoritairement en apprentissage, contribuent fortement à la baisse de l’emploi salarié privé."
-        },
-        {
-          "t": "En octobre 2026, les prix à la consommation augmenteraient de 3,4 % sur un an",
-          "l": "https://www.insee.fr/fr/statistiques/9107965",
-          "d": "2026-10-30"
-        },
-        {
-          "t": "Le PIB recule légèrement au troisième trimestre 2026 (-0,1 % après 0,0 %)",
-          "l": "https://www.insee.fr/fr/statistiques/9111036",
-          "d": "2026-10-30",
-          "r": "Le produit intérieur brut (PIB) en volume* recule légèrement au troisième trimestre 2026 (-0,1 %, après une stabilité au deuxième trimestre). La demande intérieure finale (hors stocks) continue d’augmenter : la consommation des ménages accélère (+0,4 % après +0,2 %) et la consommation des administrations publiques continue d’augmenter (+0,3 % après +0,4 %). À l’inverse, la formation brute de capital fixe recule de nouveau (-0,6 % après -0,5 %). Au total, la demande intérieure (hors stocks) contribue à l’évolution du PIB pour +0,1 point au troisième trimestre 2026, comme au trimestre précédent.La contribution du commerce extérieur à la croissance est négative ce trimestre (-0,6 point après +0"
-        },
-        {
-          "t": "La consommation des ménages en biens diminue de nouveau en septembre 2026 (-0,5 % après -0,5 %)",
-          "l": "https://www.insee.fr/fr/statistiques/9109722",
-          "d": "2026-10-30",
-          "r": "En septembre 2026, les dépenses de consommation des ménages en biens diminuent de nouveau sur un mois (-0,5 % en volume* après -0,5 % en août). La consommation de biens fabriqués se replie (-1,1 % après +0,8 %) et la consommation alimentaire diminue de nouveau (-0,2 % après -1,1 %). La consommation d’énergie, quant à elle, repart légèrement à la hausse (+0,2 % après -2,4 %).Sur l'ensemble du troisième trimestre 2026, la consommation des ménages en biens augmente de nouveau (+0,4 % après +0,2 % au deuxième trimestre). Les dépenses en énergie rebondissent (+1,2 % après -2,0 %), celles en biens fabriqués ralentissent (+0,3 % après +1,4 %), tandis que la consommation alimentaire est de nouveau s"
-        },
-        {
-          "t": "Comptes nationaux trimestriels au troisième trimestre 2026",
-          "l": "https://www.insee.fr/fr/statistiques/9100803",
-          "d": "2026-10-30"
+          "t": "Panorama des risques climatiques en France : exposition des ménages et de leur patrimoine immobilier",
+          "l": "https://www.insee.fr/fr/statistiques/9119400",
+          "d": "2026-11-03"
         }
       ]
     },
@@ -2268,48 +2365,111 @@
       "nom_site": "Conseil de l'UE",
       "articles": [
         {
-          "t": "Weekly schedule of President António Costa",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/10/30/weekly-schedule-of-president-antonio-costa/",
-          "d": "2026-10-30",
-          "r": "Weekly schedule of President António Costa, 2-8 November 2026."
-        },
-        {
-          "t": "Intervention du président António Costa lors de la conférence de presse à l'issue du sommet UE-Canada",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/10/30/remarks-by-president-antonio-costa-at-the-press-conference-following-the-eu-canada-summit/",
-          "d": "2026-10-30",
-          "r": "Le président du Conseil européen, António Costa, a présenté les principaux résultats des discussions menées par les dirigeants lors du 21e sommet UE-Canada qui s'est tenu à Montréal les 29 et 30 octobre 2026.",
+          "t": "Statement by President António Costa in the context of the Euronews EU Enlargement Summit 2026",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/03/statement-by-president-costa-in-the-context-of-the-euronews-eu-enlargement-summit-2026/",
+          "d": "2026-11-03",
+          "r": "President of the European Council António Costa made a statement in the context of the Euronews EU Enlargement Summit 2026 that took place in Brussels on 3 November 2026.",
           "c": [
-            "Amériques"
+            "Élargissement de l'UE"
           ]
         },
         {
-          "t": "Déclaration conjointe du sommet UE-Canada, 30 octobre 2026",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/10/30/joint-statement-eu-canada-summit-30-october-2026/",
-          "d": "2026-10-30",
-          "r": "Les dirigeants de l’Union européenne et du Canada ont tenu leur 21e sommet UE-Canada à Montréal les 29 et 30 octobre 2026, et se sont mis d’accord sur une déclaration conjointe.",
+          "t": "Informal meeting of Heads of State or Government of 13 November 2026 - Invitation letter by President António Costa to the members of the European Council",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/03/informal-meeting-of-heads-of-state-or-government-of-13-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/",
+          "d": "2026-11-03",
+          "r": "EU Heads of State or Government will gather in Dublin (Ireland), to discuss about artificial intelligence.",
           "c": [
-            "Amériques"
+            "Intelligence artificielle",
+            "Infrastructure numérique"
           ]
         },
         {
-          "t": "Calendrier à venir: 2-15 novembre 2026",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/10/30/forward-look-2026/",
-          "d": "2026-10-30",
-          "r": "Aperçu des principaux sujets qui seront examinés lors des sessions du Conseil de l'UE au cours des deux prochaines semaines et événements médias à venir.",
+          "t": "Statement by the HR on behalf of the EU on the alignment of certain countries with Council Decision (CFSP) 2026/2258 concerning restrictive measures in view of Russia’s destabilising activities",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/03/statement-by-the-hr-on-behalf-of-the-eu-on-the-alignment-of-certain-countries-with-council-decision-cfsp-20262258-concerning-restrictive-measures-in-view-of-russia-s-destabilising-activities/",
+          "d": "2026-11-03",
+          "r": "Statement by the High Representative on behalf of the European Union on the alignment of certain third countries with Council Decision (CFSP) 2026/2258 of 8 October 2026 amending Decision (CFSP) 2024/2643 concerning restrictive measures in view of Russia’s destabilising activities.",
           "c": [
-            "Budget",
-            "Coordination des politiques économiques",
             "Guerre menée par la Russie contre l'Ukraine",
-            "Fiscalité"
+            "Sanctions"
           ]
         },
         {
-          "t": "Intervention du président António Costa lors du dîner officiel du sommet UE-Canada",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/10/30/remarks-by-president-antonio-costa-at-the-official-dinner-of-the-eu-canada-summit/",
-          "d": "2026-10-30",
-          "r": "Le 29 octobre 2026, le président António Costa a prononcé un discours lors du dîner officiel du 21e sommet UE-Canada, qui s'est tenu les 29 et 30 octobre 2026 à Montréal.",
+          "t": "HR statement on behalf of the EU on the alignment of certain countries with Council Decision (CFSP) 2026/2264 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/03/hr-statement-on-behalf-of-the-eu-on-the-alignment-of-certain-countries-with-decision-20262264-concerning-restrictive-measures-in-respect-of-actions-undermining-or-threatening-the-territorial-integrity-sovereignty-and-independence-of-ukraine/",
+          "d": "2026-11-03",
+          "r": "Statement by the HR on behalf of the EU on the alignment of certain third countries with Council Decision (CFSP) 2026/2264 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine.",
           "c": [
-            "Amériques"
+            "Guerre menée par la Russie contre l'Ukraine",
+            "Sanctions"
+          ]
+        },
+        {
+          "t": "Statement by the HR on behalf of the EU on the alignment of certain third countries with Council Decision (CFSP) 2026/2192 concerning restrictive measures in view of the situation in Russia",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/03/statement-by-the-hr-on-behalf-of-the-eu-on-the-alignment-of-certain-third-countries-with-council-decision-cfsp-20262192-concerning-restrictive-measures-in-view-of-the-situation-in-russia/",
+          "d": "2026-11-03",
+          "r": "Statement by the HR on behalf of the EU on the alignment of certain third countries with Council Decision (CFSP) 2026/2192 concerning restrictive measures in view of the situation in Russia.",
+          "c": [
+            "Guerre menée par la Russie contre l'Ukraine",
+            "Sanctions"
+          ]
+        },
+        {
+          "t": "Statement by the HR on behalf of the EU on the alignment of certain countries with Council Decision (CFSP) 2026/2164 concerning restrictive measures in view of Russia’s destabilising activities",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/03/statement-by-the-hr-on-behalf-of-the-eu-on-the-alignment-of-certain-countries-with-council-decision-cfsp-20262164-concerning-restrictive-measures-in-view-of-russia-s-destabilising-activities/",
+          "d": "2026-11-03",
+          "r": "Statement by the HR on behalf of the EU on the alignment of certain countries with Council Decision (CFSP) 2026/2164 concerning restrictive measures in view of Russia’s destabilising activities.",
+          "c": [
+            "Guerre menée par la Russie contre l'Ukraine",
+            "Sanctions"
+          ]
+        },
+        {
+          "t": "HR statement on behalf of the EU on the alignment of certain countries concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/03/hr-statement-on-behalf-of-the-eu-on-the-alignment-of-certain-countries-concerning-restrictive-measures-in-respect-of-actions-undermining-or-threatening-the-territorial-integrity-sovereignty-and-independence-of-ukraine/",
+          "d": "2026-11-03",
+          "r": "HR statement on behalf of the EU on the alignment of certain third countries with Council Decision (CFSP) 2026/2291 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine.",
+          "c": [
+            "Sanctions",
+            "Guerre menée par la Russie contre l'Ukraine"
+          ]
+        },
+        {
+          "t": "Statement by the HR on behalf of the EU on the alignment of certain countries concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/03/hr-statement-on-behalf-of-eu-alignment-of-certain-countries-concerning-restrictive-measures-in-respect-of-actions-undermining-or-threatening-the-territorial-integrity-sovereignty-and-independence-of-ukraine/",
+          "d": "2026-11-03",
+          "r": "Statement by the High Representative on behalf of the European Union on the alignment of certain third countries with Council Decision (CFSP) 2026/2185 of 28 September 2026 amending Decision 2014/145/CFSP concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine.",
+          "c": [
+            "Guerre menée par la Russie contre l'Ukraine",
+            "Sanctions"
+          ]
+        },
+        {
+          "t": "Statement by the HR on behalf of the EU on the alignment of certain countries concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/03/statement-by-the-hr-on-behalf-of-the-eu-on-the-alignment-of-certain-countries-concerning-restrictive-measures-in-respect-of-actions-undermining-or-threatening-the-territorial-integrity-sovereignty-and-independence-of-ukraine/",
+          "d": "2026-11-03",
+          "r": "High Representative's statement on behalf of the EU on the alignment of certain countries concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine.",
+          "c": [
+            "Sanctions",
+            "Guerre menée par la Russie contre l'Ukraine"
+          ]
+        },
+        {
+          "t": "Press briefing - Eurogroup meeting of 9 November 2026",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/03/press-briefing-eurogroup-meeting-of-9-november-2026/",
+          "d": "2026-11-03",
+          "r": "Press briefing ahead of the upcoming Eurogroup meeting of 9 November will take place on Wednesday, 4 November 2026 at 14.30.",
+          "c": [
+            "Coordination des politiques économiques"
+          ]
+        },
+        {
+          "t": "Statement by the HR on behalf of the EU on the alignment of certain third countries concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine.",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/03/statement-by-the-high-representative-on-behalf-of-the-eu-on-the-alignment-of-certain-third-countries-concerning-restrictive-measures-in-respect-of-actions-undermining-or-threatening-the-territorial-integrity-sovereignty-and-independence-of-/",
+          "d": "2026-11-03",
+          "r": "Statement by the HR on behalf of the EU on the alignment of certain third countries concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine.",
+          "c": [
+            "Guerre menée par la Russie contre l'Ukraine",
+            "Sanctions"
           ]
         }
       ]
@@ -2318,12 +2478,12 @@
       "nom_site": "CNRS|Le Journal",
       "articles": [
         {
-          "t": "Quercy : des fossiles témoins d’un bouleversement climatique",
-          "l": "https://lejournal.cnrs.fr/videos/quercy-des-fossiles-temoins-dun-bouleversement-climatique",
-          "d": "2026-10-30",
-          "r": "Des fossiles exceptionnels conservés dans des grottes du Sud-Ouest racontent l’histoire de la Grande Coupure Éocène-Oligocène : voilà 34 millions d’années, un changement radical du climat a entraîné la disparition de nombreuses espèces et le renouvellement de la faune en Europe. Reportage en partenariat avec Le Monde .",
+          "t": "La Niña pourrait davantage affecter l’économie qu’El Niño",
+          "l": "https://lejournal.cnrs.fr/articles/la-nina-pourrait-davantage-affecter-leconomie-quel-nino",
+          "d": "2026-11-03",
+          "r": "Le phénomène climatique El Niño focalise l’attention. Mais des économistes estiment que La Niña, la phase froide du cycle, peu étudiée, causerait une flambée des prix alimentaires affectant encore davantage l’économie mondiale.",
           "c": [
-            "Vivant, Terre"
+            "Sociétés, Terre"
           ]
         }
       ]
@@ -2332,12 +2492,12 @@
       "nom_site": "Pour la Science",
       "articles": [
         {
-          "t": "Bienvenue chez Louis Pasteur",
-          "l": "https://www.pourlascience.fr/sr/agenda/bienvenue-chez-louis-pasteur-29675.php",
-          "d": "2026-11-01",
-          "r": "La maison de Louis Pasteur, à Arbois dans le Jura, vient de rouvrir après rénovation : l’occasion de découvrir, outre l’intimité du savant, une exposition sur la microbiologie contemporaine.",
+          "t": "La preuve la plus solide à ce jour pour le compagnon de Bételgeuse",
+          "l": "https://www.pourlascience.fr/sd/astrophysique/la-preuve-la-plus-solide-a-ce-jour-pour-le-compagnon-de-betelgeuse-29610.php",
+          "d": "2026-11-03",
+          "r": "Soupçonnée depuis plus d’un siècle, l’existence d’une étoile compagnon de la supergéante rouge Bételgeuse devient de plus en plus crédible. Des observations réalisées avec le VLT ont révélé une source exactement là où elle était attendue, même si une confirmation définitive devra attendre 2027.",
           "c": [
-            "Agenda"
+            "Astrophysique"
           ]
         }
       ]
@@ -2346,57 +2506,48 @@
       "nom_site": "Actu-Environnement",
       "articles": [
         {
-          "t": "Capture de CO2 : une start-up française s'attaque aux effluents très dilués",
-          "l": "https://www.actu-environnement.com/ae/news/la-technologie-de-pure-carbone-capture-pour-capter-dioxyde-de-carbone-dans-effluents-peu-concentres-48719.php4#xtor=RSS-6",
-          "d": "2026-10-23",
-          "r": "Pure Carbon Capture a développé une technologie de capture pour les sites industriels ou les procédés dont les émissions contiennent moins de 10-12 % de dioxyde de carbone : installations de chauffage industriel ou de production d'électricité, UVE...",
+          "t": "Construction et rénovation du bâti scolaire : les normes à simplifier",
+          "l": "https://www.actu-environnement.com/ae/news/normes-bati-scolaire-simplification-rapport-interinspections-igedd-iga-igf-48764.php4#xtor=RSS-6",
+          "d": "2026-11-03",
+          "r": "La mission inter-inspections (IGA, IGF, Igedd) formule dix-sept recommandations pour simplifier les normes appliquées aux bâtiments scolaires, notamment en matière d'adaptation climatique, de RE 2020, de commande publique et d'accessibilité.",
+          "c": [
+            "Bâtiment"
+          ]
+        },
+        {
+          "t": "La justice administrative refuse de suspendre un pesticide présentant des risques importants pour l'eau",
+          "l": "https://www.actu-environnement.com/ae/news/avadex-factor-tribunal-suspension-pesticide-eau-48763.php4#xtor=RSS-6",
+          "d": "2026-11-03",
+          "r": "Le tribunal administratif de Melun a rejeté la demande de suspension d'un pesticide présentant des risques potentiellement inacceptables pour l'eau. Ce dernier a été autorisé pour 120 jours par la ministre de l'Agriculture à la demande des céréali...",
+          "c": [
+            "Agroécologie"
+          ]
+        },
+        {
+          "t": "Filière bois : 19 millions d'euros pour sécher et valoriser le bois français",
+          "l": "https://www.actu-environnement.com/ae/news/bcib-sechage-bois-biomasse-ademe-48762.php4#xtor=RSS-6",
+          "d": "2026-11-03",
+          "r": "L'État va injecter plus de 19 millions d'euros dans 22 projets de la filière bois, représentant 60 millions d'euros d'investissements au total. Annoncée le 2 novembre par le ministère de la Transition écologique, cette nouvelle vague de lauréats d...",
           "c": [
             "Energie"
           ]
         },
         {
-          "t": "Directive Habitats : les projets pouvant affecter une zone protégée ne peuvent pas être exemptés d'évaluation",
-          "l": "https://www.actu-environnement.com/ae/news/cjue-directive-habitats-evaluation-zones-protegees-48718.php4#xtor=RSS-6",
-          "d": "2026-10-23",
-          "r": "Par un arrêt du 22 octobre 2026, la Cour de justice de l'Union européenne (CJUE) a répondu à une question préjudicielle portant sur la conformité d'une réglementation nationale avec l'article 6 paragraphe 3 de la directive Habitats, relatif à l'év...",
+          "t": "Eau et assainissement : les propositions des entreprises aux candidats à la présidentielle",
+          "l": "https://www.actu-environnement.com/ae/news/eau-assainissement-proposition-fp2e-atep-entreprises-candidats-presidentielle-48761.php4#xtor=RSS-6",
+          "d": "2026-11-03",
+          "r": "La fédération professionnelle des entreprises de l'eau (FP2E) comme le syndicat des acteurs du traitement des eaux de la parcelle (Atep) interpellent les candidats à la présidentielle sur les enjeux de leurs secteurs et déclinent leurs propositions.",
           "c": [
-            "Biodiversité"
+            "Eau"
           ]
         },
         {
-          "t": "ICPE : une consultation pour accélérer l'enregistrement en cas d'incompatibilité avec le PLU",
-          "l": "https://www.actu-environnement.com/ae/news/icpe-enregistrement-instruction-parallele-urbanisme-48717.php4#xtor=RSS-6",
-          "d": "2026-10-23",
-          "r": "Le ministère de la Transition écologique soumet à consultation publique un projet visant à permettre l'instruction d'une demande d'enregistrement ICPE parallèlement à une procédure d'évolution du document d'urbanisme nécessaire à la réalisation du...",
+          "t": "Coûts indirects du marché carbone : la compensation étendue à treize nouveaux secteurs industriels",
+          "l": "https://www.actu-environnement.com/ae/news/compensation-couts-indirects-carbone-secteurs-industriels-48760.php4#xtor=RSS-6",
+          "d": "2026-11-03",
+          "r": "Deux décrets et un arrêté, publiés au Journal officiel du 3 novembre, réorganisent l'aide aux industriels électro-intensifs exposés au coût du carbone et l'étendent à de nouvelles activités. Le principe de cette aide est le suivant : les producte...",
           "c": [
-            "Aménagement"
-          ]
-        },
-        {
-          "t": "LGV Bordeaux-Toulouse : rejet de la demande de suspension d'un arrêté portant autorisation environnementale",
-          "l": "https://www.actu-environnement.com/ae/news/lgv-bordeaux-toulouse-suspension-autorisation-environnementale-48716.php4#xtor=RSS-6",
-          "d": "2026-10-23",
-          "r": "Par une ordonnance du 14 octobre 2026, le juge des référés du tribunal administratif de Bordeaux a refusé de suspendre l'arrêté du 5 février 2026 délivrant une autorisation environnement pour les investigations préalables à la construction de la n...",
-          "c": [
-            "Aménagement"
-          ]
-        },
-        {
-          "t": "Le monde avance vers un réchauffement planétaire de 2,8 degrés d'ici 2100",
-          "l": "https://www.actu-environnement.com/ae/news/emission-gap-report-rechauffement-cop31-pnue-48715.php4#xtor=RSS-6",
-          "d": "2026-10-23",
-          "r": "Les scénarios climatiques du Pnue démontrent une nouvelle fois que le monde n'est pas sur la bonne voie pour respecter l'Accord de Paris. À quelques jours de la COP 31, l'ONU encourage les Etats à sortir des énergies fossiles au profit des renouve...",
-          "c": [
-            "Gouvernance"
-          ]
-        },
-        {
-          "t": "Bonus écologique des véhicules électriques : l'arrêté relatif au calcul du score environnemental est publié",
-          "l": "https://www.actu-environnement.com/ae/news/bonus-ecologique-score-environnemental-vehicules-electriques-48714.php4#xtor=RSS-6",
-          "d": "2026-10-23",
-          "r": "L'arrêté relatif à la méthodologie de calcul du score environnemental et à la valeur de score minimale à atteindre pour l'éligibilité au bonus écologique pour les voitures particulières neuves électriques est paru au Journal officiel. Cet arrêté m...",
-          "c": [
-            "Transport"
+            "Energie"
           ]
         }
       ]
@@ -2405,40 +2556,46 @@
       "nom_site": "LeMagIT",
       "articles": [
         {
-          "t": "Mistral ouvre les poids de Mistral Large 4 et se rapproche d'Orange Cyberdefense",
-          "l": "https://www.lemagit.fr/actualites/366653113/Mistral-ouvre-les-poids-de-Mistral-Large-4-et-se-rapproche-dOrange-Cyberdefense",
-          "d": "2026-10-30",
-          "r": "Au début du mois d’octobre, Mistral AI avait présenté la préversion publique de son modèle Mistral Large 4. Le fournisseur avait promis de poursuivre son apprentissage par renforcement et de libérer les poids sur Hugging Face. Après trois semaines de calcul supplémentaires, c’est chose faite. Le LLM est finalement proposé sous une licence MIT modifiée qui empêche la commercialisation du modèle à la demande par des tiers sans un contrat. Cette licence propriétaire s’avère permissive pour tous ceux qui ne sont pas concurrents ou coopétiteurs de Mistral. Mais elle n’est pas open source. La startup avait également promis d’en dire davantage sur l’architecture de son modèle. Un travail mené avec "
+          "t": "Sortir du cloud : comment y parvenir grâce au cloud hybride",
+          "l": "https://www.lemagit.fr/conseil/Sortir-du-cloud-comment-y-parvenir-grace-au-cloud-hybride",
+          "d": "2026-11-03",
+          "r": "Bien que les services élastiques, le prototypage rapide et la dimension internationale des services cloud restent très demandés, les dirigeants devraient envisager les stratégies de rapatriement de leurs applications sur site comme faisant partie intégrante de leur adoption des services cloud. De plus en plus d’entreprises le font et elles parviennent à gagner en efficacité opérationnelle, à réduire leurs coûts grâce à une approche hybride qui privilégie le contrôle de l’infrastructure et une sécurité renforcée. Selon l’ enquête « The Cloud Repatriation Shift » menée par OpenText, 87 % des entreprises interrogées se donnent jusqu’à la fin 2027 pour rapatrier leurs charges de travail depuis u"
         },
         {
-          "t": "AI World 2026 : Oracle déplace la sécurité des IA dans les données",
-          "l": "https://www.lemagit.fr/actualites/366653156/AI-World-2026-Oracle-deplace-la-securite-des-IA-dans-les-donnees",
-          "d": "2026-10-30",
-          "r": "Mettre la sécurité des IA dans les données qu’elles lisent plutôt que dans les applications qui les exécutent. Telle est l’approche qu’Oracle entend avoir avec la nouvelle Deep Trust AI Architecture que l’éditeur vient de dévoiler pour améliorer ses bases de données . « Tous les acteurs du marché tentent de sécuriser les agents IA via des couches logicielles externes ou des filtres de prompts. Mais vous aurez beau vous efforcer d’imposer le respect de règles métiers en amont d’une IA, celle-ci saura toujours contourner tout ce qui vient d’une application. Nous, nous mettons un mur devant ce qu’elle peut lire », explique Tirthankar Lahiri, le patron des moteurs logiciels qui animent les bases"
+          "t": "Pourquoi Marvell rachète Lumentum pour 115 milliards de dollars",
+          "l": "https://www.lemagit.fr/actualites/366653592/Pourquoi-Marvell-rachete-Lumentum-pour-115-milliards-de-dollars",
+          "d": "2026-11-03",
+          "r": "Le fabricant californien de contrôleurs Ethernet pour cartes et switch réseau Marvell rachète pour 115 milliards de dollars le fabricant d’embouts et de switches photoniques Lumentum. Les produits de Lumentum servent à convertir les signaux électriques des équipements réseau, dont ceux basés sur des puces Marvell, en lumière transportable sur des fibres. L’intérêt des fibres est qu’elles offrent de meilleures bandes passantes sur de plus longues distances que les câbles en cuivre. Dans le contexte de l’IA, il s’agit d’interconnecter à pleine vitesse – 800 Gbit/s aujourd’hui et probablement 1,6 Tbit/s l’année prochaine - des GPU qui se trouvent dans des armoires rack, dans des salles, voire d"
         },
         {
-          "t": "Inherent prépare un SOC souverain sans Sentinel",
-          "l": "https://www.lemagit.fr/actualites/366653193/Inherent-prepare-un-SOC-souverain-sans-Sentinel",
-          "d": "2026-10-30",
-          "r": "Inherent va sortir un SOC souverain. Ce service devra répondre à la volonté de « maîtriser ses dépendances » qu’exprimeraient de plus en plus d’organisations françaises, justifie Pierre-Jean Beylier, président du « nouveau » groupe. « Nouveau » entre guillemets, car Inherent est la marque ombrelle qui chapeaute depuis ce mois d’octobre des entités plus connues dans le monde de l’IT sous les noms d’Adista dans les télécommunications B2B et l’hébergement, Devensys Cyber Security, ou Upper-Link dans l’IA et la data. Cybersécurité et souveraineté La cybersécurité est une tendance forte pour le groupe qui a vendu quarante SOC en six mois, alors qu’il n’en proposait pas jusqu’ici. Ces services man"
+          "t": "IBM Automation 2.0 : vers une console unifiée pour l’automatisation IT",
+          "l": "https://www.lemagit.fr/actualites/366653492/IBM-Automation-20-vers-une-console-unifiee-pour-lautomatisation-IT",
+          "d": "2026-11-03",
+          "r": "Lors de son événement TechExchange à Atlanta le 27 octobre, IBM a dévoilé un ensemble de mises à jour consacré à son portefeuille Concert AIOps. Cette suite utilise en arrière-plan des agents IA et des intégrations API pour coordonner les flux de travail liés à l’observabilité, aux opérations de cloud hybride, à l’optimisation des performances et des coûts, à la gestion des vulnérabilités et des risques, à la résilience informatique, ainsi qu’à l’orchestration et à l’automatisation des flux de travail « low-code ». L’ensemble du portefeuille IT Automation a lui-même grossi. Il intègre des outils pour la gestion réseau, des identités et des accès, la sécurité postquantique , l’intégration et "
         },
         {
-          "t": "Comment l'IA transforme la détection des menaces en entreprise",
-          "l": "https://www.lemagit.fr/conseil/Comment-lIA-transforme-la-detection-des-menaces-en-entreprise",
-          "d": "2026-10-30",
-          "r": "La cybersécurité moderne repose sur deux exigences : repérer les menaces réelles et les neutraliser avant qu’elles ne nuisent à l’entreprise. Le principe paraît simple ; sa mise en pratique est une tout autre affaire. Des infrastructures, des dépendances et des besoins d’accès de plus en plus complexes ouvrent des vecteurs d’attaque nouveaux et plus subtils. Les attaques zero-day suivent de près la publication des logiciels, des correctifs et des mises à jour. L’erreur humaine et l’ ingénierie sociale (téléchargements infectés, sites malveillants, phishing ) restent une préoccupation permanente. Même le matériel neuf – des serveurs aux objets connectés – est livré avec des vulnérabilités pot"
+          "t": "Divalto lance sa plateforme d’agents IA pour ses ERP et CRM",
+          "l": "https://www.lemagit.fr/actualites/366653436/Divalto-lance-sa-plateforme-dagents-IA-pour-ERP-et-CRM",
+          "d": "2026-11-03",
+          "r": "Divalto l’avait promis . L’éditeur alsacien a tenu parole : il lance Divalto one AI, une plateforme d’IA agentique intégrée à ses ERP et ses CRM en mode SaaS qui ciblent les PME et les ETI. Sa nouvelle plateforme, annoncée cet été, repose sur quatre grandes briques. Un agent conversationnel permet à l’utilisateur final de formuler une demande en langage naturel à l’application métier, sur le mode de Sana dans Workday ou de Copilot chez Microsoft qui sont devenus, l’un et l’autre, des portes d’entrée pour les utilisateurs. Un catalogue regroupe les agents et les « compétences ». Divalto l’alimentera, tout comme ses partenaires. Partenaires qui pourront utiliser le « Builder » (troisième briqu"
         },
         {
-          "t": "Copilot Fusion : GitHub veut choisir et combiner les modèles d’IA à la place des développeurs",
-          "l": "https://www.lemagit.fr/actualites/366653133/Copilot-Fusion-GitHub-veut-choisir-et-combiner-les-modeles-dIA-a-la-place-des-developpeurs",
-          "d": "2026-10-30",
-          "r": "Lors de la conférence GitHub Universe à San Francisco , le spécialiste de la gestion de versions de code a largement mis en avant ses capacités agentiques. Face à Claude Code, Pi, OpenCode, Codex, Cursor, la filiale de Microsoft mise sur l’infusion de GitHub Copilot au sein de sa plateforme. Une approche qui se reflète directement dans son modèle économique. Depuis le 28 octobre, GitHub Enterprise inclut l’accès à GitHub Copilot. Plus précisément, les fonctionnalités de complétion de code sont intégrées, mais il faudra payer les crédits IA pour accéder aux fonctionnalités agentiques. « Si vous êtes un nouveau client, vous bénéficierez immédiatement de ce type d’offre conjointe. Si vous êtes "
+          "t": "CI/CD : GitHub décline son arsenal pour limiter les attaques de type « Pwn Request »",
+          "l": "https://www.lemagit.fr/actualites/366653454/CI-CD-GitHub-decline-son-arsenal-pour-limiter-les-attaques-de-type-Pwn-Request",
+          "d": "2026-11-03",
+          "r": "Vélocité, intelligence, qualité. Et sécurité. Au vu de la recrudescence des attaques sur la chaîne de livraison logicielle, GitHub sait qu’il doit renforcer son quatrième pilier. « Nos équipes de sécurité et d’exploitation ont dû réagir face à ces attaques. Cela nous a tous amenés à réexaminer la relation de confiance que nous entretenons avec les dépendances open source qui composent nos logiciels et dont nous dépendons », déclare Gregory Ose, ingénieur principal, produit de sécurité chez GitHub, lors d’une session de GitHub Universe 2026, à San Francisco. « Cela a également conduit GitHub à repenser les fonctionnalités, les modifications et les paramètres de sécurité par défaut que nous po"
         },
         {
-          "t": "Serveurs : « L’IA impose des cycles de renouvellement de 3 à 4 ans »",
-          "l": "https://www.lemagit.fr/dessin/Serveurs-LIA-impose-des-cycles-de-renouvellement-de-3-a-4-ans",
-          "d": "2026-10-30",
-          "r": "Acteur du financement B2B (700 millions d’encours sous gestion), Realease Capital observe de près les projets IT en France. Son nouveau président, Patrick Henrion, constate que l’IA raccourcit drastiquement les cycles de renouvellement des équipements, dont les serveurs, et qu’elle pèse sur les arbitrages entre DSI, achats et direction financière. >Lire l’ article de Philippe Ducellier"
+          "t": "Visio : Tixeo passe au chiffrement post-quantique",
+          "l": "https://www.lemagit.fr/actualites/366653396/Visio-Tixeo-passe-au-chiffrement-post-quantique",
+          "d": "2026-11-03",
+          "r": "Tixeo, l’éditeur montpelliérain de la solution de visioconférence éponyme , chiffrée de bout en bout, souveraine et certifiée CSPN par l’ANSSI, a sorti la version 18.2 de son alternative à Zoom/Teams et autre Cisco WebEx, avec une arrivée majeure : le chiffrement post-quantique (PQC). Un chiffrement hybride La nouvelle protection couvre les flux de réunion (audio, vidéo, partage d’écran, chat, fichiers) ainsi que les Workspaces. Elle est active par défaut, sans configuration de la part de l’utilisateur. En revanche, et assez logiquement, ce nouveau chiffrement ne s’applique que si tous les participants sont connectés depuis un navigateur en v18.2. Dans le cas contraire, l’échange repasse en "
+        },
+        {
+          "t": "Guide essentiel : la sauvegarde en cloud",
+          "l": "https://www.lemagit.fr/essentialguide/Guide-essentiel-la-sauvegarde-en-cloud",
+          "d": "2026-11-03",
+          "r": "Ce Guide Essentiel consacré au sujet de la sauvegarde en cloud aborde les bonnes pratiques de cette discipline, ses solutions les plus courantes et les acteurs innovants qui feront sans doute davantage parler d’eux à l’avenir. La sauvegarde en cloud adresse deux cas d’usage : sauvegarder dans un service en ligne les applications et les données qui fonctionnent sur site, ou le faire pour celles qui fonctionnent déjà nativement en cloud. Dans le premier cas, la sauvegarde en cloud présente le mérite de délester les datacenters privés des copies de secours essentielles, mais qui sont coûteuses aussi bien en matériels de stockage qu’en espace locatif pour les installer. Cela dit, ses avantages r"
         }
       ]
     },
@@ -2446,16 +2603,28 @@
       "nom_site": "Service public|Particuliers",
       "articles": [
         {
-          "t": "Colis importés : l’Union européenne instaure de nouveaux frais de traitement dès le 1er novembre",
-          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A19120?xtor=RSS-111",
-          "d": "2026-10-30",
-          "r": "Des frais de traitement entrent en vigueur au 1 er novembre 2026 dans l’ensemble de l’Union européenne. Ils sont applicables à l'ensemble des colis sans seuil de valeur. Ces frais de traitement s’ajoutent aux droits de douane forfaitaire de 3 euros appliqués depuis le 1 er juillet 2026. Service Public vous explique."
+          "t": "Heures creuses : les plages horaires évoluent",
+          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A18476?xtor=RSS-111",
+          "d": "2026-11-03",
+          "r": "Vous bénéficiez d’un contrat d’électricité avec l’option heures creuses ? Les horaires de ces périodes à tarif réduit évoluent progressivement jusqu’à fin 2027 afin de mieux adapter la consommation d’électricité aux périodes de forte production d’énergie. Êtes-vous concerné par ces changements ? Service Public vous informe."
         },
         {
-          "t": "Donnez votre avis sur l’Assurance retraite",
-          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A19121?xtor=RSS-111",
-          "d": "2026-10-30",
-          "r": "L'Assurance retraite va bientôt définir ses orientations stratégiques pour les années 2028 à 2032. Afin de répondre le plus justement possible aux attentes des usagers, l’organisme vous propose de donner votre avis jusqu’au 9 novembre."
+          "t": "Carte bancaire : que faire si vous avez été victime d’une fraude ?",
+          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A17437?xtor=RSS-111",
+          "d": "2026-11-03",
+          "r": "Généralement, vous vous rendez compte d’une fraude relative à votre carte bancaire en remarquant sur votre relevé de compte des achats en ligne dont vous n'êtes pas à l'origine, ou en recevant sur votre téléphone un code de confirmation pour un achat que vous n'avez pas fait. Comment éviter d’être victime de ce type de fraude ? Quelles démarches entreprendre si vous êtes confronté à cette situation ? La procédure de signalement a évolué le 14 octobre. Service Public vous en dit plus."
+        },
+        {
+          "t": "La licence portail santé remplacera les PASS/LAS dès la rentrée 2027",
+          "l": "https://www.service-public.gouv.fr/particuliers/actualites/A18890?xtor=RSS-111",
+          "d": "2026-11-03",
+          "r": "Le Gouvernement avait annoncé en avril dernier une réforme majeure du dispositif PASS/LAS qui permet d’accéder aux études de santé. Un décret du 23 octobre 2026 confirme cette décision. Service Public vous présente les modalités de la nouvelle licence portail santé, une voie unique harmonisée nationalement dont la mise en place est prévue dès la rentrée prochaine."
+        },
+        {
+          "t": "Déclaration du congé supplémentaire de naissance : un nouveau formulaire obligatoire pour les employeurs",
+          "l": "https://entreprendre.service-public.gouv.fr/actualites/A19127?xtor=RSS-111",
+          "d": "2026-11-03",
+          "r": "Depuis le 1 er novembre 2026, les employeurs doivent utiliser un nouveau formulaire en ligne pour déclarer les congés supplémentaires de naissance. Ce dispositif remplace le fichier Excel mis en place à titre transitoire depuis l’entrée en vigueur du congé supplémentaire de naissance le 1 er juillet 2026."
         }
       ]
     },
@@ -2463,10 +2632,10 @@
       "nom_site": "Service public|Entreprises",
       "articles": [
         {
-          "t": "Quelles sont les mesures pour préserver l'emploi dans les commerces impactés par les dégradations ?",
-          "l": "https://entreprendre.service-public.gouv.fr/actualites/A19104?xtor=RSS-112",
-          "d": "2026-10-28",
-          "r": "Pour aider les entreprises à faire face aux dégradations survenues les 17 et 18 octobre, le ministre du Travail et des Solidarités a annoncé la mise en place d’une aide exceptionnelle et la mobilisation immédiate de l’ activité partielle . Ces mesures ont pour objectif de préserver les emplois et de favoriser une reprise rapide de l’activité économique."
+          "t": "Déclaration du congé supplémentaire de naissance : un nouveau formulaire obligatoire pour les employeurs",
+          "l": "https://entreprendre.service-public.gouv.fr/actualites/A19127?xtor=RSS-112",
+          "d": "2026-11-03",
+          "r": "Depuis le 1 er novembre 2026, les employeurs doivent utiliser un nouveau formulaire en ligne pour déclarer les congés supplémentaires de naissance. Ce dispositif remplace le fichier Excel mis en place à titre transitoire depuis l’entrée en vigueur du congé supplémentaire de naissance le 1 er juillet 2026."
         }
       ]
     }
@@ -2476,16 +2645,10 @@
       "nom_site": "Cour des Comptes",
       "articles": [
         {
-          "t": "Chambre des métiers et de l'artisanat de la Région Hauts-de-France",
-          "l": "https://www.ccomptes.fr/fr/publications/chambre-des-metiers-et-de-lartisanat-de-la-region-hauts-de-france",
-          "d": "2026-10-29",
-          "r": "Établissement public administratif d’État, la chambre de métiers et de l’artisanat régionale (CMAR) des Hauts-de-France a pour fonction historique de gérer l’inscription au registre national des entreprises artisanales, mission en recul au profit de l’Institut national de la propriété industrielle. La CMAR accompagne également la création d’activités et garantit la représentation et la défense de l’artisanat dans la région. Avec près de 80 formations dispensées, représentant environ 10 % des apprentissages de la région, et plus de 1 000 agents répartis sur une quarantaine de sites, son action revêt une importance certaine, notamment dans la formation aux métiers de l’artisanat."
-        },
-        {
-          "t": "Département de La Réunion - Cahier n°1 : Le patrimoine",
-          "l": "https://www.ccomptes.fr/fr/publications/departement-de-la-reunion-cahier-ndeg1-le-patrimoine",
-          "d": "2026-10-29",
-          "r": "Le Département de La Réunion possède un patrimoine bâti de 424 sites, représentant environ 100 000 hectares, soit 40 % du territoire réunionnais. La chambre régionale des comptes de La Réunion relève plusieurs insuffisances dans la gestion du patrimoine du Département, malgré des avancées récentes dans la structuration de sa stratégie immobilière."
+          "t": "L’évolution du budget du ministère de la culture depuis 2015",
+          "l": "https://www.ccomptes.fr/fr/publications/levolution-du-budget-du-ministere-de-la-culture-depuis-2015",
+          "d": "2026-11-03",
+          "r": "Pour éclairer le débat public la Cour des comptes retrace pour la première fois l’évolution du budget du ministère de la culture entre 2015 et 2025, en s’appuyant sur la synthèse de 33 notes d’exécution budgétaire (une NEB analyse chaque année l’utilisation des crédits votés pour une mission du budget de l’État), sur 43 autres rapports de la Cour consacrés à la culture publiés depuis 2018, ainsi que sur des investigations complémentaires. L’analyse porte sur les trois missions qui composent le budget du ministère de la culture et de la communication : la mission Culture, la mission Médias, livre et industries culturelles, et la mission Avances à l’audiovisuel public et situe leurs crédits pa"
         }
       ],
       "type": "publication"

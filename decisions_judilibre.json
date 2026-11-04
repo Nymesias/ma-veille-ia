@@ -1,108 +1,20 @@
 {
-  "mis_a_jour": "2026-11-02T09:36:48",
-  "date_cible": "2026-10-22",
-  "date_recherche_initiale": "2026-11-01",
-  "total": 9,
+  "mis_a_jour": "2026-11-04T09:25:50",
+  "date_cible": "2026-11-03",
+  "date_recherche_initiale": "2026-11-03",
+  "total": 1,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
     {
-      "id": "6ad9d8187a10202137362c06",
-      "date": "2026-10-22",
-      "chambre": "Deuxième chambre civile",
+      "id": "6ae99f507a1020213705b96f",
+      "date": "2026-11-03",
+      "chambre": "Chambre criminelle",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "23-21.606",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6ad9d8187a10202137362c06"
-    },
-    {
-      "id": "6ad9d8107a10202137362298",
-      "date": "2026-10-22",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "23-21.018",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6ad9d8107a10202137362298"
-    },
-    {
-      "id": "6ad9d80d7a10202137361eef",
-      "date": "2026-10-22",
-      "chambre": "Troisième chambre civile",
-      "formation": "Formation de section",
-      "numero": "24-11.572",
+      "numero": "26-80.297",
       "solution": "Cassation",
       "publication": "Publié au Bulletin",
-      "sommaire": "Compte tenu du contrôle judiciaire effectif dont peuvent faire l'objet, d'une part, l'exécution de bonne foi du contrat d'association, d'autre part, le respect des garanties applicables en droit disciplinaire associatif, enfin, l'existence d'un motif légitime justifiant la sanction prononcée, l'application du principe non bis in idem aux sanctions prises par une association contre l'un de ses membres, en cas de manquement de ce dernier aux obligations contractuelles résultant du pacte associatif auquel il a librement adhéré, porterait une atteinte ni nécessaire ni proportionnée au principe d'autonomie et de liberté statutaires des associations",
-      "url": "https://www.courdecassation.fr/decision/6ad9d80d7a10202137361eef"
-    },
-    {
-      "id": "6ad9d8227a1020213736374d",
-      "date": "2026-10-22",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "24-17.369",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "Il résulte de l'article 2241, alinéa 2, du code civil que l'acte de saisine de la juridiction, même entachée d'un vice de procédure, interrompt les délais de prescription comme de forclusion. Doit, dès lors, être censuré l'arrêt qui, pour constater la nullité d'une déclaration d'appel affectée d'une irrégularité de forme tenant à l'indication inexacte d'un domicile d'une appelante, retient que c'est dans le délai de trois mois de celle-ci que sa régularisation devait intervenir alors que cette déclaration d'appel ayant interrompu le délai d'appel, sa régularisation était possible jusqu'au prononcé de l'ordonnance du conseiller de la mise en état statuant sur sa validité",
-      "url": "https://www.courdecassation.fr/decision/6ad9d8227a1020213736374d"
-    },
-    {
-      "id": "6ad9d8097a10202137361a44",
-      "date": "2026-10-22",
-      "chambre": "Troisième chambre civile",
-      "formation": "Formation de section",
-      "numero": "25-14.178",
-      "solution": "Rejet",
-      "publication": "Publié au Bulletin",
-      "sommaire": "Il résulte de l'article L. 600-8 du code de l'urbanisme, dans sa rédaction antérieure à celle issue de la loi n° 2018-1021 du 23 novembre 2018, que seules sont soumises à la formalité d'enregistrement auprès de l'administration fiscale dans le délai d'un mois, sous peine des sanctions qu'il prévoit, les transactions intervenues à l'occasion du recours en annulation d'un permis de construire, de démolir ou d'aménager alors pendant devant la juridiction administrative",
-      "url": "https://www.courdecassation.fr/decision/6ad9d8097a10202137361a44"
-    },
-    {
-      "id": "6ad9d8257a10202137363baa",
-      "date": "2026-10-22",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-21.540",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6ad9d8257a10202137363baa"
-    },
-    {
-      "id": "6ad9d81e7a10202137363314",
-      "date": "2026-10-22",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "24-12.983",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "Constitue, au sens de l'article 910-3 du code de procédure civile, dans sa rédaction issue du décret n° 2017-891 du 6 mai 2017, un cas de force majeure la circonstance non imputable au fait de la partie qui l'invoque et qui revêt pour elle un caractère insurmontable. Par conséquent, ne donne pas de base légale à sa décision la cour d'appel, qui, pour déclarer caduque une déclaration d'appel en raison de la remise tardive des conclusions de l'appelant, retient que l'indisponibilité de l'avocate de ce dernier, en raison d'un malaise, n'avait concerné que les derniers jours du délai pour conclure, et qu'il n'était pas établi qu'elle n'avait pas été en mesure d'organiser son cabinet pour se fair",
-      "url": "https://www.courdecassation.fr/decision/6ad9d81e7a10202137363314"
-    },
-    {
-      "id": "6ad9d81b7a10202137362fae",
-      "date": "2026-10-22",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-12.142",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "Constitue, au sens de l'article 910-3 du code de procédure civile, dans sa rédaction issue du décret n° 2017-891 du 6 mai 2017, un cas de force majeure la circonstance non imputable au fait de la partie qui l'invoque et qui revêt pour elle un caractère insurmontable. Par conséquent, doit être censuré l'arrêt d'une cour d'appel qui, pour déclarer caduque une déclaration d'appel, retient que l'appelant, qui se prévaut d'une indisponibilité le dernier jour du délai imparti pour conclure, ne justifie pas d'un cas de force majeure en ce qu'il avait eu le temps suffisant pour conclure avant cette date, alors qu'en statuant ainsi, par des motifs inopérants, la cour d'appel l'a ainsi privé de son dr",
-      "url": "https://www.courdecassation.fr/decision/6ad9d81b7a10202137362fae"
-    },
-    {
-      "id": "6ad9d8137a102021373626fe",
-      "date": "2026-10-22",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-16.951",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "Selon l'article L. 112-2, 5°, du code des procédures civiles d'exécution, les biens mobiliers nécessaires à la vie et au travail du saisi et de sa famille sont, sauf exception, insaisissables. Cependant, ils deviennent saisissables s'ils se trouvent dans un lieu autre que celui où le saisi demeure ou travaille habituellement, s'ils sont des biens de valeur, en raison notamment de leur importance, de leur matière, de leur rareté, de leur ancienneté ou de leur caractère luxueux, s'ils perdent leur caractère de nécessité en raison de leur quantité ou s'ils constituent des éléments corporels d'un fonds de commerce. L'appréciation du lieu où le débiteur saisi travaille habituellement relève du po",
-      "url": "https://www.courdecassation.fr/decision/6ad9d8137a102021373626fe"
+      "sommaire": "Les dispositions de l'article R. 116-2 du code de la voirie routière, aux termes desquelles constitue une contravention de la cinquième classe le fait, en l'absence d'autorisation, d'établir ou laisser croître des arbres ou haies à moins de deux mètres de la limite du domaine public routier, mettent à la charge du propriétaire d'un terrain jouxtant ledit domaine une obligation particulière de prudence ou de sécurité objective, immédiatement perceptible et clairement applicable, sans faculté d'appréciation personnelle du sujet",
+      "url": "https://www.courdecassation.fr/decision/6ae99f507a1020213705b96f"
     }
   ]
 }
