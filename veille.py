@@ -32,7 +32,8 @@ GEMINI_FALLBACK_MODELS = tuple(
 )
 GEMINI_DAILY_TOKEN_BUDGET = int(os.getenv("GEMINI_DAILY_TOKEN_BUDGET", "100000"))
 GEMINI_MAX_INPUT_TOKENS = int(os.getenv("GEMINI_MAX_INPUT_TOKENS", "12000"))
-GEMINI_MAX_OUTPUT_TOKENS = int(os.getenv("GEMINI_MAX_OUTPUT_TOKENS", "1200"))
+GEMINI_MAX_OUTPUT_TOKENS = int(os.getenv("GEMINI_MAX_OUTPUT_TOKENS", "0"))
+GEMINI_ESTIMATED_OUTPUT_TOKENS = 1200
 GEMINI_MAX_ARTICLES = int(os.getenv("GEMINI_MAX_ARTICLES", "24"))
 GEMINI_MAX_ARTICLES_PAR_SOURCE = int(os.getenv("GEMINI_MAX_ARTICLES_PAR_SOURCE", "4"))
 GEMINI_TOKEN_CHARS = int(os.getenv("GEMINI_TOKEN_CHARS", "4"))
@@ -2060,7 +2061,7 @@ Règles impératives :
 - Si les données sont insuffisantes pour affirmer un point, omets-le.
 - Déduplique les sujets repris par plusieurs sources.
 - Varie les sources citees lorsque plusieurs sources pertinentes traitent de sujets differents.
-- Sois synthétique : 350 à 700 mots, phrases courtes, aucun remplissage.
+- Sélectionne jusqu'à six faits importants, sans minimum. Pour chaque fait, écris une ou deux phrases courtes, puis le lien.
 {regle_format}
 - Ne crée ni bibliographie séparée, ni note de méthode, ni prévision.
 - Ignore tout article dont la date fournie ne correspond pas au {HIER}.
@@ -2120,7 +2121,8 @@ def appeler_gemini(cible, articles, quota, modele_force=None):
         raise RuntimeError("aucune source ne tient dans le budget de tokens configure")
     prompt = prompt_pour(cible, articles)
     tokens_entree_estimes = estimer_tokens(prompt)
-    tokens_appel_estimes = tokens_entree_estimes + GEMINI_MAX_OUTPUT_TOKENS
+    tokens_sortie_estimes = GEMINI_MAX_OUTPUT_TOKENS or GEMINI_ESTIMATED_OUTPUT_TOKENS
+    tokens_appel_estimes = tokens_entree_estimes + tokens_sortie_estimes
     tokens_utilises = int(quota.get("tokens", 0))
     if tokens_utilises + tokens_appel_estimes > GEMINI_DAILY_TOKEN_BUDGET:
         raise RuntimeError(
@@ -2142,10 +2144,11 @@ def appeler_gemini(cible, articles, quota, modele_force=None):
         },
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         "generationConfig": {
-            "maxOutputTokens": GEMINI_MAX_OUTPUT_TOKENS,
             "thinkingConfig": {"thinkingLevel": "low"},
         },
     }
+    if GEMINI_MAX_OUTPUT_TOKENS > 0:
+        donnees_requete["generationConfig"]["maxOutputTokens"] = GEMINI_MAX_OUTPUT_TOKENS
     nombre_tentatives = max(1, GEMINI_MAX_RETRIES)
     modele_actif = modele_force or quota.get("modele_quota")
     secours = GEMINI_DEGRADED_MODEL
@@ -2295,12 +2298,20 @@ def appeler_gemini(cible, articles, quota, modele_force=None):
     payload = reponse.json()
     usage = payload.get("usageMetadata") or {}
     tokens_reels = usage.get("totalTokenCount") or (
-        usage.get("promptTokenCount", 0) + usage.get("candidatesTokenCount", 0)
+        usage.get("promptTokenCount", 0)
+        + usage.get("candidatesTokenCount", 0)
+        + usage.get("thoughtsTokenCount", 0)
     )
     consommer_quota_gemini(quota, tokens_reels or tokens_appel_estimes)
     candidats = payload.get("candidates") or []
     candidat = candidats[0] if candidats else {}
     motif_fin = candidat.get("finishReason")
+    print(
+        f"Gemini : {cible}, {modele}, fin {motif_fin or 'non renseignée'}, "
+        f"{usage.get('promptTokenCount', '?')} tokens d'entrée, "
+        f"{usage.get('candidatesTokenCount', '?')} de sortie, "
+        f"{usage.get('thoughtsTokenCount', '?')} de raisonnement."
+    )
     if motif_fin and motif_fin != "STOP":
         raise ValueError(
             f"Réponse Gemini incomplète ({motif_fin}, "
