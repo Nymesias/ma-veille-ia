@@ -45,9 +45,7 @@ jobs:
           GEMINI_MAX_RETRIES: '2'
           GEMINI_FALLBACK_MODELS: ''
           GEMINI_MIN_REQUEST_INTERVAL: '60'
-          GEMINI_MAX_REQUESTS_PER_RUN: '6'
-          GEMINI_MAX_RETRIES_PER_RUN: '1'
-          GEMINI_RETRY_BASE_SECONDS: '3600'
+          GEMINI_RETRY_BASE_SECONDS: '60'
           TZ: Europe/Paris
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
