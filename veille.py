@@ -36,8 +36,8 @@ GEMINI_MAX_OUTPUT_TOKENS = int(os.getenv("GEMINI_MAX_OUTPUT_TOKENS", "1200"))
 GEMINI_MAX_ARTICLES = int(os.getenv("GEMINI_MAX_ARTICLES", "24"))
 GEMINI_MAX_ARTICLES_PAR_SOURCE = int(os.getenv("GEMINI_MAX_ARTICLES_PAR_SOURCE", "4"))
 GEMINI_TOKEN_CHARS = int(os.getenv("GEMINI_TOKEN_CHARS", "4"))
-GEMINI_MAX_RETRIES = int(os.getenv("GEMINI_MAX_RETRIES", "4"))
-GEMINI_RETRY_BASE_SECONDS = float(os.getenv("GEMINI_RETRY_BASE_SECONDS", "5"))
+GEMINI_MAX_RETRIES = int(os.getenv("GEMINI_MAX_RETRIES", "2"))
+GEMINI_RETRY_BASE_SECONDS = float(os.getenv("GEMINI_RETRY_BASE_SECONDS", "20"))
 GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES = int(
     os.getenv("GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES", str(GEMINI_MAX_ARTICLES))
 )
@@ -45,6 +45,10 @@ GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES = int(
 
 class ErreurGeminiTemporaire(RuntimeError):
     """Indique qu'un appel Gemini peut réussir lors d'une tentative ultérieure."""
+
+
+class ErreurGeminiQuota(ErreurGeminiTemporaire):
+    """Indique qu'une nouvelle requête immédiate risquerait de consommer du quota."""
 
 
 DOSSIER_MD = "markdown"
@@ -2050,20 +2054,37 @@ def appeler_gemini(cible, articles, quota):
     modeles = tuple(dict.fromkeys((GEMINI_MODEL,) + GEMINI_FALLBACK_MODELS))
     for index_modele, modele in enumerate(modeles):
         reponse = None
+        derniere_exception = None
         for tentative in range(nombre_tentatives):
-            reponse = requests.post(
-                f"{GEMINI_API_URL}/{quote(modele, safe='')}:generateContent",
-                headers={
-                    "x-goog-api-key": GEMINI_KEY,
-                    "Content-Type": "application/json",
-                },
-                json=donnees_requete,
-                timeout=90,
-            )
+            try:
+                reponse = requests.post(
+                    f"{GEMINI_API_URL}/{quote(modele, safe='')}:generateContent",
+                    headers={
+                        "x-goog-api-key": GEMINI_KEY,
+                        "Content-Type": "application/json",
+                    },
+                    json=donnees_requete,
+                    timeout=90,
+                )
+            except requests.exceptions.Timeout as exc:
+                derniere_exception = exc
+                reponse = None
+                if tentative + 1 >= nombre_tentatives:
+                    break
+                attente = min(GEMINI_RETRY_BASE_SECONDS * (2 ** tentative), 300)
+                print(
+                    f"Timeout Gemini pour {cible} avec {modele}; nouvel essai "
+                    f"dans {attente:g} s ({tentative + 2}/{nombre_tentatives})."
+                )
+                time.sleep(attente)
+                continue
             erreur_transitoire = (
                 reponse.status_code in (408, 429)
                 or 500 <= reponse.status_code < 600
             )
+            # Un 429 peut signaler une limite journalière: ne pas le marteler.
+            if reponse.status_code == 429:
+                break
             if not erreur_transitoire:
                 reponse.raise_for_status()
                 break
@@ -2074,7 +2095,7 @@ def appeler_gemini(cible, articles, quota):
                 attente = max(float(retry_after), GEMINI_RETRY_BASE_SECONDS)
             except (TypeError, ValueError):
                 attente = GEMINI_RETRY_BASE_SECONDS * (2 ** tentative)
-            attente = min(attente, 60)
+            attente = min(attente, 300)
             print(
                 f"Erreur Gemini temporaire HTTP {reponse.status_code} pour {cible} "
                 f"avec {modele}; nouvel essai dans "
@@ -2082,13 +2103,28 @@ def appeler_gemini(cible, articles, quota):
             )
             time.sleep(attente)
         if reponse is None:
+            if derniere_exception is not None and index_modele + 1 < len(modeles):
+                print(f"Timeout persistant sur {modele}; essai du modèle de secours.")
+                continue
+            if derniere_exception is not None:
+                raise ErreurGeminiTemporaire(
+                    f"timeout Gemini persistant après les réessais: {derniere_exception}"
+                ) from derniere_exception
             raise RuntimeError("aucune tentative Gemini effectuée")
         if not (reponse.status_code in (408, 429) or 500 <= reponse.status_code < 600):
             break
         try:
-            detail = ((reponse.json() or {}).get("error") or {}).get("message", "")
+            erreur = (reponse.json() or {}).get("error") or {}
+            detail = erreur.get("message", "")
+            statut_detaille = erreur.get("status", "")
         except (ValueError, AttributeError):
             detail = ""
+            statut_detaille = ""
+        if reponse.status_code == 429:
+            suffixe = f" ({statut_detaille}: {nettoyer_texte(detail, 300)})" if detail else ""
+            raise ErreurGeminiQuota(
+                f"quota/rate limit Gemini HTTP 429 pour {modele} après les réessais{suffixe}"
+            )
         if index_modele + 1 < len(modeles):
             prochain_modele = modeles[index_modele + 1]
             print(
@@ -2145,6 +2181,42 @@ def ecrire_markdown(cible, contenu):
     with open(chemin, "w", encoding="utf-8") as fichier:
         fichier.write(nettoyer_sortie_ia(contenu) + "\n")
     print(f"Fichier généré: {chemin}")
+
+
+def chemin_markdown(cible):
+    nom = f"synthese-{AUJOURDHUI}.md" if cible == "synthese" else f"{AUJOURDHUI}-{cible}.md"
+    return os.path.join(DOSSIER_MD, SOUS_DOSSIERS_MD[cible], nom)
+
+
+def charger_sortie_existante(cible):
+    """Reprend une génération réussie lors d'une tentative précédente le même jour."""
+    try:
+        with open(chemin_markdown(cible), encoding="utf-8") as fichier:
+            contenu = fichier.read().strip()
+    except OSError:
+        return None
+    if not contenu or "generation-status: unavailable" in contenu:
+        return None
+    return contenu
+
+
+def compte_rendu_indisponible(cible, erreur):
+    titres = {
+        "news": f"Actualités générales — {HIER}",
+        "finance": f"Finance et économie — {HIER}",
+        "cour-de-cassation": f"Cour de cassation — {HIER}",
+        "conseil-etat": f"Conseil d'État — {HIER}",
+        "juridique-analyse": f"Veille juridique — {HIER}",
+        "jurisprudence": f"Juridictions — {HIER}",
+    }
+    detail = nettoyer_texte(erreur, 500)
+    return (
+        "<!-- generation-status: unavailable -->\n"
+        f"# {titres[cible]}\n\n"
+        "La génération IA est indisponible pour cette rubrique aujourd'hui. "
+        "Les autres rubriques restent disponibles.\n\n"
+        f"Détail technique : `{detail}`"
+    )
 
 
 def compte_rendu_sans_donnees(cible):
@@ -2303,10 +2375,19 @@ def main():
     comptes_rendus_pages = {}
     sorties_generees = set()
     generations_a_reessayer = []
+    erreurs_generations = {}
     for cible in (
         "news", "finance", "cour-de-cassation", "conseil-etat",
         "juridique-analyse", "jurisprudence",
     ):
+        existant = charger_sortie_existante(cible)
+        if existant is not None:
+            print(f"Sortie déjà générée lors d'une tentative précédente: {cible}.")
+            sorties_generees.add(cible)
+            comptes_rendus_pages[cible] = existant
+            if cible == "cour-de-cassation":
+                analyse_cassation = source_depuis_markdown(cible, existant)
+            continue
         if cible == "cour-de-cassation":
             selection = sources_cassation_hier
         elif cible == "conseil-etat":
@@ -2339,11 +2420,16 @@ def main():
             if cible == "cour-de-cassation":
                 analyse_cassation = source_depuis_markdown(cible, contenu)
             comptes_rendus_pages[cible] = contenu
+        except ErreurGeminiQuota as exc:
+            print(f"Quota Gemini atteint pour {cible}; pas de nouvelle tentative: {exc}")
+            erreurs_generations[cible] = str(exc)
         except ErreurGeminiTemporaire as exc:
             print(f"Erreur temporaire de génération {cible}: {exc}")
             generations_a_reessayer.append((cible, selection))
+            erreurs_generations[cible] = str(exc)
         except Exception as exc:
             print(f"Erreur de génération {cible}: {exc}")
+            erreurs_generations[cible] = str(exc)
 
     # Une surcharge Gemini peut ne toucher qu'un appel pendant quelques dizaines
     # de secondes. Une seconde passe, après les autres rubriques, évite de faire
@@ -2359,6 +2445,16 @@ def main():
             comptes_rendus_pages[cible] = contenu
         except Exception as exc:
             print(f"Échec de la tentative différée {cible}: {exc}")
+            erreurs_generations[cible] = str(exc)
+
+    # Écrit un état daté explicite pour les rubriques indisponibles, sans
+    # invalider les autres sorties ni empêcher leur publication.
+    for cible, erreur in erreurs_generations.items():
+        if cible not in sorties_generees:
+            contenu = compte_rendu_indisponible(cible, erreur)
+            ecrire_markdown(cible, contenu)
+            sorties_generees.add(cible)
+            comptes_rendus_pages[cible] = contenu
 
     sorties_attendues = {"news", "finance", "juridique-analyse", "jurisprudence"}
     if sources_cassation_hier:

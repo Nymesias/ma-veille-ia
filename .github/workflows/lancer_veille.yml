@@ -67,6 +67,17 @@ jobs:
             tentative=$((tentative + 1))
           done
 
+      - name: Archiver les sorties disponibles
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: veille-quotidienne-${{ github.run_id }}
+          path: |
+            markdown/
+            *.json
+          if-no-files-found: warn
+          retention-days: 14
+
       # --- 4. LE PUSH (Sauvegarde les nouveaux fichiers) ---
       - name: Sauvegarder sur le serveur
         run: |
