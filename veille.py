@@ -2061,7 +2061,7 @@ Règles impératives :
 - Si les données sont insuffisantes pour affirmer un point, omets-le.
 - Déduplique les sujets repris par plusieurs sources.
 - Varie les sources citees lorsque plusieurs sources pertinentes traitent de sujets differents.
-- Sélectionne jusqu'à six faits importants, sans minimum. Pour chaque fait, écris une ou deux phrases courtes, puis le lien.
+- Vise environ 300 mots pour l'ensemble du compte rendu. Fais plus court si les données le justifient. Privilégie les faits les plus importants et les phrases courtes.
 {regle_format}
 - Ne crée ni bibliographie séparée, ni note de méthode, ni prévision.
 - Ignore tout article dont la date fournie ne correspond pas au {HIER}.
