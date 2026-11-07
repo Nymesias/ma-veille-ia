@@ -589,6 +589,7 @@ def requete_avec_reessais(url, entetes=None, timeout=30, tentatives=3):
         except requests.RequestException as exc:
             derniere_erreur = exc
             if tentative + 1 < tentatives:
+                print(f"Collecte : nouvel essai {tentative + 2}/{tentatives} pour {urlsplit(url).hostname}.")
                 time.sleep(1.5 * (tentative + 1))
     raise derniere_erreur
 
@@ -1077,6 +1078,8 @@ def collecter_articles(sources):
             continue
 
         print(f"Flux {numero}/{len(sources)} : {nom_source} ({categorie})")
+        debut_flux = time.monotonic()
+        avant_flux = len(articles_hier)
         articles_source = []
         try:
             entetes = {"User-Agent": "MaVeilleIA/1.0 (veille personnelle)"}
@@ -1160,6 +1163,7 @@ def collecter_articles(sources):
                 else []
             )
             if articles_a_verifier:
+                print(f"{nom_source} : vérification des dates sur {len(articles_a_verifier)} pages.")
                 with ThreadPoolExecutor(max_workers=min(4, len(articles_a_verifier))) as pool:
                     dates_pages = pool.map(
                         lambda article: date_depuis_page(
@@ -1237,6 +1241,10 @@ def collecter_articles(sources):
         if source.get("affichage"):
             source_rss["type"] = source["affichage"].strip().lower()
         data_rss.setdefault(categorie, []).append(source_rss)
+        print(
+            f"{nom_source} : {len(articles_hier) - avant_flux} publication(s) du jour cible, "
+            f"{len(articles_source)} carte(s), {time.monotonic() - debut_flux:.0f} s."
+        )
 
     return data_rss, articles_hier
 
@@ -1347,6 +1355,7 @@ def collecter_lettres():
     entetes = {"User-Agent": "MaVeilleIA/1.0 (veille personnelle)"}
 
     for collection, identifiant in COLLECTIONS_LETTRES.items():
+        print(f"Cour de cassation : collecte de {collection}.")
         try:
             reponse = requests.get(
                 f"{base}/publications",
@@ -1452,6 +1461,7 @@ def collecter_decisions_judilibre_pour_date(date_cible, base, entetes):
         return soupe.select("article.decision-item-article")
 
     for page in range(10):
+        print(f"Judilibre : page {page + 1} pour le {date_cible}.")
         params = {
             "date_du": date_cible,
             "date_au": date_cible,
@@ -1469,6 +1479,7 @@ def collecter_decisions_judilibre_pour_date(date_cible, base, entetes):
         reponse.raise_for_status()
         articles = extraire_articles(reponse.text)
         if not articles:
+            print("Judilibre : lecture de la page avec Chromium.")
             from playwright.sync_api import sync_playwright
 
             with sync_playwright() as moteur:
@@ -2101,6 +2112,14 @@ def reserver_reessai_gemini(quota, tentative, nombre_tentatives):
     return True
 
 
+def attendre_reessai_gemini(attente):
+    while attente > 300:
+        time.sleep(300)
+        attente -= 300
+        print(f"Gemini : prochain essai dans {attente / 60:.0f} min.")
+    time.sleep(attente)
+
+
 def violations_quota_gemini(erreur):
     return [
         violation
@@ -2189,7 +2208,7 @@ def appeler_gemini(cible, articles, quota):
                     f"Timeout Gemini pour {cible} avec {modele}; nouvel essai "
                     f"dans {attente:g} s ({tentative + 2}/{nombre_tentatives})."
                 )
-                time.sleep(attente)
+                attendre_reessai_gemini(attente)
                 continue
             erreur_transitoire = (
                 reponse.status_code in (408, 429)
@@ -2214,7 +2233,7 @@ def appeler_gemini(cible, articles, quota):
                 f"avec {modele}; nouvel essai dans "
                 f"{attente:g} s ({tentative + 2}/{nombre_tentatives})."
             )
-            time.sleep(attente)
+            attendre_reessai_gemini(attente)
         if (
             peut_degrader
             and budget_requetes_gemini_disponible(quota)
@@ -2488,6 +2507,7 @@ def envoyer_sommaire_par_mail(texte_markdown):
     message["From"] = expediteur
     message["To"] = destinataire
 
+    print("Envoi du sommaire par mail.")
     with smtplib.SMTP("smtp.bookmyname.com", 587, timeout=30) as smtp:
         smtp.starttls()
         smtp.login(expediteur.strip(), mot_de_passe.strip())
@@ -2593,6 +2613,7 @@ def main():
             except (RuntimeError, ValueError) as exc:
                 print(f"Synthèse Gemini indisponible pour {cible}: {exc}")
         if contenu is None:
+            print(f"{cible} : préparation du compte-rendu avec les liens des sources.")
             contenu = compte_rendu_indisponible(cible, selection)
         elif cible == "cour-de-cassation":
             analyse_cassation = source_depuis_markdown(cible, contenu)
