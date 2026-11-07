@@ -1902,6 +1902,7 @@ PAGES_SITE = {
     "juridique-analyse": ("Ressources juridiques", f"{SITE_URL}juridique.html"),
     "jurisprudence": ("Juridictions", f"{SITE_URL}jurisprudence.html"),
 }
+RUBRIQUES_QUOTIDIENNES = {"news", "finance", "juridique-analyse", "jurisprudence"}
 
 
 def extraire_titres_markdown(contenu):
@@ -2347,6 +2348,19 @@ def charger_sortie_existante(cible):
     return contenu
 
 
+def edition_deja_complete():
+    sommaire = charger_sortie_existante("synthese")
+    if sommaire is None:
+        return False
+    lignes = set(sommaire.splitlines())
+    rubriques = {
+        cible for cible, (nom, _) in PAGES_SITE.items() if f"## {nom}" in lignes
+    }
+    return RUBRIQUES_QUOTIDIENNES <= rubriques and all(
+        charger_sortie_existante(cible) is not None for cible in rubriques
+    )
+
+
 def compte_rendu_indisponible(cible, articles):
     titres = {
         "news": f"Actualités générales — {HIER}",
@@ -2516,6 +2530,10 @@ def collecter_decisions_avec_cache(collecter, chemin):
 
 
 def main():
+    if edition_deja_complete():
+        print(f"Édition du {HIER} déjà complète : collecte et génération ignorées.")
+        return
+
     print(f"Collecte des flux pour le {HIER}...")
     data_rss, articles = collecter_articles(charger_sources())
     articles = fusionner_corpus_articles(articles)
@@ -2583,7 +2601,7 @@ def main():
         else:
             selection = articles_pour(cible, articles)
         if not selection:
-            if cible in ("news", "finance", "juridique-analyse", "jurisprudence"):
+            if cible in RUBRIQUES_QUOTIDIENNES:
                 contenu = compte_rendu_sans_donnees(cible)
                 ecrire_markdown(cible, contenu)
                 sorties_generees.add(cible)
@@ -2609,7 +2627,7 @@ def main():
         sorties_generees.add(cible)
         comptes_rendus_pages[cible] = contenu
 
-    sorties_attendues = {"news", "finance", "juridique-analyse", "jurisprudence"}
+    sorties_attendues = RUBRIQUES_QUOTIDIENNES.copy()
     if sources_cassation_hier:
         sorties_attendues.add("cour-de-cassation")
     if sources_conseil_etat_hier:
