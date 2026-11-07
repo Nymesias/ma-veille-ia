@@ -39,6 +39,7 @@ GEMINI_TOKEN_CHARS = int(os.getenv("GEMINI_TOKEN_CHARS", "4"))
 GEMINI_MAX_RETRIES = int(os.getenv("GEMINI_MAX_RETRIES", "2"))
 GEMINI_RETRY_BASE_SECONDS = float(os.getenv("GEMINI_RETRY_BASE_SECONDS", "20"))
 GEMINI_MIN_REQUEST_INTERVAL = float(os.getenv("GEMINI_MIN_REQUEST_INTERVAL", "0"))
+GEMINI_QUOTA_FALLBACK_MODEL = os.getenv("GEMINI_QUOTA_FALLBACK_MODEL", "").strip()
 GEMINI_MAX_REQUESTS_PER_RUN = int(os.getenv("GEMINI_MAX_REQUESTS_PER_RUN", "0"))
 GEMINI_MAX_RETRIES_PER_RUN = int(os.getenv("GEMINI_MAX_RETRIES_PER_RUN", "0"))
 GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES = int(
@@ -2100,6 +2101,17 @@ def reserver_reessai_gemini(quota, tentative, nombre_tentatives):
     return True
 
 
+def violations_quota_gemini(erreur):
+    return [
+        violation
+        for detail in erreur.get("details") or []
+        if isinstance(detail, dict)
+        and detail.get("@type") == "type.googleapis.com/google.rpc.QuotaFailure"
+        for violation in detail.get("violations") or []
+        if isinstance(violation, dict)
+    ]
+
+
 def appeler_gemini(cible, articles, quota):
     articles = limiter_articles_pour_gemini(cible, articles)
     if not articles:
@@ -2133,7 +2145,11 @@ def appeler_gemini(cible, articles, quota):
         },
     }
     nombre_tentatives = max(1, GEMINI_MAX_RETRIES)
-    modeles = tuple(dict.fromkeys((GEMINI_MODEL,) + GEMINI_FALLBACK_MODELS))
+    modele_actif = quota.get("modele_actif")
+    modeles = (
+        (modele_actif,) if modele_actif
+        else tuple(dict.fromkeys((GEMINI_MODEL,) + GEMINI_FALLBACK_MODELS))
+    )
     for index_modele, modele in enumerate(modeles):
         reponse = None
         derniere_exception = None
@@ -2213,12 +2229,32 @@ def appeler_gemini(cible, articles, quota):
             detail = erreur.get("message", "")
             statut_detaille = erreur.get("status", "")
         except (ValueError, AttributeError):
+            erreur = {}
             detail = ""
             statut_detaille = ""
         if reponse.status_code == 429:
+            violations = violations_quota_gemini(erreur)
+            for violation in violations:
+                identifiant = violation.get("quotaId") or violation.get("quotaMetric") or ""
+                print(f"Gemini : quota refusé pour {modele} ({nettoyer_texte(identifiant, 160)}).")
+            secours = GEMINI_QUOTA_FALLBACK_MODEL
+            if (
+                secours
+                and secours not in (modele, GEMINI_MODEL)
+                and not modele_actif
+                and budget_requetes_gemini_disponible(quota)
+                and violations
+                and all(
+                    (violation.get("quotaDimensions") or {}).get("model") == modele
+                    for violation in violations
+                )
+            ):
+                print(f"Quota propre à {modele} : utilisation de {secours} pour la suite.")
+                quota["modele_actif"] = secours
+                return appeler_gemini(cible, articles, quota)
             suffixe = f" ({statut_detaille}: {nettoyer_texte(detail, 300)})" if detail else ""
             raise ErreurGeminiQuota(
-                f"quota/rate limit Gemini HTTP 429 pour {modele} après les réessais{suffixe}"
+                f"quota/rate limit Gemini HTTP 429 pour {modele}{suffixe}"
             )
         if index_modele + 1 < len(modeles):
             prochain_modele = modeles[index_modele + 1]
