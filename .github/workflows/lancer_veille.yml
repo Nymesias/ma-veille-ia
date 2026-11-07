@@ -2,9 +2,8 @@ name: Ma Veille IA Quotidienne
 
 on:
   schedule:
-    # 02:23 UTC évite les heures pleines et les créneaux européens les plus chargés
-    # (04:23 à Paris en été, 03:23 en hiver).
-    - cron: '23 2 * * *'
+    # 01:23 UTC, soit 02:23 à Paris en hiver et 03:23 en été.
+    - cron: '23 1 * * *'
   workflow_dispatch:      # Permet de lancer le script manuellement
 
 permissions:
@@ -42,30 +41,14 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.8-flash' }}
+          GEMINI_MAX_RETRIES: '1'
+          GEMINI_FALLBACK_MODELS: ''
+          GEMINI_MIN_REQUEST_INTERVAL: '60'
+          TZ: Europe/Paris
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
-        run: |
-          # Trois tentatives au total. Les pauses longues laissent passer les
-          # pointes temporaires de charge Gemini (HTTP 503 / timeouts).
-          tentative=1
-          for attente in 0 300 900; do
-            if [ "$attente" -gt 0 ]; then
-              echo "Nouvelle tentative dans $((attente / 60)) minute(s)..."
-              sleep "$attente"
-            fi
-
-            echo "Tentative ${tentative}/3"
-            if python veille.py; then
-              exit 0
-            fi
-
-            if [ "$tentative" -eq 3 ]; then
-              echo "La veille a échoué après 3 tentatives."
-              exit 1
-            fi
-            tentative=$((tentative + 1))
-          done
+        run: python veille.py
 
       - name: Archiver les sorties disponibles
         if: always()

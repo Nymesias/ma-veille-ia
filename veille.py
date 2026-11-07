@@ -38,6 +38,7 @@ GEMINI_MAX_ARTICLES_PAR_SOURCE = int(os.getenv("GEMINI_MAX_ARTICLES_PAR_SOURCE",
 GEMINI_TOKEN_CHARS = int(os.getenv("GEMINI_TOKEN_CHARS", "4"))
 GEMINI_MAX_RETRIES = int(os.getenv("GEMINI_MAX_RETRIES", "2"))
 GEMINI_RETRY_BASE_SECONDS = float(os.getenv("GEMINI_RETRY_BASE_SECONDS", "20"))
+GEMINI_MIN_REQUEST_INTERVAL = float(os.getenv("GEMINI_MIN_REQUEST_INTERVAL", "0"))
 GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES = int(
     os.getenv("GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES", str(GEMINI_MAX_ARTICLES))
 )
@@ -1915,6 +1916,10 @@ def construire_sommaire(comptes_rendus):
         if contenu is None:
             continue
         lignes.extend(("", f"## {nom_page}"))
+        if "generation-status: unavailable" in contenu:
+            lignes.append("Synthèse IA indisponible.")
+            lignes.extend(ligne for ligne in contenu.splitlines() if ligne.startswith("- **"))
+            continue
         titres = extraire_titres_markdown(contenu)
         if titres:
             lignes.extend(f"- [{titre}]({url_page})" for titre in titres)
@@ -2113,6 +2118,10 @@ def appeler_gemini(cible, articles, quota):
         reponse = None
         derniere_exception = None
         for tentative in range(nombre_tentatives):
+            attente_minimale = quota.get("prochaine_requete", 0) - time.monotonic()
+            if attente_minimale > 0:
+                time.sleep(attente_minimale)
+            quota["prochaine_requete"] = time.monotonic() + GEMINI_MIN_REQUEST_INTERVAL
             try:
                 reponse = requests.post(
                     f"{GEMINI_API_URL}/{quote(modele, safe='')}:generateContent",
@@ -2252,12 +2261,12 @@ def charger_sortie_existante(cible):
             contenu = fichier.read().strip()
     except OSError:
         return None
-    if not contenu or "generation-status: unavailable" in contenu:
+    if not contenu or "generation-status:" in contenu:
         return None
     return contenu
 
 
-def compte_rendu_indisponible(cible, erreur):
+def compte_rendu_indisponible(cible, articles):
     titres = {
         "news": f"Actualités générales — {HIER}",
         "finance": f"Finance et économie — {HIER}",
@@ -2266,14 +2275,27 @@ def compte_rendu_indisponible(cible, erreur):
         "juridique-analyse": f"Veille juridique — {HIER}",
         "jurisprudence": f"Juridictions — {HIER}",
     }
-    detail = nettoyer_texte(erreur, 500)
-    return (
+    lignes = [
         "<!-- generation-status: unavailable -->\n"
         f"# {titres[cible]}\n\n"
-        "La génération IA est indisponible pour cette rubrique aujourd'hui. "
-        "Les autres rubriques restent disponibles.\n\n"
-        f"Détail technique : `{detail}`"
-    )
+        "Synthèse IA indisponible. Voici les publications collectées.\n"
+    ]
+    liens_vus = set()
+    for article in diversifier_articles(articles):
+        lien = article.get("lien", "")
+        if not lien.startswith(("https://", "http://")):
+            continue
+        cle = cle_dedoublonnage_lien(lien)
+        if cle in liens_vus:
+            continue
+        liens_vus.add(cle)
+        titre = nettoyer_texte(article.get("titre", ""), 180) or "Publication"
+        titre = re.sub(r"([\\`*_\[\]<>])", r"\\\1", titre)
+        url = quote(lien, safe=":/?#[]@!$&'*+,;=%")
+        lignes.append(f"- **{titre}** — [Source]({url})")
+        if len(liens_vus) == 8:
+            break
+    return "\n".join(lignes)
 
 
 def compte_rendu_sans_donnees(cible):
@@ -2286,9 +2308,9 @@ def compte_rendu_sans_donnees(cible):
         "synthese": f"Synthèse de veille du {HIER}",
     }
     return (
+        "<!-- generation-status: no-data -->\n"
         f"# {titres[cible]}\n\n"
-        f"Aucune actualité datée du {HIER} n'a été publiée dans les flux "
-        "de cette rubrique."
+        f"Aucune publication datée du {HIER} n'a été récupérée pour cette rubrique."
     )
 
 
@@ -2399,6 +2421,18 @@ def envoyer_sommaire_par_mail(texte_markdown):
     print("Mail envoyé.")
 
 
+def collecter_decisions_avec_cache(collecter, chemin):
+    try:
+        return collecter()
+    except RuntimeError as exc:
+        print(f"::warning::{exc}")
+        try:
+            with open(chemin, encoding="utf-8") as fichier:
+                return json.load(fichier).get("decisions", [])
+        except (OSError, ValueError, AttributeError):
+            return []
+
+
 def main():
     print(f"Collecte des flux pour le {HIER}...")
     data_rss, articles = collecter_articles(charger_sources())
@@ -2406,8 +2440,12 @@ def main():
     print(f"Corpus daté: {len(articles)} article(s) du {HIER} après déduplication.")
 
     lettres = collecter_lettres()
-    decisions = collecter_decisions_judilibre()
-    decisions_conseil_etat = collecter_decisions_conseil_etat()
+    decisions = collecter_decisions_avec_cache(
+        collecter_decisions_judilibre, FICHIER_DECISIONS
+    )
+    decisions_conseil_etat = collecter_decisions_avec_cache(
+        collecter_decisions_conseil_etat, FICHIER_DECISIONS_CONSEIL_ETAT
+    )
     sources_cassation = sources_analyse_cassation(lettres, decisions)
     sources_cassation_hier = [
         source for source in sources_cassation if source.get("date") == HIER
@@ -2420,9 +2458,6 @@ def main():
     # Les flux et les archives doivent rester à jour, même sans article ou sans clé API.
     synchroniser_listes(data_rss)
 
-    if not GEMINI_KEY:
-        raise RuntimeError("GEMINI_API_KEY absente: génération IA impossible.")
-
     quota_gemini = charger_quota_gemini()
     print(
         "Budget Gemini local: "
@@ -2433,8 +2468,7 @@ def main():
     analyse_cassation = None
     comptes_rendus_pages = {}
     sorties_generees = set()
-    generations_a_reessayer = []
-    erreurs_generations = {}
+    gemini_disponible = bool(GEMINI_KEY)
     for cible in (
         "news", "finance", "cour-de-cassation", "conseil-etat",
         "juridique-analyse", "jurisprudence",
@@ -2472,48 +2506,22 @@ def main():
             else:
                 print(f"Aucune donnée pour {cible}: fichier non généré.")
             continue
-        try:
-            contenu = appeler_gemini(cible, selection, quota_gemini)
-            ecrire_markdown(cible, contenu)
-            sorties_generees.add(cible)
-            if cible == "cour-de-cassation":
-                analyse_cassation = source_depuis_markdown(cible, contenu)
-            comptes_rendus_pages[cible] = contenu
-        except ErreurGeminiQuota as exc:
-            print(f"Quota Gemini atteint pour {cible}; pas de nouvelle tentative: {exc}")
-            erreurs_generations[cible] = str(exc)
-        except ErreurGeminiTemporaire as exc:
-            print(f"Erreur temporaire de génération {cible}: {exc}")
-            generations_a_reessayer.append((cible, selection))
-            erreurs_generations[cible] = str(exc)
-        except Exception as exc:
-            print(f"Erreur de génération {cible}: {exc}")
-            erreurs_generations[cible] = str(exc)
-
-    # Une surcharge Gemini peut ne toucher qu'un appel pendant quelques dizaines
-    # de secondes. Une seconde passe, après les autres rubriques, évite de faire
-    # échouer toute la veille pour ce bref incident sans ignorer l'absence de sortie.
-    for cible, selection in generations_a_reessayer:
-        print(f"Nouvelle tentative différée de génération {cible}.")
-        try:
-            contenu = appeler_gemini(cible, selection, quota_gemini)
-            ecrire_markdown(cible, contenu)
-            sorties_generees.add(cible)
-            if cible == "cour-de-cassation":
-                analyse_cassation = source_depuis_markdown(cible, contenu)
-            comptes_rendus_pages[cible] = contenu
-        except Exception as exc:
-            print(f"Échec de la tentative différée {cible}: {exc}")
-            erreurs_generations[cible] = str(exc)
-
-    # Écrit un état daté explicite pour les rubriques indisponibles, sans
-    # invalider les autres sorties ni empêcher leur publication.
-    for cible, erreur in erreurs_generations.items():
-        if cible not in sorties_generees:
-            contenu = compte_rendu_indisponible(cible, erreur)
-            ecrire_markdown(cible, contenu)
-            sorties_generees.add(cible)
-            comptes_rendus_pages[cible] = contenu
+        contenu = None
+        if gemini_disponible:
+            try:
+                contenu = appeler_gemini(cible, selection, quota_gemini)
+            except (ErreurGeminiTemporaire, requests.exceptions.RequestException) as exc:
+                gemini_disponible = False
+                print(f"Gemini suspendu pour le reste de la veille ({cible}): {exc}")
+            except (RuntimeError, ValueError) as exc:
+                print(f"Synthèse Gemini indisponible pour {cible}: {exc}")
+        if contenu is None:
+            contenu = compte_rendu_indisponible(cible, selection)
+        elif cible == "cour-de-cassation":
+            analyse_cassation = source_depuis_markdown(cible, contenu)
+        ecrire_markdown(cible, contenu)
+        sorties_generees.add(cible)
+        comptes_rendus_pages[cible] = contenu
 
     sorties_attendues = {"news", "finance", "juridique-analyse", "jurisprudence"}
     if sources_cassation_hier:
