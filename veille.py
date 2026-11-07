@@ -2299,12 +2299,24 @@ def appeler_gemini(cible, articles, quota, modele_force=None):
     )
     consommer_quota_gemini(quota, tokens_reels or tokens_appel_estimes)
     candidats = payload.get("candidates") or []
-    parties = ((candidats[0].get("content") or {}).get("parts") or []) if candidats else []
-    contenu = "\n".join(partie.get("text", "") for partie in parties).strip()
+    candidat = candidats[0] if candidats else {}
+    motif_fin = candidat.get("finishReason")
+    if motif_fin and motif_fin != "STOP":
+        raise ValueError(
+            f"Réponse Gemini incomplète ({motif_fin}, "
+            f"{usage.get('candidatesTokenCount', 0)} tokens de sortie, "
+            f"{usage.get('thoughtsTokenCount', 0)} tokens de raisonnement)"
+        )
+    parties = (candidat.get("content") or {}).get("parts") or []
+    contenu = "\n".join(
+        partie.get("text", "") for partie in parties if not partie.get("thought")
+    ).strip()
     if not contenu:
         motif = (payload.get("promptFeedback") or {}).get("blockReason", "")
         suffixe = f" (motif: {motif})" if motif else ""
         raise ValueError(f"Gemini a renvoyé une réponse vide{suffixe}")
+    if derniere_puce_incomplete(nettoyer_sortie_ia(contenu)):
+        raise ValueError("Gemini a renvoyé une dernière puce sans lien ni fin de phrase.")
     return contenu
 
 
@@ -2336,6 +2348,18 @@ def chemin_markdown(cible):
     return os.path.join(DOSSIER_MD, SOUS_DOSSIERS_MD[cible], nom)
 
 
+def derniere_puce_incomplete(contenu):
+    lignes = contenu.strip().splitlines()
+    if not lignes:
+        return False
+    derniere = lignes[-1].strip()
+    return (
+        bool(re.match(r"^[-*+]\s+", derniere))
+        and not re.search(r"\]\([^)]+\)\s*$", derniere)
+        and not derniere.endswith((".", "!", "?", "…", "»"))
+    )
+
+
 def charger_sortie_existante(cible):
     """Reprend une génération réussie lors d'une tentative précédente le même jour."""
     try:
@@ -2344,6 +2368,9 @@ def charger_sortie_existante(cible):
     except OSError:
         return None
     if not contenu or "generation-status:" in contenu:
+        return None
+    if cible != "synthese" and derniere_puce_incomplete(contenu):
+        print(f"{cible} : compte-rendu existant incomplet, à régénérer.")
         return None
     return contenu
 
