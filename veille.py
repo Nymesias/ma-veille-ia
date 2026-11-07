@@ -39,7 +39,7 @@ GEMINI_TOKEN_CHARS = int(os.getenv("GEMINI_TOKEN_CHARS", "4"))
 GEMINI_MAX_RETRIES = int(os.getenv("GEMINI_MAX_RETRIES", "2"))
 GEMINI_RETRY_BASE_SECONDS = float(os.getenv("GEMINI_RETRY_BASE_SECONDS", "20"))
 GEMINI_MIN_REQUEST_INTERVAL = float(os.getenv("GEMINI_MIN_REQUEST_INTERVAL", "0"))
-GEMINI_QUOTA_FALLBACK_MODEL = os.getenv("GEMINI_QUOTA_FALLBACK_MODEL", "").strip()
+GEMINI_DEGRADED_MODEL = os.getenv("GEMINI_DEGRADED_MODEL", "").strip()
 GEMINI_MAX_REQUESTS_PER_RUN = int(os.getenv("GEMINI_MAX_REQUESTS_PER_RUN", "0"))
 GEMINI_MAX_RETRIES_PER_RUN = int(os.getenv("GEMINI_MAX_RETRIES_PER_RUN", "0"))
 GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES = int(
@@ -2146,11 +2146,13 @@ def appeler_gemini(cible, articles, quota):
     }
     nombre_tentatives = max(1, GEMINI_MAX_RETRIES)
     modele_actif = quota.get("modele_actif")
+    secours = GEMINI_DEGRADED_MODEL
     modeles = (
         (modele_actif,) if modele_actif
         else tuple(dict.fromkeys((GEMINI_MODEL,) + GEMINI_FALLBACK_MODELS))
     )
     for index_modele, modele in enumerate(modeles):
+        peut_degrader = bool(secours and secours != modele and not modele_actif)
         reponse = None
         derniere_exception = None
         for tentative in range(nombre_tentatives):
@@ -2177,7 +2179,7 @@ def appeler_gemini(cible, articles, quota):
             except requests.exceptions.Timeout as exc:
                 derniere_exception = exc
                 reponse = None
-                if not reserver_reessai_gemini(quota, tentative, nombre_tentatives):
+                if peut_degrader or not reserver_reessai_gemini(quota, tentative, nombre_tentatives):
                     break
                 attente = min(
                     GEMINI_RETRY_BASE_SECONDS * (2 ** tentative),
@@ -2199,7 +2201,7 @@ def appeler_gemini(cible, articles, quota):
             if not erreur_transitoire:
                 reponse.raise_for_status()
                 break
-            if not reserver_reessai_gemini(quota, tentative, nombre_tentatives):
+            if peut_degrader or not reserver_reessai_gemini(quota, tentative, nombre_tentatives):
                 break
             retry_after = reponse.headers.get("Retry-After", "")
             try:
@@ -2213,6 +2215,16 @@ def appeler_gemini(cible, articles, quota):
                 f"{attente:g} s ({tentative + 2}/{nombre_tentatives})."
             )
             time.sleep(attente)
+        if (
+            peut_degrader
+            and budget_requetes_gemini_disponible(quota)
+            and (reponse is None or (
+                reponse.status_code == 408 or 500 <= reponse.status_code < 600
+            ))
+        ):
+            print(f"Incident temporaire sur {modele} : utilisation de {secours} pour la suite.")
+            quota["modele_actif"] = secours
+            return appeler_gemini(cible, articles, quota)
         if reponse is None:
             if derniere_exception is not None and index_modele + 1 < len(modeles):
                 print(f"Timeout persistant sur {modele}; essai du modèle de secours.")
@@ -2237,11 +2249,8 @@ def appeler_gemini(cible, articles, quota):
             for violation in violations:
                 identifiant = violation.get("quotaId") or violation.get("quotaMetric") or ""
                 print(f"Gemini : quota refusé pour {modele} ({nettoyer_texte(identifiant, 160)}).")
-            secours = GEMINI_QUOTA_FALLBACK_MODEL
             if (
-                secours
-                and secours not in (modele, GEMINI_MODEL)
-                and not modele_actif
+                peut_degrader
                 and budget_requetes_gemini_disponible(quota)
                 and violations
                 and all(

@@ -40,8 +40,8 @@ jobs:
       - name: Lancer la veille
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.6-flash' }}
-          GEMINI_QUOTA_FALLBACK_MODEL: 'gemini-3.6-flash'
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.8-flash' }}
+          GEMINI_DEGRADED_MODEL: 'gemini-3.6-flash'
           GEMINI_MAX_RETRIES: '2'
           GEMINI_FALLBACK_MODELS: ''
           GEMINI_MIN_REQUEST_INTERVAL: '60'
