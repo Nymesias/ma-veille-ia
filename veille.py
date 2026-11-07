@@ -55,6 +55,7 @@ DOSSIER_MD = "markdown"
 FICHIER_SOURCES = "sources.csv"
 FICHIER_NEWSLETTERS = "newsletters.csv"
 FICHIER_LISTE_RSS = "liste_rss.json"
+FICHIER_CORPUS_ARTICLES = "corpus_articles.json"
 FICHIER_LISTE_MD = "liste_md.json"
 FICHIER_LETTRES = "lettres_cour_cassation.json"
 FICHIER_DECISIONS = "decisions_judilibre.json"
@@ -1016,6 +1017,48 @@ def cle_dedoublonnage_lien(lien):
     return lien.split("#", 1)[0].rstrip("/").lower()
 
 
+def fusionner_corpus_articles(articles_frais, jours_conservation=14):
+    """Archive un corpus daté et dédupliqué pour reprendre une collecte partielle."""
+    anciens = []
+    try:
+        with open(FICHIER_CORPUS_ARTICLES, encoding="utf-8") as fichier:
+            valeur = json.load(fichier)
+            if isinstance(valeur, list):
+                anciens = valeur
+    except (OSError, json.JSONDecodeError):
+        pass
+
+    seuil = (MAINTENANT.date() - timedelta(days=jours_conservation)).isoformat()
+    par_cle = {}
+    for article in anciens + articles_frais:
+        date = str(article.get("date") or "")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date) or date < seuil:
+            continue
+        lien = cle_dedoublonnage_lien(article.get("lien", ""))
+        cle = (article.get("categorie", ""), lien or (
+            str(article.get("source", "")).casefold(),
+            str(article.get("titre", "")).casefold(),
+            date,
+        ))
+        existant = par_cle.get(cle)
+        if existant is None:
+            par_cle[cle] = dict(article)
+            continue
+        # Conserver les métadonnées les plus riches si le flux republie la même URL.
+        for champ in ("resume", "categories"):
+            if not existant.get(champ) and article.get(champ):
+                existant[champ] = article[champ]
+
+    corpus = sorted(
+        par_cle.values(),
+        key=lambda article: (article.get("date", ""), article.get("lien", "")),
+        reverse=True,
+    )
+    with open(FICHIER_CORPUS_ARTICLES, "w", encoding="utf-8") as fichier:
+        json.dump(corpus, fichier, indent=2, ensure_ascii=False)
+    return [article for article in corpus if article.get("date") == HIER]
+
+
 def collecter_articles(sources):
     data_rss = {}
     articles_hier = []
@@ -1715,6 +1758,19 @@ def selection_jurisprudence(articles, sources_cassation, sources_conseil_etat):
         sources.append({**article, "categorie": categorie})
 
     sources = [source for source in sources if source.get("date") == HIER]
+    uniques, liens_vus = [], set()
+    for source in sources:
+        lien = cle_dedoublonnage_lien(source.get("lien", ""))
+        cle = lien or (
+            source.get("categorie", ""),
+            source.get("source", ""),
+            source.get("titre", ""),
+        )
+        if cle in liens_vus:
+            continue
+        liens_vus.add(cle)
+        uniques.append(source)
+    sources = uniques
     # Placer d'abord une donnée de chaque onglet garantit qu'elle survive au plafond
     # d'entrée du modèle; les autres données complètent ensuite le panorama.
     selection, retenues = [], set()
@@ -1771,7 +1827,8 @@ def selection_analyse_juridique(articles, sources_cassation=None, analyse_cassat
     def ajouter(article):
         if len(selection) >= GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES:
             return
-        cle = article.get("lien") or (
+        lien = cle_dedoublonnage_lien(article.get("lien", ""))
+        cle = lien or (
             article.get("source", ""),
             article.get("titre", ""),
         )
@@ -2345,6 +2402,8 @@ def envoyer_sommaire_par_mail(texte_markdown):
 def main():
     print(f"Collecte des flux pour le {HIER}...")
     data_rss, articles = collecter_articles(charger_sources())
+    articles = fusionner_corpus_articles(articles)
+    print(f"Corpus daté: {len(articles)} article(s) du {HIER} après déduplication.")
 
     lettres = collecter_lettres()
     decisions = collecter_decisions_judilibre()
