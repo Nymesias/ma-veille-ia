@@ -1067,7 +1067,7 @@ def collecter_articles(sources):
     articles_hier = []
     cartes_precedentes = charger_cartes_precedentes()
 
-    for source in sources:
+    for numero, source in enumerate(sources, start=1):
         categorie = source.get("categorie", "general").strip().lower()
         nom_source = source.get("source", "Source inconnue").strip()
         url = source.get("url", "").strip()
@@ -1075,6 +1075,7 @@ def collecter_articles(sources):
         if not url:
             continue
 
+        print(f"Flux {numero}/{len(sources)} : {nom_source} ({categorie})")
         articles_source = []
         try:
             entetes = {"User-Agent": "MaVeilleIA/1.0 (veille personnelle)"}
@@ -1571,6 +1572,7 @@ def collecter_decisions_judilibre():
     try:
         for recul in range(8):
             date_cible = (MAINTENANT - timedelta(days=1 + recul)).strftime("%Y-%m-%d")
+            print(f"Judilibre : recherche des décisions du {date_cible}")
             decisions = collecter_decisions_judilibre_pour_date(date_cible, base, entetes)
             date_retenue = date_cible
             if decisions:
@@ -2140,9 +2142,12 @@ def appeler_gemini(cible, articles, quota):
                 raise ErreurGeminiQuota("Plafond de requêtes Gemini atteint pour cette exécution.")
             attente_minimale = quota.get("prochaine_requete", 0) - time.monotonic()
             if attente_minimale > 0:
+                print(f"Gemini : pause de {attente_minimale:.0f} s avant {cible}.")
                 time.sleep(attente_minimale)
             quota["prochaine_requete"] = time.monotonic() + GEMINI_MIN_REQUEST_INTERVAL
             quota["requetes"] = quota.get("requetes", 0) + 1
+            plafond = f"/{GEMINI_MAX_REQUESTS_PER_RUN}" if GEMINI_MAX_REQUESTS_PER_RUN else ""
+            print(f"Gemini : requête {quota['requetes']}{plafond} pour {cible} ({modele}).")
             try:
                 reponse = requests.post(
                     f"{GEMINI_API_URL}/{quote(modele, safe='')}:generateContent",
@@ -2463,10 +2468,13 @@ def main():
     articles = fusionner_corpus_articles(articles)
     print(f"Corpus daté: {len(articles)} article(s) du {HIER} après déduplication.")
 
+    print("Collecte des Lettres de la Cour de cassation.")
     lettres = collecter_lettres()
+    print("Collecte des décisions Judilibre.")
     decisions = collecter_decisions_avec_cache(
         collecter_decisions_judilibre, FICHIER_DECISIONS
     )
+    print("Collecte des décisions du Conseil d'État.")
     decisions_conseil_etat = collecter_decisions_avec_cache(
         collecter_decisions_conseil_etat, FICHIER_DECISIONS_CONSEIL_ETAT
     )
@@ -2559,6 +2567,7 @@ def main():
             + ", ".join(sorted(sorties_manquantes))
         )
 
+    print("Préparation du sommaire et mise à jour des archives.")
     sommaire = construire_sommaire(comptes_rendus_pages)
     ecrire_markdown("synthese", sommaire)
     synchroniser_listes(data_rss)
