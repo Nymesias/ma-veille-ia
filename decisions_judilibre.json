@@ -1,20 +1,97 @@
 {
-  "mis_a_jour": "2026-11-04T09:25:50",
-  "date_cible": "2026-11-03",
-  "date_recherche_initiale": "2026-11-03",
-  "total": 1,
+  "mis_a_jour": "2026-11-07T10:03:36",
+  "date_cible": "2026-11-05",
+  "date_recherche_initiale": "2026-11-06",
+  "total": 8,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
     {
-      "id": "6ae99f507a1020213705b96f",
-      "date": "2026-11-03",
-      "chambre": "Chambre criminelle",
+      "id": "6aed6b346c2e1778124430d2",
+      "date": "2026-11-05",
+      "chambre": "Deuxième chambre civile",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "26-80.297",
-      "solution": "Cassation",
+      "numero": "25-14.003",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Ayant relevé, d'une part, que la victime, alcoolisée et sous l'emprise de stupéfiants, avait traversé une voie rapide, protégée par un grillage en interdisant l'accès aux piétons, après avoir enjambé par deux fois les glissières de sécurité, s'exposant ainsi à un danger dont elle devait nécessairement avoir conscience, d'autre part, que l'enjambement de la glissière au moment où un véhicule automobile arrivait rendait le choc inévitable, la cour d'appel a pu en déduire qu'était caractérisée la faute inexcusable de la victime, cause exclusive de son dommage, au sens de l'article 3 de la loi n° 85-677 du 5 juillet 1985",
+      "url": "https://www.courdecassation.fr/decision/6aed6b346c2e1778124430d2"
+    },
+    {
+      "id": "6aed6b3c6c2e177812443109",
+      "date": "2026-11-05",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation de section",
+      "numero": "24-20.158",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "En cas de défaillance d'une entreprise d'assurance, seul le liquidateur de cette entreprise d'assurance, française ou dont le siège social est situé dans un autre Etat membre de l'Union européenne, peut saisir le Fonds de garantie des assurances obligatoire de dommages des réclamations en indemnisation formées par les personnes bénéficiaires des prestations des contrats d'assurance. Doit, dès lors, être rejeté le pourvoi formé contre l'arrêt qui, constatant que de tels bénéficiaires avaient saisi directement ce fonds, déclare irrecevables leurs demandes en indemnisation de leurs préjudices résultant de la faillite d'un constructeur et de son assureur",
+      "url": "https://www.courdecassation.fr/decision/6aed6b3c6c2e177812443109"
+    },
+    {
+      "id": "6aed6b376c2e1778124430e0",
+      "date": "2026-11-05",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-12.778",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Il résulte des articles 706-3 et 706-14 du code de procédure pénale que la réparation du dommage causé par une escroquerie peut être refusée ou son montant réduit en raison de la faute de la victime en relation de causalité directe et certaine avec le dommage. Ayant relevé que l'attention de la victime d'une escroquerie à la carte bancaire aurait dû être attirée par plusieurs anomalies lors de la transaction, la cour d'appel a pu en déduire qu'elle avait commis une faute",
+      "url": "https://www.courdecassation.fr/decision/6aed6b376c2e1778124430e0"
+    },
+    {
+      "id": "6aed6b2b6c2e177812443080",
+      "date": "2026-11-05",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation de section",
+      "numero": "26-12.968",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6aed6b2b6c2e177812443080"
+    },
+    {
+      "id": "6aeccf6a6c2e1778123ee445",
+      "date": "2026-11-05",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "24-12.634",
+      "solution": "Rejet",
       "publication": "Publié au Bulletin",
-      "sommaire": "Les dispositions de l'article R. 116-2 du code de la voirie routière, aux termes desquelles constitue une contravention de la cinquième classe le fait, en l'absence d'autorisation, d'établir ou laisser croître des arbres ou haies à moins de deux mètres de la limite du domaine public routier, mettent à la charge du propriétaire d'un terrain jouxtant ledit domaine une obligation particulière de prudence ou de sécurité objective, immédiatement perceptible et clairement applicable, sans faculté d'appréciation personnelle du sujet",
-      "url": "https://www.courdecassation.fr/decision/6ae99f507a1020213705b96f"
+      "sommaire": "Il résulte de l'article 583 du code de procédure civile qu'est recevable à former tierce opposition toute personne qui y a intérêt, à la condition qu'elle n'ait été ni partie ni représentée au jugement qu'elle attaque et que les créanciers et autres ayants cause d'une partie peuvent toutefois former tierce opposition au jugement rendu en fraude de leurs droits ou s'ils invoquent des moyens qui leur sont propres. Justifie sa décision, une cour d'appel qui, ayant relevé que l'associé, également gérant au sein d'une société, qu'il a régulièrement représentée pendant toute la durée de l'instance l'ayant opposée à un ancien associé, avait ainsi toute qualité pour soulever dans cette procédure tou",
+      "url": "https://www.courdecassation.fr/decision/6aeccf6a6c2e1778123ee445"
+    },
+    {
+      "id": "6aed6b276c2e177812443067",
+      "date": "2026-11-05",
+      "chambre": "Troisième chambre civile",
+      "formation": "Formation de section",
+      "numero": "25-15.470",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin",
+      "sommaire": "La cour d'appel qui retient qu'un jugement a déterminé les droits de propriété des parties sur des parcelles et que l'action engagée, tendant à faire publier un acte complémentaire afin de rendre la publication conforme au dispositif du jugement, ne vise qu'à l'exécution de cette décision, en déduit exactement qu'elle est soumise au délai de prescription décennale de l'article L. 111-4 du code des procédures civiles d'exécution",
+      "url": "https://www.courdecassation.fr/decision/6aed6b276c2e177812443067"
+    },
+    {
+      "id": "6aed6b316c2e1778124430b7",
+      "date": "2026-11-05",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-14.992",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Il résulte de l'article 16 du code de procédure civile que le juge ne peut modifier le point de départ de l'astreinte sans avoir au préalable invité les parties, au besoin en sollicitant une note en délibéré, à présenter leurs observations sur ce moyen relevé d'office",
+      "url": "https://www.courdecassation.fr/decision/6aed6b316c2e1778124430b7"
+    },
+    {
+      "id": "6aed6b2e6c2e177812443091",
+      "date": "2026-11-05",
+      "chambre": "Deuxième chambre civile",
+      "formation": "Formation de section",
+      "numero": "26-12.833",
+      "solution": "Irrecevabilité",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6aed6b2e6c2e177812443091"
     }
   ]
 }
