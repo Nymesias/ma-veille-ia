@@ -16,7 +16,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
       # --- 1. RÉCUPÉRATION DU DÉPÔT ---
       - name: Checkout du dépôt
@@ -41,9 +41,12 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.8-flash' }}
-          GEMINI_MAX_RETRIES: '1'
+          GEMINI_MAX_RETRIES: '2'
           GEMINI_FALLBACK_MODELS: ''
           GEMINI_MIN_REQUEST_INTERVAL: '60'
+          GEMINI_MAX_REQUESTS_PER_RUN: '6'
+          GEMINI_MAX_RETRIES_PER_RUN: '1'
+          GEMINI_RETRY_BASE_SECONDS: '3600'
           TZ: Europe/Paris
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}

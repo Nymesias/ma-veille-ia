@@ -39,6 +39,8 @@ GEMINI_TOKEN_CHARS = int(os.getenv("GEMINI_TOKEN_CHARS", "4"))
 GEMINI_MAX_RETRIES = int(os.getenv("GEMINI_MAX_RETRIES", "2"))
 GEMINI_RETRY_BASE_SECONDS = float(os.getenv("GEMINI_RETRY_BASE_SECONDS", "20"))
 GEMINI_MIN_REQUEST_INTERVAL = float(os.getenv("GEMINI_MIN_REQUEST_INTERVAL", "0"))
+GEMINI_MAX_REQUESTS_PER_RUN = int(os.getenv("GEMINI_MAX_REQUESTS_PER_RUN", "0"))
+GEMINI_MAX_RETRIES_PER_RUN = int(os.getenv("GEMINI_MAX_RETRIES_PER_RUN", "0"))
 GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES = int(
     os.getenv("GEMINI_ANALYSE_JURIDIQUE_MAX_ARTICLES", str(GEMINI_MAX_ARTICLES))
 )
@@ -2080,6 +2082,22 @@ def limiter_articles_pour_gemini(cible, articles):
     return selection
 
 
+def budget_requetes_gemini_disponible(quota):
+    return not GEMINI_MAX_REQUESTS_PER_RUN or (
+        quota.get("requetes", 0) < GEMINI_MAX_REQUESTS_PER_RUN
+    )
+
+
+def reserver_reessai_gemini(quota, tentative, nombre_tentatives):
+    if tentative + 1 >= nombre_tentatives or not budget_requetes_gemini_disponible(quota):
+        return False
+    reessais = quota.get("reessais", 0)
+    if GEMINI_MAX_RETRIES_PER_RUN and reessais >= GEMINI_MAX_RETRIES_PER_RUN:
+        return False
+    quota["reessais"] = reessais + 1
+    return True
+
+
 def appeler_gemini(cible, articles, quota):
     articles = limiter_articles_pour_gemini(cible, articles)
     if not articles:
@@ -2118,10 +2136,13 @@ def appeler_gemini(cible, articles, quota):
         reponse = None
         derniere_exception = None
         for tentative in range(nombre_tentatives):
+            if not budget_requetes_gemini_disponible(quota):
+                raise ErreurGeminiQuota("Plafond de requêtes Gemini atteint pour cette exécution.")
             attente_minimale = quota.get("prochaine_requete", 0) - time.monotonic()
             if attente_minimale > 0:
                 time.sleep(attente_minimale)
             quota["prochaine_requete"] = time.monotonic() + GEMINI_MIN_REQUEST_INTERVAL
+            quota["requetes"] = quota.get("requetes", 0) + 1
             try:
                 reponse = requests.post(
                     f"{GEMINI_API_URL}/{quote(modele, safe='')}:generateContent",
@@ -2135,9 +2156,12 @@ def appeler_gemini(cible, articles, quota):
             except requests.exceptions.Timeout as exc:
                 derniere_exception = exc
                 reponse = None
-                if tentative + 1 >= nombre_tentatives:
+                if not reserver_reessai_gemini(quota, tentative, nombre_tentatives):
                     break
-                attente = min(GEMINI_RETRY_BASE_SECONDS * (2 ** tentative), 300)
+                attente = min(
+                    GEMINI_RETRY_BASE_SECONDS * (2 ** tentative),
+                    max(300, GEMINI_RETRY_BASE_SECONDS),
+                )
                 print(
                     f"Timeout Gemini pour {cible} avec {modele}; nouvel essai "
                     f"dans {attente:g} s ({tentative + 2}/{nombre_tentatives})."
@@ -2154,14 +2178,14 @@ def appeler_gemini(cible, articles, quota):
             if not erreur_transitoire:
                 reponse.raise_for_status()
                 break
-            if tentative + 1 >= nombre_tentatives:
+            if not reserver_reessai_gemini(quota, tentative, nombre_tentatives):
                 break
             retry_after = reponse.headers.get("Retry-After", "")
             try:
                 attente = max(float(retry_after), GEMINI_RETRY_BASE_SECONDS)
             except (TypeError, ValueError):
                 attente = GEMINI_RETRY_BASE_SECONDS * (2 ** tentative)
-            attente = min(attente, 300)
+            attente = min(attente, max(300, GEMINI_RETRY_BASE_SECONDS))
             print(
                 f"Erreur Gemini temporaire HTTP {reponse.status_code} pour {cible} "
                 f"avec {modele}; nouvel essai dans "
