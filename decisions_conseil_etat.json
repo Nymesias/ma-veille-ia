@@ -1,6 +1,6 @@
 {
-  "mis_a_jour": "2026-11-11T03:41:20",
-  "date_cible": "2026-11-09",
+  "mis_a_jour": "2026-11-12T04:44:23",
+  "date_cible": "2026-11-10",
   "total": 2,
   "source": "https://opendata.justice-administrative.fr/recherche",
   "juridiction": "toutes",
@@ -15,34 +15,34 @@
   },
   "decisions": [
     {
-      "id": "DCE_506339_20261109.xml",
-      "date": "2026-11-09",
-      "numero": "506339",
+      "id": "DCE_504582_20261110.xml",
+      "date": "2026-11-10",
+      "numero": "504582",
       "juridiction": "Section du Contentieux",
-      "formation": "1ère et 4ème chambres réunies",
+      "formation": "9ème et 10ème chambres réunies",
       "type": "Décision",
-      "ecli": "ECLI:FR:CECHR:2026:506339.20261109",
+      "ecli": "ECLI:FR:CECHR:2026:504582.20261110",
       "publication": "Mentionné aux tables du recueil Lebon",
       "code_publication": "B",
       "code_juridiction": "CE",
-      "mis_en_ligne": "2026-11-10",
+      "mis_en_ligne": "2026-11-11",
       "resume": "",
-      "url": "https://opendata.justice-administrative.fr/recherche/CE/506339"
+      "url": "https://opendata.justice-administrative.fr/recherche/CE/504582"
     },
     {
-      "id": "DCE_504535_20261109.xml",
-      "date": "2026-11-09",
-      "numero": "504535",
+      "id": "DCE_504547_20261110.xml",
+      "date": "2026-11-10",
+      "numero": "504547",
       "juridiction": "Section du Contentieux",
-      "formation": "1ère et 4ème chambres réunies",
+      "formation": "9ème et 10ème chambres réunies",
       "type": "Décision",
-      "ecli": "ECLI:FR:CECHR:2026:504535.20261109",
-      "publication": "Mentionné aux tables du recueil Lebon",
-      "code_publication": "B",
+      "ecli": "ECLI:FR:CECHR:2026:504547.20261110",
+      "publication": "Publié au recueil Lebon",
+      "code_publication": "A",
       "code_juridiction": "CE",
-      "mis_en_ligne": "2026-11-10",
+      "mis_en_ligne": "2026-11-11",
       "resume": "",
-      "url": "https://opendata.justice-administrative.fr/recherche/CE/504535"
+      "url": "https://opendata.justice-administrative.fr/recherche/CE/504547"
     }
   ]
 }
