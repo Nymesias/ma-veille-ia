@@ -1,6 +1,2063 @@
 [
   {
     "categorie": "news",
+    "source": "Vie Publique|Actualités",
+    "titre": "Ukraine, Moldavie, Géorgie : quelles relations avec l'Union européenne ?",
+    "lien": "https://www.vie-publique.fr/questions-reponses/284305-ukraine-moldavie-georgie-quelles-relations-avec-lunion-europeenne?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+    "date": "2026-11-12",
+    "resume": "L'Ukraine, la Moldavie et la Georgie constituent trois anciennes républiques soviétiques aujourd'hui candidates à une adhésion à l’Union européenne (UE). Mais quels sont ces pays et quels sont leurs liens avec l'Union européenne ?",
+    "categories": [
+      "Élargissement de l'UE, Ukraine"
+    ]
+  },
+  {
+    "categorie": "revues",
+    "source": "Vie Publique|Lois",
+    "titre": "Projet de loi organique et projet de loi ordinaire portant diverses dispositions relatives à l'intégrité publique",
+    "lien": "https://www.vie-publique.fr/loi/305324-dispositions-relatives-lintegrite-publique-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+    "date": "2026-11-12",
+    "resume": "Les projets de loi visent à renforcer la prévention des atteintes à l'intégrité publique tout en allégeant les obligations déclaratives auxquelles sont soumis les responsables et agents publics. La Haute Autorité pour la transparence de la vie publique (HATVP) devient la Haute Autorité pour l'intégrité publique.",
+    "categories": [
+      "Gouvernement, Parlement, Éthique"
+    ]
+  },
+  {
+    "categorie": "revues",
+    "source": "Vie Publique|Lois",
+    "titre": "Projet de loi visant à renforcer l'investissement publicitaire dans les services de presse en ligne d'information politique et générale",
+    "lien": "https://www.vie-publique.fr/loi/305305-financement-presse-en-ligne-investissement-publicitaire-projet-de-loi?egn-publisher=dila_vp&egn-name=informer_rss_lois",
+    "date": "2026-11-12",
+    "resume": "Le projet de loi prévoit d'obliger les gros annonceurs publics et privés dont les dépenses annuelles dépassent 1 million d'euros à orienter une partie de leurs budgets publicitaires vers des services de presse en ligne d'information politique et générale. Des amendes sont prévues en cas de non-respect de cette obligation.",
+    "categories": [
+      "Presse"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Vie Publique|Actualités",
+    "titre": "Dépenses des ménages pour leur santé : les effets des complémentaires santé",
+    "lien": "https://www.vie-publique.fr/en-bref/305323-depenses-des-menages-pour-leur-sante-les-effets-des-complementaires?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+    "date": "2026-11-12",
+    "resume": "Une étude de la Direction de la recherche, des études, de l'évaluation et des statistiques (Drees) analyse le reste à charge en santé et le coût de la complémentaire pour les assurés en 2023.",
+    "categories": [
+      "Assurance maladie, Mutuelle"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Vie Publique|Actualités",
+    "titre": "La sobriété, un enjeu de politique publique",
+    "lien": "https://www.vie-publique.fr/en-bref/305268-la-sobriete-un-levier-pour-la-transition-ecologique?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+    "date": "2026-11-12",
+    "resume": "La sobriété qui consiste à modérer la production et la consommation de biens et de services mobilisant des ressources constitue un levier essentiel pour atteindre les objectifs environnementaux estime le Haut-Commissariat à la stratégie et au plan.",
+    "categories": [
+      "Transition écologique, Consommation"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Vie Publique|Actualités",
+    "titre": "Taux de la dette française : des niveaux inédits depuis près de 25 ans",
+    "lien": "https://www.vie-publique.fr/en-bref/304370-taux-de-la-dette-francaise-niveaux-inedits-depuis-pres-de-25-ans?egn-publisher=dila_vp&egn-name=informer_rss_actualites",
+    "date": "2026-11-12",
+    "resume": "Les taux d'emprunt de la France atteignent des niveaux qui n'avaient pas été aussi hauts depuis 2002. Le 22 octobre 2026, le taux de l'échéance à 10 ans a franchi les 5%. En début d'année, il était encore autour de 3,5%. Cette hausse, qui alourdit le coût de la dette, a des origines multiples. Elle concerne également d'autres pays.",
+    "categories": [
+      "Politique monétaire, Dette publique"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Service public|Particuliers",
+    "titre": "Découverts bancaires : la réglementation change le 20 novembre",
+    "lien": "https://www.service-public.gouv.fr/particuliers/actualites/A18569?xtor=RSS-111",
+    "date": "2026-11-12",
+    "resume": "La réglementation concernant les petits découverts évolue à partir du 20 novembre 2026. Ce type d’opération bancaire entre désormais dans le champ du crédit à la consommation et se voit soumis à une analyse de solvabilité. Les nouvelles dispositions font suite à la transposition d’une directive européenne dans le droit français. Service Public vous explique.",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "Service public|Particuliers",
+    "titre": "Ce qui change en novembre 2026",
+    "lien": "https://www.service-public.gouv.fr/particuliers/actualites/A17785?xtor=RSS-111",
+    "date": "2026-11-12",
+    "resume": "Service Public vous informe sur tous les changements qui interviennent au mois de novembre.",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "Service public|Particuliers",
+    "titre": "France Identité génère un justificatif d'identité utile pour vos démarches administratives",
+    "lien": "https://www.service-public.gouv.fr/particuliers/actualites/A17697?xtor=RSS-111",
+    "date": "2026-11-12",
+    "resume": "Ouvrir un compte en banque, constituer un dossier de location, effectuer des démarches administratives… Vous pouvez, via l’application France Identité, générer un justificatif d’identité qui remplace la photocopie de la pièce d’identité demandée. Service Public vous explique.",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 1359S — Nuisances olfactives causées par les cultures de chanvre implantées à proximité des zones habitées",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ26111359S.html",
+    "date": "2026-11-12",
+    "resume": "1359S de M. Jean-Marc Delia",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 1358S — Conséquences de la suppression progressive du paiement par chèque dans la sphère publique locale",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ26111358S.html",
+    "date": "2026-11-12",
+    "resume": "1358S de Mme Anne Ventalon",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 1348S — Régime de rémunération outre-mer et maintien de la majoration de 40 % pour les fonctionnaires territoriaux placés en congé de longue maladie ou de longue durée",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ26111348S.html",
+    "date": "2026-11-12",
+    "resume": "1348S de Mme Solanges Nadille",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 1346S — Soutien aux piscicultures confrontées aux aléas climatiques",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ26111346S.html",
+    "date": "2026-11-12",
+    "resume": "1346S de M. Jean-François Longeot",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 10755 — Soutien aux pépiniéristes viticoles français",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261110755.html",
+    "date": "2026-11-12",
+    "resume": "10755 de M. Cédric Chevalier",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 10745 — Situation de la filière cidricole à la suite de l'été 2026",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261110745.html",
+    "date": "2026-11-12",
+    "resume": "10745 de Mme Agnès Canayer",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 10742 — Soutien aux pépiniéristes viticoles",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261110742.html",
+    "date": "2026-11-12",
+    "resume": "10742 de M. Laurent Burgoa",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 10738 — Budget vin et réforme de la PAC post-2027",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261110738.html",
+    "date": "2026-11-12",
+    "resume": "10738 de M. Christophe Plassard",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 10734 — Soutien aux éleveurs au regard du déficit fourrager",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261110734.html",
+    "date": "2026-11-12",
+    "resume": "10734 de Mme Sylvie Robert",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 10728 — Encadrement des cultures de chanvre et nuisances olfactives subies par les riverains",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261110728.html",
+    "date": "2026-11-12",
+    "resume": "10728 de Mme Alexandra Borchio Fontimp",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 10725 — Méthodes d'étourdissement des porcins dans les abattoirs et perspectives d'évolution",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261110725.html",
+    "date": "2026-11-12",
+    "resume": "10725 de M. Christopher Szczurek",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 10709 — Maintien de la rémunération des agentes publiques donneuses d'ovocytes",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261110709.html",
+    "date": "2026-11-12",
+    "resume": "10709 de M. Alain Cadec",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 10698 — Pouvoir du maire en matière de constat d'infractions au code de l'urbanisme",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261110698.html",
+    "date": "2026-11-12",
+    "resume": "10698 de Mme Christine Herzog",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 10691 — Réponse à la question écrite n° 09076",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261110691.html",
+    "date": "2026-11-12",
+    "resume": "10691 de M. Hervé Maurey",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Question n° 10675 — Prise en compte des fonds de concours intercommunaux dans le financement des projets communaux",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261110675.html",
+    "date": "2026-11-12",
+    "resume": "10675 de M. Bruno Rojouan",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 10457 — Conséquences des dysfonctionnements de la taxe d'aménagement sur le financement des CAUE",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261010457.html",
+    "date": "2026-11-12",
+    "resume": "10457 de M. Bernard Pillefer",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 10364 — Indemnisation des déplacements professionnels des aides à domicile",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261010364.html",
+    "date": "2026-11-12",
+    "resume": "10364 de M. Gérard Lahellec",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 10336 — Financement et préfinancement des acquisitions foncières pour la protection des captages d'eau potable dans les communes rurales",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ261010336.html",
+    "date": "2026-11-12",
+    "resume": "10336 de M. Jean Hingray",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 09926 — Exposition au cadmium et contrôle des produits céréaliers à la suite des recommandations de l'Anses",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ260909926.html",
+    "date": "2026-11-12",
+    "resume": "09926 de M. Christopher Szczurek",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 09328 — « Méga-décret simplifications » de février 2026 et responsabilité des gestionnaires de piscine",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ260709328.html",
+    "date": "2026-11-12",
+    "resume": "09328 de M. Jean Pierre Vogel",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 08598 — Conséquences financières pour les collectivités locales du recours aux financements en location avec option d'achat pour leurs équipements",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ260408598.html",
+    "date": "2026-11-12",
+    "resume": "08598 de M. Mathieu Darnaud",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 08381 — Indemnité compensatrice de congé annuel non pris dans la fonction publique territoriale",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ260408381.html",
+    "date": "2026-11-12",
+    "resume": "08381 de M. Bruno Belin",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 08141 — Hausse des prélèvements sociaux : champ d'application du plan d'épargne retraite",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ260308141.html",
+    "date": "2026-11-12",
+    "resume": "08141 de M. Marc-Philippe Daubresse",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 07989 — Défendre les enfants",
+    "lien": "https://www.senat.fr/questions/base/2026/qSEQ260307989.html",
+    "date": "2026-11-12",
+    "resume": "07989 de M. Édouard Courtial",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 05572 — Rapport de la Cour des comptes sur les finances publiques locales",
+    "lien": "https://www.senat.fr/questions/base/2025/qSEQ250705572.html",
+    "date": "2026-11-12",
+    "resume": "05572 de M. Jean-François Longeot",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 05387 — Situation du département du Loiret en matière de dotation globale de fonctionnement",
+    "lien": "https://www.senat.fr/questions/base/2025/qSEQ250705387.html",
+    "date": "2026-11-12",
+    "resume": "05387 de Mme Pauline Martin",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 05207 — Sécurisation des actes notariés relatifs à la fiscalité applicable aux transmissions de foncier viticole",
+    "lien": "https://www.senat.fr/questions/base/2025/qSEQ250605207.html",
+    "date": "2026-11-12",
+    "resume": "05207 de Mme Anne-Sophie Romagny",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 04457 — Conséquences de la revalorisation du revenu de solidarité active pour la situation financière des départements",
+    "lien": "https://www.senat.fr/questions/base/2025/qSEQ250504457.html",
+    "date": "2026-11-12",
+    "resume": "04457 de M. Antoine Lefèvre",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 03416 — Assouplissement du principe de séparation ordonnateur-comptable dans la gestion locale",
+    "lien": "https://www.senat.fr/questions/base/2025/qSEQ250203416.html",
+    "date": "2026-11-12",
+    "resume": "03416 de M. Hugues Saury",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Questions et réponses",
+    "titre": "Réponse n° 02381 — Règles de dévolution successorale dans le cadre du régime de l'adoption simple",
+    "lien": "https://www.senat.fr/questions/base/2024/qSEQ241102381.html",
+    "date": "2026-11-12",
+    "resume": "02381 de M. Olivier Bitz",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "Pour la Science",
+    "titre": "Comment les paysages terrestres aident les scientifiques à comprendre Mars",
+    "lien": "https://www.pourlascience.fr/sr/retour-sur-image/comment-les-paysages-terrestres-aident-les-scientifiques-a-comprendre-mars-29701.php",
+    "date": "2026-11-12",
+    "resume": "Pour interpréter les images des paysages martiens et apprendre à « voir comme un rover », les chercheurs étudient des milieux analogues sur Terre, des déserts d’altitude à l’Antarctique.",
+    "categories": [
+      "Retour sur image"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Pour la Science",
+    "titre": "Endométriose : des biomarqueurs potentiels identifiés dans le sang menstruel",
+    "lien": "https://www.pourlascience.fr/sd/medecine/endometriose-des-biomarqueurs-potentiels-identifies-dans-le-sang-menstruel-29770.php",
+    "date": "2026-11-12",
+    "resume": "L’endométriose est souvent diagnostiquée après des années d’errance. Mais la découverte de cinq biomarqueurs dans le sang menstruel pourrait enfin ouvrir la voie à de nouvelles méthodes de diagnostic.",
+    "categories": [
+      "Médecine"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Wall Street : les indices attendus en baisse après le départ de Jensen Huang de Nvidia",
+    "lien": "https://www.lerevenu.com/reussir-bourse/points-marches/wall-street-nvidia-depart-jensen-huang-recul",
+    "date": "2026-11-12",
+    "resume": "Les contrats à terme américains s'orientent à la baisse, avec un recul marqué du Nasdaq. La crise de gouvernance chez Nvidia pèse sur les semi-conducteurs, tandis que les résultats de Nebius et les besoins de f…",
+    "categories": [
+      "Réussir en Bourse",
+      "Points Marchés"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Wall Street : Jensen Huang raccroche, les investisseurs décrochent",
+    "lien": "https://www.lerevenu.com/reussir-bourse/points-marches/wall-street-jensen-huang-raccroche-les-investisseu",
+    "date": "2026-11-12",
+    "resume": "À quelques heures de l’ouverture de Wall Street, les contrats à terme signalent une séance difficile pour les marchés américains. Le départ de Jensen Huang de Nvidia provoque une onde de choc qui dépasse le sec…",
+    "categories": [
+      "Réussir en Bourse",
+      "Points Marchés"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Mi-séance Paris : le CAC 40 poursuit sa hausse et se rapproche des 8.400 points",
+    "lien": "https://www.lerevenu.com/reussir-bourse/points-marches/cac40-mi-seance-paris-proche-8400-points-air-franc",
+    "date": "2026-11-12",
+    "resume": "La Bourse de Paris conserve sa dynamique positive, portée par les grandes valeurs du luxe et de l'industrie. Air France-KLM signe une septième séance de hausse, tandis que Gold by Gold et Tractial reculent malg…",
+    "categories": [
+      "Réussir en Bourse",
+      "Points Marchés"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Clôture Paris : le CAC 40 signe une quatrième séance de hausse, Stellantis décroche",
+    "lien": "https://www.lerevenu.com/reussir-bourse/points-marches/cac40-cloture-quatrieme-hausse-stellantis-renault",
+    "date": "2026-11-12",
+    "resume": "La Bourse de Paris poursuit son mouvement de reprise, soutenue par plusieurs grandes valeurs. Vente-unique bondit après ses résultats annuels, tandis que le secteur automobile pèse sur la tendance avec les repl…",
+    "categories": [
+      "Réussir en Bourse",
+      "Points Marchés"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Vente-unique : le titre s'envole sur un exercice record",
+    "lien": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/vente-unique-le-titre-s-envole-sur-un-exercice-rec",
+    "date": "2026-11-12",
+    "resume": "Le spécialiste de l'ameublement en ligne boucle 2025-2026 sur son trimestre le plus dynamique. Le marché applaudit, sans pour autant tendre la valorisation.",
+    "categories": [
+      "Réussir en Bourse",
+      "Nos conseils Bourse"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Plaisance : le très haut de gamme tient le cap, le nautisme de loisir réduit la voilure",
+    "lien": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/plaisance-le-tres-haut-de-gamme-tient-le-cap-le-na",
+    "date": "2026-11-12",
+    "resume": "Les ventes de bateaux neufs s’érodent, les plaisanciers retardant leurs achats face au coût du crédit. Les superyachts résistent et le secteur se consolide. Six valeurs passées au crible.",
+    "categories": [
+      "Réussir en Bourse",
+      "Nos conseils Bourse"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Énergie et matières premières : le baril dégonfle, l’or s’envole",
+    "lien": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/energie-et-matieres-premieres",
+    "date": "2026-11-12",
+    "resume": "Le Brent repasse sous les 100 dollars, en baisse de 15 % sur la semaine, le marché misant sur un apaisement avec l’Iran. Le recul du dollar profite à l’or, qui gagne près de 3 %, vers 4.045 dollars l’once.",
+    "categories": [
+      "Réussir en Bourse",
+      "Nos conseils Bourse"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Véhicules électriques : Volkswagen lève le pied en Chine",
+    "lien": "https://www.lerevenu.com/reussir-bourse/actualite-societe/vehicules-electriques-volkswagen-leve-le-pied-en-c",
+    "date": "2026-11-12",
+    "resume": "Volkswagen met en pause le lancement de nouveaux véhicules électriques au sein de sa coentreprise Volkswagen Anhui jusqu'en 2029. Un coup de frein révélateur des difficultés du constructeur allemand à s'imposer…",
+    "categories": [
+      "Réussir en Bourse",
+      "Actualité Société"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Stellantis prolonge l’arrêt de Mirafiori, la production de Fiat 500 au ralenti",
+    "lien": "https://www.lerevenu.com/reussir-bourse/actualite-societe/stellantis-prolonge-l-arret-de-mirafiori-la-produc",
+    "date": "2026-11-12",
+    "resume": "La Fiat 500 ne retrouvera pas immédiatement ses chaînes de montage à Turin. Stellantis prolonge la suspension de la production dans son usine historique de Mirafiori pour une cinquième semaine consécutive, sur…",
+    "categories": [
+      "Réussir en Bourse",
+      "Actualité Société"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Semi-conducteurs : Alibaba prépare l’IPO de sa filiale T-Head",
+    "lien": "https://www.lerevenu.com/reussir-bourse/actualite-societe/semi-conducteurs-alibaba-prepare-l-ipo-de-sa-filia",
+    "date": "2026-11-12",
+    "resume": "Le géant chinois de la technologie franchit une nouvelle étape dans la valorisation de ses activités liées aux semi-conducteurs. Sa filiale T-Head a déposé confidentiellement une demande d’introduction à la Bou…",
+    "categories": [
+      "Réussir en Bourse",
+      "Actualité Société"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Rolls-Royce muscle sa politique de rémunération des actionnaires",
+    "lien": "https://www.lerevenu.com/reussir-bourse/actualite-societe/rolls-royce-muscle-sa-politique-de-remuneration-de",
+    "date": "2026-11-12",
+    "resume": "Porté par une demande soutenue dans l’aéronautique civile, la défense et les systèmes de production d’énergie, Rolls-Royce accélère le retour de liquidités à ses actionnaires. Le motoriste britannique maintient…",
+    "categories": [
+      "Réussir en Bourse",
+      "Actualité Société"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Nvidia plonge en Bourse après le départ de Jensen Huang, Anthropic prépare une IPO historique",
+    "lien": "https://www.lerevenu.com/reussir-bourse/actualite-societe/nvidia-plonge-en-bourse-apres-le-depart-de-jensen-",
+    "date": "2026-11-12",
+    "resume": "Nvidia traverse une crise majeure après la démission de son cofondateur et PDG Jensen Huang, le 12 novembre 2026. L'action a chuté de plus de 13 % à l'ouverture de Wall Street, entraînant plusieurs valeurs tech…",
+    "categories": [
+      "Réussir en Bourse",
+      "Actualité Société"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Nvidia : le départ de Jensen Huang ouvre une période d'incertitude",
+    "lien": "https://www.lerevenu.com/reussir-bourse/actualite-societe/nvidia-le-depart-de-jensen-huang-ouvre-une-periode",
+    "date": "2026-11-12",
+    "resume": "Le départ de Jensen Huang, fondateur de Nvidia, intervient après plusieurs révélations sur sa vie privée. Au-delà du scandale, cette rupture soulève des questions sur la gouvernance et l'avenir du géant mondial…",
+    "categories": [
+      "Réussir en Bourse",
+      "Actualité Société"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Nvidia : Jensen Huang capitule et prend la porte après 33 ans à la tête du groupe",
+    "lien": "https://www.lerevenu.com/reussir-bourse/actualite-societe/nvidia-jensen-huang-capitule-et-prend-la-porte-apr",
+    "date": "2026-11-12",
+    "resume": "Le patron emblématique de Nvidia quitte la direction du fabricant de puces, emporté par une crise liée à ses relations extraconjugales et à des soupçons d’ingérence étrangère. Une page se tourne pour l’entrepri…",
+    "categories": [
+      "Réussir en Bourse",
+      "Actualité Société"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Nvidia : Elon Musk ouvre sa porte à Jensen Huang",
+    "lien": "https://www.lerevenu.com/reussir-bourse/actualite-societe/nvidia-elon-musk-ouvre-sa-porte-a-jensen-huang",
+    "date": "2026-11-12",
+    "resume": "Alors que l’avenir de Jensen Huang à la tête de Nvidia est incertain, Elon Musk s’est déclaré prêt à l’accueillir dans l’une de ses entreprises. Une proposition publique qui intervient en pleine crise de gouver…",
+    "categories": [
+      "Réussir en Bourse",
+      "Actualité Société"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Médicaments amaigrissants : Eli Lilly prend une longueur d’avance sur ses concurrents en Chine",
+    "lien": "https://www.lerevenu.com/reussir-bourse/actualite-societe/medicaments-amaigrissants-eli-lilly-prend-une-long",
+    "date": "2026-11-12",
+    "resume": "Le laboratoire américain devient le premier à obtenir le feu vert chinois pour un médicament oral amaigrissant de la famille des GLP-1. Une autorisation stratégique sur un marché où la demande de traitements co…",
+    "categories": [
+      "Réussir en Bourse",
+      "Actualité Société"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Le conseil d’administration de Nvidia s’est réuni, Jensen Huang sur la sellette",
+    "lien": "https://www.lerevenu.com/reussir-bourse/actualite-societe/le-conseil-d-administration-de-nvidia-s-est-reuni-",
+    "date": "2026-11-12",
+    "resume": "Le conseil d’administration de Nvidia s’est réuni pour examiner l’avenir de son emblématique patron, Jensen Huang. Une crise de gouvernance qui inquiète les investisseurs et pourrait bouleverser la direction du…",
+    "categories": [
+      "Réussir en Bourse",
+      "Actualité Société"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Google essuie un nouveau revers judiciaire en Europe",
+    "lien": "https://www.lerevenu.com/reussir-bourse/actualite-societe/google-essuie-un-nouveau-revers-judiciaire-en-euro",
+    "date": "2026-11-12",
+    "resume": "Un conseiller juridique de la Cour de justice de l’Union européenne estime que Google ne devait pas échapper à son amende antitrust de 1,49 milliard d’euros. Un avis défavorable au géant américain, même si la b…",
+    "categories": [
+      "Réussir en Bourse",
+      "Actualité Société"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Alphabet accélère sa diversification financière sur les marchés asiatiques",
+    "lien": "https://www.lerevenu.com/reussir-bourse/actualite-societe/alphabet-accelere-sa-diversification-financiere-su",
+    "date": "2026-11-12",
+    "resume": "Le groupe propriétaire de Google signe une première sur les marchés obligataires de Hong Kong et de Singapour. Portée par une forte demande des investisseurs, l'opération dépasse largement son objectif initial…",
+    "categories": [
+      "Réussir en Bourse",
+      "Actualité Société"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Alibaba : l’affaire Nvidia fait vaciller le géant chinois de la tech",
+    "lien": "https://www.lerevenu.com/reussir-bourse/actualite-societe/alibaba-l-affaire-nvidia-fait-vaciller-le-geant-ch",
+    "date": "2026-11-12",
+    "resume": "Les révélations autour de Jensen Huang ravivent les inquiétudes sur l’accès des entreprises chinoises aux puces avancées de Nvidia. Alibaba, qui aurait eu recours aux services d’un intermédiaire lié au scandale…",
+    "categories": [
+      "Réussir en Bourse",
+      "Actualité Société"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Premier achat immobilier en 2026 : prêts aidés, dossier bancaire et calendrier, les leviers du primo-accédant",
+    "lien": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/premier-achat-immobilier-en-2026-prets-aides-dossi",
+    "date": "2026-11-12",
+    "resume": "Le primo-accédant qui prépare en 2026 son premier achat immobilier dispose d'un arsenal de prêts aidés plus large qu'il n'y paraît. Bien combinés à un dossier bancaire soigné grâce à l’aide de son courtier, ces…",
+    "categories": [
+      "Investir dans l'immobilier",
+      "Prix et tendances"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Pétrole : l’OPEP+ retrouve 97 % de sa production d’avant-guerre",
+    "lien": "https://www.lerevenu.com/actualite-economique/monde/petrole-l-opep-retrouve-97-de-sa-production-d-avan",
+    "date": "2026-11-12",
+    "resume": "La production pétrolière de l’OPEP+ a fortement rebondi en octobre, portée par l’Arabie saoudite et la Russie. Malgré les perturbations persistantes dans le détroit d’Ormuz, l’alliance retrouve presque son nive…",
+    "categories": [
+      "Économie",
+      "Monde"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "La robotique humanoïde se rapproche d’un tournant industriel aux États-Unis",
+    "lien": "https://www.lerevenu.com/actualite-economique/monde/la-robotique-humanoide-se-rapproche-d-un-tournant-",
+    "date": "2026-11-12",
+    "resume": "La robotique humanoïde américaine pourrait changer d’échelle au cours des quatre prochaines années. Selon J.P. Morgan, la montée en puissance des usages industriels et logistiques devrait accélérer la productio…",
+    "categories": [
+      "Économie",
+      "Monde"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "États-Unis : les demandes d’allocations chômage remontent à 200 000, mais l’emploi résiste",
+    "lien": "https://www.lerevenu.com/actualite-economique/monde/etats-unis-les-demandes-d-allocations-chomage-remo",
+    "date": "2026-11-12",
+    "resume": "Les nouvelles demandes d’allocations chômage aux États-Unis ont augmenté de 9 000 pour atteindre 200 000 durant la semaine achevée le 7 novembre 2026. Malgré cette progression, les licenciements restent relativ…",
+    "categories": [
+      "Économie",
+      "Monde"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Bitcoin : 14,2 milliards de dollars de liquidités disparaissent, Glassnode alerte sur le marché",
+    "lien": "https://www.lerevenu.com/actualite-economique/monde/bitcoin-14-2-milliards-de-dollars-de-liquidites-di",
+    "date": "2026-11-12",
+    "resume": "Le marché du Bitcoin traverse une période de fortes tensions en novembre 2026. Selon Glassnode, les liquidités disponibles diminuent, tandis que les ETF Bitcoin américains enregistrent d'importantes sorties de…",
+    "categories": [
+      "Économie",
+      "Monde"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Automobile : Les ventes mondiales de véhicules électriques en hausse de 8 %",
+    "lien": "https://www.lerevenu.com/actualite-economique/monde/automobile-les-ventes-mondiales-de-vehicules-elect",
+    "date": "2026-11-12",
+    "resume": "Après plusieurs mois de ralentissement, le marché mondial des véhicules électriques retrouve une croissance annuelle. Le rebond européen et la reprise statistique en Amérique du Nord compensent le recul persist…",
+    "categories": [
+      "Économie",
+      "Monde"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Charles Beigbeder : « Il faut orienter l’épargne vers l’économie productive »",
+    "lien": "https://www.lerevenu.com/actualite-economique/france/il-faut-orienter-l-epargne-vers-l-economie-product",
+    "date": "2026-11-12",
+    "resume": "« Parmi les 35.000 milliards d’euros d’épargne des Européens, à peine 10 % sont investis en actions d’entreprises », regrette Charles Beigbeder. Ses idées de réforme.",
+    "categories": [
+      "Économie",
+      "France"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "France : le chômage recule à 8,2 %, mais la tendance annuelle reste préoccupante",
+    "lien": "https://www.lerevenu.com/actualite-economique/france/france-le-chomage-recule-a-8-2-mais-la-tendance-an",
+    "date": "2026-11-12",
+    "resume": "Le taux de chômage a légèrement diminué au troisième trimestre 2026, prenant à contre-pied les prévisions des économistes. Cette amélioration ponctuelle ne suffit toutefois pas à effacer la dégradation observée…",
+    "categories": [
+      "Économie",
+      "France"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Le Brexit coûte cher à Londres qui veut recoller les morceaux avec Bruxelles",
+    "lien": "https://www.lerevenu.com/actualite-economique/actualite-europe/le-brexit-coute-cher-a-londres-qui-veut-recoller-l",
+    "date": "2026-11-12",
+    "resume": "À l’approche du prochain sommet entre Londres et Bruxelles, le gouvernement britannique affiche sa volonté de renforcer la coopération économique avec l’Union européenne. L’objectif est de réduire les formalité…",
+    "categories": [
+      "Économie",
+      "Europe"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "La tension monte dans l’industrie allemande",
+    "lien": "https://www.lerevenu.com/actualite-economique/actualite-europe/la-tension-monte-dans-l-industrie-allemande",
+    "date": "2026-11-12",
+    "resume": "Le puissant syndicat allemand IG Metall appelle à une nouvelle étape dans le conflit salarial qui oppose les salariés aux employeurs de l’industrie. Une mobilisation de 24 heures est désormais envisagée, dans u…",
+    "categories": [
+      "Économie",
+      "Europe"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "LeMagIT",
+    "titre": "« Les tokens ont un impact important sur les marges des éditeurs » (Jean-Philippe Couturier, Numeum)",
+    "lien": "https://www.lemagit.fr/actualites/366654706/Les-tokens-ont-un-impact-important-sur-nos-marges-brutes-Jean-Philippe-Couturier-Numeum",
+    "date": "2026-11-12",
+    "resume": "L’Intelligence artificielle est la priorité pour les éditeurs de logiciels français. Elle l’est même à double titre puisqu’ils sont à la fois des vendeurs d’IA dans leurs solutions, et des consommateurs pour écrire le code de leurs produits. Cette priorité des priorités se voit clairement dans l’étude annuelle de Numeum, syndicat professionnel du secteur numérique, co-réalisée avec EY, qui montre également que si les éditeurs ont massivement intégré l’IA, ils tâtonnent pour en maîtriser le coût et pour la monétiser. Les agents IA mais aussi l’IA classique Côté produit, proposer des agents est devenu un impératif pour les trois quarts des répondants (et même l’objectif numéro 1 pour la moitié",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "LeMagIT",
+    "titre": "IA agentique : les sandbox de Nvidia et de Google rejoignent la CNCF",
+    "lien": "https://www.lemagit.fr/actualites/366654705/IA-agentique-les-sandbox-de-Nvidia-et-de-Google-rejoignent-la-CNCF",
+    "date": "2026-11-12",
+    "resume": "Les sandbox agentiques ont occupé le devant de la scène lors de la première journée de la KubeCon North America ayant lieu à Salt Lake City cette semaine. Le keynote d’ouverture du 10 novembre a démarré par l’acceptation au sein de la Cloud Native Computing Foundation (CNCF) de deux projets lancés par de grands fournisseurs : OpenShell de Nvidia et Agent Substrate de Google. Ces deux projets visant à sécuriser des déploiements IA gérés en propre par les entreprises ont pris rapidement de l’ampleur. Nvidia comptabilise déjà 380 organisations contributrices à OpenShell depuis son premier commit en janvier. Google évoque 164 organisations contributrices à Agent Substrate depuis son lancement en",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "LeMagIT",
+    "titre": "Red Hat voit l’IA comme un cheval de Troie pour OpenShift",
+    "lien": "https://www.lemagit.fr/actualites/366654664/Red-Hat-voit-lIA-comme-un-cheval-de-Troie-pour-OpenShift",
+    "date": "2026-11-12",
+    "resume": "Avec OpenShift 5 et RHEL 10.3, en matière d’IA, officialise principalement la disponibilité générale de son serveur MCP. Celui-ci doit fournir le contexte nécessaire aux agents IA des administrateurs pour expliquer et résoudre les problèmes d’infrastructure. « Le serveur MCP permet à votre assistant IA d’accéder aux journaux système, d’évaluer l’utilisation du disque, d’analyser l’état des processus et de récupérer des informations sur de nombreux autres aspects des systèmes RHEL », lit-on dans un billet de blog publié par l’éditeur. Cela va de pair avec l’assistant Lightspeed, qui dispose, en préversion technique, d’un moyen d’évaluer les risques d’une mise à jour d’OpenShift. Les commandes",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "LeMagIT",
+    "titre": "Patch Tuesday de novembre : encore une cuvée spectaculaire",
+    "lien": "https://www.lemagit.fr/actualites/366654645/Patch-Tuesday-de-Novembre-encore-une-cuvee-spectaculaire",
+    "date": "2026-11-12",
+    "resume": "Le Patch Tuesday de novembre offre un véritable festival de vulnérabilités. Pour son second Patch Tuesday à quatre chiffres consécutif, Microsoft a corrigé près de 1100 vulnérabilités, dont 63 classées critiques, et une inédite (CVE-2026-124194, CVSS 6.5) activement exploitée. « La plupart des équipes de sécurité ne se sont pas encore complètement remises de la série de vulnérabilités critiques d’octobre et revoici le Patch Tuesday », déclare Jake Knott, responsable de l’intelligence des menaces chez Watchtowr. « Les équipes commencent vraiment à ressentir la pression de devoir déterminer ce qui est réellement important, lorsqu’il y a le feu un jour après l’autre qui exige une attention immé",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "LeMagIT",
+    "titre": "Opération Endgame : la saison 4 commence avec Gootloader",
+    "lien": "https://www.lemagit.fr/actualites/366654643/Operation-Endgame-la-saison-4-commence-avec-Gootloader",
+    "date": "2026-11-12",
+    "resume": "Saison 4, épisode 1. L’Opération Endgame reprend de plus belle avec, cette fois-ci, Gootloader, en particulier. Ce maliciel est loin d’être un nouveau venu dans le paysage de la menace. Selon la documentation, il est au moins développé depuis 2020. Selon les forces de l’ordre, 2018. À la base, du code Javascript caché dans une archive Zip. Son exécution entraîne celle de lignes PowerShell qui conduiront à la compromission de l’ordinateur du malchanceux internaute. Ce dernier aura été berné par des résultats de recherche empoisonnés qui l’auront conduit sur, notamment, un site Wordpress compromis par l’opérateur de Gootloader. Son ordinateur sera dès lors un point d’entrée sur son réseau. Ce ",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Data centers : comment le projet de supercalculateur dans la Somme veut minimiser la consommation d’eau",
+    "lien": "https://www.latribune.fr/article/tech/intelligence-artificielle/5303047795265/data-centers-comment-le-projet-de-supercalculateur-dans-la-somme-veut-minimiser-la-consommation-d-eau",
+    "date": "2026-11-12",
+    "resume": "Les data centers peuvent être très consommateurs en énergie. Mais le projet de SoftBank et Sesterce, au Bosquel, entend limiter la consommation d’eau liée au refroidissement. La seule eau consommée sera celle utilisée pour humidifier les salles de serveurs en hiver.",
+    "categories": [
+      "Tech & IA Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "EU Inc : pourquoi le statut unifié des entreprises européennes n’est pas pour tout de suite",
+    "lien": "https://www.latribune.fr/article/tech/1389787768620414/eu-inc-pourquoi-le-statut-unifie-des-entreprises-europeennes-n-est-pas-pour-tout-de-suite",
+    "date": "2026-11-12",
+    "resume": "Les négociations autour de l’EU Inc, qui prévoit d’harmoniser les cadres juridiques pour les entreprises européennes, patinent. Les parlementaires européens ne s’entendent pas sur un point en particulier : les droits des salariés.",
+    "categories": [
+      "Tech & IA Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Nvidia : après la chute de Jensen Huang, qui peut sauver l'empire à 4 500 milliards de dollars ?",
+    "lien": "https://www.latribune.fr/article/tech/1332052964457614/nvidia-apres-la-chute-de-jensen-huang-qui-peut-sauver-lempire-a-4-500-milliards-de-dollars",
+    "date": "2026-11-12",
+    "resume": "Jensen Huang a quitté jeudi la direction de Nvidia, deux jours après les révélations sur une seconde liaison, et le titre a perdu plus de 10 % dans la foulée, tandis que Colette Kress, la directrice financière, assure l’intérim. Le conseil doit désormais trouver celui ou celle qui reprendra la flamme d’un",
+    "categories": [
+      "Tech & IA Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Valérie Pécresse, Nicolas Sarkozy, François Hollande... L’art de perdre en politique raconté par des perdants",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/politique/presidentielle/28266183262216/valerie-pecresse-nicolas-sarkozy-francois-hollande-l-art-de-perdre-en-politique-raconte-par-des-perdants",
+    "date": "2026-11-12",
+    "resume": "LCP-AN diffusera la semaine prochaine « L’Art de perdre en politique », excellent documentaire réalisé par la journaliste Elizabeth Martichoux.",
+    "categories": [
+      "La Tribune Dimanche Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Présidentielle : vers un « accord de majorité » entre LFI et les Verts ?",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/politique/presidentielle/11909643578236/presidentielle-vers-un-accord-de-majorite-entre-lfi-et-les-verts",
+    "date": "2026-11-12",
+    "resume": "Alors que les Écologistes trancheront, dans un mois, leur stratégie pour la présidentielle, un « accord de majorité » semble se dessiner avec LFI. Retrouvez notre chronique hebdomadaire et nos informations confidentielles dans notre newsletter « La Tribune présidentielle ».",
+    "categories": [
+      "La Tribune Dimanche Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Sur l’Ukraine, Mélenchon à la roulette russe",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/politique/11696228530785/sur-l-ukraine-melenchon-a-la-roulette-russe",
+    "date": "2026-11-12",
+    "resume": "Le candidat des Insoumis s’est marginalisé en défendant l’idée d’un référendum dans le Donbass dans l’espoir d’obtenir la paix en Ukraine.",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "« L'affaire Boulin », de Gilles Boyer : ​Robert Boulin, suite et pas fin",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/culture-lifestyle/livres/99309387137775/laffaire-boulin-de-gilles-boyer-robert-boulin-suite-et-pas-fin",
+    "date": "2026-11-12",
+    "resume": "Dans ce livre qui se lit comme un polar, Gilles Boyer relate tous les détails d'un dossier tentaculaire, de l'enquête menée en dépit du bon sens aux batailles judicaires sans fin.",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "OPINION. « Surproduction de diplômés, vie chère et changement climatique : pourquoi les violences reviendront »",
+    "lien": "https://www.latribune.fr/article/idees/89904712156145/opinion-surproduction-de-diplomes-vie-chere-et-changement-climatique-pourquoi-les-violences-reviendront",
+    "date": "2026-11-12",
+    "resume": "Il faut être lucide. Les événements du 17 octobre ne sont pas un énième apex de contestation ou de manifestation de joie mauvaise.",
+    "categories": [
+      "Idées & Débats"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "OPINION. « IA : avant de boire le bouillon, faire le point »",
+    "lien": "https://www.latribune.fr/article/idees/34839644278794/opinion-ia-avant-de-boire-le-bouillon-faire-le-point",
+    "date": "2026-11-12",
+    "resume": "Dans la plupart des ETI et grands groupes, l'IA s'installe partout, rappels quotidiens compris. La valeur qu'elle crée se mesure beaucoup plus rarement. Avant d'aller plus loin dans cette course à l'armement, il devient urgent de mesurer les résultats.",
+    "categories": [
+      "Idées & Débats"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Fibre excellence : la liquidation de l'usine Saint-Gaudens prononcée, plus de 200 personnes licenciées",
+    "lien": "https://www.latribune.fr/article/entreprises-finance/industrie/22846972909802/fibre-excellence-la-liquidation-de-lusine-saint-gaudens-prononcee-plus-de-200-personnes-licenciees",
+    "date": "2026-11-12",
+    "resume": "Le tribunal de commerce de Toulouse a prononcé ce jeudi 12 novembre la liquidation judiciaire de la dernière usine française de pâte à papier marchande. Malgré leur licenciement, les salariés pourraient rebondir avec la reprise envisagée par le groupe portugais Ghost.",
+    "categories": [
+      "Energie et Industrie Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Quand le produire en France s’invite dans la présidentielle",
+    "lien": "https://www.latribune.fr/article/economie/63676510288345/quand-le-produire-en-france-s-invite-dans-la-presidentielle",
+    "date": "2026-11-12",
+    "resume": "Réalisé pour le compte de CCI France, le sondage mené par OpinionWay fait ressortir l’intérêt vif des Français pour le Made in France, 72% en faisant même un critère de vote pour départager le prochain locataire de l’Élysée. 89% l’identifient également comme levier d’avenir pour les jeunes.",
+    "categories": [
+      "Économie Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "INSEE|Actualités nationales",
+    "titre": "Le patrimoine économique national en 2025",
+    "lien": "https://www.insee.fr/fr/statistiques/9111734",
+    "date": "2026-11-12",
+    "resume": "Fin 2025, le patrimoine économique national, qui mesure la richesse économique de la Nation, s’est élevé à 20 196 milliards d’euros, en croissance de 1,2 %, après +3,1 % en 2024 et -3,0 % en 2023. Après avoir crû beaucoup plus rapidement que la richesse produite annuellement durant plus de vingt ans, le patrimoine national a progressé beaucoup moins vite depuis 2022 (+1,3 %) en raison du repli du prix du foncier. Le patrimoine non financier, principalement détenu par les ménages, a néanmoins augmenté en 2025, sous l’effet de la progression de la valeur des constructions et d’un léger rebond de celle des terrains dans leur ensemble. Le patrimoine financier a, lui, reculé légèrement en 2025.",
+    "categories": []
+  },
+  {
+    "categorie": "finance",
+    "source": "Ministère de l'Economie",
+    "titre": "Tout savoir sur le Black Friday",
+    "lien": "https://www.economie.gouv.fr/particuliers/mes-droits-conso/bien-consommer/tout-savoir-sur-le-black-friday",
+    "date": "2026-11-12",
+    "resume": "Chaque année au mois de novembre, le Black Friday (« Vendredi noir »), est une journée dédiée aux promotions commerciales et lançant la période des achats de fin d‘année. Néanmoins, ces offres peuvent aussi s’accompagner de pratiques commerciales trompeuses. Comment distinguer les bonnes affaires des arnaques ? Que faut-il vérifier avant d’acheter ? Comment s’applique votre droit de rétractation ? On fait le point.",
+    "categories": []
+  },
+  {
+    "categorie": "régulation",
+    "source": "DGCCRF",
+    "titre": "Truffes et produits truffés : bien choisir son produit",
+    "lien": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/truffes-et-produits-truffes-bien-choisir-son-produit",
+    "date": "2026-11-12",
+    "resume": "« Diamant noir de la cuisine », la truffe fera étinceler vos plats de fête. Mais attention, restez vigilant : c’est un produit onéreux et les arnaques ne manquent pas !",
+    "categories": []
+  },
+  {
+    "categorie": "régulation",
+    "source": "DGCCRF",
+    "titre": "Marquage « CE » : pour des achats en toute tranquillité",
+    "lien": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/marquage-ce-pour-des-achats-en-toute-tranquillite",
+    "date": "2026-11-12",
+    "resume": "Le marquage « CE » figure sur la majorité des produits non alimentaires. Il matérialise l’engagement du fabricant du produit sur sa conformité aux exigences fixées par la réglementation communautaire. Il doit être apposé avant qu’un produit ne soit mis sur le marché européen. Voici ce que l’apposition de ce marquage signifie et comment l’utiliser à bon escient.",
+    "categories": []
+  },
+  {
+    "categorie": "régulation",
+    "source": "DGCCRF",
+    "titre": "Chocolat : consultez les étiquettes !",
+    "lien": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/chocolat-consultez-les-etiquettes",
+    "date": "2026-11-12",
+    "resume": "Parenthèse gourmande, le chocolat reste le produit sucré préféré des Français. Pour ne pas vous tromper, lisez bien les étiquettes !",
+    "categories": []
+  },
+  {
+    "categorie": "régulation",
+    "source": "DGCCRF",
+    "titre": "Non-conformité de produits en acier : les clients doivent être informés",
+    "lien": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/non-conformite-de-produits-en-acier-les-clients-doivent-etre-informes",
+    "date": "2026-11-12",
+    "resume": "",
+    "categories": []
+  },
+  {
+    "categorie": "régulation",
+    "source": "DGCCRF",
+    "titre": "Amende transactionnelle de 12 000 € à l’encontre de la société GMS MOTORS TRADING, exploitant un établissement à Angers",
+    "lien": "https://www.economie.gouv.fr/dgccrf/laction-de-la-dgccrf/injonctions-et-sanctions/amende-transactionnelle-de-12-000-eur-lencontre-de-la-societe-gms-motors-trading-exploitant-un",
+    "date": "2026-11-12",
+    "resume": "",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Un immeuble s’effondre à New York, faisant au moins 8 morts et 19 blessés",
+    "lien": "https://www.courrierinternational.com/video/video-un-immeuble-s-effondre-a-new-york-faisant-au-moins-huit-morts-et-19-blesses_286709",
+    "date": "2026-11-12",
+    "resume": "Situé à côté d’un chantier dans le quartier de Flatbush, à Brooklyn, l’immeuble de 1930 s’est effondré dans l’après-midi du mercredi 11 novembre. Les recherches continuent pour retrouver d’autres victimes.",
+    "categories": [
+      "Vidéo"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "En Floride, un paquebot coulé pour en faire “le plus grand récif artificiel au monde”",
+    "lien": "https://www.courrierinternational.com/video/video-en-floride-un-paquebot-coule-pour-en-faire-le-plus-grand-recif-artificiel-au-monde_286713",
+    "date": "2026-11-12",
+    "resume": "Le “SS United States”, un paquebot qui a fait la fierté des États-Unis dans les années d’après-guerre, a été coulé volontairement au large de la Floride, mercredi 11 novembre. Les dirigeants du comté d’Okaloosa à l’origine du projet espèrent faire de cette épave une destination touristique prisée des plongeurs.",
+    "categories": [
+      "Vidéo"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Quels sont les grands enjeux de la COP31 ?",
+    "lien": "https://www.courrierinternational.com/stories/video-quels-sont-les-grands-enjeux-de-la-cop31_286226",
+    "date": "2026-11-12",
+    "resume": "La COP31 a commencé le 9 novembre à Antalya, en Turquie, dans une année marquée par des températures records et un phénomène El Niño plus fort que jamais. Mais cette édition a des ambitions modestes.",
+    "categories": [
+      "Vidéo"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Michel Houellebecq mis en examen, une atteinte à la démocratie pour la presse conservatrice",
+    "lien": "https://www.courrierinternational.com/article/vu-de-l-etranger-michel-houellebecq-mis-en-examen-une-atteinte-a-la-democratie-pour-la-presse-conservatrice_286707",
+    "date": "2026-11-12",
+    "resume": "Mardi 10 novembre, l’écrivain français a été mis en examen pour “provocation à la discrimination, à la haine ou à la violence” à la suite de propos datant de 2022, qui portaient sur les musulmans et l’immigration. De quoi indigner plusieurs titres de la presse conservatrice, qui y voient une remise en cause de la liberté d’expression.",
+    "categories": [
+      "Vu de l’étranger"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Les poumons se régénèrent-ils quand on a arrêté de fumer ?",
+    "lien": "https://www.courrierinternational.com/article/vrai-ou-faux-les-poumons-se-regenerent-ils-quand-on-a-arrete-de-fumer_243806_1",
+    "date": "2026-11-12",
+    "resume": "Dans sa rubrique “Est-il vrai que… ?”, le quotidien britannique “The Guardian” tente de répondre aux questions que l’on s’est toutes et tous déjà posées. Cette semaine, vous n’y trouverez pas de bonne excuse pour continuer de fumer.",
+    "categories": [
+      "Vrai ou faux"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Sahara occidental : le départ des casques bleus de la Minurso plonge la région dans l’incertitude",
+    "lien": "https://www.courrierinternational.com/article/tensions-sahara-occidental-le-depart-des-casques-bleus-de-la-minurso-plonge-la-region-dans-l-incertitude_286756",
+    "date": "2026-11-12",
+    "resume": "Le spectre d’une guerre au Sahara occidental est de plus en plus envisagé par les observateurs, depuis l’échec du Conseil de sécurité des Nations unies à renouveler la mission des forces de la Minurso. Les séparatistes sahraouis du Front Polisario ont appelé mardi 10 novembre à la mobilisation générale pour faire face au Maroc, qu’ils considèrent comme une “force d’occupation”.",
+    "categories": [
+      "Tensions"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "En Hongrie, les couacs de l’ouverture des archives de la police secrète communiste",
+    "lien": "https://www.courrierinternational.com/article/politique-en-hongrie-les-couacs-de-l-ouverture-des-archives-de-la-police-secrete-communiste_286644",
+    "date": "2026-11-12",
+    "resume": "Démentis de la part de personnalités listées, informateurs révélés par erreur, gouvernement accusé d’empressement… Une semaine après la publication des dossiers de la police politique prosoviétique, le déballage se transforme en imbroglio gênant pour le pouvoir.",
+    "categories": [
+      "Politique"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Pluies diluviennes à Gaza : l’ONU accuse Israël d’enfreindre l’acheminement d’aide",
+    "lien": "https://www.courrierinternational.com/article/moyen-orient-pluies-diluviennes-a-gaza-l-onu-accuse-israel-d-enfreindre-l-acheminement-d-aide_286753",
+    "date": "2026-11-12",
+    "resume": "Un rapport de l’ONU accuse le gouvernement israélien d’empêcher l’entrée de l’aide humanitaire et d’équipements essentiels, alors que, le week-end dernier, des inondations ont endommagé 40 000 tentes, touchant quelque 200 000 personnes vivant déjà dans des conditions très difficiles.",
+    "categories": [
+      "Moyen-Orient"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "De nouvelles frappes israéliennes contre l’hôpital Nasser de Gaza font au moins six morts",
+    "lien": "https://www.courrierinternational.com/article/moyen-orient-de-nouvelles-frappes-israeliennes-contre-l-hopital-nasser-de-gaza-font-au-moins-six-morts_286740",
+    "date": "2026-11-12",
+    "resume": "Au moins six personnes ont été tuées et vingt autres blessées dans le bombardement par Israël de l’établissement de santé de Khan Younès, dans la nuit du 11 au 12 novembre 2026. Tsahal dit avoir visé un haut responsable du Hamas.",
+    "categories": [
+      "Moyen-Orient"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Au Mississippi, l’élection du premier sénateur noir depuis 145 ans, “un séisme dans le Sud profond”",
+    "lien": "https://www.courrierinternational.com/article/midterms-au-mississippi-le-premier-senateur-noir-depuis-145-ans-est-un-seisme-dans-le-sud-profond_286674",
+    "date": "2026-11-12",
+    "resume": "C’est peut-être le résultat le plus inattendu et symbolique des élections de mi-mandat : le démocrate Scott Colom a été élu sénateur au Mississippi. Acquis depuis des décennies aux républicains, le Sud, jadis ségrégationniste, est-il de nouveau un territoire disputé ?",
+    "categories": [
+      "Midterms"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "En Espagne, une interview du chef de l’extrême droite accusée de “blanchir le fascisme”",
+    "lien": "https://www.courrierinternational.com/article/medias-en-espagne-une-interview-du-chef-de-l-extreme-droite-accusee-de-blanchir-le-fascisme_286748",
+    "date": "2026-11-12",
+    "resume": "Santiago Abascal, leader de Vox, parti d’extrême droite espagnol, était l’invité de l’émission de divertissement “La Revuelta”. L’entretien, qui a obtenu un grand succès d’audience, a aussi été source de polémiques dans la presse nationale.",
+    "categories": [
+      "Médias"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Longtemps intouchable, Jensen Huang, puissant patron du géant Nvidia, a fini par chuter",
+    "lien": "https://www.courrierinternational.com/article/ia-longtemps-intouchable-jensen-huang-puissant-patron-du-geant-nvidia-a-fini-par-chuter_286196",
+    "date": "2026-11-12",
+    "resume": "Le cofondateur du géant américain des semi-conducteurs a démissionné, ce jeudi 12 novembre, après la révélation de deux liaisons extraconjugales, l’une avec une espionne chinoise présumée, l’autre avec une dirigeante de Nvidia. Ses pairs de la Silicon Valley et le président Trump avaient pourtant tout fait pour protéger celui qui a fait de son entreprise la pièce centrale de la course à l’intelligence artificielle, raconte “The Atlantic” dans un article publié avant son départ.",
+    "categories": [
+      "IA"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Une fuite de données massive révèle l’ampleur des pertes militaires russe en Ukraine",
+    "lien": "https://www.courrierinternational.com/article/guerre-une-fuite-de-donnees-massive-revele-l-ampleur-des-pertes-militaires-russe-en-ukraine_286749",
+    "date": "2026-11-12",
+    "resume": "Des pirates informatiques affirment avoir dérobé des millions de certificats de décès à l’agence russe des statistiques. Leur publication, examinée par plusieurs médias internationaux, suggère qu’environ 500 000 soldats russes ont été tués en Ukraine depuis le début de l’invasion.",
+    "categories": [
+      "Guerre"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Pour la délégation russe à Abou Dhabi, les Européens sont “venus en touristes”",
+    "lien": "https://www.courrierinternational.com/article/guerre-en-ukraine-pour-la-delegation-russe-a-abou-dhabi-les-europeens-sont-venus-en-touristes_286643",
+    "date": "2026-11-12",
+    "resume": "Les pourparlers entre Russes et Ukrainiens à Abou Dhabi, organisés les 10 et 11 novembre sous l’égide des États-Unis, ont abouti à la promesse d’un vaste échange de prisonniers entre les deux pays. Pour le reste, la perspective d’une paix durable demeure bien lointaine, observe la presse russe. Ce jeudi 12 novembre, deux émissaires américains se sont rendus à Moscou pour s’entretenir avec Vladimir Poutine.",
+    "categories": [
+      "Guerre en Ukraine"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Malgré le différend avec Trump sur le nom du golfe, le Mexique consolide ses droits maritimes",
+    "lien": "https://www.courrierinternational.com/article/geopolitique-malgre-le-differend-avec-trump-sur-le-nom-du-golfe-le-mexique-consolide-ses-droits-maritimes_286750",
+    "date": "2026-11-12",
+    "resume": "Mercredi 11 novembre, l’ONU a confirmé l’extension des limites du plateau continental du Mexique. Une décision qui renforce ses droits sur les ressources des fonds marins, sans modifier la frontière maritime, mais qui ne règle pas le différend avec Washington autour du nom du golfe.",
+    "categories": [
+      "Géopolitique"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Entre Tokyo et Moscou, le début d’une crise diplomatique ?",
+    "lien": "https://www.courrierinternational.com/article/geopolitique-entre-tokyo-et-moscou-le-debut-d-une-crise-diplomatique_286717",
+    "date": "2026-11-12",
+    "resume": "Ces dernières semaines, la Russie a accentué sa pression sur le Japon, l’un des principaux alliés de l’Ukraine en Asie, en témoignent l’arrestation d’un journaliste nippon et la saisine des actifs de filiales russes du groupe Japan Tobacco (Japan Tobacco). En pleine crise avec la Chine, Tokyo n’ose pourtant pas prendre de mesures fortes contre ces manœuvres, observe la presse japonaise.",
+    "categories": [
+      "Géopolitique"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Le patron de Nvidia Jensen Huang démissionne, une “chute spectaculaire”",
+    "lien": "https://www.courrierinternational.com/article/economie-le-patron-de-nvidia-jensen-huang-demissionne-une-chute-spectaculaire_286754",
+    "date": "2026-11-12",
+    "resume": "Empêtré dans un scandale après des révélations sur deux relations extraconjugales, dont une avec une supposée espionne chinoise, Jensen Huang a démissionné de son poste de président de Nvidia, jeudi 12 novembre. Une décision qui secoue le secteur de la tech, dont lui et son entreprise sont devenus des acteurs incontournables ces dernières années.",
+    "categories": [
+      "Économie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "En Arabie saoudite, une Kényane condamnée à cent coups de fouet pour grossesse hors mariage",
+    "lien": "https://www.courrierinternational.com/article/droits-humains-en-arabie-saoudite-une-kenyane-condamnee-a-cent-coups-de-fouet-pour-grossesse-hors-mariage_286675",
+    "date": "2026-11-12",
+    "resume": "Environ un million et demi de femmes étrangères travaillent comme domestiques au sein du royaume, dans une grande précarité. Tomber enceinte constitue, pour ces femmes souvent célibataires, une “double peine”. C’est le cas pour Esther Wanja Muthoni, dont la condamnation révèle les limites des réformes dont se targue le prince héritier, Mohammed ben Salmane.",
+    "categories": [
+      "Droits humains"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Cyberattaques : pourquoi la France a-t-elle si vite accusé l’Iran ?",
+    "lien": "https://www.courrierinternational.com/article/diplomatie-cyberattaques-pourquoi-la-france-a-t-elle-si-vite-accuse-l-iran_286714",
+    "date": "2026-11-12",
+    "resume": "Les cyberattaques contre les systèmes de réfrigération de centaines de supermarchés ont ébranlé la France. Lundi 9 novembre, Paris en a attribué la responsabilité à un groupe iranien, avec une rapidité et une précision qui tranche avec ses habitudes diplomatiques, observe la presse étrangère.",
+    "categories": [
+      "Diplomatie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Les valeurs de l’IA chahutées par le scandale Nvidia",
+    "lien": "https://www.courrierinternational.com/article/bourse-les-valeurs-de-l-ia-chahutees-par-le-scandale-nvidia_286757",
+    "date": "2026-11-12",
+    "resume": "Avant l’annonce du départ de Jensen Huang, le patron du géant mondial des semi-conducteurs, le titre de la société dévissait à Wall Street, entraînant dans sa chute d’autres entreprises fortement dépendantes des puces de Nvidia.",
+    "categories": [
+      "Bourse"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Conseil de l'UE",
+    "titre": "Statement after the Leaders Meeting of the Core Group of Support to Armenia",
+    "lien": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/12/statement-after-the-leaders-meeting-of-the-core-group-of-support-to-armenia/",
+    "date": "2026-11-12",
+    "resume": "Leaders and representatives of Estonia, France, Latvia, Lithuania, the United Kingdom and the High Representative of the Union for Foreign Affairs and Security Policy, met on 12 November 2026 with Armenian Prime Minister Nikol Pashinyan on the margins of the European Political Community summit in Dublin. Joined by Germany, the Netherlands, Norway, Poland, the President of the European Council and the President of the European Commission, they issued a statement.",
+    "categories": [
+      "Europe orientale"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Conseil de l'UE",
+    "titre": "Remarks by President António Costa at the press conference following the meeting of the European Political Community in Dublin",
+    "lien": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/12/remarks-by-president-antonio-costa-at-the-press-conference-following-the-meeting-of-the-european-political-community-in-dublin/",
+    "date": "2026-11-12",
+    "resume": "President of the European Council, António Costa, outlined the main results of the discussions of the leaders during the meeting of the European Political Community held in Dublin, Ireland, on 12 November 2026.",
+    "categories": [
+      "Guerre menée par la Russie contre l'Ukraine",
+      "Europe orientale"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Conseil de l'UE",
+    "titre": "Allocution d'ouverture du président António Costa lors de la réunion de la Communauté politique européenne à Dublin",
+    "lien": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/12/opening-remarks-by-president-antonio-costa-at-the-meeting-of-the-european-political-community-in-dublin/",
+    "date": "2026-11-12",
+    "resume": "Le 12 novembre 2026, le président du Conseil européen, António Costa, a coprésidé la neuvième réunion de la Communauté politique européenne à Dublin, en Irlande.",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "Conseil de l'UE",
+    "titre": "Joint statement by President Costa and President von der Leyen following their meeting with President Zelenskyy in Dublin",
+    "lien": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/12/joint-statement-by-president-costa-and-president-von-der-leyen-following-their-meeting-with-president-zelenskyy-in-dublin/",
+    "date": "2026-11-12",
+    "resume": "President Costa and President von der Leyen issued a joint statement following their meeting with President of Ukraine, Volodymyr Zelenskyy in Dublin, on 12 November 2026.",
+    "categories": [
+      "Guerre menée par la Russie contre l'Ukraine",
+      "Sanctions",
+      "Europe orientale"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Conseil de l'UE",
+    "titre": "Fisheries and aquaculture: Council and Parliament agree on modernised framework for statistics",
+    "lien": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/12/fisheries-and-aquaculture-council-and-parliament-agree-on-modernised-framework-for-statistics/",
+    "date": "2026-11-12",
+    "resume": "The Council and European Parliament agree on a modernised framework for fisheries and aquaculture statistics, improving data quality and simplifying reporting across the EU.",
+    "categories": [
+      "Pêche",
+      "Nature et biodiversité"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Conseil de l'UE",
+    "titre": "Emissions trading system: Council and Parliament agree to boost free carbon allowances for energy-intensive industries",
+    "lien": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/12/emissions-trading-system-council-and-parliament-agree-to-boost-free-carbon-allowances-for-energy-intensive-industries/",
+    "date": "2026-11-12",
+    "resume": "The Council reached a provisional agreement with the European Parliament on increasing free carbon allowances for industry sectors falling under the ETS heat and fuel benchmarks from 2026 to 2030.",
+    "categories": [
+      "Climat",
+      "Industrie"
+    ]
+  },
+  {
+    "categorie": "régulation",
+    "source": "CNIL|Actualités",
+    "titre": "Actualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA",
+    "lien": "https://www.cnil.fr/fr/actualite-du-cepd-adequation-de-la-coree-du-sud-versions-finales-des-bcr-st-et-action-coordonnee-sur",
+    "date": "2026-11-12",
+    "resume": "Le 10 novembre 2026, le Comité européen de la protection des données (CEPD) a adopté une déclaration sur l’adéquation de la Corée du Sud en matière de protection des données, ses recommandations finales sur les règles d’entreprises contraignantes et le thème de la sixième action coordonnée (CEF).",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Présidentielle 2027 : entre rivalités, batailles d’influence et critiques, plongée dans l’univers impitoyable des instituts de sondage",
+    "lien": "https://www.challenges.fr/politique/presidentielle-2027-entre-rivalites-batailles-dinfluence-et-critiques-plongee-dans-lunivers-impitoyable-des-instituts-de-sondage_646947",
+    "date": "2026-11-12",
+    "resume": "Décriées mais incontournables, les enquêtes d’opinion pour la présidentielle sont la tête de gondole d’un secteur ultraconcurrentiel et bousculé par l’IA. Challenges analyse l’influence et les performances des principaux acteurs.",
+    "categories": [
+      "Politique"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Comment reconnaître une enseigne fiable pour faire remplacer ses menuiseries extérieures ?",
+    "lien": "https://www.challenges.fr/partenaires/comment-reconnaitre-une-enseigne-fiable-pour-faire-remplacer-ses-menuiseries-exterieures_646938",
+    "date": "2026-11-12",
+    "resume": "Il existe plusieurs raisons de renouveler ses menuiseries extérieures : besoin d'une meilleure isolation de l'habitat, envie de moderniser sa maison… Toujours est-il que pour cela, il faut tout d'abord dénicher une enseigne capable de fabriquer des portes et fenêtres de qualité tout en proposant une pose sans accroc. On vous propose en premier lieu les critères de choix à évaluer puis un classement des différents types d'acteurs du secteur.",
+    "categories": [
+      "Partenaires"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "À Asnières-sur-Seine (92), l’éclairage public entre dans une nouvelle ère avec EDF",
+    "lien": "https://www.challenges.fr/partenaires/a-asnieres-sur-seine-92-leclairage-public-entre-dans-une-nouvelle-ere-avec-edf_646782",
+    "date": "2026-11-12",
+    "resume": "LED, détection de présence, télégestion, capteurs… En huit ans, Asnières-sur-Seine a profondément transformé son éclairage public avec le groupe EDF. Un programme qui permet aujourd’hui à la commune de réduire de 76 % la consommation énergétique annuelle de son parc.",
+    "categories": [
+      "Partenaires"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "« Paix hybride » : pourquoi la France se retrouve désormais en première ligne face à la très polymorphe menace iranienne",
+    "lien": "https://www.challenges.fr/monde/paix-hybride-pourquoi-la-france-se-retrouve-desormais-en-premiere-ligne-face-a-la-tres-polymorphe-menace-iranienne_646945",
+    "date": "2026-11-12",
+    "resume": "En accusant publiquement Téhéran pour les massives attaques cyber de la mi-octobre, les autorités françaises montrent qu’elles prennent au sérieux le danger du terrorisme des Gardiens de la Révolution, alors que le conflit dans le Golfe peut s’embraser de nouveau.",
+    "categories": [
+      "Monde"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Au cœur des mines de cuivre et de cobalt de RDC, où les Américains tentent de briser la domination chinoise sur les minerais les plus convoités de la planète",
+    "lien": "https://www.challenges.fr/monde/au-coeur-des-mines-de-cuivre-et-de-cobalt-de-rdc-ou-les-americains-tentent-de-briser-la-domination-chinoise-sur-les-minerais-les-plus-convoites-de-la-planete_646920",
+    "date": "2026-11-12",
+    "resume": "Cuivre, cobalt ou lithium : le sud du pays regorge de ressources stratégiques pour l’industrie. Plongée inédite dans le site de Mutoshi, à Kolwezi, où l’américain Virtus Minerals débarque face aux chinois.",
+    "categories": [
+      "Monde"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Jensen Huang démissionne de Nvidia après le scandale sur son adultère : le géant des puces IA face à une transition de tous les dangers",
+    "lien": "https://www.challenges.fr/entreprise/tech-numerique/jensen-huang-demissionne-de-nvidia-apres-le-scandale-sur-son-adultere-le-geant-des-puces-ia-face-a-une-transition-de-tous-les-dangers_646952",
+    "date": "2026-11-12",
+    "resume": "Jensen Huang a démissionné ce jeudi 12 novembre de son poste de directeur général de Nvidia, quelques jours après avoir reconnu une liaison extraconjugale avec une femme suspectée par les autorités américaines d’être une agente du renseignement chinois. Sa succession aura fort à faire pour maintenir le géant des puces au centre de l’économie de l’IA.",
+    "categories": [
+      "Tech - Numérique"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "6,5 % du PIB en France : ce chiffre qui prouve que le retard français dans l’IA n’est donc pas celui que l’on croit",
+    "lien": "https://www.challenges.fr/entreprise/tech-numerique/65-du-pib-en-france-ce-chiffre-qui-prouve-que-le-retard-francais-dans-lia-nest-donc-pas-celui-que-lon-croit_646948",
+    "date": "2026-11-12",
+    "resume": "Malgré ses chercheurs de pointe et ses investissements informatiques, la France peine à tirer profit de l’intelligence artificielle. Une étude révèle les freins organisationnels qui pénalisent la productivité des entreprises.",
+    "categories": [
+      "Tech - Numérique"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "« On est presque dans le film Ocean’s Eleven ! » Des bijoux aux sacs de luxe… Enquête sur le phénomène des braquages dans le luxe",
+    "lien": "https://www.challenges.fr/entreprise/on-est-presque-dans-le-film-oceans-eleven-des-bijoux-aux-sacs-de-luxe-enquete-sur-le-phenomene-des-braquages-dans-le-luxe_646944",
+    "date": "2026-11-12",
+    "resume": "Un nouveau braquage de bijouterie s’est déroulé ce jeudi matin à Paris. Alors qu’il est devenu moins intéressant d’attaquer les banques et que le prix de certains sacs a bondi, les boutiques de luxe sont devenues des cibles privilégiées pour les malfaiteurs.",
+    "categories": [
+      "Entreprise"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "+94,8 % pour les tomates, + 40,2 % pour les concombres… : l’addition salée de l’été 2026 pour les consommateurs comme pour les agriculteurs",
+    "lien": "https://www.challenges.fr/entreprise/green-economie/948-pour-les-tomates-402-pour-les-concombres-laddition-salee-de-lete-2026-pour-les-consommateurs-comme-pour-les-agriculteurs_646953",
+    "date": "2026-11-12",
+    "resume": "Oxfam souligne l’ampleur de la « climflation » dans un rapport publié ce jeudi 12 novembre. À cause des événements climatiques de cet été, les prix des fruits et légumes s’envolent tout comme les coûts de production pour les agriculteurs.",
+    "categories": [
+      "Green Economie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Made in France : ce chiffre inquiétant sur le patriotisme économique qui montre le vrai décrochage des Français",
+    "lien": "https://www.challenges.fr/economie/made-in-france-ce-chiffre-inquietant-sur-le-patriotisme-economique-qui-montre-le-vrai-decrochage-des-francais_646925",
+    "date": "2026-11-12",
+    "resume": "L’institut Rexecode a publié une étude sur la part des produits nationaux dans la consommation en fonction des pays. À l’occasion du Salon du Made in France qui s’ouvre ce jeudi 12 novembre, on constate que sur dix ans, la production tricolore est en baisse.",
+    "categories": [
+      "Économie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Les Français sont-ils patriotiques quand il faut acheter des produits Made in France ?",
+    "lien": "https://www.challenges.fr/economie/les-francais-sont-ils-patriotiques-quand-il-faut-acheter-des-produits-made-in-france_646949",
+    "date": "2026-11-12",
+    "resume": "C'est sympa un produit Made in France, mais quand il s'agit de passer à la caisse, c'est souvent une autre histoire ! Les Français sont-ils véritablement patriotes quand il faut acheter français ? C'est la question du Dégraph de cette semaine.",
+    "categories": [
+      "Économie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Le RN a t-il vraiment des mesures pour aider les plus pauvres ?",
+    "lien": "https://www.challenges.fr/economie/le-rn-a-t-il-vraiment-des-mesures-pour-aider-les-plus-pauvres_646950",
+    "date": "2026-11-12",
+    "resume": "Ce lundi 09 novembre, Sébastien Chenu, le vice-président RN de l'Assemblée nationale était l'invité de \"Lundi, c'est politique\" sur LCP en partenariat avec Radio Classique et Challenges. L'occasion pour notre journaliste, chef du service France, Laurent Fargues, de questionner l'élu sur les mesures de son parti à destination des plus pauvres.",
+    "categories": [
+      "Économie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "« Il faut réfléchir au prix que l’on est prêt à payer pour sa qualité de vie » : pourquoi les cadres qui s’installent en Nouvelle-Aquitaine doivent souvent revoir leurs prétentions salariales",
+    "lien": "https://www.challenges.fr/economie/il-faut-reflechir-au-prix-que-lon-est-pret-a-payer-pour-sa-qualite-de-vie-pourquoi-les-cadres-qui-sinstallent-en-nouvelle-aquitaine-doivent-souvent-revoir-leurs-pretentions-salariales_646827",
+    "date": "2026-11-12",
+    "resume": "Dans cette vaste région entre océan et montagnes, Bordeaux domine largement l’emploi cadre, devant le Béarn et la région de Niort. Un cadre de vie et des villes qui attirent en masse, malgré un salaire médian sous la moyenne nationale.",
+    "categories": [
+      "Économie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Obligations vertes : comment investir dans la transition écologique et choisir les bons fonds sans tomber dans le piège du greenwashing",
+    "lien": "https://www.challenges.fr/argent-et-placements/obligations-vertes-comment-investir-dans-la-transition-ecologique-et-choisir-les-bons-fonds-sans-tomber-dans-le-piege-du-greenwashing_646755",
+    "date": "2026-11-12",
+    "resume": "PLACEMENTS RESPONSABLES (4/8) - Pour financer la transition écologique, les green bonds se multiplient. Passer par un fonds spécialisé permet de se diversifier et de limiter le risque.",
+    "categories": [
+      "Argent et Placements"
+    ]
+  },
+  {
+    "categorie": "cour-comptes",
+    "source": "Cour des Comptes",
+    "titre": "Service départemental d'incendie et de secours du Calvados (SDIS 14)",
+    "lien": "https://www.ccomptes.fr/fr/publications/service-departemental-dincendie-et-de-secours-du-calvados-sdis-14-0",
+    "date": "2026-11-12",
+    "resume": "La chambre régionale des comptes Normandie a examiné, à compter de 2019, la gestion du service départemental d'incendie et de secours du Calvados (SDIS 14).",
+    "categories": []
+  },
+  {
+    "categorie": "cour-comptes",
+    "source": "Cour des Comptes",
+    "titre": "Rapport public thématique : Agriculture et souveraineté alimentaire en Polynésie française",
+    "lien": "https://www.ccomptes.fr/fr/publications/rapport-public-thematique-agriculture-et-souverainete-alimentaire-en-polynesie",
+    "date": "2026-11-12",
+    "resume": "La chambre territoriale des comptes publie un rapport public thématique consacré à l’agriculture et à la souveraineté alimentaire en Polynésie française. Cette synthèse de trois rapports d’observations définitives permet de constater que le Pays dispose de leviers d’action nombreux, mais que les résultats restent éloignés des ambitions affichées. Entre 2020 et 2023, les importations agricoles ont atteint un montant deux fois supérieur à celui de la production locale commercialisée. Onze filières sur treize ont enregistré un recul en volume et certaines hausses en valeur constatées traduisent principalement une augmentation des prix pratiqués.",
+    "categories": []
+  },
+  {
+    "categorie": "cour-comptes",
+    "source": "Cour des Comptes",
+    "titre": "Les relations entre la collectivité de la Polynésie française et l'Union européenne",
+    "lien": "https://www.ccomptes.fr/fr/publications/les-relations-entre-la-collectivite-de-la-polynesie-francaise-et-lunion-europeenne",
+    "date": "2026-11-12",
+    "resume": "La chambre territoriale des comptes a examiné les relations entre la Polynésie française et l’Union européenne depuis 2021. La Polynésie française a le statut de pays et territoire d’outre-mer (PTOM), qui l’associe à l’Union européenne et lui donne accès à des financements européens sans qu’elle fasse partie de l’Union.",
+    "categories": []
+  },
+  {
+    "categorie": "cour-comptes",
+    "source": "Cour des Comptes",
+    "titre": "La fondation Louis Lépine",
+    "lien": "https://www.ccomptes.fr/fr/publications/la-fondation-louis-lepine",
+    "date": "2026-11-12",
+    "resume": "Créée et reconnue d’utilité publique en 1950 pour délivrer des prestations d’action sociale aux agents et personnels retraités de la préfecture de police de Paris, la fondation Louis Lépine avait fait l’objet de nombreuses critiques de la part de la Cour des comptes lors de sa précédente intervention en 2015. Une décennie plus tard, des progrès ont certes été accomplis dans quelques domaines, mais la fondation reste confrontée à de nombreux défis qui suscitent des doutes sur sa viabilité.",
+    "categories": []
+  },
+  {
+    "categorie": "cour-comptes",
+    "source": "Cour des Comptes",
+    "titre": "Collectivité de la Polynésie française : Le transport aérien insulaire et les délégations afférentes",
+    "lien": "https://www.ccomptes.fr/fr/publications/collectivite-de-la-polynesie-francaise-le-transport-aerien-insulaire-et-les",
+    "date": "2026-11-12",
+    "resume": "La Polynésie française est l’autorité organisatrice du transport aérien interinsulaire. À ce titre, le Pays définit les obligations de service public nécessaires à la continuité des dessertes. En 2025, les lignes aériennes intérieures ont transporté près de 924 000 passagers. Pour les habitants des îles éloignées, l’avion est essentiel, notamment pour accéder aux soins et à l’éducation.",
+    "categories": []
+  },
+  {
+    "categorie": "institutions",
+    "source": "AN|Documents",
+    "titre": "Texte adopté n° 364 - Projet de loi, rejeté par l'Assemblée nationale après engagement de la procédure accélérée, pour 2026",
+    "lien": "https://www.assemblee-nationale.fr/17/ta/ta0364.asp",
+    "date": "2026-11-12",
+    "resume": "Texte adopté n° 364 - Projet de loi, rejeté par l'Assemblée nationale après engagement de la procédure accélérée, pour 2026",
+    "categories": []
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "La baisse des souscriptions pèse sur le chiffre d’affaires du Groupe Paref",
+    "lien": "https://www.agefi.fr/patrimoine/immobilier/la-baisse-des-souscriptions-pese-sur-le-chiffre-daffaires-du-groupe-paref",
+    "date": "2026-11-12",
+    "resume": "Coté en Bourse, le groupe de gestion immobilière a publié son chiffre d'affaires au 30 septembre 2026. Il s'élève à 18,5 millions d’euros, en baisse par rapport à 2025.",
+    "categories": [
+      "Immobilier"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "Iroko Zen signe l'acquisition la plus importante de son histoire",
+    "lien": "https://www.agefi.fr/patrimoine/immobilier/iroko-zen-signe-lacquisition-la-plus-importante-de-son-histoire",
+    "date": "2026-11-12",
+    "resume": "La SCPI intègre en portefeuille un complexe de bureaux à Bois-Colombes pour près de 100 millions d’euros et pour un rendement supérieur à 10%.",
+    "categories": [
+      "Immobilier"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "Siemens profite pleinement de l’essor de l’IA industrielle",
+    "lien": "https://www.agefi.fr/news/entreprises/siemens-profite-pleinement-de-lessor-de-lia-industrielle",
+    "date": "2026-11-12",
+    "resume": "Fort du dynamisme de ses résultats annuels, le groupe allemand a relevé ses objectifs financiers à moyen terme, tout en poursuivant son recentrage.",
+    "categories": [
+      "Entreprises"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "Google pourrait bien être condamné définitivement sur le dossier AdSense",
+    "lien": "https://www.agefi.fr/news/entreprises/google-pourrait-bien-etre-condamne-definitivement-sur-le-dossier-adsense",
+    "date": "2026-11-12",
+    "resume": "L’avocate générale de la Cour de justice de l’Union européenne (CJUE) propose d’annuler l’arrêt du Tribunal de l’UE, qui avait lui-même annulé la sanction pécuniaire de près de 1,5 milliard d’euros infligée à Google pour pratiques abusives dans la publicité en ligne. Toutefois, le quantum de l’amende devra être réduit.",
+    "categories": [
+      "Entreprises"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "Wall Street digère le choc Nvidia",
+    "lien": "https://www.agefi.fr/news/economie-marches/wall-street-digere-le-choc-nvidia",
+    "date": "2026-11-12",
+    "resume": "Après une chute initiale de près de 15%, dans le sillage de la démission de son patron Jensen Huang, l’action Nvidia a réduit ses pertes. Les entreprises liées au fabricant de puces, notamment par des financements, étaient pénalisées. Mais d’autres, notamment dans les semi-conducteurs, ont progressé tandis que les hyperscalers ont encore rebondi.",
+    "categories": [
+      "Economie & Marchés"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "Les recettes de la BCE pour ne plus vraiment rationner la liquidité",
+    "lien": "https://www.agefi.fr/news/economie-marches/les-recettes-de-la-bce-pour-ne-plus-vraiment-rationner-la-liquidite",
+    "date": "2026-11-12",
+    "resume": "A l’occasion de la conférence Money Markets 2026 de la Banque centrale européenne (BCE), qui s’est tenue les 5 et 6 novembre à Francfort, L’Agefi revient sur la politique de bilan de l'institution qui a profondément évolué depuis vingt ans.",
+    "categories": [
+      "Economie & Marchés"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "Les prix du gaz naturel européen font le yo-yo",
+    "lien": "https://www.agefi.fr/news/economie-marches/les-prix-du-gaz-naturel-europeen-font-le-yo-yo",
+    "date": "2026-11-12",
+    "resume": "Les cours du gaz naturel européen sont ballottés entre les espoirs de résolution du conflit entre les Etats-Unis et l’Iran, les coups de froid anticipés en Europe, et la reprise attendue des chargements de gaz naturel liquéfié à Ras Laffan au Qatar. Dans les prochaines semaines, ces derniers pourraient aider à reconstituer la moitié du trafic du GNL qatari disparue depuis mars.",
+    "categories": [
+      "Economie & Marchés"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "Le Sénat formule ses propositions pour améliorer le budget tricolore 2027",
+    "lien": "https://www.agefi.fr/news/economie-marches/le-senat-formule-ses-propositions-pour-ameliorer-le-budget-tricolore-2027",
+    "date": "2026-11-12",
+    "resume": "La Commission des finances du Sénat considère que le budget 2027 devrait explorer davantage le volet économies au lieu de changer certaines règles fiscales de manière rétroactive ou de faire peser largement le redressement des finances publiques sur les collectivités locales.",
+    "categories": [
+      "Economie & Marchés"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "Munich Re surprend positivement les marchés au troisième trimestre",
+    "lien": "https://www.agefi.fr/news/banque-assurance/munich-re-surprend-positivement-les-marches-au-troisieme-trimestre",
+    "date": "2026-11-12",
+    "resume": "Malgré un résultat net en repli, le premier réassureur mondial dépasse les attentes au troisième trimestre et relève ses perspectives pour 2026. De quoi susciter l’intérêt des investisseurs et faire rebondir le titre en Bourse.",
+    "categories": [
+      "Banque & Assurance"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "Nvidia bascule brutalement dans l'ère post-Jensen Huang",
+    "lien": "https://www.agefi.fr/news/a-la-une/nvidia-bascule-brutalement-dans-lere-post-jensen-huang",
+    "date": "2026-11-12",
+    "resume": "Nvidia a tenté d’éteindre l’incendie en désignant dès mercredi sa directrice financière Colette Kress à sa tête alors que son dirigeant Jensen Huang a démissionné avec effet immédiat. L'entreprise va maintenant devoir rassurer sur sa succession, limiter la dégringolade boursière, et pérenniser son enchevêtrement d’investissements dans l'IA.",
+    "categories": [
+      "A la Une"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Actu-Environnement",
+    "titre": "La réparation du préjudice écologique par le juge administratif : conditions de la carence fautive de l'État",
+    "lien": "https://www.actu-environnement.com/ae/news/prejudice-ecologique-carence-fautive-etat-juge-administratif-48790.php4#xtor=RSS-6",
+    "date": "2026-11-12",
+    "resume": "Dix ans après la loi du 8 août 2016, le contentieux administratif du préjudice écologique se concentre sur la carence fautive de l'État. La jurisprudence permet d'en dégager trois conditions cumulatives.",
+    "categories": [
+      "Politiques publiques"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Actu-Environnement",
+    "titre": "Face à un monde en crise, l'absence de transition robuste renforce les vulnérabilités",
+    "lien": "https://www.actu-environnement.com/ae/news/polycrise-transition-energetique-dependances-robustesse-48792.php4#xtor=RSS-6",
+    "date": "2026-11-12",
+    "resume": "Énergie, alimentation, climat... Les crises se suivent, s'enchaînent et s'alimentent, dans un monde interconnecté. Les impacts de ces crises vont s'amplifier, faute de réponse durable et robuste. Avec des conséquences sociales et politiques fortes.",
+    "categories": [
+      "Décarbonation"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Actu-Environnement",
+    "titre": "Lac de Petit-Saut en Guyane : la justice enjoint au préfet de déposer une dérogation « espèce protégée »",
+    "lien": "https://www.actu-environnement.com/ae/news/petit-saut-guyane-derogation-especes-protegees-48794.php4#xtor=RSS-6",
+    "date": "2026-11-12",
+    "resume": "Par un jugement du 5 novembre 2026, le tribunal administratif de Guyane a enjoint au préfet de mettre en demeure, dans un délai de deux mois, la société Triton Guyane de déposer une demande de dérogation « espèces protégées » et, à défaut, de susp...",
+    "categories": [
+      "Eau et milieux"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Actu-Environnement",
+    "titre": "Pompes à chaleur : des bonifications de CEE pour les offres intégrées",
+    "lien": "https://www.actu-environnement.com/ae/news/pac-air-eau-bonifications-cee-offres-integrees-48793.php4#xtor=RSS-6",
+    "date": "2026-11-12",
+    "resume": "Dans le cadre des certificats d'économies d'énergie (CEE), le Gouvernement a publié, le 10 novembre au Journal officiel, un arrêté qui fixe les modalités des offres intégrées de pompes à chaleur (PAC) air-eau. À compter du 17 novembre 2026, les mé...",
+    "categories": [
+      "Décarbonation"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Actu-Environnement",
+    "titre": "Chlordécone : l'État condamné à indemniser un ouvrier agricole atteint d'un cancer de la prostate",
+    "lien": "https://www.actu-environnement.com/ae/news/chlordecone-etat-condamne-ouvrier-agricole-cancer-48791.php4#xtor=RSS-6",
+    "date": "2026-11-12",
+    "resume": "Par un jugement du 27 octobre 2026, le tribunal administratif de Guadeloupe a condamné l'État à réparer le préjudice subi par un ancien ouvrier agricole dont le cancer de la prostate, reconnu comme maladie professionnelle, a été causé par son expo...",
+    "categories": [
+      "Risques"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CEDH",
+    "titre": "AFFAIRE TEYMURAZYAN c. ARMÉNIE",
+    "lien": "https://hudoc.echr.coe.int/fre?i=001-253787",
+    "date": "2026-11-12",
+    "resume": "34706/18 - Committee Judgment",
+    "categories": [
+      "Arrêt de comité"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CEDH",
+    "titre": "AFFAIRE GHAZARYAN c. ARMÉNIE",
+    "lien": "https://hudoc.echr.coe.int/fre?i=001-253786",
+    "date": "2026-11-12",
+    "resume": "56889/17 - Committee Judgment",
+    "categories": [
+      "Arrêt de comité"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CEDH",
+    "titre": "AFFAIRE LANZONE ET AUTRES c. ITALIE",
+    "lien": "https://hudoc.echr.coe.int/fre?i=001-253785",
+    "date": "2026-11-12",
+    "resume": "48061/15;65671/16 - Committee Judgment",
+    "categories": [
+      "Arrêt de comité"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CEDH",
+    "titre": "AFFAIRE FANERY TA PLYTY, PAT c. UKRAINE",
+    "lien": "https://hudoc.echr.coe.int/fre?i=001-253784",
+    "date": "2026-11-12",
+    "resume": "51121/17 - Chamber Judgment",
+    "categories": [
+      "Arrêt de chambre"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CEDH",
+    "titre": "AFFAIRE SERAFEIM ET AUTRES c. GRÈCE",
+    "lien": "https://hudoc.echr.coe.int/fre?i=001-253738",
+    "date": "2026-11-12",
+    "resume": "392/26 - Committee Judgment",
+    "categories": [
+      "Arrêt de comité"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CEDH",
+    "titre": "AFFAIRE ROUX c. SUISSE",
+    "lien": "https://hudoc.echr.coe.int/fre?i=001-253732",
+    "date": "2026-11-12",
+    "resume": "45008/22 - Committee Judgment",
+    "categories": [
+      "Arrêt de comité"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CEDH",
+    "titre": "AFFAIRE FALLENA c. ITALIE",
+    "lien": "https://hudoc.echr.coe.int/fre?i=001-253731",
+    "date": "2026-11-12",
+    "resume": "48017/20 - Committee Judgment",
+    "categories": [
+      "Arrêt de comité"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CEDH",
+    "titre": "AFFAIRE PORT DE FERRY DE SPLIT SA c. CROATIE",
+    "lien": "https://hudoc.echr.coe.int/fre?i=001-253730",
+    "date": "2026-11-12",
+    "resume": "36331/21 - Committee Judgment",
+    "categories": [
+      "Arrêt de comité"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CEDH",
+    "titre": "AFFAIRE PIDHAINYI c. RÉPUBLIQUE TCHÈQUE",
+    "lien": "https://hudoc.echr.coe.int/fre?i=001-253728",
+    "date": "2026-11-12",
+    "resume": "1877/25 - Committee Judgment",
+    "categories": [
+      "Arrêt de comité"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CEDH",
+    "titre": "AFFAIRE MELORIO ET AUTRES c. ITALIE",
+    "lien": "https://hudoc.echr.coe.int/fre?i=001-253457",
+    "date": "2026-11-12",
+    "resume": "16423/25;17865/25;19640/25;21721/25;24807/25;25713/25 - Committee Judgment",
+    "categories": [
+      "Arrêt de comité"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CEDH",
+    "titre": "AFFAIRE AGNELLO ET AUTRES c. ITALIE",
+    "lien": "https://hudoc.echr.coe.int/fre?i=001-253233",
+    "date": "2026-11-12",
+    "resume": "34206/24;1698/25;3401/25;3443/25;6146/25;7322/25;30345/25 - Committee Judgment",
+    "categories": [
+      "Arrêt de comité"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62025CJ0557: __[unreferenced:arret-c-x-ext]__ du 12 novembre 2026 — EO contre Parlement européen",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0557",
+    "date": "2026-11-12",
+    "resume": "Pourvoi – Fonction publique – Agent temporaire – Contrat à durée indéterminée – Ouverture d’une enquête et tenue d’une audition dans le cadre d’une procédure disciplinaire – Résiliation du contrat – Article 47, sous c), i), du régime applicable aux autres agents de l’Union européenne – Rupture du lien de confiance — Affaire C-557/25 P",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62025CJ0476: __[unreferenced:arret-c-vii-ext]__ du 12 novembre 2026 — Investcapital Ltd contre F.C.T",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0476",
+    "date": "2026-11-12",
+    "resume": "Renvoi préjudiciel – Gestionnaires de crédits et acheteurs de crédits – Directive (UE) 2021/2167 – Relations avec l’emprunteur, communication du transfert et communications ultérieures – Article 10, paragraphe 1 – Entreprise ayant acheté un prêt échu – Procédure d’injonction de payer contre l’emprunteur-consommateur – Prescription d’une créance – Examen d’office par le juge national – Protection des consommateurs – Pratiques commerciales déloyales des entreprises vis‑à‑vis des consommateurs – Directive 2005/29/CE — Affaire C-476/25",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62025CJ0268: __[unreferenced:arret-c-iii-ext]__ du 12 novembre 2026 — ETS Srl e.a. contre Rete Ferroviaria Italiana SpA",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0268",
+    "date": "2026-11-12",
+    "resume": "Renvoi préjudiciel – Rapprochement des législations – Marchés publics – Directives 2014/24/UE et 2014/25/UE – Principe de proportionnalité – Infractions fiscales définitivement établies à une date antérieure à celle de l’expiration du délai de présentation de la demande de participation à la procédure de marché public concernée – Extinction, paiement de la dette fiscale concernée ou conclusion d’un accord contraignant en vue de payer celle-ci avant cette date d’expiration – Exclusion ou remplacement d’une entité faisant partie d’un groupement temporaire d’opérateurs économiques – Connaissance effective, par le chef de file de ce groupement, du motif de cette exclusion — Affaire C-268/25",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62025CJ0254: __[unreferenced:arret-c-v-ext]__ du 12 novembre 2026 — A.A. contre Wojewoda Śląski",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0254",
+    "date": "2026-11-12",
+    "resume": "Renvoi préjudiciel – Politique d’immigration – Directive (UE) 2016/801 – Conditions d’entrée et de séjour des ressortissants de pays tiers à des fins d’études – Article 34 – Garanties procédurales – Suspension des délais de traitement des demandes d’autorisation de séjour introduites par des ressortissants de pays tiers – Impossibilité d’exercer un recours contre les autorités compétentes pour traiter ces demandes – Droit fondamental à un recours juridictionnel effectif – Article 47 de la charte des droits fondamentaux de l’Union européenne – Force majeure — Affaire C-254/25",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62025CJ0230: __[unreferenced:arret-c-iii-ext]__ du 12 novembre 2026 — Mihail Mihaylov Stefanov contre Sofiyska apelativna prokuratura",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0230",
+    "date": "2026-11-12",
+    "resume": "Renvoi préjudiciel – Espace de liberté, de sécurité et de justice – Coopération judiciaire en matière pénale – Article 19, paragraphe 1, second alinéa, TUE – Article 47, deuxième alinéa, de la charte des droits fondamentaux de l’Union européenne – Accès à un tribunal indépendant et impartial – Juridiction statuant dans une affaire pénale et étant partie défenderesse dans une affaire civile en responsabilité – Directive (UE) 2016/343 – Article 8 – Droit d’assister à son procès – Volonté de se soustraire à une arrestation – Directive (UE) 2016/1919 – Aide juridictionnelle pour les suspects et les personnes poursuivies dans le cadre des procédures pénales – Remboursement – Article 4 – Critère d",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62025CJ0164: __[unreferenced:arret-c-v-ext]__ du 12 novembre 2026 — T - 2 družba za ustvarjanje, razvoj in trženje elektronskih komunikacij in opreme d.o.o. contre TELEKOM SLOVENIJE, d.d",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0164",
+    "date": "2026-11-12",
+    "resume": "Renvoi préjudiciel – Rapprochement des législations – Télécommunications – Mesures visant à réduire le coût du déploiement de réseaux de communications électroniques à haut débit – Directive 2014/61/UE – Accès aux infrastructures physiques existantes – Réglementation nationale relative au recours contre un refus d’accès à ces infrastructures – Article 3, paragraphe 5 – Droit d’introduire un recours devant l’organisme national de règlement des litiges ou devant une juridiction – Clôture de la procédure devant l’organisme national de règlement des litiges en cas d’introduction d’un recours juridictionnel – Principe d’effectivité – Droit à un recours effectif — Affaire C-164/25",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62025CJ0061: __[unreferenced:arret-c-vii-ext]__ du 12 novembre 2026 — Commission européenne contre Royaume d'Espagne",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0061",
+    "date": "2026-11-12",
+    "resume": "Pourvoi – Fonds européen agricole de garantie (FEAGA) et Fonds européen agricole pour le développement rural (Feader) – Dépenses exclues du financement de l’Union européenne – Règlement (UE) no 1306/2013 – Article 93, paragraphe 2 – Conditionnalité – Exigences réglementaires en matière de gestion (ERMG) – Biodiversité – Espèces de la flore sauvage protégées – Directive 92/43/CEE – Article 6, paragraphes 1 et 2 – Non-spécification des obligations des agriculteurs — Affaire C-61/25 P",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62025CJ0007: __[unreferenced:arret-c-ii-ext]__ du 12 novembre 2026 — K et P contre Minister van Asiel en Migratie",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0007",
+    "date": "2026-11-12",
+    "resume": "Renvoi préjudiciel – Espace de liberté, de sécurité et de justice – Politique d’asile – Statut de réfugié ou statut conféré par la protection subsidiaire – Directive 2011/95/UE – Article 4 – Évaluation des éléments pertinents d’une demande de protection internationale – Obligation pour le demandeur d’étayer les éléments de la demande par des documents authentiques ou d’autres preuves objectivement vérifiables – Portée – Coopération de l’État membre avec le demandeur pour évaluer les éléments pertinents de sa demande – Portée – Procédures pour l’octroi et le retrait de la protection internationale – Directive 2013/32/UE – Article 46 – Droit à un recours effectif – Examen complet et ex nunc – ",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62024CJ0897: __[unreferenced:arret-c-vi-ext]__ du 12 novembre 2026 — Conseil de l'Union européenne contre Vladimir Gheorghe Plahotniuc",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0897",
+    "date": "2026-11-12",
+    "resume": "Pourvoi – Politique étrangère et de sécurité commune – Mesures restrictives prises en raison des actions déstabilisant la République de Moldavie – Listes des personnes, des entités et des organismes auxquels s’applique le gel des fonds et faisant l’objet de restrictions en matière d’admission sur le territoire des États membres – Inscription du nom d’une personne sur ces listes – Enquêtes et poursuites pénales engagées par les autorités d’un État tiers – Obligation de vérifier que cette décision respecte les droits de la défense et le droit à une protection juridictionnelle effective – Base factuelle suffisamment solide – Obligation de motivation — Affaire C-897/24 P",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62024CJ0579: __[unreferenced:arret-c-ii-ext]__ du 12 novembre 2026 — Austro-Mechana Gesellschaft zur Wahrnehmung mechanisch-musikalischer Urheberrechte Gesellschaft mbH et AKM eingetragene Genossenschaft mit beschränkter Haftung contre Aufsichtsbehörde für Verwertungsgesellschaften",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0579",
+    "date": "2026-11-12",
+    "resume": "Renvoi préjudiciel – Rapprochement des législations – Propriété intellectuelle – Droit d’auteur et droits voisins – Directive 2001/29/CE – Article 2 – Droit de reproduction – Article 3, paragraphes 1 et 2 – Droit de communication et de mise à la disposition du public – Directive (UE) 2019/790 – Article 17 – Services de partage de contenus en ligne – Réalisation de copies numériques de contenus protégés sur les serveurs des fournisseurs de services de partage de contenus en ligne en vue de leur communication au public sur les plateformes en ligne de ces fournisseurs – Portée de la responsabilité desdits fournisseurs – Obligation des fournisseurs de services de partage de contenus en ligne d’o",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62023CJ0771: __[unreferenced:arret-c-ii-ext]__ du 12 novembre 2026 — République de Pologne contre Parlement européen et Conseil de l'Union européenne",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0771",
+    "date": "2026-11-12",
+    "resume": "Recours en annulation – Directive (UE) 2023/1791 – Efficacité énergétique – Modification du règlement (UE) 2023/955 – Base juridique de la directive 2023/1791 – Détermination – Prise en compte des effets de cette directive – Article 192, paragraphe 2, premier alinéa, sous c), TFUE – Article 194, paragraphe 2, TFUE – Mesures affectant sensiblement le choix d’un État membre entre différentes sources d’énergie et la structure générale de son approvisionnement énergétique – Principe de proportionnalité – Régularité de l’analyse d’impact de la directive 2023/1791 – Caractère approprié de cette directive par rapport aux objectifs poursuivis – Prise en compte de la situation spécifique des États me",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62023CJ0512: __[unreferenced:arret-c-ii-ext]__ du 12 novembre 2026 — République de Pologne contre Parlement européen et Conseil de l'Union européenne",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0512",
+    "date": "2026-11-12",
+    "resume": "Recours en annulation – Règlement (UE) 2023/956 – Mécanisme d’ajustement carbone aux frontières – Base juridique de ce règlement – Détermination – Acte complétant un acte préexistant – Article 192, paragraphe 1, TFUE – Article 192, paragraphe 2, premier alinéa, sous a), TFUE – Dispositions essentiellement de nature fiscale – Interprétation stricte – Mesure fondée sur le marché — Affaire C-512/23",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62023CJ0505: __[unreferenced:arret-c-ii-ext]__ du 12 novembre 2026 — République de Pologne contre Parlement européen et Conseil de l'Union européenne",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0505",
+    "date": "2026-11-12",
+    "resume": "Recours en annulation – Directive (UE) 2023/959 – Modification de la directive 2003/87/CE – Système d’échange de quotas d’émission de gaz à effet de serre dans l’Union européenne – Base juridique de cette directive – Détermination – Prise en compte des effets de ladite directive – Article 192, paragraphe 1, TFUE – Article 192, paragraphe 2, premier alinéa, sous a) et c), TFUE – Dispositions essentiellement de nature fiscale – Mesures affectant sensiblement le choix d’un État membre entre différentes sources d’énergie et la structure générale de son approvisionnement énergétique – Principes de solidarité énergétique, de subsidiarité, de proportionnalité, de non-discrimination et de coopératio",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62023CJ0451: __[unreferenced:arret-c-ii-ext]__ du 12 novembre 2026 — République de Pologne contre Parlement européen et Conseil de l'Union européenne",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0451",
+    "date": "2026-11-12",
+    "resume": "Recours en annulation – Règlement (UE) 2023/857 – Réductions annuelles contraignantes des émissions de gaz à effet de serre par les États membres de 2021 à 2030 – Modification du règlement (UE) 2018/842 – Base juridique du règlement 2023/857 – Détermination – Prise en compte des effets de ce règlement – Article 192, paragraphe 1, TFUE – Amélioration de la qualité de l’environnement – Article 192, paragraphe 2, premier alinéa, sous c), TFUE – Mesures affectant sensiblement le choix d’un État membre entre différentes sources d’énergie ainsi que la structure générale de son approvisionnement énergétique – Principes de solidarité énergétique, de proportionnalité et de coopération loyale – Conten",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62023CJ0445: __[unreferenced:arret-c-ii-ext]__ du 12 novembre 2026 — République de Pologne contre Parlement européen et Conseil de l'Union européenne",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0445",
+    "date": "2026-11-12",
+    "resume": "Recours en annulation – Décision (UE) 2023/852 – Modification de la décision (UE) 2015/1814 – Nombre de quotas à placer dans la réserve de stabilité du marché pour le système d’échange de quotas d’émission de gaz à effet de serre de l’Union européenne jusqu’en 2030 – Base juridique de la décision 2023/852 – Détermination – Prise en compte des effets de cette décision – Article 192, paragraphe 1, TFUE – Article 192, paragraphe 2, premier alinéa, sous c), TFUE – Principe de solidarité énergétique – Article 194, paragraphe 1, TFUE – Inapplicabilité – Principe de solidarité – Applicabilité – Article 3, paragraphes 1 et 3, TUE – Atteinte au bien-être des peuples de l’Union et à la cohésion social",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62023CJ0444: __[unreferenced:arret-c-ii-ext]__ du 12 novembre 2026 — République de Pologne contre Parlement européen et Conseil de l'Union européenne",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0444",
+    "date": "2026-11-12",
+    "resume": "Recours en annulation – Règlement (UE) 2023/851 – Renforcement des normes de performance en matière d’émissions de CO2 pour les voitures particulières neuves et les véhicules utilitaires légers neufs – Article 1er, point 1, sous a) et b) – Modification du règlement (UE) 2019/631 – Base juridique du règlement 2023/851 – Détermination – Prise en compte des effets de ce règlement – Article 192, paragraphe 1, TFUE – Article 192, paragraphe 2, premier alinéa, sous c), TFUE – Mesures affectant sensiblement le choix d’un État membre entre différentes sources d’énergie ainsi que la structure générale de son approvisionnement énergétique – Bien-être des peuples de l’Union européenne – Promotion de la",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "juridictions",
+    "source": "CJUE",
+    "titre": "CELEX:62023CJ0442: __[unreferenced:arret-c-ii-ext]__ du 12 novembre 2026 — République de Pologne contre Parlement européen et Conseil de l'Union européenne",
+    "lien": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62023CJ0442",
+    "date": "2026-11-12",
+    "resume": "Recours en annulation – Règlement (UE) 2023/839 – Modification du règlement (UE) 2018/841 – Prise en compte des émissions et des absorptions de gaz à effet de serre résultant de l’utilisation des terres, du changement d’affectation des terres et de la foresterie dans le cadre d’action en matière de climat et d’énergie à l’horizon 2030 – Modification du règlement (UE) 2018/1999 – Gouvernance de l’union de l’énergie et de l’action pour le climat – Mesures visant la neutralité climatique de l’Union européenne – Base juridique du règlement 2023/839 – Détermination – Prise en compte des effets de ce règlement – Article 192, paragraphe 1, TFUE – Amélioration de la qualité de l’environnement – Arti",
+    "categories": [
+      "6"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Eurostat|Actualités",
+    "titre": "Emergency oil stocks slightly down; commercial stocks up in July 2026",
+    "lien": "https://ec.europa.eu/eurostat/product?code=ddn-20261112-2",
+    "date": "2026-11-12",
+    "resume": "In July 2026, the EU held 103.5 million tonnes of emergency oil stocks. Compared with June 2026, emergency oil stocks decreased by 2.5%, while compared with July 2025, the drop was more substantial, at 4.2%. In 2025, emergency oil stocks were mostly stable around an average of 108.5 million tonne...",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "Eurostat|Actualités",
+    "titre": "2.3 million tonnes of textile waste generated in 2024",
+    "lien": "https://ec.europa.eu/eurostat/product?code=ddn-20261112-1",
+    "date": "2026-11-12",
+    "resume": "In 2024, 2.3 million tonnes of textile waste were generated in the EU. Household disposal accounted for over half of this amount. During the same year, 1.4 million tonnes of textile waste were treated, corresponding to 63% of all textile waste generated that year. Italy was the biggest producer o...",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "Eurostat|Actualités",
+    "titre": "Value of agriculture output hits record high in 2025",
+    "lien": "https://ec.europa.eu/eurostat/product?code=ddn-20261111-2",
+    "date": "2026-11-12",
+    "resume": "In 2025, the value of agricultural output in the EU was €558.7 billion in basic prices, representing a 4.8% increase compared with 2024 (€532.9 billion). This latest rise continued the upward trend to a new high. Agricultural output includes the value of crops, animals and agricultural services, ...",
+    "categories": []
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Coopération industrielle : le Gifas traverse la Manche",
+    "lien": "https://air-cosmos.latribune.fr/article/strategies/51957682919688/cooperation-industrielle-le-gifas-traverse-la-manche",
+    "date": "2026-11-12",
+    "resume": "Pilotée par son président Olivier Andriès, une délégation du Groupement des industries françaises de l'aéronautique et du spatial (Gifas) s'est rendue au Royaume-Uni, dans l'esprit d'un nouveau départ d'une coopération franco-britannique.",
+    "categories": [
+      "Air & Cosmos Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Projet antimissile européen : MBDA vise l'étape suivante avec Hydis2DP",
+    "lien": "https://air-cosmos.latribune.fr/article/strategies/15725586193072/projet-antimissile-europeen-mbda-vise-letape-suivante-avec-hydis2dp",
+    "date": "2026-11-12",
+    "resume": "Avec Hydis2DP, MBDA entend franchir une nouvelle étape dans le développement d'un intercepteur hypersonique européen, capable de contrer des missiles balistiques lourds, missiles de croisière hypersoniques et planeurs hypersoniques.",
+    "categories": [
+      "Air & Cosmos Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "ADAC : Electra veut se déployer à New York",
+    "lien": "https://air-cosmos.latribune.fr/article/innovation-technologies/97906643025017/adac-electra-veut-se-deployer-a-new-york",
+    "date": "2026-11-12",
+    "resume": "Après avoir réussi une démonstration d’atterrissage et de décollage sur piste très courte à Manhattan, Electra Aero et VertiPorts ont annoncé étudier les opportunités pour rapprocher les liaisons « ultra-courtes » des usagers.",
+    "categories": [
+      "Air & Cosmos Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Le Pentagone a besoin de satellites interprètes",
+    "lien": "https://air-cosmos.latribune.fr/article/espace/21574518409053/le-pentagone-a-besoin-de-satellites-interpretes",
+    "date": "2026-11-12",
+    "resume": "Equipés de terminaux de communication optique fournis par SpaceX, les derniers satellites militaires américains de suivi des objets aériens ne parviennent pas à communiquer aux autres. Une boulette d’interopérabilité qui nécessite des satellites intermédiaires pour servir de traducteurs.",
+    "categories": [
+      "Air & Cosmos Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Firefly Aerospace : Alpha a toujours la cote",
+    "lien": "https://air-cosmos.latribune.fr/article/espace/1440676383208414/firefly-aerospace-alpha-a-toujours-la-cote",
+    "date": "2026-11-12",
+    "resume": "Trop peu souvent tiré, le petit lanceur de la société américaine Firefly Aerospace continue à gagner de la clientèle. L’opérateur japonais Synspective vient d’en réserver 10 vols.",
+    "categories": [
+      "Air & Cosmos Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "EES : Bruxelles a attaqué IBM, Atos et Leonardo",
+    "lien": "https://air-cosmos.latribune.fr/article/aviation-civile/aeroports-et-controle-aerien/1377960728629414/ees-bruxelles-a-attaque-ibm-atos-et-leonardo",
+    "date": "2026-11-12",
+    "resume": "Lancée en décembre 2025, l'action en justice a été mise en route par EU-Lisa, l'agence européenne chargée de la mise en service du nouveau EES, dont l'instauration a connu de très nombreux retards et ratés.",
+    "categories": [
+      "Air & Cosmos Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Restructuration : KLM cherche encore sa martingale",
+    "lien": "https://air-cosmos.latribune.fr/article/aviation-civile/58570539655836/restructuration-klm-cherche-encore-sa-martingale",
+    "date": "2026-11-12",
+    "resume": "Bien plus contributive aux résultats d'Air France-KLM que sa consœur française avant la crise du Covid, la compagnie KLM fait aujourd'hui figure de parent pauvre du groupe aérien franco-néerlandais. Malgré une dynamique qui revient peu à peu, elle doit trancher dans le vif pour remplir les objectifs fixés par le groupe.",
+    "categories": [
+      "Air & Cosmos Premium"
+    ]
+  },
+  {
+    "categorie": "news",
     "source": "Pour la Science",
     "titre": "Comment la rotation du Soleil façonne son champ magnétique",
     "lien": "https://www.pourlascience.fr/sr/lequation/comment-la-rotation-du-soleil-faconne-son-champ-magnetique-29767.php",
