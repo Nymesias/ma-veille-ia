@@ -1,8 +1,8 @@
 {
-  "mis_a_jour": "2026-11-13T04:22:07",
+  "mis_a_jour": "2026-11-14T04:02:46",
   "date_cible": "2026-11-12",
-  "date_recherche_initiale": "2026-11-12",
-  "total": 19,
+  "date_recherche_initiale": "2026-11-13",
+  "total": 20,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
     {
@@ -50,17 +50,6 @@
       "url": "https://www.courdecassation.fr/decision/6af5613d6c2e17781288f352"
     },
     {
-      "id": "6af561106c2e17781288efed",
-      "date": "2026-11-12",
-      "chambre": "Chambre commerciale financière et économique",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-10.846",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin",
-      "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6af561106c2e17781288efed"
-    },
-    {
       "id": "6af561de6c2e17781288fe38",
       "date": "2026-11-12",
       "chambre": "Chambre criminelle",
@@ -81,6 +70,39 @@
       "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
       "sommaire": "Lorsque le médecin de l'unité médicale du centre de rétention administrative émet un avis selon lequel l'état de santé de la personne retenue est incompatible avec la rétention ou qu'une adaptation des conditions de cette mesure est nécessaire, il incombe au juge, saisi d'une demande de prolongation de la rétention, de s'assurer que l'administration a pris en compte cet avis et adopté, le cas échéant, des mesures pour rendre la rétention compatible avec l'état de santé de la personne",
       "url": "https://www.courdecassation.fr/decision/6af561446c2e17781288f3d0"
+    },
+    {
+      "id": "6af699c46c2e177812976687",
+      "date": "2026-11-12",
+      "chambre": "Première chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-19.083",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6af699c46c2e177812976687"
+    },
+    {
+      "id": "6af561106c2e17781288efed",
+      "date": "2026-11-12",
+      "chambre": "Chambre commerciale financière et économique",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-10.846",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6af561106c2e17781288efed"
+    },
+    {
+      "id": "6af5610c6c2e17781288efad",
+      "date": "2026-11-12",
+      "chambre": "Chambre commerciale financière et économique",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "23-19.153",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Il résulte de la combinaison des articles 496, dans sa rédaction antérieure à celle issue du décret n° 2026-683 du 27 juillet 2026 et 497 du code de procédure civile, et de l'article R. 153-1, alinéas 1er et 2, du code de commerce, que si le dépassement du délai d'un mois visé à l'article R. 153-1 du code de commerce emporte la levée de la mesure de séquestre provisoire et la transmission des pièces au requérant, il n'emporte pas, en revanche, l'irrecevabilité de la demande de rétractation ou de modification de l'ordonnance rendue sur requête",
+      "url": "https://www.courdecassation.fr/decision/6af5610c6c2e17781288efad"
     },
     {
       "id": "6af561366c2e17781288f2c2",
@@ -136,17 +158,6 @@
       "publication": "Publié au Bulletin",
       "sommaire": "Il entre dans les pouvoirs de la cour d'appel, à l'occasion du recours formé contre la décision d'homologation, de rejet ou de modification du cahier des charges d'une indication géographique protégeant un produit industriel ou artisanal (IGPIA), prise par le directeur général de l'Institut national de la propriété industrielle (INPI), de s'assurer que les opérations de production ou de transformation décrites dans le cahier des charges, ainsi que le périmètre de la zone définie par ce même cahier, permettent de garantir que le produit concerné présente effectivement une qualité, une réputation ou d'autres caractéristiques qui peuvent être essentiellement attribuées à la zone géographique. D",
       "url": "https://www.courdecassation.fr/decision/6af5611f6c2e17781288f104"
-    },
-    {
-      "id": "6af5610c6c2e17781288efad",
-      "date": "2026-11-12",
-      "chambre": "Chambre commerciale financière et économique",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "23-19.153",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "1° Il résulte de la combinaison des articles 496, dans sa rédaction antérieure à celle issue du décret n° 2026-683 du 27 juillet 2026 et 497 du code de procédure civile, et de l'article R. 153-1, alinéas 1er et 2, du code de commerce, que si le dépassement du délai d'un mois visé à l'article R. 153-1 du code de commerce emporte la levée de la mesure de séquestre provisoire et la transmission des pièces au requérant, il n'emporte pas, en revanche, l'irrecevabilité de la demande de rétractation ou de modification de l'ordonnance rendue sur requête. 2° Viole les articles 143 et 145 du code de procédure civile et 1er de l'ordonnance n° 45-2592 du 2 novembre 1945 relative au statut des huissiers,",
-      "url": "https://www.courdecassation.fr/decision/6af5610c6c2e17781288efad"
     },
     {
       "id": "6af561476c2e17781288f410",
