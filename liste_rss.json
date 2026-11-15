@@ -668,16 +668,16 @@
       "nom_site": "DGCCRF",
       "articles": [
         {
-          "t": "FAQ Aide-mémoire du consommateur d’énergie",
-          "l": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/faq-aide-memoire-du-consommateur-denergie",
-          "d": "2026-11-13",
-          "r": "Le consommateur d’électricité ou de gaz naturel peut trouver des informations sur ses droits dans les rubriques suivantes :"
-        },
-        {
           "t": "Gaz & électricité : mode d’emploi pour bien choisir son contrat",
           "l": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/gaz-electricite-mode-demploi-pour-bien-choisir-son-contrat",
           "d": "2026-11-13",
           "r": "Le saviez-vous ? Depuis l’ouverture à la concurrence du marché de l’énergie, vous pouvez choisir librement votre fournisseur d’électricité ou de gaz naturel. La DGCCRF vous accompagne pour bien comprendre votre contrat et évitez les mauvaises surprises."
+        },
+        {
+          "t": "FAQ Aide-mémoire du consommateur d’énergie",
+          "l": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/faq-aide-memoire-du-consommateur-denergie",
+          "d": "2026-11-13",
+          "r": "Le consommateur d’électricité ou de gaz naturel peut trouver des informations sur ses droits dans les rubriques suivantes :"
         },
         {
           "t": "Amende de 910 000 € prononcée à l’encontre de la société ENSIO SAS (numéro de SIRET : 31050577100272)",
@@ -1662,78 +1662,6 @@
           "c": [
             "Reportage"
           ]
-        },
-        {
-          "t": "Et si la réalité virtuelle permettait de réinventer l’art ?",
-          "l": "https://www.courrierinternational.com/article/idees-et-si-la-realite-virtuelle-permettait-de-reinventer-l-art_272069",
-          "d": "2026-11-14",
-          "r": "L’expert en musique classique du “Daily Telegraph” s’est essayé à deux expériences en réalité virtuelle dans le domaine qui l’intéresse. Il confie avoir été désarçonné par la disparition de la frontière entre l’œuvre et le public qui, selon lui, aide à donner un sens à l’art. Serait-ce le début d’une révolution ?",
-          "c": [
-            "Idées"
-          ]
-        },
-        {
-          "t": "Abolissons les cadeaux communs !",
-          "l": "https://www.courrierinternational.com/article/societe-abolissons-les-cadeaux-communs_276920",
-          "d": "2026-11-14",
-          "r": "Groupes WhatsApp qui crépitent, contre-propositions irréalisables et un budget qui s’envole… L’organisation pour offrir un cadeau commun est une vraie gageure, peste cette journaliste allemande. Michaela Rogalli plaide pour un retour à des attentions vraiment personnalisées.",
-          "c": [
-            "Société"
-          ]
-        },
-        {
-          "t": "L’espace aérien américain fermé pendant plusieurs heures à cause d’une panne de télécommunications",
-          "l": "https://www.courrierinternational.com/article/etats-unis-l-espace-aerien-americain-ferme-pendant-plusieurs-heures-a-cause-d-une-panne-de-telecommunications_287169",
-          "d": "2026-11-14",
-          "r": "Une panne de télécommunications dans plusieurs centres de contrôle aérien aux États-Unis a entraîné vendredi la fermeture totale de l’espace aérien américain pendant plusieurs heures, entraînant l’annulation de près de 6 000 vols et semant la pagaille dans les aéroports du pays.",
-          "c": [
-            "États-Unis"
-          ]
-        },
-        {
-          "t": "Rugby, réunion Trump-Xi-Poutine et Léon XIV au Pérou : les informations de la nuit",
-          "l": "https://www.courrierinternational.com/article/pendant-que-vous-dormiez-rugby-reunion-trump-xi-poutine-et-leon-xiv-au-perou-les-informations-de-la-nuit_287170",
-          "d": "2026-11-14",
-          "r": "Les principales actualités de ces dernières heures vues par la presse internationale.",
-          "c": [
-            "Pendant que vous dormiez"
-          ]
-        },
-        {
-          "t": "SpaceX échoue à récupérer en un seul vol les deux étages de sa fusée Starship",
-          "l": "https://www.courrierinternational.com/article/espace-spacex-echoue-a-recuperer-en-un-seul-vol-les-deux-etages-de-sa-fusee-starship_287171",
-          "d": "2026-11-14",
-          "r": "Avec le 15e vol d’essai de sa mégafusée Starship, SpaceX espérait signer un exploit inédit : la récupération des deux étages de la fusée sur un seul vol. Un problème sur le premier étage a douché cette ambition vendredi, mais la compagnie spatiale d’Elon Musk se concentre désormais sur le retour du deuxième étage, prévu samedi.",
-          "c": [
-            "Espace"
-          ]
-        },
-        {
-          "t": "Allemagne : à Esslingen, la “ville des oignons”, le Diable sème la zizanie",
-          "l": "https://www.courrierinternational.com/article/reportage-allemagne-a-esslingen-la-ville-des-oignons-le-diable-seme-la-zizanie_282068",
-          "d": "2026-11-14",
-          "r": "Menaces de morts, pétition et discours religieux enflammés… L’installation d’une statue de Satan au cœur d’Esslingen am Neckar suscite de sulfureux débats. Le Diable aurait-il mis la main sur cette ville de l’ouest de l’Allemagne ? Un journaliste du quotidien de gauche “Süddeutsche Zeitung” s’est rendu sur place pour enquêter.",
-          "c": [
-            "Reportage"
-          ]
-        },
-        {
-          "t": "La jeunesse française se réapproprie le drapeau tricolore, il était temps !",
-          "l": "https://www.courrierinternational.com/article/vu-de-suisse-la-jeunesse-francaise-se-reapproprie-le-drapeau-tricolore-il-etait-temps_286195",
-          "d": "2026-11-14",
-          "r": "Dans les manifestations des lycéens et des étudiants, on voit le bleu-blanc-rouge partout. Pour ce journaliste suisse, voir la jeunesse brandir le drapeau français est plus qu’un symbole : c’est une reconquête révélatrice de l’état du pays.",
-          "c": [
-            "Vu de Suisse"
-          ]
-        },
-        {
-          "t": "Immersion chez les recruteurs de saboteurs en Pologne : “On pourrait peut-être faire sauter l’usine ?”",
-          "l": "https://www.courrierinternational.com/article/enquete-immersion-chez-les-recruteurs-de-saboteurs-en-pologne-on-pourrait-peut-etre-faire-sauter-l-usine_283572",
-          "d": "2026-11-14",
-          "r": "Un journaliste du site d’information russophone “Vot Tak”, établi en Pologne, s’est vu offrir jusqu’à 30 000 dollars sur Telegram pour procéder à l’incendie d’une usine de drones qui fournit les forces armées ukrainiennes. Le journaliste s’était fait passer pour un ressortissant biélorusse en mal d’argent, à deux doigts de se faire expulser de Pologne.",
-          "c": [
-            "Enquête"
-          ]
         }
       ]
     },
@@ -1896,51 +1824,6 @@
           "r": "Le constructeur américain a annoncé vendredi ouvrir la vente de son Cybercab, un véhicule entièrement autonome dépourvu de volant et de pédales, à des particuliers « triés sur le volet ».",
           "c": [
             "Transports"
-          ]
-        },
-        {
-          "t": "États-Unis : confrontée à l’obsolescence de son matériel, la FAA annule 6 000 vols",
-          "l": "https://air-cosmos.latribune.fr/article/aviation-civile/aeroports-et-controle-aerien/22319448149436/etats-unis-confrontee-a-l-obsolescence-de-son-materiel-la-faa-annule-6-000-vols",
-          "d": "2026-11-14",
-          "r": "Des milliers d'avions et des centaines de milliers de passagers se sont retrouvés cloués au sol ou obliger de se poser au plus vite après une panne rencontrée dans les centres de contrôle d'approche terminale américains. L'administration Trump a tancé l'âge des équipements comme raison première de ce chaos.",
-          "c": [
-            "Air & Cosmos"
-          ]
-        },
-        {
-          "t": "Manque de personnel, besoins d’investissement… La suspension des vols aux États-Unis révèle les failles du contrôle aérien américain",
-          "l": "https://www.latribune.fr/article/transports/1749470249467314/manque-de-personnel-besoins-d-investissement-la-suspension-des-vols-aux-etats-unis-revele-les-failles-du-controle-aerien-americain",
-          "d": "2026-11-14",
-          "r": "Une panne majeure de communication a paralysé l'espace aérien américain pendant quatre heures ce vendredi, entraînant l'annulation de 6 000 vols.",
-          "c": [
-            "Transports"
-          ]
-        },
-        {
-          "t": "Rocket Lab : face à une bombe à retardement",
-          "l": "https://air-cosmos.latribune.fr/article/espace/285642159336914/rocket-lab-face-a-une-bombe-a-retardement",
-          "d": "2026-11-14",
-          "r": "100 vols Electron réalisés, 100 autres à venir, et toujours pas rentable. Les indicateurs financiers de Rocket Lab s'éclaircissent trimestre après trimestre, tout en restant dans le rouge. Les dernières ventes fournissent une unique occasion de se refaire, sauf que Rocket Lab marche sur les œufs avec la défense.",
-          "c": [
-            "Air & Cosmos Premium"
-          ]
-        },
-        {
-          "t": "Drones : comment le groupe portugais Tekever a séduit les armées françaises",
-          "l": "https://www.latribune.fr/article/defense-aerospatiale/defense/1147912272325314/drones-comment-le-groupe-portugais-tekever-a-seduit-les-armees-francaises",
-          "d": "2026-11-14",
-          "r": "En plus d'une première commande de 140 drones, le groupe portugais Tekever vient d'être à nouveau sélectionné par le ministère des Armées pour une capacité de drones de surveillance intermédiaire. Ces appareils seront fabriqués depuis l'usine de Cahors inaugurée vendredi.",
-          "c": [
-            "Défense et Aérospatiale Premium"
-          ]
-        },
-        {
-          "t": "OPINION. « Pour un label de cloud souverain lisible par tous »",
-          "l": "https://www.latribune.fr/article/idees/2245345894970714/opinion-pour-un-label-de-cloud-souverain-lisible-par-tous",
-          "d": "2026-11-14",
-          "r": "En février dernier, l'État a autorisé la cession de 64 % d'Exaion, filiale d'EDF, au groupe américain MARA. Une des conditions posées à cette cession en dit long : EDF devait cesser d'y héberger ses données sensibles.",
-          "c": [
-            "Idées & Débats"
           ]
         }
       ]
