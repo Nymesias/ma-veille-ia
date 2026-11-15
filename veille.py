@@ -67,6 +67,7 @@ FICHIER_QUOTA_GEMINI = ".gemini_quota.json"
 
 JUDILIBRE_PUBLIC_URL = "https://www.courdecassation.fr/recherche-judilibre"
 CONSEIL_ETAT_RECHERCHE_URL = "https://opendata.justice-administrative.fr/recherche"
+CONSEIL_ETAT_DECISION_URL = f"{CONSEIL_ETAT_RECHERCHE_URL}/shareFile"
 CONSEIL_ETAT_DECISIONS_URL = (
     "https://opendata.justice-administrative.fr/recherche/api/"
     "model_noTyped/openData/null/D%C3%A9cision/10000"
@@ -1685,8 +1686,9 @@ def collecter_decisions_conseil_etat():
             "mis_en_ligne": source.get("lastModified", ""),
             "resume": premier_resume_disponible(source),
             "url": (
-                f"{CONSEIL_ETAT_RECHERCHE_URL}/{quote(code_juridiction)}/{quote(numero)}"
-                if code_juridiction and numero else CONSEIL_ETAT_RECHERCHE_URL
+                f"{CONSEIL_ETAT_DECISION_URL}/{quote(str(source.get('Identification') or ''))}_{quote(code_juridiction)}"
+                if source.get("Identification") and code_juridiction
+                else CONSEIL_ETAT_RECHERCHE_URL
             ),
         })
     decisions.sort(

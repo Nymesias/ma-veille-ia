@@ -127,7 +127,9 @@
             if (etatCharge[nom]) return;
             etatCharge[nom] = true;
             if (nom === 'analyses') await chargerAnalyses();
-            if (nom === 'rss') await chargerFluxRSS('conseil-etat', 'juradmin-content', triRSS);
+            if (nom === 'rss') await chargerFluxRSS(
+                'conseil-etat', 'juradmin-content', triRSS, [], [], true, true
+            );
             if (nom === 'decisions') await chargerDecisions();
         }
 
@@ -135,7 +137,9 @@
         document.querySelectorAll('[data-sort]').forEach(bouton => bouton.addEventListener('click', async () => {
             triRSS = bouton.dataset.sort;
             document.querySelectorAll('[data-sort]').forEach(item => item.classList.toggle('active', item === bouton));
-            await chargerFluxRSS('conseil-etat', 'juradmin-content', triRSS);
+            await chargerFluxRSS(
+                'conseil-etat', 'juradmin-content', triRSS, [], [], true, true
+            );
         }));
         afficherOnglet('analyses');
     </script>

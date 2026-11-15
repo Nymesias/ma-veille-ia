@@ -111,7 +111,8 @@ async function chargerFluxRSS(
     modeTri = 'date',
     sourcesExclues = [],
     sourcesIncluses = [],
-    afficherThematiques = true
+    afficherThematiques = true,
+    derniereDateParSource = false
 ) {
     const container = document.getElementById(idContainer);
     if (!container) return;
@@ -145,7 +146,15 @@ async function chargerFluxRSS(
     // --- ÉTAPE CLÉ : ON REGROUPE TOUT POUR TRIER ---
     let tousLesArticles = [];
     sources.forEach(source => {
-        (source.articles || []).forEach(art => {
+        const articlesSource = source.articles || [];
+        const datesPubliees = articlesSource.map(article => article.d).filter(Boolean);
+        const derniereDate = derniereDateParSource && datesPubliees.length
+            ? datesPubliees.sort((a, b) => String(b).localeCompare(String(a)))[0]
+            : null;
+        const articlesAffiches = derniereDate
+            ? articlesSource.filter(article => article.d === derniereDate)
+            : articlesSource;
+        articlesAffiches.forEach(art => {
             tousLesArticles.push({
                 ...art,
                 nom_site: source.nom_site, // On attache le nom du site à l'article

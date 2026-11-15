@@ -237,6 +237,10 @@ class VeilleTests(unittest.TestCase):
         self.assertEqual([item["numero"] for item in decisions], ["1"])
         self.assertEqual({item["date"] for item in decisions}, {"2026-10-06"})
         self.assertEqual({item["code_juridiction"] for item in decisions}, {"CE"})
+        self.assertEqual(
+            decisions[0]["url"],
+            "https://opendata.justice-administrative.fr/recherche/shareFile/DCE_1.xml_CE",
+        )
         self.assertTrue(
             all(item["code_publication"] in {"A", "B", "R", "C+"} for item in decisions)
         )
