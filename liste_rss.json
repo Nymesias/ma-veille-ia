@@ -668,16 +668,16 @@
       "nom_site": "DGCCRF",
       "articles": [
         {
-          "t": "Gaz & électricité : mode d’emploi pour bien choisir son contrat",
-          "l": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/gaz-electricite-mode-demploi-pour-bien-choisir-son-contrat",
-          "d": "2026-11-13",
-          "r": "Le saviez-vous ? Depuis l’ouverture à la concurrence du marché de l’énergie, vous pouvez choisir librement votre fournisseur d’électricité ou de gaz naturel. La DGCCRF vous accompagne pour bien comprendre votre contrat et évitez les mauvaises surprises."
-        },
-        {
           "t": "FAQ Aide-mémoire du consommateur d’énergie",
           "l": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/faq-aide-memoire-du-consommateur-denergie",
           "d": "2026-11-13",
           "r": "Le consommateur d’électricité ou de gaz naturel peut trouver des informations sur ses droits dans les rubriques suivantes :"
+        },
+        {
+          "t": "Gaz & électricité : mode d’emploi pour bien choisir son contrat",
+          "l": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/gaz-electricite-mode-demploi-pour-bien-choisir-son-contrat",
+          "d": "2026-11-13",
+          "r": "Le saviez-vous ? Depuis l’ouverture à la concurrence du marché de l’énergie, vous pouvez choisir librement votre fournisseur d’électricité ou de gaz naturel. La DGCCRF vous accompagne pour bien comprendre votre contrat et évitez les mauvaises surprises."
         },
         {
           "t": "Amende de 910 000 € prononcée à l’encontre de la société ENSIO SAS (numéro de SIRET : 31050577100272)",
@@ -1154,30 +1154,12 @@
       "nom_site": "Sénat|Textes",
       "articles": [
         {
-          "t": "Périmètre de l'utilisation du produit du droit départemental de passage - texte N° 140",
-          "l": "http://www.senat.fr/leg/ppl26-140.html",
-          "d": "2026-11-13",
-          "r": "Proposition de loi visant à élargir le périmètre de l'utilisation du produit du droit départemental de passage : texte N° 140 de M. Mickaël VALLET, déposé au Sénat le 3 novembre 2026",
+          "t": "Projet de loi de finances de fin de gestion pour 2026 - texte N° 172",
+          "l": "http://www.senat.fr/leg/pjl26-172.html",
+          "d": "2026-11-14",
+          "r": "Projet de loi de finances de fin de gestion pour 2026 : texte N° 172 transmis au Sénat le 13 novembre 2026",
           "c": [
-            "proposition de loi"
-          ]
-        },
-        {
-          "t": "Création d'une commission d'enquête sur la gestion de l'amiante en outre-mer - texte N° 147",
-          "l": "http://www.senat.fr/leg/ppr26-147.html",
-          "d": "2026-11-13",
-          "r": "Proposition de résolution tendant à la création d'une commission d'enquête sur le suivi de la gestion de l'amiante dans les outre-mer : texte N° 147 de M. Dominique THÉOPHILE, déposé au Sénat le 4 novembre 2026",
-          "c": [
-            "proposition de résolution"
-          ]
-        },
-        {
-          "t": "Règlement sur le logement abordable - texte N° 152",
-          "l": "http://www.senat.fr/leg/ppr26-152.html",
-          "d": "2026-11-13",
-          "r": "Proposition de résolution règlement sur le logement abordable : texte N° 152 de Mme Brigitte DEVÉSA et M. Ahmed LAOUEDJ, déposé au Sénat le 5 novembre 2026",
-          "c": [
-            "proposition de résolution"
+            "projet de loi"
           ]
         }
       ]
@@ -1459,302 +1441,43 @@
       "nom_site": "Le Revenu",
       "articles": [
         {
-          "t": "Clôture Paris : le CAC 40 termine la semaine en hausse, Eramet et le luxe sous pression",
-          "l": "https://www.lerevenu.com/reussir-bourse/points-marches/cloture-paris-le-cac-40-termine-la-semaine-en-haus",
-          "d": "2026-11-13",
-          "r": "La Bourse de Paris clôture la semaine sur une nouvelle hausse, malgré des écarts marqués entre les secteurs. Les valeurs du luxe reculent après les résultats de Richemont, tandis que le projet de rapprochement…",
+          "t": "Immobilier locatif : les villes où les loyers augmentent le plus en 2026",
+          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-locatif-les-villes-ou-les-loyers-augmen",
+          "d": "2026-11-14",
+          "r": "Les loyers repartent à la hausse en France en 2026, avec une progression moyenne de 2,1 % sur un an. Marseille arrive en tête des villes les plus touchées, avec une augmentation de 4,6 %, devant Nice à 4,4 % et…",
+          "c": [
+            "Investir dans l'immobilier",
+            "Prix et tendances"
+          ]
+        },
+        {
+          "t": "Immobilier : 9 logements sur 10 se vendent après une négociation du prix",
+          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-9-logements-sur-10-se-vendent-apres-une",
+          "d": "2026-11-14",
+          "r": "En France, neuf ventes immobilières sur dix font désormais l’objet d’une négociation, selon le réseau Laforêt. Au troisième trimestre 2026, les acheteurs obtiennent une remise moyenne de 4,8 %, soit 14 400 euro…",
+          "c": [
+            "Investir dans l'immobilier",
+            "Prix et tendances"
+          ]
+        },
+        {
+          "t": "Logement en France : les personnes seules pénalisées par la pénurie de petites surfaces",
+          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/logement-en-france-les-personnes-seules-penalisees",
+          "d": "2026-11-14",
+          "r": "En France, 12 millions de personnes vivent seules et rencontrent des difficultés croissantes pour se loger. Les petites surfaces restent insuffisantes face à la demande, particulièrement dans les grandes villes…",
+          "c": [
+            "Investir dans l'immobilier",
+            "Prix et tendances"
+          ]
+        },
+        {
+          "t": "CAC40 : Eramet, Soitec, Ubisoft... les valeurs à suivre la semaine prochaine",
+          "l": "https://www.lerevenu.com/reussir-bourse/points-marches/valeurs-a-suivre-bourse-semaine-16-20-novembre-era",
+          "d": "2026-11-14",
+          "r": "Plusieurs entreprises françaises ont des rendez-vous importants avec les investisseurs du 16 au 20 novembre. Les publications de résultats côtoieront des opérations financières et des dossiers sensibles, notamm…",
           "c": [
             "Réussir en Bourse",
             "Points Marchés"
-          ]
-        },
-        {
-          "t": "Nvidia : six semaines dans le rouge, 1 600 milliards de dollars envolés",
-          "l": "https://www.lerevenu.com/reussir-bourse/actualite-societe/nvidia-six-semaines-dans-le-rouge-1-600-milliards-",
-          "d": "2026-11-13",
-          "r": "Le titre du géant américain des semi-conducteurs s’achemine vers une sixième semaine consécutive de baisse, une série inédite depuis 2012. La crise de gouvernance provoquée par le départ de Jensen Huang accentu…",
-          "c": [
-            "Réussir en Bourse",
-            "Actualité Société"
-          ]
-        },
-        {
-          "t": "Zone euro : l’intelligence artificielle tire un quart de la croissance du crédit",
-          "l": "https://www.lerevenu.com/actualite-economique/actualite-europe/zone-euro-l-intelligence-artificielle-tire-un-quar",
-          "d": "2026-11-13",
-          "r": "L’intelligence artificielle devient un moteur inattendu du financement des entreprises européennes. Selon Philip Lane, chef économiste de la Banque centrale européenne, les activités liées à l’IA expliquent env…",
-          "c": [
-            "Économie",
-            "Europe"
-          ]
-        },
-        {
-          "t": "États-Unis : les frais de découverts bancaires à + 9 %, au plus haut depuis quatre ans",
-          "l": "https://www.lerevenu.com/actualite-economique/monde/etats-unis-les-frais-de-decouverts-bancaires-a-9-a",
-          "d": "2026-11-13",
-          "r": "Les banques américaines ont encaissé 1,6 milliard de dollars de frais de découvert au troisième trimestre 2026. La remontée de ces commissions intervient dans un contexte de recul des protections des consommate…",
-          "c": [
-            "Économie",
-            "Monde"
-          ]
-        },
-        {
-          "t": "Anthropic : six fois plus de demandes que d’actions proposées pour son IPO",
-          "l": "https://www.lerevenu.com/reussir-bourse/actualite-societe/anthropic-six-fois-plus-de-demandes-que-d-actions-",
-          "d": "2026-11-13",
-          "r": "L’introduction en Bourse du créateur de Claude suscite un intérêt spectaculaire auprès des investisseurs. Les ordres enregistrés atteindraient six fois le nombre d’actions proposées, avant même le lancement off…",
-          "c": [
-            "Réussir en Bourse",
-            "Actualité Société"
-          ]
-        },
-        {
-          "t": "Airbus et Thales décrochent un contrat de 1,5 milliard € pour les futurs satellites espions français",
-          "l": "https://www.lerevenu.com/reussir-bourse/actualite-societe/airbus-et-thales-decrochent-un-contrat-de-1-5-mill",
-          "d": "2026-11-13",
-          "r": "La Direction générale de l’armement confie aux deux industriels la réalisation du programme IRIS, destiné à renouveler les capacités françaises de renseignement spatial. Deux satellites de nouvelle génération d…",
-          "c": [
-            "Réussir en Bourse",
-            "Actualité Société"
-          ]
-        },
-        {
-          "t": "Mercedes-Benz suspend ses nouveaux investissements en Allemagne, deux usines menacées",
-          "l": "https://www.lerevenu.com/reussir-bourse/actualite-societe/mercedes-benz-suspend-ses-nouveaux-investissements",
-          "d": "2026-11-13",
-          "r": "Le constructeur allemand suspend tous ses nouveaux investissements dans ses sites nationaux faute d’accord avec les syndicats sur la réduction des coûts. La direction envisage désormais plus concrètement des fe…",
-          "c": [
-            "Réussir en Bourse",
-            "Actualité Société"
-          ]
-        },
-        {
-          "t": "Engie et Google s’allient autour du futur datacenter géant de Châteauroux",
-          "l": "https://www.lerevenu.com/regions/engie-et-google-s-allient-autour-du-futur-datacent",
-          "d": "2026-11-13",
-          "r": "Engie pourrait devenir le partenaire privilégié de Google pour l’approvisionnement et la gestion énergétique de son futur centre de données dans l’Indre. Les deux groupes envisagent également des solutions pour…",
-          "c": [
-            "régions"
-          ]
-        },
-        {
-          "t": "Découvert bancaire : dès le 20 novembre, les banques devront vérifier la solvabilité des clients",
-          "l": "https://www.lerevenu.com/actualite-economique/france/decouvert-bancaire-des-le-20-novembre-les-banques-",
-          "d": "2026-11-13",
-          "r": "Les règles encadrant les autorisations de découvert évoluent en France avec l’entrée en vigueur d’une directive européenne. Même les petits découverts seront désormais soumis à une évaluation de solvabilité, sa…",
-          "c": [
-            "Économie",
-            "France"
-          ]
-        },
-        {
-          "t": "CSG assurance-vie : taux, hausses et déduction | Le Revenu",
-          "l": "https://www.lerevenu.com/diversifier-placements/assurance-vie/csg-assurance-vie-taux-hausses-et-deduction-le-rev",
-          "d": "2026-11-13",
-          "r": "La contribution sociale généralisée (CSG) représente 9,2 % des gains soumis aux prélèvements sociaux sur l'assurance-vie, dans le régime de droit commun applicable en 2026. L'assurance-vie conserve un taux g…",
-          "c": [
-            "Diversifier vos placements",
-            "Assurance vie"
-          ]
-        },
-        {
-          "t": "Flat tax ou PFL en assurance-vie : que choisir ? | Le Revenu",
-          "l": "https://www.lerevenu.com/diversifier-placements/assurance-vie/flat-tax-ou-pfl-en-assurance-vie-que-choisir-le-re",
-          "d": "2026-11-13",
-          "r": "Trois régimes fiscaux peuvent intervenir lors d'un rachat d'assurance-vie : le prélèvement forfaitaire unique (PFU), l'ancien prélèvement forfaitaire libératoire (PFL) et le barème progressif de l'impôt sur le…",
-          "c": [
-            "Diversifier vos placements",
-            "Assurance vie"
-          ]
-        },
-        {
-          "t": "Prescription de l'IFI : délais et sanctions | Le Revenu",
-          "l": "https://www.lerevenu.com/dossiers/impots/prescription-de-l-ifi-delais-de-controle-redressem",
-          "d": "2026-11-13",
-          "r": "L'administration fiscale dispose en principe de trois ans pour rectifier une déclaration d'IFI suffisamment complète, conformément à l'article L.180 du Livre des procédures fiscales. Le délai peut atteindre six…",
-          "c": [
-            "Les dossiers",
-            "Impôts"
-          ]
-        },
-        {
-          "t": "Zone euro : la croissance confirmée à 0,4 % au troisième trimestre 2026, mais l’économie ralentit",
-          "l": "https://www.lerevenu.com/actualite-economique/monde/zone-euro-la-croissance-confirmee-a-0-4-au-troisie",
-          "d": "2026-11-13",
-          "r": "La croissance économique de la zone euro a été confirmée à 0,4 % au troisième trimestre 2026, selon les dernières estimations d’Eurostat. Ce résultat marque un ralentissement par rapport aux 0,6 % enregistrés a…",
-          "c": [
-            "Économie",
-            "Monde"
-          ]
-        },
-        {
-          "t": "Bitcoin sous les 70 000 dollars : les retraits des ETF accentuent la chute des cours",
-          "l": "https://www.lerevenu.com/actualite-economique/monde/bitcoin-sous-les-70-000-dollars-les-retraits-des-e",
-          "d": "2026-11-13",
-          "r": "Le Bitcoin passe sous les 70 000 dollars ce vendredi 13 novembre 2026, dans un contexte de retraits importants des ETF et de liquidité insuffisante. La cryptomonnaie perd 9,2 % sur sept jours, tandis que l'indi…",
-          "c": [
-            "Économie",
-            "Monde"
-          ]
-        },
-        {
-          "t": "GTA 6 : en France, les demandes de congés grimpent de 16 % chez les moins de 35 ans",
-          "l": "https://www.lerevenu.com/actualite-economique/france/gta-6-les-demandes-de-conges-bondissent-avant-sa-s",
-          "d": "2026-11-13",
-          "r": "En France, la sortie de GTA 6, prévue le 19 novembre 2026, entraîne une augmentation inhabituelle des demandes de congés. Selon les données de l'éditeur français de logiciels RH Lucca, celles-ci progressent de…",
-          "c": [
-            "Économie",
-            "France"
-          ]
-        },
-        {
-          "t": "Nvidia : Donald Trump propose Tim Cook pour succéder à Jensen Huang après sa démission",
-          "l": "https://www.lerevenu.com/reussir-bourse/actualite-societe/nvidia-donald-trump-propose-tim-cook-pour-succeder",
-          "d": "2026-11-13",
-          "r": "Donald Trump souhaite voir Tim Cook, ancien directeur général d’Apple, prendre la tête de Nvidia après la démission de Jensen Huang, annoncée le 12 novembre 2026. Le président américain a publiquement soutenu c…",
-          "c": [
-            "Réussir en Bourse",
-            "Actualité Société"
-          ]
-        },
-        {
-          "t": "SpaceX : 74 milliards de dollars pour deux géants du calcul dédié à l’IA",
-          "l": "https://www.lerevenu.com/reussir-bourse/actualite-societe/spacex-74-milliards-de-dollars-pour-deux-geants-du",
-          "d": "2026-11-13",
-          "r": "Le groupe d’Elon Musk prévoit des investissements colossaux au Texas et en Arizona pour développer ses capacités de calcul dédiées à l’intelligence artificielle. Une nouvelle étape dans sa transformation, au-de…",
-          "c": [
-            "Réussir en Bourse",
-            "Actualité Société"
-          ]
-        },
-        {
-          "t": "Pétrole : le marché mondial retrouve un équilibre plus favorable à l’offre",
-          "l": "https://www.lerevenu.com/actualite-economique/monde/petrole-le-marche-mondial-retrouve-un-equilibre-pl",
-          "d": "2026-11-13",
-          "r": "Après plusieurs mois de fortes perturbations liées à la guerre en Iran, le marché pétrolier mondial retrouve un équilibre plus favorable à l’offre. La reprise des expéditions depuis le Golfe change les perspect…",
-          "c": [
-            "Économie",
-            "Monde"
-          ]
-        },
-        {
-          "t": "Salaires et coût du travail en France : la progression est toujours aussi soutenue",
-          "l": "https://www.lerevenu.com/actualite-economique/france/salaires-et-cout-du-travail-en-france-la-progressi",
-          "d": "2026-11-13",
-          "r": "Les rémunérations horaires et le coût horaire du travail ont augmenté au même rythme sur un an au troisième trimestre 2026. La progression des salaires s'accélère légèrement, tandis que celle du coût supporté p…",
-          "c": [
-            "Économie",
-            "France"
-          ]
-        },
-        {
-          "t": "Prix du pétrole : le Brent dépasse 96 dollars après de nouvelles attaques visant l'Arabie saoudite",
-          "l": "https://www.lerevenu.com/actualite-economique/monde/prix-du-petrole-le-brent-depasse-96-dollars-apres-",
-          "d": "2026-11-13",
-          "r": "Le prix du pétrole Brent dépasse les 96 dollars le baril ce vendredi 13 novembre 2026, dans un contexte de tensions militaires au Moyen-Orient. Les rebelles houthis du Yémen affirment avoir ciblé trois installa…",
-          "c": [
-            "Économie",
-            "Monde"
-          ]
-        },
-        {
-          "t": "SpaceX - Tesla : une fusion pourrait être annoncée dès décembre",
-          "l": "https://www.lerevenu.com/reussir-bourse/actualite-societe/spacex-tesla-une-fusion-pourrait-etre-annoncee-des",
-          "d": "2026-11-13",
-          "r": "Les discussions entre les deux entreprises d’Elon Musk progressent et pourraient déboucher sur une annonce dès le mois prochain. Mais plusieurs obstacles financiers, réglementaires et politiques restent à surmo…",
-          "c": [
-            "Réussir en Bourse",
-            "Actualité Société"
-          ]
-        },
-        {
-          "t": "Le prix de l’or remonte vers 3 920 dollars l’once après une chute à son plus bas niveau en 13 mois",
-          "l": "https://www.lerevenu.com/actualite-economique/monde/le-prix-de-l-or-remonte-vers-3-920-dollars-l-once-",
-          "d": "2026-11-13",
-          "r": "Le prix de l’or rebondit d’environ 1 % ce vendredi 13 novembre 2026, après avoir atteint son niveau le plus bas depuis treize mois. Le métal précieux évolue autour de 3 920 dollars l’once, soutenu par les achat…",
-          "c": [
-            "Économie",
-            "Monde"
-          ]
-        },
-        {
-          "t": "Renault lève 750 millions d’euros avec des obligations à 5 % remboursables en 2032",
-          "l": "https://www.lerevenu.com/reussir-bourse/actualite-societe/renault-leve-750-millions-d-euros-avec-des-obligat",
-          "d": "2026-11-13",
-          "r": "Renault Group a annoncé le 13 novembre 2026 une émission obligataire de 750 millions d’euros, avec une échéance fixée au 19 février 2032 et un coupon annuel de 5 %. L’opération, largement sursouscrite, doit per…",
-          "c": [
-            "Réussir en Bourse",
-            "Actualité Société"
-          ]
-        },
-        {
-          "t": "Patrimoine national : les ménages portent toujours la richesse française",
-          "l": "https://www.lerevenu.com/actualite-economique/france/patrimoine-national-les-menages-portent-toujours-l",
-          "d": "2026-11-13",
-          "r": "Le patrimoine économique français a poursuivi sa progression l’an dernier, mais à un rythme nettement ralenti. Selon l’Insee et la Banque de France, la hausse de la valeur des actifs immobiliers a soutenu cette…",
-          "c": [
-            "Économie",
-            "France"
-          ]
-        },
-        {
-          "t": "Bourse de Tokyo : le Nikkei bondit de 6,46 % en une semaine malgré la chute de Nvidia",
-          "l": "https://www.lerevenu.com/reussir-bourse/points-marches/bourse-de-tokyo-le-nikkei-bondit-de-6-46-en-une-se",
-          "d": "2026-11-13",
-          "r": "La Bourse de Tokyo termine la semaine du 13 novembre 2026 sur une forte progression, malgré les turbulences qui secouent Nvidia. L'indice Nikkei gagne 6,46 % sur cinq séances, sa meilleure performance hebdomada…",
-          "c": [
-            "Réussir en Bourse",
-            "Points Marchés"
-          ]
-        },
-        {
-          "t": "La Fed réduit à sept ses décisions sur les taux en 2027 et modifie son calendrier",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/la-fed-reduit-a-sept-ses-decisions-sur-les-taux-en",
-          "d": "2026-11-13",
-          "r": "La Réserve fédérale américaine modifiera son calendrier de politique monétaire en 2027, avec sept réunions consacrées aux décisions sur les taux directeurs, contre huit habituellement. La réunion des 26 et 27 o…",
-          "c": [
-            "Réussir en Bourse",
-            "Au cœur des opérations"
-          ]
-        },
-        {
-          "t": "Alice Huang : Washington n’a toujours pas établi si elle espionnait pour Pékin",
-          "l": "https://www.lerevenu.com/actualite-economique/monde/alice-huang-washington-n-a-toujours-pas-etabli-si-",
-          "d": "2026-11-13",
-          "r": "L’affaire qui a ébranlé Nvidia reste entourée de zones d’ombre. Le département américain de la Justice reconnaît qu’il n’a pas déterminé si la femme d’affaires chinoise Alice Huang travaillait pour les services…",
-          "c": [
-            "Économie",
-            "Monde"
-          ]
-        },
-        {
-          "t": "UniCredit lève 3,5 milliards de dollars aux États-Unis et attire une demande record",
-          "l": "https://www.lerevenu.com/reussir-bourse/coeur-operations/unicredit-leve-3-5-milliards-de-dollars-aux-etats-",
-          "d": "2026-11-13",
-          "r": "La banque italienne UniCredit a levé 3,5 milliards de dollars sur le marché obligataire américain, où elle n'avait plus réalisé d'émission depuis 2021. L'opération, répartie en trois tranches, a suscité plus de…",
-          "c": [
-            "Réussir en Bourse",
-            "Au cœur des opérations"
-          ]
-        },
-        {
-          "t": "Panne mondiale de Microsoft : Outlook reste perturbé malgré les tentatives de réparation",
-          "l": "https://www.lerevenu.com/reussir-bourse/actualite-societe/panne-mondiale-de-microsoft-outlook-reste-perturbe",
-          "d": "2026-11-13",
-          "r": "Microsoft rencontre d’importantes difficultés pour résoudre une panne mondiale affectant Outlook et plusieurs services Microsoft 365. Signalé dans 74 pays et territoires, l’incident perturbe les communications…",
-          "c": [
-            "Réussir en Bourse",
-            "Actualité Société"
-          ]
-        },
-        {
-          "t": "Allemagne : la rigueur budgétaire prend un sérieux coup de vieux",
-          "l": "https://www.lerevenu.com/actualite-economique/actualite-europe/allemagne-la-rigueur-budgetaire-prend-un-serieux-c",
-          "d": "2026-11-13",
-          "r": "Berlin s’apprête à financer ses ambitions militaires et la modernisation de ses infrastructures à crédit. La commission budgétaire a validé un projet prévoyant plus de 210 milliards d’euros de nouveaux emprunts…",
-          "c": [
-            "Économie",
-            "Europe"
           ]
         }
       ]
@@ -1763,271 +1486,28 @@
       "nom_site": "L'Agefi",
       "articles": [
         {
-          "t": "Vingt ans au cœur d’un marché en transformation",
-          "l": "https://www.agefi.fr/patrimoine/epargne/vingt-ans-au-cœur-dun-marche-en-transformation",
-          "d": "2026-11-13",
-          "r": "Interview de Romain Noirault, Président d’Equitim",
-          "c": [
-            "Epargne"
-          ]
-        },
-        {
-          "t": "Le consortium Faro décroche 270 millions de dollars d'investissement",
-          "l": "https://www.agefi.fr/news/tech-finance/le-consortium-faro-decroche-270-millions-de-dollars-dinvestissement",
-          "d": "2026-11-13",
-          "r": "Après des mois de démarchage, le consortium international visant à émettre un stablecoin dollar a décroché ses premiers investissements. Quelques banques, notamment Goldman Sachs et Citigroup, se sont engagées à apporter environ 270 millions de dollars.",
-          "c": [
-            "Tech & Finance"
-          ]
-        },
-        {
-          "t": "ETF actifs : quatre rôles clés dans la construction de portefeuilles",
-          "l": "https://www.agefi.fr/etf/etf-actifs-quatre-roles-cles-dans-la-construction-de-portefeuilles",
-          "d": "2026-11-13",
-          "r": "Les ETF actifs ne constituent pas une classe d’actifs distincte. Ils représentent un moyen d’accéder à des stratégies d’investissement. Nos recherches montrent que les investisseurs s'interrogent moins sur la place des ETF actifs dans un portefeuille que sur le rôle qu'ils peuvent y jouer.",
-          "c": [
-            "ETF"
-          ]
-        },
-        {
-          "t": "Les profits de CMA CGM s’envolent grâce à la hausse des volumes et des tarifs",
-          "l": "https://www.agefi.fr/news/entreprises/les-profits-de-cma-cgm-senvolent-grace-a-la-hausse-des-volumes-et-des-tarifs",
-          "d": "2026-11-13",
-          "r": "L’armateur a enregistré une forte augmentation de ses ventes et de ses résultats au troisième trimestre. Sa croissance dépasse celle d’un marché déjà dynamique porté par les volumes et les taux de fret.",
-          "c": [
-            "Entreprises"
-          ]
-        },
-        {
-          "t": "Banco BPM confirme des négociations avec le Crédit Agricole",
-          "l": "https://www.agefi.fr/news/banque-assurance/banco-bpm-confirme-des-negociations-avec-le-credit-agricole",
-          "d": "2026-11-13",
-          "r": "Depuis lundi et l’officialisation de son projet de rapprochement de ses activités italiennes avec une banque dont il détient déjà presque 30% du capital, le mutualiste français multiplie les signes de bonne volonté.",
-          "c": [
-            "Banque & Assurance"
-          ]
-        },
-        {
-          "t": "Les gérants de dette privée courtisent les particuliers",
-          "l": "https://www.agefi.fr/gestion-privee/actualites/les-gerants-de-dette-privee-courtisent-les-particuliers",
-          "d": "2026-11-13",
-          "r": "D'après une étude de Goldman Sachs Asset Management, 84% de ces acteurs désignent la clientèle privée ou les fonds evergreen comme la principale force qui transformera leurs fonds d’ici cinq ans.",
+          "t": "L’action de groupe contre Nvidia attend ses investisseurs institutionnels",
+          "l": "https://www.agefi.fr/investisseurs-institutionnels/actualites/laction-de-groupe-contre-nvidia-attend-ses-investisseurs-institutionnels",
+          "d": "2026-11-14",
+          "r": "Les gros investisseurs qui ont acheté des actions Nvidia, dont le fonds souverain norvégien et d’autres investisseurs institutionnels, peuvent briguer jusqu’au 8 janvier la place de plaignant principal dans l’action de groupe visant la société.",
           "c": [
             "Actualités"
           ]
         },
         {
-          "t": "Les fonds allemands ont attiré 38,4 milliards d’euros au troisième trimestre 2026",
-          "l": "https://www.agefi.fr/asset-management/actualites/les-fonds-allemands-ont-attire-38-4-milliards-deuros-au-troisieme-trimestre-2026",
-          "d": "2026-11-13",
-          "r": "Malgré cette collecte, les encours de la gestion d’actifs allemande ont reculé à 5.183 milliards d’euros fin septembre, d’après les données de l’association locale des gestionnaires d’actifs BVI.",
-          "c": [
-            "Actualités"
-          ]
-        },
-        {
-          "t": "La croissance de la zone euro se maintient au troisième trimestre",
-          "l": "https://www.agefi.fr/news/economie-marches/la-croissance-de-la-zone-euro-se-maintient-au-troisieme-trimestre",
-          "d": "2026-11-13",
-          "r": "Les données d’Eurostat montrent une croissance de 0,4% pour la zone euro. Outre l’Irlande, régulièrement surestimée, la plupart des pays sont en croissance, sauf la France, dont l’activité se contracte de 0,1%, et la Lituanie qui recule de 1%.",
+          "t": "«A court terme, les baisses de valorisation de la tech créent des opportunités»",
+          "l": "https://www.agefi.fr/news/economie-marches/a-court-terme-les-baisses-de-valorisation-de-la-tech-creent-des-opportunites",
+          "d": "2026-11-14",
+          "r": "Wilfrid Galand, directeur stratégie chez Montpensier Arbevel",
           "c": [
             "Economie & Marchés"
           ]
         },
         {
-          "t": "Fastea Capital recrute deux co-directeurs de la gestion d'actifs",
-          "l": "https://www.agefi.fr/asset-management/actualites/fastea-capital-recrute-deux-co-directeurs-de-la-gestion-dactifs",
-          "d": "2026-11-13",
-          "r": "Le gestionnaire d’actifs Fastea Capital, établi à Nantes et Paris, a annoncé sur le réseau social LinkedIn la nomination de Guillaume Chieusse et Arnaud Cadart en qualité de codirecteurs de la gestion d’actifs.",
-          "c": [
-            "Actualités"
-          ]
-        },
-        {
-          "t": "Jaguar Land Rover n’échappe pas à la détérioration du marché automobile",
-          "l": "https://www.agefi.fr/news/entreprises/jaguar-land-rover-nechappe-pas-a-la-deterioration-du-marche-automobile",
-          "d": "2026-11-13",
-          "r": "La marge d’exploitation annuelle de la filiale britannique de Tata Motors est désormais attendue entre 2% et 3%, contre une prévision antérieure de 4%.",
-          "c": [
-            "Entreprises"
-          ]
-        },
-        {
-          "t": "L’inflation américaine soutient par ricochet le dollar",
-          "l": "https://www.agefi.fr/cash-risk/actualites/linflation-americaine-soutient-par-ricochet-le-dollar",
-          "d": "2026-11-13",
-          "r": "Retrouvez comme chaque semaine le coup d'oeil de DeftHedge sur le marché des changes.",
-          "c": [
-            "Actualités"
-          ]
-        },
-        {
-          "t": "Aviva retrouve un plus haut boursier inédit depuis 20 ans",
-          "l": "https://www.agefi.fr/news/banque-assurance/aviva-retrouve-un-plus-haut-boursier-inedit-depuis-20-ans",
-          "d": "2026-11-13",
-          "r": "L’assureur britannique profite de l’intégration réussie de Direct Line et de la confirmation de ses perspectives de moyen terme pour porter son gain annuel à 11 %. L’action est au plus haut depuis octobre 2007.",
-          "c": [
-            "Banque & Assurance"
-          ]
-        },
-        {
-          "t": "Generali publie des résultats en hausse mais fait grise mine en Bourse",
-          "l": "https://www.agefi.fr/news/banque-assurance/generali-publie-des-resultats-en-hausse-mais-fait-grise-mine-en-bourse",
-          "d": "2026-11-13",
-          "r": "Le premier assureur d’Italie a beau avoir publié des résultats à neuf mois solides avec un bénéfice net en hausse de 12% et confirmé l’ensemble de ses objectifs de croissance, le titre est en repli à la Bourse de Milan après l’annonce des résultats.",
-          "c": [
-            "Banque & Assurance"
-          ]
-        },
-        {
-          "t": "La digitalisation, moteur de transformation du marché",
-          "l": "https://www.agefi.fr/debats-opinions/la-digitalisation-moteur-de-transformation-du-marche",
-          "d": "2026-11-13",
-          "r": "Cette ouverture n’aurait pas été possible sans d’importants investissements technologiques. La digitalisation simplifie en effet la souscription et la gestion de contrats complexes, tout en réduisant certains coûts.",
-          "c": [
-            "Débats et Opinions"
-          ]
-        },
-        {
-          "t": "Marché en pleine mutation",
-          "l": "https://www.agefi.fr/debats-opinions/marche-en-pleine-mutation",
-          "d": "2026-11-13",
-          "r": "Portée par les incertitudes politiques, l’assurance-vie luxembourgeoise poursuit son essor auprès des Français. L’arrivée de nouveaux distributeurs et la digitalisation accélèrent sa transformation, entre démocratisation de cette solution d’épargne et enrichissement de l’offre de services.",
-          "c": [
-            "Débats et Opinions"
-          ]
-        },
-        {
-          "t": "Le Crédit Mutuel augmente ses salariés de 2,1%, les négociations se tendent chez Banque Populaire",
-          "l": "https://www.agefi.fr/news/banque-assurance/le-credit-mutuel-augmente-ses-salaries-de-2-1-les-negociations-se-tendent-chez-banque-populaire",
-          "d": "2026-11-13",
-          "r": "Les augmentations collectives de rémunération se poursuivent au sein des banques. Crédit Mutuel Alliance Fédérale accorde au moins 1.000 euros à tous ses salariés. La situation est plus compliquée au sein des Banques populaires.",
-          "c": [
-            "Banque & Assurance"
-          ]
-        },
-        {
-          "t": "Les entreprises voient bien grimper le coût de financement",
-          "l": "https://www.agefi.fr/cash-risk/actualites/les-entreprises-voient-bien-grimper-le-cout-de-financement",
-          "d": "2026-11-13",
-          "r": "Le taux moyen des nouveaux crédits bancaires a atteint 3,78% en septembre selon la Banque de France, celui des financements de marché 4,40%.",
-          "c": [
-            "Actualités"
-          ]
-        },
-        {
-          "t": "Le caractère défensif d’Apple pourrait commencer à lui nuire",
-          "l": "https://www.agefi.fr/news/entreprises/le-caractere-defensif-dapple-pourrait-commencer-a-lui-nuire",
-          "d": "2026-11-13",
-          "r": "En 2026, l'action Apple est devenue une des plus défensives de la tech et a repris le statut de plus grande capitalisation du monde devant Nvidia. Seulement, l'entreprise pourrait dorénavant faire moins rêver les investisseurs.",
-          "c": [
-            "Entreprises"
-          ]
-        },
-        {
-          "t": "Les fonds diversifiés internationaux allocation mixte à la loupe #188",
-          "l": "https://www.agefi.fr/patrimoine/fonds/les-fonds-diversifies-internationaux-allocation-mixte-a-la-loupe-188",
-          "d": "2026-11-13",
-          "r": "Les performances des fonds de cette catégorie sont en hausse. Un véhicule se distingue particulièrement : Templeton Global Value and Income A USD.",
-          "c": [
-            "Fonds"
-          ]
-        },
-        {
-          "t": "L’AIE anticipe une offre excédentaire de pétrole au quatrième trimestre",
-          "l": "https://www.agefi.fr/news/economie-marches/laie-anticipe-une-offre-excedentaire-de-petrole-au-quatrieme-trimestre",
-          "d": "2026-11-13",
-          "r": "L’agence prévoit une offre supérieure à la demande de 1,7 million de barils par jour pour le dernier trimestre de l’année, puis en 2027, dans son rapport mensuel, contrairement aux prévisions précédentes. Les cours du pétrole rebaissent.",
-          "c": [
-            "Economie & Marchés"
-          ]
-        },
-        {
-          "t": "Richemont enregistre une normalisation de ses ventes de joaillerie",
-          "l": "https://www.agefi.fr/news/entreprises/richemont-enregistre-une-normalisation-de-ses-ventes-de-joaillerie",
-          "d": "2026-11-13",
-          "r": "Le marché a été déçu par une progression du chiffre d’affaires de joaillerie inférieure à ses attentes. Le rythme de croissance de la division a ralenti de 24% au premier trimestre à 14% au deuxième.",
-          "c": [
-            "Entreprises"
-          ]
-        },
-        {
-          "t": "Les cartes à collectionner propulsent les résultats d'Asmodee",
-          "l": "https://www.agefi.fr/news/entreprises/les-cartes-a-collectionner-propulsent-les-resultats-dasmodee",
-          "d": "2026-11-13",
-          "r": "Porté par l'inextinguible demande des collectionneurs et des ventes record, le géant des jeux de société a enregistré une forte hausse de ses profits trimestriels",
-          "c": [
-            "Entreprises"
-          ]
-        },
-        {
-          "t": "ETF actifs systématiques : redéfinir l’exposition cœur aux actions",
-          "l": "https://www.agefi.fr/etf/etf-actifs-systematiques-redefinir-lexposition-cœur-aux-actions",
-          "d": "2026-11-13",
-          "r": "Les investisseurs peuvent-ils renforcer leur exposition cœur aux actions sans accroître sensiblement le risque ? Découvrez l’essor des ETF actifs systématiques.",
-          "c": [
-            "ETF"
-          ]
-        },
-        {
-          "t": "L'Agefi Actifs - Novembre 2026",
-          "l": "https://www.agefi.fr/patrimoine/magazine/lagefi-actifs-novembre-2026",
-          "d": "2026-11-13",
-          "r": "Tous les mois, Actifs, le magazine de la gestion de patrimoine de L’Agefi, donne la parole à un professionnel du secteur, décortique les sujets d’actualité à travers une grande enquête et des dossiers thématiques et esquisse le portrait d’une personnalité. Sans oublier nos précieux « Cas pratiques ».",
-          "c": [
-            "Magazine"
-          ]
-        },
-        {
-          "t": "L’alliance aux achats Aura est dans le collimateur de l’Autorité de la concurrence",
-          "l": "https://www.agefi.fr/news/entreprises/lalliance-aux-achats-aura-est-dans-le-collimateur-de-lautorite-de-la-concurrence",
-          "d": "2026-11-13",
-          "r": "Le gendarme français de la concurrence vient de notifier à Intermarché, Auchan et Plesio, ex-Casino, les trois membres de l’alliance, un rapport sur des pratiques susceptibles de porter atteinte à la concurrence.",
-          "c": [
-            "Entreprises"
-          ]
-        },
-        {
-          "t": "GTA 6 promet un départ sur les chapeaux de roues",
-          "l": "https://www.agefi.fr/news/entreprises/gta-6-promet-un-depart-sur-les-chapeaux-de-roues",
-          "d": "2026-11-13",
-          "r": "Au début du mois de novembre, près de trois semaines avant sa sortie, le jeu vidéo GTA 6 totalisait déjà près de 800 millions de dollars de précommandes.",
-          "c": [
-            "Entreprises"
-          ]
-        },
-        {
-          "t": "L'industrie du jeu vidéo attend impatiemment GTA 6",
-          "l": "https://www.agefi.fr/news/entreprises/lindustrie-du-jeu-video-blafarde-attend-impatiemment-gta-6",
-          "d": "2026-11-13",
-          "r": "La sortie de Grand Theft Auto 6, le 19 novembre, devrait provoquer un raz-de-marée mondial. Il passera au révélateur une des plus grosses industries mondiales du divertissement, brutalement retombée sur terre après le soufflé du Covid.",
-          "c": [
-            "Entreprises"
-          ]
-        },
-        {
-          "t": "Ubisoft bientôt contraint de clarifier ses options de refinancement",
-          "l": "https://www.agefi.fr/news/entreprises/ubisoft-bientot-contraint-de-clarifier-ses-options-de-refinancement",
-          "d": "2026-11-13",
-          "r": "Le calendrier financier se resserre dangereusement pour Ubisoft. Entre trésorerie sous pression et échéances obligataires de plusieurs centaines de millions d'euros, l'éditeur de jeux vidéo dispose de peu de temps pour sécuriser son refinancement. Le groupe étudie différents scénarios, qui pourraient se révéler coûteux pour ses actionnaires minoritaires.",
-          "c": [
-            "Entreprises"
-          ]
-        },
-        {
-          "t": "Eramet lancera son augmentation de capital avec une forte décote la semaine prochaine",
-          "l": "https://www.agefi.fr/news/entreprises/eramet-lancera-son-augmentation-de-capital-avec-une-forte-decote-la-semaine-prochaine",
-          "d": "2026-11-13",
-          "r": "Le groupe minier va lever 500 millions d'euros à un prix plus de 60% inférieur à son cours de clôture du 12 novembre. L'Etat français devrait monter à 49% du capital lors de cette opération.",
-          "c": [
-            "Entreprises"
-          ]
-        },
-        {
-          "t": "Microsoft fait face à une panne massive de ses services",
-          "l": "https://www.agefi.fr/news/entreprises/microsoft-fait-face-a-une-panne-massive-de-ses-services",
-          "d": "2026-11-13",
-          "r": "Outlook, Teams, Copilot... de nombreux outils Microsoft connaissaient d'importants dysfonctionnements partout dans le monde vendredi.",
+          "t": "Le faux pas de Richemont clôt une saison des résultats mitigée dans le secteur du luxe",
+          "l": "https://www.agefi.fr/news/entreprises/le-faux-pas-de-richemont-clot-une-saison-des-resultats-mitigee-dans-le-secteur-du-luxe",
+          "d": "2026-11-14",
+          "r": "Le joaillier suisse a été sanctionné en Bourse malgré de bons résultats, illustrant la frilosité des investisseurs vis-à-vis d'un secteur qui reste pénalisé par la faible demande en Chine.",
           "c": [
             "Entreprises"
           ]
@@ -2085,183 +1565,174 @@
       "nom_site": "Courrier international",
       "articles": [
         {
-          "t": "Qu’est-ce que Jensen Huang va faire de ses milliards de dollars d’actions chez Nvidia ?",
-          "l": "https://www.courrierinternational.com/article/economie-qu-est-ce-que-jensen-huang-va-faire-de-ses-milliards-de-dollars-d-actions-chez-nvidia_287136",
-          "d": "2026-11-13",
-          "r": "Après la démission de son poste de PDG de Nvidia, jeudi 12 novembre, Jensen Huang se retrouve assis sur une montagne d’actions dans l’entreprise de semi-conducteurs. Leur valeur est estimée autour de 135 milliards de dollars. Huang va-t-il vendre ses parts dans la firme qu’il a cofondée, se demande le “Financial Times”.",
-          "c": [
-            "Économie"
-          ]
-        },
-        {
-          "t": "“Balancez le nom !” Mais qui sera le prochain James Bond ?",
-          "l": "https://www.courrierinternational.com/stories/video-balancez-le-nom-mais-qui-sera-le-prochain-james-bond_286766",
-          "d": "2026-11-13",
-          "r": "Si Callum Turner, Jack Lowden et Josh O’Connor ont d’abord été cités comme les derniers finalistes pour le rôle du nouveau 007, la liste n’en finit plus de s’allonger. Nicholas Hoult et Robert Pattinson seraient également en lice, rapporte la presse spécialisée.",
-          "c": [
-            "Vidéo"
-          ]
-        },
-        {
-          "t": "Microdramas : bientôt un méga flop pour le format qui devait sauver Hollywood ?",
-          "l": "https://www.courrierinternational.com/article/analyse-microdramas-bientot-un-mega-flop-pour-le-format-qui-devait-sauver-hollywood_286716",
-          "d": "2026-11-13",
-          "r": "Et si les miniséries verticales pour smartphone, annoncées comme une révolution audiovisuelle, n’était en fait qu’une bulle destinée à éclater ? La presse américaine est assez pessimiste, surtout après l’accueil mitigé réservé à l’Alza Festival qui leur était consacré à New York, fin octobre.",
-          "c": [
-            "Analyse"
-          ]
-        },
-        {
-          "t": "La panne de Microsoft perturbe le système de santé au Royaume-Uni : “difficile de faire notre travail”",
-          "l": "https://www.courrierinternational.com/article/societe-la-panne-de-microsoft-perturbe-le-systeme-de-sante-au-royaume-uni-difficile-de-faire-notre-travail_287038",
-          "d": "2026-11-13",
-          "r": "Vendredi 13 novembre, les agents du NHS britannique ont été confrontés aux conséquences de la panne généralisée des outils en ligne de Microsoft. Retard dans la délivrance de médicaments, report de soins, retour aux formulaires papiers… Les médias du pays tentent de mesurer l’ampleur des perturbations.",
+          "t": "Sur les autoroutes de Californie, le surprenant boom des cantines pendjabies",
+          "l": "https://www.courrierinternational.com/article/societe-sur-les-autoroutes-de-californie-le-surprenant-boom-des-cantines-pendjabies_286985",
+          "d": "2026-11-14",
+          "r": "En Californie, des milliers de chauffeurs immigrés, privés de leur permis sous l’effet du durcissement de la politique migratoire de Donald Trump, se reconvertissent dans la restauration. Une situation qui fait fleurir les cantines indiennes le long des autoroutes américaines, raconte le “Los Angeles Times”.",
           "c": [
             "Société"
           ]
         },
         {
-          "t": "Trump évoque des “caravanes de migrants” à la frontière mexicaine, Sheinbaum dément",
-          "l": "https://www.courrierinternational.com/article/mexique-trump-evoque-des-caravanes-de-migrants-a-la-frontiere-mexicaine-sheinbaum-dement_287004",
-          "d": "2026-11-13",
-          "r": "Le président américain menace de doubler les droits de douane sur les produits mexicains si le gouvernement de Claudia Sheinbaum ne bloque pas les “caravanes de migrants” en passe d’atteindre la frontière avec les États-Unis. Une présence démentie par les autorités mexicaines.",
+          "t": "“Grand Theft Auto VI” sème la zizanie chez les élus de Miami",
+          "l": "https://www.courrierinternational.com/article/jeu-video-grand-theft-auto-vi-seme-la-zizanie-chez-les-elus-de-miami_286677",
+          "d": "2026-11-14",
+          "r": "La sortie du jeu le plus onéreux de l’histoire, le 19 novembre, enflamme les élus de Miami. “GTA VI” se déroule en effet à Vice City, une version fictive mais tout à fait reconnaissable de la métropole de Floride. La maire a remporté son bras de fer face à la shérif du comté au sujet d’un juteux partenariat marketing, relate la presse américaine.",
           "c": [
-            "Mexique"
+            "Jeu vidéo"
           ]
         },
         {
-          "t": "Chute de Jensen Huang : la Silicon Valley a compris qu’elle devra désormais rendre des comptes",
-          "l": "https://www.courrierinternational.com/article/opinion-chute-de-jensen-huang-la-silicon-valley-a-compris-qu-elle-devra-desormais-rendre-des-comptes_286971",
-          "d": "2026-11-13",
-          "r": "Le soutien apporté par de nombreux dirigeants de la tech au patron déchu du fabricant de puces Nvidia en dit long sur le délitement moral de ce secteur obsédé par la réussite à tout prix, estime “The Wall Street Journal”. Un secteur auquel les démocrates, vainqueurs des élections de mi-mandat, demanderont des comptes.",
+          "t": "La Gen Z a deux passions : les chansons populaires et la rébellion",
+          "l": "https://www.courrierinternational.com/stories/europe-la-gen-z-a-deux-passions-les-chansons-populaires-et-la-rebellion_286215",
+          "d": "2026-11-14",
+          "r": "De la France à l’Italie, de l’Espagne à Allemagne ou encore la Serbie, les chants contre les inégalités, les privilèges, la corruption, le racisme et le capitalisme se font écho dans les rues. À tel point que, d’après le journal croate “Jutarnji List”, la génération Z “ne rejette plus la musique populaire traditionnelle, elle se l’approprie”.",
           "c": [
-            "Opinion"
+            "Europe"
           ]
         },
         {
-          "t": "Obésité : mesurer l’indice de masse corporelle est-il totalement dépassé ?",
-          "l": "https://www.courrierinternational.com/article/sante-obesite-mesurer-l-indice-de-masse-corporelle-est-il-totalement-depasse_286975",
-          "d": "2026-11-13",
-          "r": "L’IMC, qui a notamment le défaut de ne pas distinguer la graisse de la masse musculaire, peut fausser le diagnostic. Des patients sont classés comme obèses alors qu’ils ne le sont pas, d’autres sont classés comme non obèses alors qu’ils le sont… Des chercheurs proposent une nouvelle approche, plus pertinente mais beaucoup plus complexe.",
+          "t": "Selon Zelensky, Washington a suggéré d’intégrer l’Ukraine à l’Otan si elle cède le Donbass",
+          "l": "https://www.courrierinternational.com/article/guerre-selon-zelensky-washington-a-suggere-d-integrer-l-ukraine-a-l-otan-si-elle-cede-le-donbass_287235",
+          "d": "2026-11-14",
+          "r": "Les émissaires des États-Unis, Steve Witkoff et Jared Kushner, auraient évoqué devant le président ukrainien une intégration à l’Otan en échange d’une cession de territoires à la Russie, affirme Volodymyr Zelensky. Ce dernier a par ailleurs déploré de nouvelles perturbations du réseau militaire Starshield, pénalisant les forces ukrainiennes.",
+          "c": [
+            "Guerre"
+          ]
+        },
+        {
+          "t": "En Afrique du Sud, les électeurs noirs se détournent de l’ANC : “L’histoire ne nourrira pas nos enfants”",
+          "l": "https://www.courrierinternational.com/article/reportage-en-afrique-du-sud-les-electeurs-noirs-se-detournent-de-l-anc-l-histoire-ne-nourrira-pas-nos-enfants_286220",
+          "d": "2026-11-14",
+          "r": "Les élections municipales ont signé un recul inédit et historique de l’ANC, le parti qui dominait le paysage politique sud-africain depuis la fin de l’apartheid, en 1991. “The Times” a donné la parole à des Sud-Africains noirs qui, devant la déliquescence des services publics, ont fait le choix de voter pour l’Alliance démocratique, un parti centriste considéré comme blanc. Désormais, le vote est moins racial que motivé par des considérations sociales.",
+          "c": [
+            "Reportage"
+          ]
+        },
+        {
+          "t": "MBS doit-il quitter le pouvoir ?",
+          "l": "https://www.courrierinternational.com/article/arabie-saoudite-mbs-doit-il-quitter-le-pouvoir_285151",
+          "d": "2026-11-14",
+          "r": "Entre le bourbier yéménite, le flop des mégaprojets et des réformes sociales qui ne font pas l’unanimité, le bilan du prince héritier saoudien Mohammed ben Salmane laisse beaucoup à désirer, plus de dix ans après son accession au pouvoir, écrit “Arab Digest”.",
+          "c": [
+            "Arabie saoudite"
+          ]
+        },
+        {
+          "t": "Sur les traces de l’Empire mongol (2/3)",
+          "l": "https://www.courrierinternational.com/article/blog-voyages-sur-les-traces-de-l-empire-mongol-2-3_285295",
+          "d": "2026-11-14",
+          "r": "Cap à l’ouest d’Oulan-Bator, jusqu’à la vallée de l’Orkhon. Des chevaux sauvages de Khustai aux vestiges de Karakorum, l’ancienne capitale de l’Empire mongol, la steppe se révèle bien moins vide qu’elle n’en a l’air.",
+          "c": [
+            "Blog Voyages"
+          ]
+        },
+        {
+          "t": "La rougeole n’est plus une maladie éliminée aux États-Unis",
+          "l": "https://www.courrierinternational.com/article/sante-la-rougeole-n-est-plus-une-maladie-eradiquee-aux-etats-unis_287202",
+          "d": "2026-11-14",
+          "r": "Selon la presse d’outre-Atlantique, un comité international d’experts a décidé de révoquer le statut acquis depuis 2000 par les États-Unis : le pays ne sera plus classé parmi ceux qui ont éliminé la rougeole. Cette annonce intervient en pleine flambée du nombre de cas et de décès enregistrés.",
           "c": [
             "Santé"
           ]
         },
         {
-          "t": "À Téhéran, un camp d’entraînement militaire exclusivement féminin",
-          "l": "https://www.courrierinternational.com/video/video-a-teheran-un-camp-d-entrainement-militaire-exclusivement-feminin_286990",
-          "d": "2026-11-13",
-          "r": "Face à l’éventualité d’une nouvelle guerre, le pouvoir iranien a mis en place, au cœur de la capitale, un camp d’entraînement réservé aux femmes qui prennent part à la campagne Janfada : “sacrifice pour la patrie”, en persan. Une opération de propagande, dénoncent ses détracteurs.",
+          "t": "“Oyez ! Oyez !” : une journée dans l’univers déjanté des crieurs publics",
+          "l": "https://www.courrierinternational.com/article/reportage-oyez-oyez-une-journee-dans-l-univers-dejante-des-crieurs-publics_280605",
+          "d": "2026-11-14",
+          "r": "Le championnat du monde des “town criers” s’est tenu à la fin de septembre dans le nord-ouest de l’Angleterre, sous l’œil mi-amusé, mi-impressionné de ce journaliste du “Financial Times”. Venus du Royaume-Uni, d’Australie, des Pays-Bas et d’au-delà, les vingt-cinq participants ont fait honneur à un métier d’antan pour lequel la puissance vocale ne fait pas tout.",
           "c": [
-            "Vidéo"
+            "Reportage"
           ]
         },
         {
-          "t": "L’Allemagne empruntera un “montant record” en 2027 pour financer sa modernisation",
-          "l": "https://www.courrierinternational.com/article/economie-l-allemagne-empruntera-un-montant-record-en-2027-pour-financer-sa-modernisation_286977",
-          "d": "2026-11-13",
-          "r": "Grâce à un assouplissement des règles qui encadrent la dette publique allemande, le gouvernement des conservateurs et des sociaux-démocrates entend emprunter plus de 210 milliards d’euros pour l’année 2027. Une proposition critiquée par la presse, dans un pays très attaché à l’équilibre des comptes.",
+          "t": "Dans les banlieues californiennes, il faut désormais cohabiter avec les ours",
+          "l": "https://www.courrierinternational.com/article/animaux-dans-les-banlieues-californiennes-les-ours-prennent-leurs-aises-les-humains-doivent-faire-avec_273946",
+          "d": "2026-11-14",
+          "r": "Les ours noirs de Californie étendent leur territoire jusqu’aux abords des villes, s’introduisant dans les jardins, les maisons et les piscines. Pour les habitants, partagés entre l’effroi et l’enchantement, il faut trouver des moyens de s’adapter. Ce n’est pas gagné, raconte “The New York Times”.",
           "c": [
-            "Économie"
+            "Animaux"
           ]
         },
         {
-          "t": "Espagne : Begoña Gómez, la femme de Pedro Sánchez, entre dans la campagne des législatives",
-          "l": "https://www.courrierinternational.com/article/politique-espagne-begona-gomez-la-femme-de-pedro-sanchez-entre-dans-la-campagne-des-legislatives_286983",
-          "d": "2026-11-13",
-          "r": "À Séville, la femme du Premier ministre est intervenue lors du meeting de lancement de la campagne du Parti socialiste pour les élections législatives du 29 novembre. Prochainement jugée pour des faits présumés de détournement de fonds publics, elle pourrait jouer un rôle clé pour capter le vote des femmes, selon la presse espagnole.",
+          "t": "Bienvenue à “Hairstanbul”, la ville où des crânes couverts de bandages courent les rues",
+          "l": "https://www.courrierinternational.com/article/reportage-bienvenue-a-hairstanbul-la-ville-ou-des-cranes-couverts-de-bandages-courent-les-rues_275612",
+          "d": "2026-11-14",
+          "r": "À Istanbul, le tourisme médical attire tous les ans environ 1,4 million de patients gênés par leur calvitie pour des greffes capillaires. Une affaire florissante, mais qui ne profite pas à tous les locaux et contraste avec la dure réalité socio-économique du pays, raconte “Dispatch”.",
           "c": [
-            "Politique"
+            "Reportage"
           ]
         },
         {
-          "t": "Droits des femmes : en Hongrie, une série de mesures qui “réparent des omissions passées”",
-          "l": "https://www.courrierinternational.com/article/societe-droits-des-femmes-en-hongrie-une-serie-de-mesures-qui-reparent-des-omissions-passees_286978",
-          "d": "2026-11-13",
-          "r": "Le gouvernement du Premier ministre Peter Magyar entend renforcer la législation contre les violences, ratifier la Convention d’Istanbul, modifier le décret qui obligeait à écouter le cœur du fœtus avant une IVG et supprimer l’ordonnance obligatoire pour la pilule du lendemain. Autant d’annonces saluées par les organisations de défense des droits des femmes, et critiquées par les médias proches de l’ancien dirigeant Viktor Orbán.",
+          "t": "Et si la réalité virtuelle permettait de réinventer l’art ?",
+          "l": "https://www.courrierinternational.com/article/idees-et-si-la-realite-virtuelle-permettait-de-reinventer-l-art_272069",
+          "d": "2026-11-14",
+          "r": "L’expert en musique classique du “Daily Telegraph” s’est essayé à deux expériences en réalité virtuelle dans le domaine qui l’intéresse. Il confie avoir été désarçonné par la disparition de la frontière entre l’œuvre et le public qui, selon lui, aide à donner un sens à l’art. Serait-ce le début d’une révolution ?",
+          "c": [
+            "Idées"
+          ]
+        },
+        {
+          "t": "Abolissons les cadeaux communs !",
+          "l": "https://www.courrierinternational.com/article/societe-abolissons-les-cadeaux-communs_276920",
+          "d": "2026-11-14",
+          "r": "Groupes WhatsApp qui crépitent, contre-propositions irréalisables et un budget qui s’envole… L’organisation pour offrir un cadeau commun est une vraie gageure, peste cette journaliste allemande. Michaela Rogalli plaide pour un retour à des attentions vraiment personnalisées.",
           "c": [
             "Société"
           ]
         },
         {
-          "t": "Indonésie : le président Prabowo sur écoute, la police nationale au banc des accusés",
-          "l": "https://www.courrierinternational.com/article/politique-indonesie-le-president-prabowo-sur-ecoute-la-police-nationale-au-banc-des-accuses_286905",
-          "d": "2026-11-13",
-          "r": "Trois généraux sont soupçonnés d’avoir espionné le président Prabowo Subianto. Au-delà des soupçons de manœuvres politiques, la presse locale y voit le symptôme d’une institution policière devenue si puissante qu’elle semble échapper à tout contrôle.",
+          "t": "L’espace aérien américain fermé pendant plusieurs heures à cause d’une panne de télécommunications",
+          "l": "https://www.courrierinternational.com/article/etats-unis-l-espace-aerien-americain-ferme-pendant-plusieurs-heures-a-cause-d-une-panne-de-telecommunications_287169",
+          "d": "2026-11-14",
+          "r": "Une panne de télécommunications dans plusieurs centres de contrôle aérien aux États-Unis a entraîné vendredi la fermeture totale de l’espace aérien américain pendant plusieurs heures, entraînant l’annulation de près de 6 000 vols et semant la pagaille dans les aéroports du pays.",
           "c": [
-            "Politique"
+            "États-Unis"
           ]
         },
         {
-          "t": "France-Afrique du Sud : encore “une histoire de vengeance” pour les Bleus ?",
-          "l": "https://www.courrierinternational.com/article/rugby-france-afrique-du-sud-encore-une-histoire-de-vengeance-pour-les-bleus_286712",
-          "d": "2026-11-13",
-          "r": "Avant le choc de ce vendredi 13 novembre entre les Springboks et le XV de France à Saint-Denis, dans le cadre du Championnat des nations, la presse sud-africaine se montre confiante. Les médias du pays estiment toutefois que les Bleus sont encore “en quête de revanche”, ce qui laisse augurer un “combat brutal” au Stade de France.",
+          "t": "Rugby, réunion Trump-Xi-Poutine et Léon XIV au Pérou : les informations de la nuit",
+          "l": "https://www.courrierinternational.com/article/pendant-que-vous-dormiez-rugby-reunion-trump-xi-poutine-et-leon-xiv-au-perou-les-informations-de-la-nuit_287170",
+          "d": "2026-11-14",
+          "r": "Les principales actualités de ces dernières heures vues par la presse internationale.",
           "c": [
-            "Rugby"
+            "Pendant que vous dormiez"
           ]
         },
         {
-          "t": "À la fois zone de transit et de production : l’Afrique au cœur du trafic mondial de drogue",
-          "l": "https://www.courrierinternational.com/grand-format/carte-a-la-fois-zone-de-transit-et-de-production-l-afrique-au-c-ur-du-trafic-mondial-de-drogue_285277",
-          "d": "2026-11-13",
-          "r": "L’Afrique est devenue une plaque tournante essentielle des réseaux mondiaux de drogues. Phénomène nouveau, la multiplication de démantèlement de laboratoires clandestins sur le sol africain indique que le continent produit aussi ces drogues hautement criminogènes.",
+          "t": "SpaceX échoue à récupérer en un seul vol les deux étages de sa fusée Starship",
+          "l": "https://www.courrierinternational.com/article/espace-spacex-echoue-a-recuperer-en-un-seul-vol-les-deux-etages-de-sa-fusee-starship_287171",
+          "d": "2026-11-14",
+          "r": "Avec le 15e vol d’essai de sa mégafusée Starship, SpaceX espérait signer un exploit inédit : la récupération des deux étages de la fusée sur un seul vol. Un problème sur le premier étage a douché cette ambition vendredi, mais la compagnie spatiale d’Elon Musk se concentre désormais sur le retour du deuxième étage, prévu samedi.",
           "c": [
-            "Carte"
+            "Espace"
           ]
         },
         {
-          "t": "Rosalía, “divin miracle” des Latin Grammys",
-          "l": "https://www.courrierinternational.com/article/musique-rosal-a-divin-miracle-des-latin-grammys_286938",
-          "d": "2026-11-13",
-          "r": "La Catalane a (presque) tout raflé lors de la 27e édition des Latin Grammys, qui se tenait ce jeudi 12 novembre à Las Vegas. On s’y attendait, mais c’est mérité, estime la presse espagnole.",
+          "t": "Allemagne : à Esslingen, la “ville des oignons”, le Diable sème la zizanie",
+          "l": "https://www.courrierinternational.com/article/reportage-allemagne-a-esslingen-la-ville-des-oignons-le-diable-seme-la-zizanie_282068",
+          "d": "2026-11-14",
+          "r": "Menaces de morts, pétition et discours religieux enflammés… L’installation d’une statue de Satan au cœur d’Esslingen am Neckar suscite de sulfureux débats. Le Diable aurait-il mis la main sur cette ville de l’ouest de l’Allemagne ? Un journaliste du quotidien de gauche “Süddeutsche Zeitung” s’est rendu sur place pour enquêter.",
           "c": [
-            "Musique"
+            "Reportage"
           ]
         },
         {
-          "t": "En Ukraine, la presse reproche à Jean-Luc Mélenchon son “socialisme à visage poutinien”",
-          "l": "https://www.courrierinternational.com/article/vu-de-kiev-en-ukraine-la-presse-reproche-a-jean-luc-melenchon-son-socialisme-a-visage-poutinien_286984",
-          "d": "2026-11-13",
-          "r": "Le candidat de La France insoumise n’est guère en odeur de sainteté en Ukraine, où les médias l’accusent de s’aligner ouvertement sur le discours du Kremlin. Lors de son meeting du Bourget, le 7 novembre, il a suggéré l’organisation d’un référendum pour déterminer l’avenir des habitants du Donbass.",
+          "t": "La jeunesse française se réapproprie le drapeau tricolore, il était temps !",
+          "l": "https://www.courrierinternational.com/article/vu-de-suisse-la-jeunesse-francaise-se-reapproprie-le-drapeau-tricolore-il-etait-temps_286195",
+          "d": "2026-11-14",
+          "r": "Dans les manifestations des lycéens et des étudiants, on voit le bleu-blanc-rouge partout. Pour ce journaliste suisse, voir la jeunesse brandir le drapeau français est plus qu’un symbole : c’est une reconquête révélatrice de l’état du pays.",
           "c": [
-            "Vu de Kiev"
+            "Vu de Suisse"
           ]
         },
         {
-          "t": "Xi Jinping invoque la mémoire de Sun Yat-sen pour justifier ses ambitions sur Taïwan",
-          "l": "https://www.courrierinternational.com/article/geopolitique-xi-jinping-invoque-la-memoire-de-sun-yat-sen-pour-justifier-ses-ambitions-sur-taiwan_286872",
-          "d": "2026-11-13",
-          "r": "Jeudi 12 novembre, Xi Jinping a réitéré son souhait d’une réunification “pacifique” avec Taïwan à l’occasion de la commémoration de la naissance de Sun Yat-sen, considéré comme le père fondateur de la République de Chine. Le même jour, des avions de chasse de l’armée chinoise étaient en patrouille autour de l’île.",
+          "t": "Immersion chez les recruteurs de saboteurs en Pologne : “On pourrait peut-être faire sauter l’usine ?”",
+          "l": "https://www.courrierinternational.com/article/enquete-immersion-chez-les-recruteurs-de-saboteurs-en-pologne-on-pourrait-peut-etre-faire-sauter-l-usine_283572",
+          "d": "2026-11-14",
+          "r": "Un journaliste du site d’information russophone “Vot Tak”, établi en Pologne, s’est vu offrir jusqu’à 30 000 dollars sur Telegram pour procéder à l’incendie d’une usine de drones qui fournit les forces armées ukrainiennes. Le journaliste s’était fait passer pour un ressortissant biélorusse en mal d’argent, à deux doigts de se faire expulser de Pologne.",
           "c": [
-            "Géopolitique"
-          ]
-        },
-        {
-          "t": "Russie : comment le FSB est devenu encore plus puissant que ses ancêtres, le KGB et la Tcheka",
-          "l": "https://www.courrierinternational.com/article/decryptage-russie-comment-le-fsb-est-devenu-encore-plus-puissant-que-ses-ancetres-le-kgb-et-la-tcheka_256380_1",
-          "d": "2026-11-13",
-          "r": "Successeur du KGB soviétique, le FSB, service fédéral chargé officiellement d’assurer la sécurité intérieure, exerce aujourd’hui un pouvoir inégalé dans l’histoire de la Russie moderne, constate cet avocat dans le média russe indépendant “Republic”. Il décrit le fonctionnement d’un organe omniscient qui a fait du procès pour haute trahison un impitoyable instrument de répression politique.",
-          "c": [
-            "Décryptage"
-          ]
-        },
-        {
-          "t": "En Corée du Sud, la détresse psychologique de la jeunesse a un nom",
-          "l": "https://www.courrierinternational.com/article/le-mot-du-jour-en-coree-du-sud-la-detresse-psychologique-de-la-jeunesse-a-un-nom_286839",
-          "d": "2026-11-13",
-          "r": "Confrontés à la précarité et aux inégalités sociales, les jeunes Sud-Coréens perdent foi en l’avenir. La frustration qui en résulte, désignée par le terme de “jeongbyeong” prend la forme de reproches intériorisés, qui les rongent et détériorent leur santé mentale, constatent les médias.",
-          "c": [
-            "Le mot du jour"
-          ]
-        },
-        {
-          "t": "Ville à l’arrêt et “parcours interminables” : la COP31 étrillée pour son organisation",
-          "l": "https://www.courrierinternational.com/article/turquie-ville-a-l-arret-et-parcours-interminables-la-cop31-etrillee-pour-son-organisation_286981",
-          "d": "2026-11-13",
-          "r": "L’organisation du sommet climatique essuie de nombreuses critiques, aussi bien dans la presse turque que dans les journaux étrangers. De son côté, Ankara se félicite de l’affluence et d’avoir obtenu les investissements étrangers qu’elle espérait.",
-          "c": [
-            "Turquie"
+            "Enquête"
           ]
         }
       ]
@@ -2270,165 +1741,75 @@
       "nom_site": "Challenges",
       "articles": [
         {
-          "t": "« C’est rageant, parce qu’on a un outil industriel qui est au top » : la dernière usine de papier Fibre Excellence liquidée",
-          "l": "https://www.challenges.fr/entreprise/industrie/cest-rageant-parce-quon-a-un-outil-industriel-qui-est-au-top-la-derniere-usine-de-papier-fibre-excellence-liquidee_646984",
-          "d": "2026-11-13",
-          "r": "Faute d’offre de reprise déposée à temps, le tribunal de commerce de Toulouse a mis fin jeudi à l’activité de l’ex-numéro un français de la pâte à papier. Les salariés attendent désormais un éventuel projet de relance qui aboutirait d’ici à la fin de l’année 2027.",
-          "c": [
-            "Industrie"
-          ]
-        },
-        {
-          "t": "Quand s’investir pour son avenir voire s’endetter ne suffit plus : ce mal invisible qui nourrit la colère des jeunes dans le monde",
-          "l": "https://www.challenges.fr/monde/quand-sinvestir-pour-son-avenir-voire-sendetter-ne-suffit-plus-ce-mal-invisible-qui-nourrit-la-colere-des-jeunes-dans-le-monde_646975",
-          "d": "2026-11-13",
-          "r": "De l’Inde à la France, le pacte méritocratique implicite qui garantissait la stabilité des sociétés en offrant des perspectives d’avancement aux nouvelles générations est en train de s’effriter.",
-          "c": [
-            "Monde"
-          ]
-        },
-        {
-          "t": "Scandale au sommet de l'industrie d'IA : la chute fulgurante de Jensen Huang, patron de Nvidia",
-          "l": "https://www.challenges.fr/economie/scandale-au-sommet-de-lindustrie-dia-la-chute-fulgurante-de-jensen-huang-patron-de-nvidia_646976",
-          "d": "2026-11-13",
-          "r": "En une semaine, Jensen Huang a tout perdu. En ayant une relation extraconjugale avec une espionne chinoise supposée, l’américano-taïwanais a perdu la tête de son entreprise, Nvidia, qu’il a fondé il y a 33 ans.",
-          "c": [
-            "Économie"
-          ]
-        },
-        {
-          "t": "« On a beaucoup de salariés cloués au smic » : l’exonération de charges patronales est-elle un frein à la hausse des salaires ?",
-          "l": "https://www.challenges.fr/economie/on-a-beaucoup-de-salaries-cloues-au-smic-lexoneration-de-charges-patronales-est-elle-un-frein-a-la-hausse-des-salaires_646980",
-          "d": "2026-11-13",
-          "r": "Conçus pour soutenir l’emploi, les allègements de cotisations patronales peuvent aussi freiner les augmentations de salaire. Le gouvernement veut revoir cette politique coûteuse pour les finances publiques. Le Medef redoute, lui, des destructions d’emplois.",
-          "c": [
-            "Économie"
-          ]
-        },
-        {
-          "t": "Gérald Darmanin proche de la sortie, le « nouvel impôt de production » de Marine Le Pen... les indiscrétions politiques de Challenges",
-          "l": "https://www.challenges.fr/politique/gerald-darmanin-proche-de-la-sortie-le-nouvel-impot-de-production-de-marine-le-pen-les-indiscretions-politiques-de-challenges_646971",
-          "d": "2026-11-13",
-          "r": "Dans les indiscrétions politiques de Challenges cette semaine, retrouvez aussi le lapsus révélateur de Jordan Bardella dans son nouveau livre ou encore Jean-Luc Mélenchon qui peaufine le chiffrage de son programme.",
-          "c": [
-            "Politique"
-          ]
-        },
-        {
-          "t": "Teddy Riner, l’imprévu qui réveille la démocratie : pourquoi la présidentielle devient d’un coup bien plus intéressante",
-          "l": "https://www.challenges.fr/politique/teddy-riner-limprevu-qui-reveille-la-democratie-pourquoi-la-presidentielle-devient-dun-coup-bien-plus-interessante_646960",
-          "d": "2026-11-13",
-          "r": "La candidature de Teddy Riner rebat les cartes de la présidentielle de 2027. Entre héritage macroniste, rejet des extrêmes et piège du « ni droite ni gauche », André Comte-Sponville analyse ce nouvel imprévu démocratique.",
-          "c": [
-            "Politique"
-          ]
-        },
-        {
-          "t": "Calendriers de l’Avent beauté 2026 : Sephora, Armani, YSL, Fenty… découvrez les coffrets les plus attendus pour patienter jusqu’à Noël en beauté",
-          "l": "https://www.challenges.fr/luxe/calendriers-de-lavent-beaute-2026-sephora-armani-ysl-fenty-decouvrez-les-coffrets-les-plus-attendus-pour-patienter-jusqua-noel-en-beaute_646970",
-          "d": "2026-11-13",
-          "r": "Du maquillage aux soins, en passant par les parfums, les calendriers de l’Avent beauté 2026 rivalisent d’idées pour faire patienter jusqu’à Noël. K-beauty, luxe, formats voyage ou full size, voici notre sélection de coffrets à shopper.",
-          "c": [
-            "Luxe"
-          ]
-        },
-        {
-          "t": "Calendriers de l’Avent food 2026 : ces maisons qui transforment l’attente de Noël en 24 petits plaisirs gourmands à savourer",
-          "l": "https://www.challenges.fr/luxe/calendriers-de-lavent-food-2026-ces-maisons-qui-transforment-lattente-de-noel-en-24-petits-plaisirs-gourmands-a-savourer_646969",
-          "d": "2026-11-13",
-          "r": "Thés bios, bonbons de chocolat, pralinés, capsules de café ou billes gaufrettes : cette année, les maisons transforment chaque case en une parenthèse gourmande pour patienter jusqu’à Noël.",
-          "c": [
-            "Luxe"
-          ]
-        },
-        {
-          "t": "« Six cadres sur 10 ressentent une perte de pouvoir d’achat, la rémunération est devenue leur priorité numéro un » : Annelore Coury, directrice générale de l’Apec",
-          "l": "https://www.challenges.fr/economie/six-cadres-sur-10-ressentent-une-perte-de-pouvoir-dachat-la-remuneration-est-devenue-leur-priorite-numero-un-annelore-coury-directrice-generale-de-lapec_646831",
-          "d": "2026-11-13",
-          "r": "La directrice générale de l’Apec détaille les évolutions de cette catégorie de salariés dans une période marquée par l’inflation, le chômage et la montée de l’IA.",
-          "c": [
-            "Économie"
-          ]
-        },
-        {
-          "t": "Soins du visage pas comme les autres : Darphin, Bella Labèque, Beau Soin, Luca Bagnara, quatre mains expertes à Paris pour affiner le visage",
-          "l": "https://www.challenges.fr/luxe/soins-du-visage-pas-comme-les-autres-darphin-bella-labeque-beau-soin-luca-bagnara-quatre-mains-expertes-a-paris-pour-affiner-le-visage_646968",
-          "d": "2026-11-13",
-          "r": "Darphin, Bella Labèque, Marine Guillou Doré et Luca Bagnara : quatre adresses parisiennes pour un soin du visage ciblé, façonné par la main et adapté à chaque morphologie.",
-          "c": [
-            "Luxe"
-          ]
-        },
-        {
-          "t": "Restaurants asiatiques à Paris : ces adresses à tester, du Bar Nomo à Lily Wang, entre handrolls, canard laqué et cuisine végétale",
-          "l": "https://www.challenges.fr/luxe/restaurants-asiatiques-a-paris-ces-adresses-a-tester-du-bar-nomo-a-lilly-wang-entre-handrolls-canard-laque-et-cuisine-vegetale_646967",
-          "d": "2026-11-13",
-          "r": "Handrolls, canard laqué, cuisine végétale ou cocktails twistés : les restaurants asiatiques à Paris se réinventent. Du Bar Nomo à Lily Wang, en passant par Hando Handrolls, Maison Yu et Sobo, voici les adresses les plus stylées de Paris à tester.",
-          "c": [
-            "Luxe"
-          ]
-        },
-        {
-          "t": "Volkswagen met en pause la future Golf électrique : le patron Thomas Schäfer décrypte les raisons de cette décision à Challenges",
-          "l": "https://www.challenges.fr/automobile/volkswagen-met-en-pause-la-future-golf-electrique-le-patron-thomas-schafer-decrypte-les-raisons-de-cette-decision-a-challenges_646955",
-          "d": "2026-11-13",
-          "r": "En difficultés financières, Volkswagen a décidé de geler le développement de sa future ID. Golf électrique. Le patron de la marque, Thomas Schäfer, explique à Challenges les raisons de cette décision.",
-          "c": [
-            "Automobile"
-          ]
-        },
-        {
-          "t": "Croisière dans l’Égée : sept nuits à bord du Champlain, de Patmos à Santorin, entre table française et escales hors du temps",
-          "l": "https://www.challenges.fr/luxe/croisiere-dans-legee-sept-nuits-a-bord-du-champlain-de-patmos-a-santorin-entre-table-francaise-et-escales-hors-du-temps_646966",
-          "d": "2026-11-13",
-          "r": "Sept nuits dans l’Égée, d’Athènes aux Cyclades, avec une échappée sur la côte turque. À bord du Champlain, Ponant allie table française et prise en charge totale, sans que les journées perdent leur rythme.",
-          "c": [
-            "Luxe"
-          ]
-        },
-        {
-          "t": "L’Europe herbivore face aux Empires fauves et aux troisièmes colonnes populistes : la leçon géopolitique de Thierry Breton",
-          "l": "https://www.challenges.fr/monde/leurope-herbivore-face-aux-empires-fauves-et-aux-troisiemes-colonnes-populistes-la-lecon-geopolitique-de-thierry-breton_646965",
-          "d": "2026-11-13",
-          "r": "Peu importe si l’ex-Commissaire européen écarté de Bruxelles et interdit de séjour aux États-Unis brigue ou non L’Élysée. L’ouvrage qu’il publie n’est pas un livre jetable mais une œuvre robuste sur les cellules souches des Empires américain, chinois et russe et bientôt indien qui nous surclassent, sapent nos démocraties fédérées, travaillent à notre dislocation. Pour répliquer et espérer, il faut d’abord plonger dans les épaisseurs impériales autocrates. Mesurer leurs déterminations et guetter leurs faiblesses. Là, c’est fait et bien fait.",
-          "c": [
-            "Monde"
-          ]
-        },
-        {
-          "t": "De nombreux salariés privés de mails partout dans le monde : une panne géante chez Microsoft perturbe ses logiciels Teams et Outlook",
-          "l": "https://www.challenges.fr/entreprise/tech-numerique/de-nombreux-salaries-prives-de-mails-partout-dans-le-monde-une-panne-geante-chez-microsoft-perturbe-ses-logiciels-teams-et-outlook_646956",
-          "d": "2026-11-13",
-          "r": "Microsoft est frappé depuis ce jeudi 12 novembre par une panne généralisée qui perturbe le fonctionnement de ses logiciels utilisés par des entreprises du monde entier, notamment Outlook pour les courriels et Teams pour la messagerie professionnelle.",
-          "c": [
-            "Tech - Numérique"
-          ]
-        },
-        {
-          "t": "Pas besoin d’être politicien, homme d’affaires ou milliardaire pour être une cible : comment l’IA démultiplie les risques de cyberattaque",
-          "l": "https://www.challenges.fr/la-verticale-cyber/pas-besoin-detre-politicien-homme-daffaires-ou-milliardaire-pour-etre-une-cible-comment-lia-demultiplie-les-risques-de-cyberattaque_646954",
-          "d": "2026-11-13",
-          "r": "Spécialiste de la cybersécurité en Estonie, pays pionnier dans la lutte contre le hacking, Tiia Somer explique comment face à une IA qui décuple les capacités de nuisance, une vigilance sans relâche et une coopération internationale sont indispensables.",
-          "c": [
-            "La verticale Cyber"
-          ]
-        },
-        {
-          "t": "« Difficile de ne pas être labellisé » : comment le virage écologique des SCPI est devenu incontournable et pourrait aussi profiter aux épargnants",
-          "l": "https://www.challenges.fr/argent-et-placements/difficile-de-ne-pas-etre-labellise-comment-le-virage-ecologique-des-scpi-est-devenu-incontournable-et-pourrait-aussi-profiter-aux-epargnants_646756",
-          "d": "2026-11-13",
-          "r": "PLACEMENTS RESPONSABLES (5/8) - Le label ISR monte en puissance dans les sociétés civiles de placement immobilier. Dans un contexte morose, l’atout environnemental rejoint l’intérêt économique.",
+          "t": "Cryptomonnaies : après le piratage spectaculaire de Binance, comment continuer à investir dans le bitcoin et l’Ethereum sans exposer son épargne aux cyberattaques",
+          "l": "https://www.challenges.fr/argent-et-placements/cryptomonnaies-apres-le-piratage-spectaculaire-de-binance-comment-continuer-a-investir-dans-le-bitcoin-et-lethereum-sans-exposer-son-epargne-aux-cyberattaques_646964",
+          "d": "2026-11-14",
+          "r": "Après l’attaque géante de Binance, les épargnants s’interrogent sur la protection de leur portefeuille virtuel. Nos conseils pour éviter les sueurs froides.",
           "c": [
             "Argent et Placements"
           ]
         },
         {
-          "t": "Arabie saoudite : frappé par les Houthis, lâché par ses alliés américains et fragilisé économiquement, le royaume de MBS découvre l’étendue de ses vulnérabilités",
-          "l": "https://www.challenges.fr/monde/arabie-saoudite-frappe-par-les-houthis-lache-par-ses-allies-americains-et-fragilise-economiquement-le-royaume-de-mbs-decouvre-letendue-de-ses-vulnerabilites_646946",
-          "d": "2026-11-13",
-          "r": "Sous le feu des attaques répétées des Houthis, lâchée par son allié américain et rattrapée par ses fragilités économiques, l’Arabie saoudite traverse une annus horribilis qui menace les ambitions de Mohammed ben Salmane.",
+          "t": "« Un énorme marché » grâce à « un public potentiel au-dessus de 600 millions de personnes » : les dessous de la première édition de l'Eurovision en Asie",
+          "l": "https://www.challenges.fr/entreprise/medias/un-enorme-marche-grace-a-un-public-potentiel-au-dessus-de-600-millions-de-personnes-les-dessous-de-la-premiere-edition-de-leurovision-en-asie_646983",
+          "d": "2026-11-14",
+          "r": "La première édition de l'Eurovision Asie, dérivé du concours de la chanson européen, se tient samedi soir à Bangkok en Thaïlande. Au-delà des onze pays participants, les organisateurs espèrent en convaincre davantage et en faire un événement annuel.",
+          "c": [
+            "Médias"
+          ]
+        },
+        {
+          "t": "Un système de contrôle obsolète, 50 milliards de dollars requis « d’urgence » : Les causes de la panne aérienne générale aux États-Unis",
+          "l": "https://www.challenges.fr/entreprise/transports/un-systeme-de-controle-obsolete-50-milliards-de-dollars-requis-durgence-les-causes-de-la-panne-aerienne-generale-aux-etats-unis_646985",
+          "d": "2026-11-14",
+          "r": "La suspension de tous les décollages aux États-Unis pendant plusieurs heures vendredi n’est pas due à une cyberattaque d’après les autorités, mais à des « problèmes de communication » affectant le système de contrôle aérien, obsolète et sous-financé.",
+          "c": [
+            "Transports"
+          ]
+        },
+        {
+          "t": "Les bornes de recharge au banc d’essai : badges, abonnements, heures creuses… comment faire baisser la facture et éviter les mauvaises surprises",
+          "l": "https://www.challenges.fr/automobile/les-bornes-de-recharge-au-banc-dessai-badges-abonnements-heures-creuses-comment-faire-baisser-la-facture-et-eviter-les-mauvaises-surprises_646979",
+          "d": "2026-11-14",
+          "r": "La voiture électrique décolle en France depuis un an, dépassant même 40 % des ventes neuves. Autant d’utilisateurs à rassurer pour « faire le plein » de leurs batteries. Fiabilité, prix, puissance, disponibilité : notre enquête sur le réseau.",
+          "c": [
+            "Automobile"
+          ]
+        },
+        {
+          "t": "Avec ses 72 milliards de dollars de budget militaire, pourquoi l’Arabie saoudite ne parvient-elle pas à prendre le dessus sur les Houthis du Yémen ?",
+          "l": "https://www.challenges.fr/monde/avec-ses-72-milliards-de-dollars-de-budget-militaire-pourquoi-larabie-saoudite-ne-parvient-elle-pas-a-prendre-le-dessus-sur-les-houthis-du-yemen_646958",
+          "d": "2026-11-14",
+          "r": "Forces fragmentées et démotivées, compétences insuffisantes… Malgré un arsenal sophistiqué et un budget de 72 milliards de dollars consacré à la défense, Riyad est à la peine face aux frappes des Houthis.",
           "c": [
             "Monde"
+          ]
+        },
+        {
+          "t": "« À ma mort, la moitié de ma fortune sera reversée à ma fondation » : Frédéric Jousset, le milliardaire qui a décidé de consacrer sa vie à rendre l’art accessible à tous",
+          "l": "https://www.challenges.fr/fortunes/a-ma-mort-la-moitie-de-ma-fortune-sera-reversee-a-ma-fondation-frederic-jousset-le-milliardaire-qui-a-decide-de-consacrer-sa-vie-a-rendre-lart-accessible-a-tous_646972",
+          "d": "2026-11-14",
+          "r": "À la tête de sa fondation Art Explora, l’ancien dirigeant de Webhelp, Frédéric Jousset, fait de la diffusion des œuvres une action d’utilité publique. Une ambition autant qu’une passion. Rencontre.",
+          "c": [
+            "Fortunes"
+          ]
+        },
+        {
+          "t": "Investir dans l’immobilier solidaire : ces placements accessibles dès 100 euros qui permettent de réduire ses impôts tout en soutenant des projets utiles",
+          "l": "https://www.challenges.fr/argent-et-placements/investir-dans-limmobilier-solidaire-ces-placements-accessibles-des-100-euros-qui-permettent-de-reduire-ses-impots-tout-en-soutenant-des-projets-utiles_646757",
+          "d": "2026-11-14",
+          "r": "PLACEMENTS RESPONSABLES (6/8) - Ces structures solidaires permettent de donner du sens à un portefeuille, mais les rendements sont faibles. Même si l’avantage fiscal est loin d’être négligeable.",
+          "c": [
+            "Argent et Placements"
+          ]
+        },
+        {
+          "t": "Nouvelle Dacia Spring : que vaut la moins chère des voitures électriques face à sa cousine, la Renault Twingo E-Tech ?",
+          "l": "https://www.challenges.fr/automobile/essais/nouvelle-dacia-spring-que-vaut-la-moins-chere-des-voitures-electriques-face-a-sa-cousine-la-renault-twingo-e-tech_646957",
+          "d": "2026-11-14",
+          "r": "ESSAI – Après une première génération à succès, la Dacia Spring revient mais cette fois basée sur la nouvelle Renault Twingo E-Tech. Ses prestations font un bond considérable à tous les chapitres. Et sa production en Europe lui permet de profiter à nouveau d’aides à l’achat, pour faire baisser son prix déjà inférieur à celui de sa cousine !",
+          "c": [
+            "Essais"
           ]
         }
       ]
@@ -2437,165 +1818,129 @@
       "nom_site": "La Tribune",
       "articles": [
         {
-          "t": "CMA CGM : le chiffre d'affaires trimestriel progresse de 31%",
-          "l": "https://www.latribune.fr/article/transports/7053905554859/cma-cgm-le-chiffre-daffaires-trimestriel-progresse-de-31",
-          "d": "2026-11-13",
-          "r": "Porté par la vigueur du commerce mondial, la reconstitution des stocks et l’essor des investissements dans l’intelligence artificielle, CMA CGM signe un troisième trimestre record.",
+          "t": "Un suspect recherché après l'agression à l'arme blanche d'un vice-président d'université à Versailles",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/societe/2155480821168614/un-suspect-recherche-apres-lagression-a-larme-blanche-dun-vice-president-duniversite-a-versailles",
+          "d": "2026-11-14",
+          "r": "Un suspect est recherché samedi au lendemain de l'agression à l'arme blanche d'un vice-président d'université, qui a été légèrement blessé à la main et à la tête, au siège de son établissement à Versailles par une personne encagoulée ayant pris la fuite.",
+          "c": [
+            "La Tribune Dimanche"
+          ]
+        },
+        {
+          "t": "Manifestation du 14 novembre : une mobilisation légèrement en baisse et des colères multiples",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/44842261244739/manifestation-du-14-novembre-une-mobilisation-legerement-en-baisse-et-des-coleres-multiples",
+          "d": "2026-11-14",
+          "r": "Des manifestations se sont à nouveau tenues ce samedi dans toute la France. Une prochaine mobilisation est prévue mardi à l’appel de l’ensemble des syndicats.",
+          "c": [
+            "La Tribune Dimanche"
+          ]
+        },
+        {
+          "t": "Des hackers nord-coréens utilisant des deepfakes pour voler des cryptomonnaies : la terrifiante arnaque démasquée par le FBI",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/2106760015065314/des-hackers-nord-coreens-utilisent-des-deepfakes-pour-voler-des-cryptomonnaies-la-terrifiante-arnaque-demasquee-par-le-fbi",
+          "d": "2026-11-14",
+          "r": "Le FBI a levé le voile sur une vaste escampette orchestrée par des pirates nord-coréens. Grâce à des deepfakes en visioconférence, ils ont dérobé plus de 400 millions de dollars à des experts de la tech.",
+          "c": [
+            "La Tribune Dimanche"
+          ]
+        },
+        {
+          "t": "« Elle a eu raison avant tout le monde » : Comment Lio est devenue une héroïne de MeToo",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/societe/12103890208041/elle-a-eu-raison-avant-tout-le-monde-comment-lio-est-devenue-une-heroine-de-metoo",
+          "d": "2026-11-14",
+          "r": "Dans les années 1980-1990, Lio fut la première femme à prendre la parole pour dénoncer les violences faites aux femmes. À contre-courant de la pensée dominante.",
+          "c": [
+            "La Tribune Dimanche Premium"
+          ]
+        },
+        {
+          "t": "SONDAGE. Teddy Riner devant Retailleau et Attal, Lisnard en hausse",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/presidentielle/2051272817412714/sondage-teddy-riner-devant-retailleau-et-attal-lisnard-en-hausse",
+          "d": "2026-11-14",
+          "r": "EXCLUSIF. Alors que les gauches et l’extrême droite sont en ordre de bataille, la droite et le centre sont toujours sans leader incontesté. Si Édouard Philippe est jugé comme le meilleur candidat pour représenter ce camp, David Lisnard continue sa percée.",
+          "c": [
+            "La Tribune Dimanche"
+          ]
+        },
+        {
+          "t": "Vols annulés aux Etats-Unis, lourde amende pour Meta, panne chez Microsoft… Les grandes actus économiques de ce samedi 14 novembre",
+          "l": "https://www.latribune.fr/article/economie/32216974646427/vols-annules-aux-etats-unis-lourde-amende-pour-meta-panne-chez-microsoft-les-grandes-actus-economiques-de-ce-samedi-14-novembre",
+          "d": "2026-11-14",
+          "r": "Retrouvez, en chiffres, les principales actualités économiques du jour, pour ne rien manquer, même le week-end.",
+          "c": [
+            "Économie"
+          ]
+        },
+        {
+          "t": "OPINION. « Réindustrialiser en misant sur la complémentarité Industrie-Services », par Alexandre Saubot et Isabelle April",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/1969907280064514/opinion-reindustrialiser-en-misant-sur-la-complementarite-industrie-services-par-alexandre-saubot-et-isabelle-april",
+          "d": "2026-11-14",
+          "r": "Réindustrialiser notre pays, ce n'est pas seulement investir dans des usines, estiment Alexandre Saubot président de France Industrie et Isabelle April, patronne de L’Alliance des services. C'est investir dans tout ce qui leur permet de réussir.",
+          "c": [
+            "La Tribune Dimanche"
+          ]
+        },
+        {
+          "t": "Facebook : Meta écope d'une lourde amende de 805 millions d'euros en Italie pour avoir accédé à des photos sans consentement",
+          "l": "https://www.latribune.fr/article/tech/1353412983794/facebook-meta-ecope-dune-lourde-amende-de-805-millions-deuros-en-italie-pour-avoir-accede-a-des-photos-sans-consentement",
+          "d": "2026-11-14",
+          "r": "Le géant américain est sanctionné par l'autorité italienne de protection des données personnelles pour avoir accédé aux galeries photos de quelque 20 millions d'utilisateurs de Facebook sur Android sans leur consentement spécifique.",
+          "c": [
+            "Tech & IA"
+          ]
+        },
+        {
+          "t": "Robotaxis : Tesla ouvre les ventes de son Cybercab à certains particuliers",
+          "l": "https://www.latribune.fr/article/transports/automobile/1835610401596114/robotaxi-tesla-ouvre-les-ventes-de-son-cybercab-a-certains-particuliers",
+          "d": "2026-11-14",
+          "r": "Le constructeur américain a annoncé vendredi ouvrir la vente de son Cybercab, un véhicule entièrement autonome dépourvu de volant et de pédales, à des particuliers « triés sur le volet ».",
           "c": [
             "Transports"
           ]
         },
         {
-          "t": "▶️ SMIC : la hausse qui divise",
-          "l": "https://www.latribune.fr/article/economie/1100191368665614/smic-la-hausse-qui-divise",
-          "d": "2026-11-13",
-          "r": "Retrouvez Le Café de l’Eco chaque mardi à 7 h 45, la chronique de décryptage de l’économie, de son actualité et de ses enjeux territoriaux.",
-          "c": [
-            "Économie Premium"
-          ]
-        },
-        {
-          "t": "OPINION. « La décentralisation : et si on la faisait vraiment ? », par Nicolas Tryzna, député LR du Val-de-Marne",
-          "l": "https://www.latribune.fr/article/idees/1080348070891214/opinion-la-decentralisation-et-si-on-la-faisait-vraiment-par-nicolas-tryzna-depute-lr-du-val-de-marne",
-          "d": "2026-11-13",
-          "r": "Nicolas Tryzna propose une nouvelle règle de fonctionnement dans une proposition de loi visant à garantir un pouvoir de décision fiscale aux collectivités territoriales.",
-          "c": [
-            "Idées & Débats"
-          ]
-        },
-        {
-          "t": "Crise du pouvoir d’achat : la CFDT rejoint l'appel à la grève le 17 novembre",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/4239929475316/crise-du-pouvoir-d-achat-la-cfdt-rejoint-lappel-a-la-greve-le-17-novembre",
-          "d": "2026-11-13",
-          "r": "Les représentants des 5,8 millions d'agents publics étaient reçus vendredi à Matignon. Déçus des propositions de Sébastien Lecornu, la CFDT a rejoint l'appel à la grève.",
-          "c": [
-            "La Tribune Dimanche"
-          ]
-        },
-        {
-          "t": "Transport fluvial : à Lyon, CMA CGM modernise le terminal à conteneurs du port Édouard-Herriot",
-          "l": "https://www.latribune.fr/article/economie/1024618010662714/transport-fluvial-a-lyon-cma-cgm-modernise-le-terminal-a-conteneurs-du-port-edouard-herriot",
-          "d": "2026-11-13",
-          "r": "Sous-concessionnaire du terminal 2 du port Édouard-Herriot à Lyon, l’armateur mondial de transport maritime par conteneurs, CMA CGM, a récemment lancé des travaux de modernisation. Un chantier à 40 millions d’euros qui doit permettre de renforcer la dynamique de croissance enregistrée depuis un an.",
-          "c": [
-            "Économie Premium"
-          ]
-        },
-        {
-          "t": "Le patron de Maiaspace Yohan Leroy invité d’Air&Défense, en partenariat avec Air & Cosmos",
-          "l": "https://air-cosmos.latribune.fr/article/espace/82341697906206/le-patron-de-maiaspace-yohan-leroy-invite-d-air-defense-en-partenariat-avec-air-cosmos",
-          "d": "2026-11-13",
-          "r": "Le Président exécutif de Maiaspace Yohan Leroy est l’invité d’Air&Défense sur BFM Business, avec au menu les questions de la feuille de route ou encore de la montée en cadence.",
+          "t": "États-Unis : confrontée à l’obsolescence de son matériel, la FAA annule 6 000 vols",
+          "l": "https://air-cosmos.latribune.fr/article/aviation-civile/aeroports-et-controle-aerien/22319448149436/etats-unis-confrontee-a-l-obsolescence-de-son-materiel-la-faa-annule-6-000-vols",
+          "d": "2026-11-14",
+          "r": "Des milliers d'avions et des centaines de milliers de passagers se sont retrouvés cloués au sol ou obliger de se poser au plus vite après une panne rencontrée dans les centres de contrôle d'approche terminale américains. L'administration Trump a tancé l'âge des équipements comme raison première de ce chaos.",
           "c": [
             "Air & Cosmos"
           ]
         },
         {
-          "t": "Smic, fonction publique, pouvoir d’achat : pourquoi les salaires français n’arrivent plus à décoller",
-          "l": "https://www.latribune.fr/article/economie/agroconso/37422158894517/smic-fonction-publique-pouvoir-d-achat-pourquoi-les-salaires-francais-n-arrivent-plus-a-decoller",
-          "d": "2026-11-13",
-          "r": "La récente revalorisation du Smic bouscule les grilles salariales, plaçant de nombreux agents de la fonction publique sous le seuil légal et nécessitant des compensations - au cœur des négociations ce vendredi avec les syndicats. Mais qu’en est-il dans le secteur privé ? Le décrochage des salaires y est-il bien réel ?",
+          "t": "Manque de personnel, besoins d’investissement… La suspension des vols aux États-Unis révèle les failles du contrôle aérien américain",
+          "l": "https://www.latribune.fr/article/transports/1749470249467314/manque-de-personnel-besoins-d-investissement-la-suspension-des-vols-aux-etats-unis-revele-les-failles-du-controle-aerien-americain",
+          "d": "2026-11-14",
+          "r": "Une panne majeure de communication a paralysé l'espace aérien américain pendant quatre heures ce vendredi, entraînant l'annulation de 6 000 vols.",
           "c": [
-            "Économie Premium"
+            "Transports"
           ]
         },
         {
-          "t": "Retour à la normale, outils touchés, causes... 4 questions sur la panne mondiale de Microsoft",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/2867397487354/retour-a-la-normale-outils-touches-causes-4-questions-sur-la-panne-mondiale-de-microsoft",
-          "d": "2026-11-13",
-          "r": "Plusieurs outils de Microsoft restent partiellement inaccessibles vendredi malgré une amélioration de l’accès à la messagerie. Que sait-on de cette panne mondiale ?",
-          "c": [
-            "La Tribune Dimanche"
-          ]
-        },
-        {
-          "t": "Steve McCurry : « À Paris, vous possédez une sensibilité artistique bien plus marquée pour la photographie qu’ailleurs »",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/culture-lifestyle/gastronomie-sorties/15339364083184/steve-mccurry-a-paris-vous-possedez-une-sensibilite-artistique-bien-plus-marquee-pour-la-photographie-qu-ailleurs",
-          "d": "2026-11-13",
-          "r": "En cinquante ans de carrière, le photographe américain a parcouru toute la planète, captant des scènes de vie et des visages devenus iconiques, de l’Afghane aux yeux verts aux moines de Shaolin.",
-          "c": [
-            "La Tribune Dimanche"
-          ]
-        },
-        {
-          "t": "Trois compagnies sélectionnées pour remplacer le réseau TDRS de la Nasa",
-          "l": "https://air-cosmos.latribune.fr/article/espace/90211921106819/trois-compagnies-selectionnees-pour-remplacer-le-reseau-tdrs-de-la-nasa",
-          "d": "2026-11-13",
-          "r": "L’agence spatiale américaine poursuit son travail de privatisation de son réseau de transfert de données. Pour remplacer les satellites TDRS en orbite géostationnaire, la Nasa a choisi d’étudier les options d’Astranis, Global Enterprise Solutions Inc. (du groupe Leonardo) et Viasat. TDRS sert notamment à relayer au sol les données des expériences de l’ISS.",
+          "t": "Rocket Lab : face à une bombe à retardement",
+          "l": "https://air-cosmos.latribune.fr/article/espace/285642159336914/rocket-lab-face-a-une-bombe-a-retardement",
+          "d": "2026-11-14",
+          "r": "100 vols Electron réalisés, 100 autres à venir, et toujours pas rentable. Les indicateurs financiers de Rocket Lab s'éclaircissent trimestre après trimestre, tout en restant dans le rouge. Les dernières ventes fournissent une unique occasion de se refaire, sauf que Rocket Lab marche sur les œufs avec la défense.",
           "c": [
             "Air & Cosmos Premium"
           ]
         },
         {
-          "t": "Nucléaire : comment Newcleo accélère l’industrialisation de son combustible MOX dans un centre d’essais dédié",
-          "l": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/2005631836264214/nucleaire-comment-newcleo-accelere-l-industrialisation-de-son-combustible-mox-dans-un-centre-d-essais-dedie",
-          "d": "2026-11-13",
-          "r": "Avant de créer ses usines de fabrication de combustible MOX, la start-up Newcleo s’est doté d’un centre d’ingénierie et d’essais dédié : FASTER. La Tribune a pu visiter ce centre, situé dans le Gard rhodanien, en plein cœur de l’un des principaux bassins de la filière nucléaire française.",
+          "t": "Drones : comment le groupe portugais Tekever a séduit les armées françaises",
+          "l": "https://www.latribune.fr/article/defense-aerospatiale/defense/1147912272325314/drones-comment-le-groupe-portugais-tekever-a-seduit-les-armees-francaises",
+          "d": "2026-11-14",
+          "r": "En plus d'une première commande de 140 drones, le groupe portugais Tekever vient d'être à nouveau sélectionné par le ministère des Armées pour une capacité de drones de surveillance intermédiaire. Ces appareils seront fabriqués depuis l'usine de Cahors inaugurée vendredi.",
           "c": [
-            "Energie et Industrie Premium"
+            "Défense et Aérospatiale Premium"
           ]
         },
         {
-          "t": "MRO : Safran lance un outil de maintenance prédictive",
-          "l": "https://air-cosmos.latribune.fr/article/aviation-civile/36133606179322/mro-safran-lance-un-outil-de-maintenance-predictive",
-          "d": "2026-11-13",
-          "r": "Le 10 novembre, Safran a lancé son nouveau produit de maintenance prédictive des équipements aéronautiques, nommé FleetLife. Deux compagnies aériennes sont déjà clientes.",
-          "c": [
-            "Air & Cosmos"
-          ]
-        },
-        {
-          "t": "OPINION. « Augmentation du SMIC : faux remède pour le pouvoir d'achat »",
-          "l": "https://www.latribune.fr/article/idees/48566993889082/opinion-augmentation-du-smic-faux-remede-pour-le-pouvoir-dachat",
-          "d": "2026-11-13",
-          "r": "Relever le salaire minimum par décret donne l'illusion d'agir sur le pouvoir d'achat. En comprimant l'échelle des salaires et en renchérissant le travail, cette politique éloigne la seule source durable de hausse des revenus, une économie qui produit davantage.",
+          "t": "OPINION. « Pour un label de cloud souverain lisible par tous »",
+          "l": "https://www.latribune.fr/article/idees/2245345894970714/opinion-pour-un-label-de-cloud-souverain-lisible-par-tous",
+          "d": "2026-11-14",
+          "r": "En février dernier, l'État a autorisé la cession de 64 % d'Exaion, filiale d'EDF, au groupe américain MARA. Une des conditions posées à cette cession en dit long : EDF devait cesser d'y héberger ses données sensibles.",
           "c": [
             "Idées & Débats"
-          ]
-        },
-        {
-          "t": "OPINION. « Réindustrialiser la France suppose de rapprocher l'école et l'entreprise »",
-          "l": "https://www.latribune.fr/article/idees/23229184293231/opinion-reindustrialiser-la-france-suppose-de-rapprocher-lecole-et-lentreprise",
-          "d": "2026-11-13",
-          "r": "Du 16 au 22 novembre, la quinzième Semaine de l'industrie ouvrira les portes de milliers d'entreprises aux élèves, aux étudiants et à leurs familles. Ces rencontres font découvrir des métiers, bousculent des idées reçues, et c'est précieux. Une semaine par an ne formera pourtant pas la relève dont notre industrie a besoin.",
-          "c": [
-            "Idées & Débats"
-          ]
-        },
-        {
-          "t": "Veolia se prépare à recycler les batteries usagées de véhicules électriques, bientôt interdites de quitter l'Europe",
-          "l": "https://www.latribune.fr/article/entreprises-finance/industrie/1449343949589514/veolia-se-prepare-a-recycler-les-batteries-usagees-de-vehicules-electriques-bientot-interdites-de-quitter-leurope",
-          "d": "2026-11-13",
-          "r": "L'industriel français vient d'inaugurer à Amnéville, en Moselle, une usine stratégique pour récupérer les métaux critiques des batteries des véhicules électriques, tels le cobalt, le nickel et le cuivre. Une montée en puissance, en attendant que la Commission européenne interdise l'exportation des batteries usagées, par souci de souveraineté.",
-          "c": [
-            "Energie et Industrie Premium"
-          ]
-        },
-        {
-          "t": "L’État et la SNCF signent le plan de modernisation du rail, mais le financement reste en suspens",
-          "l": "https://www.latribune.fr/article/transports/31586441387646/l-etat-et-la-sncf-signent-le-plan-de-modernisation-du-rail-mais-le-financement-reste-en-suspens",
-          "d": "2026-11-13",
-          "r": "L’État et SNCF réseau ont signé le Contrat de performance qui doit permettre de maintenir à flots et de moderniser l’ensemble du réseau ferré français. Si l’opérateur va voir sa contribution augmenter, le reste de son financement n’est pas encore défini.",
-          "c": [
-            "Transports"
-          ]
-        },
-        {
-          "t": "Nucléaire : Newcleo temporise en France et accélère aux États-Unis",
-          "l": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/13525544012644/nucleaire-newcleo-temporise-en-france-et-accelere-aux-etats-unis",
-          "d": "2026-11-13",
-          "r": "La start-up franco-italienne Newcleo poursuit son offensive dans le petit nucléaire sur deux fronts technologiques : les mini-réacteurs refroidis au plomb et la production de combustible MOX. Présente en Europe comme aux États-Unis, la jeune pousse multiplie les leviers. Une double stratégie pour maximiser ses chances ?",
-          "c": [
-            "Energie et Industrie Premium"
-          ]
-        },
-        {
-          "t": "Pourquoi Nexeya est en cessation de paiement au moment du boom des marchés de l'aéronautique et de défense",
-          "l": "https://www.latribune.fr/article/defense-aerospatiale/aeronautique-defense/1402563434278414/pourquoi-nexeya-est-en-cessation-de-paiement-au-moment-du-boom-des-marches-de-laeronautique-et-de-defense",
-          "d": "2026-11-13",
-          "r": "Sept ans après son rachat par l'allemand Hensoldt, Nexeya va demander son redressement judiciaire. Plusieurs acteurs français sont déjà sur les rangs pour racheter cette pépite cruciale du secteur de la défense mais les syndicats craignent une centaine de suppressions de postes dans l'opération.",
-          "c": [
-            "Défense et Aérospatiale"
           ]
         }
       ]
@@ -2655,7 +2000,7 @@
       "articles": [
         {
           "t": "Appel a candidature pour compléter la composition du Comité des Centres Nationaux de Référence (CNR)",
-          "l": "https://www.santepubliquefrance.fr/les-actualites/appel-a-candidature-pour-completer-la-composition-du-comite-des-centres-nationaux-de-reference-cnr",
+          "l": "https://www.santepubliquefrance.fr/index.php/les-actualites/appel-a-candidature-pour-completer-la-composition-du-comite-des-centres-nationaux-de-reference-cnr",
           "d": "2026-10-29",
           "r": "Santé publique France lance un appel à candidatures pour compléter la composition du Comité des Centres nationaux de référence . Date limite de candidature : 15 décembre 2026."
         }
@@ -2708,44 +2053,12 @@
       "nom_site": "Conseil de l'UE",
       "articles": [
         {
-          "t": "Remarks by President António Costa at the press conference following the informal meeting of Heads of State or Government of 13 November 2026",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/13/remarks-by-president-antonio-costa-at-the-press-conference-following-the-informal-meeting-of-heads-of-state-or-government-of-13-november-2026/",
-          "d": "2026-11-13",
-          "r": "During the press conference held after at the end of the informal meeting of Heads of State or Government of 13 November 2026, President António Costa presented the main results of the discussions on artificial intelligence and Ukraine.",
+          "t": "ISRAEL/PALESTINE: Statement by the High Representative on behalf of the European Union on the humanitarian developments in Gaza",
+          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/14/statement/",
+          "d": "2026-11-14",
+          "r": "The High Representative issued a statement on behalf of the European Union on the humanitarian developments in Gaza.",
           "c": [
-            "Intelligence artificielle",
-            "Guerre menée par la Russie contre l'Ukraine"
-          ]
-        },
-        {
-          "t": "Weekly schedule of President António Costa",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/13/weekly-schedule-of-president-antonio-costa/",
-          "d": "2026-11-13",
-          "r": "Weekly schedule of President António Costa, 16-22 November 2026."
-        },
-        {
-          "t": "Calendrier à venir: 16 – 29 novembre 2026",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/13/forward-look-2026/",
-          "d": "2026-11-13",
-          "r": "Aperçu des principaux sujets qui seront examinés lors des sessions du Conseil de l'UE au cours des deux prochaines semaines et événements médias à venir.",
-          "c": [
-            "Coordination des politiques économiques",
-            "Guerre menée par la Russie contre l'Ukraine",
-            "Fiscalité",
-            "Éducation et formation",
-            "Sport",
-            "Jeunesse",
-            "Europe occidentale hors UE"
-          ]
-        },
-        {
-          "t": "Media advisory - Foreign Affairs Council of 16 November 2026",
-          "l": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/13/media-advisory-foreign-affairs-council-of-16-november-2026/",
-          "d": "2026-11-13",
-          "r": "Main agenda items, approximate timing, public sessions and press opportunities.",
-          "c": [
-            "Moyen‑Orient et Afrique du Nord",
-            "Guerre menée par la Russie contre l'Ukraine"
+            "Moyen‑Orient et Afrique du Nord"
           ]
         }
       ]
@@ -2754,12 +2067,12 @@
       "nom_site": "CNRS|Le Journal",
       "articles": [
         {
-          "t": "Les batteries du futur",
-          "l": "https://lejournal.cnrs.fr/videos/les-batteries-du-futur",
-          "d": "2026-11-10",
-          "r": "Voitures électriques, stockage des énergies renouvelables… Comment répondre à l’augmentation des besoins en batteries ? Les chercheurs explorent des technologies qui s’appuient sur de nouvelles chimies, offrant des batteries plus sûres et plus durables.",
+          "t": "La biodiversité face aux canicules marines",
+          "l": "https://lejournal.cnrs.fr/videos/la-biodiversite-face-aux-canicules-marines",
+          "d": "2026-11-14",
+          "r": "Les canicules frappent aussi mers et océans. À l’été 2026, avec la succession de vagues de chaleur, les températures des eaux ont battu des records dans le monde. La biodiversité marine peut-elle s’adapter à ces nouvelles conditions… qui ont aussi des conséquences à terre ?",
           "c": [
-            "Matière, Sociétés"
+            "Vivant, Terre"
           ]
         }
       ]
@@ -2768,21 +2081,12 @@
       "nom_site": "Pour la Science",
       "articles": [
         {
-          "t": "[La semaine en bref] L’IA déçoit sur le climat",
-          "l": "https://www.pourlascience.fr/sr/revue-de-presse/la-semaine-en-bref-l-ia-decoit-sur-le-climat-29775.php",
-          "d": "2026-11-13",
-          "r": "Les promesses de l’intelligence artificielle dans la lutte contre le réchauffement climatique restent pour l’heure sans lendemain ; la Nasa embauche la prochaine génération d’astronautes qui travaillera sur la Lune. Et aussi : le mauvais usage du smartphone implique autant les parents que les enfants.",
+          "t": "Comment les créatures des abysses ont inspiré l’Art nouveau",
+          "l": "https://www.pourlascience.fr/sr/art-science/comment-les-creatures-des-abysses-ont-inspire-l-art-nouveau-29773.php",
+          "d": "2026-11-14",
+          "r": "Une exposition au musée de la Marine met en lumière comment les découvertes scientifiques liées à l’exploration des océans ont influencé les artistes à la fin du XIXe siècle",
           "c": [
-            "Revue de presse de la rédaction"
-          ]
-        },
-        {
-          "t": "Comment le monde quantique est devenu macroscopique",
-          "l": "https://www.pourlascience.fr/sd/physique-quantique/comment-le-monde-quantique-est-devenu-macroscopique-29769.php",
-          "d": "2026-11-13",
-          "r": "En 1985, Michel Devoret et ses collègues ont démontré que les lois de la mécanique quantique s’appliquaient aussi à un circuit électrique macroscopique. Le physicien, lauréat du prix Nobel de physique 2025, raconte comment cette découverte inattendue a ouvert la voie aux circuits des ordinateurs quantiques.",
-          "c": [
-            "Physique quantique"
+            "Art & science"
           ]
         }
       ]

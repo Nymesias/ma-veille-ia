@@ -1,5 +1,581 @@
 [
   {
+    "categorie": "news",
+    "source": "Pour la Science",
+    "titre": "Comment les créatures des abysses ont inspiré l’Art nouveau",
+    "lien": "https://www.pourlascience.fr/sr/art-science/comment-les-creatures-des-abysses-ont-inspire-l-art-nouveau-29773.php",
+    "date": "2026-11-14",
+    "resume": "Une exposition au musée de la Marine met en lumière comment les découvertes scientifiques liées à l’exploration des océans ont influencé les artistes à la fin du XIXe siècle",
+    "categories": [
+      "Art & science"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "CAC40 : Eramet, Soitec, Ubisoft... les valeurs à suivre la semaine prochaine",
+    "lien": "https://www.lerevenu.com/reussir-bourse/points-marches/valeurs-a-suivre-bourse-semaine-16-20-novembre-era",
+    "date": "2026-11-14",
+    "resume": "Plusieurs entreprises françaises ont des rendez-vous importants avec les investisseurs du 16 au 20 novembre. Les publications de résultats côtoieront des opérations financières et des dossiers sensibles, notamm…",
+    "categories": [
+      "Réussir en Bourse",
+      "Points Marchés"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Logement en France : les personnes seules pénalisées par la pénurie de petites surfaces",
+    "lien": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/logement-en-france-les-personnes-seules-penalisees",
+    "date": "2026-11-14",
+    "resume": "En France, 12 millions de personnes vivent seules et rencontrent des difficultés croissantes pour se loger. Les petites surfaces restent insuffisantes face à la demande, particulièrement dans les grandes villes…",
+    "categories": [
+      "Investir dans l'immobilier",
+      "Prix et tendances"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Immobilier locatif : les villes où les loyers augmentent le plus en 2026",
+    "lien": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-locatif-les-villes-ou-les-loyers-augmen",
+    "date": "2026-11-14",
+    "resume": "Les loyers repartent à la hausse en France en 2026, avec une progression moyenne de 2,1 % sur un an. Marseille arrive en tête des villes les plus touchées, avec une augmentation de 4,6 %, devant Nice à 4,4 % et…",
+    "categories": [
+      "Investir dans l'immobilier",
+      "Prix et tendances"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Immobilier : 9 logements sur 10 se vendent après une négociation du prix",
+    "lien": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-9-logements-sur-10-se-vendent-apres-une",
+    "date": "2026-11-14",
+    "resume": "En France, neuf ventes immobilières sur dix font désormais l’objet d’une négociation, selon le réseau Laforêt. Au troisième trimestre 2026, les acheteurs obtiennent une remise moyenne de 4,8 %, soit 14 400 euro…",
+    "categories": [
+      "Investir dans l'immobilier",
+      "Prix et tendances"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Robotaxis : Tesla ouvre les ventes de son Cybercab à certains particuliers",
+    "lien": "https://www.latribune.fr/article/transports/automobile/1835610401596114/robotaxi-tesla-ouvre-les-ventes-de-son-cybercab-a-certains-particuliers",
+    "date": "2026-11-14",
+    "resume": "Le constructeur américain a annoncé vendredi ouvrir la vente de son Cybercab, un véhicule entièrement autonome dépourvu de volant et de pédales, à des particuliers « triés sur le volet ».",
+    "categories": [
+      "Transports"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Manque de personnel, besoins d’investissement… La suspension des vols aux États-Unis révèle les failles du contrôle aérien américain",
+    "lien": "https://www.latribune.fr/article/transports/1749470249467314/manque-de-personnel-besoins-d-investissement-la-suspension-des-vols-aux-etats-unis-revele-les-failles-du-controle-aerien-americain",
+    "date": "2026-11-14",
+    "resume": "Une panne majeure de communication a paralysé l'espace aérien américain pendant quatre heures ce vendredi, entraînant l'annulation de 6 000 vols.",
+    "categories": [
+      "Transports"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Facebook : Meta écope d'une lourde amende de 805 millions d'euros en Italie pour avoir accédé à des photos sans consentement",
+    "lien": "https://www.latribune.fr/article/tech/1353412983794/facebook-meta-ecope-dune-lourde-amende-de-805-millions-deuros-en-italie-pour-avoir-accede-a-des-photos-sans-consentement",
+    "date": "2026-11-14",
+    "resume": "Le géant américain est sanctionné par l'autorité italienne de protection des données personnelles pour avoir accédé aux galeries photos de quelque 20 millions d'utilisateurs de Facebook sur Android sans leur consentement spécifique.",
+    "categories": [
+      "Tech & IA"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Un suspect recherché après l'agression à l'arme blanche d'un vice-président d'université à Versailles",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/societe/2155480821168614/un-suspect-recherche-apres-lagression-a-larme-blanche-dun-vice-president-duniversite-a-versailles",
+    "date": "2026-11-14",
+    "resume": "Un suspect est recherché samedi au lendemain de l'agression à l'arme blanche d'un vice-président d'université, qui a été légèrement blessé à la main et à la tête, au siège de son établissement à Versailles par une personne encagoulée ayant pris la fuite.",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "« Elle a eu raison avant tout le monde » : Comment Lio est devenue une héroïne de MeToo",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/societe/12103890208041/elle-a-eu-raison-avant-tout-le-monde-comment-lio-est-devenue-une-heroine-de-metoo",
+    "date": "2026-11-14",
+    "resume": "Dans les années 1980-1990, Lio fut la première femme à prendre la parole pour dénoncer les violences faites aux femmes. À contre-courant de la pensée dominante.",
+    "categories": [
+      "La Tribune Dimanche Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "SONDAGE. Teddy Riner devant Retailleau et Attal, Lisnard en hausse",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/politique/presidentielle/2051272817412714/sondage-teddy-riner-devant-retailleau-et-attal-lisnard-en-hausse",
+    "date": "2026-11-14",
+    "resume": "EXCLUSIF. Alors que les gauches et l’extrême droite sont en ordre de bataille, la droite et le centre sont toujours sans leader incontesté. Si Édouard Philippe est jugé comme le meilleur candidat pour représenter ce camp, David Lisnard continue sa percée.",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Manifestation du 14 novembre : une mobilisation légèrement en baisse et des colères multiples",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/politique/44842261244739/manifestation-du-14-novembre-une-mobilisation-legerement-en-baisse-et-des-coleres-multiples",
+    "date": "2026-11-14",
+    "resume": "Des manifestations se sont à nouveau tenues ce samedi dans toute la France. Une prochaine mobilisation est prévue mardi à l’appel de l’ensemble des syndicats.",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "OPINION. « Réindustrialiser en misant sur la complémentarité Industrie-Services », par Alexandre Saubot et Isabelle April",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/1969907280064514/opinion-reindustrialiser-en-misant-sur-la-complementarite-industrie-services-par-alexandre-saubot-et-isabelle-april",
+    "date": "2026-11-14",
+    "resume": "Réindustrialiser notre pays, ce n'est pas seulement investir dans des usines, estiment Alexandre Saubot président de France Industrie et Isabelle April, patronne de L’Alliance des services. C'est investir dans tout ce qui leur permet de réussir.",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Des hackers nord-coréens utilisant des deepfakes pour voler des cryptomonnaies : la terrifiante arnaque démasquée par le FBI",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/2106760015065314/des-hackers-nord-coreens-utilisent-des-deepfakes-pour-voler-des-cryptomonnaies-la-terrifiante-arnaque-demasquee-par-le-fbi",
+    "date": "2026-11-14",
+    "resume": "Le FBI a levé le voile sur une vaste escampette orchestrée par des pirates nord-coréens. Grâce à des deepfakes en visioconférence, ils ont dérobé plus de 400 millions de dollars à des experts de la tech.",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "OPINION. « Pour un label de cloud souverain lisible par tous »",
+    "lien": "https://www.latribune.fr/article/idees/2245345894970714/opinion-pour-un-label-de-cloud-souverain-lisible-par-tous",
+    "date": "2026-11-14",
+    "resume": "En février dernier, l'État a autorisé la cession de 64 % d'Exaion, filiale d'EDF, au groupe américain MARA. Une des conditions posées à cette cession en dit long : EDF devait cesser d'y héberger ses données sensibles.",
+    "categories": [
+      "Idées & Débats"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Vols annulés aux Etats-Unis, lourde amende pour Meta, panne chez Microsoft… Les grandes actus économiques de ce samedi 14 novembre",
+    "lien": "https://www.latribune.fr/article/economie/32216974646427/vols-annules-aux-etats-unis-lourde-amende-pour-meta-panne-chez-microsoft-les-grandes-actus-economiques-de-ce-samedi-14-novembre",
+    "date": "2026-11-14",
+    "resume": "Retrouvez, en chiffres, les principales actualités économiques du jour, pour ne rien manquer, même le week-end.",
+    "categories": [
+      "Économie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Drones : comment le groupe portugais Tekever a séduit les armées françaises",
+    "lien": "https://www.latribune.fr/article/defense-aerospatiale/defense/1147912272325314/drones-comment-le-groupe-portugais-tekever-a-seduit-les-armees-francaises",
+    "date": "2026-11-14",
+    "resume": "En plus d'une première commande de 140 drones, le groupe portugais Tekever vient d'être à nouveau sélectionné par le ministère des Armées pour une capacité de drones de surveillance intermédiaire. Ces appareils seront fabriqués depuis l'usine de Cahors inaugurée vendredi.",
+    "categories": [
+      "Défense et Aérospatiale Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "La Gen Z a deux passions : les chansons populaires et la rébellion",
+    "lien": "https://www.courrierinternational.com/stories/europe-la-gen-z-a-deux-passions-les-chansons-populaires-et-la-rebellion_286215",
+    "date": "2026-11-14",
+    "resume": "De la France à l’Italie, de l’Espagne à Allemagne ou encore la Serbie, les chants contre les inégalités, les privilèges, la corruption, le racisme et le capitalisme se font écho dans les rues. À tel point que, d’après le journal croate “Jutarnji List”, la génération Z “ne rejette plus la musique populaire traditionnelle, elle se l’approprie”.",
+    "categories": [
+      "Europe"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "La jeunesse française se réapproprie le drapeau tricolore, il était temps !",
+    "lien": "https://www.courrierinternational.com/article/vu-de-suisse-la-jeunesse-francaise-se-reapproprie-le-drapeau-tricolore-il-etait-temps_286195",
+    "date": "2026-11-14",
+    "resume": "Dans les manifestations des lycéens et des étudiants, on voit le bleu-blanc-rouge partout. Pour ce journaliste suisse, voir la jeunesse brandir le drapeau français est plus qu’un symbole : c’est une reconquête révélatrice de l’état du pays.",
+    "categories": [
+      "Vu de Suisse"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Sur les autoroutes de Californie, le surprenant boom des cantines pendjabies",
+    "lien": "https://www.courrierinternational.com/article/societe-sur-les-autoroutes-de-californie-le-surprenant-boom-des-cantines-pendjabies_286985",
+    "date": "2026-11-14",
+    "resume": "En Californie, des milliers de chauffeurs immigrés, privés de leur permis sous l’effet du durcissement de la politique migratoire de Donald Trump, se reconvertissent dans la restauration. Une situation qui fait fleurir les cantines indiennes le long des autoroutes américaines, raconte le “Los Angeles Times”.",
+    "categories": [
+      "Société"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Abolissons les cadeaux communs !",
+    "lien": "https://www.courrierinternational.com/article/societe-abolissons-les-cadeaux-communs_276920",
+    "date": "2026-11-14",
+    "resume": "Groupes WhatsApp qui crépitent, contre-propositions irréalisables et un budget qui s’envole… L’organisation pour offrir un cadeau commun est une vraie gageure, peste cette journaliste allemande. Michaela Rogalli plaide pour un retour à des attentions vraiment personnalisées.",
+    "categories": [
+      "Société"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "La rougeole n’est plus une maladie éliminée aux États-Unis",
+    "lien": "https://www.courrierinternational.com/article/sante-la-rougeole-n-est-plus-une-maladie-eradiquee-aux-etats-unis_287202",
+    "date": "2026-11-14",
+    "resume": "Selon la presse d’outre-Atlantique, un comité international d’experts a décidé de révoquer le statut acquis depuis 2000 par les États-Unis : le pays ne sera plus classé parmi ceux qui ont éliminé la rougeole. Cette annonce intervient en pleine flambée du nombre de cas et de décès enregistrés.",
+    "categories": [
+      "Santé"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "“Oyez ! Oyez !” : une journée dans l’univers déjanté des crieurs publics",
+    "lien": "https://www.courrierinternational.com/article/reportage-oyez-oyez-une-journee-dans-l-univers-dejante-des-crieurs-publics_280605",
+    "date": "2026-11-14",
+    "resume": "Le championnat du monde des “town criers” s’est tenu à la fin de septembre dans le nord-ouest de l’Angleterre, sous l’œil mi-amusé, mi-impressionné de ce journaliste du “Financial Times”. Venus du Royaume-Uni, d’Australie, des Pays-Bas et d’au-delà, les vingt-cinq participants ont fait honneur à un métier d’antan pour lequel la puissance vocale ne fait pas tout.",
+    "categories": [
+      "Reportage"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "En Afrique du Sud, les électeurs noirs se détournent de l’ANC : “L’histoire ne nourrira pas nos enfants”",
+    "lien": "https://www.courrierinternational.com/article/reportage-en-afrique-du-sud-les-electeurs-noirs-se-detournent-de-l-anc-l-histoire-ne-nourrira-pas-nos-enfants_286220",
+    "date": "2026-11-14",
+    "resume": "Les élections municipales ont signé un recul inédit et historique de l’ANC, le parti qui dominait le paysage politique sud-africain depuis la fin de l’apartheid, en 1991. “The Times” a donné la parole à des Sud-Africains noirs qui, devant la déliquescence des services publics, ont fait le choix de voter pour l’Alliance démocratique, un parti centriste considéré comme blanc. Désormais, le vote est moins racial que motivé par des considérations sociales.",
+    "categories": [
+      "Reportage"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Bienvenue à “Hairstanbul”, la ville où des crânes couverts de bandages courent les rues",
+    "lien": "https://www.courrierinternational.com/article/reportage-bienvenue-a-hairstanbul-la-ville-ou-des-cranes-couverts-de-bandages-courent-les-rues_275612",
+    "date": "2026-11-14",
+    "resume": "À Istanbul, le tourisme médical attire tous les ans environ 1,4 million de patients gênés par leur calvitie pour des greffes capillaires. Une affaire florissante, mais qui ne profite pas à tous les locaux et contraste avec la dure réalité socio-économique du pays, raconte “Dispatch”.",
+    "categories": [
+      "Reportage"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Allemagne : à Esslingen, la “ville des oignons”, le Diable sème la zizanie",
+    "lien": "https://www.courrierinternational.com/article/reportage-allemagne-a-esslingen-la-ville-des-oignons-le-diable-seme-la-zizanie_282068",
+    "date": "2026-11-14",
+    "resume": "Menaces de morts, pétition et discours religieux enflammés… L’installation d’une statue de Satan au cœur d’Esslingen am Neckar suscite de sulfureux débats. Le Diable aurait-il mis la main sur cette ville de l’ouest de l’Allemagne ? Un journaliste du quotidien de gauche “Süddeutsche Zeitung” s’est rendu sur place pour enquêter.",
+    "categories": [
+      "Reportage"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Rugby, réunion Trump-Xi-Poutine et Léon XIV au Pérou : les informations de la nuit",
+    "lien": "https://www.courrierinternational.com/article/pendant-que-vous-dormiez-rugby-reunion-trump-xi-poutine-et-leon-xiv-au-perou-les-informations-de-la-nuit_287170",
+    "date": "2026-11-14",
+    "resume": "Les principales actualités de ces dernières heures vues par la presse internationale.",
+    "categories": [
+      "Pendant que vous dormiez"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "“Grand Theft Auto VI” sème la zizanie chez les élus de Miami",
+    "lien": "https://www.courrierinternational.com/article/jeu-video-grand-theft-auto-vi-seme-la-zizanie-chez-les-elus-de-miami_286677",
+    "date": "2026-11-14",
+    "resume": "La sortie du jeu le plus onéreux de l’histoire, le 19 novembre, enflamme les élus de Miami. “GTA VI” se déroule en effet à Vice City, une version fictive mais tout à fait reconnaissable de la métropole de Floride. La maire a remporté son bras de fer face à la shérif du comté au sujet d’un juteux partenariat marketing, relate la presse américaine.",
+    "categories": [
+      "Jeu vidéo"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Et si la réalité virtuelle permettait de réinventer l’art ?",
+    "lien": "https://www.courrierinternational.com/article/idees-et-si-la-realite-virtuelle-permettait-de-reinventer-l-art_272069",
+    "date": "2026-11-14",
+    "resume": "L’expert en musique classique du “Daily Telegraph” s’est essayé à deux expériences en réalité virtuelle dans le domaine qui l’intéresse. Il confie avoir été désarçonné par la disparition de la frontière entre l’œuvre et le public qui, selon lui, aide à donner un sens à l’art. Serait-ce le début d’une révolution ?",
+    "categories": [
+      "Idées"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Selon Zelensky, Washington a suggéré d’intégrer l’Ukraine à l’Otan si elle cède le Donbass",
+    "lien": "https://www.courrierinternational.com/article/guerre-selon-zelensky-washington-a-suggere-d-integrer-l-ukraine-a-l-otan-si-elle-cede-le-donbass_287235",
+    "date": "2026-11-14",
+    "resume": "Les émissaires des États-Unis, Steve Witkoff et Jared Kushner, auraient évoqué devant le président ukrainien une intégration à l’Otan en échange d’une cession de territoires à la Russie, affirme Volodymyr Zelensky. Ce dernier a par ailleurs déploré de nouvelles perturbations du réseau militaire Starshield, pénalisant les forces ukrainiennes.",
+    "categories": [
+      "Guerre"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "L’espace aérien américain fermé pendant plusieurs heures à cause d’une panne de télécommunications",
+    "lien": "https://www.courrierinternational.com/article/etats-unis-l-espace-aerien-americain-ferme-pendant-plusieurs-heures-a-cause-d-une-panne-de-telecommunications_287169",
+    "date": "2026-11-14",
+    "resume": "Une panne de télécommunications dans plusieurs centres de contrôle aérien aux États-Unis a entraîné vendredi la fermeture totale de l’espace aérien américain pendant plusieurs heures, entraînant l’annulation de près de 6 000 vols et semant la pagaille dans les aéroports du pays.",
+    "categories": [
+      "États-Unis"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "SpaceX échoue à récupérer en un seul vol les deux étages de sa fusée Starship",
+    "lien": "https://www.courrierinternational.com/article/espace-spacex-echoue-a-recuperer-en-un-seul-vol-les-deux-etages-de-sa-fusee-starship_287171",
+    "date": "2026-11-14",
+    "resume": "Avec le 15e vol d’essai de sa mégafusée Starship, SpaceX espérait signer un exploit inédit : la récupération des deux étages de la fusée sur un seul vol. Un problème sur le premier étage a douché cette ambition vendredi, mais la compagnie spatiale d’Elon Musk se concentre désormais sur le retour du deuxième étage, prévu samedi.",
+    "categories": [
+      "Espace"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Immersion chez les recruteurs de saboteurs en Pologne : “On pourrait peut-être faire sauter l’usine ?”",
+    "lien": "https://www.courrierinternational.com/article/enquete-immersion-chez-les-recruteurs-de-saboteurs-en-pologne-on-pourrait-peut-etre-faire-sauter-l-usine_283572",
+    "date": "2026-11-14",
+    "resume": "Un journaliste du site d’information russophone “Vot Tak”, établi en Pologne, s’est vu offrir jusqu’à 30 000 dollars sur Telegram pour procéder à l’incendie d’une usine de drones qui fournit les forces armées ukrainiennes. Le journaliste s’était fait passer pour un ressortissant biélorusse en mal d’argent, à deux doigts de se faire expulser de Pologne.",
+    "categories": [
+      "Enquête"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Sur les traces de l’Empire mongol (2/3)",
+    "lien": "https://www.courrierinternational.com/article/blog-voyages-sur-les-traces-de-l-empire-mongol-2-3_285295",
+    "date": "2026-11-14",
+    "resume": "Cap à l’ouest d’Oulan-Bator, jusqu’à la vallée de l’Orkhon. Des chevaux sauvages de Khustai aux vestiges de Karakorum, l’ancienne capitale de l’Empire mongol, la steppe se révèle bien moins vide qu’elle n’en a l’air.",
+    "categories": [
+      "Blog Voyages"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "MBS doit-il quitter le pouvoir ?",
+    "lien": "https://www.courrierinternational.com/article/arabie-saoudite-mbs-doit-il-quitter-le-pouvoir_285151",
+    "date": "2026-11-14",
+    "resume": "Entre le bourbier yéménite, le flop des mégaprojets et des réformes sociales qui ne font pas l’unanimité, le bilan du prince héritier saoudien Mohammed ben Salmane laisse beaucoup à désirer, plus de dix ans après son accession au pouvoir, écrit “Arab Digest”.",
+    "categories": [
+      "Arabie saoudite"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Dans les banlieues californiennes, il faut désormais cohabiter avec les ours",
+    "lien": "https://www.courrierinternational.com/article/animaux-dans-les-banlieues-californiennes-les-ours-prennent-leurs-aises-les-humains-doivent-faire-avec_273946",
+    "date": "2026-11-14",
+    "resume": "Les ours noirs de Californie étendent leur territoire jusqu’aux abords des villes, s’introduisant dans les jardins, les maisons et les piscines. Pour les habitants, partagés entre l’effroi et l’enchantement, il faut trouver des moyens de s’adapter. Ce n’est pas gagné, raconte “The New York Times”.",
+    "categories": [
+      "Animaux"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Conseil de l'UE",
+    "titre": "ISRAEL/PALESTINE: Statement by the High Representative on behalf of the European Union on the humanitarian developments in Gaza",
+    "lien": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/14/statement/",
+    "date": "2026-11-14",
+    "resume": "The High Representative issued a statement on behalf of the European Union on the humanitarian developments in Gaza.",
+    "categories": [
+      "Moyen‑Orient et Afrique du Nord"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Avec ses 72 milliards de dollars de budget militaire, pourquoi l’Arabie saoudite ne parvient-elle pas à prendre le dessus sur les Houthis du Yémen ?",
+    "lien": "https://www.challenges.fr/monde/avec-ses-72-milliards-de-dollars-de-budget-militaire-pourquoi-larabie-saoudite-ne-parvient-elle-pas-a-prendre-le-dessus-sur-les-houthis-du-yemen_646958",
+    "date": "2026-11-14",
+    "resume": "Forces fragmentées et démotivées, compétences insuffisantes… Malgré un arsenal sophistiqué et un budget de 72 milliards de dollars consacré à la défense, Riyad est à la peine face aux frappes des Houthis.",
+    "categories": [
+      "Monde"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "« À ma mort, la moitié de ma fortune sera reversée à ma fondation » : Frédéric Jousset, le milliardaire qui a décidé de consacrer sa vie à rendre l’art accessible à tous",
+    "lien": "https://www.challenges.fr/fortunes/a-ma-mort-la-moitie-de-ma-fortune-sera-reversee-a-ma-fondation-frederic-jousset-le-milliardaire-qui-a-decide-de-consacrer-sa-vie-a-rendre-lart-accessible-a-tous_646972",
+    "date": "2026-11-14",
+    "resume": "À la tête de sa fondation Art Explora, l’ancien dirigeant de Webhelp, Frédéric Jousset, fait de la diffusion des œuvres une action d’utilité publique. Une ambition autant qu’une passion. Rencontre.",
+    "categories": [
+      "Fortunes"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Un système de contrôle obsolète, 50 milliards de dollars requis « d’urgence » : Les causes de la panne aérienne générale aux États-Unis",
+    "lien": "https://www.challenges.fr/entreprise/transports/un-systeme-de-controle-obsolete-50-milliards-de-dollars-requis-durgence-les-causes-de-la-panne-aerienne-generale-aux-etats-unis_646985",
+    "date": "2026-11-14",
+    "resume": "La suspension de tous les décollages aux États-Unis pendant plusieurs heures vendredi n’est pas due à une cyberattaque d’après les autorités, mais à des « problèmes de communication » affectant le système de contrôle aérien, obsolète et sous-financé.",
+    "categories": [
+      "Transports"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "« Un énorme marché » grâce à « un public potentiel au-dessus de 600 millions de personnes » : les dessous de la première édition de l'Eurovision en Asie",
+    "lien": "https://www.challenges.fr/entreprise/medias/un-enorme-marche-grace-a-un-public-potentiel-au-dessus-de-600-millions-de-personnes-les-dessous-de-la-premiere-edition-de-leurovision-en-asie_646983",
+    "date": "2026-11-14",
+    "resume": "La première édition de l'Eurovision Asie, dérivé du concours de la chanson européen, se tient samedi soir à Bangkok en Thaïlande. Au-delà des onze pays participants, les organisateurs espèrent en convaincre davantage et en faire un événement annuel.",
+    "categories": [
+      "Médias"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Les bornes de recharge au banc d’essai : badges, abonnements, heures creuses… comment faire baisser la facture et éviter les mauvaises surprises",
+    "lien": "https://www.challenges.fr/automobile/les-bornes-de-recharge-au-banc-dessai-badges-abonnements-heures-creuses-comment-faire-baisser-la-facture-et-eviter-les-mauvaises-surprises_646979",
+    "date": "2026-11-14",
+    "resume": "La voiture électrique décolle en France depuis un an, dépassant même 40 % des ventes neuves. Autant d’utilisateurs à rassurer pour « faire le plein » de leurs batteries. Fiabilité, prix, puissance, disponibilité : notre enquête sur le réseau.",
+    "categories": [
+      "Automobile"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Nouvelle Dacia Spring : que vaut la moins chère des voitures électriques face à sa cousine, la Renault Twingo E-Tech ?",
+    "lien": "https://www.challenges.fr/automobile/essais/nouvelle-dacia-spring-que-vaut-la-moins-chere-des-voitures-electriques-face-a-sa-cousine-la-renault-twingo-e-tech_646957",
+    "date": "2026-11-14",
+    "resume": "ESSAI – Après une première génération à succès, la Dacia Spring revient mais cette fois basée sur la nouvelle Renault Twingo E-Tech. Ses prestations font un bond considérable à tous les chapitres. Et sa production en Europe lui permet de profiter à nouveau d’aides à l’achat, pour faire baisser son prix déjà inférieur à celui de sa cousine !",
+    "categories": [
+      "Essais"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Investir dans l’immobilier solidaire : ces placements accessibles dès 100 euros qui permettent de réduire ses impôts tout en soutenant des projets utiles",
+    "lien": "https://www.challenges.fr/argent-et-placements/investir-dans-limmobilier-solidaire-ces-placements-accessibles-des-100-euros-qui-permettent-de-reduire-ses-impots-tout-en-soutenant-des-projets-utiles_646757",
+    "date": "2026-11-14",
+    "resume": "PLACEMENTS RESPONSABLES (6/8) - Ces structures solidaires permettent de donner du sens à un portefeuille, mais les rendements sont faibles. Même si l’avantage fiscal est loin d’être négligeable.",
+    "categories": [
+      "Argent et Placements"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Cryptomonnaies : après le piratage spectaculaire de Binance, comment continuer à investir dans le bitcoin et l’Ethereum sans exposer son épargne aux cyberattaques",
+    "lien": "https://www.challenges.fr/argent-et-placements/cryptomonnaies-apres-le-piratage-spectaculaire-de-binance-comment-continuer-a-investir-dans-le-bitcoin-et-lethereum-sans-exposer-son-epargne-aux-cyberattaques_646964",
+    "date": "2026-11-14",
+    "resume": "Après l’attaque géante de Binance, les épargnants s’interrogent sur la protection de leur portefeuille virtuel. Nos conseils pour éviter les sueurs froides.",
+    "categories": [
+      "Argent et Placements"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "Le faux pas de Richemont clôt une saison des résultats mitigée dans le secteur du luxe",
+    "lien": "https://www.agefi.fr/news/entreprises/le-faux-pas-de-richemont-clot-une-saison-des-resultats-mitigee-dans-le-secteur-du-luxe",
+    "date": "2026-11-14",
+    "resume": "Le joaillier suisse a été sanctionné en Bourse malgré de bons résultats, illustrant la frilosité des investisseurs vis-à-vis d'un secteur qui reste pénalisé par la faible demande en Chine.",
+    "categories": [
+      "Entreprises"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "«A court terme, les baisses de valorisation de la tech créent des opportunités»",
+    "lien": "https://www.agefi.fr/news/economie-marches/a-court-terme-les-baisses-de-valorisation-de-la-tech-creent-des-opportunites",
+    "date": "2026-11-14",
+    "resume": "Wilfrid Galand, directeur stratégie chez Montpensier Arbevel",
+    "categories": [
+      "Economie & Marchés"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "L’action de groupe contre Nvidia attend ses investisseurs institutionnels",
+    "lien": "https://www.agefi.fr/investisseurs-institutionnels/actualites/laction-de-groupe-contre-nvidia-attend-ses-investisseurs-institutionnels",
+    "date": "2026-11-14",
+    "resume": "Les gros investisseurs qui ont acheté des actions Nvidia, dont le fonds souverain norvégien et d’autres investisseurs institutionnels, peuvent briguer jusqu’au 8 janvier la place de plaignant principal dans l’action de groupe visant la société.",
+    "categories": [
+      "Actualités"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "CNRS|Le Journal",
+    "titre": "La biodiversité face aux canicules marines",
+    "lien": "https://lejournal.cnrs.fr/videos/la-biodiversite-face-aux-canicules-marines",
+    "date": "2026-11-14",
+    "resume": "Les canicules frappent aussi mers et océans. À l’été 2026, avec la succession de vagues de chaleur, les températures des eaux ont battu des records dans le monde. La biodiversité marine peut-elle s’adapter à ces nouvelles conditions… qui ont aussi des conséquences à terre ?",
+    "categories": [
+      "Vivant, Terre"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Rocket Lab : face à une bombe à retardement",
+    "lien": "https://air-cosmos.latribune.fr/article/espace/285642159336914/rocket-lab-face-a-une-bombe-a-retardement",
+    "date": "2026-11-14",
+    "resume": "100 vols Electron réalisés, 100 autres à venir, et toujours pas rentable. Les indicateurs financiers de Rocket Lab s'éclaircissent trimestre après trimestre, tout en restant dans le rouge. Les dernières ventes fournissent une unique occasion de se refaire, sauf que Rocket Lab marche sur les œufs avec la défense.",
+    "categories": [
+      "Air & Cosmos Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "États-Unis : confrontée à l’obsolescence de son matériel, la FAA annule 6 000 vols",
+    "lien": "https://air-cosmos.latribune.fr/article/aviation-civile/aeroports-et-controle-aerien/22319448149436/etats-unis-confrontee-a-l-obsolescence-de-son-materiel-la-faa-annule-6-000-vols",
+    "date": "2026-11-14",
+    "resume": "Des milliers d'avions et des centaines de milliers de passagers se sont retrouvés cloués au sol ou obliger de se poser au plus vite après une panne rencontrée dans les centres de contrôle d'approche terminale américains. L'administration Trump a tancé l'âge des équipements comme raison première de ce chaos.",
+    "categories": [
+      "Air & Cosmos"
+    ]
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Textes",
+    "titre": "Projet de loi de finances de fin de gestion pour 2026 - texte N° 172",
+    "lien": "http://www.senat.fr/leg/pjl26-172.html",
+    "date": "2026-11-14",
+    "resume": "Projet de loi de finances de fin de gestion pour 2026 : texte N° 172 transmis au Sénat le 13 novembre 2026",
+    "categories": [
+      "projet de loi"
+    ]
+  },
+  {
     "categorie": "revues",
     "source": "Vie Publique|Lois",
     "titre": "Projet de loi de finances de fin de gestion pour 2026",
