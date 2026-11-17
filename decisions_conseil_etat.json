@@ -1,7 +1,7 @@
 {
-  "mis_a_jour": "2026-11-16T03:41:05",
+  "mis_a_jour": "2026-11-17T06:01:55",
   "date_cible": "2026-11-12",
-  "total": 1,
+  "total": 2,
   "source": "https://opendata.justice-administrative.fr/recherche",
   "juridiction": "toutes",
   "filtres": {
@@ -14,6 +14,21 @@
     ]
   },
   "decisions": [
+    {
+      "id": "DTA_2614064_20261112.xml",
+      "date": "2026-11-12",
+      "numero": "2614064",
+      "juridiction": "Tribunal Administratif de MELUN",
+      "formation": "8ème chambre",
+      "type": "Décision",
+      "ecli": "",
+      "publication": "Code C+",
+      "code_publication": "C+",
+      "code_juridiction": "TA77",
+      "mis_en_ligne": "2026-11-14",
+      "resume": "",
+      "url": "https://opendata.justice-administrative.fr/recherche/shareFile/DTA_2614064_20261112.xml_TA77"
+    },
     {
       "id": "DCA_24TL02237_20261112.xml",
       "date": "2026-11-12",

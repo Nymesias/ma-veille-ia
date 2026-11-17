@@ -1,20 +1,20 @@
 {
-  "mis_a_jour": "2026-11-16T03:41:05",
+  "mis_a_jour": "2026-11-17T06:01:55",
   "date_cible": "2026-11-12",
-  "date_recherche_initiale": "2026-11-15",
-  "total": 20,
+  "date_recherche_initiale": "2026-11-16",
+  "total": 21,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
     {
-      "id": "6af561416c2e17781288f399",
+      "id": "6af561106c2e17781288efed",
       "date": "2026-11-12",
-      "chambre": "Première chambre civile",
+      "chambre": "Chambre commerciale financière et économique",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-16.808",
-      "solution": "Rejet",
+      "numero": "25-10.846",
+      "solution": "Cassation",
       "publication": "Publié au Bulletin",
       "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6af561416c2e17781288f399"
+      "url": "https://www.courdecassation.fr/decision/6af561106c2e17781288efed"
     },
     {
       "id": "6af561da6c2e17781288fe14",
@@ -72,6 +72,17 @@
       "url": "https://www.courdecassation.fr/decision/6af561446c2e17781288f3d0"
     },
     {
+      "id": "6af561416c2e17781288f399",
+      "date": "2026-11-12",
+      "chambre": "Première chambre civile",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-16.808",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6af561416c2e17781288f399"
+    },
+    {
       "id": "6af699c46c2e177812976687",
       "date": "2026-11-12",
       "chambre": "Première chambre civile",
@@ -83,26 +94,15 @@
       "url": "https://www.courdecassation.fr/decision/6af699c46c2e177812976687"
     },
     {
-      "id": "6af561106c2e17781288efed",
+      "id": "6aface7d6c2e177812bdf8c6",
       "date": "2026-11-12",
-      "chambre": "Chambre commerciale financière et économique",
+      "chambre": "Chambre criminelle",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-10.846",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin",
-      "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6af561106c2e17781288efed"
-    },
-    {
-      "id": "6af5610c6c2e17781288efad",
-      "date": "2026-11-12",
-      "chambre": "Chambre commerciale financière et économique",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "23-19.153",
-      "solution": "Cassation",
+      "numero": "26-85.446",
+      "solution": "Rejet",
       "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "Il résulte de la combinaison des articles 496, dans sa rédaction antérieure à celle issue du décret n° 2026-683 du 27 juillet 2026 et 497 du code de procédure civile, et de l'article R. 153-1, alinéas 1er et 2, du code de commerce, que si le dépassement du délai d'un mois visé à l'article R. 153-1 du code de commerce emporte la levée de la mesure de séquestre provisoire et la transmission des pièces au requérant, il n'emporte pas, en revanche, l'irrecevabilité de la demande de rétractation ou de modification de l'ordonnance rendue sur requête",
-      "url": "https://www.courdecassation.fr/decision/6af5610c6c2e17781288efad"
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6aface7d6c2e177812bdf8c6"
     },
     {
       "id": "6af561366c2e17781288f2c2",
@@ -160,6 +160,17 @@
       "url": "https://www.courdecassation.fr/decision/6af5611f6c2e17781288f104"
     },
     {
+      "id": "6af5610c6c2e17781288efad",
+      "date": "2026-11-12",
+      "chambre": "Chambre commerciale financière et économique",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "23-19.153",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Il résulte de la combinaison des articles 496, dans sa rédaction antérieure à celle issue du décret n° 2026-683 du 27 juillet 2026 et 497 du code de procédure civile, et de l'article R. 153-1, alinéas 1er et 2, du code de commerce, que si le dépassement du délai d'un mois visé à l'article R. 153-1 du code de commerce emporte la levée de la mesure de séquestre provisoire et la transmission des pièces au requérant, il n'emporte pas, en revanche, l'irrecevabilité de la demande de rétractation ou de modification de l'ordonnance rendue sur requête",
+      "url": "https://www.courdecassation.fr/decision/6af5610c6c2e17781288efad"
+    },
+    {
       "id": "6af561476c2e17781288f410",
       "date": "2026-11-12",
       "chambre": "Première chambre civile",
@@ -169,17 +180,6 @@
       "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
       "sommaire": "Le responsabilité du garagiste est engagée à l'égard de son client : - en cas de faute, au titre des prestations qui lui sont confiées, l'existence d'une faute et celle d'un lien causal entre la faute et les désordres étant présumées lorsque ces derniers surviennent ou persistent après son intervention ; - de plein droit, au titre de la défaillance des pièces fournies à l'occasion de ces prestations, à charge pour le garagiste d'exercer un recours contre le fabricant",
       "url": "https://www.courdecassation.fr/decision/6af561476c2e17781288f410"
-    },
-    {
-      "id": "6af561236c2e17781288f15a",
-      "date": "2026-11-12",
-      "chambre": "Troisième chambre civile",
-      "formation": "Formation de section",
-      "numero": "24-13.196",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin",
-      "sommaire": "L'inscription d'hypothèque judiciaire résultant des jugements, prévue à l'article 2412 du code civil, dans sa rédaction antérieure à celle issue de l'ordonnance n° 2021-1192 du 15 septembre 2021, aujourd'hui dénommée hypothèque légale attachée aux jugements de condamnation par l'article 2401 du code civil dans sa version issue de ladite ordonnance, n'est ni une mesure conservatoire prise en application du code des procédures civiles d'exécution ni un acte d'exécution forcée. Dès lors, une telle inscription n'interrompt pas la prescription de l'action en paiement qu'elle tend à garantir",
-      "url": "https://www.courdecassation.fr/decision/6af561236c2e17781288f15a"
     },
     {
       "id": "6af561186c2e17781288f08b",
@@ -222,8 +222,19 @@
       "numero": "23-14.219",
       "solution": "Rejet",
       "publication": "Publié au Bulletin",
-      "sommaire": "Il résulte de la combinaison de l'article L. 311-3, 23°du code de la sécurité sociale avec l'article 31-1 de la loi n° 90-1258 du 31 décembre 1990, dans sa rédaction issue de la loi n° 2001-1168 du 11 décembre 2001, que le dirigeant d'une société de participations financières de profession libérale par actions simplifiée est assujetti, par assimilation, au régime général de sécurité sociale",
+      "sommaire": "Il résulte de la combinaison de l'article L. 311-3, 23°, du code de la sécurité sociale avec l'article 31-1 de la loi n° 90-1258 du 31 décembre 1990, dans sa rédaction issue de la loi n° 2001-1168 du 11 décembre 2001, que le dirigeant d'une société de participations financières de profession libérale par actions simplifiée est assujetti, par assimilation, au régime général de sécurité sociale",
       "url": "https://www.courdecassation.fr/decision/6af5612e6c2e17781288f232"
+    },
+    {
+      "id": "6af561236c2e17781288f15a",
+      "date": "2026-11-12",
+      "chambre": "Troisième chambre civile",
+      "formation": "Formation de section",
+      "numero": "24-13.196",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "L'inscription d'hypothèque judiciaire résultant des jugements, prévue à l'article 2412 du code civil, dans sa rédaction antérieure à celle issue de l'ordonnance n° 2021-1192 du 15 septembre 2021, aujourd'hui dénommée hypothèque légale attachée aux jugements de condamnation par l'article 2401 du code civil dans sa version issue de ladite ordonnance, n'est ni une mesure conservatoire prise en application du code des procédures civiles d'exécution ni un acte d'exécution forcée. Dès lors, une telle inscription n'interrompt pas la prescription de l'action en paiement qu'elle tend à garantir",
+      "url": "https://www.courdecassation.fr/decision/6af561236c2e17781288f15a"
     }
   ]
 }
