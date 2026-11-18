@@ -1,20 +1,20 @@
 {
-  "mis_a_jour": "2026-11-17T06:01:55",
+  "mis_a_jour": "2026-11-18T05:08:46",
   "date_cible": "2026-11-12",
-  "date_recherche_initiale": "2026-11-16",
+  "date_recherche_initiale": "2026-11-17",
   "total": 21,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
     {
-      "id": "6af561106c2e17781288efed",
+      "id": "6af561416c2e17781288f399",
       "date": "2026-11-12",
-      "chambre": "Chambre commerciale financière et économique",
+      "chambre": "Première chambre civile",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-10.846",
-      "solution": "Cassation",
+      "numero": "25-16.808",
+      "solution": "Rejet",
       "publication": "Publié au Bulletin",
       "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6af561106c2e17781288efed"
+      "url": "https://www.courdecassation.fr/decision/6af561416c2e17781288f399"
     },
     {
       "id": "6af561da6c2e17781288fe14",
@@ -72,15 +72,15 @@
       "url": "https://www.courdecassation.fr/decision/6af561446c2e17781288f3d0"
     },
     {
-      "id": "6af561416c2e17781288f399",
+      "id": "6af561106c2e17781288efed",
       "date": "2026-11-12",
-      "chambre": "Première chambre civile",
+      "chambre": "Chambre commerciale financière et économique",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "25-16.808",
-      "solution": "Rejet",
+      "numero": "25-10.846",
+      "solution": "Cassation",
       "publication": "Publié au Bulletin",
       "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6af561416c2e17781288f399"
+      "url": "https://www.courdecassation.fr/decision/6af561106c2e17781288efed"
     },
     {
       "id": "6af699c46c2e177812976687",
@@ -103,6 +103,17 @@
       "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
       "sommaire": "",
       "url": "https://www.courdecassation.fr/decision/6aface7d6c2e177812bdf8c6"
+    },
+    {
+      "id": "6af5610c6c2e17781288efad",
+      "date": "2026-11-12",
+      "chambre": "Chambre commerciale financière et économique",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "23-19.153",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Il résulte de la combinaison des articles 496, dans sa rédaction antérieure à celle issue du décret n° 2026-683 du 27 juillet 2026 et 497 du code de procédure civile, et de l'article R. 153-1, alinéas 1er et 2, du code de commerce, que si le dépassement du délai d'un mois visé à l'article R. 153-1 du code de commerce emporte la levée de la mesure de séquestre provisoire et la transmission des pièces au requérant, il n'emporte pas, en revanche, l'irrecevabilité de la demande de rétractation ou de modification de l'ordonnance rendue sur requête",
+      "url": "https://www.courdecassation.fr/decision/6af5610c6c2e17781288efad"
     },
     {
       "id": "6af561366c2e17781288f2c2",
@@ -158,17 +169,6 @@
       "publication": "Publié au Bulletin",
       "sommaire": "Il entre dans les pouvoirs de la cour d'appel, à l'occasion du recours formé contre la décision d'homologation, de rejet ou de modification du cahier des charges d'une indication géographique protégeant un produit industriel ou artisanal (IGPIA), prise par le directeur général de l'Institut national de la propriété industrielle (INPI), de s'assurer que les opérations de production ou de transformation décrites dans le cahier des charges, ainsi que le périmètre de la zone définie par ce même cahier, permettent de garantir que le produit concerné présente effectivement une qualité, une réputation ou d'autres caractéristiques qui peuvent être essentiellement attribuées à la zone géographique. D",
       "url": "https://www.courdecassation.fr/decision/6af5611f6c2e17781288f104"
-    },
-    {
-      "id": "6af5610c6c2e17781288efad",
-      "date": "2026-11-12",
-      "chambre": "Chambre commerciale financière et économique",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "23-19.153",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "Il résulte de la combinaison des articles 496, dans sa rédaction antérieure à celle issue du décret n° 2026-683 du 27 juillet 2026 et 497 du code de procédure civile, et de l'article R. 153-1, alinéas 1er et 2, du code de commerce, que si le dépassement du délai d'un mois visé à l'article R. 153-1 du code de commerce emporte la levée de la mesure de séquestre provisoire et la transmission des pièces au requérant, il n'emporte pas, en revanche, l'irrecevabilité de la demande de rétractation ou de modification de l'ordonnance rendue sur requête",
-      "url": "https://www.courdecassation.fr/decision/6af5610c6c2e17781288efad"
     },
     {
       "id": "6af561476c2e17781288f410",
