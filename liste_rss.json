@@ -191,15 +191,6 @@
           ]
         },
         {
-          "t": "CELEX:62025CJ0332: Arrêt de la Cour (quatrième chambre) du 19 novembre 2026 — Friends of the Irish Environment CLG contre Government of Ireland e.a",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0332",
-          "d": "2026-11-19",
-          "r": "Demande de décision préjudicielle, introduite par la Court of Appeal (Irlande) — Renvoi préjudiciel – Environnement – Directive 92/43/CEE – Article 6, paragraphe 3 – Conservation des habitats naturels ainsi que de la faune et de la flore sauvages – Évaluation appropriée des incidences d’un plan susceptible d’affecter un site protégé eu égard aux objectifs de conservation de ce site – Notion de “plan” — Affaire C-332/25",
-          "c": [
-            "6"
-          ]
-        },
-        {
           "t": "CELEX:62025CJ0543: Arrêt de la Cour (neuvième chambre) du 19 novembre 2026 — Commission européenne contre Hongrie",
           "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0543",
           "d": "2026-11-19",
@@ -209,10 +200,10 @@
           ]
         },
         {
-          "t": "CELEX:62024CJ0098: Arrêt de la Cour (quatrième chambre) du 19 novembre 2026 — Demande de décision préjudicielle, introduite par Obvodní soud pro Prahu 1",
-          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0098",
+          "t": "CELEX:62025CJ0332: Arrêt de la Cour (quatrième chambre) du 19 novembre 2026 — Friends of the Irish Environment CLG contre Government of Ireland e.a",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0332",
           "d": "2026-11-19",
-          "r": "Renvoi préjudiciel – Article 267 TFUE – Notion de “juridiction” – Critères – Indépendance de l’organisme de renvoi – Notaire agissant en tant que commissaire judiciaire dans le cadre d’une procédure successorale – Absence d’indépendance – Irrecevabilité — Affaire C-98/24",
+          "r": "Demande de décision préjudicielle, introduite par la Court of Appeal (Irlande) — Renvoi préjudiciel – Environnement – Directive 92/43/CEE – Article 6, paragraphe 3 – Conservation des habitats naturels ainsi que de la faune et de la flore sauvages – Évaluation appropriée des incidences d’un plan susceptible d’affecter un site protégé eu égard aux objectifs de conservation de ce site – Notion de “plan” — Affaire C-332/25",
           "c": [
             "6"
           ]
@@ -222,6 +213,15 @@
           "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62025CJ0239",
           "d": "2026-11-19",
           "r": "Demande de décision préjudicielle, introduite par Giudice di pace di Palermo — Renvoi préjudiciel – Protection des consommateurs – Contrats de crédit aux consommateurs – Directive 2008/48/CE – Article 3, sous g), et article 16 – Remboursement anticipé du crédit – Droit du consommateur à une réduction du coût total du crédit correspondant aux intérêts et aux frais dus pour la durée résiduelle du contrat – Limitation aux seuls frais dépendants de la durée du crédit – Obligation d’information précontractuelle du prêteur – Directive 2014/17/UE – Articles 14 et 25 – Frais imposés au consommateur – Frais contractuels relatifs à une prestation exécutée par un tiers et à des charges fiscales — Affai",
+          "c": [
+            "6"
+          ]
+        },
+        {
+          "t": "CELEX:62024CJ0098: Arrêt de la Cour (quatrième chambre) du 19 novembre 2026 — Demande de décision préjudicielle, introduite par Obvodní soud pro Prahu 1",
+          "l": "https://eur-lex.europa.eu/./legal-content/AUTO/?uri=CELEX:62024CJ0098",
+          "d": "2026-11-19",
+          "r": "Renvoi préjudiciel – Article 267 TFUE – Notion de “juridiction” – Critères – Indépendance de l’organisme de renvoi – Notaire agissant en tant que commissaire judiciaire dans le cadre d’une procédure successorale – Absence d’indépendance – Irrecevabilité — Affaire C-98/24",
           "c": [
             "6"
           ]
@@ -699,10 +699,10 @@
       "nom_site": "Me NEUJANICKI|Immobilier",
       "articles": [
         {
-          "t": "Bail commercial et valeur locative : Les charges transférées imposent un abattement malgré des baux de comparaison identiques",
-          "l": "https://www.neujanicki.com/bail-commercial-valeur-locative-charges-taxe-abattement/",
-          "d": "2026-11-19",
-          "r": "La valeur locative du bail renouvelé doit être minorée lorsque des charges incombant normalement au bailleur sont transférées sans contrepartie au locataire, même si les baux de comparaison comportent les mêmes transferts. Le juge choisit la méthode de minoration la plus appropriée. Par cet arrêt publié au Bulletin, la Cour de cassation précise l’articulation entre […] L’article Bail commercial et valeur locative : Les charges transférées imposent un abattement malgré des baux de comparaison identiques est apparu en premier sur Neu-Janicki .",
+          "t": "Bail commercial : Les documents manquants à la signature ne suffisent pas à entraîner la nullité",
+          "l": "https://www.neujanicki.com/bail-commercial-absence-dpe-inventaire-des-charges-nullite/",
+          "d": "2026-11-22",
+          "r": "L’absence de remise ou d’annexion du DPE, de l’inventaire des charges et de l’état prévisionnel des travaux ne suffit pas à entraîner la nullité d’un bail commercial. Le locataire doit établir que le défaut d’information lui a fait commettre une erreur sur une qualité essentielle de la prestation, déterminante de son consentement. 1. Les règles […] L’article Bail commercial : Les documents manquants à la signature ne suffisent pas à entraîner la nullité est apparu en premier sur Neu-Janicki .",
           "c": [
             "Bail commercial"
           ]
@@ -1101,12 +1101,12 @@
       "nom_site": "Sénat|Textes",
       "articles": [
         {
-          "t": "Favoriser le développement de l'oenotourisme - texte N° 173",
-          "l": "http://www.senat.fr/leg/ppl26-173.html",
-          "d": "2026-11-21",
-          "r": "Proposition de loi visant à favoriser le développement de l'oenotourisme : texte N° 173 de Mme Nathalie DELATTRE, déposé au Sénat le 13 novembre 2026",
+          "t": "Projet de loi de finances de fin de gestion pour 2026 - texte de la commission N° 187",
+          "l": "http://www.senat.fr/leg/pjl26-187.html",
+          "d": "2026-11-22",
+          "r": "Projet de loi de finances de fin de gestion pour 2026 : texte de la commission N° 187 déposé le 20 novembre 2026",
           "c": [
-            "proposition de loi"
+            "projet de loi"
           ]
         }
       ]
@@ -1392,100 +1392,33 @@
       "nom_site": "Le Revenu",
       "articles": [
         {
-          "t": "Immobilier à Toulouse : les prix résistent en 2026, vers une nouvelle hausse en 2027 ?",
-          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-a-toulouse-les-prix-resistent-en-2026-v",
-          "d": "2026-11-21",
-          "r": "Le marché immobilier de Toulouse affiche une résistance remarquable en 2026, malgré un contexte national difficile. Le prix moyen des appartements atteint 3 569 euros par mètre carré, en hausse de 0,7 % sur un…",
+          "t": "Taxe sur les logements vacants à Paris : faut-il vendre son bien avant 2027 ?",
+          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/taxe-sur-les-logements-vacants-a-paris-faut-il-ven",
+          "d": "2026-11-22",
+          "r": "À partir du 1er janvier 2027, la taxe sur les logements vacants augmentera fortement à Paris. Les taux atteindront 30 % de la valeur locative cadastrale la première année d'imposition et 60 % les années suivant…",
           "c": [
             "Investir dans l'immobilier",
             "Prix et tendances"
           ]
         },
         {
-          "t": "CAC 40 : les indicateurs économiques au centre de l'attention la semaine prochaine",
-          "l": "https://www.lerevenu.com/reussir-bourse/points-marches/cac-40-les-indicateurs-economiques-au-centre-de-l-attention-la-semaine-prochaine",
-          "d": "2026-11-21",
-          "r": "Après le repli marqué de la Bourse de Paris, les investisseurs attendent de nouveaux signaux sur la santé de l'économie européenne. Les données françaises et allemandes permettront notamment d'évaluer l'évoluti…",
+          "t": "Impôts 2027 : les avantages fiscaux à connaître si vous êtes né avant 1962",
+          "l": "https://www.lerevenu.com/reduire-impots/impot-sur-le-revenu/impots-2027-les-avantages-fiscaux-a-connaitre-si-v",
+          "d": "2026-11-22",
+          "r": "Les Français nés avant 1962 pourraient bénéficier de plusieurs avantages fiscaux en 2027. Un abattement sur les revenus pouvant atteindre 2 882 euros, une réduction de taxe foncière de 100 euros et un éventuel…",
           "c": [
-            "Réussir en Bourse",
-            "Points Marchés"
+            "Réduire vos impôts",
+            "Impôt sur le revenu"
           ]
         },
         {
-          "t": "Wall Street : consommation, inflation et résultats technologiques au programme la semaine prochaine",
-          "l": "https://www.lerevenu.com/reussir-bourse/points-marches/wall-street-agenda-economique-consommation-inflation-resultats-tech",
-          "d": "2026-11-21",
-          "r": "La semaine sera écourtée par la fête de Thanksgiving, mais plusieurs publications pourraient influencer les marchés. Les investisseurs surveilleront notamment les dépenses des ménages à l'approche de Noël et le…",
-          "c": [
-            "Réussir en Bourse",
-            "Points Marchés"
-          ]
-        },
-        {
-          "t": "Immobilier neuf à Lyon : 5 critères essentiels à comparer avant d’acheter",
-          "l": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-neuf-a-lyon-5-criteres-essentiels-a-com",
-          "d": "2026-11-21",
-          "r": "Le marché immobilier neuf à Lyon traverse une période de ralentissement, avec une baisse de 15 % des réservations dans la Métropole sur les huit premiers mois de 2026. Malgré ce contexte, les prix restent élevé…",
+          "t": "Immobilier locatif : les 10 villes où les loyers augmentent le plus en 2026",
+          "l": "https://www.lerevenu.com/investir-immobilier/investissement-locatif/immobilier-locatif-les-10-villes-ou-les-loyers-aug",
+          "d": "2026-11-22",
+          "r": "Les loyers repartent à la hausse en France en 2026, avec une progression moyenne de 2,1 % sur un an. Marseille arrive en tête des villes les plus touchées (+4,6 %), devant Nice (+4,4 %) et Cannes (+4,3 %). Cett…",
           "c": [
             "Investir dans l'immobilier",
-            "Prix et tendances"
-          ]
-        },
-        {
-          "t": "CAC 40 : une semaine de forte baisse, l'indice repasse sous les 8.000 points",
-          "l": "https://www.lerevenu.com/reussir-bourse/points-marches/cac-40-une-semaine-de-forte-baisse-l-indice-repasse-sous-les-8-000-points",
-          "d": "2026-11-21",
-          "r": "Après une hausse de 2,8 % la semaine précédente, l'indice parisien a brutalement inversé sa tendance. Les doutes sur les investissements dans l'IA et plusieurs publications décevantes ont accentué les prises de…",
-          "c": [
-            "Réussir en Bourse",
-            "Points Marchés"
-          ]
-        },
-        {
-          "t": "Wall Street : une semaine de forte correction, les valeurs de l'IA sous pression",
-          "l": "https://www.lerevenu.com/reussir-bourse/points-marches/wall-street-bilan-semaine-correction-valeurs-ia-semi-conducteurs",
-          "d": "2026-11-21",
-          "r": "La correction s'est accentuée sur les marchés américains du 16 au 20 novembre. Les inquiétudes sur le financement des infrastructures d'intelligence artificielle et les perspectives de taux de la Fed ont renfor…",
-          "c": [
-            "Réussir en Bourse",
-            "Points Marchés"
-          ]
-        },
-        {
-          "t": "Facture de gaz : 5 gestes simples pour réduire vos dépenses cet hiver",
-          "l": "https://www.lerevenu.com/investir-immobilier/conseils-immobilier/facture-de-gaz-5-gestes-simples-pour-reduire-vos-d",
-          "d": "2026-11-21",
-          "r": "Le prix du gaz poursuit sa hausse en France, avec une augmentation de 6,6 % du prix repère au 1er novembre 2026. Cette évolution alourdit les dépenses des ménages chauffés au gaz. Pourtant, cinq gestes simples…",
-          "c": [
-            "Investir dans l'immobilier",
-            "Nos conseils immobilier"
-          ]
-        },
-        {
-          "t": "Bourse : après l'effondrement, le pire est ailleurs",
-          "l": "https://www.lerevenu.com/actualite-economique/bourse-apres-l-effondrement-le-pire-est-ailleurs",
-          "d": "2026-11-21",
-          "r": "Le CAC 40 a perdu plus de 5 % cette semaine, le S&P 500 près de 9 % et le Nasdaq 10 %. La chute est spectaculaire, mais une correction boursière n'est pas une crise financière. Elle peut même être salutaire, en…",
-          "c": [
-            "Économie"
-          ]
-        },
-        {
-          "t": "CAC 40 : les grands perdants de la semaine",
-          "l": "https://www.lerevenu.com/reussir-bourse/cac-40-les-grands-perdants-de-la-semaine",
-          "d": "2026-11-21",
-          "r": "La Bourse de Paris a vécu une semaine noire, abandonnant 5,27 % en cinq séances. Dassault Systèmes, STMicroelectronics, ArcelorMittal et Stellantis ont enregistré des chutes à deux chiffres. De la technologie a…",
-          "c": [
-            "Réussir en Bourse"
-          ]
-        },
-        {
-          "t": "Krach boursier : l'intelligence artificielle détruit tout, jusqu'à l'or",
-          "l": "https://www.lerevenu.com/reussir-bourse/krach-boursier-l-intelligence-artificielle-ne-fait-plus-rever-les-marches",
-          "d": "2026-11-21",
-          "r": "Le Nasdaq a perdu 10 % en une semaine, le S&P 500 près de 9 % et le CAC 40 plus de 5 %. Malgré des résultats records chez Nvidia et l'introduction en Bourse historique d'Anthropic, les investisseurs se détourne…",
-          "c": [
-            "Réussir en Bourse"
+            "Investissement locatif"
           ]
         }
       ]
@@ -1494,55 +1427,37 @@
       "nom_site": "L'Agefi",
       "articles": [
         {
-          "t": "L'euro reste en panne",
-          "l": "https://www.agefi.fr/cash-risk/actualites/leuro-reste-en-panne",
-          "d": "2026-11-21",
-          "r": "Chaque semaine dans L'Agefi, retrouvez l'oeil de DeftHedge sur le marché des changes.",
-          "c": [
-            "Actualités"
-          ]
-        },
-        {
-          "t": "PayPal change de directrice financière",
-          "l": "https://www.agefi.fr/cash-risk/people/paypal-change-de-directrice-financiere",
-          "d": "2026-11-21",
-          "r": "Claire Bramley prendra au 1 er février le siège de Jamie Miller au sein du groupe objet de spéculations de rachat.",
-          "c": [
-            "People"
-          ]
-        },
-        {
-          "t": "La panique s’empare de Wall Street",
-          "l": "https://www.agefi.fr/news/economie-marches/la-panique-sempare-de-wall-street",
-          "d": "2026-11-21",
-          "r": "Les actions américaines ont connu vendredi leur pire séance depuis avril 2025 alors que la chute s’est accentuée en fin de journée avec un fort rebond de la volatilité. L’indice Nasdaq est proche d’un bear market tandis que le S&P 500 perd désormais plus de 10% par rapport à son record. La correction ne touche pas seulement les valeurs IA. Les investisseurs cherchent les actifs refuges.",
+          "t": "La COP31 échoue à trouver un accord politique sur le climat",
+          "l": "https://www.agefi.fr/news/economie-marches/la-cop31-echoue-a-trouver-un-accord-politique-sur-le-climat",
+          "d": "2026-11-22",
+          "r": "Les participants du sommet sur le climat organisé en Turquie n'ont finalement pas réussi à se mettre d'accord sur le texte présenté jeudi 19 novembre qui, selon l'Union européenne, constituait un retour en arrière.",
           "c": [
             "Economie & Marchés"
           ]
         },
         {
-          "t": "«La Fed réagira sur les taux en fonction des mouvements relatifs sur le pétrole et sur l’emploi»",
-          "l": "https://www.agefi.fr/news/economie-marches/la-fed-reagira-sur-les-taux-en-fonction-des-mouvements-relatifs-sur-le-petrole-et-sur-lemploi",
-          "d": "2026-11-21",
-          "r": "François Rimeu, stratégiste senior chez Crédit Mutuel Asset Management.",
+          "t": "Sommet UE-UK, le retour de la libre circulation sélective",
+          "l": "https://www.agefi.fr/news/economie-marches/sommet-ue-uk-le-retour-de-la-libre-circulation-selective",
+          "d": "2026-11-22",
+          "r": "Un nouveau partenariat stratégique entre l'Union européenne et le Royaume-Uni prend forme à la suite de cette deuxième rencontre bipartite. Les principales avancées concernent les échanges de jeunes, la circulation des produits alimentaires et la lutte contre l’immigration illégale.",
           "c": [
             "Economie & Marchés"
           ]
         },
         {
-          "t": "Quatre banques américaines se taillent la part du lion dans l’IPO d’Anthropic",
-          "l": "https://www.agefi.fr/news/banque-assurance/quatre-banques-americaines-se-taillent-la-part-du-lion-dans-lipo-danthropic",
-          "d": "2026-11-21",
-          "r": "Goldman Sachs et Morgan Stanley ont obtenu plus de 40% des actions à placer lors de l’introduction en Bourse du géant de l’intelligence artificielle. JPMorgan et Citi arrivent juste derrière tandis que les trois banques françaises - BNP Paribas, le Crédit Agricole et la Société Générale – sont loin derrière.",
+          "t": "« Nous entendons conserver une orientation défensive face à la volatilité des marchés »",
+          "l": "https://www.agefi.fr/news/economie-marches/nous-entendons-conserver-une-orientation-defensive-face-a-la-volatilite-des-marches",
+          "d": "2026-11-22",
+          "r": "Alexandre Neuvy, directeur de la gestion sous mandat et associé chez Amplegest.",
           "c": [
-            "Banque & Assurance"
+            "Economie & Marchés"
           ]
         },
         {
-          "t": "« Nous anticipons des corrections plus fréquentes, au sein d’une tendance de fond favorable »",
-          "l": "https://www.agefi.fr/news/economie-marches/nous-anticipons-des-corrections-plus-frequentes-au-sein-dune-tendance-de-fond-favorable",
-          "d": "2026-11-21",
-          "r": "Philippe Denef, CIO Quant & Systematic Equities chez DPAM",
+          "t": "«Il faudrait une forte dégradation du cycle économique pour annuler le rendement généreux du haut rendement»",
+          "l": "https://www.agefi.fr/news/economie-marches/il-faudrait-une-forte-degradation-du-cycle-economique-pour-annuler-le-rendement-genereux-du-haut-rendement",
+          "d": "2026-11-22",
+          "r": "Erick Muller, stratégiste allocation obligataire chez Muzinich",
           "c": [
             "Economie & Marchés"
           ]
@@ -1612,183 +1527,183 @@
       "nom_site": "Courrier international",
       "articles": [
         {
-          "t": "Pourquoi les politiques français publient autant de livres",
-          "l": "https://www.courrierinternational.com/article/vu-du-royaume-uni-pourquoi-les-politiques-francais-publient-autant-de-livres_288859",
-          "d": "2026-11-21",
-          "r": "Les Français restent un peuple de grands lecteurs, et qui aiment considérer leurs écrivains comme des “trésors nationaux”, observe “The Economist”. Raison pour laquelle toute personnalité politique prétendant à quelque fonction supérieure tente – et retente – le filon éditorial, avec souvent la même idée : faire parler de soi.",
+          "t": "À l’écran, le tsar Pierre le Grand transformé en “héros de la propagande poutinienne”",
+          "l": "https://www.courrierinternational.com/article/russie-a-l-ecran-le-tsar-pierre-le-grand-transforme-en-heros-de-la-propagande-poutinienne_288357",
+          "d": "2026-11-22",
+          "r": "Sortie le 29 octobre en Russie, la superproduction historique “La Naissance de l’empire” raconte la façon dont le tsar Pierre le Grand (1672-1725) a posé les fondations de l’État russe moderne et mené la grande guerre du Nord contre les Suédois. La presse indépendante s’étrangle : au-delà des erreurs factuelles, elle attire l’attention sur la façon dont cette page de l’histoire est travestie pour justifier la politique actuelle du Kremlin.",
           "c": [
-            "Vu du Royaume-Uni"
+            "Russie"
           ]
         },
         {
-          "t": "“Je suis obsédée à l’idée de ressembler à l’ex de mon copain”",
-          "l": "https://www.courrierinternational.com/stories/love-etc-je-suis-obsedee-a-l-idee-de-ressembler-a-l-ex-de-mon-copain_288475",
-          "d": "2026-11-21",
-          "r": "Dans le magazine “Dazed”, plusieurs jeunes Britanniques racontent comment leur curiosité pour l’ex de leur partenaire s’est progressivement muée en obsession, jusqu’à l’imitation. Une fascination dopée par les réseaux sociaux et leurs algorithmes, qui catégorisent les individus selon des archétypes esthétiques bien définis. Puis inondent les utilisateurs de recommandations pour qu’ils puissent leur ressembler.",
-          "c": [
-            "Love, etc."
-          ]
-        },
-        {
-          "t": "Trois lycéens racontent leur année en Allemagne",
-          "l": "https://www.courrierinternational.com/article/temoignages-trois-lyceens-racontent-leur-annee-en-allemagne_285455",
-          "d": "2026-11-21",
-          "r": "Venus des États-Unis, du Japon et de Chine , trois lycéens racontent à “Die Zeit” leurs expériences en Allemagne : la nature, les professeurs qui écoutent, les repas froids… Ces échanges scolaires se font pourtant de plus en plus rares.",
-          "c": [
-            "Témoignages"
-          ]
-        },
-        {
-          "t": "Attaqué par des drones, un cargo russe a dérivé dans les eaux territoriales finlandaises",
-          "l": "https://www.courrierinternational.com/article/geopolitique-attaque-par-des-drones-un-cargo-russe-a-derive-dans-les-eaux-territoriales-finlandaises_289050",
-          "d": "2026-11-21",
-          "r": "Le navire, identifié comme le “Sparta II”, utilisé selon les services de renseignement ukrainiens pour transporter du matériel militaire russe, aurait été ciblé par des drones dans le golfe de Finlande. L’attaque n’a pas été revendiquée, mais le Premier ministre finlandais a très vite réaffirmé le droit, pour l’Ukraine, “de se défendre contre son agresseur” russe.",
-          "c": [
-            "Géopolitique"
-          ]
-        },
-        {
-          "t": "En Iran, les artistes se battent contre le “désespoir absolu”",
-          "l": "https://www.courrierinternational.com/article/culture-en-iran-les-artistes-se-battent-contre-le-desespoir-absolu_280847",
-          "d": "2026-11-21",
-          "r": "Asphyxie économique, galeries fermées, pénurie de matériel : les artistes iraniens subissent de plein fouet les conséquences de la guerre, qui se poursuit à bas bruit, et des sanctions draconiennes. Certains ne peuvent plus payer leur loyer, d’autres sont acculés à abandonner leur atelier. Une initiative internationale tente de briser cet isolement et de leur apporter un soutien financier, raconte “The Guardian”.",
-          "c": [
-            "Culture"
-          ]
-        },
-        {
-          "t": "Mexique : l’arrestation d’un chef de cartel provoque de violents affrontements au Sinaloa",
-          "l": "https://www.courrierinternational.com/article/narcotrafic-mexique-l-arrestation-d-un-chef-de-cartel-provoque-de-violents-affrontements-au-sinaloa_289017",
-          "d": "2026-11-21",
-          "r": "Fausto Isidro Meza Flores, alias El Chapo Isidro, faisait partie de la liste des dix fugitifs les plus recherchés par le FBI. Sa capture par l’armée mexicaine, dans la soirée du vendredi 20 novembre, a provoqué une vague de violences déclenchées par les membres de son cartel.",
-          "c": [
-            "Narcotrafic"
-          ]
-        },
-        {
-          "t": "“Plus jamais ça” : comment s’assurer que le génocide des Rohingyas par la Birmanie ne se reproduira pas",
-          "l": "https://www.courrierinternational.com/article/tribune-plus-jamais-ca-comment-s-assurer-que-le-genocide-des-rohingyas-par-la-birmanie-ne-se-reproduira-pas_288868",
-          "d": "2026-11-21",
-          "r": "À la suite du verdict de la Cour internationale de justice, qui reconnaît le génocide de la minorité rohingya par l’armée birmane, la jeune réfugiée Lucky Karim, qui défend les droits de cette communauté, livre un vibrant plaidoyer pour que la décision de justice se traduise dans les faits.",
-          "c": [
-            "Tribune"
-          ]
-        },
-        {
-          "t": "“Springfield”, de Sergueï Davidov, le rêve de liberté de deux provinciaux dans la Russie poutinienne",
-          "l": "https://www.courrierinternational.com/article/livre-springfield-de-serguei-davidov-le-reve-de-liberte-de-deux-provinciaux-dans-la-russie-poutinienne_286764",
-          "d": "2026-11-21",
-          "r": "Le Russe Sergueï Davidov a reçu jeudi 19 novembre le Prix du roman gay, catégorie roman étranger, pour son livre “Springfield” (éditions Perspective cavalière). Ce premier roman a été initialement publié en 2023 par une maison d’édition en exil : son histoire, celle de deux jeunes homosexuels de province, touche un tabou en Russie. À l’occasion de sa sortie, passée sous silence à l’intérieur du pays, la critique russe avait salué un “formidable début littéraire”.",
-          "c": [
-            "Livre"
-          ]
-        },
-        {
-          "t": "Des étudiants canadiens pourraient avoir trouvé une parade aux risques de rupture des barrages",
-          "l": "https://www.courrierinternational.com/article/environnement-des-etudiants-canadiens-pourraient-avoir-trouve-une-parade-aux-risques-de-rupture-des-barrages_288885",
-          "d": "2026-11-21",
-          "r": "Alors que les alertes se multiplient ces dernières années partout dans le monde, trois universitaires montréalais, qui ont mis au point un dispositif pouvant colmater des conduites de barrages vieillissants en cas de défaillance, viennent de remporter un important concours aux États-Unis.",
-          "c": [
-            "Environnement"
-          ]
-        },
-        {
-          "t": "Cyberattaques : préparez-vous à l’ère de l’instabilité numérique",
-          "l": "https://www.courrierinternational.com/article/securite-cyberattaques-preparez-vous-a-l-ere-de-l-instabilite-numerique_287961",
-          "d": "2026-11-21",
-          "r": "Présent dans un aéroport américain au moment de la paralysie géante du 13 novembre, ce journaliste chevronné invite à ne plus se laisser surprendre par un monde où tout peut tomber en panne, à tout moment.",
-          "c": [
-            "Sécurité"
-          ]
-        },
-        {
-          "t": "Ces résidents étrangers en France qui continuent de manifester malgré la peur",
-          "l": "https://www.courrierinternational.com/article/vu-de-tunisie-ces-residents-etrangers-en-france-qui-continuent-de-manifester-malgre-la-peur_288698",
-          "d": "2026-11-21",
-          "r": "En descendant dans la rue, les résidents étrangers prennent des risques importants en cas d’interpellation par la police, comme le retrait de leur titre de séjour ou la notification d’une obligation de quitter le territoire. Malgré tout, de nombreux jeunes choisissent de continuer à protester, rapporte le média tunisien “Inkyfada”, qui est allé à leur rencontre.",
-          "c": [
-            "Vu de Tunisie"
-          ]
-        },
-        {
-          "t": "À Rotterdam, un artiste défie les “cyclopes” de la vidéosurveillance",
-          "l": "https://www.courrierinternational.com/article/reportage-a-rotterdam-un-artiste-defie-les-cyclopes-de-la-videosurveillance_278227",
-          "d": "2026-11-21",
-          "r": "Traverser la grande ville portuaire néerlandaise sans être filmé, c’est le projet de l’artiste belge Maarten Inghels, qui a cartographié un itinéraire à l’abri des caméras de surveillance. Un travail qui interroge l’efficacité de ces appareils omniprésents, et la possibilité de rester anonyme dans l’espace public, explique le quotidien “De Volkskrant”.",
+          "t": "En Kabylie, des jours de marché réservés aux étals des femmes rurales",
+          "l": "https://www.courrierinternational.com/article/reportage-en-kabylie-des-jours-de-marche-reserves-aux-etals-des-femmes-rurales_285984",
+          "d": "2026-11-22",
+          "r": "Dans la région de la Grande Kabylie, la ville de Boudjima a lancé une initiative originale. Un jour par semaine, le marché est réservé aux produits vendus par les femmes de la région, qui peuvent ainsi écouler leurs productions et s’assurer une indépendance financière, relate “Maghreb émergent”.",
           "c": [
             "Reportage"
           ]
         },
         {
-          "t": "La vie de château au Moyen Âge était plus confortable qu’on ne le croit",
-          "l": "https://www.courrierinternational.com/long-format/archeologie-la-vie-de-chateau-au-moyen-age-etait-plus-confortable-qu-on-ne-le-croit_282265",
-          "d": "2026-11-21",
-          "r": "On étudie souvent les châteaux pris isolément. Mais à l’université de Tübingen, en Allemagne, des scientifiques ont récemment mis en place un centre de recherche interdisciplinaire sur le sujet, rapporte la “Süddeutsche Zeitung”. Et leurs travaux battent en brèche l’imaginaire de la place forte traversée par les courants d’air : ces lieux étaient très vivants.",
+          "t": "Séoul mise sur la vie nocturne pour relancer sa croissance",
+          "l": "https://www.courrierinternational.com/article/coree-du-sud-seoul-mise-sur-la-vie-nocturne-pour-relancer-sa-croissance_288883",
+          "d": "2026-11-22",
+          "r": "En choisissant la nuit comme nouveau moteur de son économie, la capitale de la Corée du Sud cible tout autant les Séouliens que les touristes étrangers, notamment pour redynamiser les commerces locaux. Certains habitants se plaignent toutefois de nuisances.",
           "c": [
-            "Archéologie"
+            "Corée du Sud"
           ]
         },
         {
-          "t": "Dégoûtés par le foot business, les supporteurs anglais se réfugient dans les divisions inférieures",
-          "l": "https://www.courrierinternational.com/article/reportage-degoutes-par-le-foot-business-les-supporteurs-anglais-se-refugient-dans-les-divisions-inferieures_271715",
-          "d": "2026-11-21",
-          "r": "Aseptisée et hors de prix, l’élite du ballon rond perd de son intérêt aux yeux d’un nombre croissant de fans, qui préfèrent retrouver un semblant d’authenticité dans les stades de leurs équipes locales. Reportage en périphérie de Birmingham.",
+          "t": "“John, fils de John” de Douglas Stuart, ou la rudesse du lien père-fils",
+          "l": "https://www.courrierinternational.com/article/en-librairie-john-fils-de-john-de-douglas-stuart-ou-la-rudesse-du-lien-pere-fils_279240",
+          "d": "2026-11-22",
+          "r": "Troisième roman de l’écrivain écossais Douglas Stuart, “John, fils de John” s’intéresse à la relation tout en aspérités entre un père pasteur et son fils homosexuel. Cette fiction, qui a enthousiasmé la presse britannique, est traduite en français aux éditions Globe.",
           "c": [
-            "Reportage"
+            "En librairie"
           ]
         },
         {
-          "t": "Au Sénégal, le “henné time” fait le bonheur des tatoueurs",
-          "l": "https://www.courrierinternational.com/article/tendance-au-senegal-le-henne-time-fait-le-bonheur-des-tatoueurs_279976",
-          "d": "2026-11-21",
-          "r": "À l’abri des regards, au cœur de la capitale sénégalaise, les tatoueurs au henné perpétuent un art traditionnel millénaire. Ces artisans tirent profit de la nouvelle mode du “henné time”, une célébration prénuptiale qui fait grimper leurs revenus.",
+          "t": "Échec à la COP31 : la dernière version du projet d’accord rejetée par nombreux pays, dont les États membres de l’UE",
+          "l": "https://www.courrierinternational.com/article/climat-echec-a-la-cop31-la-derniere-version-du-projet-d-accord-rejetee-par-nombreux-pays-dont-les-etats-membres-de-l-ue_289215",
+          "d": "2026-11-22",
+          "r": "Après deux semaines de discussions, les participants de la COP 31 échouent à s’entendre sur une déclaration finale.",
           "c": [
-            "Tendance"
+            "Climat"
           ]
         },
         {
-          "t": "Daghestan, le voyage en douce",
-          "l": "https://www.courrierinternational.com/diaporama/portfolio-daghestan-le-voyage-en-douce_282059",
-          "d": "2026-11-21",
-          "r": "Le Russe Damir Faizulin venait de se convertir à la photographie quand il a découvert la petite république du Caucase. Sa série “Preserving Nature as Preserving Ourselves” lui a valu le prix Leica Oskar-Barnack 2026.",
+          "t": "Au Portugal, la révolte contre les mégaprojets gagne du terrain",
+          "l": "https://www.courrierinternational.com/article/une-du-jour-au-portugal-la-revolte-contre-les-megaprojets-gagne-du-terrain_288786",
+          "d": "2026-11-22",
+          "r": "Mines de lithium, centrales solaires géantes, parcs éoliens ou complexes touristiques : les projets se multiplient, tout comme les résistances locales. À la veille d’une mobilisation nationale à Lisbonne, l’hebdomadaire “Visão” raconte cette fronde citoyenne contre la transformation accélérée du territoire.",
           "c": [
-            "Portfolio"
+            "Une du jour"
           ]
         },
         {
-          "t": "L’IA pourrait avoir résolu le problème le plus célèbre des mathématiques : l’hypothèse de Riemann",
-          "l": "https://www.courrierinternational.com/article/sciences-l-ia-pourrait-avoir-resolu-le-probleme-le-plus-celebres-des-mathematiques-l-hypothese-de-riemann_288984",
-          "d": "2026-11-21",
-          "r": "Un mathématicien travaillant pour Anthropic dit avoir résolu une conjecture vieille de 167 ans et réputée hors de portée. Une révolution, si cela est vérifié, explique Scientific American.",
+          "t": "Main-d’œuvre et développement économique : la tentation des liens du sang",
+          "l": "https://www.courrierinternational.com/article/migrations-main-d-uvre-et-developpement-economique-la-tentation-des-liens-du-sang_288660",
+          "d": "2026-11-22",
+          "r": "Face aux pénuries de main-d’œuvre, deux logiques s’opposent : ouvrir les frontières aux compétences ou parier sur ceux qui partagent une origine avec le pays. Hong Kong a choisi la première approche, mais ce n’est pas le cas partout. Explications.",
           "c": [
-            "Sciences"
+            "Migrations"
           ]
         },
         {
-          "t": "Michel Zecler, accords RU-UE, tensions Danemark-Russie, Trump en roue libre : les informations de la nuit",
-          "l": "https://www.courrierinternational.com/article/pendand-que-vous-dormiez-michel-zecler-accords-ru-ue-tensions-danemark-russie-trump-en-roue-libre-les-informations-de-la-nuit_288918",
-          "d": "2026-11-21",
-          "r": "Les principales actualités de ces dernières heures vues par la presse internationale",
+          "t": "L’élection historique de Crystalyne Curley à la tête de la Nation navajo",
+          "l": "https://www.courrierinternational.com/stories/video-l-election-historique-de-crystalyne-curley-a-la-tete-de-la-nation-navajo_288473",
+          "d": "2026-11-22",
+          "r": "Les élections du 3 novembre sont un véritable tournant pour la Nation navajo, dont le gouvernement moderne a toujours été dirigé par des hommes. Crystalyne Curley a battu son opposant Justin Jones avec environ 1 000 voix d’avance. Mais il refuse d’admettre sa défaite et demande un recomptage. En attendant, Crystalyne Curley est toujours considérée comme la présidente élue.",
+          "c": [
+            "Vidéo"
+          ]
+        },
+        {
+          "t": "La légende noire de Gilles de Rais",
+          "l": "https://www.courrierinternational.com/article/histoire-la-legende-noire-de-gilles-de-rais_284830",
+          "d": "2026-11-22",
+          "r": "XVᵉ siècle – France. Ancien compagnon de Jeanne d’Arc, ce seigneur féodal riche et puissant finit exécuté à l’issue d’un procès où il est accusé d’avoir sacrifié des enfants au diable. Son destin serait à l’origine du personnage de Barbe-Bleue des contes de Perrault.",
+          "c": [
+            "Histoire"
+          ]
+        },
+        {
+          "t": "En Afghanistan un décret ordonne de remplacer le nom des femmes par des surnoms",
+          "l": "https://www.courrierinternational.com/article/repression-en-afghanistan-un-decret-ordonne-de-remplacer-le-nom-des-femmes-par-des-surnoms_289182",
+          "d": "2026-11-22",
+          "r": "Après avoir progressivement restreint leurs libertés, les talibans s’attaquent désormais à l’identité même des Afghanes. Dans une province du nord du pays, leurs noms sont désormais bannis des documents officiels.",
+          "c": [
+            "Répression"
+          ]
+        },
+        {
+          "t": "Au Japon, l’essor des cafés nocturnes pour parents au bord de la crise de nerfs",
+          "l": "https://www.courrierinternational.com/article/societe-au-japon-l-essor-des-cafes-nocturnes-pour-parents-au-bord-de-la-crise-de-nerfs_288250",
+          "d": "2026-11-22",
+          "r": "Les “yonaki cafés”, qui gagnent en popularité dans l’archipel, permettent aux couples débordés de se reposer et de discuter avec d’autres adultes, tout en recevant des conseils de professionnels de santé. Une solution qui permet à la fois de lutter contre la solitude des parents et de combler l’insuffisance des structures publiques, fermées la nuit, salue la presse japonaise.",
+          "c": [
+            "Société"
+          ]
+        },
+        {
+          "t": "Chats, chiens et hérissons : ces animaux qui épaulent les soldats ukrainiens au front",
+          "l": "https://www.courrierinternational.com/article/reconfort-chats-chiens-et-herissons-ces-animaux-qui-epaulent-les-soldats-ukrainiens-au-front_288869",
+          "d": "2026-11-22",
+          "r": "Beaucoup de ces animaux venus d’eux-mêmes, ou ont été récupérés dans les villages abandonnés prêts du front. Ils jouent aujourd’hui un rôle clé pour le moral des combattants, et certains sont même devenus des stars sur les réseaux sociaux.",
+          "c": [
+            "Réconfort"
+          ]
+        },
+        {
+          "t": "L’abondante littérature de nos élus",
+          "l": "https://www.courrierinternational.com/article/sacres-francais-l-abondante-litterature-de-nos-elus_288895",
+          "d": "2026-11-22",
+          "r": "Cette semaine, dans notre newsletter consacrée à ce que la presse étrangère écrit de meilleur et de pire sur l’Hexagone : une machine éditoriale électorale.",
+          "c": [
+            "Sacrés Français"
+          ]
+        },
+        {
+          "t": "Une “révélation royalement surprenante” : Kate Middleton évoque son cancer dans un documentaire",
+          "l": "https://www.courrierinternational.com/article/famille-royale-une-revelation-royalement-surprenante-kate-middleton-evoque-son-cancer-dans-un-documentaire_289116",
+          "d": "2026-11-22",
+          "r": "Le cancer de la princesse de Galles avait été diagnostiqué en 2024. Guérie, elle a gravi trois montagnes britanniques dans le cadre d’une action caritative l’été dernier. Ces ascensions sont au cœur de “Heal”.",
+          "c": [
+            "Famille royale"
+          ]
+        },
+        {
+          "t": "Liban, Jair Bolsonaro, Nvidia : les informations de la nuit",
+          "l": "https://www.courrierinternational.com/article/pendant-que-vous-dormiez-liban-jair-bolsonaro-nvidia-les-informations-de-la-nuit_289083",
+          "d": "2026-11-22",
+          "r": "Les principales actualités de ces dernières heures vues par la presse internationale.",
           "c": [
             "Pendant que vous dormiez"
           ]
         },
         {
-          "t": "Taxation des ultrariches : en Californie et dans l’État de Washington, deux votes aux antipodes",
-          "l": "https://www.courrierinternational.com/article/etats-unis-taxation-des-ultrariches-en-californie-et-dans-l-etat-de-washington-deux-votes-aux-antipodes_288701",
-          "d": "2026-11-21",
-          "r": "Lors des élections de mi-mandat, les Californiens ont rejeté la proposition de taxe sur les milliardaires, inspirée par les travaux des économistes français Gabriel Zucman et Emmanuel Saez. Au contraire, les électeurs de l’État de Washington voisin ont voté pour le maintien de la loi de taxation des millionnaires. C’est surtout la différence dans l’attitude de l’establishment démocrate dans chacun de ces deux États qui a fait la différence, souligne ce chroniqueur du “Los Angeles Times”.",
+          "t": "À la Cop31, “une seconde nuit de prolongation” en quête d’un accord",
+          "l": "https://www.courrierinternational.com/article/climat-a-la-cop31-une-seconde-nuit-de-prolongation-en-quete-d-un-accord_289149",
+          "d": "2026-11-22",
+          "r": "Les présidences turque et australienne de la conférence sur le climat ont présenté une troisième déclaration dans l’espoir d’obtenir un consensus avec les 200 nations participantes. Mais le texte ne mentionne toujours pas la sortie des énergies fossiles. Il sera normalement soumis au vote en séance plénière ce dimanche.",
           "c": [
-            "États-Unis"
+            "Climat"
           ]
         },
         {
-          "t": "Les miroirs en orbite de Reflect Orbital vont mettre l’obscurité en danger",
-          "l": "https://www.courrierinternational.com/article/espace-les-miroirs-en-orbite-de-reflect-orbital-vont-mettre-l-obscurite-en-danger_269702",
-          "d": "2026-11-21",
-          "r": "On pensait les ténèbres acquises à la nuit. Mais, avec la multiplication des satellites, le ciel nocturne n’est plus ce qu’il était, et la recherche en astronomie est en péril. Une menace d’autant plus grande qu’une start-up américaine a obtenu l’autorisation d’envoyer un miroir géant dans l’espace. Son objectif : placer 50 000 de ces objets en orbite pour éclairer la Terre.",
+          "t": "Pour le Moscovite d’aujourd’hui, “l’essentiel est de vivre sa vie sans incidents majeurs”",
+          "l": "https://www.courrierinternational.com/article/russie-pour-le-moscovite-d-aujourd-hui-l-essentiel-est-de-vivre-sa-vie-sans-incidents-majeurs_278688",
+          "d": "2026-11-22",
+          "r": "Pour faire face à une actualité de plus en plus anxiogène, les habitants de la capitale russe se replient plus que jamais sur leur quotidien : les nouvelles moroses du monde extérieur ne doivent surtout pas s’immiscer dans leur vie rangée, estime ce chroniqueur de “Moskvitch Mag”, une publication lifestyle de la capitale, dans une évocation voilée de la Russie en guerre.",
           "c": [
-            "Espace"
+            "Russie"
+          ]
+        },
+        {
+          "t": "Après les frigos, des pirates vont-ils prendre le contrôle de votre voiture ?",
+          "l": "https://www.courrierinternational.com/article/cybersecurite-apres-les-frigos-des-pirates-vont-ils-prendre-le-controle-de-votre-voiture_287864",
+          "d": "2026-11-22",
+          "r": "Des chercheurs en cybersécurité ont réussi à pirater une Volkswagen électrique pour écouter les conversations, et commander des fonctions à distance. Une démonstration qui révèle les vulnérabilités des voitures connectées, et les lenteurs de leur sécurisation, explique “The Times”, de Londres.",
+          "c": [
+            "Cybersécurité"
+          ]
+        },
+        {
+          "t": "En Iran, la Gen Z est toujours déterminée à en découdre avec les mollahs",
+          "l": "https://www.courrierinternational.com/article/temoignages-en-iran-la-gen-z-est-toujours-determinee-a-en-decoudre-avec-les-mollahs_285491",
+          "d": "2026-11-22",
+          "r": "Alors que la répression et la censure sévissent dans le pays, certains jeunes refusent de baisser les bras. Ils disent leur refus d’être “muselés par la peur et la violence”, et leur détermination à inverser le cours de l’histoire, raconte “Independent Persian”.",
+          "c": [
+            "Témoignages"
+          ]
+        },
+        {
+          "t": "Les bols de houmous ou de sauces à partager sont-ils des nids à microbes ?",
+          "l": "https://www.courrierinternational.com/article/vrai-ou-faux-les-bols-de-houmous-ou-de-sauces-a-partager-sont-ils-des-nids-a-microbes_285487",
+          "d": "2026-11-22",
+          "r": "Dans sa rubrique “Est-il vrai que… ?”, le quotidien britannique “The Guardian” tente de répondre aux questions que l’on s’est toutes et tous déjà posées. Cette semaine, tremper sa chips dans une sauce partagée n’est pas sans risque, mais pas de raison de paniquer.",
+          "c": [
+            "Vrai ou faux"
           ]
         }
       ]
@@ -1797,57 +1712,57 @@
       "nom_site": "Challenges",
       "articles": [
         {
-          "t": "Jusqu’à 22 500 euros de réduction d’impôt : ce qui change en 2026 pour les FCPI, ces placements qui permettent de défiscaliser en investissant dans l’innovation",
-          "l": "https://www.challenges.fr/argent-et-placements/jusqua-22-500-euros-de-reduction-dimpot-ce-qui-change-en-2026-pour-les-fcpi-ces-placements-qui-permettent-de-defiscaliser-en-investissant-dans-linnovation_647084",
-          "d": "2026-11-21",
-          "r": "Ces fonds destinés à l’innovation bénéficient d’un intéressant dispositif de défiscalisation, recentré pour 2027 sur les plus jeunes entreprises. En contrepartie, les plafonds ont été revus.",
+          "t": "« Des studios sortent des épisodes de séries deux fois plus vite » : l’IA est-elle un atout ou va-t-elle tuer la création ?",
+          "l": "https://www.challenges.fr/entreprise/tech-numerique/des-studios-sortent-des-episodes-de-series-deux-fois-plus-vite-lia-est-elle-un-atout-ou-va-t-elle-tuer-la-creation_647073",
+          "d": "2026-11-22",
+          "r": "PODCAST – Entre la Silicon Valley et Hollywood, Luma s’impose comme l’un des laboratoires les plus en pointe de l’intelligence artificielle générative. Hans Weiss, son directeur créatif, raconte comment cette technologie redéfinit les frontières du cinéma et de la publicité. Il est l’invité de DeepTechs, le podcast de Challenges réalisé en partenariat avec Mascaret.",
           "c": [
-            "Argent et Placements"
+            "Tech - Numérique"
           ]
         },
         {
-          "t": "« Le compte n’y est pas » : la France insatisfaite de la nouvelle proposition pour le budget de l’Union européenne",
-          "l": "https://www.challenges.fr/politique/le-compte-ny-est-pas-la-france-insatisfaite-de-la-nouvelle-proposition-pour-le-budget-de-lunion-europeenne_647104",
-          "d": "2026-11-21",
-          "r": "La présidence française a rejeté samedi la nouvelle proposition de budget de l’Union européenne pour la période 2028-2034, l’estimant « très décevante » notamment à cause d’aides insuffisantes pour les agriculteurs.",
+          "t": "Près de 48 heures de retard, pas d’accord : la COP31 « prise en otage par les Etats pétroliers »",
+          "l": "https://www.challenges.fr/entreprise/pres-de-48-heures-de-retard-pas-daccord-la-cop31-devient-la-plus-longue-de-lhistoire-pour-rien_647105",
+          "d": "2026-11-22",
+          "r": "Tout ça pour ça. Alors que les négociations se sont prolongées sur près de 48 heures après la fin théorique de la COP31 à Antalya, en faisant la plus longue de l’Histoire, les 197 pays et l’Union européenne se sont quittés sans accord dimanche.",
           "c": [
-            "Politique"
+            "Entreprise"
           ]
         },
         {
-          "t": "Aux États-Unis, les patients qui passent par les laboratoires pharmaceutiques payent moins cher qu’avec un assureur",
-          "l": "https://www.challenges.fr/monde/aux-etats-unis-les-patients-qui-passent-par-les-laboratoires-pharmaceutiques-payent-moins-cher-quavec-un-assureur_647011",
-          "d": "2026-11-21",
-          "r": "Pour contourner les tarifs indécents de certains médicaments, notamment aux États-Unis, les malades les achètent directement aux laboratoires. Et c’est tant mieux.",
+          "t": "Difficultés à trouver un emploi et accéder à la propriété, censure, solitude… Les podcasts, refuge de la jeunesse chinoise",
+          "l": "https://www.challenges.fr/monde/difficultes-a-trouver-un-emploi-et-acceder-a-la-propriete-censure-solitude-les-podcasts-refuge-de-la-jeunesse-chinoise_647036",
+          "d": "2026-11-22",
+          "r": "Lancés depuis 2020 dans l’empire du Milieu, les podcasts connaissent un succès croissant et offrent à toute une génération une échappatoire. Mais cet espace de liberté attire désormais l’attention du régime chinois.",
           "c": [
             "Monde"
           ]
         },
         {
-          "t": "« On met en place des dérogations pour réautoriser ce que l’on avait interdit » : le bluff français sur l’agriculture",
-          "l": "https://www.challenges.fr/politique/on-met-en-place-des-derogations-pour-reautoriser-ce-que-lon-avait-interdit-le-bluff-francais-sur-lagriculture_647009",
-          "d": "2026-11-21",
-          "r": "Eau, pesticides, bien-être animal… Les ONG dénoncent un « en même temps » nocif dans le milieu agricole, qui adopte des lois ambitieuses puis réautorise ce qui était interdit.",
+          "t": "En Amérique du Nord, où « les pick-up représentent 16 % des ventes et 40 % des profits », le V8 de Stellantis retrouve sa priorité",
+          "l": "https://www.challenges.fr/automobile/en-amerique-du-nord-ou-les-pick-up-representent-16-des-ventes-et-40-des-profits-le-v8-de-stellantis-retrouve-sa-priorite_647018",
+          "d": "2026-11-22",
+          "r": "Symboles de la culture américaine de la voiture, les V8, ces moteurs surpuissants un temps stoppés, reviennent en force. Le groupe Stellantis renoue avec la poule aux œufs d’or.",
           "c": [
-            "Politique"
+            "Automobile"
           ]
         },
         {
-          "t": "« Le poids sur les générations futures pourrait être énorme » : la Pologne dépense des milliards pour se protéger de la Russie, mais le coût de son réarmement inquiète",
-          "l": "https://www.challenges.fr/monde/le-poids-sur-les-generations-futures-pourrait-etre-enorme-la-pologne-depense-des-milliards-pour-se-proteger-de-la-russie-mais-le-cout-de-son-rearmement-inquiete_647068",
-          "d": "2026-11-21",
-          "r": "Subissant un contexte sécuritaire dégradé depuis 2022, Varsovie achète avec frénésie pour construire une puissance de dissuasion face à la Russie. Mais le coût d’un tel gigantisme pourrait plomber son avenir économique.",
+          "t": "« Les futurs hubs devraient voir leurs prix et leurs loyers croître » : la rentabilité immobilière passe par le Grand Paris Express",
+          "l": "https://www.challenges.fr/immobilier/les-futurs-hubs-devraient-voir-leurs-prix-et-leurs-loyers-croitre-la-rentabilite-immobiliere-passe-par-le-grand-paris-express_647035",
+          "d": "2026-11-22",
+          "r": "Le Grand Paris Express, l’immense réseau de métro autour de la capitale, comptera 68 gares et autant de nouveaux quartiers. Une opportunité pour les investisseurs immobiliers, à condition de viser les bonnes destinations.",
+          "c": [
+            "Immobilier"
+          ]
+        },
+        {
+          "t": "« Les conflits sur Terre dépendent des satellites » : dans les rangs des guerriers allemands de l’espace",
+          "l": "https://www.challenges.fr/monde/les-conflits-sur-terre-dependent-des-satellites-dans-les-rangs-des-guerriers-allemands-de-lespace_647032",
+          "d": "2026-11-22",
+          "r": "Pour la première fois, Berlin développe massivement ses capacités offensives spatiales. Et forme une nouvelle catégorie d’officiers capables de répondre aux menaces contemporaines. Immersion dans leur quotidien.",
           "c": [
             "Monde"
-          ]
-        },
-        {
-          "t": "1 300 km en Volvo EX60 : un SUV électrique suédois capable de faire vaciller la référence BMW iX3",
-          "l": "https://www.challenges.fr/automobile/essais/1-300-km-en-volvo-ex60-un-suv-electrique-suedois-capable-de-faire-vaciller-la-reference-bmw-ix3_647052",
-          "d": "2026-11-21",
-          "r": "ESSAI – Avec son SUV électrique EX60, Volvo réplique avec force au BMW iX3, véritable épouvantail de la catégorie. En combinant les technologies de batterie chinoises et la rigueur de conception suédoise, il atteint un niveau d’excellence à même de faire trembler les références.",
-          "c": [
-            "Essais"
           ]
         }
       ]
@@ -1856,165 +1771,183 @@
       "nom_site": "La Tribune",
       "articles": [
         {
-          "t": "Le rugby peut-il avoir deux coupes du monde ?",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/sports/21773967607923/le-rugby-peut-il-avoir-deux-coupes-du-monde",
-          "d": "2026-11-21",
-          "r": "Le Championnat des nations, qui se conclut cette semaine, est bien né. Mais il pourrait accroître les inégalités et empiéter sur les plates-bandes de la compétition phare.",
+          "t": "OPINION. « Pour une AMF libre, forte et indépendante, nous choisissons Philippe Laurent »",
+          "l": "https://www.latribune.fr/article/idees/79487696893604/opinion-pour-une-amf-libre-forte-et-independante-nous-choisissons-philippe-laurent",
+          "d": "2026-11-22",
+          "r": "Notre pays traverse une période de tensions politiques, sociales et démocratiques profondes. Dans ce climat d'incertitude, les communes demeurent l'un des derniers lieux où la confiance entre les citoyens et les institutions résiste.",
+          "c": [
+            "Idées & Débats"
+          ]
+        },
+        {
+          "t": "OPINION. « Avec David Lisnard à l'AMF, la voix des maires ne s'éteindra pas »",
+          "l": "https://www.latribune.fr/article/idees/427230858003514/opinion-avec-david-lisnard-a-lamf-la-voix-des-maires-ne-seteindra-pas",
+          "d": "2026-11-22",
+          "r": "La voix des maires ne doit pas s'éteindre, parce qu'elle est celle de la réalité du pays. Parce que les communes sont plus que jamais nécessaires pour retrouver de l'efficacité, de la prospérité, du civisme, de l'unité.",
+          "c": [
+            "Idées & Débats"
+          ]
+        },
+        {
+          "t": "Mer Baltique : le cargo russe en feu après une attaque de drone remorqué vers la Russie",
+          "l": "https://www.latribune.fr/article/economie/international/39892856295182/mer-baltique-le-cargo-russe-en-feu-apres-une-attaque-de-drone-remorque-vers-la-russie",
+          "d": "2026-11-22",
+          "r": "Attaqué par un drone ukrainien, samedi, un navire marchand russe, Sparta II, est actuellement en cours de remorquage vers les eaux territoriales russes. À ce stade, les garde-frontières finlandais ne sont pas en mesure de préciser la nature de la cargaison.",
+          "c": [
+            "Économie"
+          ]
+        },
+        {
+          "t": "Présidentielle : Marine Le Pen exclut tout voyage à l'étranger, y compris en Ukraine, durant la campagne",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/1400429946437/presidentielle-marine-le-pen-exclut-tout-voyage-a-letranger-y-compris-en-ukraine-durant-la-campagne",
+          "d": "2026-11-22",
+          "r": "La candidate du RN et favorite des sondages a décliné l'invitation de Volodymyr Zelensky à se rendre à Kiev. En 2017, elle avait été reçue par Vladimir Poutine à Moscou.",
           "c": [
             "La Tribune Dimanche"
           ]
         },
         {
-          "t": "Emmanuel Macron veut convoquer un Congrès pour adopter une règle d’or budgétaire",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/78452239301209/emmanuel-macron-veut-convoquer-un-congres-pour-adopter-une-regle-d-or-budgetaire",
-          "d": "2026-11-21",
-          "r": "EXCLUSIF. Selon nos informations, le chef de l’État réfléchit à la convocation prochaine des parlementaires afin d’adopter la règle d’or.",
+          "t": "La Haye, Copenhague, Cali... Avant Antalya, ces autres COP qui se sont soldées par un échec",
+          "l": "https://www.latribune.fr/article/economie/international/40372086042882/la-haye-copenhague-cali-avant-antalya-ces-autres-cop-qui-se-sont-soldees-par-un-echec",
+          "d": "2026-11-22",
+          "r": "Alors que la COP31 est partie pour s'enliser dans une impasse, d'autres conférences environnementales organisées par l'ONU n'ont pas obtenu les résultats escomptés. Tour d'horizon.",
           "c": [
-            "La Tribune Dimanche Premium"
+            "Économie"
           ]
         },
         {
-          "t": "Colère sociale : malgré une mobilisation en baisse, entre 80.000 et 150.000 personnes se sont réunies en France",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/societe/40149880577556/colere-sociale-malgre-une-mobilisation-en-baisse-entre-80-000-et-150-000-personnes-se-sont-reunies-en-france",
-          "d": "2026-11-21",
-          "r": "Ce sixième samedi de protestation, moins suivi, s’est déroulé dans le calme à Paris, mais avec quelques tensions dans l’après-midi, notamment à Marseille, à Lille et à Lyon.",
+          "t": "Choose France : un sommet aux allures de bilan, alors que les investissements sont à l'arrêt",
+          "l": "https://www.latribune.fr/article/entreprises-finance/industrie/19442501975702/choose-france-un-sommet-aux-allures-de-bilan-alors-que-les-investissements-sont-a-larret",
+          "d": "2026-11-22",
+          "r": "Organisé pour la deuxième fois, le sommet Choose France-édition France, qui s'ouvre ce lundi 23 novembre, doit réunir plus de 250 dirigeants d'entreprises, dans un contexte économique empreint d'incertitudes.",
           "c": [
-            "La Tribune Dimanche"
+            "Energie et Industrie"
           ]
         },
         {
-          "t": "Marylise Léon, secrétaire générale de la CFDT : « La réforme des retraites du RN est une grande supercherie »",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dimanche-eco/3460248785825814/marylise-leon-secretaire-generale-de-la-cfdt-la-reforme-des-retraites-du-rn-est-une-grande-supercherie",
-          "d": "2026-11-21",
-          "r": "ENTRETIEN — La syndicaliste appelle au changement de la date du second tour de l’élection présidentielle, pour l’instant fixée au 2 mai.",
+          "t": "Télécoms : la Chine fustige une interdiction américaine visant des géants chinois",
+          "l": "https://www.latribune.fr/article/tech/telecoms/16086971157381/telecoms-la-chine-fustige-une-interdiction-americaine-visant-des-geants-chinois",
+          "d": "2026-11-22",
+          "r": "Le ministère du commerce chinois a protesté, ce dimanche 22 novembre, contre la récente décision prise par les États-Unis d'interdire aux grands groupes de télécommunications d'accéder aux lignes téléphoniques américaines.",
           "c": [
-            "La Tribune Dimanche Premium"
+            "Tech & IA"
           ]
         },
         {
-          "t": "OPINION. « Souveraineté cognitive : et si l'on commençait par les enfants ? » par Jacky Galicher, ancien DSI-RSSI de l'académie de Versailles",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/18049470467446/opinion-souverainete-cognitive-et-si-lon-commencait-par-les-enfants-par-jacky-galicher-ancien-dsi-rssi-de-lacademie-de-versailles",
-          "d": "2026-11-21",
-          "r": "L’ancien DSI-RSSI de l’académie de Versailles appelle à encadrer strictement le déploiement de l’intelligence artificielle auprès des plus jeunes et formule trois exigences pour protéger la formation de leur jugement à l’école.",
+          "t": "La COP31 s'achève sans accord sur la sortie des énergies fossiles",
+          "l": "https://www.latribune.fr/article/climat/transitions-ecologiques/4054031147322914/cop31-un-projet-de-texte-final-propose-sans-mention-de-la-sortie-des-energies-fossiles",
+          "d": "2026-11-22",
+          "r": "Après plus de deux semaines de négociations, la 31e conférence internationale pour le climat, organisée à Antalya, s’est officiellement conclue sans accord sur le texte final, qui ne mentionnait pas le pétrole, le gaz et le charbon.",
           "c": [
-            "La Tribune Dimanche"
+            "Climat"
           ]
         },
         {
-          "t": "Grand Prix de F1 : ce qui se dépense à Vegas... reste à Vegas",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/sports/1719378512472/grand-prix-de-f1-ce-qui-se-depense-a-vegas-reste-a-vegas",
-          "d": "2026-11-21",
-          "r": "Associant sport, divertissement et business, le Grand Prix est le plus lucratif du calendrier. Même la ville du péché y réalise sa « meilleure semaine de l’année ».",
-          "c": [
-            "La Tribune Dimanche Premium"
-          ]
-        },
-        {
-          "t": "Présidentielle : Face à Mélenchon, Ruffin, Autain et Tondelier abdiquent",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/3421530826412314/presidentielle-face-a-melenchon-ruffin-autain-et-tondelier-abdiquent",
-          "d": "2026-11-21",
-          "r": "Les partisans d’une candidature alternative au chef de LFI reconnaissent que la dynamique à gauche est finalement de son côté à moins de cinq mois du premier tour.",
-          "c": [
-            "La Tribune Dimanche Premium"
-          ]
-        },
-        {
-          "t": "OPINION. « Souveraineté et réindustrialisation passent par l’école », par Emmanuelle Galichet, enseignante-chercheure",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/62892914476067/opinion-souverainete-et-reindustrialisation-passent-par-l-ecole-par-emmanuelle-galichet-enseignante-chercheure",
-          "d": "2026-11-21",
-          "r": "Aucune réindustrialisation, ni souveraineté et prospérité durable n'est possible sans un bon niveau d’instruction.",
-          "c": [
-            "La Tribune Dimanche"
-          ]
-        },
-        {
-          "t": "OPINION. « Fonds Chaleur : ne coupons pas l’élan des territoires », par Christophe Béchu, François Baroin, Emmanuel Grégoire et 35 maires et présidents de collectivités",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/98805145906944/opinion-fonds-chaleur-ne-coupons-pas-l-elan-des-territoires-par-christophe-bechu-francois-baroin-emmanuel-gregoire-et-35-maires-et-presidents-de-collectivites",
-          "d": "2026-11-21",
-          "r": "À quelques jours du salon des maires et des collectivités locales, 38 maires et présidents de collectivités interpellent le gouvernement pour qu’il revoit sa copie sur le fonds chaleur.",
-          "c": [
-            "La Tribune Dimanche"
-          ]
-        },
-        {
-          "t": "L'Union européenne et l'Indonésie renforcent leur lien commercial",
-          "l": "https://www.latribune.fr/article/economie/20981268770617/lunion-europeenne-et-lindonesie-renforcent-leur-lien-commercial",
-          "d": "2026-11-21",
-          "r": "L'Union européenne (UE) et l'Indonésie ont signé officiellement, samedi 21 novembres à Bruxelles, un accord commercial visant à ouvrir leurs marchés respectifs, qui pourrait entrer en vigueur début 2027.",
-          "c": [
-            "Économie Premium"
-          ]
-        },
-        {
-          "t": "Vincent Cassel : « Quasimodo c’est mon monstre, et je voulais qu’on m’y reconnaisse »",
-          "l": "https://www.latribune.fr/article/la-tribune-dimanche/culture-lifestyle/cinema-ecrans/5339918363374/vincent-cassel-quasimodo-c-est-mon-monstre-et-je-voulais-qu-on-m-y-reconnaisse",
-          "d": "2026-11-21",
-          "r": "ENTRETIEN — À bientôt 60 ans, l’acteur s’offre un nouveau défi : interpréter le « monstre » Quasimodo dans un film de Jean-François Richet, disponible ce vendredi 27 novembre sur Netflix. Secrets de tournage.",
-          "c": [
-            "La Tribune Dimanche Premium"
-          ]
-        },
-        {
-          "t": "L'Ukraine souhaite « vivement » adhérer à l'Otan, réaffirme Zelensky",
-          "l": "https://www.latribune.fr/article/defense-aerospatiale/3271663911923514/lukraine-souhaite-vivement-adherer-a-lotan-reaffirme-zelensky",
-          "d": "2026-11-21",
-          "r": "Le président ukrainien plaide pour que son pays fasse partie de l'Organisation du traité de l'Atlantique nord. Pour l'Ukraine, ce serait une garantie de sécurité majeure face à la Russie.",
-          "c": [
-            "Défense et Aérospatiale Premium"
-          ]
-        },
-        {
-          "t": "Budget de l'UE : le président du Conseil européen propose 204 milliards d’euros d’économies et une taxe numérique",
-          "l": "https://www.latribune.fr/article/economie/80966591149143/budget-de-lue-le-president-du-conseil-europeen-propose-204-milliards-d-euros-d-economies-et-une-taxe-numerique",
-          "d": "2026-11-21",
-          "r": "Le président du Conseil européen Antonio Costa a proposé, samedi 21 novembre, plus de 200 milliards d’euros d’économies et une nouvelle taxe sur le secteur numérique, dans l’espoir de conclure d’ici la fin de l’année les négociations sur le futur budget de l’Union européenne. Paris juge que la nouvelle proposition n’est pas « une base pour un accord ».",
-          "c": [
-            "Économie Premium"
-          ]
-        },
-        {
-          "t": "Modernisation de Roissy : le feu vert des autorités ne dissipe pas les désaccords entre compagnies",
-          "l": "https://www.latribune.fr/article/defense-aerospatiale/aeronautique-defense/27912152691866/relecture-michel-modernisation-de-roissy-le-feu-vert-des-autorites-ne-dissipe-pas-les-desaccords-entre-compagnies",
-          "d": "2026-11-21",
-          "r": "L'Autorité de régulation des transports (ART) a rendu un avis « favorable » pour le lancement du plan de modernisation de l’aéroport Roissy-Charles de Gaulle. Un investissement de plus de 8 milliards d’euros qui ne fait toujours pas l’unanimité parmi les compagnies aériennes concernées.",
-          "c": [
-            "Défense et Aérospatiale Premium"
-          ]
-        },
-        {
-          "t": "Le jeu vidéo GTA VI atteint un record de ventes",
-          "l": "https://www.latribune.fr/article/economie/3156751158780714/le-jeu-video-gta-vi-atteint-un-record-de-ventes",
-          "d": "2026-11-21",
-          "r": "Le dernier opus très attendu de la superproduction « Grand Theft Auto » a généré 3,79 milliards de dollars de ventes le jour de sa sortie, un record.",
-          "c": [
-            "Économie Premium"
-          ]
-        },
-        {
-          "t": "Le site de e-commerce Cdiscount s'engage pour le Made in France",
-          "l": "https://www.latribune.fr/article/economie/agroconso/18124464752844/le-site-de-e-commerce-cdiscount-sengage-pour-le-made-in-france",
-          "d": "2026-11-21",
-          "r": "L'entreprise va proposer des conditions préférentielles aux entreprises qui fabriquent leurs produits dans l'Hexagone.",
-          "c": [
-            "Économie Premium"
-          ]
-        },
-        {
-          "t": "Panne des communications martiennes : les activités scientifiques du rover Perseverance en pause",
-          "l": "https://air-cosmos.latribune.fr/article/espace/34696315550583/panne-des-communications-martiennes-les-activites-scientifiques-du-rover-perseverance-en-pause",
-          "d": "2026-11-21",
-          "r": "Après que l’antenne UHF du rover Perseverance a cessé de fonctionner, la Nasa a décidé de suspendre ses activités scientifiques pour résoudre le problème. La sonde Mars Odyssey connaît aussi un problème technique.",
+          "t": "Cauchemar céleste",
+          "l": "https://air-cosmos.latribune.fr/article/espace/32623174671464/cauchemar-celeste",
+          "d": "2026-11-22",
+          "r": "Chaque fin de semaine, une image qui a fait l’actualité ou retenu notre attention. Celle d'un ciel nocturne en Nouvelle-Zélande zébré par des milliers de traces de satellites, réalisée par l'astrophotographe néo-zélandais Brendan Larsen, constitue une terrible illustration d'une pollution réelle et tangible.",
           "c": [
             "Air & Cosmos Premium"
           ]
         },
         {
-          "t": "OPINION. « Notre jeunesse a besoin de croire en l'avenir : donnons-lui les moyens de le construire »",
-          "l": "https://www.latribune.fr/article/idees/11220931921315/opinion-notre-jeunesse-a-besoin-de-croire-en-lavenir-donnons-lui-les-moyens-de-le-construire",
-          "d": "2026-11-21",
-          "r": "Thierry Sibieude et Stephen Cazade, co-présidents d'Unis-Cité, interpellent les pouvoirs publics sur l'urgence d'écouter la jeunesse mobilisée. Ils plaident pour un changement de paradigme, où l'engagement citoyen et les expériences collectives remplaceraient la seule quête de réussite individuelle, pour construire un avenir commun.",
+          "t": "États-Unis : le gendarme boursier américain va enquêter sur les pratiques comptables de Nvidia, en pleine affaire Huang",
+          "l": "https://www.latribune.fr/article/tech/intelligence-artificielle/29818797651812/etats-unis-le-gendarme-boursier-americain-va-enqueter-sur-les-pratiques-comptables-de-nvidia-en-pleine-affaire-huang",
+          "d": "2026-11-22",
+          "r": "Selon plusieurs médias américains, la SEC a lancé une enquête sur les pratiques comptables du géant des puces Nvidia, ébranlé par le départ avec fracas de son patron et fondateur, Jensen Huang.",
           "c": [
-            "Idées & Débats"
+            "Tech & IA"
+          ]
+        },
+        {
+          "t": "Procès d’Émilie König : l’itinéraire de la plus célèbre « revenante » de Daech devant la justice",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/societe/3977532482957714/proces-d-emilie-koenig-l-itineraire-de-la-plus-celebre-revenante-de-daech-devant-la-justice",
+          "d": "2026-11-22",
+          "r": "Jugée à Paris pour association de malfaiteurs terroriste criminelle, Émilie König fait face à son passé en zone irako-syrienne. De sa jeunesse cabossée en Bretagne à son rôle de propagandiste pour l’État islamique, retour sur le parcours d’une figure complexe du djihadisme français.",
+          "c": [
+            "La Tribune Dimanche Premium"
+          ]
+        },
+        {
+          "t": "Sujets viraux, armée de créatifs, nouveau public… Comment David Lisnard a bâti sa stratégie sur les réseaux sociaux",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/politique/3967899253650114/sujets-viraux-armee-de-creatifs-nouveau-public-comment-david-lisnard-a-bati-sa-strategie-sur-les-reseaux-sociaux",
+          "d": "2026-11-22",
+          "r": "En quelques mois, le maire de Cannes et candidat à l'élection présidentielle, David Lisnard, s’est imposé sur les réseaux sociaux avec une stratégie parfois discutable.",
+          "c": [
+            "La Tribune Dimanche"
+          ]
+        },
+        {
+          "t": "OPINION. « Longévité : la société ne peut attendre », par Sibylle Le Maire, fondatrice du Club Landoy et directrice exécutive chez Bayard",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/26046129992288/opinion-longevite-la-societe-ne-peut-attendre-par-sibylle-le-maire-fondatrice-du-club-landoy-et-directrice-executive-chez-bayard",
+          "d": "2026-11-22",
+          "r": "Face au vieillissement de la population, Sibylle Le Maire appelle à repenser le travail, la santé et l’éducation financière pour faire de la longévité un véritable projet de société à l’horizon 2027.",
+          "c": [
+            "La Tribune Dimanche"
+          ]
+        },
+        {
+          "t": "« Des dégâts matériels, sans blessures signalées » : Bahreïn accuse l’Iran d’avoir frappé l’un de ses sites industriels",
+          "l": "https://www.latribune.fr/article/economie/international/12272799802887/des-degats-materiels-sans-blessures-signalees-bahrein-accuse-l-iran-d-avoir-frappe-l-un-de-ses-sites-industriels",
+          "d": "2026-11-22",
+          "r": "Un frappe iranienne a provoqué, samedi 21 novembre, un incendie sur un site industriel du Bahreïn. En réponse, Téhéran affirme riposter à des tirs américains.",
+          "c": [
+            "Économie"
+          ]
+        },
+        {
+          "t": "Philippe Diallo humilié par la CAF devant Gianni Infantino",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/sports/1224609217137614/philippe-diallo-humilie-par-la-caf-devant-gianni-infantino",
+          "d": "2026-11-22",
+          "r": "À Abuja, les fédérations africaines ont apporté leur soutien unanime à Gianni Infantino pour sa réélection à la tête de la Fifa",
+          "c": [
+            "La Tribune Dimanche"
+          ]
+        },
+        {
+          "t": "« Stop au harcèlement ! » La chronique de Flora Ghebali",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/359994986082314/stop-au-harcelement-la-chronique-de-flora-ghebali",
+          "d": "2026-11-22",
+          "r": "Face aux campagnes de dénigrement et de mèmes visant Raphaël Glucksmann en ligne, Flora Ghebali alerte sur l’importation de la « meme war » américaine en France et dénonce un cyberharcèlement qui menace le débat démocratique.",
+          "c": [
+            "La Tribune Dimanche"
+          ]
+        },
+        {
+          "t": "OPINION. « Si la France veut plus d’enfants, elle doit leur faire une place » par Constance Bensussan, directrice générale de la CAF",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/14117769651429/opinion-si-la-france-veut-plus-d-enfants-elle-doit-leur-faire-une-place-par-constance-bensussan-directrice-generale-de-la-caf",
+          "d": "2026-11-22",
+          "r": "La patronne de la Caisse nationale des Allocations familiales alerte sur la mise à l'écart des enfants dans l'espace public et présente la démarche nationale « Place des enfants » déployée dans les accueils de l'organisme.",
+          "c": [
+            "La Tribune Dimanche"
+          ]
+        },
+        {
+          "t": "OPINION. « Le RN rêve d’abolir la séparation des pouvoirs », par Driss Aït Youssef, docteur en droit public",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/9103490981103/opinion-le-rn-reve-d-abolir-la-separation-des-pouvoirs-par-driss-ait-youssef-docteur-en-droit-public",
+          "d": "2026-11-22",
+          "r": "Alors qu’un préfet est accusé d’avoir fourni des informations confidentielles à l’extrême droite, le juriste revient sur le devoir de neutralité qui devrait caractériser les hauts fonctionnaires.",
+          "c": [
+            "La Tribune Dimanche"
+          ]
+        },
+        {
+          "t": "Anne Le Hénanff, ministre déléguée chargée de l’IA et du numérique : « Le modèle américain des data centers n’a rien à voir avec le nôtre »",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dimanche-eco/1210715708809914/anne-le-henanff-ministre-deleguee-chargee-de-l-ia-et-du-numerique-le-modele-americain-des-data-centers-n-a-rien-a-voir-avec-le-notre",
+          "d": "2026-11-22",
+          "r": "Alors que la contestation enfle, la ministre défend l’implantation à grande échelle de ces infrastructures dans les territoires.",
+          "c": [
+            "La Tribune Dimanche Premium"
+          ]
+        },
+        {
+          "t": "Le Rwanda, sous-traitant de l’immigration européenne",
+          "l": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/666923557871/le-rwanda-sous-traitant-de-l-immigration-europeenne",
+          "d": "2026-11-22",
+          "r": "Cinq pays de l’UE dont l’Allemagne envisagent d’envoyer à Kigali dès 2027 une partie de leurs déboutés de l’asile. Un projet qui offrirait des gains diplomatiques à Kigali.",
+          "c": [
+            "La Tribune Dimanche Premium"
           ]
         }
       ]
@@ -2194,12 +2127,12 @@
       "nom_site": "Pour la Science",
       "articles": [
         {
-          "t": "La science est-elle réellement de moins en moins innovante ?",
-          "l": "https://www.pourlascience.fr/sr/les-sciences-a-la-loupe/la-science-est-elle-reellement-de-moins-en-moins-innovante-29790.php",
-          "d": "2026-11-21",
-          "r": "Une étude largement reprise dans les médias en 2023, qui affirmait que la recherche devenait de moins en moins « disruptive » était construite sur un indicateur qui mesurait en réalité tout autre chose. Sans compter que sa conclusion reposait en grande partie sur des artefacts dans les données utilisées…",
+          "t": "Organoïdes : quel statut pour ces « mini-organes » cultivés en laboratoire ?",
+          "l": "https://www.pourlascience.fr/sr/la-vie-dans-tous-ses-etats/organoides-quel-statut-pour-ces-mini-organes-cultives-en-laboratoire-29793.php",
+          "d": "2026-11-22",
+          "r": "Les organoïdes, ces structures cellulaires qui imitent le fonctionnement de certains organes humains, sont très utiles à la recherche médicale. Mais leur essor soulève une question délicate : comment définir juridiquement et socialement ces objets vivants ?",
           "c": [
-            "Les sciences à la loupe"
+            "La vie dans tous ses états"
           ]
         }
       ]

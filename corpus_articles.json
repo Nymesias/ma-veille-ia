@@ -1,5 +1,624 @@
 [
   {
+    "categorie": "news",
+    "source": "Pour la Science",
+    "titre": "Organoïdes : quel statut pour ces « mini-organes » cultivés en laboratoire ?",
+    "lien": "https://www.pourlascience.fr/sr/la-vie-dans-tous-ses-etats/organoides-quel-statut-pour-ces-mini-organes-cultives-en-laboratoire-29793.php",
+    "date": "2026-11-22",
+    "resume": "Les organoïdes, ces structures cellulaires qui imitent le fonctionnement de certains organes humains, sont très utiles à la recherche médicale. Mais leur essor soulève une question délicate : comment définir juridiquement et socialement ces objets vivants ?",
+    "categories": [
+      "La vie dans tous ses états"
+    ]
+  },
+  {
+    "categorie": "blogs",
+    "source": "Me NEUJANICKI|Immobilier",
+    "titre": "Bail commercial : Les documents manquants à la signature ne suffisent pas à entraîner la nullité",
+    "lien": "https://www.neujanicki.com/bail-commercial-absence-dpe-inventaire-des-charges-nullite/",
+    "date": "2026-11-22",
+    "resume": "L’absence de remise ou d’annexion du DPE, de l’inventaire des charges et de l’état prévisionnel des travaux ne suffit pas à entraîner la nullité d’un bail commercial. Le locataire doit établir que le défaut d’information lui a fait commettre une erreur sur une qualité essentielle de la prestation, déterminante de son consentement. 1. Les règles […] L’article Bail commercial : Les documents manquants à la signature ne suffisent pas à entraîner la nullité est apparu en premier sur Neu-Janicki .",
+    "categories": [
+      "Bail commercial"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Impôts 2027 : les avantages fiscaux à connaître si vous êtes né avant 1962",
+    "lien": "https://www.lerevenu.com/reduire-impots/impot-sur-le-revenu/impots-2027-les-avantages-fiscaux-a-connaitre-si-v",
+    "date": "2026-11-22",
+    "resume": "Les Français nés avant 1962 pourraient bénéficier de plusieurs avantages fiscaux en 2027. Un abattement sur les revenus pouvant atteindre 2 882 euros, une réduction de taxe foncière de 100 euros et un éventuel…",
+    "categories": [
+      "Réduire vos impôts",
+      "Impôt sur le revenu"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Taxe sur les logements vacants à Paris : faut-il vendre son bien avant 2027 ?",
+    "lien": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/taxe-sur-les-logements-vacants-a-paris-faut-il-ven",
+    "date": "2026-11-22",
+    "resume": "À partir du 1er janvier 2027, la taxe sur les logements vacants augmentera fortement à Paris. Les taux atteindront 30 % de la valeur locative cadastrale la première année d'imposition et 60 % les années suivant…",
+    "categories": [
+      "Investir dans l'immobilier",
+      "Prix et tendances"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "Le Revenu",
+    "titre": "Immobilier locatif : les 10 villes où les loyers augmentent le plus en 2026",
+    "lien": "https://www.lerevenu.com/investir-immobilier/investissement-locatif/immobilier-locatif-les-10-villes-ou-les-loyers-aug",
+    "date": "2026-11-22",
+    "resume": "Les loyers repartent à la hausse en France en 2026, avec une progression moyenne de 2,1 % sur un an. Marseille arrive en tête des villes les plus touchées (+4,6 %), devant Nice (+4,4 %) et Cannes (+4,3 %). Cett…",
+    "categories": [
+      "Investir dans l'immobilier",
+      "Investissement locatif"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Télécoms : la Chine fustige une interdiction américaine visant des géants chinois",
+    "lien": "https://www.latribune.fr/article/tech/telecoms/16086971157381/telecoms-la-chine-fustige-une-interdiction-americaine-visant-des-geants-chinois",
+    "date": "2026-11-22",
+    "resume": "Le ministère du commerce chinois a protesté, ce dimanche 22 novembre, contre la récente décision prise par les États-Unis d'interdire aux grands groupes de télécommunications d'accéder aux lignes téléphoniques américaines.",
+    "categories": [
+      "Tech & IA"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "États-Unis : le gendarme boursier américain va enquêter sur les pratiques comptables de Nvidia, en pleine affaire Huang",
+    "lien": "https://www.latribune.fr/article/tech/intelligence-artificielle/29818797651812/etats-unis-le-gendarme-boursier-americain-va-enqueter-sur-les-pratiques-comptables-de-nvidia-en-pleine-affaire-huang",
+    "date": "2026-11-22",
+    "resume": "Selon plusieurs médias américains, la SEC a lancé une enquête sur les pratiques comptables du géant des puces Nvidia, ébranlé par le départ avec fracas de son patron et fondateur, Jensen Huang.",
+    "categories": [
+      "Tech & IA"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Philippe Diallo humilié par la CAF devant Gianni Infantino",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/sports/1224609217137614/philippe-diallo-humilie-par-la-caf-devant-gianni-infantino",
+    "date": "2026-11-22",
+    "resume": "À Abuja, les fédérations africaines ont apporté leur soutien unanime à Gianni Infantino pour sa réélection à la tête de la Fifa",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Procès d’Émilie König : l’itinéraire de la plus célèbre « revenante » de Daech devant la justice",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/societe/3977532482957714/proces-d-emilie-koenig-l-itineraire-de-la-plus-celebre-revenante-de-daech-devant-la-justice",
+    "date": "2026-11-22",
+    "resume": "Jugée à Paris pour association de malfaiteurs terroriste criminelle, Émilie König fait face à son passé en zone irako-syrienne. De sa jeunesse cabossée en Bretagne à son rôle de propagandiste pour l’État islamique, retour sur le parcours d’une figure complexe du djihadisme français.",
+    "categories": [
+      "La Tribune Dimanche Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Sujets viraux, armée de créatifs, nouveau public… Comment David Lisnard a bâti sa stratégie sur les réseaux sociaux",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/politique/3967899253650114/sujets-viraux-armee-de-creatifs-nouveau-public-comment-david-lisnard-a-bati-sa-strategie-sur-les-reseaux-sociaux",
+    "date": "2026-11-22",
+    "resume": "En quelques mois, le maire de Cannes et candidat à l'élection présidentielle, David Lisnard, s’est imposé sur les réseaux sociaux avec une stratégie parfois discutable.",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Présidentielle : Marine Le Pen exclut tout voyage à l'étranger, y compris en Ukraine, durant la campagne",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/politique/1400429946437/presidentielle-marine-le-pen-exclut-tout-voyage-a-letranger-y-compris-en-ukraine-durant-la-campagne",
+    "date": "2026-11-22",
+    "resume": "La candidate du RN et favorite des sondages a décliné l'invitation de Volodymyr Zelensky à se rendre à Kiev. En 2017, elle avait été reçue par Vladimir Poutine à Moscou.",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "OPINION. « Le RN rêve d’abolir la séparation des pouvoirs », par Driss Aït Youssef, docteur en droit public",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/9103490981103/opinion-le-rn-reve-d-abolir-la-separation-des-pouvoirs-par-driss-ait-youssef-docteur-en-droit-public",
+    "date": "2026-11-22",
+    "resume": "Alors qu’un préfet est accusé d’avoir fourni des informations confidentielles à l’extrême droite, le juriste revient sur le devoir de neutralité qui devrait caractériser les hauts fonctionnaires.",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "« Stop au harcèlement ! » La chronique de Flora Ghebali",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/359994986082314/stop-au-harcelement-la-chronique-de-flora-ghebali",
+    "date": "2026-11-22",
+    "resume": "Face aux campagnes de dénigrement et de mèmes visant Raphaël Glucksmann en ligne, Flora Ghebali alerte sur l’importation de la « meme war » américaine en France et dénonce un cyberharcèlement qui menace le débat démocratique.",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "OPINION. « Longévité : la société ne peut attendre », par Sibylle Le Maire, fondatrice du Club Landoy et directrice exécutive chez Bayard",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/26046129992288/opinion-longevite-la-societe-ne-peut-attendre-par-sibylle-le-maire-fondatrice-du-club-landoy-et-directrice-executive-chez-bayard",
+    "date": "2026-11-22",
+    "resume": "Face au vieillissement de la population, Sibylle Le Maire appelle à repenser le travail, la santé et l’éducation financière pour faire de la longévité un véritable projet de société à l’horizon 2027.",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "OPINION. « Si la France veut plus d’enfants, elle doit leur faire une place » par Constance Bensussan, directrice générale de la CAF",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/14117769651429/opinion-si-la-france-veut-plus-d-enfants-elle-doit-leur-faire-une-place-par-constance-bensussan-directrice-generale-de-la-caf",
+    "date": "2026-11-22",
+    "resume": "La patronne de la Caisse nationale des Allocations familiales alerte sur la mise à l'écart des enfants dans l'espace public et présente la démarche nationale « Place des enfants » déployée dans les accueils de l'organisme.",
+    "categories": [
+      "La Tribune Dimanche"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Anne Le Hénanff, ministre déléguée chargée de l’IA et du numérique : « Le modèle américain des data centers n’a rien à voir avec le nôtre »",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/dimanche-eco/1210715708809914/anne-le-henanff-ministre-deleguee-chargee-de-l-ia-et-du-numerique-le-modele-americain-des-data-centers-n-a-rien-a-voir-avec-le-notre",
+    "date": "2026-11-22",
+    "resume": "Alors que la contestation enfle, la ministre défend l’implantation à grande échelle de ces infrastructures dans les territoires.",
+    "categories": [
+      "La Tribune Dimanche Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Le Rwanda, sous-traitant de l’immigration européenne",
+    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/666923557871/le-rwanda-sous-traitant-de-l-immigration-europeenne",
+    "date": "2026-11-22",
+    "resume": "Cinq pays de l’UE dont l’Allemagne envisagent d’envoyer à Kigali dès 2027 une partie de leurs déboutés de l’asile. Un projet qui offrirait des gains diplomatiques à Kigali.",
+    "categories": [
+      "La Tribune Dimanche Premium"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "OPINION. « Pour une AMF libre, forte et indépendante, nous choisissons Philippe Laurent »",
+    "lien": "https://www.latribune.fr/article/idees/79487696893604/opinion-pour-une-amf-libre-forte-et-independante-nous-choisissons-philippe-laurent",
+    "date": "2026-11-22",
+    "resume": "Notre pays traverse une période de tensions politiques, sociales et démocratiques profondes. Dans ce climat d'incertitude, les communes demeurent l'un des derniers lieux où la confiance entre les citoyens et les institutions résiste.",
+    "categories": [
+      "Idées & Débats"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "OPINION. « Avec David Lisnard à l'AMF, la voix des maires ne s'éteindra pas »",
+    "lien": "https://www.latribune.fr/article/idees/427230858003514/opinion-avec-david-lisnard-a-lamf-la-voix-des-maires-ne-seteindra-pas",
+    "date": "2026-11-22",
+    "resume": "La voix des maires ne doit pas s'éteindre, parce qu'elle est celle de la réalité du pays. Parce que les communes sont plus que jamais nécessaires pour retrouver de l'efficacité, de la prospérité, du civisme, de l'unité.",
+    "categories": [
+      "Idées & Débats"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Choose France : un sommet aux allures de bilan, alors que les investissements sont à l'arrêt",
+    "lien": "https://www.latribune.fr/article/entreprises-finance/industrie/19442501975702/choose-france-un-sommet-aux-allures-de-bilan-alors-que-les-investissements-sont-a-larret",
+    "date": "2026-11-22",
+    "resume": "Organisé pour la deuxième fois, le sommet Choose France-édition France, qui s'ouvre ce lundi 23 novembre, doit réunir plus de 250 dirigeants d'entreprises, dans un contexte économique empreint d'incertitudes.",
+    "categories": [
+      "Energie et Industrie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "La Haye, Copenhague, Cali... Avant Antalya, ces autres COP qui se sont soldées par un échec",
+    "lien": "https://www.latribune.fr/article/economie/international/40372086042882/la-haye-copenhague-cali-avant-antalya-ces-autres-cop-qui-se-sont-soldees-par-un-echec",
+    "date": "2026-11-22",
+    "resume": "Alors que la COP31 est partie pour s'enliser dans une impasse, d'autres conférences environnementales organisées par l'ONU n'ont pas obtenu les résultats escomptés. Tour d'horizon.",
+    "categories": [
+      "Économie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Mer Baltique : le cargo russe en feu après une attaque de drone remorqué vers la Russie",
+    "lien": "https://www.latribune.fr/article/economie/international/39892856295182/mer-baltique-le-cargo-russe-en-feu-apres-une-attaque-de-drone-remorque-vers-la-russie",
+    "date": "2026-11-22",
+    "resume": "Attaqué par un drone ukrainien, samedi, un navire marchand russe, Sparta II, est actuellement en cours de remorquage vers les eaux territoriales russes. À ce stade, les garde-frontières finlandais ne sont pas en mesure de préciser la nature de la cargaison.",
+    "categories": [
+      "Économie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "« Des dégâts matériels, sans blessures signalées » : Bahreïn accuse l’Iran d’avoir frappé l’un de ses sites industriels",
+    "lien": "https://www.latribune.fr/article/economie/international/12272799802887/des-degats-materiels-sans-blessures-signalees-bahrein-accuse-l-iran-d-avoir-frappe-l-un-de-ses-sites-industriels",
+    "date": "2026-11-22",
+    "resume": "Un frappe iranienne a provoqué, samedi 21 novembre, un incendie sur un site industriel du Bahreïn. En réponse, Téhéran affirme riposter à des tirs américains.",
+    "categories": [
+      "Économie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "La COP31 s'achève sans accord sur la sortie des énergies fossiles",
+    "lien": "https://www.latribune.fr/article/climat/transitions-ecologiques/4054031147322914/cop31-un-projet-de-texte-final-propose-sans-mention-de-la-sortie-des-energies-fossiles",
+    "date": "2026-11-22",
+    "resume": "Après plus de deux semaines de négociations, la 31e conférence internationale pour le climat, organisée à Antalya, s’est officiellement conclue sans accord sur le texte final, qui ne mentionnait pas le pétrole, le gaz et le charbon.",
+    "categories": [
+      "Climat"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "L’élection historique de Crystalyne Curley à la tête de la Nation navajo",
+    "lien": "https://www.courrierinternational.com/stories/video-l-election-historique-de-crystalyne-curley-a-la-tete-de-la-nation-navajo_288473",
+    "date": "2026-11-22",
+    "resume": "Les élections du 3 novembre sont un véritable tournant pour la Nation navajo, dont le gouvernement moderne a toujours été dirigé par des hommes. Crystalyne Curley a battu son opposant Justin Jones avec environ 1 000 voix d’avance. Mais il refuse d’admettre sa défaite et demande un recomptage. En attendant, Crystalyne Curley est toujours considérée comme la présidente élue.",
+    "categories": [
+      "Vidéo"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Les bols de houmous ou de sauces à partager sont-ils des nids à microbes ?",
+    "lien": "https://www.courrierinternational.com/article/vrai-ou-faux-les-bols-de-houmous-ou-de-sauces-a-partager-sont-ils-des-nids-a-microbes_285487",
+    "date": "2026-11-22",
+    "resume": "Dans sa rubrique “Est-il vrai que… ?”, le quotidien britannique “The Guardian” tente de répondre aux questions que l’on s’est toutes et tous déjà posées. Cette semaine, tremper sa chips dans une sauce partagée n’est pas sans risque, mais pas de raison de paniquer.",
+    "categories": [
+      "Vrai ou faux"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Au Portugal, la révolte contre les mégaprojets gagne du terrain",
+    "lien": "https://www.courrierinternational.com/article/une-du-jour-au-portugal-la-revolte-contre-les-megaprojets-gagne-du-terrain_288786",
+    "date": "2026-11-22",
+    "resume": "Mines de lithium, centrales solaires géantes, parcs éoliens ou complexes touristiques : les projets se multiplient, tout comme les résistances locales. À la veille d’une mobilisation nationale à Lisbonne, l’hebdomadaire “Visão” raconte cette fronde citoyenne contre la transformation accélérée du territoire.",
+    "categories": [
+      "Une du jour"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "En Iran, la Gen Z est toujours déterminée à en découdre avec les mollahs",
+    "lien": "https://www.courrierinternational.com/article/temoignages-en-iran-la-gen-z-est-toujours-determinee-a-en-decoudre-avec-les-mollahs_285491",
+    "date": "2026-11-22",
+    "resume": "Alors que la répression et la censure sévissent dans le pays, certains jeunes refusent de baisser les bras. Ils disent leur refus d’être “muselés par la peur et la violence”, et leur détermination à inverser le cours de l’histoire, raconte “Independent Persian”.",
+    "categories": [
+      "Témoignages"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Au Japon, l’essor des cafés nocturnes pour parents au bord de la crise de nerfs",
+    "lien": "https://www.courrierinternational.com/article/societe-au-japon-l-essor-des-cafes-nocturnes-pour-parents-au-bord-de-la-crise-de-nerfs_288250",
+    "date": "2026-11-22",
+    "resume": "Les “yonaki cafés”, qui gagnent en popularité dans l’archipel, permettent aux couples débordés de se reposer et de discuter avec d’autres adultes, tout en recevant des conseils de professionnels de santé. Une solution qui permet à la fois de lutter contre la solitude des parents et de combler l’insuffisance des structures publiques, fermées la nuit, salue la presse japonaise.",
+    "categories": [
+      "Société"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "L’abondante littérature de nos élus",
+    "lien": "https://www.courrierinternational.com/article/sacres-francais-l-abondante-litterature-de-nos-elus_288895",
+    "date": "2026-11-22",
+    "resume": "Cette semaine, dans notre newsletter consacrée à ce que la presse étrangère écrit de meilleur et de pire sur l’Hexagone : une machine éditoriale électorale.",
+    "categories": [
+      "Sacrés Français"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Pour le Moscovite d’aujourd’hui, “l’essentiel est de vivre sa vie sans incidents majeurs”",
+    "lien": "https://www.courrierinternational.com/article/russie-pour-le-moscovite-d-aujourd-hui-l-essentiel-est-de-vivre-sa-vie-sans-incidents-majeurs_278688",
+    "date": "2026-11-22",
+    "resume": "Pour faire face à une actualité de plus en plus anxiogène, les habitants de la capitale russe se replient plus que jamais sur leur quotidien : les nouvelles moroses du monde extérieur ne doivent surtout pas s’immiscer dans leur vie rangée, estime ce chroniqueur de “Moskvitch Mag”, une publication lifestyle de la capitale, dans une évocation voilée de la Russie en guerre.",
+    "categories": [
+      "Russie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "À l’écran, le tsar Pierre le Grand transformé en “héros de la propagande poutinienne”",
+    "lien": "https://www.courrierinternational.com/article/russie-a-l-ecran-le-tsar-pierre-le-grand-transforme-en-heros-de-la-propagande-poutinienne_288357",
+    "date": "2026-11-22",
+    "resume": "Sortie le 29 octobre en Russie, la superproduction historique “La Naissance de l’empire” raconte la façon dont le tsar Pierre le Grand (1672-1725) a posé les fondations de l’État russe moderne et mené la grande guerre du Nord contre les Suédois. La presse indépendante s’étrangle : au-delà des erreurs factuelles, elle attire l’attention sur la façon dont cette page de l’histoire est travestie pour justifier la politique actuelle du Kremlin.",
+    "categories": [
+      "Russie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "En Afghanistan un décret ordonne de remplacer le nom des femmes par des surnoms",
+    "lien": "https://www.courrierinternational.com/article/repression-en-afghanistan-un-decret-ordonne-de-remplacer-le-nom-des-femmes-par-des-surnoms_289182",
+    "date": "2026-11-22",
+    "resume": "Après avoir progressivement restreint leurs libertés, les talibans s’attaquent désormais à l’identité même des Afghanes. Dans une province du nord du pays, leurs noms sont désormais bannis des documents officiels.",
+    "categories": [
+      "Répression"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "En Kabylie, des jours de marché réservés aux étals des femmes rurales",
+    "lien": "https://www.courrierinternational.com/article/reportage-en-kabylie-des-jours-de-marche-reserves-aux-etals-des-femmes-rurales_285984",
+    "date": "2026-11-22",
+    "resume": "Dans la région de la Grande Kabylie, la ville de Boudjima a lancé une initiative originale. Un jour par semaine, le marché est réservé aux produits vendus par les femmes de la région, qui peuvent ainsi écouler leurs productions et s’assurer une indépendance financière, relate “Maghreb émergent”.",
+    "categories": [
+      "Reportage"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Chats, chiens et hérissons : ces animaux qui épaulent les soldats ukrainiens au front",
+    "lien": "https://www.courrierinternational.com/article/reconfort-chats-chiens-et-herissons-ces-animaux-qui-epaulent-les-soldats-ukrainiens-au-front_288869",
+    "date": "2026-11-22",
+    "resume": "Beaucoup de ces animaux venus d’eux-mêmes, ou ont été récupérés dans les villages abandonnés prêts du front. Ils jouent aujourd’hui un rôle clé pour le moral des combattants, et certains sont même devenus des stars sur les réseaux sociaux.",
+    "categories": [
+      "Réconfort"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Liban, Jair Bolsonaro, Nvidia : les informations de la nuit",
+    "lien": "https://www.courrierinternational.com/article/pendant-que-vous-dormiez-liban-jair-bolsonaro-nvidia-les-informations-de-la-nuit_289083",
+    "date": "2026-11-22",
+    "resume": "Les principales actualités de ces dernières heures vues par la presse internationale.",
+    "categories": [
+      "Pendant que vous dormiez"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Main-d’œuvre et développement économique : la tentation des liens du sang",
+    "lien": "https://www.courrierinternational.com/article/migrations-main-d-uvre-et-developpement-economique-la-tentation-des-liens-du-sang_288660",
+    "date": "2026-11-22",
+    "resume": "Face aux pénuries de main-d’œuvre, deux logiques s’opposent : ouvrir les frontières aux compétences ou parier sur ceux qui partagent une origine avec le pays. Hong Kong a choisi la première approche, mais ce n’est pas le cas partout. Explications.",
+    "categories": [
+      "Migrations"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "La légende noire de Gilles de Rais",
+    "lien": "https://www.courrierinternational.com/article/histoire-la-legende-noire-de-gilles-de-rais_284830",
+    "date": "2026-11-22",
+    "resume": "XVᵉ siècle – France. Ancien compagnon de Jeanne d’Arc, ce seigneur féodal riche et puissant finit exécuté à l’issue d’un procès où il est accusé d’avoir sacrifié des enfants au diable. Son destin serait à l’origine du personnage de Barbe-Bleue des contes de Perrault.",
+    "categories": [
+      "Histoire"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Une “révélation royalement surprenante” : Kate Middleton évoque son cancer dans un documentaire",
+    "lien": "https://www.courrierinternational.com/article/famille-royale-une-revelation-royalement-surprenante-kate-middleton-evoque-son-cancer-dans-un-documentaire_289116",
+    "date": "2026-11-22",
+    "resume": "Le cancer de la princesse de Galles avait été diagnostiqué en 2024. Guérie, elle a gravi trois montagnes britanniques dans le cadre d’une action caritative l’été dernier. Ces ascensions sont au cœur de “Heal”.",
+    "categories": [
+      "Famille royale"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "“John, fils de John” de Douglas Stuart, ou la rudesse du lien père-fils",
+    "lien": "https://www.courrierinternational.com/article/en-librairie-john-fils-de-john-de-douglas-stuart-ou-la-rudesse-du-lien-pere-fils_279240",
+    "date": "2026-11-22",
+    "resume": "Troisième roman de l’écrivain écossais Douglas Stuart, “John, fils de John” s’intéresse à la relation tout en aspérités entre un père pasteur et son fils homosexuel. Cette fiction, qui a enthousiasmé la presse britannique, est traduite en français aux éditions Globe.",
+    "categories": [
+      "En librairie"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Après les frigos, des pirates vont-ils prendre le contrôle de votre voiture ?",
+    "lien": "https://www.courrierinternational.com/article/cybersecurite-apres-les-frigos-des-pirates-vont-ils-prendre-le-controle-de-votre-voiture_287864",
+    "date": "2026-11-22",
+    "resume": "Des chercheurs en cybersécurité ont réussi à pirater une Volkswagen électrique pour écouter les conversations, et commander des fonctions à distance. Une démonstration qui révèle les vulnérabilités des voitures connectées, et les lenteurs de leur sécurisation, explique “The Times”, de Londres.",
+    "categories": [
+      "Cybersécurité"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Séoul mise sur la vie nocturne pour relancer sa croissance",
+    "lien": "https://www.courrierinternational.com/article/coree-du-sud-seoul-mise-sur-la-vie-nocturne-pour-relancer-sa-croissance_288883",
+    "date": "2026-11-22",
+    "resume": "En choisissant la nuit comme nouveau moteur de son économie, la capitale de la Corée du Sud cible tout autant les Séouliens que les touristes étrangers, notamment pour redynamiser les commerces locaux. Certains habitants se plaignent toutefois de nuisances.",
+    "categories": [
+      "Corée du Sud"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "Échec à la COP31 : la dernière version du projet d’accord rejetée par nombreux pays, dont les États membres de l’UE",
+    "lien": "https://www.courrierinternational.com/article/climat-echec-a-la-cop31-la-derniere-version-du-projet-d-accord-rejetee-par-nombreux-pays-dont-les-etats-membres-de-l-ue_289215",
+    "date": "2026-11-22",
+    "resume": "Après deux semaines de discussions, les participants de la COP 31 échouent à s’entendre sur une déclaration finale.",
+    "categories": [
+      "Climat"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Courrier international",
+    "titre": "À la Cop31, “une seconde nuit de prolongation” en quête d’un accord",
+    "lien": "https://www.courrierinternational.com/article/climat-a-la-cop31-une-seconde-nuit-de-prolongation-en-quete-d-un-accord_289149",
+    "date": "2026-11-22",
+    "resume": "Les présidences turque et australienne de la conférence sur le climat ont présenté une troisième déclaration dans l’espoir d’obtenir un consensus avec les 200 nations participantes. Mais le texte ne mentionne toujours pas la sortie des énergies fossiles. Il sera normalement soumis au vote en séance plénière ce dimanche.",
+    "categories": [
+      "Climat"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "« Les conflits sur Terre dépendent des satellites » : dans les rangs des guerriers allemands de l’espace",
+    "lien": "https://www.challenges.fr/monde/les-conflits-sur-terre-dependent-des-satellites-dans-les-rangs-des-guerriers-allemands-de-lespace_647032",
+    "date": "2026-11-22",
+    "resume": "Pour la première fois, Berlin développe massivement ses capacités offensives spatiales. Et forme une nouvelle catégorie d’officiers capables de répondre aux menaces contemporaines. Immersion dans leur quotidien.",
+    "categories": [
+      "Monde"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Difficultés à trouver un emploi et accéder à la propriété, censure, solitude… Les podcasts, refuge de la jeunesse chinoise",
+    "lien": "https://www.challenges.fr/monde/difficultes-a-trouver-un-emploi-et-acceder-a-la-propriete-censure-solitude-les-podcasts-refuge-de-la-jeunesse-chinoise_647036",
+    "date": "2026-11-22",
+    "resume": "Lancés depuis 2020 dans l’empire du Milieu, les podcasts connaissent un succès croissant et offrent à toute une génération une échappatoire. Mais cet espace de liberté attire désormais l’attention du régime chinois.",
+    "categories": [
+      "Monde"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "« Les futurs hubs devraient voir leurs prix et leurs loyers croître » : la rentabilité immobilière passe par le Grand Paris Express",
+    "lien": "https://www.challenges.fr/immobilier/les-futurs-hubs-devraient-voir-leurs-prix-et-leurs-loyers-croitre-la-rentabilite-immobiliere-passe-par-le-grand-paris-express_647035",
+    "date": "2026-11-22",
+    "resume": "Le Grand Paris Express, l’immense réseau de métro autour de la capitale, comptera 68 gares et autant de nouveaux quartiers. Une opportunité pour les investisseurs immobiliers, à condition de viser les bonnes destinations.",
+    "categories": [
+      "Immobilier"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "« Des studios sortent des épisodes de séries deux fois plus vite » : l’IA est-elle un atout ou va-t-elle tuer la création ?",
+    "lien": "https://www.challenges.fr/entreprise/tech-numerique/des-studios-sortent-des-episodes-de-series-deux-fois-plus-vite-lia-est-elle-un-atout-ou-va-t-elle-tuer-la-creation_647073",
+    "date": "2026-11-22",
+    "resume": "PODCAST – Entre la Silicon Valley et Hollywood, Luma s’impose comme l’un des laboratoires les plus en pointe de l’intelligence artificielle générative. Hans Weiss, son directeur créatif, raconte comment cette technologie redéfinit les frontières du cinéma et de la publicité. Il est l’invité de DeepTechs, le podcast de Challenges réalisé en partenariat avec Mascaret.",
+    "categories": [
+      "Tech - Numérique"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "Près de 48 heures de retard, pas d’accord : la COP31 « prise en otage par les Etats pétroliers »",
+    "lien": "https://www.challenges.fr/entreprise/pres-de-48-heures-de-retard-pas-daccord-la-cop31-devient-la-plus-longue-de-lhistoire-pour-rien_647105",
+    "date": "2026-11-22",
+    "resume": "Tout ça pour ça. Alors que les négociations se sont prolongées sur près de 48 heures après la fin théorique de la COP31 à Antalya, en faisant la plus longue de l’Histoire, les 197 pays et l’Union européenne se sont quittés sans accord dimanche.",
+    "categories": [
+      "Entreprise"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "Challenges",
+    "titre": "En Amérique du Nord, où « les pick-up représentent 16 % des ventes et 40 % des profits », le V8 de Stellantis retrouve sa priorité",
+    "lien": "https://www.challenges.fr/automobile/en-amerique-du-nord-ou-les-pick-up-representent-16-des-ventes-et-40-des-profits-le-v8-de-stellantis-retrouve-sa-priorite_647018",
+    "date": "2026-11-22",
+    "resume": "Symboles de la culture américaine de la voiture, les V8, ces moteurs surpuissants un temps stoppés, reviennent en force. Le groupe Stellantis renoue avec la poule aux œufs d’or.",
+    "categories": [
+      "Automobile"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "Sommet UE-UK, le retour de la libre circulation sélective",
+    "lien": "https://www.agefi.fr/news/economie-marches/sommet-ue-uk-le-retour-de-la-libre-circulation-selective",
+    "date": "2026-11-22",
+    "resume": "Un nouveau partenariat stratégique entre l'Union européenne et le Royaume-Uni prend forme à la suite de cette deuxième rencontre bipartite. Les principales avancées concernent les échanges de jeunes, la circulation des produits alimentaires et la lutte contre l’immigration illégale.",
+    "categories": [
+      "Economie & Marchés"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "« Nous entendons conserver une orientation défensive face à la volatilité des marchés »",
+    "lien": "https://www.agefi.fr/news/economie-marches/nous-entendons-conserver-une-orientation-defensive-face-a-la-volatilite-des-marches",
+    "date": "2026-11-22",
+    "resume": "Alexandre Neuvy, directeur de la gestion sous mandat et associé chez Amplegest.",
+    "categories": [
+      "Economie & Marchés"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "La COP31 échoue à trouver un accord politique sur le climat",
+    "lien": "https://www.agefi.fr/news/economie-marches/la-cop31-echoue-a-trouver-un-accord-politique-sur-le-climat",
+    "date": "2026-11-22",
+    "resume": "Les participants du sommet sur le climat organisé en Turquie n'ont finalement pas réussi à se mettre d'accord sur le texte présenté jeudi 19 novembre qui, selon l'Union européenne, constituait un retour en arrière.",
+    "categories": [
+      "Economie & Marchés"
+    ]
+  },
+  {
+    "categorie": "finance",
+    "source": "L'Agefi",
+    "titre": "«Il faudrait une forte dégradation du cycle économique pour annuler le rendement généreux du haut rendement»",
+    "lien": "https://www.agefi.fr/news/economie-marches/il-faudrait-une-forte-degradation-du-cycle-economique-pour-annuler-le-rendement-genereux-du-haut-rendement",
+    "date": "2026-11-22",
+    "resume": "Erick Muller, stratégiste allocation obligataire chez Muzinich",
+    "categories": [
+      "Economie & Marchés"
+    ]
+  },
+  {
+    "categorie": "news",
+    "source": "La Tribune",
+    "titre": "Cauchemar céleste",
+    "lien": "https://air-cosmos.latribune.fr/article/espace/32623174671464/cauchemar-celeste",
+    "date": "2026-11-22",
+    "resume": "Chaque fin de semaine, une image qui a fait l’actualité ou retenu notre attention. Celle d'un ciel nocturne en Nouvelle-Zélande zébré par des milliers de traces de satellites, réalisée par l'astrophotographe néo-zélandais Brendan Larsen, constitue une terrible illustration d'une pollution réelle et tangible.",
+    "categories": [
+      "Air & Cosmos Premium"
+    ]
+  },
+  {
+    "categorie": "institutions",
+    "source": "Sénat|Textes",
+    "titre": "Projet de loi de finances de fin de gestion pour 2026 - texte de la commission N° 187",
+    "lien": "http://www.senat.fr/leg/pjl26-187.html",
+    "date": "2026-11-22",
+    "resume": "Projet de loi de finances de fin de gestion pour 2026 : texte de la commission N° 187 déposé le 20 novembre 2026",
+    "categories": [
+      "projet de loi"
+    ]
+  },
+  {
     "categorie": "revues",
     "source": "Vie Publique|Lois",
     "titre": "Proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre, dans l'exercice de leurs fonctions",
@@ -21539,671 +22158,6 @@
     "resume": "Depuis plus de 15 ans, l’armée de l’Air et de l’Espace a adapté ses déploiements, leur taille et leur visibilité. Sur le long terme, cette suractivité pèsera car les matériels sont utilisés au-dessus des normes.",
     "categories": [
       "Air & Cosmos Premium"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "Le Revenu",
-    "titre": "Bourse : inflation américaine, résultats d'entreprises, emploi… les rendez-vous à surveiller cette semaine",
-    "lien": "https://www.lerevenu.com/reussir-bourse/points-marches/bourse-inflation-americaine-resultats-d-entreprise",
-    "date": "2026-11-08",
-    "resume": "Du 9 au 13 novembre 2026, les investisseurs auront les yeux tournés vers les prix américains et les publications des grandes entreprises européennes. En France, les chiffres du chômage et de l'inflation complét…",
-    "categories": [
-      "Réussir en Bourse",
-      "Points Marchés"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "Le Revenu",
-    "titre": "Immobilier à Montpellier : les appartements à 3 412 €/m², les maisons dépassent 4 000 € en octobre 2026",
-    "lien": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-a-montpellier-les-appartements-a-3-412-",
-    "date": "2026-11-08",
-    "resume": "À Montpellier, le marché immobilier affiche des prix relativement stables à l'automne 2026. En septembre, les appartements se négociaient autour de 3 415 euros le mètre carré, contre 3 978 euros pour les maison…",
-    "categories": [
-      "Investir dans l'immobilier",
-      "Prix et tendances"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "Le Revenu",
-    "titre": "Airbnb : dès le 20 novembre 2026, les voyageurs n'auront plus à faire le ménage avant de partir",
-    "lien": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/airbnb-des-le-20-novembre-2026-les-voyageurs-n-aur",
-    "date": "2026-11-08",
-    "resume": "À partir du 20 novembre 2026, Airbnb interdira aux propriétaires d'imposer certaines tâches ménagères aux voyageurs avant leur départ. Faire la vaisselle, retirer les draps ou transporter les poubelles à l'exté…",
-    "categories": [
-      "Investir dans l'immobilier",
-      "Prix et tendances"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "Le Revenu",
-    "titre": "DPE 2027 : 6 nouvelles informations, une mention A0 et des changements pour les propriétaires",
-    "lien": "https://www.lerevenu.com/investir-immobilier/conseils-immobilier/dpe-2027-6-nouvelles-informations-une-mention-a0-e",
-    "date": "2026-11-08",
-    "resume": "Le diagnostic de performance énergétique (DPE) évoluera en France dès le 1er janvier 2027. Six nouvelles informations permettront de mieux connaître la consommation énergétique des logements, leurs équipements…",
-    "categories": [
-      "Investir dans l'immobilier",
-      "Nos conseils immobilier"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "Le Revenu",
-    "titre": "Placements : Ce que les riches font… et ce que vous pouvez copier",
-    "lien": "https://www.lerevenu.com/diversifier-placements/nos-conseils-placements/placements-strategies-patrimoniales-grandes-fortun",
-    "date": "2026-11-08",
-    "resume": "Les grandes fortunes s'appuient sur des mécanismes qui ne leur sont pas réservés pour développer et transmettre leur patrimoine. Plusieurs réflexes peuvent être adoptés avec un capital limité, à condition de bi…",
-    "categories": [
-      "Diversifier vos placements",
-      "Nos conseils placements"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "Robots, voitures autonomes, intelligence artificielle… au Web Summit de Lisbonne, la tech chinoise passe à l’offensive",
-    "lien": "https://www.latribune.fr/article/tech/1710205505042714/robots-voitures-autonomes-intelligence-artificielle-au-web-summit-de-lisbonne-la-tech-chinoise-passe-a-l-offensive",
-    "date": "2026-11-08",
-    "resume": "Du 9 au 12 novembre, le Web Summit, réunit à Lisbonne le gratin de l’économie numérique mondiale. Parmi les pays attendus, la Chine, devenue en quelques années un acteur incontournable, grâce notamment à un rapport coût-performance particulièrement compétitif.",
-    "categories": [
-      "Tech & IA"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "Route du Rhum 2026 : Tom Laperche s'empare du record de l'épreuve et écrit sa légende",
-    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/sports/46863245760915/route-du-rhum-2026-tom-laperche-sempare-du-record-de-lepreuve-et-ecrit-sa-legende",
-    "date": "2026-11-08",
-    "resume": "Large vainqueur de la Route du Rhum à seulement 29 ans, le skippeur de « SVR-Lazartigue » est un surdoué que ses mentors, Franck Cammas et François Gabart, ont vu arriver de loin.",
-    "categories": [
-      "La Tribune Dimanche Premium"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "CJ Egan-Riley, défenseur de l’OM : « Rendre une ville heureuse, ça n’a pas de prix »",
-    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/sports/25390765070715/cj-egan-riley-defenseur-de-l-om-rendre-une-ville-heureuse-ca-n-a-pas-de-prix",
-    "date": "2026-11-08",
-    "resume": "ENTRETIEN. Son jeu souffre encore d’imperfections, pas sa compréhension de l’environnement marseillais et de la Ligue 1. Le Mancunien, formé à City, gagne donc à être écouté.",
-    "categories": [
-      "La Tribune Dimanche"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "« Il faudra copmposer avec des coalitions, des majorités très larges » : l’art de gouverner selon Borne et Valls",
-    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/politique/1057219783712314/il-faudra-copmposer-avec-des-coalitions-des-majorites-tres-larges-l-art-de-gouverner-selon-borne-et-valls",
-    "date": "2026-11-08",
-    "resume": "Invités aux Rencontres de l’avenir organisées à Saint-Raphaël par l’économiste Nicolas Bouzou, les deux anciens Premiers ministres ont partagé leur expérience des conflits sociaux.",
-    "categories": [
-      "La Tribune Dimanche"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "OPINION. « La France manque de repreneurs. Pourquoi pas des femmes ? », par Jessica Matoua David et Typhaine Lebègue",
-    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/68927836225213/opinion-la-france-manque-de-repreneurs-pourquoi-pas-des-femmes-par-jessica-matoua-david-et-typhaine-lebegue",
-    "date": "2026-11-08",
-    "resume": "Alors que la grande transmission des entreprises s'annonce massive, Jessica Matoua David et Tyohaine Lebègue y voient une opportunité pour les femmes entrepreneurs de briser le plafond de capital.",
-    "categories": [
-      "La Tribune Dimanche"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "Marion Van Renterghem, journaliste : « Ceux qui pensent que Marine Le Pen se “méloniserait” au pouvoir se trompent »",
-    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/66268760631367/marion-van-renterghem-journaliste-ceux-qui-pensent-que-marine-le-pen-se-meloniserait-au-pouvoir-se-trompent",
-    "date": "2026-11-08",
-    "resume": "ENTRETIEN —Dans son passionnant « Femmes extrêmes », l’autrice croise les vies et les politiques des dirigeantes de l’extrême droite européenne Marine Le Pen, Giorgia Meloni et Alice Weidel.",
-    "categories": [
-      "La Tribune Dimanche"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "OPINION. « L’enivrant parfum de la démagogie fiscale », par Lionel Roques, membre du cercle des entrepreneurs engagés",
-    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/34219177780004/opinion-l-enivrant-parfum-de-la-demagogie-fiscale-par-lionel-roques-membre-du-cercle-des-entrepreneurs-engages",
-    "date": "2026-11-08",
-    "resume": "Ce chef d’entreprise engagé sonne le tocsin contre les candidats à la présidentielle qui annoncent des hausses d’impôts.",
-    "categories": [
-      "La Tribune Dimanche"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "Avec sa tournée en Amérique latine, Léon XIV revient aux sources",
-    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/dans-le-monde/1049395648701914/avec-sa-tournee-en-amerique-latine-leon-xiv-revient-aux-sources",
-    "date": "2026-11-08",
-    "resume": "Le pape a entamé samedi 6 novembre une grande tournée en Amérique latine. Elle va passer par l’Argentine, le pays de son prédécesseur, mais aussi le Pérou, où il fut évêque.",
-    "categories": [
-      "La Tribune Dimanche Premium"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "« Ce pays dont le prince est un enfant », de Catherine Nay : Manu avant Macron",
-    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/culture-lifestyle/livres/1061934646233714/ce-pays-dont-le-prince-est-un-enfant-de-catherine-nay-manu-avant-macron",
-    "date": "2026-11-08",
-    "resume": "On attendait l’enquête qui explique comment on en est arrivés là. C’est ce que nous offre la journaliste Catherine Nay en racontant l’enfance d’une énigme.",
-    "categories": [
-      "La Tribune Dimanche"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "Yann Guillarne, humoriste : « Je commence dans le showbiz alors que je suis en pré-retraite »",
-    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/culture-lifestyle/gastronomie-sorties/66422314415311/yann-guillarne-humoriste-je-commence-dans-le-showbiz-alors-que-je-suis-en-pre-retraite",
-    "date": "2026-11-08",
-    "resume": "Après s’être imposé dans l’émission « Quotidien », l’humoriste « bo-beauf » autoproclamé raconte sur scène, dans « Libre ! », son parcours si particulier.",
-    "categories": [
-      "La Tribune Dimanche Premium"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "L’impressionnante collection de Roger Thérond, « l’oeil de Match », est mise aux enchères",
-    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/culture-lifestyle/gastronomie-sorties/65594011407074/l-impressionnante-collection-de-roger-therond-l-oeil-de-match-est-mise-aux-encheres",
-    "date": "2026-11-08",
-    "resume": "Les 13 et 14 novembre, Christie's met en vente la collection de tirages historiques de l'ancien patron de « Paris Match », pour une estimation totale d'environ 5 millions d'euros.",
-    "categories": [
-      "La Tribune Dimanche Premium"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "Le chef Arnaud Lallement rejoint la mythique collection culinaire « Les recettes originales »",
-    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/culture-lifestyle/gastronomie-sorties/1153419909557314/le-chef-arnaud-lallement-rejoint-la-mythique-collection-culinaire-les-recettes-originales",
-    "date": "2026-11-08",
-    "resume": "Avec ses sauces, son fameux homard bleu breton et sa cuisine épurée, le chef champenois rejoint la Pléiade de la gastronomie.",
-    "categories": [
-      "La Tribune Dimanche Premium"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "Nora Hamzawi déshabille ses invités dans son podcast « En apparence »",
-    "lien": "https://www.latribune.fr/article/la-tribune-dimanche/culture-lifestyle/30068915711775/nora-hamzawi-deshabille-ses-invites-dans-son-podcast-en-apparence",
-    "date": "2026-11-08",
-    "resume": "Dans son podcast, Nora Hamzawi fait du physique le point de départ de conversations aussi foutraques que profondes.",
-    "categories": [
-      "La Tribune Dimanche"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "À l'aube d'un nouvel hiver glacial, des centaines de milliers d'Ukrainiens privés d'électricité après des frappes russes",
-    "lien": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/38064404322825/a-laune-dun-nouvel-hiver-glacial-des-centaines-de-milliers-dukrainiens-prives-delectricite-apres-des-frappes-russes",
-    "date": "2026-11-08",
-    "resume": "Une attaque russe, dans la nuit de la samedi à dimanche, contre les infrastructures énergétiques ukrainiennes prive actuellement d'électricité plus de 600.000 personnes dans les régions de Dnipropetrovsk et de Kharkiv. L'Ukraine craint de nouvelles coupures massives d'électricité, de chauffage et d'eau en plein hiver, comme l'année dernière.",
-    "categories": [
-      "Energie et Industrie"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "Arabie saoudite : le quartier financier de Riyad attaqué, la tour du géant pétrolier Aramco endommagée",
-    "lien": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/1524002581453414/arabie-saoudite-le-quartier-financier-de-riyad-attaque-la-tour-du-geant-petrolier-aramco-endommage",
-    "date": "2026-11-08",
-    "resume": "Symbole de la modernisation économique du pays, le quartier financier du roi Abdallah, à Riyad, ainsi que la tour du géant pétrolier Aramco ont été pris pour cible, ce dimanche 8 novembre. Plus tôt, la coalition avait annoncé l’interception de deux missiles balistiques tirés par les Houthis.",
-    "categories": [
-      "Energie et Industrie"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "« Justice a été rendue ! » : la chute de Santiago Peña, président destitué du Paraguay, après l’effondrement d’une banque en ligne",
-    "lien": "https://www.latribune.fr/article/economie/international/1360868807777314/justice-a-ete-rendue-la-chute-de-santiago-pena-president-destitue-du-paraguay-apres-l-effondrement-d-une-banque-en-ligne",
-    "date": "2026-11-08",
-    "resume": "Destitué après la débâcle de l’Ueno Bank, une banque en ligne, qui a floué des millions d’épargnants, le désormais ex-président du Paraguay Santiago Peña a été placé en détention préventive. Les banques étant ouvertes ce week-end, de premières procédures de dédommagements ont pu être enclenchées.",
-    "categories": [
-      "Économie"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "Colère sociale : malgré une mobilisation en baisse, des dizaines de milliers de manifestants « toujours là »",
-    "lien": "https://www.latribune.fr/article/economie/agroconso/1043774132588414/colere-sociale-malgre-une-mobilisation-en-baisse-des-dizaines-de-milliers-de-manifestants-toujours-la",
-    "date": "2026-11-08",
-    "resume": "Une nouvelle journée de mobilisation a eu lieu samedi dans plusieurs villes de France, lancée à l'appel de la coordination des gilets jaunes, de plusieurs syndicats et d'organisations étudiantes pour protester notamment contre la vie chère, sans pour autant réunir autant de manifestants que lors des précédents rassemblements.",
-    "categories": [
-      "Économie"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "La Tribune",
-    "titre": "BCE : qui sont les deux candidats en lice pour remplacer Christine Lagarde ?",
-    "lien": "https://www.latribune.fr/article/banques-finance/1061172736547/bce-qui-sont-les-deux-candidats-en-lice-pour-remplacer-christine-lagarde",
-    "date": "2026-11-08",
-    "resume": "Klaas Knot et Pablo Hernandez de Cos sont les deux candidats officiellement désignés pour prendre la succession de Christine Lagarde à la tête de la Banque centrale européenne. Le nom de l’heureux élu pourrait être connu en décembre.",
-    "categories": [
-      "Finance"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Jordi Wild, le youtubeur espagnol au cœur de la campagne législative",
-    "lien": "https://www.courrierinternational.com/stories/portrait-jordi-wild-le-youtubeur-espagnol-au-c-ur-de-la-campagne-legislative_283483",
-    "date": "2026-11-08",
-    "resume": "Personnalité parmi les plus suivies de l’Internet espagnol, le Catalan Jordi Carrillo, dit “Jordi Wild”, doit recevoir à son micro les principaux candidats des élections législatives du 29 novembre. La presse locale revient sur son parcours.",
-    "categories": [
-      "Portrait"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Partout dans le monde, l’accès au logement est au cœur d’une “nouvelle lutte des classes”",
-    "lien": "https://www.courrierinternational.com/long-format/analyse-partout-dans-le-monde-l-acces-au-logement-est-au-c-ur-d-une-nouvelle-lutte-des-classes_280603",
-    "date": "2026-11-08",
-    "resume": "À New York, Madrid ou encore Berlin, des politiques de gauche accèdent au pouvoir en promettant davantage de logements abordables et de justice sociale. Le journal conservateur suisse “Neue Zürcher Zeitung” s’est penché sur leurs méthodes pour reconquérir l’espace urbain… et les électeurs.",
-    "categories": [
-      "Analyse"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Si elle veut reconquérir le marché du gaz européen, la Russie doit agir vite",
-    "lien": "https://www.courrierinternational.com/article/vu-de-moscou-si-elle-veut-reconquerir-le-marche-du-gaz-europeen-la-russie-doit-agir-vite_285275",
-    "date": "2026-11-08",
-    "resume": "Dans un contexte de reprise des négociations sur l’issue de la guerre en Ukraine, l’État russe n’exclut pas le redémarrage des livraisons de gaz vers l’Europe. Une déclaration d’intention qui se distingue des appels répétés à privilégier d’autres partenaires économiques, en particulier en Asie. Selon le magazine russe “Monocle”, le pays peut difficilement se passer du marché européen, et il est urgent pour Moscou d’y retrouver sa place.",
-    "categories": [
-      "Vu de Moscou"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Les plantes assainissent-elles nos intérieurs ?",
-    "lien": "https://www.courrierinternational.com/article/vrai-ou-faux-les-plantes-assainissent-elles-nos-interieurs_278325",
-    "date": "2026-11-08",
-    "resume": "Dans sa rubrique “Est-il vrai que… ? ”, le quotidien britannique “The Guardian” tente de répondre aux questions que l’on s’est toutes et tous déjà posées. Cette semaine, le journal explique pourquoi l’aération des pièces compte plus que nos plantes vertes.",
-    "categories": [
-      "Vrai ou faux"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Vainqueur de la Route du Rhum, Tom Laperche a rejoint “le paradis des marins solitaires”",
-    "lien": "https://www.courrierinternational.com/article/voile-vainqueur-de-la-route-du-rhum-tom-laperche-a-rejoint-le-paradis-des-marins-solitaires_285783",
-    "date": "2026-11-08",
-    "resume": "Âgé de 29 ans, le Breton a remporté la célèbre course transatlantique, qu’il a bouclée en un temps record à bord de son trimaran SVR-Lazartigue, samedi 7 novembre, à l’arrivée en Guadeloupe. La presse étrangère applaudit ce “petit prodige”.",
-    "categories": [
-      "Voile"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "La Charte africaine pour la famille, un grand bond en arrière",
-    "lien": "https://www.courrierinternational.com/article/tribune-la-charte-africaine-pour-la-famille-un-grand-bond-en-arriere_266809",
-    "date": "2026-11-08",
-    "resume": "La charte adoptée en juin dernier, entend contrer un colonialisme occidental qui imposerait sa vision au détriment des valeurs africaines. Pourtant, note Hilmelda Tenkeu dans “Africa Is a Country”, ce texte a été élaboré avec l’aide de la droite chrétienne américaine. La féministe camerounaise pointe également l’ambiguïté de cette charte, qui mêle aspirations progressistes panafricaines et conservatisme sociétal.",
-    "categories": [
-      "Tribune"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "En Pologne, après l’attentat de Cracovie, “plus rien ne sera comme avant”",
-    "lien": "https://www.courrierinternational.com/article/terrorisme-en-pologne-apres-l-attentat-de-cracovie-plus-rien-ne-sera-comme-avant_285750",
-    "date": "2026-11-08",
-    "resume": "Après la fusillade qui a fait six morts et quinze blessés sur la grande place de Cracovie, les médias en Pologne estiment qu’une page se tourne dans ce pays épargné par le terrorisme au XXIᵉ siècle.",
-    "categories": [
-      "Terrorisme"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "L’IA devient si forte en maths qu’elle ébranle les règles de la cryptographie",
-    "lien": "https://www.courrierinternational.com/article/tech-l-ia-devient-si-forte-en-maths-qu-elle-ebranle-les-regles-de-la-cryptographie_282715",
-    "date": "2026-11-08",
-    "resume": "Régulateurs et spécialistes s’inquiètent des récentes avancées des modèles d’intelligence artificielle en mathématiques. Les IA sont-elles suffisamment puissantes pour démonter les techniques cryptographiques qui protègent les informations les plus sensibles en ligne, s’interroge le “Financial Times”.",
-    "categories": [
-      "Tech"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "“Sauve-qui-peut” : en Tunisie, la fuite des cerveaux concerne aussi les artistes",
-    "lien": "https://www.courrierinternational.com/article/societe-sauve-qui-peut-en-tunisie-la-fuite-des-cerveaux-concerne-aussi-les-artistes_282191",
-    "date": "2026-11-08",
-    "resume": "Précarité matérielle, infrastructures en ruine et climat politique hostile : face à un système qui les étouffe, danseurs, comédiens, musiciens et techniciens choisissent de partir. Un exil silencieux qui vide la scène tunisienne de ses artistes, rapporte le média indépendant tunisien “Nawaat”.",
-    "categories": [
-      "Société"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Faut-il s’intéresser au travail de nos amis, surtout quand on ne le cautionne pas ?",
-    "lien": "https://www.courrierinternational.com/article/societe-faut-il-s-interesser-au-travail-de-nos-amis-surtout-quand-on-ne-le-cautionne-pas_284121",
-    "date": "2026-11-08",
-    "resume": "Un jardin secret résiste souvent à nos amitiés les plus intimes : le monde du travail. Que font nos amis toute la journée, précisément ? Et que faire si leurs missions, ou les entreprises qui les embauchent, entrent en contradiction avec nos valeurs morales ? Quelques réflexions à ce sujet dans la presse étrangère.",
-    "categories": [
-      "Société"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Café, bistrot ou brasserie : le dédale de la restauration française expliqué aux Britanniques",
-    "lien": "https://www.courrierinternational.com/article/societe-cafe-bistrot-ou-brasserie-le-dedale-de-la-restauration-francaise-explique-aux-britanniques_265686",
-    "date": "2026-11-08",
-    "resume": "Qu’il s’agisse de savoir comment s’habiller ou quoi commander, les restaurants français peuvent receler quelques pièges pour les clients non initiés, observe ce journaliste britannique et francophile. Dans le “Daily Telegraph”, il propose un petit guide des établissements de restauration à la française.",
-    "categories": [
-      "Société"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Pourquoi les jeunes manifestants émerveillent une journaliste espagnole",
-    "lien": "https://www.courrierinternational.com/article/sacres-francais-pourquoi-les-jeunes-manifestants-emerveillent-une-journaliste-espagnole_285502",
-    "date": "2026-11-08",
-    "resume": "Cette semaine, dans notre newsletter consacrée à ce que la presse étrangère écrit de meilleur et de pire sur l’Hexagone : moins abrutis qu’on ne le dit.",
-    "categories": [
-      "Sacrés Français"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "“Finie la complaisance” : avec les partisans du PiS autour du Tribunal constitutionnel polonais",
-    "lien": "https://www.courrierinternational.com/article/reportage-finie-la-complaisance-avec-les-partisans-du-pis-autour-du-tribunal-constitutionnel-polonais_285464",
-    "date": "2026-11-08",
-    "resume": "Depuis plusieurs semaines, des sympathisants du président nationaliste Karol Nawrocki campent devant le Tribunal constitutionnel, qu’ils estiment menacé par le gouvernement de Donald Tusk. Le week-end dernier, des échauffourées ont éclaté. Quelques jours plus tard, le journal libéral “Gazeta Wyborcza” est retourné sur place.",
-    "categories": [
-      "Reportage"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Trump propose à Dana White, l’influent patron de l’UFC, de devenir le porte-parole de la Maison Blanche",
-    "lien": "https://www.courrierinternational.com/article/politique-trump-propose-a-dana-white-l-influent-patron-de-l-ufc-de-devenir-le-porte-parole-de-la-maison-blanche_285684",
-    "date": "2026-11-08",
-    "resume": "Le président américain et le boss de la plus grande organisation internationale de MMA (arts martiaux mixtes) se côtoient depuis plus de vingt ans. White a été un soutien de poids dans le parcours politique de Trump, rappelle la presse aux États-Unis.",
-    "categories": [
-      "Politique"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Ode à Shakira, “le visage d’un monde inévitable”",
-    "lien": "https://www.courrierinternational.com/article/opinion-ode-a-shakira-le-visage-d-un-monde-inevitable_283110",
-    "date": "2026-11-08",
-    "resume": "Durant un mois, une véritable cité provisoire a été construite à Madrid pour accueillir les 13 derniers concerts de la tournée européenne de Shakira, “Las mujeres ya no lloran”. Elle a été baptisée Macondo Park, en hommage à “Cent ans de solitude” de Gabriel García Márquez. De quoi rappeler l’admiration mutuelle que se vouaient l’écrivain colombien et la star de la pop, pour laquelle ce chroniqueur d’“El País América” ne tarit pas d’éloges.",
-    "categories": [
-      "Opinion"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Après le massacre de ses espaces verts, peut-on encore verdir Le Caire ?",
-    "lien": "https://www.courrierinternational.com/article/opinion-apres-le-massacre-de-ses-espaces-verts-peut-on-encore-verdir-le-caire_277302",
-    "date": "2026-11-08",
-    "resume": "Le président Abdel Fattah Al-Sissi affiche sa volonté de “verdir” la capitale égyptienne. Mais ce projet ne doit pas faire oublier que les autorités ont conduit pendant des années une politique de destruction des espaces verts pour construire des routes et des lieux de consommation, rappelle cette journaliste et militante sur le site “Daraj”.",
-    "categories": [
-      "Opinion"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "En Arabie saoudite, le quartier d’affaires de Riyad ciblé, une tour du géant Aramco “endommagée”",
-    "lien": "https://www.courrierinternational.com/article/moyen-orient-en-arabie-saoudite-le-quartier-d-affaires-de-riyad-cible-une-tour-du-geant-aramco-endommagee_285717",
-    "date": "2026-11-08",
-    "resume": "Une attaque survenue à Riyad, dimanche 8 novembre, a causé des dégâts matériels, sans faire de victimes, rapporte la presse étrangère. Elle s’inscrit dans un contexte d’intensification des frappes menées par les rebelles du Yémen contre des infrastructures saoudiennes.",
-    "categories": [
-      "Moyen-Orient"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Le jour où j’ai dû faire atterrir un avion en catastrophe",
-    "lien": "https://www.courrierinternational.com/article/modern-love-le-jour-ou-j-ai-du-faire-atterrir-un-avion-en-catastrophe_281497",
-    "date": "2026-11-08",
-    "resume": "Chaque semaine, la chronique phénomène du “New York Times” sur l’amour vous est proposée en exclusivité, traduite en français par “Courrier international”. Ce dimanche, le récit d’une femme traumatisée par un voyage en avion avec son mari pendant lequel rien ne s’est passé comme prévu.",
-    "categories": [
-      "Modern Love"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Nomades numériques : où NE PAS partir",
-    "lien": "https://www.courrierinternational.com/article/destinations-nomades-numeriques-ou-ne-pas-partir_280102",
-    "date": "2026-11-08",
-    "resume": "Visas, fiscalité, banque, santé… Une étude de Holafly, relayée par “Time Out” et “Travel Noire”, classe les destinations où les travailleurs itinérants se heurtent aux plus grands obstacles. À l’inverse, la Géorgie, elle, tire son épingle du jeu.",
-    "categories": [
-      "Destinations"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Courrier international",
-    "titre": "Lettre d’amour au média indépendant “Mada Masr”, menacé de fermeture en Égypte",
-    "lien": "https://www.courrierinternational.com/article/billet-lettre-d-amour-au-media-independant-mada-masr-menace-de-fermeture-en-egypte_284870",
-    "date": "2026-11-08",
-    "resume": "Fin octobre, un tribunal du Caire a ordonné la fermeture de “Mada Masr”, le principal média indépendant égyptien. Fondé en 2013, le site est dans le viseur du pouvoir d’Abdel Fattah Al-Sissi depuis ses débuts. Le média libanais “Megaphone”, héritier de la vague de publications indépendantes qui a accompagné le “printemps arabe”, lui adresse un vibrant message de soutien.",
-    "categories": [
-      "Billet"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Challenges",
-    "titre": "« Ne cherche pas à me plaire » : les conseils des experts pour transformer ChatGPT en véritable coach de carrière et négocier une meilleure rémunération",
-    "lien": "https://www.challenges.fr/vie-de-lentreprise/ne-cherche-pas-a-me-plaire-les-conseils-des-experts-pour-transformer-chatgpt-en-veritable-coach-de-carriere-et-negocier-une-meilleure-remuneration_646814",
-    "date": "2026-11-08",
-    "resume": "Dopés à l’intelligence artificielle, des outils et des applications permettent de simuler des entretiens et de bâtir un argumentaire solide pour convaincre managers et recruteurs. Notre guide pour une utilisation efficace.",
-    "categories": [
-      "Vie de l'entreprise"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Challenges",
-    "titre": "« La tour Aramco a été prise pour cible, c’est sûr » : le quartier financier de Riyad frappé, nouvelle escalade dans le conflit avec le Yémen",
-    "lien": "https://www.challenges.fr/monde/la-tour-aramco-a-ete-prise-pour-cible-cest-sur-le-quartier-financier-de-riyad-frappe-nouvelle-escalade-dans-le-conflit-avec-le-yemen_646902",
-    "date": "2026-11-08",
-    "resume": "Le quartier financier de Riyad a été touché dimanche et un bâtiment du géant Aramco endommagé, après que la coalition dirigée par l’Arabie saoudite a dit avoir intercepté des missiles lancés par les Houthis du Yémen.",
-    "categories": [
-      "Monde"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Challenges",
-    "titre": "Donald Trump voulait faire plier le Canada : comment Mark Carney résiste et accélère l’émancipation économique de son pays",
-    "lien": "https://www.challenges.fr/monde/donald-trump-voulait-faire-plier-le-canada-comment-mark-carney-resiste-et-accelere-lemancipation-economique-de-son-pays_646846",
-    "date": "2026-11-08",
-    "resume": "En répondant aux intimidations de Donald Trump par des mesures pragmatiques et de nouvelles alliances, Mark Carney prouve qu’il est possible d’agir face à un géant hégémonique.",
-    "categories": [
-      "Monde"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Challenges",
-    "titre": "Recherche médicale : au cœur de la stratégie de l’Institut Curie pour transformer ses innovations en traitement utiles aux patients",
-    "lien": "https://www.challenges.fr/entreprise/sante/recherche-medicale-au-coeur-de-la-strategie-de-linstitut-curie-pour-transformer-ses-innovations-en-traitement-utiles-aux-patients_646871",
-    "date": "2026-11-08",
-    "resume": "PODCAST – A l’Institut Curie, Amaury Martin veut accélérer le passage des découvertes scientifiques vers les patients. Pour y parvenir, il entend mieux articuler financements, brevets et création de start-up. Il est l’invité de DeepTechs, le podcast de Challenges réalisé en partenariat avec Mascaret.",
-    "categories": [
-      "Santé"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Challenges",
-    "titre": "« Nous avons été biberonnés à l’anime » : Crunchyroll, l’animation japonaise qui essaime auprès de la Gen Z française",
-    "lien": "https://www.challenges.fr/entreprise/medias/nous-avons-ete-biberonnes-a-lanime-crunchyroll-lanimation-japonaise-qui-essaime-aupres-de-la-gen-z-francaise_646904",
-    "date": "2026-11-08",
-    "resume": "Crunchyroll est la plateforme de dessins animés japonais leader dans le monde. En France, deuxième patrie du manga, souvent sa matière première, elle rencontre aussi un franc succès auprès de la Gen Z, mais pas que.",
-    "categories": [
-      "Médias"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Challenges",
-    "titre": "Hausse du Smic : « Je ne proposerai pas de mesure qui nuirait à l’emploi », déclare Jean-Pierre Farandou, ministre du Travail",
-    "lien": "https://www.challenges.fr/economie/hausse-du-smic-je-ne-proposerai-pas-de-mesure-qui-nuirait-a-lemploi-declare-jean-pierre-farandou-ministre-du-travail_646903",
-    "date": "2026-11-08",
-    "resume": "Interrogé par la Tribune dimanche le 8 novembre, le ministre du Travail Jean-Pierre Farandou a évoqué la possibilité d’une hausse du Smic « dès le 1er décembre ». Une mesure qui sera discutée dès lundi matin avec le Premier ministre et les syndicats.",
-    "categories": [
-      "Économie"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Challenges",
-    "titre": "L’avenir de la voiture sera électrique : comment la France peut réussir une transition devenue inévitable",
-    "lien": "https://www.challenges.fr/automobile/lavenir-de-la-voiture-sera-electrique-comment-la-france-peut-reussir-une-transition-devenue-inevitable_646844",
-    "date": "2026-11-08",
-    "resume": "Marc Ferracci, ancien ministre de l’Industrie et de l’Énergie, et Aurélien de Meaux, cofondateur d’Electra, sont convaincus que l’électrification est inéluctable. Leurs avis divergent néanmoins sur la stratégie. Rencontre.",
-    "categories": [
-      "Automobile"
-    ]
-  },
-  {
-    "categorie": "news",
-    "source": "Challenges",
-    "titre": "Épargne salariale : de la Société générale à Eiffage, découvrez les recettes des champions du partage de la valeur",
-    "lien": "https://www.challenges.fr/argent-et-placements/epargne-salariale-de-la-societe-generale-a-eiffage-decouvrez-les-recettes-des-champions-du-partage-de-la-valeur_646840",
-    "date": "2026-11-08",
-    "resume": "De la banque au BTP, de grands groupes ont fait des mécanismes de partage salarial une politique intégrée. Avec des recettes qui diffèrent mais qui ont en commun une même constance.",
-    "categories": [
-      "Argent et Placements"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "L'Agefi",
-    "titre": "Le secteur aérien européen sera contraint de relever à nouveau ses tarifs",
-    "lien": "https://www.agefi.fr/news/entreprises/le-secteur-aerien-europeen-sera-contraint-de-relever-a-nouveau-ses-tarifs",
-    "date": "2026-11-08",
-    "resume": "La hausse attendue des factures de carburant en 2027 ne pourra être intégralement compensée par de nouvelles économies de coûts.",
-    "categories": [
-      "Entreprises"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "L'Agefi",
-    "titre": "Casino de Cannes va pouvoir sortir de la cote",
-    "lien": "https://www.agefi.fr/news/entreprises/casino-de-cannes-va-pouvoir-sortir-de-la-cote",
-    "date": "2026-11-08",
-    "resume": "L’Autorité des marchés financiers vient d’accorder son feu vert à l’offre publique de retrait de SPD (famille Barrière) sur les actions Société fermière du casino municipal de Cannes (SFCMC).",
-    "categories": [
-      "Entreprises"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "L'Agefi",
-    "titre": "L’OCDE milite pour une amélioration des infrastructures détruites lors de catastrophes",
-    "lien": "https://www.agefi.fr/news/economie-marches/locde-milite-pour-une-amelioration-des-infrastructures-detruites-lors-de-catastrophes",
-    "date": "2026-11-08",
-    "resume": "Face aux catastrophes naturelles qui détruisent régulièrement les infrastructures, l’OCDE encourage les gouvernements et les acteurs privés à investir dans la reconstruction de façon à renforcer leur qualité et leur résilience.",
-    "categories": [
-      "Economie & Marchés"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "L'Agefi",
-    "titre": "«Les taux sont déjà plutôt restrictifs en zone euro et notamment en France»",
-    "lien": "https://www.agefi.fr/news/economie-marches/les-taux-sont-deja-plutot-restrictifs-en-zone-euro-et-notamment-en-france",
-    "date": "2026-11-08",
-    "resume": "Marc Brütsch, chef économiste de Swiss Life AM.",
-    "categories": [
-      "Economie & Marchés"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "L'Agefi",
-    "titre": "Les Etats-Unis présentent un très bon rapport sur l’emploi",
-    "lien": "https://www.agefi.fr/news/economie-marches/les-etats-unis-presentent-un-tres-bon-rapport-sur-lemploi",
-    "date": "2026-11-08",
-    "resume": "Les nouvelles créations d’emplois nettes sont apparues spectaculaires sur un mois, en octobre (+165.000), réduisant aussi le chômage de 4,2% à 4,1%. Mais le marché du travail américain reste assez figé, laissant peu de place à de fortes augmentations sur les salaires. Ce qui ne change pas grand-chose aux prévisions de hausses de taux modérées du côté de la Fed.",
-    "categories": [
-      "Economie & Marchés"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "L'Agefi",
-    "titre": "Le risque politique sur la tech tétanise Wall Street",
-    "lien": "https://www.agefi.fr/news/economie-marches/le-risque-politique-sur-la-tech-tetanise-wall-street",
-    "date": "2026-11-08",
-    "resume": "Les actions américaines, notamment liées à l’IA, ont légèrement rebondi vendredi mais après une des pires chutes des valeurs technologiques la veille. Les investisseurs se veulent prudents malgré la baisse des valorisations. Les risques sont encore trop élevés.",
-    "categories": [
-      "Economie & Marchés"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "L'Agefi",
-    "titre": "« La hausse des bénéfices du S&P 500 devrait surtout compenser des valorisations exigeantes »",
-    "lien": "https://www.agefi.fr/news/economie-marches/la-hausse-des-benefices-du-s-p-500-devrait-surtout-compenser-des-valorisations-exigeantes",
-    "date": "2026-11-08",
-    "resume": "François Dossou, directeur de la Gestion Actions Listed Assets chez Sienna.",
-    "categories": [
-      "Economie & Marchés"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "L'Agefi",
-    "titre": "«Désescalade géopolitique et rééquilibrage des trajectoires monétaires vont devenir moins défavorables à l’euro»",
-    "lien": "https://www.agefi.fr/news/economie-marches/desescalade-geopolitique-et-reequilibrage-des-trajectoires-monetaires-vont-devenir-moins-defavorables-a-leuro",
-    "date": "2026-11-08",
-    "resume": "Corentin Ponton, responsable de prévision à la Direction des études économiques de La Banque Postale.",
-    "categories": [
-      "Economie & Marchés"
-    ]
-  },
-  {
-    "categorie": "finance",
-    "source": "L'Agefi",
-    "titre": "Berkshire Hathaway accélère ses rachats d’actions malgré un trimestre médiocre",
-    "lien": "https://www.agefi.fr/news/banque-assurance/berkshire-hathaway-accelere-ses-rachats-dactions-malgre-un-trimestre-mediocre",
-    "date": "2026-11-08",
-    "resume": "La baisse des résultats du conglomérat américain provient en grande partie de la contre-performance de ses activités d’assurance et de réassurance.",
-    "categories": [
-      "Banque & Assurance"
     ]
   }
 ]
