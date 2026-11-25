@@ -1,108 +1,42 @@
 {
-  "mis_a_jour": "2026-11-23T04:40:07",
-  "date_cible": "2026-11-19",
-  "date_recherche_initiale": "2026-11-22",
-  "total": 9,
+  "mis_a_jour": "2026-11-25T06:22:36",
+  "date_cible": "2026-11-24",
+  "date_recherche_initiale": "2026-11-24",
+  "total": 3,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
     {
-      "id": "6afed34d6c2e177812e431cc",
-      "date": "2026-11-19",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "23-21.437",
-      "solution": "Rejet",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "Il résulte des articles 155 et 496, alinéa 2, du code de procédure civile que si le premier de ces textes donne pouvoir au juge qui a ordonné une mesure d'instruction d'en contrôler l'exécution, il ne donne pas un tel pouvoir au juge saisi d'une demande de rétractation d'une ordonnance ayant autorisé, sur requête, une telle mesure sur le fondement de l'article 145 du code de procédure civile. Le juge de la rétractation ne peut, dès lors, pas se prononcer sur des irrégularités invoquées, qui auraient été commises à l'occasion de l'exécution de cette mesure",
-      "url": "https://www.courdecassation.fr/decision/6afed34d6c2e177812e431cc"
-    },
-    {
-      "id": "6afed3466c2e177812e430b7",
-      "date": "2026-11-19",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "24-10.115",
-      "solution": "Rejet",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6afed3466c2e177812e430b7"
-    },
-    {
-      "id": "6afed3436c2e177812e43040",
-      "date": "2026-11-19",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "23-23.878",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "La demande d'augmentation de la mise à prix ne peut être présentée, en application de l'article R. 311-5 du code des procédures civiles d'exécution, qu'à l'audience d'orientation. Par conséquent, une cour d'appel doit prononcer d'office l'irrecevabilité d'une telle demande présentée pour la première fois devant elle",
-      "url": "https://www.courdecassation.fr/decision/6afed3436c2e177812e43040"
-    },
-    {
-      "id": "6afed33c6c2e177812e42f30",
-      "date": "2026-11-19",
-      "chambre": "Troisième chambre civile",
+      "id": "6b05604c6c2e17781213bf72",
+      "date": "2026-11-24",
+      "chambre": "Chambre criminelle",
       "formation": "Formation de section",
-      "numero": "25-17.523",
+      "numero": "25-83.105",
       "solution": "Rejet",
       "publication": "Publié au Bulletin",
-      "sommaire": "Ni la remise, lors de la conclusion du bail commercial, ni l'annexion, à ce bail, du diagnostic de performance énergétique prévu par l'article L. 134-1 code de la construction et de l'habitation ou de l'inventaire des catégories de charges, impôts, taxes et redevances et de l'état prévisionnel des travaux prévus par L. 145-40-2 du code de commerce, ne constituent une condition de validité du contrat. Dès lors qu'en application des articles 1130 et 1132 du code civil, seule l'erreur commise sur une qualité substantielle de la prestation est de nature à vicier le consentement du co-contractant, le défaut d'annexion ou de remise de ces documents ne caractérise pas en lui-même une erreur, le dem",
-      "url": "https://www.courdecassation.fr/decision/6afed33c6c2e177812e42f30"
+      "sommaire": "La personne poursuivie pour le délit de contestation de l'existence de crime contre l'humanité prévu à l'article 24 bis de la loi du 29 juillet 1881 sur la liberté de la presse peut invoquer le moyen pris d'une atteinte disproportionnée à l'exercice de sa liberté d'expression telle que garantie par l'article 10 de la Convention de sauvegarde des droits de l'homme et des libertés fondamentales",
+      "url": "https://www.courdecassation.fr/decision/6b05604c6c2e17781213bf72"
     },
     {
-      "id": "6afed3316c2e177812e42d1e",
-      "date": "2026-11-19",
-      "chambre": "Troisième chambre civile",
+      "id": "6b0560486c2e17781213bf3f",
+      "date": "2026-11-24",
+      "chambre": "Chambre criminelle",
       "formation": "Formation de section",
-      "numero": "25-86.289",
-      "solution": "Avis",
+      "numero": "25-86.272",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Aucune disposition du code de procédure pénale n'interdit à la partie qui a exercé son recours dans des conditions irrégulières de le réitérer dans les formes légales avant l'expiration du délai qui lui est imparti et ce, même si une juridiction a constaté l'irrecevabilité du premier recours irrégulièrement formé. Encourt la cassation l'arrêt qui déclare irrecevables les appels formés par les parties civiles au seul motif qu'une précédente décision a déjà déclaré non admis comme tardifs les appels de ces mêmes parties civiles",
+      "url": "https://www.courdecassation.fr/decision/6b0560486c2e17781213bf3f"
+    },
+    {
+      "id": "6b0560176c2e17781213b8b4",
+      "date": "2026-11-24",
+      "chambre": "Chambre criminelle",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "26-81.683",
+      "solution": "Cassation",
       "publication": "Publié au Bulletin",
       "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6afed3316c2e177812e42d1e"
-    },
-    {
-      "id": "6afed3496c2e177812e4312e",
-      "date": "2026-11-19",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "23-23.089",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6afed3496c2e177812e4312e"
-    },
-    {
-      "id": "6afed33f6c2e177812e42fb6",
-      "date": "2026-11-19",
-      "chambre": "Deuxième chambre civile",
-      "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "24-11.730",
-      "solution": "Rejet",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "Les incapacités d'enchérir sont limitativement énumérées et les articles 1er et 9 du code de déontologie des agents immobiliers, des administrateurs de biens, des syndics de copropriété et des marchands de listes annexé au décret du décret n°2015-1090 du 28 août 2015, qui posent ainsi des règles déontologiques, ne créent pas d'incapacité d'enchérir. Il en résulte qu'aucune incapacité d'enchérir ou de surenchérir n'est attachée aux fonctions de syndic de la copropriété dans laquelle se trouve l'immeuble vendu",
-      "url": "https://www.courdecassation.fr/decision/6afed33f6c2e177812e42fb6"
-    },
-    {
-      "id": "6afed3396c2e177812e42e8d",
-      "date": "2026-11-19",
-      "chambre": "Troisième chambre civile",
-      "formation": "Formation de section",
-      "numero": "25-17.245",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin",
-      "sommaire": "La valeur locative, déterminée notamment au regard des prix couramment pratiqués dans le voisinage en considération des critères mentionnés aux articles R. 145-3 à R. 145-6 du code de commerce, doit être minorée par le juge selon la méthode qui lui paraît la plus appropriée, lorsque le bail renouvelé transfère au locataire des charges exorbitantes sans contrepartie, quand bien même des charges exorbitantes seraient transférées au locataire dans les baux de comparaison",
-      "url": "https://www.courdecassation.fr/decision/6afed3396c2e177812e42e8d"
-    },
-    {
-      "id": "6afed3356c2e177812e42dd1",
-      "date": "2026-11-19",
-      "chambre": "Troisième chambre civile",
-      "formation": "Formation de section",
-      "numero": "25-17.299",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin",
-      "sommaire": "Le bailleur qui a délivré au locataire, à l'expiration d'une période triennale, un congé pour reprise sur le fondement des dispositions de l'article L. 145-18 du code de commerce motivé par un projet de destruction et reconstruction de l'immeuble loué ne peut, en cours d'instance, modifier les motifs invoqués dans le congé pour leur substituer des motifs relatifs à la dangerosité de l'immeuble fondés sur l'article L. 145-17, I, 2°, lesquels ne peuvent fonder qu'un congé avec refus de renouvellement à l'issue de la durée contractuelle du bail",
-      "url": "https://www.courdecassation.fr/decision/6afed3356c2e177812e42dd1"
+      "url": "https://www.courdecassation.fr/decision/6b0560176c2e17781213b8b4"
     }
   ]
 }
