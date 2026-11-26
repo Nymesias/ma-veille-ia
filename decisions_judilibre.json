@@ -1,42 +1,119 @@
 {
-  "mis_a_jour": "2026-11-25T06:22:36",
-  "date_cible": "2026-11-24",
-  "date_recherche_initiale": "2026-11-24",
-  "total": 3,
+  "mis_a_jour": "2026-11-26T05:53:58",
+  "date_cible": "2026-11-25",
+  "date_recherche_initiale": "2026-11-25",
+  "total": 10,
   "source": "https://www.courdecassation.fr/recherche-judilibre",
   "decisions": [
     {
-      "id": "6b05604c6c2e17781213bf72",
-      "date": "2026-11-24",
-      "chambre": "Chambre criminelle",
+      "id": "6b06af2f6c2e1778121e546a",
+      "date": "2026-11-25",
+      "chambre": "Chambre commerciale financière et économique",
       "formation": "Formation de section",
-      "numero": "25-83.105",
+      "numero": "25-16.746",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Il résulte de l'article 2 du code civil que les lois nouvelles régissant la preuve des actes juridiques s'appliquent dès leur entrée en vigueur. Il en est ainsi de l'article 1379 du code civil, dans sa rédaction issue de l'ordonnance du 10 février 2016, dont les dispositions transitoires, limitées aux dispositions régissant les contrats, ne dérogent pas à cette règle. Dès lors, une cour d'appel a pu juger rapportée la preuve de cautionnements, au vu de la production de copies d'actes, en fondant sa décision sur les dispositions de l'article 1379 du code civil, dans sa rédaction précitée, qui prévoit que la copie fiable a la même force probante que l'original et que la fiabilité est laissée à",
+      "url": "https://www.courdecassation.fr/decision/6b06af2f6c2e1778121e546a"
+    },
+    {
+      "id": "6b06af2c6c2e1778121e5454",
+      "date": "2026-11-25",
+      "chambre": "Chambre commerciale financière et économique",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-18.777",
       "solution": "Rejet",
       "publication": "Publié au Bulletin",
-      "sommaire": "La personne poursuivie pour le délit de contestation de l'existence de crime contre l'humanité prévu à l'article 24 bis de la loi du 29 juillet 1881 sur la liberté de la presse peut invoquer le moyen pris d'une atteinte disproportionnée à l'exercice de sa liberté d'expression telle que garantie par l'article 10 de la Convention de sauvegarde des droits de l'homme et des libertés fondamentales",
-      "url": "https://www.courdecassation.fr/decision/6b05604c6c2e17781213bf72"
+      "sommaire": "L'arrêt qui relève que le directeur général d'une société par actions simplifiée, nommé par l'assemblée générale des associés, est investi par les statuts de la société des mêmes pouvoirs que son président, dont celui de la représenter, et que les formalités de publication des statuts au registre du commerce et des sociétés ont été effectuées, en déduit exactement que l'assignation délivrée au nom de la société représentée par son directeur général postérieurement à la démission de son président, lequel n'avait pas été remplacé, est régulière",
+      "url": "https://www.courdecassation.fr/decision/6b06af2c6c2e1778121e5454"
     },
     {
-      "id": "6b0560486c2e17781213bf3f",
-      "date": "2026-11-24",
-      "chambre": "Chambre criminelle",
-      "formation": "Formation de section",
-      "numero": "25-86.272",
-      "solution": "Cassation",
-      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
-      "sommaire": "Aucune disposition du code de procédure pénale n'interdit à la partie qui a exercé son recours dans des conditions irrégulières de le réitérer dans les formes légales avant l'expiration du délai qui lui est imparti et ce, même si une juridiction a constaté l'irrecevabilité du premier recours irrégulièrement formé. Encourt la cassation l'arrêt qui déclare irrecevables les appels formés par les parties civiles au seul motif qu'une précédente décision a déjà déclaré non admis comme tardifs les appels de ces mêmes parties civiles",
-      "url": "https://www.courdecassation.fr/decision/6b0560486c2e17781213bf3f"
-    },
-    {
-      "id": "6b0560176c2e17781213b8b4",
-      "date": "2026-11-24",
-      "chambre": "Chambre criminelle",
+      "id": "6b06af266c2e1778121e541d",
+      "date": "2026-11-25",
+      "chambre": "Chambre sociale",
       "formation": "Formation restreinte hors RNSM/NA",
-      "numero": "26-81.683",
+      "numero": "24-20.975",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6b06af266c2e1778121e541d"
+    },
+    {
+      "id": "6b06af1e6c2e1778121e53c4",
+      "date": "2026-11-25",
+      "chambre": "Chambre sociale",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "24-22.213",
       "solution": "Cassation",
       "publication": "Publié au Bulletin",
       "sommaire": "",
-      "url": "https://www.courdecassation.fr/decision/6b0560176c2e17781213b8b4"
+      "url": "https://www.courdecassation.fr/decision/6b06af1e6c2e1778121e53c4"
+    },
+    {
+      "id": "6b06af216c2e1778121e53f9",
+      "date": "2026-11-25",
+      "chambre": "Chambre sociale",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-16.124",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "L'indemnisation prévue par l'article L. 2422-4 du code du travail en cas d'annulation de l'autorisation de licenciement, par le ministre du travail, sur recours hiérarchique, ou par le juge administratif, n'est due que lorsque l'annulation de la décision d'autorisation est devenue définitive. Il en résulte que le délai de prescription de l'action au titre de cette indemnisation ne court qu'à compter de cette date. Il résulte de l'article L. 1471-1 du code du travail que le délai de prescription de l'action en contestation d'un licenciement court à compter de la notification de celui-ci, hors le cas des salariés dont le licenciement est soumis à une autorisation de l'administration du travail",
+      "url": "https://www.courdecassation.fr/decision/6b06af216c2e1778121e53f9"
+    },
+    {
+      "id": "6b06af336c2e1778121e547e",
+      "date": "2026-11-25",
+      "chambre": "Chambre commerciale financière et économique",
+      "formation": "Formation de section",
+      "numero": "24-15.973",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "L'obligation, pour une société, d'avoir un objet licite, tel qu'il est décrit dans l'acte de constitution ou dans les statuts, a pour finalité la protection de l'intérêt général et perdure pendant toute la vie de la personne morale. Il s'ensuit que l'action en nullité d'une société pour illicéité de cet objet n'est pas soumise à prescription",
+      "url": "https://www.courdecassation.fr/decision/6b06af336c2e1778121e547e"
+    },
+    {
+      "id": "6b06b59d6c2e1778121ea278",
+      "date": "2026-11-25",
+      "chambre": "Chambre criminelle",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-87.202",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "",
+      "url": "https://www.courdecassation.fr/decision/6b06b59d6c2e1778121ea278"
+    },
+    {
+      "id": "6b06af366c2e1778121e5497",
+      "date": "2026-11-25",
+      "chambre": "Première chambre civile",
+      "formation": "Formation de section",
+      "numero": "25-15.122",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin - Publié aux Lettres de chambre",
+      "sommaire": "Les intérêts, qui réparent, sans que le créancier ne soit tenu de justifier d'aucune perte, le préjudice résultant du seul retard dans le paiement d'une obligation contractuelle de somme d'argent, sont inhérents à la dette, de sorte qu'ils sont régis par la loi applicable à cette obligation. Une cour d'appel n'a pas à rechercher d'office, au regard de l'article 3, alinéa 2, de la Convention de La Haye du 15 juin 1955 sur la loi applicable aux ventes à caractère international d'objets mobiliers corporels, si les commandes avaient été reçues dans le pays où l'acheteur a sa résidence habituelle, ou dans lequel il possède l'établissement qui a passé la commande, lorsqu'une telle recherche ne lui",
+      "url": "https://www.courdecassation.fr/decision/6b06af366c2e1778121e5497"
+    },
+    {
+      "id": "6b06af1a6c2e1778121e537c",
+      "date": "2026-11-25",
+      "chambre": "Chambre sociale",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-19.479",
+      "solution": "Rejet",
+      "publication": "Publié au Bulletin",
+      "sommaire": "Aux termes de l'article L. 2141-5-1 du code du travail, en l'absence d'accord collectif de branche ou d'entreprise déterminant des garanties d'évolution de la rémunération des salariés mentionnés aux 1° à 7° de l'article L. 2411-1 et aux articles L. 2142-1-1 et L. 2411-2 au moins aussi favorables que celles mentionnées au présent article, ces salariés, lorsque le nombre d'heures de délégation dont ils disposent sur l'année dépasse 30 % de la durée de travail fixée dans leur contrat de travail ou, à défaut, de la durée applicable dans l'établissement, bénéficient d'une évolution de rémunération, au sens de l'article L. 3221-3, au moins égale, sur l'ensemble de la durée de leur mandat, aux aug",
+      "url": "https://www.courdecassation.fr/decision/6b06af1a6c2e1778121e537c"
+    },
+    {
+      "id": "6b06af296c2e1778121e543b",
+      "date": "2026-11-25",
+      "chambre": "Chambre sociale",
+      "formation": "Formation restreinte hors RNSM/NA",
+      "numero": "25-11.038",
+      "solution": "Cassation",
+      "publication": "Publié au Bulletin",
+      "sommaire": "Les méthodes de gestion au sein de l'entreprise qui ont pour effet une dégradation des conditions de travail d'un salarié, susceptible d'altérer sa santé physique ou mentale, caractérisent un harcèlement moral sans qu'il soit nécessaire pour celui-ci de démontrer qu'il a été personnellement visé par ce harcèlement",
+      "url": "https://www.courdecassation.fr/decision/6b06af296c2e1778121e543b"
     }
   ]
 }
