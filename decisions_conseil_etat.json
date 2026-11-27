@@ -1,7 +1,7 @@
 {
-  "mis_a_jour": "2026-11-26T05:53:58",
-  "date_cible": "2026-11-23",
-  "total": 3,
+  "mis_a_jour": "2026-11-27T05:54:58",
+  "date_cible": "2026-11-24",
+  "total": 2,
   "source": "https://opendata.justice-administrative.fr/recherche",
   "juridiction": "toutes",
   "filtres": {
@@ -15,49 +15,34 @@
   },
   "decisions": [
     {
-      "id": "DCE_505890_20261123.xml",
-      "date": "2026-11-23",
-      "numero": "505890",
-      "juridiction": "Section du Contentieux",
-      "formation": "7ème et 2ème chambres réunies",
+      "id": "DTA_2606072_20261124.xml",
+      "date": "2026-11-24",
+      "numero": "2606072",
+      "juridiction": "Tribunal Administratif de Rouen",
+      "formation": "undefined",
       "type": "Décision",
-      "ecli": "ECLI:FR:CECHR:2026:505890.20261123",
-      "publication": "Mentionné aux tables du recueil Lebon",
-      "code_publication": "B",
-      "code_juridiction": "CE",
-      "mis_en_ligne": "2026-11-24",
+      "ecli": "",
+      "publication": "Code C+",
+      "code_publication": "C+",
+      "code_juridiction": "TA76",
+      "mis_en_ligne": "2026-11-26",
       "resume": "",
-      "url": "https://opendata.justice-administrative.fr/recherche/shareFile/DCE_505890_20261123.xml_CE"
+      "url": "https://opendata.justice-administrative.fr/recherche/shareFile/DTA_2606072_20261124.xml_TA76"
     },
     {
-      "id": "DCE_504712_20261123.xml",
-      "date": "2026-11-23",
-      "numero": "504712",
-      "juridiction": "Section du Contentieux",
-      "formation": "7ème et 2ème chambres réunies",
+      "id": "DTA_2504257_20261124.xml",
+      "date": "2026-11-24",
+      "numero": "2504257",
+      "juridiction": "Tribunal Administratif de Marseille",
+      "formation": "8ème chambre",
       "type": "Décision",
-      "ecli": "ECLI:FR:CECHR:2026:504712.20261123",
-      "publication": "Mentionné aux tables du recueil Lebon",
-      "code_publication": "B",
-      "code_juridiction": "CE",
-      "mis_en_ligne": "2026-11-24",
+      "ecli": "",
+      "publication": "Code C+",
+      "code_publication": "C+",
+      "code_juridiction": "TA13",
+      "mis_en_ligne": "2026-11-26",
       "resume": "",
-      "url": "https://opendata.justice-administrative.fr/recherche/shareFile/DCE_504712_20261123.xml_CE"
-    },
-    {
-      "id": "DCE_502505_20261123.xml",
-      "date": "2026-11-23",
-      "numero": "502505",
-      "juridiction": "Section du Contentieux",
-      "formation": "7ème et 2ème chambres réunies",
-      "type": "Décision",
-      "ecli": "ECLI:FR:CECHR:2026:502505.20261123",
-      "publication": "Mentionné aux tables du recueil Lebon",
-      "code_publication": "B",
-      "code_juridiction": "CE",
-      "mis_en_ligne": "2026-11-24",
-      "resume": "",
-      "url": "https://opendata.justice-administrative.fr/recherche/shareFile/DCE_502505_20261123.xml_CE"
+      "url": "https://opendata.justice-administrative.fr/recherche/shareFile/DTA_2504257_20261124.xml_TA13"
     }
   ]
 }

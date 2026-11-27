@@ -1,0 +1,17 @@
+# Cour de cassation — 2026-11-26
+
+## Décisions notables
+
+- **Honoraires d'avocat et dessaisissement** — Deuxième chambre civile, 2026-11-26, pourvoi n° 24-16.239 (Cassation). L'honoraire de résultat ne peut être perçu après dessaisissement que si la décision irrévocable intervient au terme de la mission initialement prévue. Si la mission s'arrête avant l'obtention d'un acte ou d'une décision irrévocable, cet honoraire n'est pas dû. [Source](https://www.courdecassation.fr/decision/6b08099e6c2e1778122a7bd9)
+- **Honoraires d'avocat et conflit de lois** — Deuxième chambre civile, 2026-11-26, pourvoi n° 24-19.633 (Cassation). En présence d'un client revendiquant la qualité de consommateur, le juge de l'honoraire doit d'abord appliquer le règlement Rome I pour déterminer la loi applicable, qualifier la qualité des parties, puis statuer sur la prescription. [Source](https://www.courdecassation.fr/decision/6b0809856c2e1778122a7a7e)
+- **Office du juge et juge de l'exécution** — Deuxième chambre civile, 2026-11-26, pourvoi n° 24-19.730 (Cassation). Le juge ne peut refuser de statuer. Est censuré l'arrêt qui suspend le paiement dû par un assureur et renvoie au juge de l'exécution en l'absence de mesure d'exécution forcée engagée. [Source](https://www.courdecassation.fr/decision/6b0809926c2e1778122a7b4e)
+- **Application dans le temps du droit de l'urbanisme** — Troisième chambre civile, 2026-11-26, pourvoi n° 24-20.767 (Rejet). L'article L. 480-14 du code de l'urbanisme s'applique immédiatement aux constructions achevées antérieurement, sous réserve que l'action soit engagée dans les dix ans suivant l'achèvement. [Source](https://www.courdecassation.fr/decision/6b0809766c2e1778122a79b0)
+- **Remise en état des sites ICPE** — Troisième chambre civile, 2026-11-26, pourvoi n° 25-11.574 (Cassation). Pour les installations arrêtées avant la loi du 30 juillet 2003, la remise en état par le dernier exploitant s'apprécie au regard d'un usage futur comparable à celui de la dernière période d'exploitation. [Source](https://www.courdecassation.fr/decision/6b0809726c2e1778122a797b)
+- **Garantie des préjudices immatériels** — Troisième chambre civile, 2026-11-26, pourvoi n° 25-11.337 (Cassation). Une clause définissant le préjudice immatériel par la privation de jouissance ou la perte de bénéfice limite la garantie facultative du constructeur aux seuls préjudices se traduisant par une perte financière. [Source](https://www.courdecassation.fr/decision/6b08097a6c2e1778122a7a11)
+- **Assurance et date d'ouverture de chantier** — Troisième chambre civile, 2026-11-26, pourvoi n° 24-20.387 (Rejet). La dérogation à la date unique d'ouverture de chantier est strictement réservée aux entreprises créées postérieurement à cette date. [Source](https://www.courdecassation.fr/decision/6b08097e6c2e1778122a7a45)
+- **Procédure civile** — Deuxième chambre civile, 2026-11-26, pourvoi n° 25-10.845 (Cassation). Arrêt rendu avec publication au Bulletin et aux Lettres de chambre. [Source](https://www.courdecassation.fr/decision/6b08098f6c2e1778122a7b21)
+
+## Tendances par chambre
+
+- **Deuxième chambre civile** — Focalisation sur l'encadrement des conventions d'honoraires d'avocat, le droit international privé (règlement Rome I) et les compétences du juge de l'exécution.
+- **Troisième chambre civile** — Traitement de l'application de la loi dans le temps en urbanisme, des obligations environnementales des exploitants d'ICPE et du périmètre des garanties d'assurance construction.
